@@ -1,0 +1,74 @@
+requireQuestTurnIn: true
+questJoinMessage: '&aYou have accepted the quest $questName &a!'
+questLeaveMessage: '&cYou have abandoned the quest $questName &c!'
+questCompleteMessage: '&2You completed the quest $questName &2!'
+leaveWhenNoActiveQuestsExist: '&cYou don''t currently have an active quest!'
+questLeaveConfirmationMessage: '&cAre you sure you want to abandon your current quest?
+  Do &a/em confirm &c to confirm your choice!'
+useQuestAcceptTitles: true
+questStartTitle: '&aQuest Accepted!'
+questStartSubtitle: $questName
+useQuestCompleteTitles: true
+questCompleteTitle: '&2Quest Completed!'
+questCompleteSubtitle: $questName
+useQuestLeaveTitles: true
+questLeaveTitle: '&cQuest Abandoned!'
+questLeaveSubtitle: $questName
+doQuestChatProgression: true
+ongoingQuestColorCode: '&2'
+killQuestChatProgressionMessage: '&8[EliteMobs]&c➤Kill $name:$color$current&0/$color$target'
+fetchQuestChatProgressionMessage: '&8[EliteMobs]&c➤Get $name:$color$current&0/$color$target'
+dialogQuestChatProgressionMessage: '&8[EliteMobs]&c➤Talk to $name:$color$current&0/$color$target'
+maximumActiveQuests: 10
+questCapMessage: '&8[EliteMobs] &cYou have reached the maximum amount of active quests
+  (10)! &4Abandon or complete at least one active quest if you want to get more quests!'
+useQuestScoreboards: true
+killQuestScoreboardProgressionMessage: '&c➤Kill $name:$color$current&0/$color$target'
+fetchQuestScoreboardProgressionMessage: '&c➤Get $name:$color$current&0/$color$target'
+dialogQuestScoreboardProgressionMessage: '&c➤Talk to $name:$color$current&0/$color$target'
+questEntityTypes:
+- BLAZE
+- CAVE_SPIDER
+- DROWNED
+- ELDER_GUARDIAN
+- ENDERMAN
+- ENDERMITE
+- EVOKER
+- GHAST
+- GUARDIAN
+- HUSK
+- ILLUSIONER
+- IRON_GOLEM
+- PILLAGER
+- RAVAGER
+- SILVERFISH
+- SKELETON
+- SPIDER
+- STRAY
+- VINDICATOR
+- WITCH
+- WITHER_SKELETON
+- WOLF
+- ZOMBIE
+- HOGLIN
+- ZOGLIN
+- PIGLIN_BRUTE
+- PIGLIN
+- ZOMBIFIED_PIGLIN
+chatTrackMessage: '&8[EliteMobs]&2 Click here to track your quest!'
+chatTrackHover: '&2Click to track!'
+chatTrackCommand: /elitemobs quest track $questID
+chatTrackingMessage: '&8[EliteMobs]&9 You are now tracking a quest!'
+chatTrackingHover: '&2Click to untrack/track! /em -> Quests to track a different quest!'
+chatTrackingCommand: /elitemobs quest track $questID
+autoTrackQuestsOnAccept: true
+noQuestDestinationFound: '[EM] No quest destination found!'
+questDestinationInOtherWorld: '[EM] Go to world $world!'
+questAlreadyCompletedMessage: '&8[EliteMobs] &cYou already completed this quest!'
+questPrerequisitesMissingMessage: '&8[EliteMobs] &cCan''t accept this quest yet!'
+maxCharactersPerBookPage: 30
+lowRankDynamicQuestWarning: '&8[EliteMobs] &cYou can''t take these quests with your
+  current guild rank! Increase your guild rank to accept these quests.'
+questTurnInObjective: '&a2Talk to $npcName'
+horizontalCharacterLimitBedrockMenu: 30
+itemEntryCharacterLimitBedrockMenu: 300

@@ -1,0 +1,6 @@
+powerCooldown: 400
+globalCooldown: 100
+powerType: OFFENSIVE
+delayBetweenStrikes: 15
+isEnabled: true
+name: 闪电

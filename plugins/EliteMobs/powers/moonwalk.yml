@@ -1,0 +1,15 @@
+powerType: MISCELLANEOUS
+isEnabled: true
+name: 月步
+effect: SLIME_BLOCK
+eliteScript:
+  JumpBoost:
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - duration: 2147483647
+      action: POTION_EFFECT
+      potionEffectType: jump_boost
+      amplifier: 3
+      Target:
+        targetType: SELF

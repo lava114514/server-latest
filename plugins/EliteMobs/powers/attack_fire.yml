@@ -1,0 +1,13 @@
+powerType: OFFENSIVE
+isEnabled: true
+name: 燔祭
+effect: BLAZE_POWDER
+eliteScript:
+  SetOnFire:
+    Events:
+    - PlayerDamagedByEliteMobEvent
+    Actions:
+    - duration: 60
+      action: SET_ON_FIRE
+      Target:
+        targetType: DIRECT_TARGET

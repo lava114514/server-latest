@@ -1,0 +1,150 @@
+id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+name: Enderlava
+created: 1678458824899
+updated: 1679807104273
+last_cast: 1679806881230
+cooldown_expiration: 0
+last_death_location: -16.281144875361072,63.215840647098275,-291.2857840545827,world,-43.500946,10.199815
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  8ed7a6f9-8b0f-4bf5-bfc7-47de2dddbd7c: []
+  b8dd9de6-bce5-418b-9566-b5e1a4cc7a98: []
+  1744f3f7-ffb9-44f7-b081-9eb36e7d564f: []
+  30e40806-244e-49e4-bef6-4055cffaeb15: []
+spells:
+  spellshop:
+    cast_count: 1
+    last_cast: 1679806537612
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  arrow:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  missile:
+    cast_count: 30
+    last_cast: 1679802030722
+    last_earn: 1679802028571
+    cooldown_expiration: 1679802031722
+    charges: 0.0
+  appearanceshop:
+    cast_count: 0
+    last_cast: 1679806319114
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  progressmenu:
+    cast_count: 5
+    last_cast: 1679806536473
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  missile|2:
+    cast_count: 38
+    last_cast: 1679806878279
+    last_earn: 1679806529478
+    cooldown_expiration: 0
+    charges: 0.0
+  fireball:
+    cast_count: 4
+    last_cast: 1679806876280
+    last_earn: 1679806522424
+    cooldown_expiration: 1679806886280
+    charges: 0.0
+  controlsmenu:
+    cast_count: 0
+    last_cast: 1679806322330
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+wands:
+  wand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"飞箭"},{"italic":false,"color":"white","text":"
+          ("},{"italic":false,"color":"dark_aqua","text":"法杖"},{"italic":false,"color":"white","text":")"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"魔力法杖"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Enderlava"}'
+        - '{"text":"掌握 3 技能"}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"飞箭"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
+          "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"yellow","text":"Change
+          controls using an "},{"color":"aqua","text":"enchant table"}],"text":""}'
+        custom-model-data: 18001
+        attribute-modifiers:
+          GENERIC_ATTACK_SPEED:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 10.0
+            name: Equipment Modifier
+            slot: HAND
+            uuid: d335c054-6d3e-4320-96ec-5e7f72088640
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/0WQW2rDMBBFx7VDVDfQv66g5CsGyXb9WEDXYUbSmIookpEVh1K694q00L8ZmHO4d0qADIoz0ZKVUNzQaQY7f3MU4PHdaQoWN8zh5cNHiWEybiMXfficlL+6CIlmcEAVzUbTupC1sMMQ/I1BYZR3cFijUecvMXAuvkt4vt/8a3JgswkkMYHJlcP+YtbVWEob5H+uND4AA3aPNRkNr7znjSCiSnHdVC3pthpmHKtuHghFPaCUmIBIl8VipN9iSb5RWE1KBbBPsWmeScXUxPoAx0HU3VjXQomxOWney46QWnwbTxp76qSUba14+tbT1englwWlpQx+ADjJ0QxBAQAA
+    wand:
+      owner: Enderlava
+      hotbar_inventory_count: 1
+      active_spell: arrow
+      icon: stick{18001}
+      spell_inventory:
+        fireball: 1
+        missile: 0
+        arrow: 2
+      version: 7
+      template: wand
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+      effect_color: 81269221c193,d07b6eae4a59,da7e6bbb42c0
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data:
+  sp: 64.0
+properties:
+  version: 7
+classes:
+  caster:
+    spell_levels:
+      missile: 2
+    spells:
+    - arrow
+    - missile
+    - fireball
+  mage:
+    effect_color: cef52af28d37,e34b44b86e12,44d84fee9a2a
+    mana_timestamp: 1679807104181
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 20.552207946777344

@@ -1,0 +1,22 @@
+defaultTransitiveBlockLimiter: 500
+onlyUseBedrockMenus: false
+characterLimitForBookMenuPages: 185
+useGlassToFillMenuEmptySpace: false
+menuUnicodeFormatting: false
+language: english
+noArenaPermissionMessage: '[EliteMobs] You don''t have the permission to enter this
+  arena!'
+alwaysShowEliteMobNameTags: false
+superMobStackAmount: 50
+preventEliteCreeperDamageToPassiveMobs: true
+useTitlesForMissingPermissionMessages: true
+preventEliteMobConversionOfNamedMobs: true
+enableHighCompatibilityMode: false
+nightmareWorldSpawnBonus: 0.5
+emLeadsToStatusMenu: true
+otherCommandsLeadToEMStatusMenu: true
+setupDoneV3: true
+preventVanillaReinforcementsForEliteEntities: true
+defaultSpawnLocation: world,-48.0,68.0,-175.0,0.0,0.0
+doExplosionRegen: true
+doRegenerateContainers: true

@@ -1,0 +1,99 @@
+Title: '传送'
+
+Layout:
+- '#########R'
+- '          '
+- '  B A C D '
+- '          '
+- '##########'
+
+Bindings:
+  Commands:
+    - ''
+
+Events:
+  Open:
+    - 'sound: BLOCK_IRON_DOOR_OPEN-1-2'
+  Close:
+    - 'sound: BLOCK_IRON_DOOR_CLOSE-1-2'
+
+Icons:
+
+  '#':
+    display:
+      material: gray stained glass pane
+      name: '&8传送'
+
+  'A':
+    update: 10
+    display:
+      material:
+      - 'grass_block'
+      name: '&amy_wyy114'
+      lore:
+      - ''
+      - '&b➥左键传送'
+      - ''
+      - '等待三秒'
+
+    actions:
+      all:
+      - 'sound: UI_BUTTON_CLICK-1-2'
+      - 'command *"tp my_wyy114"'
+
+    'B':
+    update: 10
+    display:
+      material:
+      - 'grass_block'
+      name: '&a出生点'
+      lore:
+      - ''
+      - '&b➥左键传送'
+      - ''
+      - '等待三秒'
+
+    actions:
+      all:
+      - 'sound: UI_BUTTON_CLICK-1-2'
+      - 'command *"em spawntp"'
+
+    'C':
+    update: 10
+    display:
+      material:
+      - 'grass_block'
+      name: '&awqe123420'
+      lore:
+      - ''
+      - '&b➥左键传送'
+      - ''
+      - '等待三秒'
+
+    actions:
+      all:
+      - 'sound: UI_BUTTON_CLICK-1-2'
+      - 'command *"tp wqe123420"'
+        'C':
+    update: 10
+    display:
+      material:
+      - 'grass_block'
+      name: '&aEnderlava'
+      lore:
+      - ''
+      - '&b➥左键传送'
+      - ''
+      - '等待三秒'
+
+    actions:
+      all:
+      - 'sound: UI_BUTTON_CLICK-1-2'
+      - 'command *"tp Enderlava"'
+    
+    'R':
+    display:
+      material: Red Stained Glass Pane
+      name: '&c关&7闭'
+    actions:
+      all: close

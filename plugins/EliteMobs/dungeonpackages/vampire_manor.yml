@@ -1,0 +1,24 @@
+environment: NORMAL
+defaultSchematicRotation: SOUTH
+teleportLocationOffset: 0,0,0,0,0
+dungeonConfigFolderName: vampire_manor
+isEnabled: false
+name: '&cThe Vampire Manor'
+dungeonLocationType: SCHEMATIC
+customInfo:
+- '&fPrepare to spill blood!'
+- '&6Credits: MagmaGuy, 69OzCanOfBepis'
+relativeBossLocations: []
+relativeTreasureChestLocations:
+- ''
+downloadLink: https://discord.gg/9f5QSka
+dungeonSizeCategory: MINIDUNGEON
+schematicName: em_vampire_manor.schem
+protect: true
+playerInfo: |-
+  Difficulty: &6Hard
+  $bossCount bosses, from level $lowestTier to $highestTier
+  &6A deadly manor full of blood thristy creatures!
+  &6Are you ready to face that which haunts the night?
+regionEnterMessage: '&8[EM] &cTrespassing on dangerous grounds!!'
+regionLeaveMessage: '&8[EM] &cNow leaving haunted land!'

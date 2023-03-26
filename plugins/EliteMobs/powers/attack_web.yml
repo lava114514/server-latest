@@ -1,0 +1,19 @@
+powerType: MISCELLANEOUS
+isEnabled: true
+name: 困兽之网
+effect: COBWEB
+eliteScript:
+  WebPlayer:
+    Events:
+    - PlayerDamagedByEliteMobEvent
+    Cooldowns:
+      local: 60
+      global: 20
+    Actions:
+    - duration: 120
+      action: PLACE_BLOCK
+      Target:
+        targetType: DIRECT_TARGET
+      material: COBWEB
+      conditions:
+        locationIsAir: true

@@ -1,0 +1,25 @@
+notEnoughPlayersMessage: '&8[EliteMobs] &cYou need at least $amount to start the match!'
+startingMessage: '&2Starting!'
+startingSubtitle: '&2in $count...'
+arenaFullMessage: '&4[EliteMobs] &cArena is full! You can spectate instead while you
+  wait for it to finish!'
+arenasOngoingMessage: '&4[EliteMobs] &cCan''t join the arena now - a match is currently
+  happening! You can spectate instead while you wait for it to finish!'
+arenaStartHintMessage: '&2[EliteMobs] &aYou can start the arena by doing &2/em start'
+arenaQuitHintMessage: '&4[EliteMobs] &cYou can leave the arena by doing &4/em quit'
+arenaJoinPlayerMessage: "&2[EliteMobs] &aYou can start the arena by doing &2/em start\
+  \ &aif there are at least &2$count &aplayers in it! \nYou can leave the arena by\
+  \ doing &c/em quit"
+arenaJoinSpectatorMessage: '&2[EliteMobs] &aYou can leave the arena at any time using
+  &2/em quit'
+waveTitle: '&aWave &2$wave'
+waveSubtitle: ''
+victoryTitle: '&2Victory!'
+victorySubtitle: '&aCompleted &2$wave &awaves!'
+defeatTitle: '&4Defeat!'
+defeatSubtitle: '&cReached wave &4$wave&c!'
+victoryBroadcast: Arena $arenaName was conquered by $players!
+joinPlayerTitle: '&aStart with &2/em start &a!'
+joinPlayerSubtitle: '&cLeave with &4/em quit &c!'
+joinSpectatorTitle: '&aNow spectating!'
+joinSpectatorSubtitle: '&cLeave with &4/em quit &c!'

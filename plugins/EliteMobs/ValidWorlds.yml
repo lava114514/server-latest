@@ -1,0 +1,9 @@
+zoneBasedWorlds: []
+nightmareWorlds: []
+Valid worlds:
+  world: true
+  world_nether: true
+  world_the_end: true
+  bskyblock_world: true
+  bskyblock_world_nether: true
+  bskyblock_world_the_end: true

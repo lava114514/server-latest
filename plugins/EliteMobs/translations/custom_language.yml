@@ -1,0 +1,4389 @@
+config:
+  noArenaPermissionMessage: '[EliteMobs] You don''t have the permission to enter this
+    arena!'
+ItemSettings:
+  itemLoreStructureV2:
+  - '&7&m&l---------&7<&lEquip Info&7>&m&l---------'
+  - '&7Item level: &f$itemLevel &7Prestige &6$prestigeLevel'
+  - $weaponOrArmorStats
+  - $soulbindInfo
+  - $itemSource
+  - $ifLore&7&m&l-----------&7< &f&lLore&7 >&m&l-----------
+  - $customLore
+  - $ifEnchantments&7&m&l--------&7<&9&lEnchantments&7>&m&l--------
+  - $enchantments
+  - $eliteEnchantments
+  - $ifCustomEnchantments&7&m&l------&7< &3&lCustom Enchants&7 >&m&l------
+  - $customEnchantments
+  - $ifPotionEffects&7&m&l----------&7< &5&lEffects&7 >&m&l----------
+  - $potionEffect
+  - '&7&l&m-----------------------------'
+  - $loreResaleValue
+  shopSourceItemLores: '&7Purchased from a store'
+  mobSourceItemLores: '&7Looted from $mob'
+  loreWorths: '&7Worth $worth $currencyName'
+  loreResaleValues: '&7Sells for $resale $currencyName'
+  eliteEnchantmentLoreStrings: Elite
+  noSoulbindLore: '&7Not Soulbound!'
+  preventEliteItemDisenchantmentMessage: '&c[EliteMobs] Can''t disenchant Elite Items!'
+  scrapSucceededMessageV2: '&8[EliteMobs] &2Scrapping succeeded $amount times!'
+  scrapFailedMessageV2: '&8[EliteMobs] &cScrapping failed $amount times!'
+  lowDurabilityItemDropMessage: '&8[EliteMobs] &cDropped armor due to low durability!
+    &8Repair it at the NPC with scrap to use it!'
+  lowWeaponItemDropMessage: '&8[EliteMobs] &cDropped weapon due to low durability!
+    &8Repair it at the NPC with scrap to use it!'
+  simlootMessageSuccess: '&8[EliteMobs] &2Rolled for loot and got $itemName &2!'
+  simlootMessageFailure: '&8[EliteMobs] &cRolled for loot and got nothing!'
+  directDropCustomLootMessage: '&8[EliteMobs] &2Obtained $itemName &2!'
+  directDropMinecraftLootMessage: '&8[EliteMobs] &aObtained $itemName &a!'
+  directDropCoinMessage: '&8[EliteMobs] &aObtained &2$amount $currencyName &a!'
+  directDropSpecialMessage: '&8[EliteMobs] &aObtained &2$amount $name &a!'
+  weaponEntry: '&7Elite DPS: &2$EDPS'
+  armorEntry: '&7Elite Armor: &2$EDEF'
+ProceduralItemGenerationSettings:
+  materialNames:
+    swordName: Sword
+    bowName: Bow
+    pickaxe: Pickaxe
+    spade: Spade
+    hoe: Hoe
+    axe: Axe
+    helmet: Helmet
+    chestplate: Chestplate
+    leggings: Leggings
+    boots: Boots
+    shears: Shears
+    fishingRod: Fishing Rod
+    shield: Shield
+    trident: Trident
+    crossbow: Crossbow
+  nameFormats:
+  - $verb $itemType of the $adjective $noun
+  - $itemType of the $adjective $noun
+  - $noun's $adjective $verb $itemType
+  - $verb $itemType
+  - $adjective $verb $itemType
+  - The $verb-er
+  - The $adjective $verb-er
+  nouns:
+  - MagmaGuy
+  - Dawn
+  - Sunset
+  - Heaven
+  - Hell
+  - Angel
+  - Archangel
+  - Cherub
+  - Seraph
+  - Demon
+  - Fiend
+  - Bat
+  - Chicken
+  - Cow
+  - Mooshroom
+  - Pig
+  - Rabbit
+  - Sheep
+  - Squid
+  - Villager
+  - Cave Spider
+  - Enderman
+  - Polar Bear
+  - Spider
+  - Zombie Pigman
+  - Blaze
+  - Creeper
+  - Elder Guardian
+  - Endermite
+  - Evoker
+  - Ghast
+  - Guardian
+  - Husk
+  - Magma Cube
+  - Shulker
+  - Silverfish
+  - Skeleton
+  - Slime
+  - Stray
+  - Vex
+  - Vindicator
+  - Witch
+  - Wither Skeleton
+  - Zombie
+  - Donkey
+  - Horse
+  - Llama
+  - Mule
+  - Ocelot
+  - Wolf
+  - Iron Golem
+  - Snow Golem
+  - Ender Dragon
+  - Wither
+  - Illusioner
+  - Parrot
+  - Giant
+  - Killer Bunny
+  - Steve
+  - Wolfbane
+  - Chaos
+  - Aeon
+  - Dragon
+  - Sphynx
+  - Minotaur
+  - Hades
+  - Oath
+  - Oathbreaker
+  - Deserter
+  - Betrayer
+  - Jade
+  - Light
+  - Darkness
+  - Oblivion
+  - Shadow
+  - Void
+  - Xeno
+  - Zealot
+  - Zenith
+  - Dusk
+  - Twilight
+  - Mob
+  - Elite  Mob
+  - Urist
+  - Dwarf
+  - Elf
+  - Ork
+  - Goblin
+  - Gnome
+  - Goliath
+  - Drow
+  - Human
+  - Halfling
+  - Half-Orc
+  - Beholder
+  - Mind Flayer
+  - Owlbear
+  - Bulette
+  - Rust Monster
+  - Hill Giant
+  - Stone Giant
+  - Frost Giant
+  - Fire Giant
+  - Cloud Giant
+  - Storm Giant
+  - Kobold
+  - Lich
+  - Ork
+  - Umber Hulk
+  - Fighter
+  - Wizard
+  - Paladin
+  - Cleric
+  - Ranger
+  - Archer
+  - Mage
+  - Tiefling
+  - Werewolf
+  - Vampire
+  - Centaur
+  - Catfolk
+  - Half-Giant
+  - Ogre
+  - Troll
+  - Rogue
+  - Barbarian
+  - Bard
+  - Druid
+  - Monk
+  - Sorcerer
+  - Warlock
+  - Demon Hunter
+  - Death Knight
+  - Priest
+  - Shaman
+  - Warrior
+  - Basilisk
+  - Chimera
+  - Imp
+  - Dryad
+  - Gargoyle
+  - Djinni
+  - Efreeti
+  - Ghost
+  - Hobgoblin
+  - Hydra
+  - Kraken
+  - Lamia
+  - Medusa
+  - Mimic
+  - Mummy
+  - Pegasus
+  - Roc
+  - Satyr
+  - Tarrasque
+  - Abomination
+  - Ghoul
+  - Treant
+  - Unicorn
+  - Wraith
+  - Acolyte
+  - Gladiator
+  - Knight
+  - Gryphon
+  - Raider
+  - Scout
+  - Spy
+  - Thg
+  - Noble
+  - Guard
+  - Veteran
+  - Wyvern
+  - Abyssal
+  - Infernal
+  - Elemental
+  - Tauren
+  - Pandaren
+  - Sasquatch
+  - Forsaken
+  - Yeti
+  - Banshee
+  - Arachnid
+  - Undead
+  - Night Elf
+  - Blood Elf
+  - Draenei
+  - Worgen
+  - Warlord
+  - Witch
+  - Magi
+  - Sage
+  - Thief
+  - Assassin
+  - Templar
+  - Beastmaster
+  - Berserker
+  - Inventor
+  - Luchador
+  - Pirate
+  - Vanguard
+  - Voidblade
+  - Wisp
+  - Peasant
+  - Footman
+  - Swordsman
+  - Thrall
+  - Felhound
+  - Huntress
+  - Hunter
+  - Aarakorcra
+  - Aboleth
+  - Deva
+  - Planetar
+  - Solar
+  - Ankheg
+  - Azer
+  - Behir
+  - Death Tyrant
+  - Blight
+  - Bugbear
+  - Hugbear
+  - Bullywug
+  - Cambion
+  - Chuul
+  - Lich King
+  - Cockatrice
+  - Couatl
+  - Cyclops
+  - Titan
+  - Darkmantle
+  - Ancient One
+  - Demilich
+  - Balor
+  - Barlgura
+  - Chasme
+  - Dretch
+  - Glabrezu
+  - Goristro
+  - Hezrou
+  - Manes
+  - Marilith
+  - Nalfeshnee
+  - Quasit
+  - Vrock
+  - Yochlol
+  - Pit Fiend
+  - Lemure
+  - Dracolich
+  - Doppleganger
+  - Chromatic Dragon
+  - Drider
+  - Air Elemental
+  - Earth Elemental
+  - Fire Elemental
+  - Water Elemental
+  - Rohirrim
+  - Gondorian
+  - Empyrean
+  - Faerie Dragon
+  - Ettin
+  - Flumph
+  - Fomorian
+  - Dao
+  - Gnoll
+  - Parshendi
+  - Listener
+  - Spren
+  - Stormfather
+  - Rosharian
+  - Brightlord
+  - Highprince
+  - King
+  - Emperor
+  - Shardbearer
+  - Surgebinder
+  - Bondsmith
+  - Golem
+  - Gorgon
+  - Hag
+  - Harpy
+  - Hippogriff
+  - Homunculus
+  - State Alchemist
+  - Undying Soldier
+  - Jackalwere
+  - Nothic
+  - Oni
+  - Rakshasa
+  - Revenant
+  - Cultist
+  adjectives:
+  - Adorable
+  - Beautiful
+  - Clean
+  - Elegant
+  - Fancy
+  - Glamorous
+  - Handsome
+  - Long
+  - Magnificent
+  - Plain
+  - Quaint
+  - Sparkling
+  - Ugliest
+  - Red
+  - Orange
+  - Yellow
+  - Green
+  - Blue
+  - Purple
+  - Gray
+  - Black
+  - White
+  - Dead
+  - Odd
+  - Powerful
+  - Rich
+  - Vast
+  - Zealous
+  - Deafening
+  - Faint
+  - Melodic
+  - Quiet
+  - Thundering
+  - Whispering
+  - Hissing
+  - Ancient
+  - Fast
+  - Old
+  - Rapid
+  - Slow
+  - Rotten
+  - Creepy
+  - Crooked
+  - Empty
+  - Heavy
+  - Abhorrent
+  - Abnormal
+  - Absurd
+  - Acceptable
+  - Accidental
+  - Adamant
+  - Adventurous
+  - Agonizing
+  - Alert
+  - Annoyed
+  - Annoying
+  - Anxious
+  - Aromatic
+  - Aggressive
+  - Aloof
+  - Amazing
+  - Ambiguous
+  - Ambitious
+  - Amused
+  - Angry
+  - Arrogant
+  - Ashamed
+  - Aspiring
+  - Astonishing
+  - Auspicious
+  - Average
+  - Awesome
+  - Awful
+  - Bad
+  - Barbarous
+  - Bashful
+  - Beffiting
+  - Belligerent
+  - Beneficial
+  - Berserk
+  - Best
+  - Bewildered
+  - Big
+  - Bitter
+  - Bizarre
+  - Bloody
+  - Boiling
+  - Boundless
+  - Brash
+  - Brave
+  - Brawny
+  - Breakable
+  - Brief
+  - Bright
+  - Broken
+  - Busy
+  - Calculating
+  - Callous
+  - Calm
+  - Capricious
+  - Careful
+  - Careless
+  - Caring
+  - Cautious
+  - Ceaseless
+  - Certain
+  - Charming
+  - Cheap
+  - Chief
+  - Chilly
+  - Chivalrous
+  - Chunky
+  - Clear
+  - Clever
+  - Cloistered
+  - Clumsy
+  - Cloudy
+  - Classy
+  - Colossal
+  - Combative
+  - Common
+  - Confused
+  - Condemned
+  - Cool
+  - Courageous
+  - Cowardly
+  - Crazy
+  - Craven
+  - Cruel
+  - Cuddly
+  - Curious
+  - Cute
+  - Damaged
+  - Damaging
+  - Dangerous
+  - Dark
+  - Dashing
+  - Decisive
+  - Deep
+  - Defeated
+  - Defective
+  - Defiant
+  - Delicate
+  - Delicious
+  - Delightful
+  - Demonic
+  - Delirious
+  - Deranged
+  - Descriptive
+  - Devilish
+  - Difficult
+  - Diligent
+  - Direful
+  - Dirty
+  - Disastrous
+  - Disgusted
+  - Disgusting
+  - Disillusioned
+  - Distinct
+  - Disturbed
+  - Draconian
+  - Dramatic
+  - Dreary
+  - Dysfunctional
+  - Eager
+  - Elderly
+  - Electric
+  - Elite
+  - Enchanted
+  - Enchanting
+  - Energetic
+  - Enormous
+  - Entertaining
+  - Enthusiastic
+  - Envious
+  - Erratic
+  - Ethereal
+  - Evasive
+  - Excellent
+  - Excited
+  - Exciting
+  - Exotic
+  - Exuberant
+  - Fabulous
+  - Faded
+  - Fair
+  - Faithful
+  - 'False'
+  - Familiar
+  - Famous
+  - Fanatical
+  - Fantastic
+  - Fascinated
+  - Fat
+  - Fearful
+  - Fearless
+  - Feeble
+  - Festive
+  - Fierce
+  - Filthy
+  - Fine
+  - Finicky
+  - First
+  - Fixed
+  - Flashy
+  - Flawless
+  - Flimsy
+  - Flippant
+  - Flowery
+  - Fluffy
+  - Fluttering
+  - Foamy
+  - Foolish
+  - Forgetful
+  - Fortunate
+  - Frail
+  - Fragile
+  - Frantic
+  - Free
+  - Freezing
+  - Fresh
+  - Friendly
+  - Frightening
+  - Fumbling
+  - Funny
+  - Furry
+  - Furtive
+  - Fuzzy
+  - Giant
+  - Gifted
+  - Gigantic
+  - Glistening
+  - Glorious
+  - Godly
+  - Good
+  - Goofy
+  - Gorgeous
+  - Graceful
+  - Grandiose
+  - Grateful
+  - Greasy
+  - Great
+  - Greedy
+  - Grieving
+  - Groovy
+  - Grotesque
+  - Grubby
+  - Gruesome
+  - Grumpy
+  - Guarded
+  - Guiltless
+  - Gullible
+  - Gutsy
+  - Guttural
+  - Hallowed
+  - Hanging
+  - Hapless
+  - Happy
+  - Harmonious
+  - Hateful
+  - Healthy
+  - Heartbreaking
+  - Heavenly
+  - Hellish
+  - Helpful
+  - Helpless
+  - Hesitant
+  - Hideous
+  - Hilarious
+  - Hollow
+  - Homeless
+  - Honorable
+  - Horrible
+  - Hospitable
+  - Huge
+  - Hulking
+  - Humorous
+  - Hungry
+  - Hurt
+  - Hushed
+  - Hypnotic
+  - Hysterical
+  - Icky
+  - Icy
+  - Ignorant
+  - Ill
+  - Illegal
+  - Illustrious
+  - Imaginary
+  - Immense
+  - Imminent
+  - Impartial
+  - Imperfect
+  - Impolite
+  - Important
+  - Incandescent
+  - Incompetent
+  - Industrious
+  - Incredible
+  - Inexpensive
+  - Infamous
+  - Innocent
+  - Inquisitive
+  - Insidious
+  - Instinctive
+  - Intelligent
+  - Interesting
+  - Invincible
+  - Irate
+  - Itchy
+  - Jaded
+  - Jagged
+  - Jealous
+  - Jolly
+  - Joyous
+  - Jumpy
+  - Juvenile
+  - Keen
+  - Kind
+  - Kindhearted
+  - Knowing
+  - Knowledgeable
+  - Known
+  - Labored
+  - Lame
+  - Large
+  - Last
+  - Late
+  - Laughable
+  - Lazy
+  - Lean
+  - Lethal
+  - Light
+  - Little
+  - Living
+  - Lonely
+  - Loud
+  - Lovely
+  - Lucky
+  - Magenta
+  - Magical
+  - Majestic
+  - Malicious
+  - Marked
+  - Massive
+  - Marvelous
+  - Mean
+  - Medical
+  - Melted
+  - Messy
+  - Mighty
+  - Military
+  - Mindless
+  - Minor
+  - Misty
+  - Mixed
+  - Modern
+  - Motionless
+  - Mysterious
+  - Naive
+  - Narrow
+  - Natural
+  - Neat
+  - Necessary
+  - Needless
+  - Needy
+  - Nervous
+  - New
+  - Nice
+  - Normal
+  - Nostalgic
+  - Numberless
+  - Obsolete
+  - Obtainable
+  - Oceanic
+  - Old-fashioned
+  - Omniscient
+  - Optimal
+  - Ordinary
+  - Organic
+  - Outstanding
+  - Oval
+  - Overrated
+  - Painful
+  - Parallel
+  - Pathetic
+  - Peaceful
+  - Penitent
+  - Perfect
+  - Periodic
+  - Petite
+  - Physical
+  - Pink
+  - Plastic
+  - Pleasant
+  - Pointless
+  - Polite
+  - Poor
+  - Precious
+  - Premium
+  - Present
+  - Pretty
+  - Private
+  - Productive
+  - Protective
+  - Public
+  - Puzzling
+  - Questionable
+  - Quick
+  - Quickest
+  - Rare
+  - Ready
+  - Real
+  - Rebel
+  - Regular
+  - Remarkable
+  - Responsible
+  - Romantic
+  - Round
+  - Royal
+  - Sad
+  - Safe
+  - Salty
+  - Satisfying
+  - Scared
+  - Scary
+  - Scientific
+  - Scrawny
+  - Screeching
+  - Second
+  - Second-hand
+  - Secret
+  - Selfish
+  - Sequacious
+  - Serious
+  - Shallow
+  - Sharp
+  - Shiny
+  - Shocking
+  - Short
+  - Shy
+  - Sick
+  - Silent
+  - Silky
+  - Silly
+  - Simple
+  - Skinny
+  - Slim
+  - Slimy
+  - Slippery
+  - Small
+  - Smart
+  - Smiling
+  - Smooth
+  - Sneaky
+  - Soft
+  - Solid
+  - Special
+  - Spectacular
+  - Spicy
+  - Spiky
+  - Splendid
+  - Spooky
+  - Spotless
+  - Square
+  - Staking
+  - Standing
+  - Steady
+  - Sticky
+  - Strange
+  - Striped
+  - Strong
+  - Successful
+  - Super
+  - Supreme
+  - Sweet
+  - Talented
+  - Tall
+  - Tasty
+  - Temporary
+  - Tense
+  - Terrible
+  - Terrific
+  - Tested
+  - Thankful
+  - Thick
+  - Thin
+  - Thirsty
+  - Thoughtful
+  - Tiny
+  - Tired
+  - Tricky
+  - Troubled
+  - 'True'
+  - Ugly
+  - Ultra
+  - Unadvised
+  - Unarmed
+  - Uncovered
+  - Unhealthy
+  - Unique
+  - Unknown
+  - Unnatural
+  - Unused
+  - Unusual
+  - Used
+  - Useful
+  - Useless
+  - Valuable
+  - Violent
+  - Waiting
+  - Wandering
+  - Warm
+  - Weak
+  - Wealthy
+  - Whole
+  - Wise
+  - Wonderful
+  - Wooden
+  - Worried
+  - Worthless
+  - Wrong
+  - Menacing
+  - Trusting
+  - Unassuming
+  - Threatening
+  verbs:
+  - Slashing
+  - Cutting
+  - Stabbing
+  - Scratching
+  - Killing
+  - Slaying
+  - Butchering
+  - Destroying
+  - Tickling
+  - Hugging
+  - Murdering
+  - Slapping
+  - Hissing
+  - Traveling
+  - Teleporting
+  - Blinking
+  - Destroying
+  - Wrecking
+  - Flashing
+  - Materializing
+  - Spawning
+  - Questioning
+  - Inquiring
+  - Pleading
+  - Demanding
+  - Interrogating
+  - Querying
+  - Assaulting
+  - Striking
+  - Ambushing
+  - Assailing
+  - Rushing
+  - Storming
+  - Bombarding
+  - Barraging
+  - Smiting
+  - Charging
+  - Clobbering
+  - Battling
+  - Battering
+  - Hammering
+  - Beating
+  - Combating
+  - Overwhelming
+  - Raiding
+  - Tackling
+  - Shooting
+  - Venturing
+  - Cracking
+  - Rupturing
+  - Smashing
+  - Shattering
+  - Fracturing
+  - Splintering
+  - Pulverizing
+  - Tearing
+  - Rending
+  - Snapping
+  - Bursting
+  - Exploding
+  - Damaging
+  - Fragmenting
+  - Splitting
+  - Fortifying
+  - Nudging
+  - Tapping
+  - Jostling
+  - Thumping
+  - Butting
+  - Clattering
+  - Striking
+  - Whacking
+  - Slamming
+  - Summoning
+  - Screaming
+  - Bellowing
+  - Roaring
+  - Shifting
+  - Transforming
+  - Modifying
+  - Twisting
+  - Mutating
+  - Distorting
+  - Blurring
+  - Adjusting
+  - Warping
+  - Altering
+  - Adapting
+  - Evolving
+  - Varying
+  - Hunting
+  - Trailing
+  - Following
+  - Stalking
+  - Shadowing
+  - Hounding
+  - Casing
+  - Mounting
+  - Ascending
+  - Rising
+  - Heaving
+  - Springing
+  - Cresting
+  - Gathering
+  - Corralling
+  - Hoarding
+  - Reaping
+  - Harvesting
+  - Saving
+  - Sheltering
+  - Cloaking
+  - Shrouding
+  - Enclosing
+  - Concealing
+  - Hiding
+  - Disguising
+  - Masking
+  - Burying
+  - Smothering
+  - Clouding
+  - Shielding
+  - Shading
+  - Sealing
+  - Enveloping
+  - Veiling
+  - Obscuring
+  - Traversing
+  - Fording
+  - Gliding
+  - Howling
+  - Whimpering
+  - Screaming
+  - Shrieking
+  - Squealing
+  - Roaring
+  - Wailing
+  - Bawling
+  - Screeching
+  - Cleaving
+  - Chopping
+  - Chipping
+  - Severing
+  - Slicing
+  - Snipping
+  - Splitting
+  - Axing
+  - Slashing
+  - Rending
+  - Tearing
+  - Thinning
+  - Cropping
+  - Carving
+  - Dissecting
+  - Hacking
+  - Piercing
+  - Sawing
+  - Shaving
+  - Shearing
+  - Mining
+  - Delving
+  - Excavating
+  - Burrowing
+  - Drilling
+  - Hollowing
+  - Gouging
+  - Tunneling
+  - Invading
+  - Boarding
+  - Wandering
+  - Infiltrating
+  - Intruding
+  - Evading
+  - Fleeing
+  - Running
+  - Dodging
+  - Crashing
+  - Battling
+  - Tussling
+  - Wrestling
+  - Scuffling
+  - Dueling
+  - Brawling
+  - Jousting
+  - Sparring
+  - Clashing
+  - Warring
+  - Grappling
+  - Scrapping
+  - Attacking
+  - Feuding
+  - Skirmishing
+  - Discovering
+  - Detecting
+  - Catching
+  - Solving
+  - Revealing
+  - Unearthing
+  - Leaping
+  - Bouncing
+  - Springing
+  - Vaulting
+  - Hopping
+  - Surging
+  - Punting
+  - Booting
+  - Dropkicking
+  - Sensing
+  - Perceiving
+  - Detecting
+  - Fading
+  - Bleeding
+  - Shrinking
+  - Weakening
+  - Abating
+  - Diminishing
+  - Forging
+  - Releasing
+  - Gathering
+  - Collecting
+  - Culling
+  - Crushing
+  - Propelling
+  - Jogging
+  - Sprinting
+  - Questing
+  - Scouting
+  - Exploring
+  - Digging
+  - Trembling
+  - Rattling
+  - Parting
+  - Hacking
+  - Rupturing
+  - Carving
+  - Dividing
+  - Halving
+  - Breaking
+  - Sundering
+  - Separating
+  - Rending
+  - Ripping
+  - Grazing
+  - Imprisoning
+  - Snaring
+  - Cornering
+  - Entangling
+  - Pinning
+  - Catching
+  - Restraining
+  - Binding
+  - Hooking
+  - Snagging
+  - Snatching
+  - Caging
+  - Capturing
+  - Haunting
+  - Creeping
+  - Sneaking
+  - Spying
+  - Avenging
+  - Storming
+  verb-ers (noun):
+  - World Breaker
+  - World Shatterer
+  - Avenger
+  - Ashbringer
+  - Windseeker
+  - Defiler
+  - Thunderfury
+  - Slicer
+  - Slasher
+  - Cutter
+  - Stabber
+  - Scratcher
+  - Killer
+  - Slayer
+  - Destroyer
+  - Hugger
+  - Murderer
+  - Slapper
+  - Traveller
+  - Teleporter
+  - Blinker
+  - Wrecker
+  - Materializer
+  - Spawner
+  - Demander
+  - Assaulter
+  - Striker
+  - Ambusher
+  - Rusher
+  - Stormer
+  - Bombarder
+  - Barrager
+  - Smiter
+  - Charger
+  - Battler
+  - Hammerer
+  - Beater
+  - Combater
+  - Overwhelmer
+  - Raider
+  - Tackler
+  - Shooter
+  - Venturer
+  - Cracker
+  - Smasher
+  - Shatterer
+  - Fracturer
+  - Splinterer
+  - Pulverizer
+  - Tearer
+  - Renderer
+  - Snapper
+  - Burster
+  - Exploder
+  - Damager
+  - Fragmenter
+  - Splitter
+  - Fortifier
+  - Nudger
+  - Tapper
+  - Thumper
+  - Butter
+  - Clatterer
+  - Striker
+  - Whacker
+  - Slammer
+  - Summoner
+  - Screamer
+  - Shifter
+  - Transformer
+  - Modifyer
+  - Twister
+  - Blurrer
+  - Warper
+  - Alterer
+  - Adapter
+  - Evolver
+  - HunterEnchantment
+  - Trailer
+  - Follower
+  - Stalker
+  - Shadower
+  - Hounder
+  - Caser
+  - Mounter
+  - Ascender
+  - Riser
+  - Springer
+  - Hoarder
+  - Reaper
+  - Harvester
+  - Saver
+  - Shelterer
+  - Cloaker
+  - Shrouder
+  - Encloser
+  - Hider
+  - Masker
+  - Buryer
+  - Clouder
+  - Shader
+  - Sealer
+  - Enveloper
+  - Veiler
+  - Traverser
+  - Forder
+  - Glider
+  - Howler
+  - Whimperer
+  - Screamer
+  - Squealer
+  - Bawler
+  - Screecher
+  - Chopper
+  - Chipper
+  - Snipper
+  - Splitter
+  - Axer
+  - Slasher
+  - Renderer
+  - Tearer
+  - Thinner
+  - Cropper
+  - Carver
+  - Hacker
+  - Piercer
+  - Sawer
+  - Shaver
+  - Shearer
+  - Miner
+  - Excavater
+  - Burrower
+  - Driller
+  - Tunneler
+  - Invader
+  - Boarder
+  - Wanderer
+  - Intruder
+  - Evader
+  - Runner
+  - Dodger
+  - Crasher
+  - Battler
+  - Wrestler
+  - Scuffler
+  - Dueler
+  - Brawler
+  - Clasher
+  - Grappler
+  - Scrapper
+  - Attacker
+  - Feuder
+  - Catcher
+  - Solver
+  - Revealer
+  - Leaper
+  - Bouncer
+  - Vaulter
+  - Hopper
+  - Surger
+  - Punter
+  - Dropkicker
+  - Perceiver
+  - Fader
+  - Bleeder
+  - Weakener
+  - Forger
+  - Releaser
+  - Gatherer
+  - Crusher
+  - Propeller
+  - Jogger
+  - Sprinter
+  - Scouter
+  - Explorer
+  - Digger
+  - Trembler
+  - Parter
+  - Hacker
+  - Carver
+  - Divider
+  - Halver
+  - Breaker
+  - Renderer
+  - Ripper
+  - Grazer
+  - Imprisoner
+  - Cornerer
+  - Pinner
+  - Catcher
+  - Restrainer
+  - Binder
+  - Snagger
+  - Snatcher
+  - Cager
+  - Capturer
+  - Haunter
+  - Creeper
+  - Sneaker
+  - Binder
+  - Jailer
+  - Seducer
+  - Dancer
+  - Blasphemer
+  - Eater
+  - Snorer
+  - Thruster
+  - Slapper
+absorption:
+  name: Absorption
+blindness:
+  name: Blindness
+conduit_power:
+  name: Conduit Power
+confusion:
+  name: Nausea
+damage_resistance:
+  name: Resistance
+dolphins_grace:
+  name: Dolphin's Grace
+fast_digging:
+  name: Haste
+fire_resistance:
+  name: Fire Resistance
+glowing:
+  name: Glowing
+harm:
+  name: Instant Damage
+heal:
+  name: Instant Health
+health_boost:
+  name: Health Boost
+hunger:
+  name: Hunger
+increase_damage:
+  name: Strength
+invisibility:
+  name: Invisibility
+jump:
+  name: Jump Boost
+levitation:
+  name: Levitation
+luck:
+  name: Luck
+night_vision:
+  name: Night Vision
+poison:
+  name: Poison
+regeneration:
+  name: Regeneration
+saturation:
+  name: Saturation
+slow:
+  name: Slowness
+slow_digging:
+  name: Mining Fatigue
+slow_falling:
+  name: Slow Falling
+speed:
+  name: Speed
+unluck:
+  name: Bad Luck
+water_breathing:
+  name: Water Breathing
+weakness:
+  name: Weakness
+wither:
+  name: Wither
+translation:
+  Economy pay message v2: '&2You have paid &2$amount_sent $currency_name &2to $receiver&2,
+    who got $amount_received after taxes!'
+  Economy currency left message: You now have &2$amount_left $currency_name
+  Economy money from payment message: You have received &2$amount_received $currency_name
+    &ffrom $sender
+  Economy payment insuficient currency: '&cYou don''t have enough $currency_name to
+    do that!'
+  Wallet command message: You have &2$balance $currency_name
+  Tax confirmation message: '&cSending a payment will cost $percentage% in taxes.
+    &aDo &9$command &ato proceed!'
+  shopBatchSellItem: '&aYou have sold your items &afor $currency_amount $currency_name!'
+  Shop buy message: '&aYou have bought $item_name &afor $item_value $currency_name!'
+  Shop current balance message: '&aYou have $currency_amount $currency_name.'
+  Shop insufficient funds message: '&cYou don''t have enough $currency_name!'
+  Shop item cost message: That item costs &c$item_value $currency_name.
+  Shop sell message: '&aYou have sold $item_name &afor $currency_amount $currency_name!'
+  Shop sale player items warning: '&cYou can''t sell items that are not currently
+    soulbound to you! This includes items from other prestige tiers!'
+  Shop sale instructions: '&cYou can only sell EliteMobs loot here! (Armor / weapons
+    dropped from elites showing a value on their lore)'
+  Teleport time left: '&7[EM] Teleporting in &a$time &7seconds...'
+  Teleport cancelled: '&7[EM] &cTeleport interrupted!'
+  noPendingCommands: '&cYou don''t currently have any pending commands!'
+  trackMessage: Track the $name
+  chestLowRankMessage: '&7[EM] &cYour guild rank needs to be at least $rank &cin order
+    to open this chest!'
+  chestCooldownMessage: '&7[EM] &cYou''ve already opened this chest recently! Wait
+    $time!'
+  insufficientCurrencyForWormholeMessage: '&8[EliteMobs] &cInsufficient currency!
+    You need $amount to use this com.magmaguy.elitemobs.wormhole!'
+  dismissEMMessage: '&8[EliteMobs] &2/elitemobs &fmenu not working for you? Try &2/elitemobs
+    alt &fto see an alternative version of the menu! &cDon''t want to see this message
+    again? &4/em dismiss'
+  switchEMStyleMessage: '&8[EliteMobs] &2/elitemobs &fmenu style changed! Check it
+    out!'
+EconomySettings:
+  currencyName: Elite Coins
+  chatCurrencyShowerMessage: '&7[EM] You''ve picked up &a$amount $currency_name!'
+  actionbarCurrencyShowerMessage: '&7[EM] You''ve picked up &a$amount $currency_name!'
+  adventurersGuildNotificationMessages: '&7[EM] Extra spending money? Try &a/em !'
+lightning:
+  name: Lightning
+thorns:
+  name: Thorns
+dig_speed:
+  name: Efficiency
+protection_fire:
+  name: Fire Protection
+oxygen:
+  name: Respiration
+lure:
+  name: Lure
+arrow_fire:
+  name: Flame
+channeling:
+  name: Channeling
+protection_explosions:
+  name: Blast Protection
+summon_merchant:
+  name: Summon Merchant
+  message: Jeeves!
+protection_fall:
+  name: Feather Falling
+impaling:
+  name: Impaling
+ice_breaker:
+  name: Ice Breaker
+damage_undead:
+  name: Smite
+damage_all:
+  name: Sharpness
+loyalty:
+  name: Loyalty
+mending:
+  name: Mending
+frost_walker:
+  name: Frost Walker
+earthquake:
+  name: Earthquake
+  earthquakeActivationMessage: '&8[EliteMobs] &aEarthquake triggered! &c2 min cooldown!'
+  earthquakeAvailableMessage: '&8[EliteMobs] &2Earthquake cooldown over!'
+plasma_boots:
+  name: Plasma Boots
+grappling_hook:
+  name: Grappling Hook
+water_worker:
+  name: Aqua Affinity
+critical_strikes:
+  name: Critical Strikes
+  criticalHitPopup: '&5Critical Hit!'
+vanishing_curse:
+  name: Curse of Vanishing
+arrow_knockback:
+  name: Punch
+drilling:
+  name: Drilling
+loud_strikes:
+  name: Loud Strikes
+quick_charge:
+  name: Quick Charge
+protection_environmental:
+  name: Protection
+sweeping_edge:
+  name: Sweeping Edge
+fire_aspect:
+  name: Fire Aspect
+meteor_shower:
+  name: Meteor Shower
+loot_bonus_mobs:
+  name: Looting
+binding_curse:
+  name: Curse of Binding
+multishot:
+  name: Multishot
+flamethrower:
+  name: Flamethrower
+loot_bonus_blocks:
+  name: Fortune
+arrow_infinite:
+  name: Infinity
+durability:
+  name: Unbreaking
+piercing:
+  name: Piercing
+unbind:
+  name: Unbind
+arrow_damage:
+  name: Power
+riptide:
+  name: Riptide
+depth_strider:
+  name: Depth Strider
+protection_projectile:
+  name: Projectile Protection
+summon_wolf:
+  name: Summon Wolf
+silk_touch:
+  name: Silk Touch
+soulbind:
+  name: Soulbind
+  loreStrings: '&7Soulbound to &f$player'
+  hologramString: $player&f's
+hunter:
+  name: Hunter
+damage_arthropods:
+  name: Bane of Arthropods
+knockback:
+  name: Knockback
+AntiExploit:
+  AntiExploit message: '&c[EM AntiExploit] &7Nearby elite won''t drop special loot.'
+CombatTag:
+  Combat tag message: '&c[EliteMobs] Combat tag activated!'
+AdventurersGuild:
+  adventurersGuildMenuName: '&6&lAdventurer''s Hub'
+  Prestige 0 rank 0: '&8Commoner - disables elites!'
+  Prestige 0 rank 0 short placeholder: '&6&l✧&e0'
+  Prestige 0 rank 1: '&fRookie'
+  Prestige 0 rank 1 short placeholder: '&6&l✧&eⅠ'
+  Prestige 0 rank 2: '&fNovice'
+  Prestige 0 rank 2 short placeholder: '&6&l✧&eⅠⅠ'
+  Prestige 0 rank 3: '&fApprentice'
+  Prestige 0 rank 3 short placeholder: '&6&l✧&eⅠⅠⅠ'
+  Prestige 0 rank 4: '&2Adventurer'
+  Prestige 0 rank 4 short placeholder: '&6&l✧&eⅠⅤ'
+  Prestige 0 rank 5: '&2Journeyman'
+  Prestige 0 rank 5 short placeholder: '&6&l✧&eⅤ'
+  Prestige 0 rank 6: '&2Adept'
+  Prestige 0 rank 6 short placeholder: '&6&l✧&eⅤⅠ'
+  Prestige 0 rank 7: '&1Veteran'
+  Prestige 0 rank 7 short placeholder: '&6&l✧&eⅤⅠⅠ'
+  Prestige 0 rank 8: '&1Elite'
+  Prestige 0 rank 8 short placeholder: '&6&l✧&eⅤⅠⅠⅠ'
+  Prestige 0 rank 9: '&lMaster'
+  Prestige 0 rank 9 short placeholder: '&6&l✧&eⅠⅩ'
+  Prestige 0 rank 10: '&5Hero'
+  Prestige 0 rank 10 short placeholder: '&6&l✧&eⅩ'
+  Prestige 1 rank 0: '&ePrestige 1 &8Commoner'
+  Prestige 1 rank 0 short placeholder: '&e⚜Ⅰ&6&l✧&e0'
+  Prestige 1 rank 1: '&ePrestige 1 &fRookie'
+  Prestige 1 rank 1 short placeholder: '&e⚜Ⅰ&6&l✧&eⅠ'
+  Prestige 1 rank 2: '&ePrestige 1 &fNovice'
+  Prestige 1 rank 2 short placeholder: '&e⚜Ⅰ&6&l✧&eⅠⅠ'
+  Prestige 1 rank 3: '&ePrestige 1 &fApprentice'
+  Prestige 1 rank 3 short placeholder: '&e⚜Ⅰ&6&l✧&eⅠⅠⅠ'
+  Prestige 1 rank 4: '&ePrestige 1 &2Adventurer'
+  Prestige 1 rank 4 short placeholder: '&e⚜Ⅰ&6&l✧&eⅠⅤ'
+  Prestige 1 rank 5: '&ePrestige 1 &2Journeyman'
+  Prestige 1 rank 5 short placeholder: '&e⚜Ⅰ&6&l✧&eⅤ'
+  Prestige 1 rank 6: '&ePrestige 1 &2Adept'
+  Prestige 1 rank 6 short placeholder: '&e⚜Ⅰ&6&l✧&eⅤⅠ'
+  Prestige 1 rank 7: '&ePrestige 1 &1Veteran'
+  Prestige 1 rank 7 short placeholder: '&e⚜Ⅰ&6&l✧&eⅤⅠⅠ'
+  Prestige 1 rank 8: '&ePrestige 1 &1Elite'
+  Prestige 1 rank 8 short placeholder: '&e⚜Ⅰ&6&l✧&eⅤⅠⅠⅠ'
+  Prestige 1 rank 9: '&ePrestige 1 &5Master'
+  Prestige 1 rank 9 short placeholder: '&e⚜Ⅰ&6&l✧&eⅠⅩ'
+  Prestige 1 rank 10 short placeholder: '&e⚜Ⅰ&6&l✧&eⅩ'
+  Prestige 1 rank 10: '&ePrestige 1 &5Hero'
+  Prestige 1 rank 11: '&ePrestige 1 &5Legend'
+  Prestige 1 rank 11 short placeholder: '&e⚜Ⅰ&6&l✧&eⅩⅠ'
+  Prestige 2 rank 0: '&2Prestige 2 &8Commoner'
+  Prestige 2 rank 0 short placeholder: '&2⚜ⅠⅠ&6&l✧&e0'
+  Prestige 2 rank 1: '&2Prestige 2 &fRookie'
+  Prestige 2 rank 1 short placeholder: '&2⚜ⅠⅠ&6&l✧&eⅠ'
+  Prestige 2 rank 2: '&2Prestige 2 &fNovice'
+  Prestige 2 rank 2 short placeholder: '&2⚜ⅠⅠ&6&l✧&eⅠⅠ'
+  Prestige 2 rank 3: '&2Prestige 2 &fApprentice'
+  Prestige 2 rank 3 short placeholder: '&2⚜ⅠⅠ&6&l✧&eⅠⅠⅠ'
+  Prestige 2 rank 4: '&2Prestige 2 &2Adventurer'
+  Prestige 2 rank 4 short placeholder: '&2⚜ⅠⅠ&6&l✧&eⅠⅤ'
+  Prestige 2 rank 5: '&2Prestige 2 &2Journeyman'
+  Prestige 2 rank 5 short placeholder: '&2⚜ⅠⅠ&6&l✧&eⅤ'
+  Prestige 2 rank 6: '&2Prestige 2 &2Adept'
+  Prestige 2 rank 6 short placeholder: '&2⚜ⅠⅠ&6&l✧&eⅤⅠ'
+  Prestige 2 rank 7: '&2Prestige 2 &1Veteran'
+  Prestige 2 rank 7 short placeholder: '&2⚜ⅠⅠ&6&l✧&eⅤⅠⅠ'
+  Prestige 2 rank 8: '&2Prestige 2 &1Elite'
+  Prestige 2 rank 8 short placeholder: '&2⚜ⅠⅠ&6&l✧&eⅤⅠⅠⅠ'
+  Prestige 2 rank 9: '&2Prestige 2 &5Master'
+  Prestige 2 rank 9 short placeholder: '&2⚜ⅠⅠ&6&l✧&eⅠⅩ'
+  Prestige 2 rank 10 short placeholder: '&2⚜ⅠⅠ&6&l✧&eⅩ'
+  Prestige 2 rank 10: '&2Prestige 2 &5Hero'
+  Prestige 2 rank 11: '&2Prestige 2 &5Legend'
+  Prestige 2 rank 11 short placeholder: '&2⚜ⅠⅠ&6&l✧&eⅩⅠ'
+  Prestige 2 rank 12: '&2Prestige 2 &5Myth'
+  Prestige 2 rank 12 short placeholder: '&2⚜ⅠⅠ&6&l✧&eⅩⅠⅠ'
+  Prestige 3 rank 0: '&aPrestige 3 &8Commoner'
+  Prestige 3 rank 0 short placeholder: '&a⚜ⅠⅠⅠ&6&l✧&e0'
+  Prestige 3 rank 1: '&aPrestige 3 &fRookie'
+  Prestige 3 rank 1 short placeholder: '&a⚜ⅠⅠⅠ&6&l✧&eⅠ'
+  Prestige 3 rank 2: '&aPrestige 3 &fNovice'
+  Prestige 3 rank 2 short placeholder: '&a⚜ⅠⅠⅠ&6&l✧&eⅠⅠ'
+  Prestige 3 rank 3: '&aPrestige 3 &fApprentice'
+  Prestige 3 rank 3 short placeholder: '&a⚜ⅠⅠⅠ&6&l✧&eⅠⅠⅠ'
+  Prestige 3 rank 4: '&aPrestige 3 &2Adventurer'
+  Prestige 3 rank 4 short placeholder: '&a⚜ⅠⅠⅠ&6&l✧&eⅠⅤ'
+  Prestige 3 rank 5: '&aPrestige 3 &2Journeyman'
+  Prestige 3 rank 5 short placeholder: '&a⚜ⅠⅠⅠ&6&l✧&eⅤ'
+  Prestige 3 rank 6: '&aPrestige 3 &2Adept'
+  Prestige 3 rank 6 short placeholder: '&a⚜ⅠⅠⅠ&6&l✧&eⅤⅠ'
+  Prestige 3 rank 7: '&aPrestige 3 &1Veteran'
+  Prestige 3 rank 7 short placeholder: '&a⚜ⅠⅠⅠ&6&l✧&eⅤⅠⅠ'
+  Prestige 3 rank 8: '&aPrestige 3 &1Elite'
+  Prestige 3 rank 8 short placeholder: '&a⚜ⅠⅠⅠ&6&l✧&eⅤⅠⅠⅠ'
+  Prestige 3 rank 9: '&aPrestige 3 &5Master'
+  Prestige 3 rank 9 short placeholder: '&a⚜ⅠⅠⅠ&6&l✧&eⅠⅩ'
+  Prestige 3 rank 10 short placeholder: '&a⚜ⅠⅠⅠ&6&l✧&eⅩ'
+  Prestige 3 rank 10: '&aPrestige 3 &5Hero'
+  Prestige 3 rank 11: '&aPrestige 3 &5Legend'
+  Prestige 3 rank 11 short placeholder: '&a⚜ⅠⅠⅠ&6&l✧&eⅩⅠ'
+  Prestige 3 rank 12: '&aPrestige 3 &5Myth'
+  Prestige 3 rank 12 short placeholder: '&a⚜ⅠⅠⅠ&6&l✧&eⅩⅠⅠ'
+  Prestige 3 rank 13: '&aPrestige 3 &5Immortal'
+  Prestige 3 rank 13 short placeholder: '&a⚜ⅠⅠⅠ&6&l✧&eⅩⅠⅠⅠ'
+  Prestige 4 rank 0: '&3Prestige 4 &8Commoner'
+  Prestige 4 rank 0 short placeholder: '&3⚜ⅠⅤ&6&l✧&e0'
+  Prestige 4 rank 1: '&3Prestige 4 &fRookie'
+  Prestige 4 rank 1 short placeholder: '&3⚜ⅠⅤ&6&l✧&eⅠ'
+  Prestige 4 rank 2: '&3Prestige 4 &fNovice'
+  Prestige 4 rank 2 short placeholder: '&3⚜ⅠⅤ&6&l✧&eⅠⅠ'
+  Prestige 4 rank 3: '&3Prestige 4 &fApprentice'
+  Prestige 4 rank 3 short placeholder: '&3⚜ⅠⅤ&6&l✧&eⅠⅠⅠ'
+  Prestige 4 rank 4: '&3Prestige 4 &2Adventurer'
+  Prestige 4 rank 4 short placeholder: '&3⚜ⅠⅤ&6&l✧&eⅠⅤ'
+  Prestige 4 rank 5: '&3Prestige 4 &2Journeyman'
+  Prestige 4 rank 5 short placeholder: '&3⚜ⅠⅤ&6&l✧&eⅤ'
+  Prestige 4 rank 6: '&3Prestige 4 &2Adept'
+  Prestige 4 rank 6 short placeholder: '&3⚜ⅠⅤ&6&l✧&eⅤⅠ'
+  Prestige 4 rank 7: '&3Prestige 4 &1Veteran'
+  Prestige 4 rank 7 short placeholder: '&3⚜ⅠⅤ&6&l✧&eⅤⅠⅠ'
+  Prestige 4 rank 8: '&3Prestige 4 &1Elite'
+  Prestige 4 rank 8 short placeholder: '&3⚜ⅠⅤ&6&l✧&eⅤⅠⅠⅠ'
+  Prestige 4 rank 9: '&3Prestige 4 &5Master'
+  Prestige 4 rank 9 short placeholder: '&3⚜ⅠⅤ&6&l✧&eⅠⅩ'
+  Prestige 4 rank 10 short placeholder: '&3⚜ⅠⅤ&6&l✧&eⅩ'
+  Prestige 4 rank 10: '&3Prestige 4 &5Hero'
+  Prestige 4 rank 11: '&3Prestige 4 &5Legend'
+  Prestige 4 rank 11 short placeholder: '&3⚜ⅠⅤ&6&l✧&eⅩⅠ'
+  Prestige 4 rank 12: '&3Prestige 4 &5Myth'
+  Prestige 4 rank 12 short placeholder: '&3⚜ⅠⅤ&6&l✧&eⅩⅠⅠ'
+  Prestige 4 rank 13: '&3Prestige 4 &5Immortal'
+  Prestige 4 rank 13 short placeholder: '&3⚜ⅠⅤ&6&l✧&eⅩⅠⅠⅠ'
+  Prestige 4 rank 14: '&3Prestige 4 &5Chosen'
+  Prestige 4 rank 14 short placeholder: '&3⚜ⅠⅤ&6&l✧&eⅩⅠⅤ'
+  Prestige 5 rank 0: '&bPrestige 5 &8Commoner'
+  Prestige 5 rank 0 short placeholder: '&b⚜Ⅴ&6&l✧&e0'
+  Prestige 5 rank 1: '&bPrestige 5 &fRookie'
+  Prestige 5 rank 1 short placeholder: '&b⚜Ⅴ&6&l✧&eⅠ'
+  Prestige 5 rank 2: '&bPrestige 5 &fNovice'
+  Prestige 5 rank 2 short placeholder: '&b⚜Ⅴ&6&l✧&eⅠⅠ'
+  Prestige 5 rank 3: '&bPrestige 5 &fApprentice'
+  Prestige 5 rank 3 short placeholder: '&b⚜Ⅴ&6&l✧&eⅠⅠⅠ'
+  Prestige 5 rank 4: '&bPrestige 5 &2Adventurer'
+  Prestige 5 rank 4 short placeholder: '&b⚜Ⅴ&6&l✧&eⅠⅤ'
+  Prestige 5 rank 5: '&bPrestige 5 &2Journeyman'
+  Prestige 5 rank 5 short placeholder: '&b⚜Ⅴ&6&l✧&eⅤ'
+  Prestige 5 rank 6: '&bPrestige 5 &2Adept'
+  Prestige 5 rank 6 short placeholder: '&b⚜Ⅴ&6&l✧&eⅤⅠ'
+  Prestige 5 rank 7: '&bPrestige 5 &1Veteran'
+  Prestige 5 rank 7 short placeholder: '&b⚜Ⅴ&6&l✧&eⅤⅠⅠ'
+  Prestige 5 rank 8: '&bPrestige 5 &1Elite'
+  Prestige 5 rank 8 short placeholder: '&b⚜Ⅴ&6&l✧&eⅤⅠⅠⅠ'
+  Prestige 5 rank 9: '&bPrestige 5 &5Master'
+  Prestige 5 rank 9 short placeholder: '&b⚜Ⅴ&6&l✧&eⅠⅩ'
+  Prestige 5 rank 10 short placeholder: '&b⚜Ⅴ&6&l✧&eⅩ'
+  Prestige 5 rank 10: '&bPrestige 5 &5Hero'
+  Prestige 5 rank 11: '&bPrestige 5 &5Legend'
+  Prestige 5 rank 11 short placeholder: '&b⚜Ⅴ&6&l✧&eⅩⅠ'
+  Prestige 5 rank 12: '&bPrestige 5 &5Myth'
+  Prestige 5 rank 12 short placeholder: '&b⚜Ⅴ&6&l✧&eⅩⅠⅠ'
+  Prestige 5 rank 13: '&bPrestige 5 &5Immortal'
+  Prestige 5 rank 13 short placeholder: '&b⚜Ⅴ&6&l✧&eⅩⅠⅠⅠ'
+  Prestige 5 rank 14: '&bPrestige 5 &5Chosen'
+  Prestige 5 rank 14 short placeholder: '&b⚜Ⅴ&6&l✧&eⅩⅠⅤ'
+  Prestige 5 rank 15: '&bPrestige 5 &5Ascendant'
+  Prestige 5 rank 15 short placeholder: '&b⚜Ⅴ&6&l✧&eⅩⅤ'
+  Prestige 6 rank 0: '&4Prestige 6 &8Commoner'
+  Prestige 6 rank 0 short placeholder: '&4⚜ⅤⅠ&6&l✧&e0'
+  Prestige 6 rank 1: '&4Prestige 6 &fRookie'
+  Prestige 6 rank 1 short placeholder: '&4⚜ⅤⅠ&6&l✧&eⅠ'
+  Prestige 6 rank 2: '&4Prestige 6 &fNovice'
+  Prestige 6 rank 2 short placeholder: '&4⚜ⅤⅠ&6&l✧&eⅠⅠ'
+  Prestige 6 rank 3: '&4Prestige 6 &fApprentice'
+  Prestige 6 rank 3 short placeholder: '&4⚜ⅤⅠ&6&l✧&eⅠⅠⅠ'
+  Prestige 6 rank 4: '&4Prestige 6 &2Adventurer'
+  Prestige 6 rank 4 short placeholder: '&4⚜ⅤⅠ&6&l✧&eⅠⅤ'
+  Prestige 6 rank 5: '&4Prestige 6 &2Journeyman'
+  Prestige 6 rank 5 short placeholder: '&4⚜ⅤⅠ&6&l✧&eⅤ'
+  Prestige 6 rank 6: '&4Prestige 6 &2Adept'
+  Prestige 6 rank 6 short placeholder: '&4⚜ⅤⅠ&6&l✧&eⅤⅠ'
+  Prestige 6 rank 7: '&4Prestige 6 &1Veteran'
+  Prestige 6 rank 7 short placeholder: '&4⚜ⅤⅠ&6&l✧&eⅤⅠⅠ'
+  Prestige 6 rank 8: '&4Prestige 6 &1Elite'
+  Prestige 6 rank 8 short placeholder: '&4⚜ⅤⅠ&6&l✧&eⅤⅠⅠⅠ'
+  Prestige 6 rank 9: '&4Prestige 6 &5Master'
+  Prestige 6 rank 9 short placeholder: '&4⚜ⅤⅠ&6&l✧&eⅠⅩ'
+  Prestige 6 rank 10 short placeholder: '&4⚜ⅤⅠ&6&l✧&eⅩ'
+  Prestige 6 rank 10: '&4Prestige 6 &5Hero'
+  Prestige 6 rank 11: '&4Prestige 6 &5Legend'
+  Prestige 6 rank 11 short placeholder: '&4⚜ⅤⅠ&6&l✧&eⅩⅠ'
+  Prestige 6 rank 12: '&4Prestige 6 &5Myth'
+  Prestige 6 rank 12 short placeholder: '&4⚜ⅤⅠ&6&l✧&eⅩⅠⅠ'
+  Prestige 6 rank 13: '&4Prestige 6 &5Immortal'
+  Prestige 6 rank 13 short placeholder: '&4⚜ⅤⅠ&6&l✧&eⅩⅠⅠⅠ'
+  Prestige 6 rank 14: '&4Prestige 6 &5Chosen'
+  Prestige 6 rank 14 short placeholder: '&4⚜ⅤⅠ&6&l✧&eⅩⅠⅤ'
+  Prestige 6 rank 15: '&4Prestige 6 &5Ascendant'
+  Prestige 6 rank 15 short placeholder: '&4⚜ⅤⅠ&6&l✧&eⅩⅤ'
+  Prestige 6 rank 16: '&4Prestige 6 &5Titan'
+  Prestige 6 rank 16 short placeholder: '&4⚜ⅤⅠ&6&l✧&eⅩⅤⅠ'
+  Prestige 7 rank 0: '&cPrestige 7 &8Commoner'
+  Prestige 7 rank 0 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&e0'
+  Prestige 7 rank 1: '&cPrestige 7 &fRookie'
+  Prestige 7 rank 1 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&eⅠ'
+  Prestige 7 rank 2: '&cPrestige 7 &fNovice'
+  Prestige 7 rank 2 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&eⅠⅠ'
+  Prestige 7 rank 3: '&cPrestige 7 &fApprentice'
+  Prestige 7 rank 3 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&eⅠⅠⅠ'
+  Prestige 7 rank 4: '&cPrestige 7 &2Adventurer'
+  Prestige 7 rank 4 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&eⅠⅤ'
+  Prestige 7 rank 5: '&cPrestige 7 &2Journeyman'
+  Prestige 7 rank 5 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&eⅤ'
+  Prestige 7 rank 6: '&cPrestige 7 &2Adept'
+  Prestige 7 rank 6 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&eⅤⅠ'
+  Prestige 7 rank 7: '&cPrestige 7 &1Veteran'
+  Prestige 7 rank 7 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&eⅤⅠⅠ'
+  Prestige 7 rank 8: '&cPrestige 7 &1Elite'
+  Prestige 7 rank 8 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&eⅤⅠⅠⅠ'
+  Prestige 7 rank 9: '&cPrestige 7 &5Master'
+  Prestige 7 rank 9 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&eⅠⅩ'
+  Prestige 7 rank 10 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&eⅩ'
+  Prestige 7 rank 10: '&cPrestige 7 &5Hero'
+  Prestige 7 rank 11: '&cPrestige 7 &5Legend'
+  Prestige 7 rank 11 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&eⅩⅠ'
+  Prestige 7 rank 12: '&cPrestige 7 &5Myth'
+  Prestige 7 rank 12 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&eⅩⅠⅠ'
+  Prestige 7 rank 13: '&cPrestige 7 &5Immortal'
+  Prestige 7 rank 13 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&eⅩⅠⅠⅠ'
+  Prestige 7 rank 14: '&cPrestige 7 &5Chosen'
+  Prestige 7 rank 14 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&eⅩⅠⅤ'
+  Prestige 7 rank 15: '&cPrestige 7 &5Ascendant'
+  Prestige 7 rank 15 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&eⅩⅤ'
+  Prestige 7 rank 16: '&cPrestige 7 &5Titan'
+  Prestige 7 rank 16 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&eⅩⅤⅠ'
+  Prestige 7 rank 17: '&cPrestige 7 &5Demigod'
+  Prestige 7 rank 17 short placeholder: '&c⚜ⅤⅠⅠ&6&l✧&eⅩⅤⅠⅠ'
+  Prestige 8 rank 0: '&9Prestige 8 &8Commoner'
+  Prestige 8 rank 0 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&e0'
+  Prestige 8 rank 1: '&9Prestige 8 &fRookie'
+  Prestige 8 rank 1 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅠ'
+  Prestige 8 rank 2: '&9Prestige 8 &fNovice'
+  Prestige 8 rank 2 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅠⅠ'
+  Prestige 8 rank 3: '&9Prestige 8 &fApprentice'
+  Prestige 8 rank 3 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅠⅠⅠ'
+  Prestige 8 rank 4: '&9Prestige 8 &2Adventurer'
+  Prestige 8 rank 4 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅠⅤ'
+  Prestige 8 rank 5: '&9Prestige 8 &2Journeyman'
+  Prestige 8 rank 5 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅤ'
+  Prestige 8 rank 6: '&9Prestige 8 &2Adept'
+  Prestige 8 rank 6 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅤⅠ'
+  Prestige 8 rank 7: '&9Prestige 8 &1Veteran'
+  Prestige 8 rank 7 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅤⅠⅠ'
+  Prestige 8 rank 8: '&9Prestige 8 &1Elite'
+  Prestige 8 rank 8 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅤⅠⅠⅠ'
+  Prestige 8 rank 9: '&9Prestige 8 &5Master'
+  Prestige 8 rank 9 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅠⅩ'
+  Prestige 8 rank 10 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅩ'
+  Prestige 8 rank 10: '&9Prestige 8 &5Hero'
+  Prestige 8 rank 11: '&9Prestige 8 &5Legend'
+  Prestige 8 rank 11 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅩⅠ'
+  Prestige 8 rank 12: '&9Prestige 8 &5Myth'
+  Prestige 8 rank 12 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅩⅠⅠ'
+  Prestige 8 rank 13: '&9Prestige 8 &5Immortal'
+  Prestige 8 rank 13 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅩⅠⅠⅠ'
+  Prestige 8 rank 14: '&9Prestige 8 &5Chosen'
+  Prestige 8 rank 14 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅩⅠⅤ'
+  Prestige 8 rank 15: '&9Prestige 8 &5Ascendant'
+  Prestige 8 rank 15 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅩⅤ'
+  Prestige 8 rank 16: '&9Prestige 8 &5Titan'
+  Prestige 8 rank 16 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅩⅤⅠ'
+  Prestige 8 rank 17: '&9Prestige 8 &5Demigod'
+  Prestige 8 rank 17 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅩⅤⅠⅠ'
+  Prestige 8 rank 18: '&9Prestige 8 &5Deity'
+  Prestige 8 rank 18 short placeholder: '&9⚜ⅤⅠⅠⅠ&6&l✧&eⅩⅤⅠⅠⅠ'
+  Prestige 9 rank 0: '&dPrestige 9 &8Commoner'
+  Prestige 9 rank 0 short placeholder: '&d⚜ⅠⅩ&6&l✧&e0'
+  Prestige 9 rank 1: '&dPrestige 9 &fRookie'
+  Prestige 9 rank 1 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅠ'
+  Prestige 9 rank 2: '&dPrestige 9 &fNovice'
+  Prestige 9 rank 2 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅠⅠ'
+  Prestige 9 rank 3: '&dPrestige 9 &fApprentice'
+  Prestige 9 rank 3 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅠⅠⅠ'
+  Prestige 9 rank 4: '&dPrestige 9 &2Adventurer'
+  Prestige 9 rank 4 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅠⅤ'
+  Prestige 9 rank 5: '&dPrestige 9 &2Journeyman'
+  Prestige 9 rank 5 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅤ'
+  Prestige 9 rank 6: '&dPrestige 9 &2Adept'
+  Prestige 9 rank 6 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅤⅠ'
+  Prestige 9 rank 7: '&dPrestige 9 &1Veteran'
+  Prestige 9 rank 7 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅤⅠⅠ'
+  Prestige 9 rank 8: '&dPrestige 9 &1Elite'
+  Prestige 9 rank 8 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅤⅠⅠⅠ'
+  Prestige 9 rank 9: '&dPrestige 9 &5Master'
+  Prestige 9 rank 9 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅠⅩ'
+  Prestige 9 rank 10 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅩ'
+  Prestige 9 rank 10: '&dPrestige 9 &5Hero'
+  Prestige 9 rank 11: '&dPrestige 9 &5Legend'
+  Prestige 9 rank 11 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅩⅠ'
+  Prestige 9 rank 12: '&dPrestige 9 &5Myth'
+  Prestige 9 rank 12 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅩⅠⅠ'
+  Prestige 9 rank 13: '&dPrestige 9 &5Immortal'
+  Prestige 9 rank 13 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅩⅠⅠⅠ'
+  Prestige 9 rank 14: '&dPrestige 9 &5Chosen'
+  Prestige 9 rank 14 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅩⅠⅤ'
+  Prestige 9 rank 15: '&dPrestige 9 &5Ascendant'
+  Prestige 9 rank 15 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅩⅤ'
+  Prestige 9 rank 16: '&dPrestige 9 &5Titan'
+  Prestige 9 rank 16 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅩⅤⅠ'
+  Prestige 9 rank 17: '&dPrestige 9 &5Demigod'
+  Prestige 9 rank 17 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅩⅤⅠⅠ'
+  Prestige 9 rank 18: '&dPrestige 9 &5Deity'
+  Prestige 9 rank 18 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅩⅤⅠⅠⅠ'
+  Prestige 9 rank 19: '&dPrestige 9 &5Godhunter'
+  Prestige 9 rank 19 short placeholder: '&d⚜ⅠⅩ&6&l✧&eⅩⅠⅩ'
+  Prestige 10 rank 0: '&5Prestige 10 &8Commoner'
+  Prestige 10 rank 0 short placeholder: '&5⚜Ⅹ&6&l✧&e0'
+  Prestige 10 rank 1: '&5Prestige 10 &fRookie'
+  Prestige 10 rank 1 short placeholder: '&5⚜Ⅹ&6&l✧&eⅠ'
+  Prestige 10 rank 2: '&5Prestige 10 &fNovice'
+  Prestige 10 rank 2 short placeholder: '&5⚜Ⅹ&6&l✧&eⅠⅠ'
+  Prestige 10 rank 3: '&5Prestige 10 &fApprentice'
+  Prestige 10 rank 3 short placeholder: '&5⚜Ⅹ&6&l✧&eⅠⅠⅠ'
+  Prestige 10 rank 4: '&5Prestige 10 &2Adventurer'
+  Prestige 10 rank 4 short placeholder: '&5⚜Ⅹ&6&l✧&eⅠⅤ'
+  Prestige 10 rank 5: '&5Prestige 10 &2Journeyman'
+  Prestige 10 rank 5 short placeholder: '&5⚜Ⅹ&6&l✧&eⅤ'
+  Prestige 10 rank 6: '&5Prestige 10 &2Adept'
+  Prestige 10 rank 6 short placeholder: '&5⚜Ⅹ&6&l✧&eⅤⅠ'
+  Prestige 10 rank 7: '&5Prestige 10 &1Veteran'
+  Prestige 10 rank 7 short placeholder: '&5⚜Ⅹ&6&l✧&eⅤⅠⅠ'
+  Prestige 10 rank 8: '&5Prestige 10 &1Elite'
+  Prestige 10 rank 8 short placeholder: '&5⚜Ⅹ&6&l✧&eⅤⅠⅠⅠ'
+  Prestige 10 rank 9: '&5Prestige 10 &5Master'
+  Prestige 10 rank 9 short placeholder: '&5⚜Ⅹ&6&l✧&eⅠⅩ'
+  Prestige 10 rank 10 short placeholder: '&5⚜Ⅹ&6&l✧&eⅩ'
+  Prestige 10 rank 10: '&5Prestige 10 &5Hero'
+  Prestige 10 rank 11: '&5Prestige 10 &5Legend'
+  Prestige 10 rank 11 short placeholder: '&5⚜Ⅹ&6&l✧&eⅩⅠ'
+  Prestige 10 rank 12: '&5Prestige 10 &5Myth'
+  Prestige 10 rank 12 short placeholder: '&5⚜Ⅹ&6&l✧&eⅩⅠⅠ'
+  Prestige 10 rank 13: '&5Prestige 10 &5Immortal'
+  Prestige 10 rank 13 short placeholder: '&5⚜Ⅹ&6&l✧&eⅩⅠⅠⅠ'
+  Prestige 10 rank 14: '&5Prestige 10 &5Chosen'
+  Prestige 10 rank 14 short placeholder: '&5⚜Ⅹ&6&l✧&eⅩⅠⅤ'
+  Prestige 10 rank 15: '&5Prestige 10 &5Ascendant'
+  Prestige 10 rank 15 short placeholder: '&5⚜Ⅹ&6&l✧&eⅩⅤ'
+  Prestige 10 rank 16: '&5Prestige 10 &5Titan'
+  Prestige 10 rank 16 short placeholder: '&5⚜Ⅹ&6&l✧&eⅩⅤⅠ'
+  Prestige 10 rank 17: '&5Prestige 10 &5Demigod'
+  Prestige 10 rank 17 short placeholder: '&5⚜Ⅹ&6&l✧&eⅩⅤⅠⅠ'
+  Prestige 10 rank 18: '&5Prestige 10 &5Deity'
+  Prestige 10 rank 18 short placeholder: '&5⚜Ⅹ&6&l✧&eⅩⅤⅠⅠⅠ'
+  Prestige 10 rank 19: '&5Prestige 10 &5Godhunter'
+  Prestige 10 rank 19 short placeholder: '&5⚜Ⅹ&6&l✧&eⅩⅠⅩ'
+  Prestige 10 rank 20: '&5Prestige 10 &5Godslayer'
+  Prestige 10 rank 20 short placeholder: '&5⚜Ⅹ&6&l✧&eⅩⅩ'
+  lootLimiterMessage: '&7[EM] &cYou must unlock the next guild rank through /ag to
+    loot better items!'
+  prestigeUnlockMessageTitle: $player
+  prestigeUnlockMessageSubtitle: '&2has unlocked $tier&2!'
+custom_shop_menu:
+  Shop name: '[EM] Custom Shop'
+  Full inventory message: '[EliteMobs] &4Your inventory is full! You can''t buy items
+    until you get some free space.'
+scrapper_menu:
+  shopName: '[EM] Scrapper'
+get_loot_menu:
+  Menu name: '[EM] Getloot menu'
+  tierTranslation: Level
+  itemFilterTranslation: Filter by items of this level.
+repair_menu:
+  shopName: '[EM] Repair menu!'
+player_status_screen:
+  indexTexts0: '&0&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+  indexTexts1: '&5&l/ag &7- &6EliteMobs Hub'
+  indexHovers1: |-
+    CLICK TO USE
+    The place where you can find
+    NPCs that give quests, buy and
+    sell items, give advice and more!
+  indexTexts2: '&0&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+  indexTexts4: '&6&lIndex'
+  indexTexts6: '&bp. $statsPage &8- &6Stats'
+  indexHovers6: Click to go!
+  indexTexts7: '&bp. $gearPage &8- &6Gear'
+  indexHovers7: Click to go!
+  indexTexts8: '&bp. $teleportsPage &8- &6Teleports'
+  indexHovers8: Click to go!
+  indexTexts9: '&bp. $commandsPage &8- &6Commands'
+  indexHovers9: Click to go!
+  indexTexts10: '&bp. $questsPage &8- &6Quest Tracking'
+  indexHovers10: Click to go!
+  indexTexts11: '&bp. $bossTrackingPage &8- &6Boss Tracking'
+  indexHovers11: Click to go!
+  statsText0: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+  statsText1: '&5&lPlayer Stats:'
+  statsText2: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+  statsText4: '&2Money: &a$money'
+  statsHover4: |-
+    Kill Elite Mobs to loot currency or
+    sell their drops in /em shop or
+    complete quests!
+  statsText6: '&6Guild Tier: &3$guildtier'
+  statsHover6: |-
+    Prestige Tier and Guild Rank:
+    Guild Rank determines how good your loot can be, sets your bonus from the Prestige Tier, among other things. The Prestige Tier unlocks extremely powerful rewards, like increased max health, chance to dodge/crit, increased currency rewards and more! You can unlock Guild Ranks and Prestige Tiers at /ag!
+    ⚜ = prestige rank, ✧ = guild rank!
+  statsText7: '&4Elite Kills: &c$kills'
+  statsHover7: Amount of Elite Mobs killed.
+  statsText8: '&4Max Lvl Killed: &c$highestkill'
+  statsHover8: |-
+    Level of the highest Elite Mob killed.
+    Elite Mob levels are based on the tier
+    of your gear! Higher tiers, higher
+    Elite Mob levels!
+    Note: only non-exploity kills get counted!
+  statsText9: '&4Elite Deaths: &c$deaths'
+  statsHover9: Times killed by Elite Mobs.
+  statsText10: '&5Quests Completed: &d$quests'
+  statsHover10: |-
+    Amount of EliteMobs quests completed.
+    You can accept quests by talking to NPCs!
+  statsText12: '&bScore: &3$score'
+  statsHover12: |-
+    Your EliteMobs score. It goes up
+    when you kill and elite mob,
+    and it goes down when you die
+    to an elite. Higher level
+    elites give more score.
+  gearText0: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+  gearText1: '&7&lArmor & Weapons:'
+  gearText2: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+  gearText3: '&8&lGear Tiers:'
+  gearText4: '          ☠ - $helmettier'
+  gearHover4: $helmet
+  gearText5: '          ▼ - $chestplatetier'
+  gearHover5: $chestplate
+  gearText6: '          Π - $leggingstier'
+  gearHover6: $leggings
+  gearText7: '          ╯╰ - $bootstier'
+  gearHover7: $boots
+  gearText8: '{⚔ - $mainhandtier}    {⛨ - $offhandtier}'
+  gearHover8: '{$mainhand}{$offhand}'
+  gearText10: '{dmg : $damage}    {armr: $armor}'
+  gearHover10: '{Base damage dealt to Elite Mobs}{Damage reduction from Elite Mobs}'
+  gearText11: 'Threat level: $threat'
+  gearHover11: |
+    This determines the level of the
+    Elite Mobs that spawns near you.
+    Takes armor, weapon in hand, guild
+    tier into account.
+  teleportText0: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+  teleportText1: '&2&lTeleports'
+  teleportText2: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+  teleportText3: Spawn
+  teleportHover3: Teleport to spawn!
+  teleportText4: '&6&lAdventurer''s Hub'
+  teleportHover4: Teleport to the Adventurer's Guild Hub!
+  onTeleportsHover: Click to teleport!
+  commandsText0: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+  commandsText1: '&3&lCommands:'
+  commandsText2: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+  commandsText4: '&5/ag'
+  commandsHover4: |-
+    CLICK TO USE
+    The place where you can find
+    NPCs that give quests, buy and
+    sell items, give advice and more!
+  commandsText6: '&5/shareitem'
+  commandsHover6: |-
+    CLICK TO USE
+    Shares the item you're holding
+    on chat!
+  questTrackerText0: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+  questTrackerText1: '&6&lQuests:'
+  questTrackerHover1: Talk to NPCs to accept quests!
+  questTrackerText2: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+  onQuestTrackHover: Click to abandon!
+  bossTrackerText0: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+  bossTrackerText1: '&4&lBoss Tracker:'
+  bossTrackerHover1: Big bosses get displayed here!
+  bossTrackerText2: '&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯'
+  onBossTrackHover: Click to track/untrack!
+  teleportChestMenuName: '&2EliteMobs Teleports'
+  bossTrackerChestMenuName: '&2EliteMobs Boss Tracking'
+  indexChestMenuName: '&2EliteMobs Index'
+  gearChestMenuName: '&2EliteMobs Gear'
+  statsChestMenuName: '&2EliteMobs Stats'
+  commandsChestMenuName: '&2EliteMobs Commands'
+buy_or_sell_menu:
+  Shop name: '[EM] Buy or Sell'
+sell_menu:
+  shopName: '[EM] Sell Shop'
+guild_rank_selector_menu:
+  questTierSelectorMenuTitle: '[EM] Guild Rank Selection'
+  lowTierWarning: '&cElites can''t drop better loot!'
+  normalTierWarning: '&aElite can drop better loot!'
+  notEnoughCurrencyMessages: '&7[EliteMobs] &4You don''t have enough Elite Coins ($neededAmount
+    $currencyName)! Sell some Elite Mob loot to [/em shop]! You have $currentAmount
+    $currencyName.'
+  unlockMessages: "&7[EliteMobs] &aYou have unlocked the $rankName &arank for $price\
+    \ $currencyName. \n&6Happy hunting!"
+  questCompleteBroadcastMessages: '&7[EliteMobs] &a$player &ahas reached the $rankName
+    &aguild rank!'
+  failedMessages: '&7[EliteMobs] &cYou need to unlock other ranks first!'
+  spawnRateModifierMessages: '&fElite Mob spawn rate modifier: &c$modifier%'
+  lootModifierMessages: '&fElite Mob loot modifier: &a$modifier%'
+  difficultyModifierMessages: '&fElite Mob difficulty modifier: &c$modifier%'
+  lootTierMessages: '&2Elites can drop up to tier $tier loot!'
+  currencyBonusMessages: '&a$amountx coins from drops and quests!'
+  healthBonusMessages: '&cAdds $amount ❤ of max health'
+  critBonusMessages: '&eAdds $amount% chance to crit'
+  dodgeBonusMessages: '&8Adds $amount% chance to dodge'
+unbind_menu:
+  shopName: '[EM] Unbind menu!'
+enhancement_menu:
+  shopName: '[EM] Enhancement menu!'
+procedural_shop_menu:
+  Shop name: '[EM] Procedural Item Shop'
+  Full inventory message: '&7[EliteMobs] &4Your inventory is full! You can''t buy
+    items until you get some free space.'
+quest_menu:
+  menuName: '[EM] Quest Selection'
+  cancelQuestMessage1: '&c&l&m&o---------------------------------------------&cYou
+    can only have one quest at a time! Cancelling your ongoing quest will reset quest
+    progress!'
+  cancelQuestMessage2: '&2[Click here to cancel current quest!]'
+  cancelQuestMessage3: '&7You can see your quest status with the command &a/em quest
+    status&c&l&m&o---------------------------------------------'
+  questCancelMessage: '&7[EliteMobs] &cYour ongoing quest has been cancelled!'
+  questStartTitle: You have accepted a quest!
+  questStartSubtitle: Slay $objectiveAmount $objectiveName
+  questCompleteTitle: Quest complete!
+  questCompleteSubtitle: You have slain $objectiveAmount $objectiveName
+  bossBarObjective: Slay $objectiveAmount $objectiveName
+  questRewardMessage: '&7[EM] &aQuest completed! &6Your reward is &2$reward $currencyName'
+  questCompleteBroadcastMessage: '&7[EM] $player &2has completed a $rank &2quest!'
+  questStartBroadcastMessage: '&7[EM] $player &2has accepted a $rank &2quest!'
+  questStatusMessage: '&7[EM] &aYou''ve slain &a$currentAmount &f/ &c$objectiveAmount
+    &a$objectiveName'
+custom_quest_screen:
+  headerTextLines2: |
+    &a&l『&c&l$questName&a&l』
+  acceptTextLines: '&a&l[Accept!]'
+  acceptHoverLines: "&aClick to \n&aaccept quest!"
+  acceptedTextLines: '&2&lAccepted! &aTurn in with $npcName &4[Abandon]'
+  acceptedHoverLines: '&aClick to abandon quest!'
+  trackTextLines: '&2&l[Track]'
+  trackHoverLines: '&aClick to track quest!'
+  untrackTextLines: '&4&l[Untrack]'
+  untrackHoverLines: '&cClick to untrack quest!'
+  completedTextLines: '&2&l[Turn in!]'
+  completedHoverLines: '&aClick to turn quest in!'
+  turnedInTextLines: '&8[Completed!]'
+  turnedInHoverLines: '&8Already turned in!'
+  objectivesLine: '&c&lObjectives:'
+  killQuestDefaultSummaryLine: '&c➤Kill $name:$color$current&0/$color$target'
+  fetchQuestDefaultSummaryLine: '&c➤Get $name:$color&$current&0/$color$target'
+  dialogQuestDefaultSummaryLine: '&c➤Go talk to $name $location'
+  rewardsLine: '&2&lRewards:'
+  rewardsDefaultSummaryLine: '&2➤$amountx $rewardName &8($chance%)'
+refiner_menu:
+  shopName: '[EM] Place 10 scrap!'
+smelt_menu:
+  shopName: '[EM] Place 25 scrap!'
+dynamic_quest_screen:
+  questName: Slay $amount $name
+  headerTextLines2: |-
+    &c&lGuild request!
+    &0&m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+  defaultLoreTextLines: '&8Slay $amount $name!'
+  acceptTextLines: '&a&lAccept!'
+  acceptHoverLines: "&aClick to \n&aaccept quest!"
+  acceptedTextLines: '&2&lAccepted! &4[Abandon]'
+  acceptedHoverLines: '&aClick to abandon quest!'
+  completedTextLines: '&2&l[Turn in!]'
+  completedHoverLines: '&aClick to turn quest in!'
+  turnedInTextLines: '&8[Completed!]'
+  turnedInHoverLines: '&8Already turned in!'
+  objectivesLine: '&c&lObjectives:'
+  killQuestDefaultSummaryLine: '&c➤Kill $name:$color$current&0/$color$target'
+  rewardsLine: '&2&lRewards:'
+  rewardsDefaultSummaryLine: '&2➤$amountx $rewardName &8($chance%)'
+zombie_parents:
+  deathMessage:
+  - You monster!
+  - My baby!
+  - What have you done!?
+  - Revenge!
+  - Nooooo!
+  - You will pay for that!
+  - Eh, he was adopted
+  - He's dead! Again!
+  - He's deader than before!
+  - You broke him!
+  bossEntityDialog:
+  - You're embarrassing me!
+  - He's bullying me!
+  - He's the one picking on me!
+  - I can deal with this alone!
+  - Leave me alone, I got this!
+  - Stop following me around!
+  - God this is so embarrassing!
+  - He took my lunch money!
+  - He's bullying me!
+  zombieDad:
+  - Get away from my son!
+  - Stand up for yourself son!
+  - I'll deal with him!
+  - Stop picking on my son!
+  - Why are you doing this?
+  - I'll talk to your parents!
+  - You go kiddo!
+  - Show him who's boss kiddo!
+  - Nice punch kiddo!
+  zombieMom:
+  - Hands off my child!
+  - Are you hurt sweetie?
+  - Did he hurt you sweetie?
+  - Let me see that booboo sweetie
+  - I'll talk to his parents!
+  - You forgot your jacket sweetie!
+  - Posture, sweetheart
+  - Break it up!
+  - Stop this!
+  - Did you take out the garbage?
+zombie_necronomicon:
+  summoningChant: Nor is it to be thought...that man is either the oldest or the last
+    of earth's masters, or that the common bulk of life and substance walks alone.
+    The Old Ones were, the Old Ones are, and the Old Ones shall be. Not in the spaces
+    we know, but between them, they walk serene and primal, undimensioned and to us
+    unseen. Yog-Sothoth knows the gate. Yog-Sothoth is the gate. Yog-Sothoth is the
+    key and guardian of the gate. Past, present, future, all are one in Yog-Sothoth.
+    He knows where the Old Ones broke through of old, and where They shall break through
+    again. He knows where They had trod earth's fields, and where They still tread
+    them, and why no one can behold Them as They tread. By Their smell can men sometimes
+    know Them near, but of Their semblance can no man know, saving only in the features
+    of those They have begotten on mankind; and of those are there many sorts, differing
+    in likeness from man's truest eidolon to that shape without sight or substance
+    which is Them. They walk unseen and foul in lonely places where the Words have
+    been spoken and the Rites howled through at their Seasons. The wind gibbers with
+    Their voices, and the earth mutters with Their consciousness. They bend the forest
+    and crush the city, yet may not forest or city behold the hand that smites. Kadath
+    in the cold waste hath known Them, and what man knows Kadath? The ice desert of
+    the South and the sunken isles of Ocean hold stones whereon Their seal is engraver,
+    but who hath seen the deep frozen city or the sealed tower long garlanded with
+    seaweed and barnacles? Great Cthulhu is Their cousin, yet can he spy Them only
+    dimly. Iä! Shub-Niggurath! As a foulness shall ye know Them. Their hand is at
+    your throats, yet ye see Them not; and Their habitation is even one with your
+    guarded threshold. Yog-Sothoth is the key to the gate, whereby the spheres meet.
+    Man rules now where They ruled once; They shall soon rule where man rules now.
+    After summer is winter, after winter summer. They wait patient and potent, for
+    here shall They reign again.
+zombie_friends:
+  friend1Name: 'BFF #1'
+  friend2Name: 'BFF #2'
+  friendDeathMessage:
+  - Noooo!
+  - Mediocre!
+  - Zacharias!
+  - He's deader than before!
+  - Vengeance!
+  - Revenge!
+  - I can't believe you've done this.
+  originalEntityDialog:
+  - Let's play ZombieCraft later!
+  - Feel the power of friendship!
+  - El pueblo, unido!
+  - I called my friends over!
+  - BFF power!
+  - One for all!
+  - Get him!
+  - Screw you guys, I'm going home!
+  reinforcementDialog:
+  - Don't mess with our friends!
+  - We got your back Zach!
+  - Backup has arrived!
+  - One for all, one for all!
+  - This is going to be easy!
+  - Give up we have the high ground!
+  - You wanna go bruv?
+  - Worldstaaaaaaaaar!
+  - What are you doing to our friend
+  - Feel the power of friendship!
+  - Friendship power at 100%!
+  - Zombies, assemble!
+  - We got your back mate!
+  - Together we are better!
+  - The more the merrier!
+  - I got you fam!
+  - All for one!
+taunt:
+  onDamaged:
+  - Ow!
+  - Oi!
+  - Stop that!
+  - Why?!
+  - You fight like a Dairy Farmer!
+  - You are a pain in the backside!
+  - En garde! Touche!
+  - Hacks!
+  - My health is bugged, unkillable!
+  - Your hits only make me stronger!
+  - Sticks and stones...
+  - '''tis but a flesh wound!'
+  - Emperor protects!
+  - Herobrine, aid me!
+  - Behind you! A creeper!
+  - I have made a terrible mistake.
+  - What doesn't kill me...
+  - Zombies dig scars
+  - I shall show you my true power!
+  - Prepare for my ultimate attack!
+  - My reinforcements are arriving!
+  - You're going to pay for that!
+  - That's going to leave a mark!
+  - An eye for an eye!
+  - Health insurance will cover that
+  - I felt that one in my bones
+  - '''tis but a scratch'
+  - What was that? A soft breeze?
+  - You'll never defeat me like that
+  - Pathetic.
+  - Weak.
+  - That didn't even dent my armor!
+  - This is going to be an easy one
+  - My grandchildren will feel that
+  - Are you even trying?
+  - An admin just fully healed me
+  - Haxxor!
+  - Me? Damaged? Hacks!
+  - I can't be defeated!
+  - Good thing I'm using hacks!
+  - Watch out! Herobrine behind you!
+  - My life for Aiur!
+  - Your home is getting griefed!
+  - Why can't we be friends?
+  - Valhalla!
+  - Notch save me!
+  - No retreat!
+  - Hit me with your best shot!
+  onDamagedByBow:
+  - Fight me like a Player!
+  - Afraid to come up-close?
+  - I can smell your fear from here!
+  - Did you forget your sword?
+  - Coward! Bow are no fair!
+  - Bows? That's so 2011...
+  - Bows are for the weak of mind!
+  - Bows are for the weak of spirit!
+  - Bows are for the weak of heart!
+  - I thought we agreed no bows!
+  - Bows? You'll regret that
+  - Ow!
+  - Oi!
+  - Stop that!
+  - Why?!
+  - You fight like a Dairy Farmer!
+  - You are a pain in the backside!
+  - En garde! Touche!
+  - Hacks!
+  - My health is bugged, unkillable!
+  - Your hits only make me stronger!
+  - Sticks and stones...
+  - '''tis but a flesh wound!'
+  - Emperor protects!
+  - Herobrine, aid me!
+  - Behind you! A creeper!
+  - I have made a terrible mistake.
+  - What doesn't kill me...
+  - Zombies dig scars
+  - I shall show you my true power!
+  - Prepare for my ultimate attack!
+  - My reinforcements are arriving!
+  - You're going to pay for that!
+  - That's going to leave a mark!
+  - An eye for an eye!
+  - Health insurance will cover that
+  - I felt that one in my bones
+  - '''tis but a scratch'
+  - What was that? A soft breeze?
+  - You'll never defeat me like that
+  - Pathetic.
+  - Weak.
+  - That didn't even dent my armor!
+  - This is going to be an easy one
+  - My grandchildren will feel that
+  - Are you even trying?
+  - An admin just fully healed me
+  - Haxxor!
+  - Me? Damaged? Hacks!
+  - I can't be defeated!
+  - Good thing I'm using hacks!
+  - Watch out! Herobrine behind you!
+  - My life for Aiur!
+  - Your home is getting griefed!
+  - Why can't we be friends?
+  - Valhalla!
+  - Notch save me!
+  - No retreat!
+  - Hit me with your best shot!
+  onDamage:
+  - A solid hit!
+  - He shoots, and he scores!
+  - You'll feel that in the morning!
+  - Victory approaches!
+  - Victory shall be mine!
+  - That was only half of my power!
+  - You came to the wrong hood!
+  - You messed with the wrong mob!
+  - Get ready to get mobbed on!
+  - This was your last mistake!
+  - Feel the burn!
+  - John Cena
+  - How are you still standing?
+  - Just give up already!
+  - Give up!
+  - I have the high ground!
+  - I will end you!
+  - Hope you came prepared for pain!
+  - The hunter becomes the hunted!
+  - Blood for the blood throne!
+  - Skulls for the skull throne!
+  - A good player is a dead player!
+  - Git gud!
+  - Praise the Sun!
+  - The end draws near!
+  - You are not prepared.
+  - Zug zug!
+  - Hardly worth my time!
+  - I thought this was a challenge?
+  - 'Pro tip: don''t get hit'
+  - Ima firin mah lazer bwooooooooo
+  - For the Emperor!
+  - Herobrine shall be pleased!
+  - This is the end for you!
+  - Are you even trying?
+  - Weakling!
+  - Pathetic.
+  - Maybe this will wake you up.
+  - This is just the beggining!
+  - We're just getting started!
+  - That was just a warm-up!
+  - You are no match for me!
+  - RKO out of nowhere!
+  - I can do this all night long!
+  - A fine punching bag!
+  - I am the night!
+  - I wonder what will break first
+  - Revenge for Steve! You monster!
+  - Join the mob side!
+  - Too easy, too easy!
+  - Too easy!
+  - You can't defeat me!
+  - Pikachuuuuuu
+  - Avada kedavra!
+  - Crucio!
+  - Jierda!
+  - A critical hit!
+  - This is what skills looks like!
+  - 9001 damage!
+  - Still standing?
+  - Face your defeat!
+  - A taste of pain to come!
+  - I'll make you endangered!
+  onDeath:
+  - Alas, poor Yorick!
+  - The rest is silence
+  - I shall return
+  - Unforgivable
+  - I live, I die, I live again!
+  - WITNESS ME
+  - I ride to valhalla!
+  - VALHALLA!
+  - VALHALLA! DELIVERANCE
+  - You win, this time
+  - A blight upon your land!
+  - A pox upon thee!
+  - You'll join me soon enough!
+  - This is not over
+  - Death is but a setback
+  - Not like this...
+  - I just wanted to go into space
+  - We could've been friends
+  - Your sins crawling on your back
+  - See you in a bit
+  - See you later
+  - I'll be waiting for you
+  - I will be avenged!
+  - I won't go gently into the night
+  - Should've gotten life insurance
+  - It was my last day on the job
+  - It was my last day here
+  - Et tu, Brute?
+  - RIP
+  - x.x
+  - (x.x)
+  - xox
+  - Fainted
+  - GG, WP
+  - GG
+  - WP
+  - GG no RE
+  - HAX
+  - Hacker
+  - Not fair I was lagging
+  - You win, this time
+  - You monster...
+  - Mediocre...
+  onTarget:
+  - OI! Get over here!
+  - What's that I see? A coward?
+  - Sir, prepare your fisticuffs!
+  - Let's settle this like cavemen!
+  - En garde!
+  - Look out! A creeper, behind you!
+  - Aren't you a right ugly mug!
+  - You look delicious.
+  - Prepare for trouble!
+  - Let the best click spammer win!
+  - SPARTAAAAAA
+  - I am actually level 9001
+  - Not an Elite Mob
+  - Poorly disguised Elite Mob
+  - Ah, fresh prey!
+  - The hunter becomes the hunted!
+  - Killing me crashes the server
+  - I'm actually a disguised player!
+  - I'm not going to drop any loot!
+  - Why can't we be friends?
+  - Sssssss
+  - This is my last day on the job!
+  - Stop right there criminal scum!
+  - Prepare to die!
+  - Praise the Sun!
+  - Git gud
+  - Alea jacta est!
+  - Facta, non verba!
+  - Skulls for the skull throne!
+  - Blood for the blood throne!
+  - A sacrifice for Herobrine!
+  - I shall pierce the heavens!
+  - Just who do you think I am!?
+  - A weakling! He's mine.
+  - Dibs on the weakling!
+  - Accio player!
+  - A duel to the death!
+  - I challenge you to a duel!
+  - Pika pika!
+  - Did you just call me an infernal
+  - What did you just call me?
+  - I know what you did you monster!
+  - This is how your story ends!
+  - Prepare for trouble!
+  - I've been preparing for this!
+  - I am prepared. Are you?
+  - A worthy foe!
+  - A worthy opponent!
+  - A newbie! It's my lucky day!
+  - Your stuff or your life!
+  - This is a robbery!
+  - It's you! You monster!
+  - So hungry, give me your flesh!
+  - There he is!
+  - Must've been my imagination
+  - Hi I'm Mr Meeseeks!
+  - I'm Mr Meeseeks, look at me!
+  - Your diamonds or your life!
+  - For king and country!
+  - Hit me with your best shot!
+  - Witness me!
+  - Witness me blood bag!
+  - I go all shiny and chrome!
+elite_blaze:
+  name: '&fLvl &2$level &fElite &eBlaze'
+  deathMessages:
+  - $player &cwas lit ablaze by $entity!
+elite_cave_spider:
+  name: '&fLvl &2$level &fElite &3Cave Spider'
+  deathMessages:
+  - $player &cbecame entangled in $entity's &cweb!
+elite_creeper:
+  name: '&fLvl &2$level &fElite &2Creeper'
+  deathMessages:
+  - $player &cwas blasted away by $entity!
+  - $entity &cjust oh man'd $player&c!
+elite_drowned:
+  name: '&fLvl &2$level &fElite &3Drowned'
+  deathMessages:
+  - $player &chas been brought down to the depths by $entity!
+  - $player &chas been drowned by $entity!
+elite_elder_guardian:
+  name: '&fLvl &2$level &fElite &3Elder Guardian'
+  deathMessages:
+  - $entity &cprevented $player &cfrom exploring the depths!
+elite_guardian:
+  name: '&fLvl &2$level &fElite &3Guardian'
+  deathMessages:
+  - $entity &cprevented $player &cfrom exploring the depths!
+elite_enderman:
+  name: '&fLvl &2$level &fElite &5Enderman'
+  deathMessages:
+  - $entity &csent $player &cinto the void!
+  - $player &clooked at $entity &cwrong!
+  - $player &cand $entity &cbecame best friends!
+elitemob_endermite:
+  name: '&fLvl &2$level &fElite &7Endermite'
+  deathMessages:
+  - $entity &cis to $player &cwhat David is to Goliath!
+elite_evoker:
+  name: '&fLvl &2$level &fElite &5Evoker'
+  deathMessages:
+  - $player &cwas enchanted by $entity&c!
+elite_husk:
+  name: '&fLvl &2$level &fElite &7Husk'
+  deathMessages:
+  - $player &cwas hollowed out by $entity&c!
+elite_illusioner:
+  name: '&fLvl &2$level &fElite &8Illusioner'
+  deathMessages:
+  - $player&c fell for $entity's &cillusions!
+elite_iron_golem:
+  name: '&fLvl &2$level &fElite &fIron Golem'
+  deathMessages:
+  - $player &cmessed with the wrong $entity&c!
+  - $player &chas been taught the way of fist by $entity&c!
+elite_phantom:
+  name: '&fLvl &2$level &fElite &9Phantom'
+  deathMessages:
+  - $player &cjust had a bad nightmare about $entity&c!
+  - $player &cwill be having nightmares about $entity&c!
+  - $entity &chas taught $player &cthe value of sleep!
+elite_pillager:
+  name: '&fLvl &2$level &fElite &8Pillager'
+  deathMessages:
+  - $entity &cplundered $player&c!
+  - $entity &cpillaged $player&c!
+elite_polar_bear:
+  name: '&fLvl &2$level &fElite &fPolar Bear'
+  deathMessages:
+  - $player &cwas clawed to death by $entity&c!
+  - $player &cwas mauled to death by $entity&c!
+elite_ravager:
+  name: '&fLvl &2$level &fElite &6Ravager'
+  deathMessages:
+  - $entity &cshowed $player &cwho's in charge!
+elite_silverfish:
+  name: '&fLvl &2$level &fElite &7Silverfish'
+  deathMessages:
+  - $player &cmistook $entity &cfor a stone block!
+elite_skeleton:
+  name: '&fLvl &2$level &fElite &fSkeleton'
+  deathMessages:
+  - $player &cbecame $entity's &cpin cushion!
+  - $entity &cwanted to see $player's &cbones!
+elite_spider:
+  name: '&fLvl &2$level &fElite &7Spider'
+  deathMessages:
+  - $player &cbecame entangled in $entity's &cweb!
+  - $entity &chas devoured $player&c!
+elite_stray:
+  name: '&fLvl &2$level &fElite &bStray'
+  deathMessages:
+  - $player &cwas led astray by $entity&c!
+elite_vex:
+  name: '&fLvl &2$level &fElite &bVex'
+  deathMessages:
+  - $entity &chas vexed $player&c!
+elite_vindicator:
+  name: '&fLvl &2$level &fElite &8Vindicator'
+  deathMessages:
+  - $entity &cvindicated his fighting skills over $player&c!
+elite_witch:
+  name: '&fLvl &2$level &fElite &5Witch'
+  deathMessages:
+  - $player &cbecame $entity's &ctest subject!
+  - $player &chas been bewitched by $entity&c!
+elite_wither_skeleton:
+  name: '&fLvl &2$level &fElite &8Wither Skeleton'
+  deathMessages:
+  - $entity's &carrows withered away $player&c!
+  - $entity's &chas withered $player &caway!
+elite_zombie:
+  name: '&fLvl &2$level &fElite &2Zombie'
+  deathMessages:
+  - $player &cwas devoured by $entity&c!
+  - $entity &cgot to $player's &cbrains!
+elite_ghast:
+  name: '&fLvl &2$level &fElite &fGhast'
+  deathMessages:
+  - $player &cdidn't dodge $entity&c &cfireballs!
+  - $player &cwas blown to bits $entity&c!
+  - $entity &cgot $player's &cbacon!
+elite_wolf:
+  name: '[$level] Elite Wolf'
+  deathMessages:
+  - $entity tore $player apart!
+  - $player was torn to shreds by $entity!
+elite_ender_dragon:
+  name: '&fLvl &2$level &fElite &5Ender Dragon'
+  deathMessages:
+  - $entity &chas ended $player!
+elite_shulker:
+  name: '&fLvl &2$level &fElite &5Shulker'
+  deathMessages:
+  - $entity &cshowed $player &cnew heights!
+super_chicken:
+  name: '&2Super Chicken'
+super_cow:
+  name: '&2Super Cow'
+super_mushroom_cow:
+  name: '&2Super Mooshroom Cow'
+super_pig:
+  name: '&dSuper Pig'
+super_sheep:
+  name: Super Sheep
+elite_killer_bunny:
+  name: '&fLvl &2$level &fElite &cKiller Rabbit'
+  deathMessages:
+  - $entity &cmade $player &cgo live in a farm upstate!
+  - $entity &ceducated $player using a stick and not a carrot!
+elite_llama:
+  name: '&fLvl &2$level &fElite &5Llama'
+  deathMessages:
+  - $player &cwas spit on by $entity&c!
+  - $player &cwas made $entity&c angry!
+elite_slime:
+  name: '&2Lvl &2$level &fElite &2Slime'
+  deathMessages:
+  - $player was squished by $entity&f!
+elite_goat:
+  name: '&fLvl &2$level &fElite &5Goat'
+  deathMessages:
+  - $player &cwas rammed by $entity&c!
+  - $player &cwas run over by $entity&c!
+  - $player &cwas trampled by $entity&c!
+  - $player &cgot $entity&c horns!
+elite_zombified_piglin:
+  name: '&fLvl &2$level &fElite &6Zombified Piglin'
+  deathMessages:
+  - $player &cwas mobbed to death by $entity&c!
+  - $entity &cgot $player's &cbacon!
+elite_zoglin:
+  name: '&fLvl &2$level &fElite &dZoglin'
+  deathMessages:
+  - $player &cmessed with the $entity &cand got the horns!
+  - $entity &cgot $player's &cbacon!
+elite_piglin:
+  name: '&fLvl &2$level &fElite &ePiglin'
+  deathMessages:
+  - $entity &cwill fetch a good price for $player's remains!
+  - $entity &ctaught $player &cthe value of gold!
+elite_hoglin:
+  name: '&fLvl &2$level &fElite &dHoglin'
+  deathMessages:
+  - $player &cmessed with the $entity &cand got the horns!
+  - $entity &cgot $player's &cbacon!
+elite_piglin_brute:
+  name: '&fLvl &2$level &fElite &cPiglin Brute'
+  deathMessages:
+  - $entity &ctenderized $player!
+  - $entity &cbrutalized $player!
+elite_bee:
+  name: '&fLvl &2$level &fElite &eBee'
+  deathMessages:
+  - $player &cwas stung by $entity!
+MobCombatSettings:
+  bossLocationMessage: '&7[EM] &2[Click to track!]'
+  bossKillParticipationMessage: '&eYour damage: &2$playerDamage'
+  defaultOtherWorldBossLocationMessage: '$name: In different world!'
+  weakText: '&9&lWeak!'
+  resistText: '&c&lResist!'
+  fullHealMessage: '&2FULL HEAL!'
+check_tier:
+  message1: '&7[EM] Your combat tier is $tier'
+  message2: '&7[EM] Your guild tier bonus is $tier'
+  message3: '&7[EM] &aYour total threat tier is $tier'
+check_tier_others:
+  message1: '&7[EM] $player''s combat tier is $tier'
+  message2: '&7[EM] $player''s guild tier bonus is $tier'
+  message3: '&7[EM] &a$player''s total threat tier is $tier'
+ScrapItemSettings:
+  scrapItemName: '&2Level $level Scrap'
+  scrapItemLore:
+  - '&aGather 25 scrap of the same level in'
+  - '&aorder to create an item upgrade orb!'
+  - '&aYou can also use scrap to repair'
+  - '&aitems and craft higher level scrap!'
+  - '&2Do this at the Adventurer''s Guild Hub!'
+  upgradeItemName: '&2Level $level Upgrade Orb'
+  upgradeItemLore:
+  - '&aUse at at the Enhancer NPC to upgrade'
+  - '&aitems up to level $orbLevel!'
+Quests:
+  questJoinMessage: '&aYou have accepted the quest $questName &a!'
+  questLeaveMessage: '&cYou have abandoned the quest $questName &c!'
+  questCompleteMessage: '&2You completed the quest $questName &2!'
+  leaveWhenNoActiveQuestsExist: '&cYou don''t currently have an active quest!'
+  questLeaveConfirmationMessage: '&cAre you sure you want to abandon your current
+    quest? Do &a/em confirm &c to confirm your choice!'
+  questStartTitle: '&aQuest Accepted!'
+  questCompleteTitle: '&2Quest Completed!'
+  questLeaveTitle: '&cQuest Abandoned!'
+  killQuestChatProgressionMessage: '&8[EliteMobs]&c➤Kill $name:$color$current&0/$color$target'
+  fetchQuestChatProgressionMessage: '&8[EliteMobs]&c➤Get $name:$color$current&0/$color$target'
+  dialogQuestChatProgressionMessage: '&8[EliteMobs]&c➤Talk to $name:$color$current&0/$color$target'
+  questCapMessage: '&8[EliteMobs] &cYou have reached the maximum amount of active
+    quests (10)! &4Abandon or complete at least one active quest if you want to get
+    more quests!'
+  killQuestScoreboardProgressionMessage: '&c➤Kill $name:$color$current&0/$color$target'
+  fetchQuestScoreboardProgressionMessage: '&c➤Get $name:$color$current&0/$color$target'
+  dialogQuestScoreboardProgressionMessage: '&c➤Talk to $name:$color$current&0/$color$target'
+  chatTrackMessage: '&8[EliteMobs]&2 Click here to track your quest!'
+  chatTrackHover: '&2Click to track!'
+  chatTrackingMessage: '&8[EliteMobs]&9 You are now tracking a quest!'
+  chatTrackingHover: '&2Click to untrack/track! /em -> Quests to track a different
+    quest!'
+  noQuestDestinationFound: '[EM] No quest destination found!'
+  questDestinationInOtherWorld: '[EM] Go to world $world!'
+  questAlreadyCompletedMessage: '&8[EliteMobs] &cYou already completed this quest!'
+  questPrerequisitesMissingMessage: '&8[EliteMobs] &cCan''t accept this quest yet!'
+  lowRankDynamicQuestWarning: '&8[EliteMobs] &cYou can''t take these quests with your
+    current guild rank! Increase your guild rank to accept these quests.'
+  questTurnInObjective: '&a2Talk to $npcName'
+Wormholes:
+  dungeonNotInstalledMessage: '&8[EliteMobs] &cDungeon $dungeonID &cis not installed!
+    This teleport will not work.'
+  defaultPortalMissingMessage: '&8[EliteMobs] &cThis portal doesn''t seem to lead
+    anywhere!'
+Arenas:
+  notEnoughPlayersMessage: '&8[EliteMobs] &cYou need at least $amount to start the
+    match!'
+  startingMessage: '&2Starting!'
+  startingSubtitle: '&2in $count...'
+  arenaFullMessage: '&4[EliteMobs] &cArena is full! You can spectate instead while
+    you wait for it to finish!'
+  arenasOngoingMessage: '&4[EliteMobs] &cCan''t join the arena now - a match is currently
+    happening! You can spectate instead while you wait for it to finish!'
+  arenaStartHintMessage: '&2[EliteMobs] &aYou can start the arena by doing &2/em start'
+  arenaQuitHintMessage: '&4[EliteMobs] &cYou can leave the arena by doing &4/em quit'
+  arenaJoinPlayerMessage: "&2[EliteMobs] &aYou can start the arena by doing &2/em\
+    \ start &aif there are at least &2$count &aplayers in it! \nYou can leave the\
+    \ arena by doing &c/em quit"
+  arenaJoinSpectatorMessage: '&2[EliteMobs] &aYou can leave the arena at any time
+    using &2/em quit'
+  waveTitle: '&aWave &2$wave'
+  victoryTitle: '&2Victory!'
+  victorySubtitle: '&aCompleted &2$wave &awaves!'
+  defeatTitle: '&4Defeat!'
+  defeatSubtitle: '&cReached wave &4$wave&c!'
+  victoryBroadcast: Arena $arenaName was conquered by $players!
+  joinPlayerTitle: '&aStart with &2/em start &a!'
+  joinPlayerSubtitle: '&cLeave with &4/em quit &c!'
+  joinSpectatorTitle: '&aNow spectating!'
+  joinSpectatorSubtitle: '&cLeave with &4/em quit &c!'
+berserker_charm:
+  name: '&bBerserker Charm'
+  lore:
+  - '&aLose yourself in the face of'
+  - '&aoverwhelming adversity in more'
+  - '&aways than one...'
+grunts_sword:
+  name: '&fGrunt''s Sword'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+lucky_charms:
+  name: '&bLucky Charms'
+  lore:
+  - '&aPart of a complete breakfast!'
+  - '&cNote: Absolutely not a part of'
+  - '&ca complete breakfast.'
+rabbit_charm:
+  name: '&bRabbit Charm'
+  lore:
+  - '&aWith this charm, just about'
+  - '&aany destination is only a hop,'
+  - '&askip and a jump away!'
+scorpion_charm:
+  name: '&bScorpion Charm'
+  lore:
+  - '&aFloat like a butterfly,'
+  - '&asting like a bee,'
+  - '&apoison like a potato!'
+wolfsbane:
+  name: '&7Wolfsbane'
+  lore:
+  - '&aMade from the remains of'
+  - '&aan alpha werewolf, all'
+  - '&awolves cower at the sight of it.'
+grunts_boots:
+  name: '&fGrunt''s Boots'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+shulker_charm:
+  name: '&bShulker Charm'
+  lore:
+  - '&aI believe I can fly'
+  - '&aI believe I can touch the sky'
+  - '&aAnd you''re coming with me!'
+challengers_leggings:
+  name: '&cChallenger''s Leggings'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+invictus_boots:
+  name: '&4Invictus Boots'
+  lore:
+  - '&2Awarded to the champions of the'
+  - '&2Wood League Arena!'
+veterans_boots:
+  name: '&6Veteran''s Boots'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+goblin_shooter:
+  name: '&8Goblin Shooter'
+  lore:
+  - '&8A treasure among goblins!'
+challengers_helmet:
+  name: '&cChallenger''s Helmet'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+novices_sword:
+  name: '&8Novice''s Sword'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+grunts_chestplate:
+  name: '&fGrunt''s Chestplate'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+summon_merchant_scroll:
+  name: '&6Summon Merchant Scroll'
+  lore:
+  - '&aNeed to sell an item?'
+  - '&aRight-click to activate'
+  - '&aor yell &9Jeeves!'
+firefly_charm:
+  name: '&bFirefly Charm'
+  lore:
+  - '&aLight up the night!'
+meteor_shower_scroll:
+  name: '&7Meteor Shower Scroll'
+  lore:
+  - '&4Call forth destruction.'
+  - '&4Single-use.'
+invictus_chestplate:
+  name: '&4Invictus Chestplate'
+  lore:
+  - '&2Awarded to the champions of the'
+  - '&2Wood League Arena!'
+novices_boots:
+  name: '&8Novice''s Boots'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+zombie_kings_axe:
+  name: '&4Zombie King''s Axe'
+  lore:
+  - The axe of the one Zombies
+  - call their king.
+  - The bloodlust is palpable.
+salamander_charm:
+  name: '&bSalamander Charm'
+  lore:
+  - '&aAlmost as hot as MagmaGuy''s'
+  - '&anew mixtape!'
+the_stinger:
+  name: '&eThe Stinger'
+  lore:
+  - '&aFloat like a butterfly,'
+  - '&asting like a bee!'
+goblin_cleaver:
+  name: '&8Goblin Cleaver'
+  lore:
+  - '&8A treasure among goblins!'
+werewolf_bone:
+  name: '&6Werewolf Bone'
+  lore:
+  - '&aHaving killed the alpha,'
+  - '&athis temporarily makes you!'
+  - '&athe wolves'' new leader'
+invictus_leggings:
+  name: '&4Invictus Leggings'
+  lore:
+  - '&2Awarded to the champions of the'
+  - '&2Wood League Arena!'
+goblin_chestplate:
+  name: '&8Goblin Chestplate'
+  lore:
+  - '&8A treasure among goblins!'
+goblin_boots:
+  name: '&8Goblin Boots'
+  lore:
+  - '&8A treasure among goblins!'
+challengers_sword:
+  name: '&cChallenger''s Sword'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+goblin_poker:
+  name: '&8Goblin Poker'
+  lore:
+  - '&8A treasure among goblins!'
+invictus_pickaxe:
+  name: '&4Invictus Pickaxe'
+  lore:
+  - '&2Awarded to the champions of the'
+  - '&2Wood League Arena!'
+grappling_arrow:
+  name: '&6Grappling Arrow'
+  lore:
+  - '&eFire at a TARGET BLOCK to grapple!'
+challengers_boots:
+  name: '&cChallenger''s Boots'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+depths_seeker:
+  name: '&2Depths seeker'
+  lore:
+  - '&9Come from depths immeasurable'
+  - '&9and looted from monster most vile,'
+  - '&9there is no telling what horrors'
+  - '&9this fishing rod has seen.'
+novices_helmet:
+  name: '&8Novice''s Helmet'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+invictus_sword:
+  name: '&4Invictus Sword'
+  lore:
+  - '&2Awarded to the champions of the'
+  - '&2Wood League Arena!'
+unbind_scroll:
+  name: '&5Unbind Scroll'
+  lore:
+  - '&5Allows users to unbind one'
+  - '&5soulbound item at an anvil!'
+  - '&5Use wisely!'
+novices_leggings:
+  name: '&8Novice''s Leggings'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+rod_of_the_depths:
+  name: '&3Rod of the Depths'
+  lore:
+  - '&3You want to hear about where'
+  - '&3I got this from? Sit down lad,'
+  - '&3I''ve got a tale for ye...'
+grunts_leggings:
+  name: '&fGrunt''s Leggings'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+owl_charm:
+  name: '&bOwl Charm'
+  lore:
+  - '&aBecome the ultimate nocturnal'
+  - '&apredator!'
+vampiric_charm:
+  name: '&bVampiric Charm'
+  lore:
+  - '&aNo one can remember where this'
+  - '&acame from, and no one can,'
+  - '&aforget how dangerous it is...'
+magmaguys_toothpick:
+  name: '&4Magmaguy&c''s &2Toothpick'
+  lore:
+  - '&aIn nearly mint condition!'
+the_feller:
+  name: '&2The Feller'
+  lore:
+  - '&aEven in your sleep,'
+  - '&ayou can feel this axe''''s'
+  - '&asaplust'
+grunts_helmet:
+  name: '&fGrunt''s Helmet'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+novices_chestplate:
+  name: '&8Novice''s Chestplate'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+invictus_helmet:
+  name: '&4Invictus Helmet'
+  lore:
+  - '&2Awarded to the champions of the'
+  - '&2Wood League Arena!'
+challengers_chestplate:
+  name: '&cChallenger''s Chestplate'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+fishy_charm:
+  name: '&bFishy Charm'
+  lore:
+  - '&aThere''s just something not'
+  - '&aquite right with this one...'
+veterans_chestplate:
+  name: '&6Veteran''s Chestplate'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+veterans_sword:
+  name: '&6Veteran''s Sword'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+invictus_shovel:
+  name: '&4Invictus Shovel'
+  lore:
+  - '&2Awarded to the champions of the'
+  - '&2Wood League Arena!'
+elephant_charm:
+  name: '&bElephant Charm'
+  lore:
+  - '&aGain the power of an elephant'
+  - '&astampede, for the cost of the'
+  - '&aspeed of an elephant stampede!'
+summon_wolf_scroll:
+  name: '&6Summon Wolf Scroll'
+  lore:
+  - '&aSummons a good boy'
+  - '&ato help you bite Elites!'
+  - '&aMake sure you pet it!'
+cheetah_charm:
+  name: '&bCheetah Charm'
+  lore:
+  - '&aCheetahs can reach speeds of'
+  - '&a120 km/h... for about 60'
+  - '&aseconds. Make them count!'
+goblin_leggings:
+  name: '&8Goblin Leggings'
+  lore:
+  - '&8A treasure among goblins!'
+goblin_helmet:
+  name: '&8Goblin Helmet'
+  lore:
+  - '&8A treasure among goblins!'
+dwarven_greed:
+  name: '&4Dwarven Greed'
+  lore:
+  - '&cThose who delve too greedily'
+  - '&cand too deep may wake ancient'
+  - '&chorrors of shadow and flame'
+  - '&cbest left undisturbed.'
+slowpoke_charm:
+  name: '&bSlowpoke Charm'
+  lore:
+  - '&aLet''s just hope it doesn''t hit'
+  - '&aitself in its confusion...'
+veterans_leggings:
+  name: '&6Veteran''s Leggings'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+goblin_slasher:
+  name: '&8Goblin Slasher'
+  lore:
+  - '&8A treasure among goblins!'
+veterans_helmet:
+  name: '&6Veteran''s Helmet'
+  lore:
+  - '&2Awarded to those who challenge the'
+  - '&2Wood League Arena!'
+chameleon_charm:
+  name: '&bChameleon Charm'
+  lore:
+  - '&aThe colorful Chameleon can'
+  - '&ablend in just about anywhere,'
+  - '&aslowly creeping around...'
+goblin_ballista:
+  name: '&8Goblin Ballista'
+  lore:
+  - '&8A treasure among goblins!'
+under_grove_lair:
+  name: '&6The Under Grove'
+  customInfo:
+  - '&6Stop the dryad''s ritual!'
+  playerInfo: |-
+    Difficulty: &cHard
+    $bossCount level $lowestTier Big Boss!
+    &6The dryads are up to no good, stop them!
+  regionEnterMessage: '&8[EM] &aYou are now trespassing the sacred grove!'
+  regionLeaveMessage: '&8[EM] &aYou have left the sacred grove!'
+beasts_sanctuary_lair:
+  name: '&6The Beasts Sanctuary'
+  customInfo:
+  - '&6Confront the beasts!'
+  playerInfo: |-
+    Difficulty: &cHard
+    $bossCount level $lowestTier Big Boss!
+    &6Face fierce beasts at their home turf!
+  regionEnterMessage: '&8[EM] &aYou have entered the Beast Sanctuary! Beware of what
+    prowls here!'
+  regionLeaveMessage: '&8[EM] &aYou''ve left the Beast Sanctuary! Did you take trophies?'
+vampire_manor:
+  name: '&cThe Vampire Manor'
+  customInfo:
+  - '&fPrepare to spill blood!'
+  - '&6Credits: MagmaGuy, 69OzCanOfBepis'
+  playerInfo: |-
+    Difficulty: &6Medium
+    $bossCount bosses, from level $lowestTier to $highestTier
+    &6A deadly manor full of blood thristy creatures!
+    &6Are you ready to face that which haunts the night?
+  regionEnterMessage: '&8[EM] &cTrespassing on dangerous grounds!!'
+  regionLeaveMessage: '&8[EM] &cNow leaving haunted land!'
+colosseum_lair:
+  name: '&6The Colosseum'
+  customInfo:
+  - '&fFeaturing the first true World boss, first'
+  - '&fmulti-phased battle, first mounted boss,'
+  - '&ffirst disguised boss... a truly epic fight!'
+  - '&6Credits: MagmaGuy & Maldini'
+  playerInfo: |-
+    Difficulty: &cHard
+    $bossCount bosses, from level $lowestTier to $highestTier
+    &cA true challenge for big groups of players!
+  regionEnterMessage: '&8[EM] &6Champions and challengers prepare! &eProve your worth
+    against the most mighty of foes!'
+  regionLeaveMessage: '&8[EM] &6Farewell traveller! &eReturn soon to show your might
+    once more!'
+invasion_minidungeon:
+  name: '&2The Invasion'
+  customInfo:
+  - '&fThe Halloween Minidungeon!'
+  - '&6Credits: MagmaGuy & 69OzCanOfBepis'
+  playerInfo: |-
+    Difficulty: &6Medium
+    $bossCount aliens, from level $lowestTier to $highestTier
+    &6Don't get abducted!
+  regionEnterMessage: '&8[EM] &7Alien invasion in progress! Defeat the Mothership!'
+  regionLeaveMessage: '&8[EM] &7You have escaped the alien abductions! No one will
+    ever believe you.'
+dark_cathedral_lair:
+  name: '&8The Dark Cathedral'
+  customInfo:
+  - '&fThe first ever EliteMobs Lair!'
+  - '&fA classic that all servers need!'
+  - '&6Credits: MagmaGuy & 69OzCanOfBepis'
+  playerInfo: |-
+    Difficulty: &cHard
+    $bossCount level $highestTier Big Boss!
+    &cThe original minidungeon, a challenge for
+    &ca group of players or for veterans!
+  regionEnterMessage: '&8[EM] &8Welcome to the Dark Cathedral. &4Death awaits inside...'
+  regionLeaveMessage: '&8[EM] &8Now leaving the Dark Cathedral. &4It awaits your return...'
+hallosseum_lair:
+  name: '&cHallosseum'
+  customInfo:
+  - '&fThe 2020 spooky halloween encounter!'
+  - '&6Credits: MagmaGuy & 69OzCanOfBepis'
+  playerInfo: |-
+    Difficulty: &chard
+    $bossCount level $lowestTier Big Boss!
+    &6A fun Halloween challenge!
+  regionEnterMessage: '&8[EM] &4Trick or treat! &8Your soul is mine!'
+  regionLeaveMessage: '&8[EM] &4You''ve escaped with your soul intact.'
+airship_minidungeon:
+  name: '&6The Airship'
+  customInfo:
+  - '&fAn awesome airship full of undead pirates!'
+  - '&6Credits: MagmaGuy, 69OzCanOfBepis'
+  - '&6and Realm of Lotheridon'
+  playerInfo: |-
+    Difficulty: &6Medium
+    $bossCount bosses, from level $lowestTier to $highestTier
+    &6An awesome airship full of undead pirates
+    &6for experienced players!
+  regionEnterMessage: '&8[EM] &cEntering hostile air zone!'
+  regionLeaveMessage: '&8[EM] &cLeaving hostile air zone!'
+fireworks_lair:
+  name: '&aFireworks'
+  customInfo:
+  - '&fThe 2021 4th of July map!'
+  - '&6Credits: MagmaGuy'
+  playerInfo: |-
+    Difficulty: &cHard
+    $bossCount level $lowestTier Big Boss!
+    &6An encounter full of explosions!
+  regionEnterMessage: '&8[EM] &eWelcome to the fireworks show!'
+  regionLeaveMessage: '&8[EM] &eYou''ve left the party!'
+pirate_ship_minidungeon:
+  name: '&6The Pirate Ship'
+  customInfo:
+  - '&fA fun, challenging minidungeon full of'
+  - '&fbosses made for players starting to get good,'
+  - '&fat EliteMobs!'
+  - '&6Credits: MagmaGuy & Realm of Lotheridon'
+  playerInfo: |-
+    Difficulty: &6Medium
+    $bossCount bosses, from level $lowestTier to $highestTier
+    &6One of the best hunting grounds for&6aspiring adventurers!
+  regionEnterMessage: '&8[EM] &3Now boarding the Pirate Ship! &bPillage and plunder
+    to yer'' hearts content!'
+  regionLeaveMessage: '&8[EM] &3Player overboard! &bReturn when you''ve earned your
+    sea-legs ye'' landlubber!'
+dark_spire_minidungeon:
+  name: '&8The Dark Spire'
+  customInfo:
+  - '&fThe first ever high level content!'
+  - '&fMade for those who want a real challenge!'
+  - '&6Credits: 69OzCanOfBepis'
+  playerInfo: |-
+    Difficulty: &6Medium
+    $bossCount bosses, from level $lowestTier to $highestTier
+    &cA vast challenge for advanced players!
+  regionEnterMessage: '&8[EM] &1An invasion is in progress. &9Stop the insurrection!'
+  regionLeaveMessage: '&8[EM] &1You managed to hold them back. &9For now...'
+the_ruins:
+  name: '&6The Ruins'
+  customInfo:
+  - '&fA fight against a myth from'
+  - '&fNorse mythology, be prepared for a smiting!'
+  - '&6Credits: 69OzCanOfBepis, MagmaGuy'
+  playerInfo: |-
+    Difficulty: &cHard
+    $bossCount level $lowestTier Big Boss!
+    &cA tough fight against a Norse god!
+  regionEnterMessage: '&8[EM] &3Those who challenge the myths must be prepared for
+    their downfall!'
+  regionLeaveMessage: '&8[EM] &3You now know what it takes to make a legend!'
+north_pole_minidungeon:
+  name: '&9The North Pole'
+  customInfo:
+  - '&fThe Christmas minidungeon!'
+  - '&6Credits: MagmaGuy & 69OzCanOfBepis'
+  playerInfo: |-
+    Difficulty: &6Medium
+    $bossCount bosses, from level $lowestTier to $highestTier
+    &6Christmas in a snow globe!
+  regionEnterMessage: '&8[EM] &7You have reached the North Pole! &fHave you been naughty
+    this year?'
+  regionLeaveMessage: '&8[EM] &7Come back and visit. &fThere are plenty of sweets
+    and treats for next time!'
+primis_adventure:
+  name: '&7Primis'
+  customInfo:
+  - '&fA tutorial adventure for new players!'
+  - '&6Credits: 69OzCanOfBepis, MagmaGuy'
+  playerInfo: |-
+    Difficulty: &2Easy
+    $bossCount bosses, from level $lowestTier to $highestTier
+    &6A tutorial adventure for new players!
+  regionEnterMessage: '&8[EM] &6Primis awaits, strike the earth!'
+  regionLeaveMessage: '&8[EM] &6You have left Primis!'
+oasis_adventure:
+  name: '&6The Oasis'
+  customInfo:
+  - '&fA massive adventure for beginners!'
+  - '&6Credits: 69OzCanOfBepis'
+  playerInfo: |-
+    Difficulty: &2Solo-able
+    $bossCount bosses, from level $lowestTier to $highestTier
+    &6A big adventure for people who know the ropes!
+  regionEnterMessage: '&8[EM] &6You have arrived at the Oasis!'
+  regionLeaveMessage: '&8[EM] &6You have left the Oasis!'
+catacombs_lair:
+  name: '&8The Catacombs'
+  customInfo:
+  - '&fThe best starter dungeon for players!'
+  - '&6Credits: Realm of Lotheridon'
+  playerInfo: |-
+    Difficulty: &cHard
+    $bossCount bosses, from tier $lowestTier to $highestTier
+    &2The best Lair challenge for groups of beginners!
+  regionEnterMessage: '&8[EM] &8Now entering the Catacombs. Be careful with what dwells
+    below...'
+  regionLeaveMessage: '&8[EM] &8You have left the Catacombs. Was it worth it?'
+sewers_minidungeon:
+  name: '&8The Sewers'
+  customInfo:
+  - '&fThe biggest minidungeon ever made!'
+  - '&6Credits: MagmaGuy & 69OzCanOfBepis'
+  playerInfo: |-
+    Difficulty: &6Medium
+    $bossCount bosses, from level $lowestTier to $highestTier
+    &6A complex dungeon maze with a challenging sections!
+  regionEnterMessage: '&8[EM] &5This place looks abandoned... &dYet something lurks
+    in these sewers!'
+  regionLeaveMessage: '&8[EM] &5You managed to stay above water. &dMaybe next time
+    you''ll drown.'
+frost_palace_sanctum:
+  name: Frost Palace
+  customInfo:
+  - '&fA 7 phase fight against'
+  - the queen of ice!
+  - '&6Credits: MagmaGuy, Delio'
+  playerInfo: 'Difficulty: &45-man hard content!'
+  regionEnterMessage: '&bYou are stepping into the Frost Palace! Stay frosty!'
+  regionLeaveMessage: '&bYou have left the Frost Palace!'
+binder_of_worlds_lair:
+  name: '&5Binder Of Worlds'
+  customInfo:
+  - '&5The ultimate challenge. Be prepared!'
+  - '&6Credits: MagmaGuy & 69OzCanOfBepis'
+  playerInfo: |-
+    Difficulty: &6Nightmare
+    $bossCount level $highestTier final boss!
+    &5This is the hardest fight in EliteMobs!
+  regionEnterMessage: '&8[EM] &5Reality unravels around you. You face the final challenge.
+    &4You are not prepared!'
+  regionLeaveMessage: '&8[EM] &5You have left the unravelling. Did you find what you
+    sought? Was it worth it?'
+killer_rabbit_of_caerbannog:
+  name: $eventBossLevel &cKiller Rabbit of Caerbannog
+omega_wolf:
+  name: $reinforcementLevel &7Omega Wolf
+wood_league_wave_19_ranged:
+  name: $normalLevel Archery Club Enthusiast
+wood_league_wave_34_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_48_melee:
+  name: $normalLevel &4Arena Zombie
+totem_zombie_4:
+  name: $eventBossLevel Totem Zombie
+wood_league_wave_50_boss:
+  name: $bossLevel &6Uther the Champion
+blayyze:
+  name: $eventBossLevel &6Blayyze
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&6The Blayyze has been repelled!'
+  - '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+  - '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+  - '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+  - '&aSlayers: $players'
+  - '&e&l---------------------------------------------'
+  locationMessage: '&6????: $distance blocks away'
+  spawnMessage: '&cSomething came out of the meteorite''s crater...'
+  deathMessage: '&6$players completed first contact.'
+  escapeMessage: '&6The ayyliens have been taken to area 51!'
+alpha_werewolf_p2:
+  name: $eventBossLevel &7Alpha Werewolf
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&4The Alpha Wolf has been put down!'
+  - '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+  - '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+  - '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+  - '&aSlayers: $players'
+  - '&e&l---------------------------------------------'
+  locationMessage: '&7Alpha Wolf: $distance blocks away!'
+  spawnMessage: '&cThe howls of an Alpha Werewolf are heard!'
+  deathMessage: '&aThe Alpha Werewolf has been stopped by $players!'
+  escapeMessage: '&4Dawn breaks, the Alpha Wolf vanishes without a trace!'
+wood_league_wave_11_melee:
+  name: $normalLevel &4Arena Zombie
+totem_zombie_1:
+  name: $eventBossLevel Head Zombie
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&4The Zombie Totem been slain!'
+  - '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+  - '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+  - '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+  - '&aSlayers: $players'
+  - '&e&l---------------------------------------------'
+  locationMessage: '&cZombie Totem: $distance blocks away!'
+  spawnMessage: '&cA Dr. Craftenmine abomination has been sighted!'
+  deathMessage: '&aDr. Craftenmine''s abomination been terminated by $players!'
+  escapeMessage: '&4Dr. Craftenmine''s creation has escaped!'
+wood_league_wave_42_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_41_ranged:
+  name: $normalLevel Arena Crossbowman
+alpha_werewolf_p1:
+  name: $eventBossLevel &7Enraged Vindicator
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&4The Alpha Wolf has been put down!'
+  - '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+  - '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+  - '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+  - '&aSlayers: $players'
+  - '&e&l---------------------------------------------'
+  locationMessage: '&7Enraged Vindicator: $distance blocks away!'
+  spawnMessage: '&cThe howls of an Alpha Werewolf are heard!'
+  deathMessage: '&aThe Alpha Werewolf has been stopped by $players!'
+  escapeMessage: '&4Dawn breaks, the Alpha Wolf vanishes without a trace!'
+wood_league_wave_18_melee:
+  name: $normalLevel &4Fencing Club Enthusiast
+wood_league_wave_47_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_38_melee:
+  name: $normalLevel &4Arena Swordsman
+charms_goblin:
+  name: $eventBossLevel &2Charms Goblin
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&eThe Charms Goblin has been pillaged!'
+  - '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+  - '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+  - '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+  - '&aSlayers: $players'
+  - '&e&l---------------------------------------------'
+  locationMessage: '&cCharms Goblin: $distance blocks away!'
+  spawnMessage: '&cA Charms Goblin has been sighted!'
+  deathMessage: '&aA Charms Goblin has been slain by $players!'
+  escapeMessage: '&4A Charms Goblin has escaped!'
+wood_league_wave_8_melee:
+  name: $normalLevel Arena Zombie
+wood_league_wave_46_healer:
+  name: $normalLevel Arena Healer
+zombie_friends_friend:
+  name: $reinforcementLevel &7Zombie Friend
+wood_league_wave_10_reinforcement:
+  name: $reinforcementLevel &cBad Pupper
+wood_league_wave_7_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_31_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_36_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_28_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_46_melee:
+  name: $normalLevel &4Arena Zombie
+necronomicon_zombie:
+  name: $reinforcementLevel &7Summoned Zombie
+wood_league_wave_3_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_12_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_4_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_21_ranged:
+  name: $normalLevel Arena Crossbowman
+ember:
+  name: $reinforcementLevel &cEmber
+wild_wolf:
+  name: $reinforcementLevel &7Wild Wolf
+wood_league_wave_6_melee:
+  name: $normalLevel Arena Zombie
+wood_league_wave_43_healer:
+  name: $normalLevel Arena Healer
+coins_goblin:
+  name: $eventBossLevel &eCoins Goblin
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&eThe Coins Goblin has been pillaged!'
+  - '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+  - '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+  - '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+  - '&aSlayers: $players'
+  - '&e&l---------------------------------------------'
+  locationMessage: '&cCoins Goblin: $distance blocks away!'
+  spawnMessage: '&cA Coins Goblin has been sighted!'
+  deathMessage: '&aA Coins Goblin has been slain by $players!'
+  escapeMessage: '&4A Coins Goblin has escaped!'
+wood_league_wave_46_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_14_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_6_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_32_ranged:
+  name: $normalLevel Arena Crossbowman
+armor_goblin:
+  name: $eventBossLevel &3Armor Goblin
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&eThe Armor Goblin has been pillaged!'
+  - '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+  - '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+  - '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+  - '&aSlayers: $players'
+  - '&e&l---------------------------------------------'
+  locationMessage: '&cArmor Goblin: $distance blocks away!'
+  spawnMessage: '&cAn Armor Goblin has been sighted!'
+  deathMessage: '&aAn Armor Goblin has been slain by $players!'
+  escapeMessage: '&4An Armor Goblin has escaped!'
+zombie_parents_mom:
+  name: $reinforcementLevel &7Zombie Mom
+wood_league_wave_48_healer:
+  name: $normalLevel Arena Healer
+the_living_dead:
+  name: $reinforcementLevel &6The Living Dead
+the_returned:
+  name: $reinforcementLevel &6The Returned
+wood_league_wave_16_melee:
+  name: $normalLevel Mr. Oinkers Fan
+wood_league_wave_25_miniboss:
+  name: $minibossLevel &bAgdluak
+wood_league_wave_45_miniboss:
+  name: $minibossLevel &6Thousand Blades
+balrog:
+  name: $eventBossLevel &4Balrog
+wood_league_wave_27_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_24_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_31_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_23_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_43_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_20_boss:
+  name: $bossLevel &2Zoltan
+wood_league_wave_1_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_37_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_50_reinforcement:
+  name: $reinforcementLevel &6Uther Stan
+wood_league_wave_24_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_1_melee:
+  name: $normalLevel Arena Zombie
+wood_league_wave_10_boss:
+  name: $bossLevel &4Bad Doggo
+kraken:
+  name: $eventBossLevel &3Kraken
+fire_fae:
+  name: $eventBossLevel &cFire Fae
+wood_league_wave_14_melee:
+  name: $normalLevel &4Arena Zombie
+gamma_werewolf:
+  name: $reinforcementLevel &7Gamma Werewolf
+beast_master:
+  name: $eventBossLevel &6Beast Master
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&eThe Beast Master has been savaged!'
+  - '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+  - '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+  - '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+  - '&aSlayers: $players'
+  - '&e&l---------------------------------------------'
+  locationMessage: '&cBeast Master: $distance blocks away!'
+  spawnMessage: '&cThe Beast Master has been sighted!'
+  deathMessage: '&aThe Best Master has been slain by $players!'
+  escapeMessage: '&4The Beast Master has returned to the wilds!'
+wood_league_wave_30_boss:
+  name: $bossLevel &2The Southern Viper
+wood_league_wave_44_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_3_melee:
+  name: $normalLevel Arena Zombie
+pillager_caravan_guard:
+  name: $reinforcementLevel &cCaravan Guard
+wood_league_wave_40_boss:
+  name: $bossLevel &cCrucio the Bearer of Curses
+wood_league_wave_7_melee:
+  name: $normalLevel Arena Zombie
+wood_league_wave_23_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_32_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_13_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_33_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_39_ranged:
+  name: $normalLevel Arena Archer
+wood_league_wave_16_ranged:
+  name: $normalLevel Mr. Oinkers Fan
+wood_league_wave_33_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_9_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_17_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_49_healer:
+  name: $normalLevel Arena Healer
+zombie_parents_dad:
+  name: $reinforcementLevel &7Zombie Dad
+wood_league_wave_22_ranged:
+  name: $normalLevel Arena Crossbowman
+treasure_goblin:
+  name: $eventBossLevel &eTreasure Goblin
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&eThe Treasure Goblin has been pillaged!'
+  - '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+  - '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+  - '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+  - '&aSlayers: $players'
+  - '&e&l---------------------------------------------'
+  locationMessage: '&cTreasure Goblin: $distance blocks away!'
+  spawnMessage: '&cA Treasure Goblin has been sighted!'
+  deathMessage: '&aA Treasure Goblin has been slain by $players!'
+  escapeMessage: '&4A Treasure Goblin has escaped!'
+wood_league_wave_21_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_26_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_49_ranged:
+  name: $normalLevel Arena Crossbowman
+zombie_king:
+  name: $eventBossLevel &4Zombie King
+  locationMessage: '&cZombie King: $distance blocks away!'
+  spawnMessage: '&cThe Zombie King has been sighted!'
+  deathMessage: '&aThe Zombie King has been slain by $players!'
+  escapeMessage: '&4The Zombie King has escaped!'
+totem_zombie_5:
+  name: $eventBossLevel Totem Zombie
+wood_league_wave_4_melee:
+  name: $normalLevel Arena Zombie
+weapons_goblin:
+  name: $eventBossLevel &cWeapons Goblin
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&eThe Weapons Goblin has been pillaged!'
+  - '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+  - '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+  - '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+  - '&aSlayers: $players'
+  - '&e&l---------------------------------------------'
+  locationMessage: '&cWeapons Goblin: $distance blocks away!'
+  spawnMessage: '&cA Weapons Goblin has been sighted!'
+  deathMessage: '&aA Weapons Goblin has been slain by $players!'
+  escapeMessage: '&4A Weapons Goblin has escaped!'
+wood_league_wave_43_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_34_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_37_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_27_ranged:
+  name: $normalLevel Arena Crossbowman
+pillager_caravan_beast:
+  name: $reinforcementLevel &cCaravan Beast
+wood_league_wave_17_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_36_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_15_miniboss:
+  name: $bossLevel &4Mr. Oinkers
+  onDamagedMessages:
+  - Oink!?
+wood_league_wave_42_melee:
+  name: $normalLevel &4Arena Zombie
+beta_wolf:
+  name: $reinforcementLevel &7Beta Wolf
+wood_league_wave_35_miniboss:
+  name: $minibossLevel &6The Jester
+wood_league_wave_13_ranged:
+  name: $normalLevel Arena Crossbowman
+summonable_wolf:
+  name: $normalLevel Wolfy
+  onDamageMessages:
+  - Woof!
+  onDamagedMessages:
+  - Woof!
+imperial_bee_guard:
+  name: $reinforcementLevel &eImperial Bee Soldier
+totem_zombie_3:
+  name: $eventBossLevel Totem Zombie
+lightning_fae:
+  name: $eventBossLevel &eLightning Fae
+wood_league_wave_2_melee:
+  name: $normalLevel Arena Zombie
+totem_zombie_6:
+  name: $eventBossLevel Totem Zombie
+queen_bee:
+  name: $eventBossLevel &6Queen Bee
+wood_league_wave_50_boss_p2:
+  name: $bossLevel &6Uther the Champion
+wood_league_wave_22_melee:
+  name: $normalLevel &4Arena Zombie
+totem_zombie_2:
+  name: $eventBossLevel Totem Zombie
+wood_league_wave_47_healer:
+  name: $normalLevel Arena Healer
+wood_league_wave_26_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_47_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_42_healer:
+  name: $normalLevel Arena Healer
+wood_league_wave_41_melee:
+  name: $normalLevel &4Arena Zombie
+wood_league_wave_5_miniboss:
+  name: $minibossLevel &cWeird Cow
+  onDamagedMessages:
+  - Woof!
+wood_league_wave_11_ranged:
+  name: $normalLevel Arena Crossbowman
+test_boss:
+  name: $eventBossLevel &6Test boss
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&eThe Test Boss has been debugged!'
+  - '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+  - '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+  - '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+  - '&aSlayers: $players'
+  - '&e&l---------------------------------------------'
+  onDamageMessages:
+  - I've hit you!
+  onDamagedMessages:
+  - I've been hit!
+  locationMessage: 'Test entity: $distance'
+  spawnMessage: A test boss has been spawned!
+  deathMessage: A test boss has been slain by $players!
+  escapeMessage: A test boss entity has escaped!
+wood_league_wave_29_ranged:
+  name: $normalLevel Arena Crossbowman
+ice_fae:
+  name: $eventBossLevel &bIce Fae
+wood_league_wave_2_ranged:
+  name: $normalLevel Arena Crossbowman
+necronomicon_skeleton:
+  name: $reinforcementLevel &7Summoned Skeleton
+wood_league_wave_50_boss_p3:
+  name: $bossLevel &6Uther the Champion
+wood_league_wave_44_healer:
+  name: $normalLevel Arena Healer
+snoopy:
+  name: '&6{&4☠&6} &fSnoopy'
+  onDamageMessages:
+  - Woof!
+  onDamagedMessages:
+  - Woof!
+  spawnMessage: '&aAn extremely rare Snoopy has been sighted!'
+raug:
+  name: $reinforcementLevel &4Raug
+wood_league_wave_12_ranged:
+  name: $normalLevel Arena Crossbowman
+wood_league_wave_44_melee:
+  name: $normalLevel &4Arena Zombie
+pillager_caravan_leader:
+  name: $eventBossLevel &cPillager Caravan Leader
+  locationMessage: '&cPillager Caravan: $distance blocks away!'
+  spawnMessage: '&cA pillager caravan has been sighted!'
+enhancer_config:
+  name: Tim
+  role: <Enhancer>
+  greetings:
+  - Want to uprade yer items?
+  - Got upgrade orbs?
+  - Get yer items upgraded here!
+  - Ahoy!
+  - Ye got scrap son?
+  dialog:
+  - Yer items are lousy,\n get an upgrade here!
+  - Upgrade yer items here!
+  - Ye got an upgrade orb?
+  - That sword looks awful,\nget it upgraded here!
+  - Need an upgrade?
+  farewell:
+  - Don't embarrass yourself out there!
+  - Come back when you have more orbs!
+  - Go get more orbs!
+frost_queen_teleporter:
+  name: Ishard the Frostbitten
+  role: <Frost Palace Teleport>
+  greetings:
+  - ''
+refiner_config:
+  name: Ralph
+  role: <Refiner>
+  greetings:
+  - Want to uprade your scrap?
+  - Got scrap?
+  - Looking for low level scrap!
+  - Greetings, got scrap?
+  - I'll recycle your scrap!
+  dialog:
+  - Need your scrap upgraded?
+  - Upgrade your scrap here!
+  - Upgrade 10 scrap to a higher level!
+  - Make your scrap more useful!
+  - Got low level scrap?
+  farewell:
+  - Come back when you have\nmore to low level scrap
+  - Don't forget to make that\nscrap useful!
+  - Go get into a scrap!
+smelter:
+  name: Sam
+  role: <Smelter>
+  greetings:
+  - Got scrap?
+  - Got extra scrap?
+  - I smell scrap on you!?
+  - Please I need scrap!
+  - Feed me scrap!
+  dialog:
+  - I'll make your scrap useful!
+  - Give me scrap and I'll\ngive you upgrade orbs!
+  - Scrap is useless, give it to me!
+  farewell:
+  - Come back when you have\nmore scrap
+  - Off to the upgrader you go!
+combat_instructor:
+  name: Charles
+  role: <Combat Instructor>
+  greetings:
+  - Want to learn about combat?
+  - Need a combat lesson?
+  - Want to know more about combat?
+  - Ready to fight Elite Mobs?
+  dialog:
+  - The items around Elite Mobs\nshow what powers they have.
+  - The higher the level of\nthe Elite Mob, the\nmore powers they can have
+  - The higher the level of\nthe Elite Mob, the\nbetter the loot they can drop
+  - Higher level Elite Mobs\nhave higher chances\nof dropping special items
+  - Elite Mobs with floating\narrows fire arrows at\nnearby players
+  - Elite Mobs with floating\nender eyes blind you\nwhen they hit you
+  - Elite Mobs with floating\nspell particles confuse you\nwhen they hit you
+  - Elite Mobs with floating\nlava buckets set you on fire\nwhen they hit you
+  - |-
+    Elite Mobs with floating\nfireballs fire fireballs
+    at nearby players
+  - Elite Mobs with floating\npacked ice freeze you\nwhen they hit you
+  - Elite Mobs with floating\nelytras make you float\nwhen they hit you
+  - Elite Mobs with floating\nemeralds poison you\nwhen they hit you
+  - Elite Mobs with floating\npistons push you\nwhen they hit you
+  - Elite Mobs with floating\ntotems weaken you\nwhen they hit you
+  - Elite Mobs with floating\nwebs web you\nwhen they hit you
+  - Elite Mobs with floating\nskulls wither you\nwhen they hit you
+  - Elite Mobs with floating\nchests drop bonus loot\nwhen you kill them
+  - Elite Mobs with floating\ngold boots are faster
+  - Elite Mobs with floating\njukeboxes taunt you\nduring combat
+  - Elite Mobs with floating\nglass panes are invisible
+  - Elite Mobs with floating\nspectral arrows are immune\nto arrows
+  - Elite Mobs with floating\nfeathers are immune\nto fall damage
+  - Elite Mobs with floating\nflames are immune\nto fire
+  - Elite Mobs with floating\nanvils are heavier\nthan usual
+  - Elite Mobs with floating\nbone blocks leave their\ncorpses behind when killed
+  - Elite Mobs with floating\nslime blocks jump higher\nthan usual
+  - Elite Mobs with floating\nslime balls create a vaccum\nupon death
+  - Elite Mobs with floating\nleads pull you\nwhen they hit you
+  - Elite Mobs with floating\nbones create bone pillars\nduring combat
+  - Elite Mobs with floating\ntipped arrows fire tracking\narrows during combat
+  - Elite Mobs with floating\nmushrooms bloat up to become giants\nwhen hit
+  - Elite Mobs with floating\nskulls summon reinforcements\nwhen hit
+  - Elite Mobs with floating\nbooks summon reinforcements\nuntil you kill the summoner
+  - Elite Mobs with floating\neggs summon reinforcements\nwhen hit
+  - Elite Mobs with floating\nfireworks summon Team Rocket\nwhen hit
+travelling_merchant:
+  name: Jeeves
+  role: <Travelling Merchant>
+  greetings:
+  - Got something to sell?
+  - You called?
+  - Huh?
+  dialog:
+  - I'll buy it on the cheap!
+  - Got something for me?
+  - Time is money!
+  farewell:
+  - Call me again anytime!
+  - Was that all?
+  - Safe travels!
+  - Don't get yourself killed!
+  - Good hunting!
+blacksmith:
+  name: Greg
+  role: <Blacksmith>
+  greetings:
+  - Welcome to our shop!
+  - Sell your goods here!
+  - Fresh goods, just for you!
+  - Got something to sell?
+  - Want to buy something good?
+  - Fresh goods every time!
+  dialog:
+  - Higher level mobs drop\nhigher value items!
+  - Items with lots of \nenchantments are worth more!
+  - Higher level mobs drop\nbetter items!
+  - Higher level mobs have\na higher chance of dropping loot!
+  - Elite mobs are attracted to\ngood armor, the better the\narmor the higher their
+    level!
+  - Some items have special\npotion effects!
+  - Some items have unique\neffects!
+  - The hunter enchantment\nattracts elite mobs to your\nlocation!
+  - Special weapons and armor\ndropped by elite mobs can\nbe sold here!
+  - Higher guild ranks will\nincrease the quality of the\nloot from elite mobs!
+  farewell:
+  - Thank you for your business!
+  - Come back soon!
+  - Come back any time!
+  - Recommend this shop to your\nfriends!
+unbinder:
+  name: Ulfric
+  role: <Unbinder>
+  greetings:
+  - Greetings.
+  - Well met.
+  - Hail, friend.
+  - Yes?
+  - May I help you?
+  dialog:
+  - I will unbind your items\nfor an extremely rare unbind scroll.
+  - I am the only one qualified\nto unbind your goods.
+  - Have an unbind scroll?
+  farewell:
+  - 'Remember: Use unbind\nscrolls wisely.'
+  - Safe travels, friend.
+santa:
+  name: '&4Saint Nick'
+  role: '&c<Santa!>'
+  greetings:
+  - Ho ho ho!
+  dialog:
+  - I have lost some presents, \ncan you help me?
+  - Dear traveller, I have\na request for you!
+  - Can you help an old man\nin his time of need?
+  farewell:
+  - Ho ho ho!
+quest_giver:
+  name: Qel'Thuzad
+  role: <Quest Giver>
+  greetings:
+  - Greetings, adventurer!\nFancy a quest?
+  - You! I've got a quest!
+  - Feeling... adventurous?
+  dialog:
+  - Complete guild quests\nfor cool rewards!
+  - Higher tier quests have\nbetter rewards!
+  - Higher tier quests make\nyou hunt higher level mobs!
+  - Want a harder challenge?\nIncrease your guild rank!
+  - Make sure you're well equipped\nfor these quests!
+  farewell:
+  - Safe travels, friend.
+  - Happy hunting!
+  - Live long and prosper!
+  - Come back with your shield,\n or on it.
+  - Life before death!
+  - Strength before weakness!
+  - Journey before destination!
+guide_0:
+  name: Dux
+  role: <Guide>
+  greetings:
+  - Heard about the AG?
+  - Been to the AG?
+  - Heard of the Adventurer's Guild?
+  - Know about the Adventurer's Guild?
+  dialog:
+  - Heard about the AG?
+  - Been to the AG?
+  - Heard of the Adventurer's Guild?
+  - Know about the Adventurer's Guild?
+  farewell:
+  - Come back anytime
+  - I'll be here if you need me!
+  - I'll be around!
+  - See you later!
+guild_attendant:
+  name: Gillian
+  role: <Guild Attendant>
+  greetings:
+  - Welcome to the\nAdventurer's Guild!
+  - Welcome!
+  dialog:
+  - Check the questboard to\nsee active quests!
+  - You can talk to me to\nchange your guild rank!
+  - You can sell items to the\nblacksmith for coins!
+  - You can talk to the arena\nmaster to take the arena on!
+  - You can buy equipment from\nthe blacksmith!
+  - You can talk to the combat\nmaster to check your combat level!
+  - Unlocking new guid tiers\nincreases your maximum health!
+  farewell:
+  - See you soon!
+  - Thanks for stopping by!
+  - Happy hunting!
+wood_league_arena_master:
+  name: Gladius
+  role: <Arena Master>
+  greetings:
+  - Welcome to the\nArena!
+  dialog:
+  - Prepared to face the arena?
+  farewell:
+  - Return with your shield, or on it!
+test_npc:
+  name: Test NPC
+  role: Testing!
+  greetings:
+  - Test Greeting!
+  dialog:
+  - Test Dialog!
+  farewell:
+  - Test Farewell!
+special_blacksmith:
+  name: Grog
+  role: <Special Blacksmith>
+  greetings:
+  - Need something?
+  - Got anything good?
+  - We have nothing but the best
+  - Got anything worth selling?
+  - We only buy elite mob gear.
+  dialog:
+  - We buy low and sell high.
+  - No refunds.
+  - Absolutely no refunds.
+  - There are no refunds.
+  - No taksies backsies.
+  - Shop purchases are final.
+  farewell:
+  - Come back when you have\nmore to spend
+  - Don't get yourself killed,\nwe want you to bring us\nmore gear.
+  - Next time buy something \nmore expensive.
+  - Don't forget, no refunds.
+back_teleporter:
+  name: Hermes
+  role: <Transporter>
+  greetings:
+  - Welcome to the\nAdventurer's Guild Hub!
+  dialog:
+  - Need to go back?
+  farewell:
+  - Safe travels, friend.
+  noPreviousLocationMessage: '&8[EliteMobs] &cCouldn''t send you back to your previous
+    location - no previous location found!'
+guide_1:
+  name: Casus
+  role: <Guide>
+  greetings:
+  - Need guidance?
+  - Need a hint
+  - Are you lost?
+  - Need help?
+  dialog:
+  - I know everything about\nthis place!
+  - Want to meet the other members\nof the Adventurer's Guild?
+  - Need to learn your way around\nthis place?
+  farewell:
+  - Come back anytime
+  - I'll be here if you need me!
+  - I'll be around!
+  - See you later!
+repairman_config:
+  name: Reggie
+  role: <Repairman>
+  greetings:
+  - Get your items repaired!
+  - Repairing items for scrap!
+  - Turn that scrap into durability!
+  - Need a repair?
+  - Got damaged items?
+  dialog:
+  - Best repairs in town!
+  - I got your fix!
+  - Need a fix?
+  - I'll repair your items!
+  - Need elite items repaired?
+  farewell:
+  - Don't forget to do maintenance!
+  - I'll be here if you need me!
+  - Call me beep me if you wanna reach me,\nif you wanna page me that's ok
+scrapper_config:
+  name: Kelly
+  role: <Scrapper>
+  greetings:
+  - Want to get rid of items?
+  - Need to recycle items?
+  - Looking to scrap?
+  - It's scrap 'o clock!
+  - Scrap time!
+  dialog:
+  - Scrappy deals!
+  - Get your scrap here!
+  - 75% chance to work!
+  - There are no refunds.
+  - Recycle, reuse, reduce!
+  farewell:
+  - Come back when you have\nmore to scrap
+  - Don't forget to make that\nscrap useful!
+  - Happy scrapping!
+barkeep:
+  name: Bartley
+  role: <Barkeep>
+  greetings:
+  - Need a drink?
+  - Want a drink
+  - Thirsty?
+  - Howdy, partner.
+  dialog:
+  - Have one of our house specialties.
+  - Special drinks won't find them\nanywhere else.
+  - One taste and will keep you\ncoming back from more.
+  farewell:
+  - Come back anytime
+  - Bottoms up!
+  - Kampai!
+  - Salut!
+  - Brosd!
+  - Salud!
+  - À la vôtre !
+  - Prost!
+  - Santi!
+  - Salute!
+  - Saúde!
+  - Cheers!
+  - 乾杯!
+wood_league:
+  arenaName: Wood League
+  arenaMessages:
+  - wave=1:message=&8[Gladius] &fToday's main event! A legendary fighter came all
+    the way to the arena to test his might against the toughest monsters from all
+    the land! But before that, here's a rookie fighting some zombies.
+  - wave=2:message=&8[Gladius] &fWould you look at that, they at least know how to
+    wave their arms! That was just the warmup, let's start putting on some pressure!
+  - wave=3:message=&8[Gladius] &fSo you think you know how to fight? Well this wave
+    will put the &cheat &fon! Ha ha ha ha ha!
+  - wave=4:message=&8[Gladius] &fAlright I guess they can take the heat! Ladies and
+    gentlemen, strap on, we might be in for a show!
+  - wave=5:message=&8[Gladius] &fI found this &cweird creature &foutside, and I thought
+    putting it in the arena would be funny!
+  - wave=6:message=&8[Gladius] &fSeems like you can handle small groups of enemies
+    just fine, &clet's try scaling that up!
+  - wave=7:message=&8[Gladius] &fSo you think you can truly challenge the arena? We
+    shall see...
+  - wave=8:message=&8[Gladius] &fNot bad, but what if every enemy is a &cmelee &fenemy?
+  - wave=9:message=&8[Gladius] &fNice, nice, but what if they're all &cranged &finstead?
+  - wave=10:message=&8[Gladius] &fCareful now, a &cbad doggo &fseems to have wandered
+    into the arena! Where did it even come from?
+  - wave=11:message=&8[Gladius] &fAlright folks we got animal control to deal with
+    the bad doggos, we're back in business!
+  - wave=12:message=&8[Gladius] &fIt seems like the audience is clamoring for &cmore&f!
+    Well, let's give it to them!
+  - wave=13:message=&8[Gladius] &fSeems like the custodians got bored and gave the
+    arena creatures &2poison&f! Let's see where this goes...
+  - wave=14:message=&8[Gladius] &fWell that was... boring! Whoever gave those guys
+    poison is fired! Come up with something better next time!
+  - wave=15:message=&8[Gladius] &fAnd here we have this year's prize-winning &4hog&f!
+    It got first place for ugliness and meanness! Everyone give a round of applause
+    for &4Mr. Oinkers&f!
+  - wave=16:message=&8[Gladius] &fMr. Oinkers is now bacon! Here comes &cMr. Oinker's
+    fans&f, flooding the arena to get their revenge!
+  - wave=17:message=&8[Gladius] &fIt would seem as though our arena challenger thinks
+    they have a shot! But can they deal with even more &cpowerful &ffoes?
+  - wave=18:message=&8[Gladius] &fThe &cfencing club &fand the &carchery club &fare
+    having a contest! Let's see which one does better!
+  - wave=19:message=&8[Gladius] &fThe fencing club didn't so so hot, let's see what
+    the &carchery club&f has for us!
+  - wave=20:message=&8[Gladius] &fSeems like the archery club didn't do so hot either!
+    It seems like our challenger has begun attracting the attention of some of our
+    top gladiators! Introducing &2Zoltan, the Pride of the Zombies&f!
+  - wave=21:message=&8[Gladius] &fUnbelievable! Seems like this rookie defeated Zoltan!
+    Do we have a potential new champion in our hands?
+  - wave=22:message=&8[Gladius] &fSpectators are starting to place their bets! How
+    far can today's contestant go?
+  - wave=23:message=&8[Gladius] &fDon't look away now, this wave's enemies all have
+    &cwithering &fattacks!
+  - wave=24:message=&8[Gladius] &fSeems like some pretty big arena names are starting
+    to arrive to stop this challenger! Stay tuned!
+  - wave=25:message=&8[Gladius] &fHere comes &bAgdluak&f, the archer from the Great
+    North! Beware of its &bfrost&f!
+  - wave=26:message=&8[Gladius] &fThat was a pretty cool fight! I am &cswarming &fwith
+    excitement to see what's next!
+  - wave=27:message=&8[Gladius] &fI've been told the arena grows harder! &cZombies
+    immune to arrows, skeletons that freeze their opponents &f- what will they think
+    of next!?
+  - wave=28:message=&8[Gladius] &fIt's time to show off those &cfencing &fskills!
+    Remember, it's all about the legwork!
+  - wave=29:message=&8[Gladius] &fAnd now, let's have some &ctarget practice&f! The
+    challenger is the target!
+  - wave=30:message=&8[Gladius] &fA true arena champion approaches! The &2Southern
+    Viper &fonce again seeks to &cpoison &ftheir enemies to death with his &cthousand
+    poisons&f!
+  - wave=31:message=&8[Gladius] &fThe Southern Viper has fallen! The crowd goes wild!
+    What a day, ladies and gentlemen, what a day!
+  - wave=32:message=&8[Gladius] &fI have been told that the arena custodians are done
+    messing around and are staring to let loose! Can our challenger survive this?
+  - wave=33:message=&8[Gladius] &fSeems like some enemies got their hands on some
+    of Southern Viper's &cpoisons&f! You do not want to get hit by those, ladies and
+    gentlemen!
+  - wave=34:message=&8[Gladius] &fBobby, make sure you put 1,000 Elite Coins on these
+    contestants dying for me - no, no, 1,000 Elite Coins - wait was this thing on?
+    I mean, onwards to the next wave!
+  - wave=35:message=&8[Gladius] &fLadies and gentlemen, what a rare treat! It would
+    seems as the very &aWood League Jester &fhas stepped up to fight! What delightful
+    &2tricks &fdoes he have for us today?
+  - wave=36:message=&8[Gladius] &fWhat a lovely show ladies and gentlemen, give it
+    up for &aThe Jester&f!
+  - wave=37:message=&8[Gladius] &fBobby, how is my bet doing? What do you mean 10,000
+    Elite Coins, I told you to put 1,000 on there! Uh, pump them, &cpump the powers
+    up&f!
+  - wave=38:message=&8[Gladius] &fBobby you're killing me here! Uh, dump some &cswordsmen
+    &fon there, I need to deal with something real quick...
+  - wave=39:message=&8[Gladius] &fWhat do you mean no refunds? I didn't even want
+    to - ahem, I mean, a legion of &carchers &fhave come from far to show off their
+    skills!
+  - wave=40:message=&8[Gladius] &fLadies an gentlemen, for, uh, random reasons, I
+    have invited the strongest fighter I can summon! Meet &4Crucios, the Bearer of
+    Curses&f!
+  - wave=41:message=&8[Gladius] &fCrucios has been defeated!? What has the world come
+    to?
+  - wave=42:message=&8[Gladius] &fA wealthy for now patron has decided to throw in
+    free healthcare to arena enemies! Will they do better with &2healing&f?
+  - wave=43:message=&8[Gladius] &f&cWither&f, &cpoison, &cfire&f throw in everything
+    you have! Do you even know how much is on the line!?
+  - wave=44:message=&8[Gladius] &fThis is clearly not working, let me think of something...
+  - wave=45:message=&8[Gladius] &fHere is one of the top gladiators of the Wood League
+    Arena! &cThousand Blades &fapproaches once again with his &cinnumerable projectiles&f!
+    He better win!
+  - wave=46:message=&8[Gladius] &fThousand Blades has fallen! It just seems like you
+    can't get competent gladiators these days! That's fine, you'll see! You'll all
+    see! &cRelease the swarm!
+  - wave=47:message=&8[Gladius] &fIf swarms don't work, throw in &cmore powers&f!
+    Throw in all of the powers!
+  - wave=48:message=&8[Gladius] &fWe are starting to run out of options here! Are
+    these all of the &cswordsmen &fwe have left?
+  - wave=49:message=&8[Gladius] &fAlright send all we have left, we have no other
+    options! Move forth, &carchers&f!
+  - wave=50:message=&8[Gladius] &fI guess this is it for me... I have no option but
+    to declare - wait, who is that in the distance? Is that &4Uther, the Champion
+    of the Wood League Arena&f? Ladies and gentlemen, match set and over, our contestant
+    has no chance of winning here! They shall be &csmitten &fby our champion!
+  - wave=51:message=&8[Gladius the Destitute] &fUnbelievable, Uther has been defeated!
+    We have a new arena champion! I would be incredibly excited if I wasn't so terribly
+    in debt now!
+xmas_quest_0:
+  name: '&2Find the lost gifts!'
+  questLore:
+  - I seem to have lost some Christmas gifts along the way, would you help a poor
+    old man find them again?
+  - I will let you open one of them in return!
+  questAcceptDialog:
+  - '&8[&cSaint Nick&8]&f Thank you! I will be waiting here for you!'
+  questCompleteMessage:
+  - '&8[&cSaint Nick&8]&f Thank you for your help! There are still some lost gifts
+    out there, talk to me again if you want to help out more!'
+ag_welcome_quest_0:
+  customObjectives:
+    Objective1:
+      dialog:
+      - '&8[&aCasus&8]&f Welcome to the Adventurer''s Guild Hub, the hub for all things
+        EliteMobs!'
+      - You can always get back here using &2/ag&f!
+      - Talk to me again for a quest!
+  name: '&2Finding the AG!'
+  questLore:
+  - Discover the Adventurer's Guild Hub using the command &2/ag &0or &2/adventurersguild
+    !
+  questAcceptDialog:
+  - '&8[Odigos]&f Alright, make sure you use &2/ag &f or &2/adventurersguild&f to
+    head off to the Adventurer''s Guild Hub!'
+  - Make sure you talk to Casus when you're there!
+test_quest:
+  name: Kill the Test Boss
+  questLore:
+  - '&cEnd the test boss'' reign of terror!'
+ag_welcome_quest_1:
+  customObjectives:
+    Objective3:
+      dialog:
+      - '&8[&aGreg&8]&f Want to buy or sell something? I''ve got a little of everything!'
+    Objective4:
+      dialog:
+      - '&8[&aCharles&8]&f Want to learn about fighting elites? Just talk to me!'
+    Objective1:
+      dialog:
+      - '&8[&aHermes&8]&f I take you back to where you were before! Just talk to me
+        again!'
+    Objective2:
+      dialog:
+      - '&8[&aBartley&8]&f Need a stiff drink? My drinks pack an extra punch!'
+    Objective7:
+      dialog:
+      - '&8[&aQel''Thuzad&8]&f These Elite monsters, where do they keep coming from?'
+      - Ah, never mind that for now, we are always in need of more people to assist
+        us in slaying quests!
+      - Just talk to me to get one!
+    Objective12:
+      dialog:
+      - '&8[&aGrog&8]&f Want to buy special items? I''ve got just the thing!'
+    Objective8:
+      dialog:
+      - '&8[&aRalph&8]&f Get more out of your scrap by upgrading it! Just talk to
+        me at any time.'
+    Objective13:
+      dialog:
+      - '&8[&aUlfric&8]&f If you bring me a very special and rare item, I can unbind
+        your Elite items.'
+      - You don't yet look prepared to take this challenge on, but you can make killing
+        the Binder of Worlds your ultimate goal, if you dare.
+    Objective5:
+      dialog:
+      - '&8[&aTim&8]&f Want to upgrade your Elite Items? Just get an upgrade orb from
+        Sam over there!'
+    Objective10:
+      dialog:
+      - '&8[&aKelly&8]&f Got extra Elite items? Don''t know what to do with them?
+        Give them to me, and I''ll turn them into scrap!'
+      - You can use scrap to do lots of things, like repairing or upgrading Elite
+        items!
+    Objective6:
+      dialog:
+      - '&8[&aGillian&8]&f Do you seek power? Do you desire to reach new heights?
+        Talk to me to unlock new guild ranks, and reach levels of power you never
+        thought to be possible!'
+    Objective11:
+      dialog:
+      - '&8[&aSam&8]&f Got extra scrap? I can refine that into Upgrade Orbs, which
+        you can give to Tim to upgrade your Elite items with!'
+    Objective9:
+      dialog:
+      - '&8[&aReggie&8]&f Need your Elite items repaired? Just bring me some scrap,
+        and I''ll make them as good as new!'
+      - Remember, the higher the level of your scrap, the better I can repair you
+        Elite item!
+  name: '&2Welcome to the AG!'
+  questLore:
+  - '&aMeet the Adventurer''s Guild NPCs!'
+binder_of_worlds_phase_1_endermite_reinforcement:
+  name: $reinforcementLevel &5现实腐蚀者
+binder_of_worlds_phase_3_enderman_reinforcement:
+  name: $reinforcementLevel &5现实杀手
+binder_of_worlds_phase_3_ghast_reinforcement:
+  name: $reinforcementLevel &5现实粉碎者
+elite_warden:
+  name: '&fLvl &2$level &fElite &3Warden'
+  deathMessages:
+  - $entity &csensed $player &cwas nearby!

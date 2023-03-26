@@ -1,0 +1,5 @@
+powerType: OFFENSIVE
+isEnabled: true
+name: 雷击
+effect: HORN_CORAL
+delayBetweenStrikes: 15

@@ -1,0 +1,26 @@
+isEnabled: true
+name: Dux
+role: <Guide>
+profession: NITWIT
+spawnLocation: 'null'
+spawnLocations: []
+greetings:
+- Heard about the AG?
+- Been to the AG?
+- Heard of the Adventurer's Guild?
+- Know about the Adventurer's Guild?
+dialog:
+- Heard about the AG?
+- Been to the AG?
+- Heard of the Adventurer's Guild?
+- Know about the Adventurer's Guild?
+farewell:
+- Come back anytime
+- I'll be here if you need me!
+- I'll be around!
+- See you later!
+canTalk: true
+activationRadius: 5.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- ag_welcome_quest_0.yml

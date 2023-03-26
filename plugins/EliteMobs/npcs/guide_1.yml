@@ -1,0 +1,25 @@
+isEnabled: true
+name: Casus
+role: <Guide>
+profession: NITWIT
+spawnLocation: em_adventurers_guild,215.5,87,239.5,131,0
+spawnLocations: []
+greetings:
+- Need guidance?
+- Need a hint
+- Are you lost?
+- Need help?
+dialog:
+- I know everything about\nthis place!
+- Want to meet the other members\nof the Adventurer's Guild?
+- Need to learn your way around\nthis place?
+farewell:
+- Come back anytime
+- I'll be here if you need me!
+- I'll be around!
+- See you later!
+canTalk: true
+activationRadius: 5.0
+interactionType: CUSTOM_QUEST_GIVER
+questFileName:
+- ag_welcome_quest_1.yml

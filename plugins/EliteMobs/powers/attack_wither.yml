@@ -1,0 +1,15 @@
+powerType: OFFENSIVE
+isEnabled: true
+name: 凋零
+effect: WITHER_SKELETON_SKULL
+eliteScript:
+  WitherPlayer:
+    Events:
+    - PlayerDamagedByEliteMobEvent
+    Actions:
+    - duration: 60
+      action: POTION_EFFECT
+      potionEffectType: wither
+      amplifier: 0
+      Target:
+        targetType: DIRECT_TARGET

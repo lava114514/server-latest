@@ -1,0 +1,16 @@
+isEnabled: true
+name: Gladius
+role: <Arena Master>
+profession: ARMORER
+spawnLocation: em_adventurers_guild,240.5,92,270,-108,0
+spawnLocations: []
+greetings:
+- Welcome to the\nArena!
+dialog:
+- Prepared to face the arena?
+farewell:
+- Return with your shield, or on it!
+canTalk: true
+activationRadius: 3.0
+interactionType: ARENA_MASTER
+arena: wood_league.yml

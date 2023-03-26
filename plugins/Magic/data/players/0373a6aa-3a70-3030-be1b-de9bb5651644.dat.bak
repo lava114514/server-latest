@@ -1,0 +1,297 @@
+id: 0373a6aa-3a70-3030-be1b-de9bb5651644
+name: FavoriteBread
+created: 1638682282760
+updated: 1639901296576
+last_cast: 1639900022391
+cooldown_expiration: 1639900041276
+last_death_location: -19.61091972825406,83.5,3.3130780828686466,bskyblock_world,44.421448,39.49164
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  9a0e2469-eb90-43e0-85af-8c6ab4cc797f: []
+spells:
+  arrow_regular:
+    cast_count: 11
+    last_cast: 1639224396628
+    last_earn: 1639224390131
+    cooldown_expiration: 0
+    charges: 0.0
+  arrow:
+    cast_count: 11
+    last_cast: 1639888531722
+    last_earn: 1639230427392
+    cooldown_expiration: 0
+    charges: 0.0
+  missile:
+    cast_count: 30
+    last_cast: 1638684363728
+    last_earn: 1638684362322
+    cooldown_expiration: 1638684364728
+    charges: 0.0
+  fire:
+    cast_count: 12
+    last_cast: 1639882750103
+    last_earn: 1639882723408
+    cooldown_expiration: 0
+    charges: 0.0
+  missile|2:
+    cast_count: 50
+    last_cast: 1639223543872
+    last_earn: 1639223543862
+    cooldown_expiration: 1639223544872
+    charges: 0.0
+  push:
+    cast_count: 24
+    last_cast: 1639879526199
+    last_earn: 1639879527054
+    cooldown_expiration: 0
+    charges: 0.0
+  arrow_poison:
+    cast_count: 33
+    last_cast: 1639223533511
+    last_earn: 1639223533691
+    cooldown_expiration: 0
+    charges: 0.0
+  missile|3:
+    cast_count: 71
+    last_cast: 1639900022392
+    last_earn: 1639899937737
+    cooldown_expiration: 0
+    charges: 0.0
+wands:
+  magicsword:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"魔法剑"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gray","text":"战士 "},{"color":"white","text":"Magic
+          Sword"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 FavoriteBread"}'
+        - '{"text":"掌握 4 技能"}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
+          "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        custom-model-data: 18009
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: Equipment Modifier
+            slot: HAND
+            uuid: 0f36e550-7dda-46e6-b162-3325ccc9ac25
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/02QQU+EMBCFB2GzBDXe9hcYT0tSLAvs1YN/gwx0kEZom7ZAjPG/W/ait5fM+968mQwgguSTyEQZJBsqkcJBb4osPL7jqq309GYJRQynUfsObSvVSspr+9X2elEeQkIKiey1gpMiP9LOtG7TVnwXDWPXnwyenKFp+kNjOKC1egswxHCcpXNyoj0qhmSQdpd3QZrFjTdLMK1knQxLAI4ppLeOrRTwzHjNsULMOdYs54yzvKOiywVdu+5SXYqqLAPgaTYTeoJsxg/Z3/ql8EDDQL0Pp0zawkvBBlHxvixrLM4DiUY0DeOvyM7/J+Fl94sSVhuD3UQR/AJBFjzjRgEAAA==
+        PublicBukkitValues:
+          minetinker:creator: '[B;3B,115B,-90B,-86B,58B,112B,48B,48B,-66B,27B,-34B,-101B,-75B,101B,22B,68B]'
+          minetinker:identifiertool: 56958i
+          minetinker:freeslots: 1i
+          minetinker:creation_date: 1639834314726L
+          minetinker:level: 1i
+          minetinker:exp: 0L
+    wand:
+      owner: FavoriteBread
+      hotbar_inventory_count: 1
+      icon: netherite_sword{18009}
+      spell_inventory:
+        arrow: 0
+        missile: 1
+        fire: 2
+        push: 3
+      version: 7
+      owner_id: 0373a6aa-3a70-3030-be1b-de9bb5651644
+      template: magicsword
+      effect_color: 10fd63c447a1,fed8d88032a0,10fd63c447a1
+  wand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"法杖"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"魔力法杖"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 FavoriteBread"}'
+        - '{"text":"掌握 4 技能"}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"魔法导弹"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
+          "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"yellow","text":"Change
+          controls using an "},{"color":"aqua","text":"enchant table"}],"text":""}'
+        custom-model-data: 18001
+        attribute-modifiers:
+          GENERIC_ATTACK_SPEED:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 10.0
+            name: Equipment Modifier
+            slot: HAND
+            uuid: 9e8e99bb-2700-4cbf-9178-acbde429c164
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/0WQwW6DMBBEl0IaRFP11i+IegqSiR0g1x76G2htFsUKsZExoKrqv9ekqnobjTS7byYDiCC5Eg1RBsmCpk1hYxdDDp4/cLZOe3p3hG0MrxfrJbpGm5mMt+6zUXYyHsKFFBKtrIHd6LW6fhU1Y8V3Bi/jQH3/H4hhe9PjqHtaQzFs0Dm7BA0xJJ12q/0Q5DCNl7uZQurpNvTo6Q8uvcM1uoU94xXHEjHnWLGcM85ySYXMWzpLeSpPRSlEeDmTG3WAA9imsKOuI+UDem8dvKEouayOXPAzHlQthGA1F5KzQ1lVpI6Cd4KH7o+/3VfUsNfTZFpnhwFlTxH8AJKpu3RDAQAA
+    wand:
+      owner: FavoriteBread
+      hotbar_inventory_count: 1
+      icon: stick{18001}
+      spell_inventory:
+        missile: 1
+        arrow: 0
+        fire: 2
+        push: 3
+      template: wand
+      owner_id: 0373a6aa-3a70-3030-be1b-de9bb5651644
+      version: 7
+      effect_color: a463b723439a,c84440834b30,677ec243f43d
+      hotbar: 0
+  mirrorshield:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: SHIELD
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"镜之盾"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"green","text":"可以格挡和反弹法术"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 FavoriteBread"}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"反弹: IV"}],"text":""}'
+        custom-model-data: 18001
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/x3LSwrCMBQF0Fus9IPuwmkgJf3g1IHbkBfywGCblLS0i3DsSDfixNUI4i4szs/JgQjxhbmPcsQzOZMidtQxsu/t8X5eP/dXirWfHQdsjzT5YEc+BKYFpiN3fUsjY9PZEHwYzpZbs0IycRisdwCShf33yRrspGoU1URCUSOFkkoKzYUWhvdaV3VV1GUJ/AD/+ykmlQAAAA==
+        PublicBukkitValues:
+          minetinker:creator: '[B;3B,115B,-90B,-86B,58B,112B,48B,48B,-66B,27B,-34B,-101B,-75B,101B,22B,68B]'
+          minetinker:identifierarmor: 56958i
+          minetinker:identifiertool: 56958i
+          minetinker:freeslots: 2i
+          minetinker:creation_date: 1639230599072L
+          minetinker:stats_damage_received: 422.06597804546357d
+          minetinker:level: 3i
+          minetinker:exp: 231L
+          minetinker:knockback: 1i
+        blockMaterial: SHIELD
+    wand:
+      name: 镜之盾
+      owner: FavoriteBread
+      template: mirrorshield
+      version: 7
+      owner_id: 0373a6aa-3a70-3030-be1b-de9bb5651644
+  magicbow:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2730
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"魔法弓"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gold","text":"弓箭手 "},{"color":"white","text":"魔法弓"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 FavoriteBread"}'
+        - '{"text":"掌握 2 技能"}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        custom-model-data: 18001
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/1XOwU7DMAwGYFctWlSYduMJuFZK1a2DKwdeI3Iaa0R0ceSmrRDi3cnKAXG09fv7XQMUUH0QxaKGasXgFNzxGkhg/4YLi0/0KoSuhMd3ThbF+LBQSCyfZuA5JMiCggcckl/ITJHGMU8ivJrIfuKgoPIDB6gtr1/ts9btdw2HLfhnlbD/vRG6zCNKVqH879yKQIFKdI0jJgJ1xYsfspqX28vGO3jS3bnDHrHp8KybTne6sdTaxtGLtaf+1PbHYwm7hWTyG7rL7P0cnHCMaEcq4Ac3QWsgFQEAAA==
+        PublicBukkitValues:
+          minetinker:creator: '[B;3B,115B,-90B,-86B,58B,112B,48B,48B,-66B,27B,-34B,-101B,-75B,101B,22B,68B]'
+          minetinker:identifiertool: 56958i
+          minetinker:freeslots: 1i
+          minetinker:creation_date: 1639888706207L
+          minetinker:level: 1i
+          minetinker:exp: 0L
+    wand:
+      owner: FavoriteBread
+      hotbar_inventory_count: 1
+      active_spell: arrow_poison
+      icon: bow{18001}
+      spell_inventory:
+        arrow_regular: 0
+        arrow_poison: 1
+      template: magicbow
+      owner_id: 0373a6aa-3a70-3030-be1b-de9bb5651644
+      version: 7
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data:
+  sp: 633.0
+properties:
+  version: 7
+shown_help: true
+classes:
+  caster:
+    spell_levels:
+      missile: 3
+    spells:
+    - arrow
+    - missile
+    - fire
+    - push
+  mage:
+    effect_color: c10885f84e42,1c1d53284e88,9da11b02cf1b
+    mana_timestamp: 1639900039626
+    mana: 50.0
+  archer_mage: {}
+  battle_mage:
+    mana_timestamp: 1639835132408
+    mana: 50.0
+transient_modifiers: {}
+active_class: archer_mage
+health: 0.0

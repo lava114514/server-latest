@@ -1,0 +1,7 @@
+isEnabled: true
+location1: em_adventurers_guild,284.5,108,296.5,0,0
+location1Text: '&2『Under Grove Lair』 &cLvl 170'
+location2: beasts_sanctuary_lair.yml
+style: CRYSTAL
+particleColor: 9830655
+blindPlayer: true

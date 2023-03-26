@@ -1,0 +1,5 @@
+powerCooldown: 300
+globalCooldown: 140
+powerType: UNIQUE
+isEnabled: true
+name: 冰锥

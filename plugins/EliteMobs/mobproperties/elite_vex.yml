@@ -1,0 +1,6 @@
+baseDamageV2: 13.0
+isEnabled: true
+entityType: VEX
+name: '&2$level级&f精英&b恼鬼'
+deathMessages:
+- $player惹恼了$entity！

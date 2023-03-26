@@ -1,0 +1,168 @@
+id: c044cd4d-b2f0-493d-9457-42ab7216df39
+name: Funget114514
+created: 1679803070926
+updated: 1679807225463
+last_cast: 1679807224828
+cooldown_expiration: 0
+last_death_location: 1.699999988079071,65.0,-276.30000001192093,world,-34.78555,5.999998
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: 0
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  b8dd9de6-bce5-418b-9566-b5e1a4cc7a98: []
+spells:
+  pull:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  flare:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  spellshop:
+    cast_count: 0
+    last_cast: 1679807175609
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  arrow:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  recall:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  missile:
+    cast_count: 30
+    last_cast: 1679807080588
+    last_earn: 1679807080582
+    cooldown_expiration: 1679807081588
+    charges: 0.0
+  progressmenu:
+    cast_count: 10
+    last_cast: 1679807174766
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  workbench:
+    cast_count: 5
+    last_cast: 1679806577059
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  aqualung:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    enabled: false
+    charges: 0.0
+  missile|2:
+    cast_count: 1
+    last_cast: 1679807224828
+    last_earn: 1679807125987
+    cooldown_expiration: 1679807225828
+    charges: 0.0
+wands:
+  wand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 2975
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"魔法导弹"},{"italic":false,"color":"white","text":"
+          ("},{"italic":false,"color":"dark_aqua","text":"法杖"},{"italic":false,"color":"white","text":")"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"魔力法杖"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Funget114514"}'
+        - '{"text":"掌握 7 技能"}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"魔法导弹"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
+          "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"yellow","text":"Change
+          controls using an "},{"color":"aqua","text":"enchant table"}],"text":""}'
+        custom-model-data: 18001
+        attribute-modifiers:
+          GENERIC_ATTACK_SPEED:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 10.0
+            name: Equipment Modifier
+            slot: HAND
+            uuid: 219e67ed-10a4-48d3-aeba-9fde7c4700da
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/0VQW07DMBDc4rQNpRJ/nADx1Uhx4jTkAlwj8mNNrbp2cJxGCHF33CDB52jnsTM7gBVkZ8RhtYNs5k7lsPazwwD7t8m9Y6SUNZQReDr5KHjojbuiiz589tJPLkIyyGHPZTRX7McBrYXtxYyjsZhDZqR3sB+jkecv+lqW9HsHjwvr34hANkxJBpARuJ99OAt08pTwHYE1D8HPtxTy55sQENgElHyRbRJNWx5uhzWBnH9M3KbnF1oO+dKnNwqeZcmYVEwVotJlwbpaFR1r2oJVXLQVPSpdd0kQ8TJYHvF3kRR8xTCa1ARgm8qi1ihj6m99gJeqwk50DTZI8cAoU7xusZWsPDSoVHXUdSlqnWZ+mJwKfhi4sLiCH/FQ8q16AQAA
+    wand:
+      owner: Funget114514
+      hotbar_inventory_count: 1
+      active_spell: missile
+      icon: stick{18001}
+      spell_inventory:
+        workbench: 2
+        pull: 4
+        missile: 0
+        arrow: 1
+        recall: 6
+        aqualung: 3
+        flare: 5
+      version: 7
+      template: wand
+      owner_id: c044cd4d-b2f0-493d-9457-42ab7216df39
+      effect_color: 22e9b95e5e1e,414da37e7c40,5edd26f30b3f
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data:
+  sp: 5.0
+properties:
+  version: 7
+classes:
+  caster:
+    spells:
+    - pull
+    - flare
+    - arrow
+    - recall
+    - missile
+    - workbench
+    - aqualung
+    spell_levels:
+      missile: 2
+  mage:
+    effect_color: efc0009bd2e7,405ab9a92e37,d31e3e815c7c
+    mana_timestamp: 1679807225322
+    mana: 20.499994
+transient_modifiers: {}
+active_class: mage
+health: 20.399999618530273

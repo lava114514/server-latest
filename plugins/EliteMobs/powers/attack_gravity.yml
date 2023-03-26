@@ -1,0 +1,15 @@
+powerType: OFFENSIVE
+isEnabled: true
+name: 飞升
+effect: ELYTRA
+eliteScript:
+  LevitatePlayer:
+    Events:
+    - PlayerDamagedByEliteMobEvent
+    Actions:
+    - duration: 60
+      action: POTION_EFFECT
+      potionEffectType: levitation
+      amplifier: 0
+      Target:
+        targetType: DIRECT_TARGET

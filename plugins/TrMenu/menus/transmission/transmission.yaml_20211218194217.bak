@@ -1,0 +1,73 @@
+Title: '传送'
+
+Layout:
+- 'G#######R'
+- '         '
+- '  A B C  '
+- '         '
+- '#########'
+
+Bindings:
+  Commands:
+    - ''
+
+Events:
+  Open:
+    - 'sound: BLOCK_IRON_DOOR_OPEN-1-2'
+  Close:
+    - 'sound: BLOCK_IRON_DOOR_CLOSE-1-2'
+
+Icons:
+
+  '#':
+    display:
+      material: gray stained glass pane
+      name: '&8传送'
+
+  'A':
+    update: 10
+    display:
+      material:
+      - 'grass_block'
+      name: '&a岛屿世界'
+      lore:
+      - ''
+      - '&b➥左键传送'
+      - ''
+    actions:
+      all:
+      - 'sound: UI_BUTTON_CLICK-1-2'
+      - 'command *"is"'
+      - 'command *"gamemode survival"'
+
+  'B':
+    update: 40
+    display:
+      material:
+      - 'quartz_pillar'
+      - 'quartz_bricks'
+      - 'sea_lantern'
+      name: '&a主城'
+      lore:
+      - ''
+      - '&b➥左键传送'
+      - ''
+      - '等待三秒'
+    actions:
+      all:
+      - 'sound: UI_BUTTON_CLICK-1-2'
+      - 'command *"em spawntp"'
+  'R':
+    display:
+      material: Red Stained Glass Pane
+      name: '&c关&7闭'
+    actions:
+      all: close
+
+  'G':
+     dislpay:
+      material: Green Stained Glass Pane
+      name: '&b返&3回'
+    actiond:
+      all: 
+      - 'menu: menu'

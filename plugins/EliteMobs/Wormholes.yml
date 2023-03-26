@@ -1,0 +1,5 @@
+dungeonNotInstalledMessage: '&8[EliteMobs] &cDungeon $dungeonID &cis not installed!
+  This teleport will not work.'
+defaultPortalMissingMessage: '&8[EliteMobs] &cThis portal doesn''t seem to lead anywhere!'
+reducedParticlesMode: true
+noParticlesMode: false

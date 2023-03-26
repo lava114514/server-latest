@@ -1,0 +1,15 @@
+powerType: OFFENSIVE
+isEnabled: true
+name: 赐毒
+effect: EMERALD
+eliteScript:
+  PoisonPlayer:
+    Events:
+    - PlayerDamagedByEliteMobEvent
+    Actions:
+    - duration: 60
+      action: POTION_EFFECT
+      potionEffectType: poison
+      amplifier: 0
+      Target:
+        targetType: DIRECT_TARGET
