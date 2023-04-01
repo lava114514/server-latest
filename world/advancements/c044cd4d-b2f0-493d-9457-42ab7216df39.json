@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2023-04-01 20:10:20 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2023-03-26 12:25:33 +0800"
@@ -355,9 +361,11 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2023-04-01 21:04:42 +0800",
       "cooked_mutton": "2023-03-26 12:49:02 +0800",
       "cooked_beef": "2023-04-01 14:14:51 +0800",
       "baked_potato": "2023-04-01 12:21:18 +0800",
+      "beef": "2023-04-01 19:51:01 +0800",
       "bread": "2023-03-31 22:31:27 +0800",
       "rotten_flesh": "2023-03-26 12:21:44 +0800",
       "carrot": "2023-04-01 14:26:24 +0800"
@@ -1674,6 +1682,7 @@
     "criteria": {
       "minecraft:taiga": "2023-04-01 12:04:32 +0800",
       "minecraft:beach": "2023-03-26 12:00:30 +0800",
+      "minecraft:stony_shore": "2023-04-01 19:33:11 +0800",
       "minecraft:cold_ocean": "2023-03-26 12:21:07 +0800",
       "minecraft:forest": "2023-03-26 12:28:17 +0800",
       "minecraft:deep_cold_ocean": "2023-03-31 22:16:07 +0800",
@@ -1702,6 +1711,12 @@
   "minecraft:recipes/misc/book": {
     "criteria": {
       "has_paper": "2023-04-01 15:38:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2023-04-01 20:44:23 +0800"
     },
     "done": true
   },

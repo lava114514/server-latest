@@ -1,10 +1,10 @@
 id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
 name: mc_wyy114
 created: 1679719078156
-updated: 1680336919660
-last_cast: 1680336904028
+updated: 1680354181392
+last_cast: 1680353331304
 cooldown_expiration: 0
-last_death_location: -148.75350877405577,59.75197160721048,-286.5620985210093,world,-53.099,9.300056
+last_death_location: -18.30000001192093,63.57194163691238,-279.30000001192093,world,176.5497,19.800009
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -18,9 +18,9 @@ undo:
   b8dd9de6-bce5-418b-9566-b5e1a4cc7a98: []
 spells:
   flare:
-    cast_count: 14
-    last_cast: 1680328539750
-    last_earn: 1680328540210
+    cast_count: 16
+    last_cast: 1680349861232
+    last_earn: 1680349856993
     cooldown_expiration: 0
     charges: 0.0
   arrow:
@@ -36,8 +36,8 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   upgrades:
-    cast_count: 1
-    last_cast: 1680272086021
+    cast_count: 2
+    last_cast: 1680353331304
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -54,8 +54,8 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   effectshop:
-    cast_count: 0
-    last_cast: 1680272073691
+    cast_count: 1
+    last_cast: 1680353322470
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -78,14 +78,14 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   fire:
-    cast_count: 26
-    last_cast: 1680336873780
-    last_earn: 1680336706259
+    cast_count: 36
+    last_cast: 1680353313383
+    last_earn: 1680353313383
     cooldown_expiration: 0
     charges: 0.0
   progressmenu:
-    cast_count: 15
-    last_cast: 1680328262045
+    cast_count: 17
+    last_cast: 1680353329013
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -102,15 +102,15 @@ spells:
     cooldown_expiration: 1680323208298
     charges: 0.0
   missile|3:
-    cast_count: 60
-    last_cast: 1680336904028
-    last_earn: 1680336904061
+    cast_count: 64
+    last_cast: 1680350332471
+    last_earn: 1680350133654
     cooldown_expiration: 0
     charges: 0.0
   fireball|2:
-    cast_count: 9
-    last_cast: 1680336880549
-    last_earn: 1680336701261
+    cast_count: 16
+    last_cast: 1680351417752
+    last_earn: 1680351161943
     cooldown_expiration: 0
     charges: 0.0
 wands:
@@ -122,8 +122,7 @@ wands:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"魔法导弹"},{"italic":false,"color":"white","text":"
-          ("},{"italic":false,"color":"dark_aqua","text":"法杖"},{"italic":false,"color":"white","text":")"}],"text":""}'
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"法杖"}],"text":""}'
         lore:
         - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"魔力法杖"}],"text":""}'
         - '{"italic":true,"color":"dark_aqua","text":"绑定 mc_wyy114"}'
@@ -146,7 +145,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: 95da49ba-217e-4cd2-b055-f1290ec5c7a1
+            uuid: 297cbb1a-2dcb-4f32-9fda-b7905af08783
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -157,28 +156,32 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0VQ226DMAw1g66sq7S3fcH2VqSkBEG/BiXB0aKGBIW0CE3797mttL1ZPhef4x1ABsUZccp2UCzSDyVswuIxwsuo+2VdORc5vH+FpGTsrb+iTyGuvQ4Xn4DUJeylTvaK/Tyhc7Ad7TxbhyUUVgcP+zlZff7mHWP8Zwdvd9a/Uf4nIDPIYSNjDAuNTzkUxsbbusihvI1Kkj+dJJZx8g4RAuU9b28H+OCN6Hh7kpXQ/FQJdTRVJ3RdDUPLWoamll1NgoTj5GTCR2OKcMU4WwoLsM3h+VH2lofKoTGoE/V1IcKn1k1rukYowfShM2I4KiZOjTo0vBU1Q10LNPTS14sfYpgmqRxm8AsT5PyAZgEAAA==
+        internal: H4sIAAAAAAAA/0VR226DMAw1Cx2sq9a3fcH2VqSESwtfg5LgaFEDQSEtqqb9+wKttjc79rk5W4AI4jPiGG0hnvnQRfCGSqH0rbgIYXCCFHZcen3FdhrRGEh6PU3aYAqxlnaA3eS1PH+zmlL2s4XkDp9SSFcY9wgQSFKP/WiWbtUhkFzRTToQACQEnr+sF9zBurt7WJDWWAefUtKmoU3dlEgPtWLHXOVdleeHilWloqw6ioKmsH+gRu6CI4ML08bOAzp46WU7326MlQTe70qtHq44eOtuQeYy+CAcbrBfM/7PyF/cxRmBDXfOzqF8IhAr7ZbnmEC6lIKH6wSWsKUMX0dkCb5aaHUHH8FuzU4Nz0rJmqwUucrqUhZZ153oiaIqeF2ED3m9DJ2z48jD/SP4BX1SDx+kAQAA
     wand:
-      owner: mc_wyy114
-      hotbar_inventory_count: 1
+      effect_bubbles: false
       active_spell: missile
       icon: stick{18001}
+      effects:
+        activate: ''
+      version: 7
+      template: wand
+      effect_color: cc09909894e0,8f162f2d522,5154f0156b30
+      hotbar: 0
+      owner: mc_wyy114
+      effect_particle: ''
+      hotbar_inventory_count: 1
       spell_inventory:
         fireball: 1
         arrow: 2
         missile: 0
         fire: 4
         flare: 3
-      version: 7
-      template: wand
       owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
-      effect_color: cc57f854b40c,8f4d2b0495b,517430ec34ef
-      hotbar: 0
 open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
-  sp: 116.0
+  sp: 155.0
 properties:
   version: 7
 classes:
@@ -194,7 +197,7 @@ classes:
     - fireball
   mage:
     effect_color: 456a4a324571,d7819e4f1a4d,20893af8e500
-    mana_timestamp: 1680336919560
+    mana_timestamp: 1680354181293
     mana: 50.0
 transient_modifiers: {}
 active_class: mage

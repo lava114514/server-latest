@@ -179,12 +179,12 @@ Icons:
   A:
     update: 20
     display:
-      material: orange_stained_glass
-      name: '&4查看精英怪等级'
+      material: chest
+      name: '&6扩展背包'
     actions:
       all:
       - 'sound: BLOCK_NOTE_BLOCK_PLING-1-2'
-      - 'command *"ag"'
+      - 'command *"bag open"'
   E:
     update: 20
     display:
@@ -199,10 +199,10 @@ Icons:
     update: 40
     display:
       material: 
-      - sunflower
+      - orange_stained_glass
       - tnt
-      - sunflower
-      name: '&6精英怪&e/'
+      - orange_stained_glass
+      name: '&4精英&e怪&'
     actions:
       all:
       - 'sound: BLOCK_NOTE_BLOCK_PLING-1-2'

@@ -1,10 +1,10 @@
 id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
 name: mc_wyy114
 created: 1679719078156
-updated: 1680336884810
-last_cast: 1680336880549
+updated: 1680353886843
+last_cast: 1680353331304
 cooldown_expiration: 0
-last_death_location: -14.925648174139303,63.0,-290.3363390498698,world,-157.95105,30.149927
+last_death_location: 91.9965152821005,50.41045765132296,-166.37884536544018,world,-52.014774,6.004799
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -15,22 +15,12 @@ brush:
   scale: 1.0
   erase: true
 undo:
-  b8dd9de6-bce5-418b-9566-b5e1a4cc7a98:
-  - blocks:
-    - -114,68,-217,world|grass_block?minecraft:grass_block[snowy=false]
-    - -115,67,-217,world|grass_block?minecraft:grass_block[snowy=false]
-    - -115,67,-219,world|grass_block?minecraft:grass_block[snowy=false]
-    - -115,67,-218,world|grass_block?minecraft:grass_block[snowy=false]
-    - -115,68,-217,world|grass
-    - -114,68,-218,world|grass_block?minecraft:grass_block[snowy=false]
-    time_to_live: 4000
-    name: 火球
-    mode: NO_PHYSICS
+  b8dd9de6-bce5-418b-9566-b5e1a4cc7a98: []
 spells:
   flare:
-    cast_count: 14
-    last_cast: 1680328539750
-    last_earn: 1680328540210
+    cast_count: 16
+    last_cast: 1680349861232
+    last_earn: 1680349856993
     cooldown_expiration: 0
     charges: 0.0
   arrow:
@@ -46,8 +36,8 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   upgrades:
-    cast_count: 1
-    last_cast: 1680272086021
+    cast_count: 2
+    last_cast: 1680353331304
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -64,8 +54,8 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   effectshop:
-    cast_count: 0
-    last_cast: 1680272073691
+    cast_count: 1
+    last_cast: 1680353322470
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -88,14 +78,14 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   fire:
-    cast_count: 26
-    last_cast: 1680336873780
-    last_earn: 1680336706259
+    cast_count: 36
+    last_cast: 1680353313383
+    last_earn: 1680353313383
     cooldown_expiration: 0
     charges: 0.0
   progressmenu:
-    cast_count: 15
-    last_cast: 1680328262045
+    cast_count: 17
+    last_cast: 1680353329013
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -112,16 +102,16 @@ spells:
     cooldown_expiration: 1680323208298
     charges: 0.0
   missile|3:
-    cast_count: 59
-    last_cast: 1680331071938
-    last_earn: 1680331069817
+    cast_count: 64
+    last_cast: 1680350332471
+    last_earn: 1680350133654
     cooldown_expiration: 0
     charges: 0.0
   fireball|2:
-    cast_count: 9
-    last_cast: 1680336880549
-    last_earn: 1680336701261
-    cooldown_expiration: 1680336890549
+    cast_count: 16
+    last_cast: 1680351417752
+    last_earn: 1680351161943
+    cooldown_expiration: 0
     charges: 0.0
 wands:
   wand:
@@ -132,8 +122,7 @@ wands:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"点火"},{"italic":false,"color":"white","text":"
-          ("},{"italic":false,"color":"dark_aqua","text":"法杖"},{"italic":false,"color":"white","text":")"}],"text":""}'
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"法杖"}],"text":""}'
         lore:
         - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"魔力法杖"}],"text":""}'
         - '{"italic":true,"color":"dark_aqua","text":"绑定 mc_wyy114"}'
@@ -142,7 +131,7 @@ wands:
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
-          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"点火"}],"text":""}'
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"魔法导弹"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
           "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
@@ -156,7 +145,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: 95da49ba-217e-4cd2-b055-f1290ec5c7a1
+            uuid: 297cbb1a-2dcb-4f32-9fda-b7905af08783
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -167,257 +156,32 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0VQQW7CMBBcmlBSitRbX0BvRIqJg81rIsdeqxbGjhxDhKr+vQscehvtzszO7BpgAeUJcVysoZxVMBUs4xwwwdtZ9/Ptxhgv4PM75kGl3oUrhhzTrdfxEjKQuoKN0tldsZ9G9B5K6xJWUDodA2ym7PTph8mmYb9r+HhQ/l0KWJ3dNDmP5AQFLFVKcSb4Ujx9CJYFVHc4KDKne8SyXj1WtIHqEbZ3Bras45KJo6q5ZseaD3tbS67b2hjRiAZtq2RLgozn0auMz7oU4YppchQWYFXA67PpPQ81Q2tRZyrrY4IvrTvTtpIfBuQ7abvGHPZS2GbXMXGgqWFWCPrn+yWYFMdRDR4X8Acp6dbZYwEAAA==
+        internal: H4sIAAAAAAAA/0VR226DMAw1Cx2sq9a3fcH2VqSESwtfg5LgaFEDQSEtqqb9+wKttjc79rk5W4AI4jPiGG0hnvnQRfCGSqH0rbgIYXCCFHZcen3FdhrRGEh6PU3aYAqxlnaA3eS1PH+zmlL2s4XkDp9SSFcY9wgQSFKP/WiWbtUhkFzRTToQACQEnr+sF9zBurt7WJDWWAefUtKmoU3dlEgPtWLHXOVdleeHilWloqw6ioKmsH+gRu6CI4ML08bOAzp46WU7326MlQTe70qtHq44eOtuQeYy+CAcbrBfM/7PyF/cxRmBDXfOzqF8IhAr7ZbnmEC6lIKH6wSWsKUMX0dkCb5aaHUHH8FuzU4Nz0rJmqwUucrqUhZZ153oiaIqeF2ED3m9DJ2z48jD/SP4BX1SDx+kAQAA
     wand:
-      owner: mc_wyy114
-      hotbar_inventory_count: 1
-      active_spell: fire
+      effect_bubbles: false
+      active_spell: missile
       icon: stick{18001}
+      effects:
+        activate: ''
+      version: 7
+      template: wand
+      effect_color: cc09909894e0,8f162f2d522,5154f0156b30
+      hotbar: 0
+      owner: mc_wyy114
+      effect_particle: ''
+      hotbar_inventory_count: 1
       spell_inventory:
         fireball: 1
         arrow: 2
         missile: 0
         fire: 4
         flare: 3
-      version: 7
-      template: wand
       owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
-      effect_color: cc5d33846be4,8f50d6287f0,517646bd1f77
-      hotbar: 0
-inventory:
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: COMPASS
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: FISHING_ROD
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    Damage: 42
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: STICK
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"点火"},{"italic":false,"color":"white","text":"
-      ("},{"italic":false,"color":"dark_aqua","text":"法杖"},{"italic":false,"color":"white","text":")"}],"text":""}'
-    lore:
-    - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"魔力法杖"}],"text":""}'
-    - '{"italic":true,"color":"dark_aqua","text":"绑定 mc_wyy114"}'
-    - '{"text":"掌握 5 技能"}'
-    - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
-    - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
-    - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
-    - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
-      "},{"color":"gray","text":"to cast "},{"color":"gold","text":"点火"}],"text":""}'
-    - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
-      "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
-    - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
-      (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
-    - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"yellow","text":"Change
-      controls using an "},{"color":"aqua","text":"enchant table"}],"text":""}'
-    custom-model-data: 18001
-    attribute-modifiers:
-      GENERIC_ATTACK_SPEED:
-      - ==: org.bukkit.attribute.AttributeModifier
-        amount: 10.0
-        name: Equipment Modifier
-        slot: HAND
-        uuid: 95da49ba-217e-4cd2-b055-f1290ec5c7a1
-        operation: 0
-    ItemFlags:
-    - HIDE_ENCHANTS
-    - HIDE_ATTRIBUTES
-    - HIDE_UNBREAKABLE
-    - HIDE_DESTROYS
-    - HIDE_PLACED_ON
-    - HIDE_POTION_EFFECTS
-    - HIDE_DYE
-    Unbreakable: true
-    internal: H4sIAAAAAAAA/0VQy27DIBDcFKehaaTe+gXtLZZMjAP5GgvDoqIQsDCJFVX995JEVbWXfc3szqwBFlAdEcfFGqpZBUNhGeeACV5Oup+vV8Y4gfevmAeVehcuGHJM117Hc8hQ0BQ2Smd3wX4a0XuorEtIoXI6BthM2enjN5NNw37W8HZf+WchsFQpxbnwPBFYndw0OY+lAvLgKVlFgN7SQRXycq9grFf3ESmxumCaXDkFsKJAM55GrzL+aaF3Lb0z8ME6Lpk4qJprdqj5sLO15LqtjRGNaNC2SrZFDFqLOhd9Pib41LozbSv5fkC+lbZrzH4nhW22HRP70jXMCkHg+eHP7fPi5+s5mBTHUQ0eF/ALpEbpNGMBAAA=
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: WOODEN_SWORD
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"珍贵之奥克"}],"text":""}'
-    lore:
-    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"---------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<"},{"bold":true,"italic":false,"strikethrough":false,"color":"gray","text":"Equip
-      Info"},{"bold":false,"italic":false,"color":"gray","text":">"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"---------"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Item
-      level: "},{"italic":false,"color":"white","text":"4 "},{"italic":false,"color":"gray","text":"Prestige
-      "},{"italic":false,"color":"gold","text":"0"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Elite
-      DPS: "},{"italic":false,"color":"dark_green","text":"6.4"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"绑定了mc_wyy114"},{"italic":false,"color":"gray","text":"的灵魂"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"从精英"},{"italic":false,"color":"dark_gray","text":"〔"},{"italic":false,"color":"gray","text":"1"},{"italic":false,"color":"dark_gray","text":"〕"},{"italic":false,"color":"white","text":"
-      "},{"italic":false,"color":"gray","text":"终焉之狼身上掠夺而得"}],"text":""}'
-    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"-----------------------------"}],"text":""}'
-    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"出售可获得0.7
-      精英币"}],"text":""}'
-    enchants:
-      DURABILITY: 1
-    ItemFlags:
-    - HIDE_ENCHANTS
-    - HIDE_ATTRIBUTES
-    Damage: 44
-    PublicBukkitValues:
-      elitemobs:itemsource: §7从精英§8〔§71§8〕§f §7终焉之狼身上掠夺而得
-      elitemobs:soulbind: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
-      elitemobs:prestige: 0i
-      elitemobs:elitemobsitem: 1b
-      elitemobs:itemvalue: 14.0d
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: STONE_PICKAXE
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    Damage: 13
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: STONE_SWORD
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    Damage: 39
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: STONE_PICKAXE
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    Damage: 39
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: STONE_PICKAXE
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    Damage: 73
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: BREAD
-  amount: 15
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: RAW_IRON
-  amount: 8
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: IRON_SWORD
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    enchants:
-      DAMAGE_UNDEAD: 1
-    Damage: 126
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: DIORITE
-- null
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: ROTTEN_FLESH
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: COBBLESTONE
-  amount: 44
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: REDSTONE
-  amount: 5
-- null
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: GUNPOWDER
-  amount: 2
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: STONE_SHOVEL
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    Damage: 45
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: SAND
-  amount: 14
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: IRON_PICKAXE
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    enchants:
-      DIG_SPEED: 1
-      DURABILITY: 1
-    Damage: 79
-- null
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: GLOW_INK_SAC
-  amount: 2
-- null
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: SPRUCE_SLAB
-  amount: 6
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: ARROW
-  amount: 20
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: WHITE_BED
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: NETHERRACK
-  amount: 26
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: BOW
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    enchants:
-      ARROW_FIRE: 1
-      MENDING: 1
-      ARROW_DAMAGE: 4
-    repair-cost: 1
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: FLINT_AND_STEEL
-  meta:
-    ==: ItemMeta
-    meta-type: UNSPECIFIC
-    Damage: 25
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: BONE
-  amount: 6
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: COPPER_INGOT
-  amount: 9
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: DIAMOND
-  amount: 5
-- ==: org.bukkit.inventory.ItemStack
-  v: 2975
-  type: NETHERRACK
-  amount: 64
-- null
-- null
-open_wand: true
+open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
-  sp: 106.0
+  sp: 155.0
 properties:
   version: 7
 classes:
@@ -433,8 +197,8 @@ classes:
     - fireball
   mage:
     effect_color: 456a4a324571,d7819e4f1a4d,20893af8e500
-    mana_timestamp: 1680336884810
-    mana: 30.250008
+    mana_timestamp: 1680353886843
+    mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 14.277463912963867
+health: 20.69567108154297
