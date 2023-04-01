@@ -14,7 +14,11 @@ deathMessages: []
 uniqueLootList: []
 powers:
 - ground_pound.yml
-- summonable:summonType=ON_COMBAT_ENTER:filename=omega_wolf.yml:amount=2:inheritAggro=true:spawnNearby=true
+- summonType: ON_COMBAT_ENTER
+  inheritAggro: true
+  amount: 2
+  filename: omega_wolf.yml
+  spawnNearby: true
 onDamageMessages: []
 onDamagedMessages: []
 trails: []

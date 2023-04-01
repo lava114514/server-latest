@@ -17,19 +17,19 @@ skills:
     xp: 0.0
   archery:
     level: 3
-    xp: 394.20000000000005
+    xp: 460.20000000000005
   defense:
-    level: 3
-    xp: 375.10003596544186
+    level: 4
+    xp: 21.70187582969584
   fighting:
     level: 4
-    xp: 311.70000000000005
+    xp: 421.70000000000005
   endurance:
     level: 5
-    xp: 757.0
+    xp: 1143.0
   agility:
     level: 3
-    xp: 236.59999999999997
+    xp: 269.59999999999997
   alchemy:
     level: 1
     xp: 0.0
@@ -38,7 +38,7 @@ skills:
     xp: 0.0
   sorcery:
     level: 1
-    xp: 45.5
+    xp: 53.5
   healing:
     level: 1
     xp: 0.0

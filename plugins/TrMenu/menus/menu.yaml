@@ -20,7 +20,7 @@ Layout:
     - '####*###`Next`'
 
   - - '########`Close`'
-    - '      '
+    - '      K  '
     - '         '
     - '         '
     - '`Pre`########'
@@ -202,11 +202,11 @@ Icons:
       - sunflower
       - tnt
       - sunflower
-      name: '&6查看&e自己的资产'
+      name: '&6精英怪&e/'
     actions:
       all:
       - 'sound: BLOCK_NOTE_BLOCK_PLING-1-2'
-      - 'command *"money"'
+      - 'command *"em"'
 
   O:
     update: 40
