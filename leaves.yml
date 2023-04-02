@@ -1,0 +1,82 @@
+# Configuration file for Leaves.
+
+settings:
+  performance:
+    async-entity-tracker: false
+    async-pathfinding: false
+    inactive-goal-selector-disable: false
+    fix:
+      fix-paper-6045: true
+    optimize-chunk-ticking: true
+    remove:
+      get-nearby-players-streams: true
+      range-check-streams-and-iterators: true
+      tick-guard-lambda: true
+      inventory-contains-iterators: true
+    reduce-entity-fluid-lookup: true
+    enable-suffocation-optimization: true
+    strip-raytracing-for-entity: true
+    cache-climb-check: true
+    reduce-entity-allocations: true
+    optimize-entity-coordinate-key: true
+    simpler-vanilla-shapeless-recipes: true
+    dont-send-useless-entity-packets: true
+    use-more-thread-unsafe-random: true
+    skip-poi-find-in-vehicle: true
+    async-mob-spawning: false
+    biome-temperatures-use-aging-cache: true
+    improve-fluid-direction-caching: true
+    check-spooky-season-once-an-hour: true
+    reduce-chuck-load-and-lookup: true
+    entity-target-find-optimization: true
+    skip-clone-loot-parameters: true
+  protocol:
+    jade-protocol: false
+    xaero-map-protocol: false
+    xaero-map-server-id: 1492829287
+    bbor-protocol: false
+    appleskin-protocol: false
+    pca-sync-player-entity: OPS
+    carpet-alternative-block-placement: false
+    pca-sync-protocol: false
+  modify:
+    fakeplayer:
+      enable: true
+      unable-fakeplayer-names:
+      - player-name
+      limit: 10
+      prefix: ''
+      suffix: ''
+      always-send-data: true
+      resident-fakeplayer: false
+      open-fakeplayer-inventory: false
+    bedrock-break-list: false
+    instant-block-updater-reintroduced: false
+    budding-amethyst-can-push-by-piston: false
+    return-nether-portal-fix: false
+    spectator-dont-get-advancement: false
+    stackable-shulker-boxes: 'false'
+    stick-change-armorstand-arm-status: true
+    player-can-edit-sign: true
+    flatten-triangular-distribution: false
+    use-vanilla-random: false
+    renewable-elytra: -1.0
+    snowball-and-egg-can-knockback-player: true
+    fix-update-suppression-crash: true
+    mc-technical-survival-mode: true
+    player-operation-limiter: false
+    redstone-shears-wrench: true
+    shears-in-dispenser-can-zero-amount: false
+  misc:
+    disable-method-profiler: true
+    no-chat-sign: true
+    extra-yggdrasil-service:
+      enable: false
+      urls:
+      - https://url.with.authlib-injector-yggdrasil
+config-version: 2
+world-settings:
+  default: {}
+  world: {}
+  world_nether: {}
+  world_the_end: {}

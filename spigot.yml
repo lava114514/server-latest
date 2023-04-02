@@ -59,6 +59,10 @@ advancements:
   - minecraft:story/disabled
 world-settings:
   default:
+    hopper-can-load-chunks: false
+    seed-ancientcity: 20083232
+    seed-buriedtreasure: 10387320
+    seed-mineshaft: default
     below-zero-generation-in-existing-chunks: true
     verbose: false
     enable-zombie-pigmen-portal-spawns: true

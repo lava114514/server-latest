@@ -1,10 +1,10 @@
 id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
 name: Enderlava
 created: 1678458824899
-updated: 1680353586851
-last_cast: 1680351655822
+updated: 1680410156481
+last_cast: 1680409002687
 cooldown_expiration: 0
-last_death_location: -95.30000001192093,70.0,-218.66224101473267,world,71.999664,31.50008
+last_death_location: -14.967562414643147,187.5,0.22750216581851615,world,0.22422852,60.531296
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -21,9 +21,9 @@ undo:
   30e40806-244e-49e4-bef6-4055cffaeb15: []
 spells:
   arrow:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
+    cast_count: 2
+    last_cast: 1680402916320
+    last_earn: 1680401569874
     cooldown_expiration: 0
     charges: 0.0
   appearanceshop:
@@ -39,9 +39,9 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   push:
-    cast_count: 10
-    last_cast: 1680351415419
-    last_earn: 1680351416243
+    cast_count: 11
+    last_cast: 1680401090778
+    last_earn: 1680401091574
     cooldown_expiration: 0
     charges: 0.0
   controlsmenu:
@@ -51,9 +51,9 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   pull:
-    cast_count: 40
-    last_cast: 1680351211667
-    last_earn: 1680351207218
+    cast_count: 42
+    last_cast: 1680399594041
+    last_earn: 1680399565243
     cooldown_expiration: 0
     charges: 0.0
   spellshop:
@@ -63,9 +63,9 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   recall:
-    cast_count: 2
-    last_cast: 1680351215694
-    last_earn: 1680351215695
+    cast_count: 7
+    last_cast: 1680408721423
+    last_earn: 1680408727523
     cooldown_expiration: 0
     charges: 0.0
   missile:
@@ -99,14 +99,14 @@ spells:
     cooldown_expiration: 1680322174599
     charges: 0.0
   missile|3:
-    cast_count: 123
-    last_cast: 1680351596721
-    last_earn: 1680351578576
+    cast_count: 124
+    last_cast: 1680409002687
+    last_earn: 1680409001181
     cooldown_expiration: 0
     charges: 0.0
   fireball|2:
     cast_count: 19
-    last_cast: 1680351655822
+    last_cast: 1680401554623
     last_earn: 1680351655893
     cooldown_expiration: 0
     charges: 0.0
@@ -114,7 +114,7 @@ wands:
   wand:
     item:
       ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3218
       type: STICK
       meta:
         ==: ItemMeta
@@ -128,7 +128,7 @@ wands:
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
-          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"飞箭"}],"text":""}'
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"魔法导弹"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
           "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
@@ -142,7 +142,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: 5c689a05-ec5a-4e11-9e7b-a82aa94a621d
+            uuid: 3c8960ab-ed9d-46ed-9584-2eacc83cd71b
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -153,32 +153,32 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0WQUW6DMBBEN4UUkkbqX09Q9StIEBJiDtBzIGMPjRUHI9skqqrevYa06t/amje7M2uiBcVnYFisKb7xXqa0NLcellbvvYTV/MojejkZ33LbqP6K3hv72Qgz9p4CvaLEaeM9AjmZPX2MqmmNc0Gf0oYLr65o3ACtacmtNbeUYiVMTxvnlTh/FSzPi+81Pc+a/xURxcMYIKI4orRTFi2fnw/Rr1GYKaLkopxTGtP2wEzC6T+iRwtxJx5nL3cK45JSSueAjZL0mh/zsgCQiVyW2R5yn7GO11nVMfBix3jbhvjJFdapcDJREnCPy6C5x19hG3QdhA+daGPprdqJDrI+1jvGtuWBSwYwFAzbsj0gR12yqmLhvnupU4qpt7GX1gwDbzUW9ANnSBQ0mAEAAA==
+        internal: H4sIAAAAAAAA/0WQW27CMBBFhyYQQ5H61xWgfhEpIRCcBXQdkR+TYmHsyHaCqqp7rxPU9u+ONPehswFYQHpF7BcbSO/MSAJLezfoYP1uJDrNRpbA68UGzlyrzIgmWPfZCjuYANFNYMtEUCO2vketIbsp75XGNWRe2xAwJk4lzx+Darn1PuYQSJWwBrY+KHH9KmlRlN8beJkT/ksSSPshRgKkCZBOOeRsPp+Sv5opO4Elc87eo4bomR4nlcDKoXg4VnOWv0S5jD/ZiM6ruAAgI0AC3nrNAv4SIDOBVknYFeeiKhExF4Ws8iPKY0471uR1R5GVB8o4ZxEBdh2KEKlo6+CtPogOZXNuDpTuqxOTFJFiSXFf8RMW2FS0rmnc98A67Z4IDUY62/eMa1zAD7kfKnCaAQAA
     wand:
       owner: Enderlava
       hotbar_inventory_count: 1
-      active_spell: arrow
       slotted:
       - gui_bossbar
+      active_spell: missile
       icon: stick{18001}
       spell_inventory:
         pull: 4
         fireball: 2
-        missile: 1
         arrow: 0
+        missile: 1
         fire: 3
         recall: 6
         push: 5
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
       template: wand
       version: 7
-      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
       hotbar: 0
       effect_color: 62cfed979288,35ad8ee8e18e,3b5e0e938668
 open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
-  sp: 70.0
+  sp: 119.0
 properties:
   version: 7
 classes:
@@ -196,8 +196,8 @@ classes:
     - push
   mage:
     effect_color: cef52af28d37,e34b44b86e12,44d84fee9a2a
-    mana_timestamp: 1680353586842
+    mana_timestamp: 1680410156473
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 21.32582664489746
+health: 24.0

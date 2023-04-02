@@ -1,12 +1,13 @@
-Logging started at 2023-04-01T11:37:33.644993500Z
+Logging started at 2023-04-02T01:24:57.255185800Z
 [authlib-injector] [INFO] Version: 1.2.1
 [authlib-injector] [INFO] Authentication server: https://littleskin.cn/api/yggdrasil
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.HttpAuthenticationService] with [ConcatenateURL Workaround]
-[authlib-injector] [INFO] Httpd is running on port 53762
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.properties.Property] with [Yggdrasil Public Key Transformer]
+[authlib-injector] [INFO] Httpd is running on port 51738
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilEnvironment] with [Constant URL Transformer]
+[authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo] with [Yggdrasil Public Key Transformer]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [Texture Whitelist Transformer]
 [authlib-injector] [INFO] Transformed [me.arasple.mc.trmenu.util.bukkit.Heads] with [Constant URL Transformer]
-[authlib-injector] [INFO] Transformed [com.mojang.authlib.properties.Property] with [Yggdrasil Public Key Transformer]
 [authlib-injector] [INFO] Transformed [com.elmakers.mine.bukkit.magic.command.MagicMapCommandExecutor] with [Constant URL Transformer]
 [authlib-injector] [INFO] Transformed [net.minecraft.server.network.LoginListener] with [Username Character Check Transformer]
 [authlib-injector] [INFO] Transformed [net.minecraft.server.network.LoginListener] with [Paper Username Check Transformer]

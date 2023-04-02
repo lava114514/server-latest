@@ -1,10 +1,10 @@
 id: c044cd4d-b2f0-493d-9457-42ab7216df39
 name: Funget114514
 created: 1679803070926
-updated: 1680354285392
-last_cast: 1680354179719
+updated: 1680410455440
+last_cast: 1680405809528
 cooldown_expiration: 0
-last_death_location: -20.72951814257039,63.0,-279.7528472892105,world,-75.15875,1.200038
+last_death_location: -8.002669090516159,63.0,-292.0954027390258,world,-132.60052,20.850065
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -30,10 +30,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   arrow:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
+    cast_count: 4
+    last_cast: 1680403393665
+    last_earn: 1680403362975
+    cooldown_expiration: 1680403395665
     charges: 0.0
   appearanceshop:
     cast_count: 0
@@ -78,9 +78,9 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   recall:
-    cast_count: 3
-    last_cast: 1680349985680
-    last_earn: 1680349969197
+    cast_count: 4
+    last_cast: 1680402778798
+    last_earn: 1680402784824
     cooldown_expiration: 0
     charges: 0.0
   missile:
@@ -102,10 +102,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   aqualung:
-    cast_count: 5
-    last_cast: 1680353746298
+    cast_count: 6
+    last_cast: 1680405766828
     last_earn: 0
-    cooldown_expiration: 0
+    cooldown_expiration: 1680405826828
     charges: 0.0
   missile|2:
     cast_count: 50
@@ -114,10 +114,10 @@ spells:
     cooldown_expiration: 1680330713570
     charges: 0.0
   fireball:
-    cast_count: 9
-    last_cast: 1680354101217
-    last_earn: 1680354101293
-    cooldown_expiration: 1680354111217
+    cast_count: 12
+    last_cast: 1680403341850
+    last_earn: 1680403341924
+    cooldown_expiration: 0
     charges: 0.0
   missile|3:
     cast_count: 21
@@ -129,7 +129,7 @@ wands:
   wand:
     item:
       ==: org.bukkit.inventory.ItemStack
-      v: 2975
+      v: 3218
       type: STICK
       meta:
         ==: ItemMeta
@@ -158,7 +158,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: baf89aec-037e-4cc3-a5c6-d28995202c71
+            uuid: 03f044ec-3ba7-4303-93d5-5c3482aad671
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -169,7 +169,7 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0WRTU7DMBCFpzhtQ6nEjg1bxKqR8uOQ5AJcI3LsCbXq2sFxGiHE3Zm0SCyf/eabNzM7gBVEJ8RhtYNoFlbFsHazRQ/798l+YMgyXmacwdPRhU74VtsL2uD8VyvdZAMQIIa9kEFfsB0HNAbWwns3xxBp6Szsx6Dl6Tur0zT72cHj1fOPYXA/O3/q0Mojwe4YRMNEEICIQdxrj524yi2D7VmPozZI6pn9tVkCkFF8TsJQYJKMwcajvFVtyNcZbRUsPwt7XNrE9Nwb4RfUGmKIrzO3WsGLTDmXiquky/s04U2hkoaXVcJz0VV59qb6oqGCgOfBiIC3rVG2C/pR07yUlBaCfY8y0I6M8/Ca51hUdYkVV8WBZzzrUyReUxxKlDKvpShlndMpHiarvBsG0RlcwS8ua0fjngEAAA==
+        internal: H4sIAAAAAAAA/0WRQW6DMBBFJ4UkNI3UXXfdVV0FCYMpcIFeAxl7aKw4NjUmqKp69w5Jpe489p83f753ACuIT4jDagfxLKxKYO1mix7275P9wMAYLxmP4OnoQid8q+0FbXD+q5VusgEIkMBeyKAv2I4DGgNr4b2bE4i1dBb2Y9Dy9M3qLGM/O3i8av4xEdzPzp86tPJIsOcI4mEiCEAcQdJrj524ltsItmc9jtogVRD9jVkMkFB8TsKQ4eUlgo1HeevakK4z2io6313Z4zImoeveCL+g1pBAct251QpeZMa5VFylXd5nKW8KlTa8rFKei67K2Zvqi4YaAp4HIwLeUiNvF/Sjpn3JKQWCfY8yUEbGeXjNcyyqusSKq+LAGWd9hsRrikOJUua1FKWsc/qKh8kq74ZBdAZX8AuBpQF9ngEAAA==
     wand:
       owner: Funget114514
       hotbar_inventory_count: 1
@@ -177,12 +177,12 @@ wands:
       icon: stick{18001}
       spell_inventory:
         pull: 4
-        workbench: 2
+        workbench: 29
         fireball: 7
         arrow: 1
-        missile: 27
+        missile: 0
         flare: 5
-        blind: 0
+        blind: 2
         recall: 6
         push: 8
         aqualung: 3
@@ -194,7 +194,7 @@ open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
-  sp: 16.0
+  sp: 61.0
 properties:
   version: 7
 classes:
@@ -214,8 +214,8 @@ classes:
       missile: 3
   mage:
     effect_color: efc0009bd2e7,405ab9a92e37,d31e3e815c7c
-    mana_timestamp: 1680354285294
+    mana_timestamp: 1680410455274
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 23.200000762939453
+health: 13.10513973236084

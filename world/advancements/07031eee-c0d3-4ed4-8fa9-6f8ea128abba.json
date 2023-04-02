@@ -215,6 +215,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-04-02 09:33:45 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_button": {
     "criteria": {
       "has_planks": "2023-03-31 22:44:04 +0800"
@@ -337,6 +343,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_mutton": "2023-04-02 10:05:09 +0800",
+      "cooked_beef": "2023-04-02 10:40:46 +0800",
       "potato": "2023-04-01 11:20:52 +0800",
       "bread": "2023-03-31 22:16:23 +0800",
       "rotten_flesh": "2023-03-26 11:19:42 +0800"
@@ -1618,6 +1626,7 @@
       "minecraft:deep_cold_ocean": "2023-03-31 22:13:47 +0800",
       "minecraft:deep_lukewarm_ocean": "2023-04-01 10:32:42 +0800",
       "minecraft:flower_forest": "2023-03-26 10:39:09 +0800",
+      "minecraft:deep_dark": "2023-04-02 11:03:41 +0800",
       "minecraft:plains": "2023-03-26 10:20:29 +0800"
     },
     "done": false
@@ -1697,6 +1706,12 @@
   "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2023-03-26 12:18:49 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2023-04-02 09:48:03 +0800"
     },
     "done": true
   },
@@ -1928,5 +1943,5 @@
     },
     "done": true
   },
-  "DataVersion": 2975
+  "DataVersion": 3218
 }
