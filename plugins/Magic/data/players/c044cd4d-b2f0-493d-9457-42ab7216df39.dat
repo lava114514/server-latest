@@ -1,10 +1,10 @@
 id: c044cd4d-b2f0-493d-9457-42ab7216df39
 name: Funget114514
 created: 1679803070926
-updated: 1680410455440
-last_cast: 1680405809528
+updated: 1680618294333
+last_cast: 1680617374899
 cooldown_expiration: 0
-last_death_location: -8.002669090516159,63.0,-292.0954027390258,world,-132.60052,20.850065
+last_death_location: -13.477179393052927,43.51902432768084,30.706463255858118,world,-170.3998,38.399994
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -30,10 +30,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   arrow:
-    cast_count: 4
-    last_cast: 1680403393665
-    last_earn: 1680403362975
-    cooldown_expiration: 1680403395665
+    cast_count: 6
+    last_cast: 1680615875836
+    last_earn: 1680615859688
+    cooldown_expiration: 1680615877836
     charges: 0.0
   appearanceshop:
     cast_count: 0
@@ -67,7 +67,7 @@ spells:
     charges: 0.0
   spellshop:
     cast_count: 0
-    last_cast: 1680354033487
+    last_cast: 1680615070931
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -90,8 +90,8 @@ spells:
     cooldown_expiration: 1679807081588
     charges: 0.0
   progressmenu:
-    cast_count: 38
-    last_cast: 1680354179719
+    cast_count: 39
+    last_cast: 1680615068849
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -102,10 +102,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   aqualung:
-    cast_count: 6
-    last_cast: 1680405766828
+    cast_count: 8
+    last_cast: 1680617333349
     last_earn: 0
-    cooldown_expiration: 1680405826828
+    cooldown_expiration: 1680617393349
     charges: 0.0
   missile|2:
     cast_count: 50
@@ -158,7 +158,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: 03f044ec-3ba7-4303-93d5-5c3482aad671
+            uuid: 33779411-19bc-4bed-b06f-667902548497
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -194,7 +194,7 @@ open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
-  sp: 61.0
+  sp: 69.0
 properties:
   version: 7
 classes:
@@ -214,8 +214,8 @@ classes:
       missile: 3
   mage:
     effect_color: efc0009bd2e7,405ab9a92e37,d31e3e815c7c
-    mana_timestamp: 1680410455274
+    mana_timestamp: 1680618294232
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 13.10513973236084
+health: 23.600000381469727

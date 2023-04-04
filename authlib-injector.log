@@ -1,9 +1,9 @@
-Logging started at 2023-04-02T01:24:57.255185800Z
+Logging started at 2023-04-04T13:25:09.118382400Z
 [authlib-injector] [INFO] Version: 1.2.1
 [authlib-injector] [INFO] Authentication server: https://littleskin.cn/api/yggdrasil
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.HttpAuthenticationService] with [ConcatenateURL Workaround]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.properties.Property] with [Yggdrasil Public Key Transformer]
-[authlib-injector] [INFO] Httpd is running on port 51738
+[authlib-injector] [INFO] Httpd is running on port 58935
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilEnvironment] with [Constant URL Transformer]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo] with [Yggdrasil Public Key Transformer]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService] with [Texture Whitelist Transformer]

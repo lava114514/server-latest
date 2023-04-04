@@ -1,10 +1,10 @@
 id: c044cd4d-b2f0-493d-9457-42ab7216df39
 name: Funget114514
 created: 1679803070926
-updated: 1680410156494
-last_cast: 1680405809528
+updated: 1680618158741
+last_cast: 1680617374899
 cooldown_expiration: 0
-last_death_location: -8.002669090516159,63.0,-292.0954027390258,world,-132.60052,20.850065
+last_death_location: -13.477179393052927,43.51902432768084,30.706463255858118,world,-170.3998,38.399994
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -30,10 +30,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   arrow:
-    cast_count: 4
-    last_cast: 1680403393665
-    last_earn: 1680403362975
-    cooldown_expiration: 1680403395665
+    cast_count: 6
+    last_cast: 1680615875836
+    last_earn: 1680615859688
+    cooldown_expiration: 1680615877836
     charges: 0.0
   appearanceshop:
     cast_count: 0
@@ -67,7 +67,7 @@ spells:
     charges: 0.0
   spellshop:
     cast_count: 0
-    last_cast: 1680354033487
+    last_cast: 1680615070931
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -90,8 +90,8 @@ spells:
     cooldown_expiration: 1679807081588
     charges: 0.0
   progressmenu:
-    cast_count: 38
-    last_cast: 1680354179719
+    cast_count: 39
+    last_cast: 1680615068849
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -102,10 +102,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   aqualung:
-    cast_count: 6
-    last_cast: 1680405766828
+    cast_count: 8
+    last_cast: 1680617333349
     last_earn: 0
-    cooldown_expiration: 1680405826828
+    cooldown_expiration: 1680617393349
     charges: 0.0
   missile|2:
     cast_count: 50
@@ -158,7 +158,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: 03f044ec-3ba7-4303-93d5-5c3482aad671
+            uuid: 33779411-19bc-4bed-b06f-667902548497
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -169,7 +169,7 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0WRQW6DMBBFJ4UkNI3UXXfdVV0FCYMpcIFeAxl7aKw4NjUmqKp69w5Jpe489p83f753ACuIT4jDagfxLKxKYO1mix7275P9wMAYLxmP4OnoQid8q+0FbXD+q5VusgEIkMBeyKAv2I4DGgNr4b2bE4i1dBb2Y9Dy9M3qLGM/O3i8av4xEdzPzp86tPJIsOcI4mEiCEAcQdJrj524ltsItmc9jtogVRD9jVkMkFB8TsKQ4eUlgo1HeevakK4z2io6313Z4zImoeveCL+g1pBAct251QpeZMa5VFylXd5nKW8KlTa8rFKei67K2Zvqi4YaAp4HIwLeUiNvF/Sjpn3JKQWCfY8yUEbGeXjNcyyqusSKq+LAGWd9hsRrikOJUua1FKWsc/qKh8kq74ZBdAZX8AuBpQF9ngEAAA==
+        internal: H4sIAAAAAAAA/0WRzU7DMBCEtyRtTanEjRs3xKmR8uOQ9AV4jcixN9SqawfHaYQQ784mgLh57dlvRuMdwAriM2K/2kE8CasYrN1k0cP+dbRvGLKMlxmP4OHkQit8o+0VbXD+o5FutAEIwGAvZNBXbIYejYG18N5NDGItnYX9ELQ8f2Z1mmZfO7hfNP+YCG4n588tWnki2GMEcT8SBCCOgHXaYyuWcRvB9qKHQRukCaJfmzkACcX7KAwFnl8i2HiUP1sb0rVGW0Xnm4U9zDaMrjsj/IxaE2t7RT9oSks+DFjAS29EwL9K2FJJoxU8yZRzqbhK2rxLE34sVHLkZZXwXLRVnr2orjhSIdh1KAN1ZJyH5zzHoqpLrLgqDjzjWZciLRyLQ4lS5rUUpaxz+oq70Srv+l60BlfwDeHAofWeAQAA
     wand:
       owner: Funget114514
       hotbar_inventory_count: 1
@@ -186,15 +186,15 @@ wands:
         recall: 6
         push: 8
         aqualung: 3
-      version: 7
-      template: wand
       owner_id: c044cd4d-b2f0-493d-9457-42ab7216df39
+      template: wand
+      version: 7
       effect_color: 22e3785e74d3,4141f0e42a93,5ecc28ca5c82
 open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
-  sp: 61.0
+  sp: 69.0
 properties:
   version: 7
 classes:
@@ -214,8 +214,8 @@ classes:
       missile: 3
   mage:
     effect_color: efc0009bd2e7,405ab9a92e37,d31e3e815c7c
-    mana_timestamp: 1680410156473
+    mana_timestamp: 1680618158640
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 13.10513973236084
+health: 23.600000381469727
