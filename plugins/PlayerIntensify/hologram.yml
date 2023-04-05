@@ -1,0 +1,10 @@
+# 强化排行榜全息图位置
+hdLocation:
+  # 是否开启
+  enable: false
+  # 刷新速度-单位秒,不建议太短
+  refresh: 60
+  world: "world"
+  x: 647.0
+  y: 68.0
+  z: -60.0

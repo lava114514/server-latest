@@ -1,10 +1,10 @@
 id: c044cd4d-b2f0-493d-9457-42ab7216df39
 name: Funget114514
 created: 1679803070926
-updated: 1680618158741
-last_cast: 1680617374899
+updated: 1680702806316
+last_cast: 1680702600648
 cooldown_expiration: 0
-last_death_location: -13.477179393052927,43.51902432768084,30.706463255858118,world,-170.3998,38.399994
+last_death_location: 24.104118627990974,53.89819895827165,35.94566881628933,world,79.54478,4.800038
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -18,22 +18,28 @@ undo:
   b8dd9de6-bce5-418b-9566-b5e1a4cc7a98: []
 spells:
   flare:
-    cast_count: 7
-    last_cast: 1680331833415
-    last_earn: 1680331026110
+    cast_count: 15
+    last_cast: 1680696065376
+    last_earn: 1680695443445
     cooldown_expiration: 0
     charges: 0.0
   blind:
-    cast_count: 1
-    last_cast: 1680354080719
-    last_earn: 1680354082843
+    cast_count: 6
+    last_cast: 1680695676750
+    last_earn: 1680695678756
+    cooldown_expiration: 0
+    charges: 0.0
+  poison:
+    cast_count: 6
+    last_cast: 1680696125895
+    last_earn: 1680695991957
     cooldown_expiration: 0
     charges: 0.0
   arrow:
-    cast_count: 6
-    last_cast: 1680615875836
-    last_earn: 1680615859688
-    cooldown_expiration: 1680615877836
+    cast_count: 18
+    last_cast: 1680695303497
+    last_earn: 1680695276157
+    cooldown_expiration: 0
     charges: 0.0
   appearanceshop:
     cast_count: 0
@@ -60,14 +66,14 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   pull:
-    cast_count: 5
-    last_cast: 1680331796878
-    last_earn: 1680331792216
+    cast_count: 13
+    last_cast: 1680702469520
+    last_earn: 1680702314031
     cooldown_expiration: 0
     charges: 0.0
   spellshop:
     cast_count: 0
-    last_cast: 1680615070931
+    last_cast: 1680696109718
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -79,7 +85,7 @@ spells:
     charges: 0.0
   recall:
     cast_count: 4
-    last_cast: 1680402778798
+    last_cast: 1680696024415
     last_earn: 1680402784824
     cooldown_expiration: 0
     charges: 0.0
@@ -90,8 +96,8 @@ spells:
     cooldown_expiration: 1679807081588
     charges: 0.0
   progressmenu:
-    cast_count: 39
-    last_cast: 1680615068849
+    cast_count: 49
+    last_cast: 1680696108713
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -102,10 +108,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   aqualung:
-    cast_count: 8
-    last_cast: 1680617333349
+    cast_count: 23
+    last_cast: 1680702564108
     last_earn: 0
-    cooldown_expiration: 1680617393349
+    cooldown_expiration: 1680702624108
     charges: 0.0
   missile|2:
     cast_count: 50
@@ -114,15 +120,21 @@ spells:
     cooldown_expiration: 1680330713570
     charges: 0.0
   fireball:
-    cast_count: 12
-    last_cast: 1680403341850
-    last_earn: 1680403341924
-    cooldown_expiration: 0
+    cast_count: 15
+    last_cast: 1680695109506
+    last_earn: 1680695109506
+    cooldown_expiration: 1680695119506
     charges: 0.0
   missile|3:
-    cast_count: 21
-    last_cast: 1680353999018
-    last_earn: 1680353996875
+    cast_count: 60
+    last_cast: 1680702600649
+    last_earn: 1680702598044
+    cooldown_expiration: 0
+    charges: 0.0
+  fireball|2:
+    cast_count: 15
+    last_cast: 1680696080367
+    last_earn: 1680696051308
     cooldown_expiration: 0
     charges: 0.0
 wands:
@@ -134,17 +146,17 @@ wands:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"飞箭"},{"italic":false,"color":"white","text":"
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"魔法导弹"},{"italic":false,"color":"white","text":"
           ("},{"italic":false,"color":"dark_aqua","text":"法杖"},{"italic":false,"color":"white","text":")"}],"text":""}'
         lore:
         - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"魔力法杖"}],"text":""}'
         - '{"italic":true,"color":"dark_aqua","text":"绑定 Funget114514"}'
-        - '{"text":"掌握 10 技能"}'
+        - '{"text":"掌握 11 技能"}'
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
-          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"飞箭"}],"text":""}'
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"魔法导弹"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
           "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
@@ -158,7 +170,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: 33779411-19bc-4bed-b06f-667902548497
+            uuid: f67c0852-2842-44c1-8dfa-f58c883bc2e3
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -169,32 +181,34 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0WRzU7DMBCEtyRtTanEjRs3xKmR8uOQ9AV4jcixN9SqawfHaYQQ784mgLh57dlvRuMdwAriM2K/2kE8CasYrN1k0cP+dbRvGLKMlxmP4OHkQit8o+0VbXD+o5FutAEIwGAvZNBXbIYejYG18N5NDGItnYX9ELQ8f2Z1mmZfO7hfNP+YCG4n588tWnki2GMEcT8SBCCOgHXaYyuWcRvB9qKHQRukCaJfmzkACcX7KAwFnl8i2HiUP1sb0rVGW0Xnm4U9zDaMrjsj/IxaE2t7RT9oSks+DFjAS29EwL9K2FJJoxU8yZRzqbhK2rxLE34sVHLkZZXwXLRVnr2orjhSIdh1KAN1ZJyH5zzHoqpLrLgqDjzjWZciLRyLQ4lS5rUUpaxz+oq70Srv+l60BlfwDeHAofWeAQAA
+        internal: H4sIAAAAAAAA/0VRy07DMBDckLQNpRI3DiBuiFMj5eG0zQ/wG5Fjb1qrrh0cpxFC/DubVII9jde7M+PxGiCA6IzYBWuIRm5kCFHHjwhUMSzsaNDB5mMwR/RZxsqMhfB0sr7hrlbmisZb91ULOxhPG0EMGy68umLdd6g1rC6q75XGGCIlrIFN75U4f2eHNM1+1vA4T/0TTeIDrVGFcD9ad27QiBMdX0OIW+Ww4fP1KoQFd86OhKMQlp1VPdEDvIR/mpMfGms1dxNeEG60MpLwHa04FDeu5azaTyrPpMI/B67pvbOHGGKPl05zj7d4qDFnUisJbyJlTEgmkyZv04RVhUwqVu4TlvNmn2c72RYV+bmi69XsbkX5YNui8BSZtg7e81yKkqU7yfdiy7KCVWUqRY7FtsTmIFI8sEq09EkPg5HOdh1vNAbwC7RKQPK4AQAA
     wand:
       owner: Funget114514
+      page: 0
       hotbar_inventory_count: 1
-      active_spell: arrow
+      active_spell: missile
       icon: stick{18001}
       spell_inventory:
-        pull: 4
         workbench: 29
+        pull: 0
         fireball: 7
-        arrow: 1
-        missile: 0
-        flare: 5
-        blind: 2
-        recall: 6
-        push: 8
+        missile: 1
+        poison: 27
+        arrow: 4
         aqualung: 3
+        recall: 6
+        blind: 2
+        push: 26
+        flare: 5
+      version: 7
       owner_id: c044cd4d-b2f0-493d-9457-42ab7216df39
       template: wand
-      version: 7
-      effect_color: 22e3785e74d3,4141f0e42a93,5ecc28ca5c82
+      effect_color: 22dc5406da7c,4134950dc2e3,5eb8c0e849cf
 open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
-  sp: 69.0
+  sp: 113.0
 properties:
   version: 7
 classes:
@@ -203,6 +217,7 @@ classes:
     - pull
     - flare
     - blind
+    - poison
     - arrow
     - recall
     - missile
@@ -212,10 +227,11 @@ classes:
     - push
     spell_levels:
       missile: 3
+      fireball: 2
   mage:
     effect_color: efc0009bd2e7,405ab9a92e37,d31e3e815c7c
-    mana_timestamp: 1680618158640
+    mana_timestamp: 1680702806316
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 23.600000381469727
+health: 24.0

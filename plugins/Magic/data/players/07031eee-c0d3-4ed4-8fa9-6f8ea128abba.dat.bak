@@ -1,14 +1,14 @@
 id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
 name: Enderlava
 created: 1678458824899
-updated: 1680618374415
-last_cast: 1680618324614
+updated: 1680703406320
+last_cast: 1680702566704
 cooldown_expiration: 0
-last_death_location: -15.5,187.5,-0.5,world,-134.10048,73.19995
+last_death_location: 5.202091281733797,63.0,13.857252712959932,world,-11.124268,34.350258
 fall_protection_count: 0
 fall_protection: 0
 brush:
-  map_id: 0
+  map_id: 1
   material: dirt
   data: 0
   schematic: ''
@@ -16,19 +16,125 @@ brush:
   erase: true
 undo:
   8ed7a6f9-8b0f-4bf5-bfc7-47de2dddbd7c: []
-  b8dd9de6-bce5-418b-9566-b5e1a4cc7a98: []
+  b8dd9de6-bce5-418b-9566-b5e1a4cc7a98:
+  - blocks:
+    - -30,70,-174,world|grass_block?minecraft:grass_block[snowy=false]
+    - -30,71,-174,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -30,72,-174,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -32,72,-176,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -32,71,-176,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -29,70,-171,world|grass_block?minecraft:grass_block[snowy=false]
+    - -27,71,-170,world|grass
+    - -30,69,-173,world|dirt
+    - -30,69,-171,world|dirt
+    - -34,71,-175,world|grass
+    - -29,69,-174,world|dirt
+    - -28,70,-173,world|grass_block?minecraft:grass_block[snowy=false]
+    - -30,69,-174,world|dirt
+    - -34,72,-174,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -34,71,-174,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -33,72,-171,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -33,71,-171,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -30,68,-174,world|dirt
+    - -31,70,-171,world|grass_block?minecraft:grass_block[snowy=false]
+    - -27,71,-174,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -27,72,-174,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -30,70,-172,world|grass_block?minecraft:grass_block[snowy=false]
+    - -32,70,-175,world|grass_block?minecraft:grass_block[snowy=false]
+    - -30,72,-170,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -30,71,-170,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -32,69,-172,world|dirt
+    - -30,69,-175,world|dirt
+    - -29,70,-172,world|grass_block?minecraft:grass_block[snowy=false]
+    - -29,69,-172,world|dirt
+    - -29,72,-174,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -29,71,-174,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -33,72,-170,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -33,71,-170,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -31,69,-172,world|dirt
+    - -30,70,-171,world|grass_block?minecraft:grass_block[snowy=false]
+    - -35,71,-173,world|grass
+    - -32,69,-174,world|dirt
+    - -27,71,-173,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -27,72,-173,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -29,69,-173,world|dirt
+    - -30,70,-173,world|grass_block?minecraft:grass_block[snowy=false]
+    - -29,70,-174,world|grass_block?minecraft:grass_block[snowy=false]
+    - -33,70,-173,world|grass_block?minecraft:grass_block[snowy=false]
+    - -33,71,-174,world|grass
+    - -32,71,-170,world|grass
+    - -32,70,-171,world|grass_block?minecraft:grass_block[snowy=false]
+    - -29,72,-176,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -29,71,-176,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -31,72,-170,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -31,71,-170,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -28,72,-176,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -28,71,-176,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -31,68,-174,world|dirt
+    - -30,68,-172,world|dirt
+    - -32,69,-173,world|dirt
+    - -31,70,-172,world|grass_block?minecraft:grass_block[snowy=false]
+    - -32,70,-173,world|grass_block?minecraft:grass_block[snowy=false]
+    - -27,72,-172,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -27,71,-172,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -30,68,-173,world|dirt
+    - -31,70,-173,world|grass_block?minecraft:grass_block[snowy=false]
+    - -30,70,-175,world|grass_block?minecraft:grass_block[snowy=false]
+    - -31,69,-173,world|dirt
+    - -32,70,-174,world|grass_block?minecraft:grass_block[snowy=false]
+    - -31,69,-174,world|dirt
+    - -29,70,-173,world|grass_block?minecraft:grass_block[snowy=false]
+    - -30,71,-175,world|grass
+    - -33,70,-172,world|grass_block?minecraft:grass_block[snowy=false]
+    - -32,71,-171,world|grass
+    - -31,69,-171,world|dirt
+    - -31,68,-173,world|dirt
+    - -31,70,-175,world|grass_block?minecraft:grass_block[snowy=false]
+    - -31,70,-174,world|grass_block?minecraft:grass_block[snowy=false]
+    - -31,71,-175,world|grass
+    - -29,70,-175,world|grass_block?minecraft:grass_block[snowy=false]
+    - -30,69,-172,world|dirt
+    - -32,70,-172,world|grass_block?minecraft:grass_block[snowy=false]
+    - -32,71,-175,world|air
+    time_to_live: 0
+    name: 回传
+    mode: NO_PHYSICS
   1744f3f7-ffb9-44f7-b081-9eb36e7d564f: []
   30e40806-244e-49e4-bef6-4055cffaeb15: []
 spells:
+  flare:
+    cast_count: 7
+    last_cast: 1680701016936
+    last_earn: 1680701016935
+    cooldown_expiration: 0
+    charges: 0.0
+  blind:
+    cast_count: 4
+    last_cast: 1680696154124
+    last_earn: 1680696156157
+    cooldown_expiration: 0
+    charges: 0.0
   arrow:
-    cast_count: 2
-    last_cast: 1680402916320
-    last_earn: 1680401569874
+    cast_count: 10
+    last_cast: 1680695681624
+    last_earn: 1680695670556
+    cooldown_expiration: 0
+    charges: 0.0
+  reflect|2:
+    cast_count: 62
+    last_cast: 1680702506474
+    last_earn: 1680702506474
     cooldown_expiration: 0
     charges: 0.0
   appearanceshop:
     cast_count: 0
     last_cast: 1679806319114
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  stun:
+    cast_count: 0
+    last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -39,9 +145,9 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   push:
-    cast_count: 11
-    last_cast: 1680401090778
-    last_earn: 1680401091574
+    cast_count: 13
+    last_cast: 1680701601830
+    last_earn: 1680701575200
     cooldown_expiration: 0
     charges: 0.0
   controlsmenu:
@@ -52,21 +158,27 @@ spells:
     charges: 0.0
   pull:
     cast_count: 42
-    last_cast: 1680399594041
+    last_cast: 1680701584129
     last_earn: 1680399565243
     cooldown_expiration: 0
     charges: 0.0
+  reflect:
+    cast_count: 25
+    last_cast: 1680695726427
+    last_earn: 1680695726420
+    cooldown_expiration: 1680695729427
+    charges: 0.0
   spellshop:
     cast_count: 1
-    last_cast: 1680331972790
+    last_cast: 1680695984460
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
   recall:
-    cast_count: 9
-    last_cast: 1680618324614
-    last_earn: 1680618330750
-    cooldown_expiration: 1680618339614
+    cast_count: 15
+    last_cast: 1680701405074
+    last_earn: 1680701412100
+    cooldown_expiration: 0
     charges: 0.0
   missile:
     cast_count: 30
@@ -75,16 +187,22 @@ spells:
     cooldown_expiration: 1679802031722
     charges: 0.0
   fire:
-    cast_count: 26
-    last_cast: 1680351551374
-    last_earn: 1680350896571
+    cast_count: 27
+    last_cast: 1680695079469
+    last_earn: 1680692760808
     cooldown_expiration: 0
     charges: 0.0
   progressmenu:
-    cast_count: 19
-    last_cast: 1680331971390
+    cast_count: 28
+    last_cast: 1680695983726
     last_earn: 0
     cooldown_expiration: 0
+    charges: 0.0
+  aqualung:
+    cast_count: 3
+    last_cast: 1680702566705
+    last_earn: 0
+    cooldown_expiration: 1680702626705
     charges: 0.0
   missile|2:
     cast_count: 50
@@ -99,15 +217,15 @@ spells:
     cooldown_expiration: 1680322174599
     charges: 0.0
   missile|3:
-    cast_count: 124
-    last_cast: 1680409002687
-    last_earn: 1680409001181
+    cast_count: 263
+    last_cast: 1680700004277
+    last_earn: 1680699993837
     cooldown_expiration: 0
     charges: 0.0
   fireball|2:
-    cast_count: 19
-    last_cast: 1680401554623
-    last_earn: 1680351655893
+    cast_count: 26
+    last_cast: 1680699830980
+    last_earn: 1680695996706
     cooldown_expiration: 0
     charges: 0.0
 wands:
@@ -123,12 +241,12 @@ wands:
         lore:
         - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"魔力法杖"}],"text":""}'
         - '{"italic":true,"color":"dark_aqua","text":"绑定 Enderlava"}'
-        - '{"text":"掌握 7 技能"}'
+        - '{"text":"掌握 12 技能"}'
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
-          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"飞箭"}],"text":""}'
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"反弹"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
           "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
@@ -142,7 +260,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: e42fdb35-c868-494b-8aa5-50733f521e54
+            uuid: 75eecd71-6d17-4658-ae01-c36c9fb1f30a
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -153,32 +271,37 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0WQQW7CMBBFhyZAoEjd9QRVV0RKCATnAD1HNLYnxcLYke0EVVXvXidU6m5s+f/neVuABaRXon6xhfSORmawtHdDDjYfRpLTOGICrxcbOLpWmZFMsO6rFXYwAWI6gx2KoEZqfU9awxKds/cNrL22IVDsmxDPn4NqufU+tmSQKmEN7HxQ4vpdsqIof7bwMuf/EQmk/RALAdIEsk454jgfn5I/SJwhgfVNea80TZyYmR5O9wmsHIlHYjV3+Uscl5BBNi/YKglvxbmoSiLKRSGr/EjymLMOm7zuGGF5YMg5xkCgW68x0ENRZI7kvIo7AKwj6GFn+k60QV1HIkRB2jp4rw+iI9mcmwNj++qEkhExKhntK36igpqK1TWbDA1GOtv3yDUt4Be1nkT+mAEAAA==
+        internal: H4sIAAAAAAAA/0VQ0U7CQBBcbKEFSXzzzZgY45MkLRRaPsDvaLZ3W7hw3NW7K8QY/90tTfRtpjczO50FwATiE1E3WUB8RSNTmNqrIQfzDyPJabxgBI9HGxp0tTIXMsG6r1rY3gRg9xwSr20IxM4h7P7Qq7qx3rM+hSWKoC5U+460hsRRq0mEFGIlrIGlD0qcvvMqy/KfBTzcVP9HIoi7nm0AcQRpqxw1eKN30V8Us4h1PvSGYRrBFJ2zVxi+Q3JW3itNQzF+aTW6ASdsGNIYPkUwcyTG2BlrGq2MZPx8O+6PDKd8HD971L05MH2BFNLbRLWS8JqV2SYnopXI5GZVkCxWVYv71a6tCPN1hU2DbAh07jQGGkfmahdyXlkz1pmN+w6teTNqW/4znlhbB2+7XO6LrNhUZYnvm+26rGgt8q1kgmIv90Lumqodlu+NdLbrsNE0gV/8aAU02gEAAA==
     wand:
       owner: Enderlava
       hotbar_inventory_count: 1
+      active_spell: reflect
       slotted:
       - gui_bossbar
-      active_spell: arrow
       icon: stick{18001}
       spell_inventory:
         pull: 4
         fireball: 2
+        reflect: 3
+        stun: 8
         missile: 1
         arrow: 0
-        fire: 3
+        aqualung: 34
+        fire: 29
+        blind: 31
         recall: 6
         push: 5
+        flare: 7
       version: 7
       template: wand
       owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
-      effect_color: 62cfed979288,35ad8ee8e18e,3b5e0e938668
+      effect_color: 61d94043877a,35278e2c15da,3ac9d9cd6b8f
       hotbar: 0
 open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
-  sp: 129.0
+  sp: 67.0
 properties:
   version: 7
 classes:
@@ -186,18 +309,24 @@ classes:
     spell_levels:
       missile: 3
       fireball: 2
+      reflect: 2
     spells:
     - pull
+    - flare
+    - blind
+    - reflect
     - arrow
     - recall
     - missile
     - fire
+    - stun
+    - aqualung
     - fireball
     - push
   mage:
     effect_color: cef52af28d37,e34b44b86e12,44d84fee9a2a
-    mana_timestamp: 1680618374382
+    mana_timestamp: 1680703406320
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 24.0
+health: 1.9599990844726562

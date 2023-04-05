@@ -1,132 +1,43 @@
-#You shouldn't edit it.
-version: 1.8.3
+#You don't need to edit it.
+version: 2.0.4
 
 #Enabled: 'Chinese','English'
-lang: 'Chinese'
+lang: 'English'
 
-normal-dragon:
-  name: 'Ender Dragon'
+#Enabled: 'Disable','ChatBox','SubTitle','ActionBar'
+damage_visible_mode: ActionBar
 
-  #the health-regain amount every second when the ender-dragon is healed by ender-crystal(Native: 2.0 per second)
-  crystal-heal: 2.0
+#Enabled: 'weight','pc' ('edge' is deprecated!)
+#'weight'(edge): means using weight to decide which dragon(including default dragon) to spawn.
+#'pc': namely 'priority+chance', dragons(except the default one) will be sorted in descending order of priority, and plugin will sequently try to spawn each dragon(according to respective chance). Once succeed, it will spawn and dragons behind it will be skipped. If all attempts fail, spawn the default one.
+special_dragon_jude_mode: 'weight'
 
-#special-ender-dragon
-special-dragon:
-  name: 'Special Dragon'
+#format: 'name:weight'
+#this name is corresponding to the file name
+#For example,if you want to add a new dragon, you can create a new file named '<NAME>.yml' in plugins/EnderDragon/setting, and then add - '<NAME>:<WEIGHT>' to 'dragon_setting_file'
+dragon_setting_file:
+  - 'default:5'
+  - 'special:5'
 
-  #every what times the ender dragon has chance to become a special one
-  #please enter an integer that above 0
-  #If you don't want to spawn special ender dragon,please set the value of 'chance' to 0.
-  respawn-circle: 10
-
-  #the chance of spawning a special ender dragon
-  #please enter an integer(from 0 to 100)(unit:%)
-  #You shouldn't add % because plugin will do that automatically.
-  #If you enter 0,every ender dragon is normal dragon.
-  chance: 100
-
-  #please enter true or false
-  spawn-remind: true
-
-  #false -> broadcast when every ender-dragon died
-  #true -> broadcast only special-ender-dragon died
-  only-special-death-remind: false
-
-  #please enter a figure that above 0 ,or it will be seen as 200
-  #Valid example: “100”,“1000.0”,“200.00” etc.
-  #TIPS: The max-health of natural ender dragon is 200.
-  max-health: 400
-
-  #the health of ender-dragon when it spawns
-  #please enter a figure that above 0 ,or it will be seen as 200
-  #don't make it above the "max-health"
-  spawn-health: 200
-
-  #special's damage to player will be set what times the normal one
-  #please enter a figure that above 0 ,or it will be seen as 1.0
-  #Valid example: “0.8”,“1.25”,“3” etc.
-  damage-multiply: 1.0
-
-  #the effect give to player when a special ender dragon attacks him/her
-  #please follow the format: '<potion> <duration> <level>'
-  #please enter an integer that above 0 at "duration"(unit:second)
-  #please enter an integer (from 1 to 256) at "level"
-  attack-effect:
-    - 'wither 10 1'
-    - 'hunger 60 1'
-    - 'weakness 30 2'
-
-  #TIPS: the first natural ender dragon drops 12000 exp,afterwards every natural ender dragon drops 500 exp
-  exp-drop: 12000
-
-  dragon-egg-spawn:
-
-    #the chance of spawning a dragon egg
-    #please enter an integer(from 0 to 100)(unit:%)
-    #the dragon egg will never spawn if you enter 0
-    chance: 100
-
-    #the dragon spawn delay after ender dragon died
-    #please enter an integer that above 0 (unit:ticks,20ticks=1 second)
-    #Only when you start to use the plugin,could you know how useful the delay is!
-    delay: 410
-
-    #the position where the dragon egg spawns
-    x: 0
-    y: 70
-    z: 0
-
-  #the color of the special-ender-dragon
-  #set it “disable” if you don't want the special-ender-dragon glow
-  #which color you can use is below(upper-case and lower-case are all valid)
-  #AQUA,BLACK,BLUE,DARK_AQUA,DARK_BLUE,DARK_GRAY,DARK_GREEN,DARK_PURPLE,DARK_RED,GOLD,GRAY,GREEN,LIGHT_PURPLE,RED,WHITE,YELLOW
-  glow-color: GOLD
-
-  #When dragon is attacked,let the attacker know how the damage amount.
-  #enter 0 stand for not to display
-  #enter 1 stand for SubTitle
-  #enter 2 stand for ChatBox
-  #enter 3 stand for ActionBar(recommend)
-  damage-visible: 3
-
-  #the title of item-review-gui
-  drop-gui-title: '§bSpecial Drop'
-
-  #the health-regain amount every second when the special is healed by ender-crystal(Native: 2.0 per second)
-  crystal-heal: 5.0
-
-  #special dragon suck blood when cause damage to other entity
-  #Format: suck-blood-amount = damage * rate(auto regard as "%") + basic-suck
-  suck-blood:
-    enable: true
-
-    #if you set it to true,special dragon only suck the player's blood
-    only-player: true
-
-    #suck chance(unit: %)
-    rate: 50
-
-    #basic-suck
-    base-suck-blood: 10
-
-#dispatch commands when below creatures are killed
-command:
-
-  #please enter true or false
-  #You can use %player% stand for killer's name.
-  #If the ender dragon was killed entirely by invalid damage,such as bed boom,every command that contains %player% will be ignored.
-  #You can add more command lines or delete spare ones.
-  #Attention: You shouldn't add “/” at the beginning of each command!
-  #Example: - 'give %player% diamond 1'
+auto_respawn:
   enable: false
+  world_the_end_name: world_the_end
+  #some examples:
+  # minute:30            -> respawn every 30 minutes
+  # hour:4               -> respawn every 4 hours
+  # day:1,00:00          -> respawn at 00:00 every day
+  # day:10,14:30         -> respawn at 14:30 every 10 days
+  # week:6,22:00         -> respawn at 22:00 every Saturday(the 6th day of one week)
+  # week:7,09:00         -> respawn at 09:00 every Sunday
+  # month:8,11:43        -> respawn at 11:43,the 8th day every month
+  # year:200,00:00       -> respawn at 00:00,the 200th day every year
+  respawn_time: 'day:10,22:00'
+  #whether player(in survival mode) can break the end_crystal when respawn phase is running
+  invulnerable: false
 
-  #normal ender dragon
-  normal-dragon:
-    - ''
-    - ''
-    - ''
-  #special ender dragon
-  special-dragon:
-    - ''
-    - ''
-    - ''
+#if set this to true, end_crystal can still be crafted or placed,but end_crystal that placed by player cannot respawn the ender_dragon
+resist_player_respawn: false
+#if set this to true, player cannot gather dragon_breath with glass_bottle
+resist_dragon_breath_gather: false
+#The gui that will be shown when using "/ed drop gui"
+main_gui: main

@@ -1,0 +1,104 @@
+version: 3.2
+
+# 作者QQ: 1254806967,有问题请联系
+
+# 语言文件
+language: message.yml
+
+# MYSQL配置(不懂请不要修改)
+mysql:
+  # 是否使用数据库
+  enable: false
+  # mysql连接
+  url: 127.0.0.1
+  port: 3306
+  user: root
+  password: root
+  database: minecraft
+  pool: 10
+
+# 挂机奖励设置
+reward:
+  # 奖励周期(分钟/次)
+  round: 5
+  max:
+    # 是否限制最大奖励次数(天)
+    enable: false
+    # 如果上方设置为true 设置最大次数
+    # 玩家权限 AfkRewards.not.reward.limit 无视限制
+    limit: 36
+  player:
+    # 是否限制最大同时挂机人数
+    enable: true
+    # 如果上方设置为true 设置最大人数
+    # 玩家权限 AfkRewards.not.player.limit 无视限制
+    limit: 10
+  # 是否开启区域挂机
+  enableArea: true
+  # 是否开启自由挂机
+  enableAfk: true
+
+# 奖励设置
+type:
+  # 奖励名称
+  # 可以自行添加
+  # 每种类型都需要给予玩家 AfkRewards.start.类型 权限，如 AfkRewards.start.point
+  money:
+    # 描述
+    describe: 每次奖励。。。。
+    # 如果玩家拥有AfkRewards.start.money权限, 奖励以下指令，支持多行，自行添加
+    # 指令支持placeholder占位符，如%player_name% %player_ping% 等服务器内拥有的变量
+    # 指令支持简单四则运算 加+减-乘*除/，其他符号暂时不支持运算
+    common:
+      - 'money give %player_name% 10'
+      - 'minecraft:give %player_name% wood 64'
+    # 如果玩家拥有AfkRewards.vip权限
+    vip:
+      - 'money give %p 100'
+      - 'minecraft:give %player_name% diamond 64'
+
+  point:
+    describe: 每次奖励。。。。
+    common:
+      - 'point give %player_name% 100'
+      - 'minecraft:give %player_name% wood 64'
+    vip:
+      - 'point give %player_name% 1000'
+      - 'minecraft:give %player_name% diamond 64'
+  可中文:
+    describe: 每次奖励。。。。
+    common:
+      - 'point give %player_name% 100'
+      - 'minecraft:give %player_name% wood 64'
+    vip:
+      - 'point give %player_name% 1000'
+      - 'minecraft:give %player_name% diamond 64'
+      -
+# 挂机区域设置
+area:
+  # 区域名称 (可按照格式自行添加其他区域)
+  # 权限 AfkRewards.area.* 例: AfkRewards.area.zhucheng
+  zhucheng:
+    # 区域设置(可以是多边形)
+    pos:
+      world: zhucheng
+      # 角坐标点位（X,Z）坐标, 这里写范围多边形的各个角
+      posList:
+        - '10,10'
+        - '10,100'
+        - '100,10'
+        - '100,100'
+    # 该区域是否开启
+    enable: true
+    # 该区域奖励类型（上方配置）
+    type: money
+
+
+# placeholderApi变量列表
+# %the_north_afk_type% 挂机类型 返回值(自由挂机，区域挂机，未挂机)
+# %the_north_afk_reward% 类型/区域名称 返回值(上方配置的自由挂机和区域挂机名)
+# %the_north_afk_time% 当前挂机时间 返回值(xx时xx分xx秒)
+# %the_north_afk_total% 总挂机时间 返回值(xx时xx分xx秒)
+# %the_north_afk_today% 今日获得奖励次数 返回值(数字)
+# %the_north_afk_freq% 获得奖励总次数 返回值(数字)
+# %the_north_afk_player% 当前挂机总人数 返回值(数字)
