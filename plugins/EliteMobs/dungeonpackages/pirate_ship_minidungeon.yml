@@ -1,3 +1,4 @@
+contentType: SCHEMATIC_DUNGEON
 environment: NORMAL
 defaultSchematicRotation: SOUTH
 teleportLocationOffset: -17,1,49,0,0

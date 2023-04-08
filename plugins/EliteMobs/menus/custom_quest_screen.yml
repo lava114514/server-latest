@@ -1,3 +1,4 @@
+arenaQuestDefaultSummaryLine: '&c➤Complete $arenaName'
 isEnabled: true
 headerTextLines2: |
   §a§l『§c§l$questName§a§l』

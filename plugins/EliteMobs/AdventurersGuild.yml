@@ -1,14 +1,30 @@
+# Sets title sent to players when someone unlocks a prestige rank.
+# $player is a placeholder that gets replaced with the player's display name.
 prestigeUnlockMessageTitle: $player
+# Sets subtitle sent to players when someone unlocks a prestige rank.
+# $tier is a placeholder that gets replaced with the player's prestige level.
 prestigeUnlockMessageSubtitle: '&2has unlocked $tier&2!'
+# Sets the multiplier that will be applied to the spawn chance when players are using the peaceful (commoner) rank.
 peacefulModeEliteChanceDecrease: 0.2
+# Sets the list of worlds to which guild rank bonuses will not be applied
 worldsWithoutAGBonuses: []
+# Sets if user commands get rerouted to the adventurer's guild hub. This is highly recommended for gameplay immersion and tutorial purposes.
 userCommandsTeleportToAdventurersGuild: true
+# Sets if EliteMobs will add max health when unlocking guild ranks as a prestige reward
 Add max health when unlocking higher guild ranks: true
+# Sets if EliteMobs will add a critical strike chance when unlocking guild ranks as a prestige reward
 Add critical chance when unlocking higher guild ranks: true
+# Sets if EliteMobs will add dodge chance when unlocking guild ranks as a prestige reward
 Add dodge chance when unlocking higher guild ranks: true
+# Sets if the adventurer's guild hub is enabled. Don't set this manually! It is meant to be installed through the '/em setup' command
 guildHubIsEnabledv2: false
+# Sets the adventurer's guild world name. Do NOT change this to the name of your main world.
+# Only change this if you have created your own custom dedicated guild hub world that is meant for nothing else than to be a guild hub.
+# Most normal interaction are disabled in the guild hub world!
 Adventurer's Guild world name v3: em_adventurers_guild
+# Sets the spawn coordinates for the adventurer's guild world.
 Guild world coordinates: 208.5,88,236.5,-80,0
+# Sets the in-game display name of the adventurer's guild
 adventurersGuildMenuName: '&6&l冒险者大厅'
 Prestige 0 rank 0: '&8凡人'
 Prestige 0 rank 0 short placeholder: '&6&l✧&e0'
@@ -362,19 +378,43 @@ Prestige 10 rank 19: '&5声望10 &5猎神者'
 Prestige 10 rank 19 short placeholder: '&5⚜Ⅹ&6&l✧&eⅩⅠⅩ'
 Prestige 10 rank 20: '&5声望10 &5弑神者'
 Prestige 10 rank 20 short placeholder: '&5⚜Ⅹ&6&l✧&eⅩⅩ'
+# Sets if player loot is limited by their guild level.
+#  This is an incredibly important part of EliteMobs and extremely highly recommended.
 limitLootBasedOnGuildTier: true
+# Sets the message sent to players if their loot gets nerfed due to their low guild level.
 lootLimiterMessage: '&7[EM] &c你必须通过 /ag 升级冒险者公会才能获得更好的战利品！'
+# Sets the commands that run on guild rank up. Placeholders are:
+# $prestigerank - outputs the prestige rank
+# $activerank - outputs the currently active rank
+# $player - outputs the player name
 onRankUpCommand: []
+# Sets the commands that run on prestige rank up.
+# $prestigerank - outputs the prestige rank
+# $activerank - outputs the currently active rank
+# $player - outputs the player name
 onPrestigeUpCommand: []
+# Sets the prestige level for the first dodge bonus.
 dodgePrestige3Bonus: 3.0
+# Sets the prestige level for the second dodge bonus.
 dodgePrestige6Bonus: 6.0
+# Sets the prestige level for the third dodge bonus.
 dodgePrestige9Bonus: 10.0
+# Sets the prestige level for the first critical hit bonus.
 critPrestige2Bonus: 3.0
+# Sets the prestige level for the second critical hit bonus.
 critPrestige5Bonus: 6.0
+# Sets the prestige level for the third critical hit bonus.
 critPrestige8Bonus: 10.0
+# Sets the prestige level for the first max health bonus.
 healthPrestige1Bonus: 2.0
+# Sets the prestige level for the second max health bonus.
 healthPrestige4Bonus: 2.5
+# Sets the prestige level for the third max health bonus.
 healthPrestige7Bonus: 3.0
+# Sets the prestige level for the third max health bonus.
 healthPrestige10Bonus: 4.0
+# Sets the estimated base amount of bosses that must be killed to be able to afford a rank up.
 baseKillsForRankUp: 100
+# Sets the estimated additional amount of bosses that must be killed to be able to rank up, per level.
+# The formula is this amount x the level the player is currently at.
 additionalKillsForRankUpPerTier: 50

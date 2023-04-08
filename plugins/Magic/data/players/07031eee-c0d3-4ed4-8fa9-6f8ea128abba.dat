@@ -1,10 +1,10 @@
 id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
 name: Enderlava
 created: 1678458824899
-updated: 1680874221074
-last_cast: 1680874218578
+updated: 1680925750469
+last_cast: 1680923551589
 cooldown_expiration: 0
-last_death_location: 1.5336399311537463,131.0,22.95802786863097,world,-94.815,9.299932
+last_death_location: -27.76249998807907,63.0,-284.69999998807907,world,-130.2149,4.8000026
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -158,28 +158,78 @@ undo:
     - -690,66,46,world|sand
     - -692,67,43,world|sand
     - -692,66,47,world|sand
-    - 3,133,24,world|cobblestone_slab?minecraft:cobblestone_slab[type=double,waterlogged=false]
-    - 2,132,22,world|cobblestone_slab?minecraft:cobblestone_slab[type=bottom,waterlogged=false]
-    - 5,132,24,world|cobblestone_slab?minecraft:cobblestone_slab[type=bottom,waterlogged=false]
-    - 2,132,24,world|cobblestone_slab?minecraft:cobblestone_slab[type=bottom,waterlogged=false]
-    - 3,132,24,world|cobblestone_slab?minecraft:cobblestone_slab[type=bottom,waterlogged=false]
-    - 5,133,24,world|cobblestone
-    - 2,133,24,world|cobblestone_slab?minecraft:cobblestone_slab[type=double,waterlogged=false]
-    - 5,132,20,world|cobblestone_slab?minecraft:cobblestone_slab[type=bottom,waterlogged=false]
-    - 4,132,24,world|cobblestone_slab?minecraft:cobblestone_slab[type=bottom,waterlogged=false]
-    - 5,134,24,world|cobblestone
-    - 4,133,24,world|cobblestone
-    - 5,131,22,world|hopper?minecraft:hopper[enabled=true,facing=south]
-    - 6,132,24,world|cobblestone_slab?minecraft:cobblestone_slab[type=bottom,waterlogged=false]
-    - 3,131,22,world|hopper?minecraft:hopper[enabled=true,facing=west]
-    - 2,132,23,world|cobblestone_slab?minecraft:cobblestone_slab[type=bottom,waterlogged=false]
-    - 3,131,23,world|hopper?minecraft:hopper[enabled=true,facing=west]
-    - 2,132,21,world|cobblestone_slab?minecraft:cobblestone_slab[type=bottom,waterlogged=false]
-    - 2,133,22,world|cobblestone_slab?minecraft:cobblestone_slab[type=double,waterlogged=false]
-    - 2,133,23,world|cobblestone_slab?minecraft:cobblestone_slab[type=double,waterlogged=false]
-    - 4,131,23,world|hopper?minecraft:hopper[enabled=true,facing=west]
-    - 5,131,23,world|hopper?minecraft:hopper[enabled=true,facing=west]
-    - 4,131,22,world|hopper?minecraft:hopper[enabled=true,facing=south]
+    - 4,129,22,world|air
+    - 4,128,22,world|air
+    - 4,127,22,world|air
+    - 4,126,22,world|air
+    - 4,125,22,world|air
+    - 4,124,22,world|air
+    - 4,123,22,world|air
+    - 4,122,22,world|air
+    - 4,121,22,world|air
+    - 4,120,22,world|air
+    - 4,119,22,world|air
+    - 4,118,22,world|air
+    - 4,117,22,world|air
+    - 4,116,22,world|air
+    - 4,115,22,world|air
+    - 4,114,22,world|air
+    - 4,113,22,world|air
+    - 4,112,22,world|air
+    - 4,111,22,world|air
+    - 4,110,22,world|air
+    - 4,109,22,world|air
+    - 4,108,22,world|air
+    - 4,107,22,world|air
+    - 4,106,22,world|air
+    - 4,105,22,world|air
+    - 4,104,22,world|air
+    - 4,103,22,world|air
+    - 4,102,22,world|air
+    - 4,101,22,world|air
+    - 4,100,22,world|air
+    - 4,99,22,world|air
+    - 4,98,22,world|air
+    - 4,97,22,world|air
+    - 4,96,22,world|air
+    - 4,95,22,world|air
+    - 4,94,22,world|air
+    - 4,93,22,world|air
+    - 4,92,22,world|air
+    - 4,91,22,world|air
+    - 4,90,22,world|air
+    - 4,89,22,world|air
+    - 4,88,22,world|air
+    - 4,87,22,world|air
+    - 4,86,22,world|air
+    - 4,85,22,world|air
+    - 4,84,22,world|air
+    - 4,83,22,world|air
+    - 4,82,22,world|air
+    - 4,81,22,world|air
+    - 4,80,22,world|air
+    - 4,79,22,world|air
+    - 4,78,22,world|air
+    - 4,77,22,world|air
+    - 4,76,22,world|air
+    - 4,75,22,world|air
+    - 4,74,22,world|air
+    - 4,73,22,world|air
+    - 4,72,22,world|air
+    - 4,71,22,world|air
+    - 4,70,22,world|air
+    - 4,69,22,world|air
+    - 4,68,22,world|air
+    - 4,67,22,world|air
+    - 4,66,22,world|air
+    - 4,65,22,world|air
+    - 4,64,22,world|air
+    - 4,63,22,world|air
+    time_to_live: 0
+    name: 水肺
+    mode: NO_PHYSICS
+  - blocks:
+    - 7,132,21,world|cobblestone_slab?minecraft:cobblestone_slab[type=bottom,waterlogged=false]
     time_to_live: 0
     name: 水肺
     mode: NO_PHYSICS
@@ -259,9 +309,9 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   recall:
-    cast_count: 15
-    last_cast: 1680701405074
-    last_earn: 1680701412100
+    cast_count: 16
+    last_cast: 1680916313312
+    last_earn: 1680916313312
     cooldown_expiration: 0
     charges: 0.0
   missile:
@@ -283,10 +333,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   aqualung:
-    cast_count: 7
-    last_cast: 1680874218579
+    cast_count: 12
+    last_cast: 1680923551589
     last_earn: 0
-    cooldown_expiration: 1680874278579
+    cooldown_expiration: 0
     charges: 0.0
   missile|2:
     cast_count: 50
@@ -301,9 +351,9 @@ spells:
     cooldown_expiration: 1680322174599
     charges: 0.0
   missile|3:
-    cast_count: 271
-    last_cast: 1680873258892
-    last_earn: 1680873239653
+    cast_count: 274
+    last_cast: 1680923477325
+    last_earn: 1680916315456
     cooldown_expiration: 0
     charges: 0.0
   fireball|2:
@@ -344,7 +394,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: 0ed85fdb-7201-4338-941f-9b1b6570bab1
+            uuid: 5c4f0d38-956a-498d-b704-b5e6c1daa81c
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -355,7 +405,7 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0VRXU/DMAz0aEe7gcQbbwgJIZ42qR/b6H4Av6NyG2eLliUlSTchxH/HGQLeznZ8d77MASaQHoiGyRzSMxqRw9SeDTmYvRlBTuMJE7jf29Cha5U5kQnWfbS9HU0A3s7hFvugTtT6gbSG7Ki8V5pmkHltQyBmjCI3u1G1nfWeeXJIVW8N3Pqg+sNn2RRF+TWHuwvDv0gC6TAyJUCaQC6Vow4v5VUCmSOpqY8WEn7nw2gY5glM0Tl7htj/8xIN8ERqdBFnvBDZGD5wu9PKCMaPCVw76n8kri/ifs9wyuL4PqIezY7Lp0h8IueVjZJZDnmg46Ax0G+C+SXBVgl4Ll6LuiSiZV+IerkisVo2ErfLjWwIy6rBrkOOkKTkYzhVbR28bEqx6WRZVqISi3pdbepSYPO6lYsa+2bdbIvtulqz3Z9vicfGhEcjnB0G7DRN4BsyiqgV2gEAAA==
+        internal: H4sIAAAAAAAA/0WR3U7DMAyFPdqtZSBxxx1CQoirTeoPG90D8ByV2zgjWkhKkm5CiHfH6QTc2ZH9neOTJcAM0gPRMFtCekIjcpjbkyEHl69GkNN4xARu32zo0LXKHMkE6z7b3o4mAG/ncI19UEdq/UBaQ/auvFeaLiHz2oZATIwiV/tRtZ31njk5pKq3Bq59UP3hq2yKovxews1E+BdJIB1GRgKkCeRSOepwai8SyBxJTX20kPCcD6PhMk9gjs7ZE8T3Py/RABPwY0Q9mj23Ge9EIJd3CSwc9WfyggGdVkZwfT/p+zcu5/wsNU7zDxF8JOeVjZJZDnmg90FjoN8E8ynBVgl4LF6KuiSidV+Iev1M4nndSNytt7IhLKsGuw45QpKSj+FUtXXwtC3FtpNlWYlKrOpNta1Lgc3LTq5q7JtNsyt2m2rDvs/fEo+NCY9GODsM2GmawQ/QYj2L2gEAAA==
     wand:
       owner: Enderlava
       hotbar_inventory_count: 1
@@ -370,12 +420,12 @@ wands:
         stun: 8
         missile: 1
         arrow: 0
-        aqualung: 34
+        flare: 34
         fire: 29
-        recall: 6
         blind: 31
+        recall: 6
         push: 5
-        flare: 7
+        aqualung: 7
       owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
       template: wand
       version: 7
@@ -385,7 +435,7 @@ open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
-  sp: 86.0
+  sp: 101.0
 properties:
   version: 7
 classes:
@@ -409,8 +459,8 @@ classes:
     - push
   mage:
     effect_color: cef52af28d37,e34b44b86e12,44d84fee9a2a
-    mana_timestamp: 1680874220974
+    mana_timestamp: 1680925750097
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 17.81875991821289
+health: 10.477310180664062

@@ -1,0 +1,46 @@
+onSpawnBlockStates: []
+onRemoveBlockStates: []
+isEnabled: true
+isPersistent: true
+entityType: ZOMBIE
+name: $bossLevel &e哲理伦
+level: dynamic
+healthMultiplier: 10
+damageMultiplier: 20
+onDeathCommands:
+- broadcast $players杀死了$level级的$name！
+- em spawnlocationcustom 2.yml world 5 100 5
+onSpawnCommands: []
+onCombatEnterCommands: []
+onCombatLeaveCommands: []
+deathMessages:
+- '&e&l---------------------------------------------'
+- '&4哲理伦已被击退！'
+- '&c&l    输出第一名: $damager1name&c造成了$damager1damage点伤害！'
+- '&6&l    输出第二名: $damager2name&6造成了$damager2damage点伤害！'
+- '&e&l    输出第三名: $damager3name&e造成了$damager3damage点伤害！'
+- '&4终结者: $players'
+- '&e&l---------------------------------------------'
+uniqueLootList:
+- fightlun_axe.yml:1
+powers:
+- invulnerability_knockback.yml
+onDamageMessages:
+- 会翻墙吗！
+onDamagedMessages:
+- 诽谤！
+trails:
+- PAPERE
+phases: []
+spawnChance: 0.1
+locationMessage: 哲理伦：$distance
+spawnMessage: 哲理伦已生成！
+deathMessage: 哲理伦被$players杀死了！
+escapeMessage: 哲理伦逃离了！
+announcementPriority: 3
+timeout: 0
+helmet: NETHERITE_HELMET
+chestplate: NETHERITE_CHESTPLATE
+leggings: NETHERITE_LEGGINGS
+boots: NETHERITE_BOOTS
+mainHand: enchanted_book
