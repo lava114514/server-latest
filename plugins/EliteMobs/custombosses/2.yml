@@ -24,7 +24,9 @@ deathMessages:
 uniqueLootList:
 - fightlun_axe.yml:1
 powers:
-- invulnerability_knockback.yml
+- attack_wither.yml 
+- hyper_loot.yml 
+- shield_wall.yml
 onDamageMessages:
 - 会翻墙吗！
 onDamagedMessages:
