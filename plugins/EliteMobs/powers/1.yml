@@ -1,0 +1,12 @@
+isEnabled: true
+powerType: UNIQUE
+eliteScript:
+  Example:
+    Events:
+    - EliteMobDamagedEvent
+    Actions:
+- action: RUN_COMMAND_AS_CONSOLE
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 10
+      sValue: em spawnlocationcustom world $bossX $bossY $bossZ
