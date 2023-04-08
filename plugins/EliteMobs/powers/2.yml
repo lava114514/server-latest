@@ -1,0 +1,14 @@
+isEnabled: true
+powerType: UNIQUE
+eliteScript:
+  Example:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: PUSH
+      Target:
+        targetType: SELF
+      vValue: 0,.3,0
+    Cooldowns:
+      local: 60
+      global: 20
