@@ -6,7 +6,7 @@ entityType: ZOMBIE
 name: $bossLevel &e战斗伦
 level: dynamic
 healthMultiplier: 10
-damageMultiplier: 3.5
+damageMultiplier: 3
 onDeathCommands:
 - broadcast $players杀死了$level级的$name！
 onSpawnCommands: []
