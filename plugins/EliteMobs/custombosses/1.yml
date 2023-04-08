@@ -26,6 +26,7 @@ powers:
 - attack_wither.yml
 - hyper_loot.yml
 - shield_wall.yml
+- 1.yml
 onDamageMessages:
 - 会翻墙吗！
 onDamagedMessages:
