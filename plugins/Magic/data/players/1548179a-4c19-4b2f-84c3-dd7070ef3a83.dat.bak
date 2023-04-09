@@ -1,10 +1,10 @@
 id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
 name: mc_wyy114
 created: 1679719078156
-updated: 1680873963725
-last_cast: 1680702986115
+updated: 1681015117186
+last_cast: 1681010818566
 cooldown_expiration: 0
-last_death_location: -1.7927114701798466,45.84461214748983,19.844836295427395,world,-43.81479,46.800026
+last_death_location: 5.835320264599337,63.0,13.835590576386146,world,-13.516272,22.04982
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -24,9 +24,9 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   blind:
-    cast_count: 4
-    last_cast: 1680700431158
-    last_earn: 1680700338600
+    cast_count: 5
+    last_cast: 1681010168069
+    last_earn: 1681009210338
     cooldown_expiration: 0
     charges: 0.0
   arrow:
@@ -78,9 +78,9 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   recall:
-    cast_count: 2
-    last_cast: 1680702986115
-    last_earn: 1680702995762
+    cast_count: 6
+    last_cast: 1681008637454
+    last_earn: 1681008643703
     cooldown_expiration: 0
     charges: 0.0
   missile:
@@ -121,7 +121,7 @@ spells:
     charges: 0.0
   missile|3:
     cast_count: 96
-    last_cast: 1680702355230
+    last_cast: 1681010818566
     last_earn: 1680700268207
     cooldown_expiration: 0
     charges: 0.0
@@ -149,7 +149,7 @@ wands:
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
-          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"致盲"}],"text":""}'
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"魔法导弹"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
           "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
@@ -163,7 +163,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: 97100d35-c25d-4e20-b68a-57c5fc7e97ed
+            uuid: 66bbbec0-90a7-4427-b1d7-84e9c8076d88
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -174,10 +174,10 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0VRXW+DMAw0C7Ssq9a3/YLtrUikQEt/DcqHo0VNExRCUTXtvy/QSnuz5Tvfnb0BSCC9IPbJBtKJWZnAOyqFInR85NzgADlsmQj6ht3QozGQcaOtzCHVwlnYDkGLyw9ty5L+bmD9IA855AuJBQSIK/KA197M3aJCYH1DP+i4AGBNYPXtAmceFuz2aUA44zx8CS7ZuVKqPSixb1E1FReSlnLf0PpQNc3xWNY0h92T1TMfHRmcN2Vusujh9Sq66X6ntCbw8VDqtL2hDc7fo8xoQxSOF9gtCf9nBNJ+jJEBMgK50h45W9okBrjqYdCzDgCBjHnvpli+RM4MjGUac3kUD8aKPA/3CJwpwxYQmY+z2Oy0hE/a1C09nVlRC3ouan5QRVuLqpDyVJ5KVBVrq/iyt9FK7/qexQ8l8AdTPSagxgEAAA==
+        internal: H4sIAAAAAAAA/0VRXW+DMAw0Cy2sq7a3/YLtrUikQEt/DcqHo0VNExRCUTXtvy/Qanuz5Tvfnb0BSCA9I/bJBtKJWZnAKyqFInR85NzgADlsmQj6it3QozGQXfQwaIM5pFo4C9shaHH+pm1Z0p8NZHf6kEO+0FhAgLgkD3jpzdwtOgSyK/pBxwUAGYH1lwuceViw24cF4Yzz8Cm4ZKdKqXavxK5F1VRcSFrKXUPrfdU0h0NZ0xzeHqye+ejI4Lxp5SaLHp4voptuN0prAu93pU7bK9rg/C3KjDZE4XiDtyXj/4xA2o8xNMCKQK60R86WNiGwYt67KdZP5O8os//ImYGxSiOIG23lI6NHcWev40AZtoDIfJzFZqclfNCmbunxxIpa0FNR870q2lpUhZTH8liiqlhbxae9jFZ61/cs/iiBX5ZWlpvIAQAA
     wand:
       effect_bubbles: false
-      active_spell: blind
+      active_spell: missile
       icon: stick{18001}
       effects:
         activate: ''
@@ -191,18 +191,18 @@ wands:
       spell_inventory:
         pull: 5
         fireball: 1
-        arrow: 2
         missile: 0
+        arrow: 2
         fire: 4
-        blind: 7
         recall: 6
+        blind: 7
         flare: 3
       owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
 open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
-  sp: 278.0
+  sp: 302.0
 properties:
   version: 7
 classes:
@@ -221,8 +221,8 @@ classes:
     - fireball
   mage:
     effect_color: 456a4a324571,d7819e4f1a4d,20893af8e500
-    mana_timestamp: 1680873963725
+    mana_timestamp: 1681015117182
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 5.6505446434021
+health: 18.833280563354492

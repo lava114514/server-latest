@@ -1,0 +1,8 @@
+isEnabled: true
+material: NETHERITE_HELMET
+name: '&8绝望的理智头盔'
+lore:
+- '&a绝望的理智'
+enchantments:
+- MENDING,1
+itemType: unique

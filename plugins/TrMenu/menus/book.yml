@@ -1,0 +1,71 @@
+Title: '哲理伦之书!' 
+Title-Update: 80
+
+#
+# 菜单绑定的快捷打开方式
+#
+Bindings:
+  # 绑定到物品特征
+  Items:
+    - 'material:knowledge_book'
+Layout:
+  - - '########`Close`'
+    - '    P    '
+    - '#########'
+
+PlayerInventory:
+  - - '         '
+    - '         '
+    - '         '
+    - '         '
+
+Options:
+  Arguments: false
+  Default-Arguments: [ ]
+  # Not work with animated title
+  Free-Slots:
+    - 71-73
+  Default-Layout: 0
+  Hide-Player-Inventory: false
+  Min-Click-Delay: 200
+  Depend-Expansions: [ 'server', 'player', 'progress', 'animations' ]
+
+
+Events:
+  Open:
+    - condition: 'perm *trmenu.use'
+      actions:
+        - 'sound: BLOCK_CHEST_OPEN-1-0'
+      deny:
+        - 'sound: ENTITY_ITEM_BREAK-1-0'
+        - 'title: `&c&lPermission Required` `&7&lYou need permission &6&ltrmenu.use &7&lto open this menu` 15 20 15'
+        - 'return'
+  Close:
+    - 'sound: BLOCK_CHEST_CLOSE-1-0'
+
+Icons:
+  '#':
+    update: [ -1, 10, 15, -1 ]
+    display:
+      material: Gray Stained Glass Pane
+      name: [ '&7哲&8理', '&7哲&8理', '&7哲&8理','&7哲&8理' ]
+    actions:
+      all: 'sound: BLOCK_NOTE_BLOCK_PLING-1-2'
+
+  Close:
+    update: [ -1, 5, -1, -1 ]
+    display:
+      material: Red Stained Glass Pane
+      name: [ '&c关&7闭', '&c关&7闭', '&c关&7闭', '&c关&7闭', '&c关&7闭' ]
+    actions:
+      all: close
+  
+  'P':
+    update: 20
+    display:
+      material: paper
+      name: '&6发射'
+    actions:
+      all:
+      - 'sound: BLOCK_NOTE_BLOCK_PLING-1-2'
+      - 'command *"function playerboom"'

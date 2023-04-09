@@ -1,0 +1,16 @@
+name: 1
+powerType: UNIQUE
+isEnabled: true
+eliteScript:
+  1:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: RUN_COMMAND_AS_PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 10
+      sValue: function minecraft:paperboom
+    Cooldowns:
+      local: 400
+      global: 20

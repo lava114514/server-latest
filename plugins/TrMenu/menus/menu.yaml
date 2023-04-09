@@ -7,10 +7,11 @@ Title-Update: 80
 Bindings:
   # 绑定命令, 支持正则
   Commands:
-    - 'tester'
+    - 'menu'
   # 绑定到物品特征
   Items:
     - 'material:compass'
+    - 'material:clock,lore:MENU'
     
 Layout:
   - - '########`Close`'
@@ -42,13 +43,6 @@ Options:
   Min-Click-Delay: 200
   Depend-Expansions: [ 'server', 'player', 'progress', 'animations' ]
 
-Bindings:
-  Commands:
-    - '(?i)example(-)?(gui)?(s)?'
-  Items:
-    - 'material:compass'
-    - 'material:clock,lore:MENU'
-    - 'texture:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRmNDUyZDk5OGVhYmFjNDY0MmM2YjBmZTVhOGY0ZTJlNjczZWRjYWUyYTZkZmQ5ZTZhMmU4NmU3ODZlZGFjMCJ9fX0='
 
 Events:
   Open:

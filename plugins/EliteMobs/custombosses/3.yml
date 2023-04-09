@@ -1,0 +1,47 @@
+onSpawnBlockStates: []
+onRemoveBlockStates: []
+isEnabled: true
+isPersistent: true
+entityType: VEX
+name: $bossLevel &e绝望的理智
+level: dynamic
+healthMultiplier: 10
+damageMultiplier: 20
+onDeathCommands:
+- broadcast $players杀死了$level级的$name！
+onSpawnCommands: []
+onCombatEnterCommands: []
+onCombatLeaveCommands: []
+deathMessages:
+- '&e&l---------------------------------------------'
+- '&4绝望的理智已被击退！'
+- '&c&l    输出第一名: $damager1name&c造成了$damager1damage点伤害！'
+- '&6&l    输出第二名: $damager2name&6造成了$damager2damage点伤害！'
+- '&e&l    输出第三名: $damager3name&e造成了$damager3damage点伤害！'
+- '&4终结者: $players'
+- '&e&l---------------------------------------------'
+uniqueLootList:
+- lun_pp1.yml:0.5
+- lun_pp2.yml:0.7
+- lun_pp3.yml:1
+- summon_wolf_lun.yml:1
+powers:
+- attack_wither.yml 
+onDamageMessages:
+- 绝望！
+onDamagedMessages:
+- 绝望！
+trails:
+- PAPER
+phases: []
+locationMessage: 绝望的理智：$distance
+spawnMessage: 绝望的理智已生成！
+deathMessage: 绝望的理智被$players杀死了！
+escapeMessage: 绝望的理智逃离了！
+announcementPriority: 3
+timeout: 0
+helmet: NETHERITE_HELMET
+chestplate: NETHERITE_CHESTPLATE
+leggings: NETHERITE_LEGGINGS
+boots: NETHERITE_BOOTS
+mainHand: enchanted_book

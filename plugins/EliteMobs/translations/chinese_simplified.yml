@@ -13717,3 +13717,63 @@ SpecialItemSystems:
     $itemName&6!'
   criticalFailureAnnouncement: '&8[EliteMobs] $player &clost $itemName &cwhile trying
     to enchant it!'
+zhelilunbook:
+  name: '&4哲理伦宝典'
+  lore:
+  - 诽谤
+lun_pp1:
+  name: '&8绝望的理智胸甲'
+  lore:
+  - '&a绝望的理智'
+lun_pp2:
+  name: '&8绝望的理智护腿'
+  lore:
+  - '&a绝望的理智'
+lun_pp3:
+  name: '&8绝望的理智头盔'
+  lore:
+  - '&a绝望的理智'
+lun_pp4:
+  name: '&8哥布林剁肉斧'
+  lore:
+  - '&8哥布林的财宝！'
+summon_wolf_lun:
+  name: '&6唤犬卷轴'
+  lore:
+  - '&a召唤绝望的理智'
+'3':
+  name: $bossLevel &e绝望的理智
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&4绝望的理智已被击退！'
+  - '&c&l    输出第一名: $damager1name&c造成了$damager1damage点伤害！'
+  - '&6&l    输出第二名: $damager2name&6造成了$damager2damage点伤害！'
+  - '&e&l    输出第三名: $damager3name&e造成了$damager3damage点伤害！'
+  - '&4终结者: $players'
+  - '&e&l---------------------------------------------'
+  onDamageMessages:
+  - 绝望！
+  onDamagedMessages:
+  - 绝望！
+  locationMessage: 绝望的理智：$distance
+  spawnMessage: 绝望的理智已生成！
+  deathMessage: 绝望的理智被$players杀死了！
+  escapeMessage: 绝望的理智逃离了！
+'4':
+  name: $reinforcementLevel &7β
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&4绝望的理智已被击退！'
+  - '&c&l    输出第一名: $damager1name&c造成了$damager1damage点伤害！'
+  - '&6&l    输出第二名: $damager2name&6造成了$damager2damage点伤害！'
+  - '&e&l    输出第三名: $damager3name&e造成了$damager3damage点伤害！'
+  - '&4终结者: $players'
+  - '&e&l---------------------------------------------'
+  onDamageMessages:
+  - 绝望！
+  onDamagedMessages:
+  - 绝望！
+  locationMessage: 绝望的理智：$distance
+  spawnMessage: 绝望的理智已生成！
+  deathMessage: 绝望的理智被$players杀死了！
+  escapeMessage: 绝望的理智逃离了！

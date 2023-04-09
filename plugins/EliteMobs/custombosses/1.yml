@@ -27,6 +27,10 @@ powers:
 - hyper_loot.yml
 - shield_wall.yml
 - 1.yml
+- moonwalk.yml
+- movement_speed.yml
+- spirit_walk.yml
+- attack_fire.yml
 onDamageMessages:
 - 会翻墙吗！
 onDamagedMessages:
@@ -34,7 +38,7 @@ onDamagedMessages:
 trails:
 - BARRIER
 phases: []
-spawnChance: 0.1
+spawnChance: 0.05
 locationMessage: 战斗伦：$distance
 spawnMessage: 战斗伦已生成！
 deathMessage: 战斗伦被$players杀死了！

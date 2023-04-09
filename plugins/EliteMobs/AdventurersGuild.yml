@@ -17,7 +17,7 @@ Add critical chance when unlocking higher guild ranks: true
 # Sets if EliteMobs will add dodge chance when unlocking guild ranks as a prestige reward
 Add dodge chance when unlocking higher guild ranks: true
 # Sets if the adventurer's guild hub is enabled. Don't set this manually! It is meant to be installed through the '/em setup' command
-guildHubIsEnabledv2: false
+guildHubIsEnabledv2: true
 # Sets the adventurer's guild world name. Do NOT change this to the name of your main world.
 # Only change this if you have created your own custom dedicated guild hub world that is meant for nothing else than to be a guild hub.
 # Most normal interaction are disabled in the guild hub world!

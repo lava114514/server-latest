@@ -1,14 +1,13 @@
-isEnabled: true
+name: 1
 powerType: UNIQUE
+isEnabled: true
 eliteScript:
-  Example:
+  1:
     Events:
-    - EliteMobDamagedByPlayerEvent
+    - EliteMobDeathEvent
     Actions:
-    - action: PUSH
+    - action: RUN_COMMAND_AS_PLAYER
       Target:
-        targetType: SELF
-      vValue: 0,.3,0
-    Cooldowns:
-      local: 60
-      global: 20
+        targetType: NEARBY_PLAYERS
+        range: 10
+      sValue: em spawncustom 4.yml

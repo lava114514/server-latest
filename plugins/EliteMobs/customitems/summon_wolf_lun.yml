@@ -1,0 +1,9 @@
+isEnabled: true
+material: PAPER
+name: '&6唤犬卷轴'
+lore:
+- '&a召唤绝望的理智'
+enchantments:
+- SUMMON_WOLF,1
+potionEffects: []
+itemType: unique

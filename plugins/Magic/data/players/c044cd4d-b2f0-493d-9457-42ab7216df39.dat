@@ -1,10 +1,10 @@
 id: c044cd4d-b2f0-493d-9457-42ab7216df39
 name: Funget114514
 created: 1679803070926
-updated: 1680873773074
-last_cast: 1680869962925
+updated: 1681017595671
+last_cast: 1681016910947
 cooldown_expiration: 0
-last_death_location: -15.003532507243916,120.0,2.6903658030402244,world,0.88577926,12.750047
+last_death_location: -24.5,63.0,-285.5,world,50.68538,59.850056
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -37,7 +37,7 @@ spells:
     charges: 0.0
   arrow:
     cast_count: 18
-    last_cast: 1680869758168
+    last_cast: 1681016909598
     last_earn: 1680695276157
     cooldown_expiration: 0
     charges: 0.0
@@ -72,9 +72,9 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   reflect:
-    cast_count: 8
-    last_cast: 1680869962925
-    last_earn: 1680869877427
+    cast_count: 10
+    last_cast: 1680949198602
+    last_earn: 1680949175146
     cooldown_expiration: 0
     charges: 0.0
   spellshop:
@@ -90,9 +90,9 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   recall:
-    cast_count: 4
-    last_cast: 1680696024415
-    last_earn: 1680402784824
+    cast_count: 6
+    last_cast: 1681014011864
+    last_earn: 1681012428948
     cooldown_expiration: 0
     charges: 0.0
   missile:
@@ -118,7 +118,6 @@ spells:
     last_cast: 1680702564108
     last_earn: 0
     cooldown_expiration: 0
-    enabled: false
     charges: 0.0
   missile|2:
     cast_count: 50
@@ -153,8 +152,7 @@ wands:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"反弹"},{"italic":false,"color":"white","text":"
-          ("},{"italic":false,"color":"dark_aqua","text":"法杖"},{"italic":false,"color":"white","text":")"}],"text":""}'
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"法杖"}],"text":""}'
         lore:
         - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"魔力法杖"}],"text":""}'
         - '{"italic":true,"color":"dark_aqua","text":"绑定 Funget114514"}'
@@ -163,7 +161,7 @@ wands:
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
-          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"反弹"}],"text":""}'
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"飞箭"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
           "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
@@ -177,7 +175,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: 3e883c46-3788-45f4-bc30-38bae658fa0c
+            uuid: d1a0c76a-5291-4c8f-9c71-eeaac026b698
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -188,12 +186,12 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0WRy27CMBBFhyZASpG666Jqu6q6AikOBpIf6G8gPyZgYezUcUBV1X/vJH155Tu+c+bhGcAI0iNiM5pBehFOZzD2F4cB5q+d22NkjK8ZTyBtxB6BTgJ3Bx+lCDvjzuiiD+875TsX6W2UwVyoaM64axu0FqYBa4sqZpAa5R3M22jU8YOVec4+Z3A7uP5BCVxffDhKdOpAuMe+bEcYgKcEstoElGKQk+QPTWpM6mTa1tifDieNNy2VA0gTGIsQ/IXuV8QQb52wNFjfLPkCqm/glHzSGqf7/KFs23dwT+HaitBzHwg8PWNozUCeZpANm9oZDc8q51xprpeyqPMlr1Z6WfH1dskLIbcF2+h6VVFCxFNjRcTfXc+xrmkGWqD1AV6KQjORc8bqcrPgrMirfKMqmZeLNVZSqHIrpSrpy246p4NvGiEtjuALQWik5sYBAAA=
+        internal: H4sIAAAAAAAA/0WRTU7DMBCFpyQloVRixwIBK8SqkeLUbZMLcI3KP5PWqmsHJ2mEEHdnkiLhlcea+d6b5wXADOITYjNbQDwIpyOIG3FAoJPC3A8OAyw/enfAjjG+YTyCx6PvpAh74y7oOh++9sr3rqOJWQpLoTpzwX3boLUwFyH4IYXYKO9g2XZGnb5ZmefsZwEPU88/JoK7wYeTRKeOBHsZrfQEAXiNIK1NQCmm8jaCJGBtUY2ic6rOpm2NnVxHcNt405IcQBz9OaD7DTHEZy8s7TJapb6A6gpMqE9a4/Q4P8m2o4Mneq6tCCP3mcDJBUNrJnKSQjqFszca3lTOudJcZ7Ko84xXa51VfLPLeCHkrmBbXa8rGujw3FjR4TVpygrrmnag+KwP8F4UmomcM1aX2xVnRV7lW1XJvFxtsJJClTspVUkfdt87HXzTCGlxBr8+Il9UxAEAAA==
     wand:
-      page: 0
       owner: Funget114514
+      page: 0
       hotbar_inventory_count: 1
-      active_spell: reflect
+      active_spell: arrow
       icon: stick{18001}
       spell_inventory:
         pull: 30
@@ -216,7 +214,7 @@ open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
-  sp: 18.0
+  sp: 33.0
 properties:
   version: 7
 classes:
@@ -239,8 +237,8 @@ classes:
       fireball: 2
   mage:
     effect_color: efc0009bd2e7,405ab9a92e37,d31e3e815c7c
-    mana_timestamp: 1680873772974
+    mana_timestamp: 1681017595575
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 3.5535037517547607
+health: 24.399999618530273

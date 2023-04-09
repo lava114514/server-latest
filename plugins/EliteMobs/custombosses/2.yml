@@ -9,7 +9,6 @@ healthMultiplier: 10
 damageMultiplier: 20
 onDeathCommands:
 - broadcast $players杀死了$level级的$name！
-- em spawnlocationcustom 2.yml world 5 100 5
 onSpawnCommands: []
 onCombatEnterCommands: []
 onCombatLeaveCommands: []
@@ -22,19 +21,27 @@ deathMessages:
 - '&4终结者: $players'
 - '&e&l---------------------------------------------'
 uniqueLootList:
-- fightlun_axe.yml:1
+- zhelilunbook:1
+- lun_pp1.yml:0.5
+- lun_pp2.yml:0.7
+- lun_pp3.yml:1
 powers:
-- attack_wither.yml 
-- hyper_loot.yml 
-- shield_wall.yml
+- attack_wither.yml 
+- hyper_loot.yml 
+- shield_wall.yml
+- moonwalk.yml
+- movement_speed.yml
+- spirit_walk.yml
+- arrow_rain.yml
+- 2.yml
+- 21.yml
 onDamageMessages:
 - 会翻墙吗！
 onDamagedMessages:
 - 诽谤！
 trails:
-- PAPERE
+- PAPER
 phases: []
-spawnChance: 0.1
 locationMessage: 哲理伦：$distance
 spawnMessage: 哲理伦已生成！
 deathMessage: 哲理伦被$players杀死了！
@@ -45,4 +52,4 @@ helmet: NETHERITE_HELMET
 chestplate: NETHERITE_CHESTPLATE
 leggings: NETHERITE_LEGGINGS
 boots: NETHERITE_BOOTS
-mainHand: enchanted_book
+mainHand: KNOWLEDGE_BOOK

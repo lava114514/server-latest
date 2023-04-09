@@ -8,7 +8,7 @@ skills:
     xp: 14.800000000000024
   mining:
     level: 4
-    xp: 804.9000000000265
+    xp: 806.6600000000267
   fishing:
     level: 5
     xp: 946.5
@@ -20,16 +20,16 @@ skills:
     xp: 178.00000000000006
   defense:
     level: 6
-    xp: 1368.8165405869445
+    xp: 1858.2423570752107
   fighting:
     level: 7
-    xp: 1.3000000000015461
+    xp: 788.9000000000015
   endurance:
     level: 8
-    xp: 1786.0
+    xp: 2535.0
   agility:
     level: 5
-    xp: 263.3999999999998
+    xp: 406.39999999999975
   alchemy:
     level: 1
     xp: 0.0
@@ -38,7 +38,7 @@ skills:
     xp: 0.0
   sorcery:
     level: 2
-    xp: 48.0
+    xp: 63.0
   healing:
     level: 1
     xp: 0.0
@@ -49,4 +49,4 @@ mana: 30.0
 locale: zh-cn
 ability_data:
   first_strike:
-    counter: 18
+    counter: 20
