@@ -31,6 +31,9 @@ powers:
 - movement_speed.yml
 - spirit_walk.yml
 - attack_fire.yml
+- attack_arrow.yml
+- attack_fireball.yml
+- death_slice.yml
 onDamageMessages:
 - 会翻墙吗！
 onDamagedMessages:
@@ -40,7 +43,7 @@ trails:
 phases: []
 spawnChance: 0.05
 locationMessage: 战斗伦：$distance
-spawnMessage: 战斗伦已生成！
+spawnMessage: 伦急了！
 deathMessage: 战斗伦被$players杀死了！
 escapeMessage: 战斗伦逃离了！
 announcementPriority: 3

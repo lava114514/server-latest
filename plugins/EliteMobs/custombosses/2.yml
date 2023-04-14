@@ -22,9 +22,6 @@ deathMessages:
 - '&e&l---------------------------------------------'
 uniqueLootList:
 - zhelilunbook:1
-- lun_pp1.yml:0.5
-- lun_pp2.yml:0.7
-- lun_pp3.yml:1
 powers:
 - attack_wither.yml 
 - hyper_loot.yml 
