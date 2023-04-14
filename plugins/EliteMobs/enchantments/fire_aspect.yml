@@ -1,5 +1,4 @@
-maxLevelV2: 2
 isEnabled: true
-name: 火焰附加
-maxLevel: 2
+name: Fire Aspect
+maxLevelV2: 2
 value: 6.0

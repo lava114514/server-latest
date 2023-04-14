@@ -1,11 +1,11 @@
 isEnabled: true
 material: FISHING_ROD
-name: '&2深渊探索者'
+name: '&2Depths seeker'
 lore:
-- '&9来自无底深渊'
-- '&9取自至恶怪物'
-- '&9不知这根鱼竿'
-- '&9见过何等恐怖'
+- '&9Come from depths immeasurable'
+- '&9and looted from monster most vile,'
+- '&9there is no telling what horrors'
+- '&9this fishing rod has seen.'
 enchantments:
 - LURE,3
 - LUCK,3
@@ -15,4 +15,4 @@ enchantments:
 potionEffects:
 - WATER_BREATHING,0,self,continuous
 - LUCK,0,self,continuous
-itemType: unique
+itemType: UNIQUE

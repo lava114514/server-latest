@@ -1,20 +1,9 @@
-onSpawnBlockStates: []
-onRemoveBlockStates: []
 isEnabled: true
 entityType: HUSK
-name: $reinforcementLevel &6尸魂归来
+name: $reinforcementLevel &6The Returned
 level: dynamic
 healthMultiplier: 0.5
 damageMultiplier: 0.5
 dropsEliteMobsLoot: false
-onDeathCommands: []
-onSpawnCommands: []
-onCombatEnterCommands: []
-onCombatLeaveCommands: []
-deathMessages: []
-uniqueLootList: []
-powers: []
-onDamageMessages: []
-onDamagedMessages: []
-trails: []
-phases: []
+onSpawnBlockStates: []
+onRemoveBlockStates: []

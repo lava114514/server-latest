@@ -1,20 +1,11 @@
-onSpawnBlockStates: []
-onRemoveBlockStates: []
 isEnabled: true
 entityType: SILVERFISH
-name: $eventBossLevel&4炎魔
+name: $eventBossLevel &4Balrog
 level: dynamic
-onDeathCommands: []
-onSpawnCommands: []
-onCombatEnterCommands: []
-onCombatLeaveCommands: []
-deathMessages: []
 uniqueLootList:
 - dwarven_greed.yml:1
 powers:
 - summonable:summonType=ON_HIT:chance=0.5:filename=raug.yml
-onDamageMessages: []
-onDamagedMessages: []
 trails:
 - SMOKE_LARGE
 - SMOKE_LARGE
@@ -22,4 +13,5 @@ trails:
 - SMOKE_LARGE
 - FLAME
 - FLAME
-phases: []
+onSpawnBlockStates: []
+onRemoveBlockStates: []

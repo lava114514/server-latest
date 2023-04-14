@@ -1,7 +1,7 @@
-baseDamageV2: 6.0
 isEnabled: true
 entityType: WITCH
-name: '&2$level级&f精英&5女巫'
+name: '&fLvl &2$level &fElite &5Witch'
 deathMessages:
-- $player成为了$entity的实验对象！
-- $player被$entity的魔法杀死了！
+- $player &cbecame $entity's &ctest subject!
+- $player &chas been bewitched by $entity&c!
+baseDamageV2: 6.0

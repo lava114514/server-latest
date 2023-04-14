@@ -1,6 +1,6 @@
-baseDamageV2: 18.0
 isEnabled: true
 entityType: RAVAGER
-name: '&2$level级&f精英&6劫掠兽'
+name: '&fLvl &2$level &fElite &6Ravager'
 deathMessages:
-- $entity&c向$player&c展示了什么才是真正的力量！
+- $entity &cshowed $player &cwho's in charge!
+baseDamageV2: 18.0

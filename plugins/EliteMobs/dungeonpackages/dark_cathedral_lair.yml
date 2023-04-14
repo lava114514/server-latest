@@ -1,34 +1,26 @@
-contentType: SCHEMATIC_DUNGEON
-environment: NORMAL
-defaultSchematicRotation: SOUTH
-teleportLocationOffset: 0,0,0,0,0
-dungeonConfigFolderName: the_dark_cathedral
-relativeTreasureChestLocations:
-- ''
 isEnabled: false
-name: '&8暗黑教堂'
-dungeonLocationType: SCHEMATIC
+name: '&2[lvl 040] &8The Dark Cathedral'
+dungeonLocationType: WORLD
 customInfo:
-- '&f第一个发布的地牢！'
-- '&f服务器必备经典'
-- '&6制作者：MagmaGuy & 69OzCanOfBepis'
+- '&fThe first ever EliteMobs Lair!'
+- '&fA classic that all servers need!'
+- '&6Credits: MagmaGuy & 69OzCanOfBepis'
 relativeBossLocations:
 - dark_cathedral_tier_75_boss.yml:0.5,0.5,24.5
-relativeTreasureLocations:
-- ''
+relativeTreasureChestLocations: []
 downloadLink: https://discord.gg/9f5QSka
 dungeonSizeCategory: LAIR
 schematicName: em_dark_cathedral.schem
+environment: NORMAL
 protect: true
-rotation: 0
-corner1: 17,-27,0
-corner2: -19,54,32
-teleportPoint: 0,0,0
-dungeonVersion: 3
+defaultSchematicRotation: SOUTH
 playerInfo: |-
-  难度：&c困难
-  $bossCount个$highestTier级Boss
-  &c最初的小地牢
-  &c是入门玩家梦开始的地方
-regionEnterMessage: '&8[EM] &8欢迎来到暗黑教堂。&4死亡在里面等待着你...'
-regionLeaveMessage: '&8[EM] &8你离开了暗黑教堂。&4它等待着你再次来临...'
+  Difficulty: &cHard
+  $bossCount level $highestTier Big Boss!
+  &cThe original minidungeon, a challenge for
+  &ca group of players or for veterans!
+regionEnterMessage: '&8[EM] &8Welcome to the Dark Cathedral. &4Death awaits inside...'
+regionLeaveMessage: '&8[EM] &8Now leaving the Dark Cathedral. &4It awaits your return...'
+teleportLocationOffset: 0,0,0,0,0
+contentType: SCHEMATIC_DUNGEON
+dungeonConfigFolderName: the_dark_cathedral

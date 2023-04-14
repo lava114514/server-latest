@@ -1,5 +1,4 @@
+isEnabled: true
 powerCooldown: 400
 globalCooldown: 140
 powerType: UNIQUE
-isEnabled: true
-name: 黄金霰弹枪

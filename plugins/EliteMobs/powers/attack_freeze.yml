@@ -1,13 +1,11 @@
-powerType: OFFENSIVE
 isEnabled: true
-name: 冰寒
 effect: PACKED_ICE
-freezeMessage: '&8[EM] &9你被冻结了！'
+powerType: OFFENSIVE
 eliteScript:
   FreezePlayer:
     Cooldowns:
-      local: 300
       global: 60
+      local: 300
     Events:
     - PlayerDamagedByEliteMobEvent
     Actions:

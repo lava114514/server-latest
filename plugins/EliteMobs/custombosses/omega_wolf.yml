@@ -1,20 +1,10 @@
-onSpawnBlockStates: []
-onRemoveBlockStates: []
 isEnabled: true
 entityType: WOLF
-name: $reinforcementLevel &7终焉之狼
+name: $reinforcementLevel &7Omega Wolf
 level: dynamic
-onDeathCommands: []
-onSpawnCommands: []
-onCombatEnterCommands: []
-onCombatLeaveCommands: []
-deathMessages: []
-uniqueLootList: []
 powers:
 - attack_poison.yml
 - moonwalk.yml
-onDamageMessages: []
-onDamagedMessages: []
-trails: []
-phases: []
 followDistance: 100
+onSpawnBlockStates: []
+onRemoveBlockStates: []

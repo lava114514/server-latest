@@ -18,6 +18,8 @@ turnInNPC: guide_1.yml
 questLevel: 1
 customObjectives:
   Objective1:
+    filename: guide_1.yml
+    npcName: Odigos
     location: at the Adventurer's Guild
     dialog:
     - '&8[&aCasus&8]&f Welcome to the Adventurer''s Guild Hub, the hub for all things
@@ -25,5 +27,3 @@ customObjectives:
     - You can always get back here using &2/ag&f!
     - Talk to me again for a quest!
     objectiveType: DIALOG
-    filename: guide_1.yml
-    npcName: Odigos

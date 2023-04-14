@@ -1,3 +1,5 @@
+# Sets if events will only broadcasted in the world the events happens in.
+Only broadcast event message in event worlds: false
 # Sets the minimum cooldown, in minutes, between action events
 actionEventMinimumCooldownMinutes: 240
 # Sets if action events will happen.
@@ -6,5 +8,3 @@ actionEventsEnabled: true
 # Sets if timed events will happen.
 # https://github.com/MagmaGuy/EliteMobs/wiki/Creating-Custom-Events#timed-events
 timedEventsEnabled: true
-# Sets if events will only broadcasted in the world the events happens in.
-Only broadcast event message in event worlds: false

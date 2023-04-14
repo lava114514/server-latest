@@ -1,4 +1,3 @@
-powerType: OFFENSIVE
 isEnabled: true
-name: 飞箭
 effect: DISPENSER
+powerType: OFFENSIVE

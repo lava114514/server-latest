@@ -2,9 +2,9 @@ isEnabled: true
 material: FEATHER
 name: '&bShulker Charm'
 lore:
-- '&a♪ I believe I can fly ♪'
-- '&a♪ I believe I can touch the sky ♪'
-- '&a和我一起上天吧！'
+- '&aI believe I can fly'
+- '&aI believe I can touch the sky'
+- '&aAnd you''re coming with me!'
 enchantments:
 - VANISHING_CURSE,1
 potionEffects:

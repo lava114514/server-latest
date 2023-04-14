@@ -20,12 +20,12 @@ contentType: INSTANCED_DUNGEON
 dungeonConfigFolderName: the_bone_monastery
 contentLevel: 85
 difficulties:
-- id: 0
+- levelSync: 95
+  id: 0
   name: normal
-  levelSync: 95
-- id: 1
+- levelSync: 85
+  id: 1
   name: hard
-  levelSync: 85
-- id: 2
+- levelSync: 75
+  id: 2
   name: mythic
-  levelSync: 75

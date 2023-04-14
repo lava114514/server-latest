@@ -19,10 +19,10 @@ regions:
             enderdragon-block-damage: deny, sleep: deny, vehicle-place: deny, block-break: deny,
             entity-painting-destroy: deny, elitemobs-events: deny, mushroom-growth: deny,
             ice-form: deny, wither-damage: deny, lighter: deny, enderman-grief: deny,
-            pvp: deny, mob-spawning: allow, block-place: deny, crop-growth: deny,
-            enderpearl: deny, soil-dry: deny, creeper-explosion: deny, vine-growth: deny,
-            item-frame-rotation: deny, damage-animals: allow, snow-melt: deny, tnt: deny,
-            lava-flow: deny, entity-item-frame-destroy: deny, elitemobs-dungeon: allow,
+            pvp: deny, block-place: deny, mob-spawning: allow, crop-growth: deny,
+            enderpearl: deny, creeper-explosion: deny, soil-dry: deny, vine-growth: deny,
+            item-frame-rotation: deny, damage-animals: allow, snow-melt: deny, lava-flow: deny,
+            tnt: deny, entity-item-frame-destroy: deny, elitemobs-dungeon: allow,
             ghast-fireball: deny, grass-growth: deny}
         owners:
             unique-ids: [198c4123-cafc-45df-ba79-02a421eb8ce7]

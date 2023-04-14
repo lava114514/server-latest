@@ -1,5 +1,4 @@
-maxLevelV2: 5
 isEnabled: true
-name: 力量
-maxLevel: 200
+name: Power
+maxLevelV2: 5
 value: 13.0

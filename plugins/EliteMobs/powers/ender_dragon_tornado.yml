@@ -1,5 +1,4 @@
-powerType: UNIQUE
 isEnabled: true
-name: 龙卷风
 powerCooldown: 60
 globalCooldown: 30
+powerType: UNIQUE

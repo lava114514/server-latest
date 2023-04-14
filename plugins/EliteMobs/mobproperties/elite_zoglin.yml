@@ -1,7 +1,7 @@
-baseDamageV2: 12.0
 isEnabled: true
 entityType: ZOGLIN
-name: '&2$level级&f精英&d僵尸疣猪兽'
+name: '&fLvl &2$level &fElite &dZoglin'
 deathMessages:
-- $player&c被$entity&c顶飞了！
-- $entity&c发现$player身上带着猪肉！
+- $player &cmessed with the $entity &cand got the horns!
+- $entity &cgot $player's &cbacon!
+baseDamageV2: 12.0

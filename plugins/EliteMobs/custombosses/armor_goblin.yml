@@ -1,25 +1,18 @@
-customModel: em_goblin_armor
-onSpawnBlockStates: []
-onRemoveBlockStates: []
 isEnabled: true
 entityType: ZOMBIE
-name: $eventBossLevel &3盔甲哥布林
+name: $eventBossLevel &3Armor Goblin
 level: dynamic
 isPersistent: true
 healthMultiplier: 4.0
-damageMultiplier: 4.0
+damageMultiplier: 2.0
 isBaby: true
-onDeathCommands: []
-onSpawnCommands: []
-onCombatEnterCommands: []
-onCombatLeaveCommands: []
 deathMessages:
 - '&e&l---------------------------------------------'
-- '&e盔甲哥布林被掠夺了！'
-- '&c&l    输出第一名: $damager1name&c造成了$damager1damage点伤害！'
-- '&6&l    输出第二名: $damager2name&6造成了$damager2damage点伤害！'
-- '&e&l    输出第三名: $damager3name&e造成了$damager3damage点伤害！'
-- '&a终结者：$players'
+- '&eThe Armor Goblin has been pillaged!'
+- '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+- '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+- '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+- '&aSlayers: $players'
 - '&e&l---------------------------------------------'
 uniqueLootList:
 - goblin_helmet.yml:0.2
@@ -30,15 +23,13 @@ powers:
 - gold_explosion.yml
 - gold_shotgun.yml
 - spirit_walk.yml
-onDamageMessages: []
-onDamagedMessages: []
 trails:
 - GOLD_NUGGET
-phases: []
-locationMessage: '&c盔甲哥布林: $distance格之外'
-spawnMessage: '&c盔甲哥布林出现了！'
-deathMessage: '&a盔甲哥布林被$players杀死了！'
-escapeMessage: '&4盔甲哥布林逃脱了！'
+locationMessage: '&cArmor Goblin: $distance blocks away!'
+spawnMessage: '&cAn Armor Goblin has been sighted!'
+deathMessage: '&aAn Armor Goblin has been slain by $players!'
+escapeMessage: '&4An Armor Goblin has escaped!'
+customModel: em_goblin_armor
 announcementPriority: 2
 followDistance: 100
 helmet: DIAMOND_HELMET
@@ -47,3 +38,5 @@ leggings: DIAMOND_LEGGINGS
 boots: DIAMOND_BOOTS
 mainHand: SHIELD
 offHand: SHIELD
+onSpawnBlockStates: []
+onRemoveBlockStates: []

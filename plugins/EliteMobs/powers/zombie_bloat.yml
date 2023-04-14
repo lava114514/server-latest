@@ -1,4 +1,3 @@
-powerType: MAJOR_ZOMBIE
 isEnabled: true
-name: 膨胀
 effect: TOTEM
+powerType: MAJOR_ZOMBIE

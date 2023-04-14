@@ -1,10 +1,10 @@
 isEnabled: true
 material: PAPER
-name: '&6唤商卷轴'
+name: '&6Summon Merchant Scroll'
 lore:
-- '&a你想出售物品吗?'
-- '&a右击激活吧'
-- '&a或者喊出&9Jeeves&a的名字！'
+- '&aNeed to sell an item?'
+- '&aRight-click to activate'
+- '&aor yell &9Jeeves!'
 enchantments:
 - SUMMON_MERCHANT,1
 potionEffects: []

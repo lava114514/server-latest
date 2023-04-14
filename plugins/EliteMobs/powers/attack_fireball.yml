@@ -1,4 +1,3 @@
-powerType: OFFENSIVE
 isEnabled: true
-name: 火球术
 effect: FIRE_CHARGE
+powerType: OFFENSIVE

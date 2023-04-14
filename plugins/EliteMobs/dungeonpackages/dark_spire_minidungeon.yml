@@ -1,32 +1,21 @@
-contentType: OPEN_DUNGEON
-teleportLocation: em_dark_spire,61,96,96,153,0
-dungeonConfigFolderName: the_dark_spire
-relativeTreasureChestLocations:
-- ''
 isEnabled: false
-name: '&8黑暗尖塔'
+name: '&2[lvl 100-120] &8The Dark Spire'
 dungeonLocationType: WORLD
 customInfo:
-- '&f等级最高的地牢！'
-- '&f为真正的挑战者准备！'
-- '&6制作者：69OzCanOfBepis'
-relativeBossLocations:
-- ''
-relativeTreasureLocations:
-- ''
+- '&fThe first ever high level content!'
+- '&fMade for those who want a real challenge!'
+- '&6Credits: 69OzCanOfBepis'
 downloadLink: https://discord.gg/9f5QSka
 dungeonSizeCategory: MINIDUNGEON
 worldName: em_dark_spire
 environment: NETHER
 protect: true
-rotation: 0
-teleportPoint: 0,0,0
-teleportPointPitch: 150.0
-teleportPointYaw: 0.0
-dungeonVersion: 1
 playerInfo: |-
-  难度：&c困难
-  $bossCount个boss，等级范围为$lowestTier - $highestTier
-  &c向高级玩家发起的巨大挑战！
-regionEnterMessage: '&8[EM] &1侵略正在进行中。&9请抵御入侵！'
-regionLeaveMessage: '&8[EM] &1你安全了，&9暂时的...'
+  Difficulty: &6Medium
+  $bossCount bosses, from level $lowestTier to $highestTier
+  &cA vast challenge for advanced players!
+regionEnterMessage: '&8[EM] &1An invasion is in progress. &9Stop the insurrection!'
+regionLeaveMessage: '&8[EM] &1You managed to hold them back. &9For now...'
+teleportLocation: em_dark_spire,61,96,96,153,0
+contentType: OPEN_DUNGEON
+dungeonConfigFolderName: the_dark_spire

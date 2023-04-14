@@ -1,12 +1,3 @@
-# Message that appears to remind players how to start an arena after joining as a player.
-instanceStartHintMessage: '&2[EliteMobs] &aYou can start the instance by doing &2/em
-  start'
-# Message that appears to remind players how to leave an arena.
-instanceQuitHintMessage: '&4[EliteMobs] &cYou can leave the instance by doing &4/em
-  quit'
-# Sets the message sent to players if they do not have permission to enter an arena.
-noArenaPermissionMessage: '[EliteMobs] You don''t have the permission to enter this
-  arena!'
 # Message that appears when not enough players are present to start an arena.
 notEnoughPlayersMessage: '&8[EliteMobs] &cYou need at least $amount to start the match!'
 # Title that appears when an arena is starting.
@@ -19,6 +10,12 @@ arenaFullMessage: '&4[EliteMobs] &cArena is full! You can spectate instead while
 # Message that appears when a player attempts to join an active arena.
 arenasOngoingMessage: '&4[EliteMobs] &cCan''t join the arena now - a match is currently
   happening! You can spectate instead while you wait for it to finish!'
+# Message that appears to remind players how to start an arena after joining as a player.
+instanceStartHintMessage: '&2[EliteMobs] &aYou can start the instance by doing &2/em
+  start'
+# Message that appears to remind players how to leave an arena.
+instanceQuitHintMessage: '&4[EliteMobs] &cYou can leave the instance by doing &4/em
+  quit'
 # Message that appears when players join an arena.
 arenaJoinPlayerMessage: "&2[EliteMobs] &aYou can start the arena by doing &2/em start\
   \ &aif there are at least &2$count &aplayers in it! \nYou can leave the arena by\
@@ -48,3 +45,6 @@ joinPlayerSubtitle: '&cLeave with &4/em quit &c!'
 joinSpectatorTitle: '&aNow spectating!'
 # Subtitle that appears when a spectator joins an arena.
 joinSpectatorSubtitle: '&cLeave with &4/em quit &c!'
+# Sets the message sent to players if they do not have permission to enter an arena.
+noArenaPermissionMessage: '[EliteMobs] You don''t have the permission to enter this
+  arena!'

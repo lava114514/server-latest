@@ -1,6 +1,6 @@
-baseDamageV2: 7.0
 isEnabled: true
 entityType: ENDER_DRAGON
-name: '&2$level级&f精英&3&5末影龙'
+name: '&fLvl &2$level &fElite &5Ender Dragon'
 deathMessages:
-- $entity&c终结了$player!
+- $entity &chas ended $player!
+baseDamageV2: 7.0

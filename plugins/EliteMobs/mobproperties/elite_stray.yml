@@ -1,6 +1,6 @@
-baseDamageV2: 5.0
 isEnabled: true
 entityType: STRAY
-name: '&2$level级&f精英&b流浪者'
+name: '&fLvl &2$level &fElite &bStray'
 deathMessages:
-- $player被$entity引入歧途！
+- $player &cwas led astray by $entity&c!
+baseDamageV2: 5.0

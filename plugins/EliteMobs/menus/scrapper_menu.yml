@@ -1,6 +1,18 @@
 isEnabled: true
-scrapChance: 0.75
-shopName: '[EM] 废品回收商'
+shopName: '[EM] Scrapper'
+infoButton:
+  material: PLAYER_HEAD
+  name: '&4&lEliteMobs &r&cby &4&lMagmaGuy'
+  lore:
+  - '&8Support the plugins you enjoy!'
+  - '&4Warning!'
+  - '&cItems scrapped here are lost!'
+  - '&cThere is a $chance% chance to get'
+  - '&cscrap when scrapping items!'
+  - '&aUse scrap at the smelter,'
+  - '&arepairman and refiner!'
+  owner: magmaguy
+  customModelID: 31173
 infoButtonSlot: 4
 scrapSlots:
 - 19
@@ -24,28 +36,19 @@ scrapSlots:
 - 41
 - 42
 - 43
-cancelButtonSlot: 27
-confirmScrapSlot: 35
-infoButton:
-  customModelID: 31173
-  material: PLAYER_HEAD
-  name: '&4&lEliteMobs &r&c插件作者：&4&lMagmaGuy'
-  lore:
-  - '&4警告！'
-  - '&c回收的物品无法找回！'
-  - '&c卖掉物品有50%'
-  - '&c的几率获得废品！'
-  owner: magmaguy
 cancelButton:
-  customModelID: 31173
   material: BARRIER
-  name: §4取消
+  name: §4Cancel
   lore:
-  - §c取消卖物品
+  - §cCancel scrap!
+  customModelID: 31173
+cancelButtonSlot: 27
 confirmButton:
-  customModelID: 31174
   material: EMERALD
-  name: §2确认废弃
+  name: §2Confirm Scrap
   lore:
-  - §a卖出物品
-  - §a有50%的几率获得废品
+  - §aScrap items!
+  - §a$chance% chance of success!
+  customModelID: 31174
+confirmScrapSlot: 35
+scrapChance: 0.75

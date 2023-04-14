@@ -1,25 +1,15 @@
-onSpawnBlockStates: []
-onRemoveBlockStates: []
 isEnabled: true
 entityType: HUSK
-name: $reinforcementLevel &6活死人
+name: $reinforcementLevel &6The Living Dead
 level: dynamic
-onDeathCommands: []
-onSpawnCommands: []
-onCombatEnterCommands: []
-onCombatLeaveCommands: []
-deathMessages: []
-uniqueLootList: []
 powers:
 - attack_fire.yml
 - corpse.yml
 - ground_pound.yml
-onDamageMessages: []
-onDamagedMessages: []
-trails: []
-phases: []
 followDistance: 100
 helmet: CHAINMAIL_HELMET
 chestplate: CHAINMAIL_CHESTPLATE
 leggings: CHAINMAIL_LEGGINGS
 boots: CHAINMAIL_BOOTS
+onSpawnBlockStates: []
+onRemoveBlockStates: []

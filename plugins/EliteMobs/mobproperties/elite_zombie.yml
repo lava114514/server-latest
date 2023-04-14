@@ -1,7 +1,7 @@
-baseDamageV2: 5.0
 isEnabled: true
 entityType: ZOMBIE
-name: '&2$level级&f精英&2僵尸'
+name: '&fLvl &2$level &fElite &2Zombie'
 deathMessages:
-- $player被$entity咬死了！
-- $entity吃掉了$player的脑子！
+- $player &cwas devoured by $entity&c!
+- $entity &cgot to $player's &cbrains!
+baseDamageV2: 5.0

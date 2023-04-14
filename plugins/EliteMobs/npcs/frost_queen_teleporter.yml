@@ -1,6 +1,6 @@
 isEnabled: true
 name: Ishard the Frostbitten
-role: <Frost Palace Teleport>
+role: <[50] Frost Palace Teleport>
 profession: ARMORER
 spawnLocation: em_adventurers_guild,294.5,91,215.5,0,0
 spawnLocations: []

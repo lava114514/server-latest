@@ -1,5 +1,4 @@
-maxLevelV2: 1
 isEnabled: false
-name: 经验修补
-maxLevel: 1
+name: Mending
+maxLevelV2: 1
 value: 13.0

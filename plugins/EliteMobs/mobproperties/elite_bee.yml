@@ -1,6 +1,6 @@
-baseDamageV2: 3.0
 isEnabled: true
 entityType: BEE
-name: '&2$level级&f精英&e蜜蜂'
+name: '&fLvl &2$level &fElite &eBee'
 deathMessages:
-- $player&c被$entity蛰死了！
+- $player &cwas stung by $entity!
+baseDamageV2: 3.0

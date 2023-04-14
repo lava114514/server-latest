@@ -1,30 +1,3 @@
-# Sets the prefix added to damage indicators when players hit a boss with something that boss is weak against.
-weakTextColor: '&9'
-# Sets the prefix added to damage indicators when players hit a boss with something that boss is strong against.
-resistTextColor: '&c'
-# Sets the message that appears when players hit the boss with something that boss is weak against.
-weakText: '&9&lWeak!'
-# Sets the message that appears when players hit the boss with something that boss is strong against.
-resistText: '&c&lResist!'
-# Sets if visuals will be used to show that a boss is weak against an attack.
-doWeakEffect: true
-# Sets if visuals will be used to show that a boss is strong against an attack.
-doResistEffect: true
-# Sets the baseline damage for custom bosses using the normalized damage (usually regional bosses).
-normalizedRegionalBossBaselineDamage: 5.0
-# Sets the baseline health for custom bosses using the normalized health (usually regional bosses).
-normalizedRegionalBossBaselineHealthV2: 7.0
-# Sets if regional bosses will used the normalized combat system.
-# This is very strongly recommended, and premade content will not be balanced properly if modified.
-normalizeRegionalBosses: true
-# Sets the message that appears when a boss heals from going out of combat.
-fullHealMessage: '&2FULL HEAL!'
-# Sets the multipliers applied to attacks bosses are strong and weak against.
-strengthAndWeaknessDamageMultipliers: 2.0
-# Sets the multiplier applied to damage reduction from the resistance potion effect for players.
-resistanceDamageMultiplier: 1.0
-# Sets the multiplier applied to damage reduction when a player is holding up a shield for melee attacks (powers excluded).
-blockingDamageReduction: 0.8
 # Sets if naturally spawned elites will spawn. Note: event mobs like the zombie king are not naturally spawned elites! You will have to disable events if you want to disable event bosses.
 doNaturalEliteMobSpawning: true
 # Sets if spawns spawned from mob spawners can be converted to elites. Not recommended!
@@ -71,15 +44,42 @@ damageToPlayerMultiplier: 1.0
 # Sets if special bosses can be tracked.
 showCustomBossLocation: true
 # Sets the message sent to players to track a boss location.
-bossLocationMessage: '&7[EM] &2[点击追踪]'
+bossLocationMessage: '&7[EM] &2[Click to track!]'
 # Sets the commands that run when an elite dies. Valid placeholders are:
 # $level for the level of the boss
 # $name for the name of the boss
 # $players will make the command run for each player that participated in the kill. As an example, if Bob and Steve killed a boss, 'broadcast $players killed the boss!' will run 'bob killed the boss' and 'steve killed the boss!'
 commandsOnEliteMobDeath: []
 # Sets teh message sent to players that participate in big boss kills.
-bossKillParticipationMessage: '&e你造成的伤害：&2$playerDamage'
+bossKillParticipationMessage: '&eYour damage: &2$playerDamage'
 # Sets if bosses regenerate health when they go out of combat. Strongly recommended.
 regenerateCustomBossHealthOnCombatEnd: true
 # Sets the message sent to players that are trying to track bosses currently in a different world.
-defaultOtherWorldBossLocationMessage: $name：在不同的世界！
+defaultOtherWorldBossLocationMessage: '$name: In different world!'
+# Sets the prefix added to damage indicators when players hit a boss with something that boss is weak against.
+weakTextColor: '&9'
+# Sets the prefix added to damage indicators when players hit a boss with something that boss is strong against.
+resistTextColor: '&c'
+# Sets the message that appears when players hit the boss with something that boss is weak against.
+weakText: '&9&lWeak!'
+# Sets the message that appears when players hit the boss with something that boss is strong against.
+resistText: '&c&lResist!'
+# Sets if visuals will be used to show that a boss is weak against an attack.
+doWeakEffect: true
+# Sets if visuals will be used to show that a boss is strong against an attack.
+doResistEffect: true
+# Sets the baseline damage for custom bosses using the normalized damage (usually regional bosses).
+normalizedRegionalBossBaselineDamage: 5.0
+# Sets the baseline health for custom bosses using the normalized health (usually regional bosses).
+normalizedRegionalBossBaselineHealthV2: 7.0
+# Sets if regional bosses will used the normalized combat system.
+# This is very strongly recommended, and premade content will not be balanced properly if modified.
+normalizeRegionalBosses: true
+# Sets the message that appears when a boss heals from going out of combat.
+fullHealMessage: '&2FULL HEAL!'
+# Sets the multipliers applied to attacks bosses are strong and weak against.
+strengthAndWeaknessDamageMultipliers: 2.0
+# Sets the multiplier applied to damage reduction from the resistance potion effect for players.
+resistanceDamageMultiplier: 1.0
+# Sets the multiplier applied to damage reduction when a player is holding up a shield for melee attacks (powers excluded).
+blockingDamageReduction: 0.8

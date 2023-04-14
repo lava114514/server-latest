@@ -1,4 +1,3 @@
-eventEndTime: 23000
 isEnabled: true
 eventType: TIMED
 bossFilenames:
@@ -9,5 +8,6 @@ breakableMaterials: []
 localCooldown: 240.0
 globalCooldown: 25.0
 weight: 50.0
-eventDuration: 60.0
+eventDuration: 10.0
+eventEndTime: 23000
 spawnType: full_moon_spawn.yml

@@ -1,5 +1,4 @@
-maxLevelV2: 4
 isEnabled: true
-name: 钻孔
-maxLevel: 4
+name: Drilling
+maxLevelV2: 4
 value: 15.0

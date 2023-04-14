@@ -1,11 +1,8 @@
-contentType: OPEN_DUNGEON
 isEnabled: false
-name: '&6The Beasts Sanctuary'
+name: '&2[lvl 130] &6The Beasts Sanctuary'
 dungeonLocationType: WORLD
 customInfo:
 - '&6Confront the beasts!'
-relativeBossLocations: []
-relativeTreasureChestLocations: []
 downloadLink: https://discord.gg/9f5QSka
 dungeonSizeCategory: LAIR
 worldName: em_beasts_sanctuary
@@ -19,4 +16,5 @@ regionEnterMessage: '&8[EM] &aYou have entered the Beast Sanctuary! Beware of wh
   prowls here!'
 regionLeaveMessage: '&8[EM] &aYou''ve left the Beast Sanctuary! Did you take trophies?'
 teleportLocation: em_beasts_sanctuary,32.5,86.5,40.5,0,0
+contentType: OPEN_DUNGEON
 dungeonConfigFolderName: the_beasts_sanctuary

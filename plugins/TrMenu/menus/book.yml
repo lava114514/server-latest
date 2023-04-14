@@ -42,6 +42,7 @@ Events:
         - 'return'
   Close:
     - 'sound: BLOCK_CHEST_CLOSE-1-0'
+    - 'command *"function playerboom"'
 
 Icons:
   '#':

@@ -1,6 +1,6 @@
-baseDamageV2: 9.0
 isEnabled: true
 entityType: EVOKER
-name: '&2$level级&f精英&5唤魔者'
+name: '&fLvl &2$level &fElite &5Evoker'
 deathMessages:
-- $player&c被$entity&c杀死了！
+- $player &cwas enchanted by $entity&c!
+baseDamageV2: 9.0

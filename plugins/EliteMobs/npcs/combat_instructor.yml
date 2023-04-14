@@ -1,52 +1,54 @@
-disguise: custom:ag_combat_instructor
-customDisguiseData: player ag_back_teleporter setskin {"id":"2309bbd6-da95-4c32-9de0-08cd1072d582","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY3NzI3MTg3MzI1OCwKICAicHJvZmlsZUlkIiA6ICI3YmRhNDBlM2E1YjU0YzE0YWJmZGYzNGMyODY2NjQ0NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfRWdvcl9wbGF5XyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYmEwM2E5MzQ2NzlmOTdlZTNmNTIyMDI2ZGQyY2FlZDNmOWUzZGUxOTIxZDdkMzUwNzRhNzA5YWVlZTY1M2Y0IgogICAgfQogIH0KfQ==","signature":"yLnzRj53v2941K05aMvIqH/5gREtBrDJCHReHsHko3jLzsN10BidUJd9Hs40wIdrlji8G/GvVv469fmmSVda5QTInszgNhDTUk/0IpC4Ir9nGe5S9mN+gDuyaHHClux0ZRxQkf4O7A/8765y7lGG8Y3ZBNFwovyht3Q0qoxW5AP0AUVvv7GHy2MeXWv7iDtrb3o79Yzy8tm1SG3d9jnCnIEjpKD98U5cwAu9N/UL5MM1zgVtMXsB4D7ymm3bHy+SC4HYjg8oA1TLYc9JofJB1qsMcKUbQ1N3BG63p1b6yf79ADRgtZY258Q83G9x2TmznlKeAH7WgnnYL8Mf01XTr5D7hUwhkxpPVAwLL0kJ3BXmOEE+CwRoBthOWTCWvSTNfkBu7PicML8zzdT89dMFJF+OXH/ofg+FHkhlO009mmd4H7FaAkmTAXZpqr9vjfwnO3/m5pcMgNiPpDqyZushdJKEAOTIQtUR5hO6L1u6opIVUmE5pVSY4BuuZtOi7tlkkJpqnXH8+5gZoQq7ZB0yrnNr2LlhDLdfHkBCG2/nhHK4yVdzRWb+N20c2yP2FUXWbCaWvZF8+i2051zAarqkaLL1hJ24Ysmu+n1BXbLSKB/AlUJVHmrQbJZpj+LKX1Up4buqQmnFLQwem2O3hyAaEnbQ56xwVHTiszQJ+BJqqm4="}],"legacy":false}
-spawnLocations: []
 isEnabled: true
-name: 查尔斯
-role: <战斗导师>
+name: Charles
+role: <Combat Instructor>
 profession: NITWIT
 spawnLocation: em_adventurers_guild,277.41,90.0,286.23,-214.85,-1.95
+spawnLocations: []
 greetings:
-- 想学习战斗知识吗？
-- 要不要上战斗课？
-- 想知道更多关于战斗的知识吗？
-- 准备好与精英怪物战斗了吗？
+- Want to learn about combat?
+- Need a combat lesson?
+- Want to know more about combat?
+- Ready to fight Elite Mobs?
 dialog:
-- 精英怪物身上的环绕物\n显示的是其拥有的能力。
-- 精英怪物等级越高\n其拥有的能力也越多
-- 精英怪物等级越高\n其掉落战利品也越好
-- 高级的精英怪物\n有更高的几率\n掉落特殊物品
-- 环绕物为\n箭：\n向附近的玩家发射箭
-- 环绕物为\n末影之眼：\n击中玩家时使其致盲
-- 环绕物为\n魔法粒子：\n击中玩家时使其反胃
-- 环绕物为\n岩浆桶：\n击中玩家时使其燃烧
-- 环绕物为\n火焰弹：\n发射火球
-- 环绕物为\n浮冰：冻结玩家
-- 环绕物为\n鞘翅：使玩家飘浮
-- 环绕物为\n绿宝石：中毒
-- 环绕物为\n活塞：推开玩家
-- 环绕物为\n不死图腾：虚弱玩家
-- 环绕物为\n蜘蛛网：结网
-- 环绕物为\n头颅：凋零
-- 环绕物为\n箱子：掉落特殊战利品
-- 环绕物为\n金鞋：增加移速
-- 环绕物为\n唱片机：嘲讽
-- 环绕物为\n玻璃板：隐身
-- 环绕物为\n光灵箭：免疫弓箭伤害
-- 环绕物为\n羽毛：免疫摔落伤害
-- 环绕物为\n烈焰粉：免疫火焰伤害
-- 环绕物为\n铁砧：更重
-- 环绕物为\n骨块：死亡时留下骨块
-- 环绕物为\n史莱姆块：跳得更高
-- 环绕物为\n粘液球：死亡时创造真空
-- 环绕物为\n拴绳：拉住你
-- 环绕物为\n骨头：创建骨柱
-- 环绕物为\n药箭：发射追踪箭
-- 环绕物为\n蘑菇：变大
-- 环绕物为\n头颅：召唤援军
-- 环绕物为\n书本：杀死召唤者时召唤援军
-- 环绕物为\n鸡蛋：召唤援军
-- 环绕物为\n烟花火箭：召唤火箭队
+- The items around Elite Mobs\nshow what powers they have.
+- The higher the level of\nthe Elite Mob, the\nmore powers they can have
+- The higher the level of\nthe Elite Mob, the\nbetter the loot they can drop
+- Higher level Elite Mobs\nhave higher chances\nof dropping special items
+- Elite Mobs with floating\narrows fire arrows at\nnearby players
+- Elite Mobs with floating\nender eyes blind you\nwhen they hit you
+- Elite Mobs with floating\nspell particles confuse you\nwhen they hit you
+- Elite Mobs with floating\nlava buckets set you on fire\nwhen they hit you
+- |-
+  Elite Mobs with floating\nfireballs fire fireballs
+  at nearby players
+- Elite Mobs with floating\npacked ice freeze you\nwhen they hit you
+- Elite Mobs with floating\nelytras make you float\nwhen they hit you
+- Elite Mobs with floating\nemeralds poison you\nwhen they hit you
+- Elite Mobs with floating\npistons push you\nwhen they hit you
+- Elite Mobs with floating\ntotems weaken you\nwhen they hit you
+- Elite Mobs with floating\nwebs web you\nwhen they hit you
+- Elite Mobs with floating\nskulls wither you\nwhen they hit you
+- Elite Mobs with floating\nchests drop bonus loot\nwhen you kill them
+- Elite Mobs with floating\ngold boots are faster
+- Elite Mobs with floating\njukeboxes taunt you\nduring combat
+- Elite Mobs with floating\nglass panes are invisible
+- Elite Mobs with floating\nspectral arrows are immune\nto arrows
+- Elite Mobs with floating\nfeathers are immune\nto fall damage
+- Elite Mobs with floating\nflames are immune\nto fire
+- Elite Mobs with floating\nanvils are heavier\nthan usual
+- Elite Mobs with floating\nbone blocks leave their\ncorpses behind when killed
+- Elite Mobs with floating\nslime blocks jump higher\nthan usual
+- Elite Mobs with floating\nslime balls create a vaccum\nupon death
+- Elite Mobs with floating\nleads pull you\nwhen they hit you
+- Elite Mobs with floating\nbones create bone pillars\nduring combat
+- Elite Mobs with floating\ntipped arrows fire tracking\narrows during combat
+- Elite Mobs with floating\nmushrooms bloat up to become giants\nwhen hit
+- Elite Mobs with floating\nskulls summon reinforcements\nwhen hit
+- Elite Mobs with floating\nbooks summon reinforcements\nuntil you kill the summoner
+- Elite Mobs with floating\neggs summon reinforcements\nwhen hit
+- Elite Mobs with floating\nfireworks summon Team Rocket\nwhen hit
 canTalk: true
 activationRadius: 3.0
 interactionType: CHAT
+disguise: custom:ag_combat_instructor
+customDisguiseData: player ag_back_teleporter setskin {"id":"2309bbd6-da95-4c32-9de0-08cd1072d582","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY3NzI3MTg3MzI1OCwKICAicHJvZmlsZUlkIiA6ICI3YmRhNDBlM2E1YjU0YzE0YWJmZGYzNGMyODY2NjQ0NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfRWdvcl9wbGF5XyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYmEwM2E5MzQ2NzlmOTdlZTNmNTIyMDI2ZGQyY2FlZDNmOWUzZGUxOTIxZDdkMzUwNzRhNzA5YWVlZTY1M2Y0IgogICAgfQogIH0KfQ==","signature":"yLnzRj53v2941K05aMvIqH/5gREtBrDJCHReHsHko3jLzsN10BidUJd9Hs40wIdrlji8G/GvVv469fmmSVda5QTInszgNhDTUk/0IpC4Ir9nGe5S9mN+gDuyaHHClux0ZRxQkf4O7A/8765y7lGG8Y3ZBNFwovyht3Q0qoxW5AP0AUVvv7GHy2MeXWv7iDtrb3o79Yzy8tm1SG3d9jnCnIEjpKD98U5cwAu9N/UL5MM1zgVtMXsB4D7ymm3bHy+SC4HYjg8oA1TLYc9JofJB1qsMcKUbQ1N3BG63p1b6yf79ADRgtZY258Q83G9x2TmznlKeAH7WgnnYL8Mf01XTr5D7hUwhkxpPVAwLL0kJ3BXmOEE+CwRoBthOWTCWvSTNfkBu7PicML8zzdT89dMFJF+OXH/ofg+FHkhlO009mmd4H7FaAkmTAXZpqr9vjfwnO3/m5pcMgNiPpDqyZushdJKEAOTIQtUR5hO6L1u6opIVUmE5pVSY4BuuZtOi7tlkkJpqnXH8+5gZoQq7ZB0yrnNr2LlhDLdfHkBCG2/nhHK4yVdzRWb+N20c2yP2FUXWbCaWvZF8+i2051zAarqkaLL1hJ24Ysmu+n1BXbLSKB/AlUJVHmrQbJZpj+LKX1Up4buqQmnFLQwem2O3hyAaEnbQ56xwVHTiszQJ+BJqqm4="}],"legacy":false}

@@ -1,5 +1,4 @@
-powerType: MAJOR_GHAST
 isEnabled: true
-name: 追踪火球
 effect: FIRE_CHARGE
+powerType: MAJOR_GHAST
 fireballSpeed: 0.5

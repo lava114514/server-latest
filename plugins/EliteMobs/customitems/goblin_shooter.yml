@@ -1,8 +1,8 @@
 isEnabled: true
 material: BOW
-name: '&8哥布林弓'
+name: '&8Goblin Shooter'
 lore:
-- '&8哥布林的财宝！'
+- '&8A treasure among goblins!'
 enchantments:
 - ARROW_DAMAGE,1
 - DURABILITY,1
@@ -10,4 +10,4 @@ enchantments:
 - ARROW_FIRE,1
 potionEffects:
 - SPEED,2,self,onHit
-itemType: unique
+itemType: UNIQUE

@@ -1,6 +1,6 @@
-baseDamageV2: 4.0
 isEnabled: true
 entityType: SHULKER
-name: '&2$level&f级精英&5潜影贝'
+name: '&fLvl &2$level &fElite &5Shulker'
 deathMessages:
-- $entity&cs把$player&c带到了新的高度！
+- $entity &cshowed $player &cnew heights!
+baseDamageV2: 4.0

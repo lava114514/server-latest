@@ -1,27 +1,22 @@
-contentType: OPEN_DUNGEON
-relativeBossLocations: []
-relativeTreasureChestLocations: []
-teleportLocation: em_north_pole,-265,42,-504,44,0
-dungeonConfigFolderName: the_north_pole
 isEnabled: false
-name: 北极
+name: '&2[lvl 055-060] &9The North Pole'
 dungeonLocationType: WORLD
 customInfo:
-- '&f圣诞节特供地牢！'
-- '&6制作者：MagmaGuy & 69OzCanOfBepis'
+- '&fThe Christmas minidungeon!'
+- '&6Credits: MagmaGuy & 69OzCanOfBepis'
 downloadLink: https://discord.gg/9f5QSka
 dungeonSizeCategory: MINIDUNGEON
 worldName: em_north_pole
 environment: NORMAL
 protect: true
-rotation: 0
-teleportPoint: 0,0,0
-teleportPointPitch: 0.0
-teleportPointYaw: 0.0
-dungeonVersion: 1
 playerInfo: |-
-  难度：&6普通
-  $bossCount个boss，等级范围为$lowestTier - $highestTier
-  &6在雪球里过圣诞节吧！
-regionEnterMessage: '&8[EM] &7你到了北极！&f今年你调皮了吗？'
-regionLeaveMessage: '&8[EM] &7下次再来参观吧，这里有很多糖果和点心！'
+  Difficulty: &6Medium
+  $bossCount bosses, from level $lowestTier to $highestTier
+  &6Christmas in a snow globe!
+regionEnterMessage: '&8[EM] &7You have reached the North Pole! &fHave you been naughty
+  this year?'
+regionLeaveMessage: '&8[EM] &7Come back and visit. &fThere are plenty of sweets and
+  treats for next time!'
+teleportLocation: em_north_pole,-265,42,-504,44,0
+contentType: OPEN_DUNGEON
+dungeonConfigFolderName: the_north_pole

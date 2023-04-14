@@ -1,5 +1,4 @@
-maxLevelV2: 3
 isEnabled: true
-name: 荆棘
-maxLevel: 100
+name: Thorns
+maxLevelV2: 3
 value: 6.0

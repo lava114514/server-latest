@@ -1,10 +1,10 @@
 isEnabled: true
 material: COOKIE
-name: '&b幸运护符'
+name: '&bLucky Charms'
 lore:
-- '&a这可是丰盛早餐的一部分！'
-- '&c注意：只吃这个'
-- '&c可不是一顿丰盛的早餐。'
+- '&aPart of a complete breakfast!'
+- '&cNote: Absolutely not a part of'
+- '&ca complete breakfast.'
 enchantments:
 - VANISHING_CURSE,1
 potionEffects:

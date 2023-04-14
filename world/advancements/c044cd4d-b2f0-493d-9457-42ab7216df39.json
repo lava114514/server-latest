@@ -1492,9 +1492,11 @@
       "baked_potato": "2023-04-01 12:21:18 +0800",
       "beef": "2023-04-01 19:51:01 +0800",
       "spider_eye": "2023-04-08 21:12:23 +0800",
+      "potato": "2023-04-14 22:05:29 +0800",
       "pufferfish": "2023-04-05 20:23:50 +0800",
       "bread": "2023-03-31 22:31:27 +0800",
       "rotten_flesh": "2023-03-26 12:21:44 +0800",
+      "salmon": "2023-04-14 21:38:16 +0800",
       "cod": "2023-04-02 12:17:31 +0800",
       "carrot": "2023-04-01 14:26:24 +0800"
     },
@@ -2004,6 +2006,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2023-04-14 22:02:46 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2023-03-26 12:26:19 +0800"
@@ -2349,6 +2357,12 @@
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2023-04-05 16:18:48 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2023-04-14 22:02:46 +0800"
     },
     "done": true
   },

@@ -1,10 +1,10 @@
 isEnabled: true
 material: ANVIL
-name: '&b巨象护符'
+name: '&bElephant Charm'
 lore:
-- '&a获得巨象之力'
-- '&a代价则是'
-- '&a巨象般迟钝的移速'
+- '&aGain the power of an elephant'
+- '&astampede, for the cost of the'
+- '&aspeed of an elephant stampede!'
 enchantments:
 - VANISHING_CURSE,1
 potionEffects:

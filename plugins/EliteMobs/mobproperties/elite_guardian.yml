@@ -1,6 +1,6 @@
-baseDamageV2: 9.0
 isEnabled: true
 entityType: GUARDIAN
-name: '&2$level级&f精英&3守卫者'
+name: '&fLvl &2$level &fElite &3Guardian'
 deathMessages:
-- $entity&c阻止了$player&c探索深海！
+- $entity &cprevented $player &cfrom exploring the depths!
+baseDamageV2: 9.0

@@ -1,21 +1,10 @@
-onSpawnBlockStates: []
-onRemoveBlockStates: []
 isEnabled: true
 entityType: SKELETON
-name: $reinforcementLevel &7唤灵骷髅
+name: $reinforcementLevel &7Summoned Skeleton
 level: dynamic
 healthMultiplier: 0.3
 damageMultiplier: 0.1
 dropsEliteMobsLoot: false
 dropsVanillaLoot: false
-onDeathCommands: []
-onSpawnCommands: []
-onCombatEnterCommands: []
-onCombatLeaveCommands: []
-deathMessages: []
-uniqueLootList: []
-powers: []
-onDamageMessages: []
-onDamagedMessages: []
-trails: []
-phases: []
+onSpawnBlockStates: []
+onRemoveBlockStates: []

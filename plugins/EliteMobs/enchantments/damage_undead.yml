@@ -1,5 +1,4 @@
-maxLevelV2: 4
 isEnabled: true
-name: 亡灵杀手
-maxLevel: 100
+name: Smite
+maxLevelV2: 4
 value: 6.0

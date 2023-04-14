@@ -1,4 +1,3 @@
-powerType: OFFENSIVE
 isEnabled: true
-name: 烟花之箭
 effect: FIREWORK_ROCKET
+powerType: OFFENSIVE

@@ -1,5 +1,12 @@
 isEnabled: true
-Shop name: '[EM] 购买或出售'
+Shop name: '[EM] Custom Shop'
+Reroll button:
+  material: PLAYER_HEAD
+  name: '&4&lEliteMobs &r&cby &4&lMagmaGuy'
+  lore:
+  - '&8Support the plugins you enjoy!'
+  owner: magmaguy
+  customModelID: 31173
 Reroll button slot: 4
 Store item slots:
 - 9
@@ -47,11 +54,5 @@ Store item slots:
 - 51
 - 52
 - 53
-Full inventory message: '[精英怪物] &4你的背包满了！你塞不下这么多东西了。'
-Reroll button:
-  customModelID: 31173
-  material: PLAYER_HEAD
-  name: '&4&lEliteMobs &r&c插件开发者：&4&lMagmaGuy'
-  lore:
-  - '&8译者：qsefthuopq'
-  owner: magmaguy
+Full inventory message: '[EliteMobs] &4Your inventory is full! You can''t buy items
+  until you get some free space.'

@@ -1,25 +1,13 @@
-onSpawnBlockStates: []
-onRemoveBlockStates: []
 isEnabled: true
 entityType: ZOMBIE
-name: $eventBossLevel 图腾僵尸
+name: $eventBossLevel Totem Zombie
 level: dynamic
 healthMultiplier: 1.5
 damageMultiplier: 1.5
-onDeathCommands: []
-onSpawnCommands: []
-onCombatEnterCommands: []
-onCombatLeaveCommands: []
-deathMessages: []
-uniqueLootList: []
 powers:
 - attack_push.yml
 - attack_poison.yml
 - bonus_loot.yml
-onDamageMessages: []
-onDamagedMessages: []
-trails: []
-phases: []
 mountedEntity: totem_zombie_5.yml
 followDistance: 100
 helmet: CHAINMAIL_HELMET
@@ -27,4 +15,6 @@ chestplate: CHAINMAIL_CHESTPLATE
 leggings: CHAINMAIL_LEGGINGS
 boots: CHAINMAIL_BOOTS
 mainHand: STONE_SWORD
+onSpawnBlockStates: []
+onRemoveBlockStates: []
 cullReinforcements: false

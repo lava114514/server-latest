@@ -1,5 +1,4 @@
-maxLevelV2: 3
 isEnabled: true
-name: 快速装填
-maxLevel: 3
+name: Quick Charge
+maxLevelV2: 3
 value: 6.0

@@ -1,5 +1,4 @@
-maxLevelV2: 4
 isEnabled: true
-name: 弹射物保护
-maxLevel: 100
+name: Projectile Protection
+maxLevelV2: 4
 value: 6.0

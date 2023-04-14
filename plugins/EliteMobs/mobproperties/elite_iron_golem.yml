@@ -1,7 +1,7 @@
-baseDamageV2: 15.0
 isEnabled: true
 entityType: IRON_GOLEM
-name: '&2$level级&f精英&f铁傀儡'
+name: '&fLvl &2$level &fElite &fIron Golem'
 deathMessages:
-- $player碰上了硬茬$entity！
-- $player被$entity一拳拍飞了！
+- $player &cmessed with the wrong $entity&c!
+- $player &chas been taught the way of fist by $entity&c!
+baseDamageV2: 15.0

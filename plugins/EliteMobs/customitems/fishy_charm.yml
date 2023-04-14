@@ -1,9 +1,9 @@
 isEnabled: true
 material: COD
-name: '&b疑鱼护符'
+name: '&bFishy Charm'
 lore:
-- '&a这个护符'
-- '&a总觉得有点不对劲……'
+- '&aThere''s just something not'
+- '&aquite right with this one...'
 enchantments:
 - VANISHING_CURSE,1
 potionEffects:

@@ -1,3 +1,25 @@
+# Sets if the EliteMobs economy is enabled. This means elite coins, the ability to buy and sell gear and the ability to upgrade guild ranks
+# If disabled, players will not be able to progress in the plugin!
+enableEconomy: true
+# Sets the resale item of items, as a % of the original price. 5 is 5%
+itemResaleValue: 5.0
+# Sets the in-game name of the currency used.
+currencyName: Elite Coins
+# Sets the plugin to use Vault. THIS IS NOT RECOMMENDED! Read why here: https://github.com/MagmaGuy/EliteMobs/wiki/%5BThird-party-support%5D-Vault
+useVault - not recommended: false
+# Sets if elites will drop coins based on their level.
+enableCurrencyShower: true
+# Sets the multiplier for the currency dropped by elites.
+currencyShowerTierMultiplier: 1.0
+# Sets the message sent when players pick up elite currency.
+chatCurrencyShowerMessage: '&7[EM] You''ve picked up &a$amount $currency_name!'
+# Sets the action bar message sent when players pick up elite currency.
+actionbarCurrencyShowerMessage: '&7[EM] You''ve picked up &a$amount $currency_name!'
+# Send the message players get after looting currency. Useful for tutorial purposes.
+adventurersGuildNotificationMessages: '&7[EM] Extra spending money? Try &a/ag !'
+# Sets the tax rate for transactions between players.
+# Strongly recommended for balance reasons, as high level players can gain up to 6x more currency and try to use other players to bypass prestige currency resets.
+playerToPlayerPaymentTaxes: 0.2
 # Message sent when sending elite currency to other players.
 Economy pay message v2: '&2You have paid &2$amount_sent $currency_name &2to $receiver&2,
   who got $amount_received after taxes!'
@@ -32,28 +54,6 @@ Shop sale instructions: '&cYou can only sell EliteMobs loot here! (Armor / weapo
   dropped from elites showing a value on their lore)'
 # Message sent upon selling a batch of elite items.
 shopBatchSellItem: '&aYou have sold your items &afor $currency_amount $currency_name!'
-# Sets if the EliteMobs economy is enabled. This means elite coins, the ability to buy and sell gear and the ability to upgrade guild ranks
-# If disabled, players will not be able to progress in the plugin!
-enableEconomy: true
-# Sets the resale item of items, as a % of the original price. 5 is 5%
-itemResaleValue: 5.0
-# Sets the in-game name of the currency used.
-currencyName: 精英币
-# Sets the plugin to use Vault. THIS IS NOT RECOMMENDED! Read why here: https://github.com/MagmaGuy/EliteMobs/wiki/%5BThird-party-support%5D-Vault
-useVault - not recommended: false
-# Sets if elites will drop coins based on their level.
-enableCurrencyShower: true
-# Sets the multiplier for the currency dropped by elites.
-currencyShowerTierMultiplier: 1.0
-# Sets the message sent when players pick up elite currency.
-chatCurrencyShowerMessage: '&7[EM] 你捡起了 &a$amount $currency_name！'
-# Sets the action bar message sent when players pick up elite currency.
-actionbarCurrencyShowerMessage: '&7[EM] 你捡起了 &a$amount $currency_name！'
-# Send the message players get after looting currency. Useful for tutorial purposes.
-adventurersGuildNotificationMessages: '&7[EM] 想要买买买? 输入&a/ag &7或&a/em吧'
-# Sets the tax rate for transactions between players.
-# Strongly recommended for balance reasons, as high level players can gain up to 6x more currency and try to use other players to bypass prestige currency resets.
-playerToPlayerPaymentTaxes: 0.2
 lootShowerMaterial:
   # Sets the material type of 1 dropped elite coin.
   '1': GOLD_NUGGET
@@ -172,7 +172,7 @@ materialWorth:
   # Sets the worth of this material for the elitemobs currency system.
   WOODEN_PICKAXE: 13.0
   # Sets the worth of this material for the elitemobs currency system.
-  TRIDENT: 19.0
+  TRIDENT: 17.0
   # Sets the worth of this material for the elitemobs currency system.
   ELYTRA: 17.0
   # Sets the worth of this material for the elitemobs currency system.

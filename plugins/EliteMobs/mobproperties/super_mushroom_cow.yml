@@ -1,4 +1,4 @@
-baseDamageV2: 0.0
 isEnabled: true
 entityType: MUSHROOM_COW
-name: '&2超级融合哞菇'
+name: '&2Super Mooshroom Cow'
+baseDamageV2: 0.0

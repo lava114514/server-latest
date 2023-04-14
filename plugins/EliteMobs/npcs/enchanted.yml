@@ -3,8 +3,7 @@ name: Eden
 role: <Enchanter>
 profession: TOOLSMITH
 spawnLocation: em_adventurers_guild,278.5,77,243.5,0,0
-spawnLocations:
-- world,5.9,63.0,16.52,-151.06,44.25
+spawnLocations: []
 greetings:
 - Need something enchanted?
 - Feeling lucky?

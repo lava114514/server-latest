@@ -1,7 +1,6 @@
-powerType: MISCELLANEOUS
 isEnabled: true
-name: 虚弱
 effect: TOTEM_OF_UNDYING
+powerType: MISCELLANEOUS
 eliteScript:
   WeakenPlayer:
     Events:

@@ -1,5 +1,4 @@
-maxLevelV2: 3
 isEnabled: true
-name: 水下呼吸
-maxLevel: 3
+name: Respiration
+maxLevelV2: 3
 value: 6.0

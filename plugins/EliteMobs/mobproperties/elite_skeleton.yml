@@ -1,7 +1,7 @@
-baseDamageV2: 5.0
 isEnabled: true
 entityType: SKELETON
-name: '&2$level级&f精英&f骷髅'
+name: '&fLvl &2$level &fElite &fSkeleton'
 deathMessages:
-- $entity使$player如坐针毡
-- $entity&c想看看$player的&c骨头！
+- $player &cbecame $entity's &cpin cushion!
+- $entity &cwanted to see $player's &cbones!
+baseDamageV2: 5.0

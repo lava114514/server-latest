@@ -1,7 +1,7 @@
-baseDamageV2: 6.0
 isEnabled: true
 entityType: WOLF
-name: '&2$level级&f精英&b狼'
+name: '[$level] Elite Wolf'
 deathMessages:
-- $entity撕碎了$player！
-- $player被$entity撕成了碎片！
+- $entity tore $player apart!
+- $player was torn to shreds by $entity!
+baseDamageV2: 6.0

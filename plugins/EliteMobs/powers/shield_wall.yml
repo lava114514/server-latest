@@ -1,6 +1,5 @@
-powerType: DEFENSIVE
 isEnabled: true
-name: Shield Wall
 effect: SHIELD
 powerCooldown: 60
 globalCooldown: 7
+powerType: DEFENSIVE

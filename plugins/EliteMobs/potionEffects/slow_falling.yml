@@ -1,4 +1,4 @@
 isEnabled: true
-name: 缓降
+name: Slow Falling
 onHitDuration: 30
 value: 50.0

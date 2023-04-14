@@ -1,7 +1,7 @@
-baseDamageV2: 12.0
 isEnabled: true
 entityType: ZOMBIFIED_PIGLIN
-name: '&2$level级&f精英&6僵尸猪灵'
+name: '&fLvl &2$level &fElite &6Zombified Piglin'
 deathMessages:
-- $player&c被$entity&c杀死了！
-- $entity&c把$player烤成了肉！
+- $player &cwas mobbed to death by $entity&c!
+- $entity &cgot $player's &cbacon!
+baseDamageV2: 12.0

@@ -1,5 +1,4 @@
-powerType: UNIQUE
 isEnabled: true
-name: 末影螨轰炸
 powerCooldown: 120
 globalCooldown: 30
+powerType: UNIQUE

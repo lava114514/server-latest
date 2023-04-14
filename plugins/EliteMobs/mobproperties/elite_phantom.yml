@@ -1,8 +1,8 @@
-baseDamageV2: 9.0
 isEnabled: true
 entityType: PHANTOM
-name: '&2$level级&f精英&9幻翼'
+name: '&fLvl &2$level &fElite &9Phantom'
 deathMessages:
-- $player做了关于$entity的噩梦！
-- $player被$entity吓死了！
-- $entity告诉了$player睡觉的重要性！
+- $player &cjust had a bad nightmare about $entity&c!
+- $player &cwill be having nightmares about $entity&c!
+- $entity &chas taught $player &cthe value of sleep!
+baseDamageV2: 9.0

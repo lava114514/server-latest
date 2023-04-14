@@ -1,22 +1,14 @@
-onSpawnBlockStates: []
-onRemoveBlockStates: []
 isEnabled: true
 entityType: VEX
-name: $eventBossLevel &c烈焰恼鬼
+name: $eventBossLevel &cFire Fae
 level: dynamic
 healthMultiplier: 0.3
 damageMultiplier: 0.3
-onDeathCommands: []
-onSpawnCommands: []
-onCombatEnterCommands: []
-onCombatLeaveCommands: []
-deathMessages: []
 uniqueLootList:
 - the_feller.yml:0.3
 powers:
 - attack_fire.yml
-onDamageMessages: []
-onDamagedMessages: []
 trails:
 - FLAME
-phases: []
+onSpawnBlockStates: []
+onRemoveBlockStates: []

@@ -1,5 +1,4 @@
-maxLevelV2: 4
 isEnabled: true
-name: 爆炸保护
-maxLevel: 100
+name: Blast Protection
+maxLevelV2: 4
 value: 6.0

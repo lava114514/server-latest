@@ -20,6 +20,6 @@ contentType: INSTANCED_DUNGEON
 dungeonConfigFolderName: em_id_enchantment_challenge_11
 contentLevel: 1
 difficulties:
-- name: normal
-  id: 0
+- id: 0
+  name: normal
 enchantmentChallenge: true

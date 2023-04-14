@@ -1,7 +1,6 @@
-powerType: MISCELLANEOUS
 isEnabled: true
-name: 隐身
 effect: GLASS_PANE
+powerType: MISCELLANEOUS
 eliteScript:
   BossInvisibility:
     Events:

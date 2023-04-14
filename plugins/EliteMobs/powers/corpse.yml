@@ -1,7 +1,6 @@
-powerType: MISCELLANEOUS
 isEnabled: true
-name: 遗尸
 effect: BONE_BLOCK
+powerType: MISCELLANEOUS
 eliteScript:
   SpawnBoneBlock:
     Events:

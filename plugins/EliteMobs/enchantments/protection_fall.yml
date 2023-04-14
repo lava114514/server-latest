@@ -1,5 +1,4 @@
-maxLevelV2: 4
 isEnabled: true
-name: 摔落保护
-maxLevel: 4
+name: Feather Falling
+maxLevelV2: 4
 value: 6.0

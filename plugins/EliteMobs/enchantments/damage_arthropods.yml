@@ -1,5 +1,4 @@
-maxLevelV2: 4
 isEnabled: true
-name: 节肢杀手
-maxLevel: 100
+name: Bane of Arthropods
+maxLevelV2: 4
 value: 6.0

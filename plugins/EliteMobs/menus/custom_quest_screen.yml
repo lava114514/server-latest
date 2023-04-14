@@ -1,4 +1,3 @@
-arenaQuestDefaultSummaryLine: '&c➤Complete $arenaName'
 isEnabled: true
 headerTextLines2: |
   §a§l『§c§l$questName§a§l』
@@ -24,6 +23,7 @@ objectivesLine: '&c&lObjectives:'
 killQuestDefaultSummaryLine: '&c➤Kill $name:$color$current&0/$color$target'
 fetchQuestDefaultSummaryLine: '&c➤Get $name:$color&$current&0/$color$target'
 dialogQuestDefaultSummaryLine: '&c➤Go talk to $name $location'
+arenaQuestDefaultSummaryLine: '&c➤Complete $arenaName'
 rewardsLine: '&2&lRewards:'
 rewardsDefaultSummaryLine: '&2➤$amountx $rewardName &8($chance%)'
 ongoingQuestColorCode: '&2'

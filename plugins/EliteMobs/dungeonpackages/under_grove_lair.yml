@@ -1,11 +1,8 @@
-contentType: OPEN_DUNGEON
 isEnabled: false
-name: '&6The Under Grove'
+name: '&2[lvl 170] &6The Under Grove'
 dungeonLocationType: WORLD
 customInfo:
 - '&6Stop the dryad''s ritual!'
-relativeBossLocations: []
-relativeTreasureChestLocations: []
 downloadLink: https://discord.gg/9f5QSka
 dungeonSizeCategory: LAIR
 worldName: em_under_grove
@@ -18,4 +15,5 @@ playerInfo: |-
 regionEnterMessage: '&8[EM] &aYou are now trespassing the sacred grove!'
 regionLeaveMessage: '&8[EM] &aYou have left the sacred grove!'
 teleportLocation: em_under_grove,-2.5,-40.5,35,90,0
+contentType: OPEN_DUNGEON
 dungeonConfigFolderName: the_under_grove

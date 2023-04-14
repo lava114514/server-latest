@@ -1,24 +1,18 @@
-onSpawnBlockStates: []
-onRemoveBlockStates: []
 isEnabled: true
 entityType: ZOMBIE
-name: $eventBossLevel &2护符哥布林
+name: $eventBossLevel &2Charms Goblin
 level: dynamic
 isPersistent: true
 healthMultiplier: 4.0
-damageMultiplier: 4.0
+damageMultiplier: 2.0
 isBaby: true
-onDeathCommands: []
-onSpawnCommands: []
-onCombatEnterCommands: []
-onCombatLeaveCommands: []
 deathMessages:
 - '&e&l---------------------------------------------'
-- '&e护符哥布林被掠夺了！'
-- '&c&l    输出第一名: $damager1name&c造成了$damager1damage点伤害！'
-- '&6&l    输出第二名: $damager2name&6造成了$damager2damage点伤害！'
-- '&e&l    输出第三名: $damager3name&e造成了$damager3damage点伤害！'
-- '&a终结者：$players'
+- '&eThe Charms Goblin has been pillaged!'
+- '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+- '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+- '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+- '&aSlayers: $players'
 - '&e&l---------------------------------------------'
 uniqueLootList:
 - berserker_charm.yml:0.2
@@ -39,18 +33,17 @@ powers:
 - gold_explosion.yml
 - gold_shotgun.yml
 - spirit_walk.yml
-onDamageMessages: []
-onDamagedMessages: []
 trails:
 - GOLD_NUGGET
-phases: []
-locationMessage: '&c护符哥布林：$distance格之外'
-spawnMessage: '&c护符哥布林出现了！'
-deathMessage: '&a护符哥布林被$players杀死了！'
-escapeMessage: '&4护符哥布林逃脱了！'
+locationMessage: '&cCharms Goblin: $distance blocks away!'
+spawnMessage: '&cA Charms Goblin has been sighted!'
+deathMessage: '&aA Charms Goblin has been slain by $players!'
+escapeMessage: '&4A Charms Goblin has escaped!'
 announcementPriority: 2
 followDistance: 100
 helmet: IRON_HELMET
 chestplate: IRON_CHESTPLATE
 leggings: IRON_LEGGINGS
 boots: IRON_BOOTS
+onSpawnBlockStates: []
+onRemoveBlockStates: []

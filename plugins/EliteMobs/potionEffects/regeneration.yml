@@ -1,4 +1,4 @@
 isEnabled: true
-name: 生命恢复
+name: Regeneration
 onHitDuration: 20
 value: 100.0

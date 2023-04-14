@@ -1,7 +1,7 @@
-baseDamageV2: 8.0
 isEnabled: true
 entityType: HOGLIN
-name: '&2$level级&f精英&d疣猪兽'
+name: '&fLvl &2$level &fElite &dHoglin'
 deathMessages:
-- $player&c被$entity&c顶飞了！
-- $entity&c发现$player身上带着猪肉！
+- $player &cmessed with the $entity &cand got the horns!
+- $entity &cgot $player's &cbacon!
+baseDamageV2: 8.0

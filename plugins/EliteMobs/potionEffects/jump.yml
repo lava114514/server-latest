@@ -1,4 +1,4 @@
 isEnabled: true
-name: 跳跃提升
+name: Jump Boost
 onHitDuration: 10
 value: 50.0

@@ -1,5 +1,4 @@
-maxLevelV2: 2
 isEnabled: true
-name: 冰霜行者
-maxLevel: 2
+name: Frost Walker
+maxLevelV2: 2
 value: 6.0

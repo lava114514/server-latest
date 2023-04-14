@@ -30,7 +30,7 @@ questCompleteCommands: []
 questLevel: 10
 customObjectives:
   Objective1:
+    filename: xmas_lost_present.yml
     amount: 10
     objectiveType: FETCH_ITEM
     itemName: Lost Present
-    filename: xmas_lost_present.yml

@@ -1,10 +1,10 @@
 isEnabled: true
 material: POISONOUS_POTATO
-name: '&b毒蝎护符'
+name: '&bScorpion Charm'
 lore:
-- '&a飞若浮蝶'
-- '&a痛如蜂刺'
-- '&a毒如土豆'
+- '&aFloat like a butterfly,'
+- '&asting like a bee,'
+- '&apoison like a potato!'
 enchantments:
 - VANISHING_CURSE,1
 potionEffects:

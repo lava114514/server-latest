@@ -1,5 +1,4 @@
-maxLevelV2: 1
 isEnabled: true
-name: 火矢
-maxLevel: 1
+name: Flame
+maxLevelV2: 1
 value: 6.0

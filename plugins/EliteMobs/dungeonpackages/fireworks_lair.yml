@@ -1,31 +1,20 @@
-contentType: OPEN_DUNGEON
-teleportLocation: em_fireworks,3,62,-20,17,-5
-dungeonConfigFolderName: the_fireworks
-relativeTreasureChestLocations:
-- ''
 isEnabled: false
-name: '&a烟火盛宴'
+name: '&2[lvl 020] &aThe Fireworks'
 dungeonLocationType: WORLD
 customInfo:
-- '&f2021年7月4日更新的新地图！'
-- '&6制作者：MagmaGuy'
-relativeBossLocations:
-- ''
-relativeTreasureLocations:
-- ''
+- '&fThe 2021 4th of July map!'
+- '&6Credits: MagmaGuy'
 downloadLink: https://discord.gg/9f5QSka
 dungeonSizeCategory: LAIR
 worldName: em_fireworks
 environment: NORMAL
 protect: true
-rotation: 0
-teleportPoint: 0,0,0
-teleportPointPitch: -130.0
-teleportPointYaw: 0.0
-dungeonVersion: 2
 playerInfo: |-
-  难度：&6Medium
-  $bossCount个$lowestTier级大Boss待你挑战！
+  Difficulty: &cHard
+  $bossCount level $lowestTier Big Boss!
   &6An encounter full of explosions!
-regionEnterMessage: '&8[EM] &e欢迎来到烟火盛宴！'
-regionLeaveMessage: '&8[EM] &e你离开了派对！'
+regionEnterMessage: '&8[EM] &eWelcome to the fireworks show!'
+regionLeaveMessage: '&8[EM] &eYou''ve left the party!'
+teleportLocation: em_fireworks,3,62,-20,17,-5
+contentType: OPEN_DUNGEON
+dungeonConfigFolderName: the_fireworks

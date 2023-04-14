@@ -1,6 +1,6 @@
-baseDamageV2: 3.0
 isEnabled: true
 entityType: ENDERMITE
-name: '&2$level级&f精英&7末影螨'
+name: '&fLvl &2$level &fElite &7Endermite'
 deathMessages:
-- $entity&c之于$player&c就像是大卫之于歌利亚！
+- $entity &cis to $player &cwhat David is to Goliath!
+baseDamageV2: 3.0

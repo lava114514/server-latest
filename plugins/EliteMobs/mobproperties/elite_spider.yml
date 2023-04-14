@@ -1,7 +1,7 @@
-baseDamageV2: 3.0
 isEnabled: true
 entityType: SPIDER
-name: '&2$level级&f精英&7蜘蛛'
+name: '&fLvl &2$level &fElite &7Spider'
 deathMessages:
-- $player被$entity困在了蜘蛛网中无法动弹！
-- $entity吞下了$player！
+- $player &cbecame entangled in $entity's &cweb!
+- $entity &chas devoured $player&c!
+baseDamageV2: 3.0

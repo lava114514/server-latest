@@ -1,7 +1,6 @@
-powerType: MISCELLANEOUS
 isEnabled: true
-name: 月步
 effect: SLIME_BLOCK
+powerType: MISCELLANEOUS
 eliteScript:
   JumpBoost:
     Events:

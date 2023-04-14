@@ -1,5 +1,4 @@
-maxLevelV2: 3
 isEnabled: true
-name: 深海探索者
-maxLevel: 3
+name: Depth Strider
+maxLevelV2: 3
 value: 6.0

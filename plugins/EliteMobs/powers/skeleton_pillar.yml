@@ -1,4 +1,3 @@
-powerType: MAJOR_SKELETON
 isEnabled: true
-name: 骨柱
 effect: BONE
+powerType: MAJOR_SKELETON

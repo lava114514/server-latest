@@ -1,6 +1,6 @@
-baseDamageV2: 5.0
 isEnabled: true
 entityType: ILLUSIONER
-name: '&2$level级&f精英&8幻术师'
+name: '&fLvl &2$level &fElite &8Illusioner'
 deathMessages:
-- $player&c被$entity的幻象&c迷惑了！
+- $player&c fell for $entity's &cillusions!
+baseDamageV2: 5.0

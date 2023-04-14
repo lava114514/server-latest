@@ -1,10 +1,10 @@
 isEnabled: true
 material: LEATHER
-name: '&b变色龙护符'
+name: '&bChameleon Charm'
 lore:
-- '&a这个多彩的护符可以'
-- '&a与任何环境相适应,'
-- '&a缓缓地爬行着...'
+- '&aThe colorful Chameleon can'
+- '&ablend in just about anywhere,'
+- '&aslowly creeping around...'
 enchantments:
 - VANISHING_CURSE,1
 potionEffects:

@@ -1,28 +1,21 @@
-onSpawnBlockStates: []
-onRemoveBlockStates: []
 isEnabled: true
 entityType: WOLF
-name: '&6{&4☠&6} &f史努比'
+name: '&6{&4☠&6} &fSnoopy'
 level: dynamic
 healthMultiplier: 10.0
-damageMultiplier: 5.0
+damageMultiplier: 2.0
 dropsEliteMobsLoot: false
 dropsVanillaLoot: false
-onDeathCommands: []
-onSpawnCommands: []
-onCombatEnterCommands: []
-onCombatLeaveCommands: []
-deathMessages: []
-uniqueLootList: []
 powers:
 - invulnerability_fire.yml
 onDamageMessages:
-- 汪！
+- Woof!
 onDamagedMessages:
-- 汪！
+- Woof!
 trails:
 - BONE
-phases: []
-spawnMessage: '&a非常罕见的史努比出现了！'
+spawnMessage: '&aAn extremely rare Snoopy has been sighted!'
 announcementPriority: 3
 timeout: 3
+onSpawnBlockStates: []
+onRemoveBlockStates: []

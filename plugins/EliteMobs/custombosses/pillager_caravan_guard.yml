@@ -1,22 +1,12 @@
-onSpawnBlockStates: []
-onRemoveBlockStates: []
 isEnabled: true
 entityType: PILLAGER
-name: $reinforcementLevel &c巡逻队守卫
+name: $reinforcementLevel &cCaravan Guard
 level: dynamic
 dropsEliteMobsLoot: false
 dropsVanillaLoot: false
-onDeathCommands: []
-onSpawnCommands: []
-onCombatEnterCommands: []
-onCombatLeaveCommands: []
-deathMessages: []
-uniqueLootList: []
 powers:
 - attack_poison.yml
-onDamageMessages: []
-onDamagedMessages: []
-trails: []
-phases: []
 mountedEntity: pillager_caravan_beast.yml
 followDistance: 100
+onSpawnBlockStates: []
+onRemoveBlockStates: []

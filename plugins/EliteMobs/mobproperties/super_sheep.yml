@@ -1,4 +1,4 @@
-baseDamageV2: 0.0
 isEnabled: true
 entityType: SHEEP
-name: 超级融合羊
+name: Super Sheep
+baseDamageV2: 0.0

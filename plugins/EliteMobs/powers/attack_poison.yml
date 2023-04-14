@@ -1,7 +1,6 @@
-powerType: OFFENSIVE
 isEnabled: true
-name: 赐毒
 effect: EMERALD
+powerType: OFFENSIVE
 eliteScript:
   PoisonPlayer:
     Events:

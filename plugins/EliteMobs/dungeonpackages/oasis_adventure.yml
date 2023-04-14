@@ -1,29 +1,21 @@
-contentType: OPEN_DUNGEON
-relativeBossLocations: []
-relativeTreasureChestLocations: []
-teleportLocation: em_oasis,261,20,284,-65,0
-dungeonConfigFolderName: oasis
 isEnabled: false
-name: '&6绿洲'
+name: '&2[lvl 020-055] &6The Oasis'
 dungeonLocationType: WORLD
 customInfo:
-- '&f初学者的大型冒险！'
-- '&6制作者：69OzCanOfBepis'
+- '&fA massive adventure for beginners!'
+- '&6Credits: 69OzCanOfBepis'
 downloadLink: https://discord.gg/9f5QSka
 dungeonSizeCategory: ADVENTURE
 worldName: em_oasis
 environment: NORMAL
 protect: true
-rotation: 0
-corner1: 0,0,0
-corner2: 0,0,0
-teleportPoint: 0,0,0
-teleportPointPitch: 0.0
-teleportPointYaw: 0.0
 dungeonVersion: 2
 playerInfo: |-
-  难度：&6普通
-  $bossCount个boss，等级范围为$lowestTier - $highestTier
-  &6初学者的大型冒险！
-regionEnterMessage: '&8[EM] &6你抵达了绿洲！'
-regionLeaveMessage: '&8[EM] &6你离开了绿洲！'
+  Difficulty: &2Solo-able
+  $bossCount bosses, from level $lowestTier to $highestTier
+  &6A big adventure for people who know the ropes!
+regionEnterMessage: '&8[EM] &6You have arrived at the Oasis!'
+regionLeaveMessage: '&8[EM] &6You have left the Oasis!'
+teleportLocation: em_oasis,261,20,284,-65,0
+contentType: OPEN_DUNGEON
+dungeonConfigFolderName: oasis

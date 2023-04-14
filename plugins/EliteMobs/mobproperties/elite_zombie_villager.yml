@@ -1,7 +1,0 @@
-baseDamageV2: 5.0
-isEnabled: true
-entityType: ZOMBIE_VILLAGER
-name: '&2$level级&f精英&2僵尸村民'
-deathMessages:
-- $player被$entity咬死了！
-- $entity吃掉了$player的脑子！

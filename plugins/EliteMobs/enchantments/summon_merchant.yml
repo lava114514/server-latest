@@ -1,6 +1,5 @@
-maxLevelV2: 1
 isEnabled: true
-name: 唤商
-maxLevel: 1
+name: Summon Merchant
+maxLevelV2: 1
 value: 10.0
 message: Jeeves!

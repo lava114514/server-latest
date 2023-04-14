@@ -1,5 +1,4 @@
-maxLevelV2: 3
 isEnabled: true
-name: 忠诚
-maxLevel: 3
+name: Loyalty
+maxLevelV2: 3
 value: 6.0

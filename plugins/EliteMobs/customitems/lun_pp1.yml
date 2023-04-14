@@ -1,8 +1,0 @@
-isEnabled: true
-material: NETHERITE_CHESTPLATE
-name: '&8绝望的理智胸甲'
-lore:
-- '&a绝望的理智'
-enchantments:
-- MENDING,1
-itemType: unique

@@ -1,6 +1,6 @@
-baseDamageV2: 13.0
 isEnabled: true
 entityType: VEX
-name: '&2$level级&f精英&b恼鬼'
+name: '&fLvl &2$level &fElite &bVex'
 deathMessages:
-- $player惹恼了$entity！
+- $entity &chas vexed $player&c!
+baseDamageV2: 13.0

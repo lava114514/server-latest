@@ -1,5 +1,16 @@
 config:
   noArenaPermissionMessage: '[精英怪物] 你没有进入该竞技场的权限！'
+  noPendingCommands: '&cYou don''t currently have any pending commands!'
+  trackMessage: Track the $name
+  chestLowRankMessage: '&7[EM] &cYour guild rank needs to be at least $rank &cin order
+    to open this chest!'
+  chestCooldownMessage: '&7[EM] &cYou''ve already opened this chest recently! Wait
+    $time!'
+  dismissEMMessage: '&8[EliteMobs] &2/elitemobs &fmenu not working for you? Try &2/elitemobs
+    alt &fto see an alternative version of the menu! &cDon''t want to see this message
+    again? &4/em dismiss'
+  switchEMStyleMessage: '&8[EliteMobs] &2/elitemobs &fmenu style changed! Check it
+    out!'
 ItemSettings:
   itemLoreStructureV2:
   - '&7§m§l---------§7<§l装备详情§7>§m§l---------'
@@ -13142,31 +13153,6 @@ xmas_quest_0:
   - '&8[&c圣尼克&8]&f 谢谢你！我会在这里等你！'
   questCompleteMessage:
   - '&8[&c圣尼克&8]&f 感谢你的帮助！还有一些礼物没找到，如果你还想帮助我，再次和我对话吧！'
-elite_slime:
-  name: '&2Lvl &2$level &fElite &2Slime'
-  deathMessages:
-  - $player was squished by $entity&f!
-under_grove_lair:
-  name: '&6The Under Grove'
-  customInfo:
-  - '&6Stop the dryad''s ritual!'
-  playerInfo: |-
-    Difficulty: &cHard
-    $bossCount level $lowestTier Big Boss!
-    &6The dryads are up to no good, stop them!
-  regionEnterMessage: '&8[EM] &aYou are now trespassing the sacred grove!'
-  regionLeaveMessage: '&8[EM] &aYou have left the sacred grove!'
-beasts_sanctuary_lair:
-  name: '&6The Beasts Sanctuary'
-  customInfo:
-  - '&6Confront the beasts!'
-  playerInfo: |-
-    Difficulty: &cHard
-    $bossCount level $lowestTier Big Boss!
-    &6Face fierce beasts at their home turf!
-  regionEnterMessage: '&8[EM] &aYou have entered the Beast Sanctuary! Beware of what
-    prowls here!'
-  regionLeaveMessage: '&8[EM] &aYou''ve left the Beast Sanctuary! Did you take trophies?'
 darkness:
   name: Darkness
 enchanted_source:
@@ -13179,6 +13165,10 @@ soul_speed:
   name: Soul Speed
 item_enchantment_menu:
   menuName: '&6Enchantment Menu'
+elite_slime:
+  name: '&2Lvl &2$level &fElite &2Slime'
+  deathMessages:
+  - $player was squished by $entity&f!
 elite_magma_cub:
   name: '&2Lvl &2$level &fElite &6Magma Cube'
   deathMessages:
@@ -13399,6 +13389,21 @@ fightlun_axe:
   lore:
   - 战斗伦
   - 所用过的斧头
+zhelilunbook:
+  name: '&4哲理伦宝典'
+  lore:
+  - 诽谤
+beasts_sanctuary_lair:
+  name: '&2[lvl 130] &6The Beasts Sanctuary'
+  customInfo:
+  - '&6Confront the beasts!'
+  playerInfo: |-
+    Difficulty: &cHard
+    $bossCount level $lowestTier Big Boss!
+    &6Face fierce beasts at their home turf!
+  regionEnterMessage: '&8[EM] &aYou have entered the Beast Sanctuary! Beware of what
+    prowls here!'
+  regionLeaveMessage: '&8[EM] &aYou''ve left the Beast Sanctuary! Did you take trophies?'
 binder_of_worlds_sanctum:
   name: '&2[lvl 200] &5The Binder Of Worlds'
   customInfo:
@@ -13640,6 +13645,16 @@ the_climb_dungeon:
   regionEnterMessage: '&bYou''ve been asked to investigate the path to the caves.
     Climb your way to the top!'
   regionLeaveMessage: '&bYou have left The Climb!'
+under_grove_lair:
+  name: '&2[lvl 170] &6The Under Grove'
+  customInfo:
+  - '&6Stop the dryad''s ritual!'
+  playerInfo: |-
+    Difficulty: &cHard
+    $bossCount level $lowestTier Big Boss!
+    &6The dryads are up to no good, stop them!
+  regionEnterMessage: '&8[EM] &aYou are now trespassing the sacred grove!'
+  regionLeaveMessage: '&8[EM] &aYou have left the sacred grove!'
 '1':
   name: $bossLevel &e战斗伦
   deathMessages:
@@ -13655,7 +13670,7 @@ the_climb_dungeon:
   onDamagedMessages:
   - 诽谤！
   locationMessage: 战斗伦：$distance
-  spawnMessage: 战斗伦已生成！
+  spawnMessage: 伦急了！
   deathMessage: 战斗伦被$players杀死了！
   escapeMessage: 战斗伦逃离了！
 '2':
@@ -13676,6 +13691,42 @@ the_climb_dungeon:
   spawnMessage: 哲理伦已生成！
   deathMessage: 哲理伦被$players杀死了！
   escapeMessage: 哲理伦逃离了！
+'3':
+  name: $bossLevel &e绝望的理智
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&4绝望的理智已被击退！'
+  - '&c&l    输出第一名: $damager1name&c造成了$damager1damage点伤害！'
+  - '&6&l    输出第二名: $damager2name&6造成了$damager2damage点伤害！'
+  - '&e&l    输出第三名: $damager3name&e造成了$damager3damage点伤害！'
+  - '&4终结者: $players'
+  - '&e&l---------------------------------------------'
+  onDamageMessages:
+  - 绝望！
+  onDamagedMessages:
+  - 绝望！
+  locationMessage: 绝望的理智：$distance
+  spawnMessage: 绝望的理智已生成！
+  deathMessage: 绝望的理智被$players杀死了！
+  escapeMessage: 绝望的理智逃离了！
+'4':
+  name: $bossLevel &e绝望的理智
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&4绝望的理智已被击退！'
+  - '&c&l    输出第一名: $damager1name&c造成了$damager1damage点伤害！'
+  - '&6&l    输出第二名: $damager2name&6造成了$damager2damage点伤害！'
+  - '&e&l    输出第三名: $damager3name&e造成了$damager3damage点伤害！'
+  - '&4终结者: $players'
+  - '&e&l---------------------------------------------'
+  onDamageMessages:
+  - 绝望！
+  onDamagedMessages:
+  - 绝望！
+  locationMessage: 绝望的理智：$distance
+  spawnMessage: 绝望的理智已生成！
+  deathMessage: 绝望的理智被$players杀死了！
+  escapeMessage: 绝望的理智逃离了！
 binder_of_worlds_teleporter:
   name: Buði the Doomsayer
   role: <[200] Binder of Worlds Teleport>
@@ -13717,63 +13768,3 @@ SpecialItemSystems:
     $itemName&6!'
   criticalFailureAnnouncement: '&8[EliteMobs] $player &clost $itemName &cwhile trying
     to enchant it!'
-zhelilunbook:
-  name: '&4哲理伦宝典'
-  lore:
-  - 诽谤
-lun_pp1:
-  name: '&8绝望的理智胸甲'
-  lore:
-  - '&a绝望的理智'
-lun_pp2:
-  name: '&8绝望的理智护腿'
-  lore:
-  - '&a绝望的理智'
-lun_pp3:
-  name: '&8绝望的理智头盔'
-  lore:
-  - '&a绝望的理智'
-lun_pp4:
-  name: '&8哥布林剁肉斧'
-  lore:
-  - '&8哥布林的财宝！'
-summon_wolf_lun:
-  name: '&6唤犬卷轴'
-  lore:
-  - '&a召唤绝望的理智'
-'3':
-  name: $bossLevel &e绝望的理智
-  deathMessages:
-  - '&e&l---------------------------------------------'
-  - '&4绝望的理智已被击退！'
-  - '&c&l    输出第一名: $damager1name&c造成了$damager1damage点伤害！'
-  - '&6&l    输出第二名: $damager2name&6造成了$damager2damage点伤害！'
-  - '&e&l    输出第三名: $damager3name&e造成了$damager3damage点伤害！'
-  - '&4终结者: $players'
-  - '&e&l---------------------------------------------'
-  onDamageMessages:
-  - 绝望！
-  onDamagedMessages:
-  - 绝望！
-  locationMessage: 绝望的理智：$distance
-  spawnMessage: 绝望的理智已生成！
-  deathMessage: 绝望的理智被$players杀死了！
-  escapeMessage: 绝望的理智逃离了！
-'4':
-  name: $reinforcementLevel &7β
-  deathMessages:
-  - '&e&l---------------------------------------------'
-  - '&4绝望的理智已被击退！'
-  - '&c&l    输出第一名: $damager1name&c造成了$damager1damage点伤害！'
-  - '&6&l    输出第二名: $damager2name&6造成了$damager2damage点伤害！'
-  - '&e&l    输出第三名: $damager3name&e造成了$damager3damage点伤害！'
-  - '&4终结者: $players'
-  - '&e&l---------------------------------------------'
-  onDamageMessages:
-  - 绝望！
-  onDamagedMessages:
-  - 绝望！
-  locationMessage: 绝望的理智：$distance
-  spawnMessage: 绝望的理智已生成！
-  deathMessage: 绝望的理智被$players杀死了！
-  escapeMessage: 绝望的理智逃离了！

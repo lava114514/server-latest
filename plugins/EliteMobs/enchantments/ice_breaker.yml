@@ -1,5 +1,4 @@
-maxLevelV2: 2
 isEnabled: true
-name: 破冰
-maxLevel: 2
+name: Ice Breaker
+maxLevelV2: 2
 value: 10.0

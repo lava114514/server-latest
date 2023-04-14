@@ -1,7 +1,6 @@
-powerType: MISCELLANEOUS
 isEnabled: true
-name: 致盲
 effect: SPELL_MOB
+powerType: MISCELLANEOUS
 eliteScript:
   BlindPlayer:
     Events:

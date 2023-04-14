@@ -1,4 +1,4 @@
 isEnabled: true
-name: 瞬间治疗
+name: Instant Health
 onHitDuration: 1
 value: 100.0

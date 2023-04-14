@@ -1,7 +1,7 @@
-baseDamageV2: 12.0
 isEnabled: true
 entityType: RABBIT
-name: '&2$level级&f精英&3&c杀手兔'
+name: '&fLvl &2$level &fElite &cKiller Rabbit'
 deathMessages:
-- $entity&c杀死了$player&c！
-- $player，$entity&c可不吃胡萝卜！
+- $entity &cmade $player &cgo live in a farm upstate!
+- $entity &ceducated $player using a stick and not a carrot!
+baseDamageV2: 12.0

@@ -1,19 +1,9 @@
-onSpawnBlockStates: []
-onRemoveBlockStates: []
 isEnabled: true
 entityType: RABBIT
-name: $eventBossLevel &cCaerbannog的杀手兔
+name: $eventBossLevel &cKiller Rabbit of Caerbannog
 level: dynamic
-onDeathCommands: []
-onSpawnCommands: []
-onCombatEnterCommands: []
-onCombatLeaveCommands: []
-deathMessages: []
 uniqueLootList:
-- rod_of_the_depths.yml:1
-powers: []
-onDamageMessages: []
-onDamagedMessages: []
+- rabbit_charm.yml:1
 trails:
 - SMOKE_LARGE
 - SMOKE_LARGE
@@ -21,4 +11,5 @@ trails:
 - SMOKE_LARGE
 - FLAME
 - FLAME
-phases: []
+onSpawnBlockStates: []
+onRemoveBlockStates: []

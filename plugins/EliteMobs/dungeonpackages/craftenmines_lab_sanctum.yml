@@ -22,12 +22,12 @@ contentType: INSTANCED_DUNGEON
 dungeonConfigFolderName: em_id_craftenmines_lab
 contentLevel: 30
 difficulties:
-- id: 0
+- levelSync: 210
+  id: 0
   name: normal
-  levelSync: 210
-- id: 1
+- levelSync: 200
+  id: 1
   name: hard
-  levelSync: 200
-- id: 2
+- levelSync: 190
+  id: 2
   name: mythic
-  levelSync: 190

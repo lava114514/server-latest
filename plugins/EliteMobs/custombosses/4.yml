@@ -22,9 +22,9 @@ deathMessages:
 - '&4终结者: $players'
 - '&e&l---------------------------------------------'
 uniqueLootList:
-- lun_pp1.yml:0.5
-- lun_pp2.yml:0.7
-- lun_pp3.yml:1
+- lun_pp1.yml:0.1
+- lun_pp2.yml:0.1
+- lun_pp3.yml:0.1
 - summon_wolf_lun.yml:1
 powers:
 - attack_wither.yml 

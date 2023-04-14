@@ -1,7 +1,6 @@
-powerType: OFFENSIVE
 isEnabled: true
-name: 燔祭
 effect: BLAZE_POWDER
+powerType: OFFENSIVE
 eliteScript:
   SetOnFire:
     Events:

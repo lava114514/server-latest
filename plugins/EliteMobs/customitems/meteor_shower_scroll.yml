@@ -1,10 +1,10 @@
 isEnabled: true
 material: PAPER
-name: '&7星陨卷轴'
+name: '&7Meteor Shower Scroll'
 lore:
-- '&4召唤陨星进行毁灭性打击。'
-- '&4一次性消耗品。'
+- '&4Call forth destruction.'
+- '&4Single-use.'
 enchantments:
 - METEOR_SHOWER,1
 potionEffects: []
-itemType: unique
+itemType: UNIQUE

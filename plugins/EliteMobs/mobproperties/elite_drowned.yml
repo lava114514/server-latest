@@ -1,7 +1,7 @@
-baseDamageV2: 4.0
 isEnabled: true
 entityType: DROWNED
-name: '&2$level级&f精英&3溺尸'
+name: '&fLvl &2$level &fElite &3Drowned'
 deathMessages:
-- $player被$entity扯入了万丈深渊！
-- $player和$entity一同被水淹没！
+- $player &chas been brought down to the depths by $entity!
+- $player &chas been drowned by $entity!
+baseDamageV2: 4.0

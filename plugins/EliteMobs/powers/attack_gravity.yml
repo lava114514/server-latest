@@ -1,7 +1,6 @@
-powerType: OFFENSIVE
 isEnabled: true
-name: 飞升
 effect: ELYTRA
+powerType: OFFENSIVE
 eliteScript:
   LevitatePlayer:
     Events:

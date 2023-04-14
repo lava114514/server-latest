@@ -5,6 +5,7 @@ bossFilenames:
 eventStartCommands: []
 eventEndCommands: []
 chance: 0.001
-breakableMaterials: []
+breakableMaterials:
+- BEE_NEST
 weight: 0.0
 eventDuration: 20.0

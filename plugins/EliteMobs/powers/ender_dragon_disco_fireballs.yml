@@ -1,5 +1,4 @@
-powerType: UNIQUE
 isEnabled: true
-name: 迪斯科火球
 powerCooldown: 120
 globalCooldown: 30
+powerType: UNIQUE

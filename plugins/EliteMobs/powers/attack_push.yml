@@ -1,4 +1,3 @@
-powerType: OFFENSIVE
 isEnabled: true
-name: 击退
 effect: PISTON
+powerType: OFFENSIVE

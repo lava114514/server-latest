@@ -1,8 +1,8 @@
 isEnabled: true
 material: NETHERITE_CHESTPLATE
-name: '&8哥布林胸甲'
+name: '&8Goblin Chestplate'
 lore:
-- '&8哥布林的财宝！'
+- '&8A treasure among goblins!'
 enchantments:
 - PROTECTION_ENVIRONMENTAL,1
 - PROTECTION_EXPLOSIONS,1
@@ -10,4 +10,4 @@ enchantments:
 - DURABILITY,1
 potionEffects:
 - SATURATION,0,self,continuous
-itemType: unique
+itemType: UNIQUE

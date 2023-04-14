@@ -1,17 +1,10 @@
-onSpawnBlockStates: []
-onRemoveBlockStates: []
 isEnabled: true
 entityType: ZOMBIE
-name: $eventBossLevel &4僵尸王
+name: $eventBossLevel &4Zombie King
 level: dynamic
 isPersistent: true
 healthMultiplier: 4.0
-damageMultiplier: 4.0
-onDeathCommands: []
-onSpawnCommands: []
-onCombatEnterCommands: []
-onCombatLeaveCommands: []
-deathMessages: []
+damageMultiplier: 2.0
 uniqueLootList:
 - zombie_kings_axe.yml:1
 powers:
@@ -19,22 +12,18 @@ powers:
 - flamethrower.yml
 - summon_the_returned.yml
 - spirit_walk.yml
-- summonType: GLOBAL
-  amount: 5
-  filename: the_living_dead.yml
-  customSpawn: normal_surface_spawn.yml
-onDamageMessages: []
-onDamagedMessages: []
+- summonable:summonType=GLOBAL:filename=the_living_dead.yml:amount=5:customSpawn=normal_surface_spawn.yml
 trails:
 - FLAME
-phases: []
-locationMessage: '&c僵尸王位置：$location格之外'
-spawnMessage: '&c僵尸王出现了！'
-deathMessage: '&a僵尸王被$players杀死了！'
-escapeMessage: '&4僵尸王已逃跑！'
+locationMessage: '&cZombie King: $distance blocks away!'
+spawnMessage: '&cThe Zombie King has been sighted!'
+deathMessage: '&aThe Zombie King has been slain by $players!'
+escapeMessage: '&4The Zombie King has escaped!'
 announcementPriority: 2
 helmet: DIAMOND_HELMET
 chestplate: DIAMOND_CHESTPLATE
 leggings: DIAMOND_LEGGINGS
 boots: DIAMOND_BOOTS
 mainHand: GOLDEN_AXE
+onSpawnBlockStates: []
+onRemoveBlockStates: []

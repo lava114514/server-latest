@@ -1,21 +1,10 @@
-onSpawnBlockStates: []
-onRemoveBlockStates: []
 isEnabled: true
 entityType: WOLF
-name: $reinforcementLevel &7野狼
+name: $reinforcementLevel &7Wild Wolf
 level: dynamic
 healthMultiplier: 0.2
 damageMultiplier: 0.2
 dropsEliteMobsLoot: false
 dropsVanillaLoot: false
-onDeathCommands: []
-onSpawnCommands: []
-onCombatEnterCommands: []
-onCombatLeaveCommands: []
-deathMessages: []
-uniqueLootList: []
-powers: []
-onDamageMessages: []
-onDamagedMessages: []
-trails: []
-phases: []
+onSpawnBlockStates: []
+onRemoveBlockStates: []

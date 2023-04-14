@@ -1,7 +1,6 @@
-maxLevelV2: 2
 isEnabled: true
-name: 致命打击
-maxLevel: 2
+name: Critical Strikes
+maxLevelV2: 2
 value: 13.0
+criticalHitPopup: '&5Critical Hit!'
 criticalHitColor: '&5'
-criticalHitPopup: '&5正中要害!'

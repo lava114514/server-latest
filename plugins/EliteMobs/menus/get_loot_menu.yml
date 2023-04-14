@@ -1,39 +1,39 @@
 isEnabled: true
-Menu name: '[EM] 战利品商店'
-tierTranslation: 等级
-itemFilterTranslation: 根据等级过滤物品
+Menu name: '[EM] Getloot menu'
 Info button:
-  customModelID: 31173
   material: PLAYER_HEAD
-  name: '&4&lEliteMobs&r&c插件作者：&4&lMagmaGuy'
+  name: '&4&lEliteMobs &r&cby &4&lMagmaGuy'
   lore:
-  - '&8支持这款你喜欢的插件吧！'
+  - '&8Support the plugins you enjoy!'
   owner: magmaguy
+  customModelID: 31173
 Left button:
-  customModelID: 31173
   material: PLAYER_HEAD
-  name: 上一级物品
+  name: Previous Item Ranks
   lore:
   - ''
   owner: MHF_ArrowLeft
+  customModelID: 31173
 Right button:
-  customModelID: 31173
   material: PLAYER_HEAD
-  name: 下一级物品
+  name: Next Item Ranks
   lore:
   - ''
   owner: MHF_ArrowRight
-previousLoot:
   customModelID: 31173
+tierTranslation: Level
+itemFilterTranslation: Filter by items of this level.
+previousLoot:
   material: PLAYER_HEAD
-  name: 上一页战利品
+  name: Previous Loot Page
   lore:
   - ''
   owner: MHF_ArrowLeft
-nextLoot:
   customModelID: 31173
+nextLoot:
   material: PLAYER_HEAD
-  name: 下一页战利品
+  name: Next Loot Page
   lore:
   - ''
   owner: MHF_ArrowRight
+  customModelID: 31173

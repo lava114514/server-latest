@@ -1,5 +1,4 @@
-maxLevelV2: 4
 isEnabled: true
-name: 火焰保护
-maxLevel: 4
+name: Fire Protection
+maxLevelV2: 4
 value: 6.0

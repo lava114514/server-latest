@@ -1,21 +1,10 @@
-onSpawnBlockStates: []
-onRemoveBlockStates: []
 isEnabled: true
 entityType: ZOMBIE
-name: $reinforcementLevel &7唤灵僵尸
+name: $reinforcementLevel &7Summoned Zombie
 level: dynamic
 healthMultiplier: 0.3
 damageMultiplier: 0.1
 dropsEliteMobsLoot: false
 dropsVanillaLoot: false
-onDeathCommands: []
-onSpawnCommands: []
-onCombatEnterCommands: []
-onCombatLeaveCommands: []
-deathMessages: []
-uniqueLootList: []
-powers: []
-onDamageMessages: []
-onDamagedMessages: []
-trails: []
-phases: []
+onSpawnBlockStates: []
+onRemoveBlockStates: []

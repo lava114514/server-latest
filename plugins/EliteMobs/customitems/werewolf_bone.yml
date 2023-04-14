@@ -1,11 +1,11 @@
 isEnabled: true
 material: BONE
-name: '&6狼人的骨头'
+name: '&6Werewolf Bone'
 lore:
-- '&a杀死了狼人后'
-- '&a你暂时就是'
-- '&a狼群的首领了'
+- '&aHaving killed the alpha,'
+- '&athis temporarily makes you!'
+- '&athe wolves'' new leader'
 enchantments:
 - SUMMON_WOLF,1
 potionEffects: []
-itemType: unique
+itemType: UNIQUE
