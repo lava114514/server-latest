@@ -9,6 +9,7 @@ healthMultiplier: 10
 damageMultiplier: 20
 onDeathCommands:
 - broadcast $players杀死了$level级的$name！
+- em spawnlocationcustom 3.yml world 5 70 -270
 onSpawnCommands: []
 onCombatEnterCommands: []
 onCombatLeaveCommands: []
