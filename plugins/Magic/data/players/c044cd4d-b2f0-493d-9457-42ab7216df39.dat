@@ -1,10 +1,10 @@
 id: c044cd4d-b2f0-493d-9457-42ab7216df39
 name: Funget114514
 created: 1679803070926
-updated: 1681545461993
+updated: 1681568895867
 last_cast: 1681525786271
 cooldown_expiration: 0
-last_death_location: -63.38137467300833,81.0,-44.3774398437511,world_nether,-119.96857,53.97748
+last_death_location: -470.69999998807907,63.0,-466.69952113858005,world,-99.51102,23.129265
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -187,10 +187,10 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0WRTU7DMBCFJyRtQqnEjgUCVohVK8Wp2yYX4BqRf8atVdcOTtIIIe6Okwrwyh6Pv/fmeQEQQXJCbKIFJAOzMoOZGyx6WL739oAdIXRLaAxJww4IYcXwcHQdZ77W9oK2c/6zFq63XbiLMlgy0ekL1m2DxkB61m2rDWaQaOEsLNtOi9MXKfOcfC/gfur6B8VwOzh/4mjFMeCeR9k+YABeYsiU9sjZdJzHkHpUBsUoO4v/hK4O543TbZADSGKYMe/dEPY3gcE+embCYKPZ0OdRXIFp6ONGWzm+n2Tb0cFjKCvD/Mh9ggyyDs+NYR3+hpVNYdVawqvIKRWSyjUvVL6m1UauK7rdr2nB+L4gO6k2VTB6Qd/qyVsa0kKlwgwhQOM8vBWFJCynhKhyt6KkyKt8Jyqel6stVpyJcs+5KMOX3fVWetc0jBuM4Af1oPhSxgEAAA==
+        internal: H4sIAAAAAAAA/0WRTU7DMBCFpyQloVRixwIBK8SqkeLUbZMLcI3KP5PWqmsHJ2mEEHdnkkrglT2a+d6b5wXADOITYjNbQDwIpyOIG3FAoJPC3A8OAyw/enfAjjG+YTyCx6PvpAh74y7oOh++9sr3rqOJWQpLoTpzwX3boLWQnE3bGospxEZ5B8u2M+r0zco8Zz8LeJi6/kER3A0+nCQ6dSTcy2imJwzAawRpbQJKMT1vI0gC1hbVKDuP/oRG3xHcNt60JAcQRzAXIfiB7jfEEJ+9sLTNaJb6AqorMKE+aY3T4/wk244OnqhcWxFG7jOBkwuG1kzkJIV0imdvNLypnHOluc5kUecZr9Y6q/hml/FCyF3BtrpeVzTQ4bmxosNr1pQW1jXtQAFaH+C9KDQTOWesLrcrzoq8yreqknm52mAlhSp3UqqSvuy+dzr4phHS4gx+AWfvlRPGAQAA
     wand:
-      page: 0
       owner: Funget114514
+      page: 0
       hotbar_inventory_count: 1
       active_spell: missile
       icon: stick{18001}
@@ -207,9 +207,9 @@ wands:
         recall: 7
         push: 26
         aqualung: 1
-      version: 7
-      owner_id: c044cd4d-b2f0-493d-9457-42ab7216df39
       template: wand
+      owner_id: c044cd4d-b2f0-493d-9457-42ab7216df39
+      version: 7
       effect_color: 22d1a0411f86,4120906c9b08,5e9bac87bbc8
 open_wand: false
 gave_welcome_wand: false
@@ -238,8 +238,8 @@ classes:
       fireball: 2
   mage:
     effect_color: efc0009bd2e7,405ab9a92e37,d31e3e815c7c
-    mana_timestamp: 1681545461901
+    mana_timestamp: 1681568895705
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 24.399999618530273
+health: 1048.800048828125

@@ -6,7 +6,12 @@ healthMultiplier: 5.0
 damageMultiplier: 2.0
 powers:
 - ground_pound.yml
-- summonable:summonType=ON_HIT:filename=wood_league_wave_10_reinforcement.yml:amount=2:chance=0.1:inheritAggro=true:spawnNearby=true
+- summonType: ON_HIT
+  inheritAggro: true
+  amount: 2
+  filename: wood_league_wave_10_reinforcement.yml
+  chance: 0.1
+  spawnNearby: true
 followDistance: 60
 helmet: STICK
 onSpawnBlockStates: []

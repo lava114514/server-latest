@@ -2,7 +2,7 @@ cluster:
   cast_count: 0
   last_cast: 0
 flare:
-  cast_count: 254518525010378752
+  cast_count: 1018074100041515019
   last_cast: 0
 dragonexplodefire:
   cast_count: 0
@@ -29,7 +29,7 @@ jeweller:
   cast_count: 0
   last_cast: 0
 reflect:
-  cast_count: 45148729769984
+  cast_count: 180594919079950
   last_cast: 0
 music:
   cast_count: 0
@@ -50,7 +50,7 @@ farm:
   cast_count: 0
   last_cast: 0
 fire:
-  cast_count: 432350512029892608
+  cast_count: 1729402048119570432
   last_cast: 0
 wandbuffshop:
   cast_count: 0
@@ -170,7 +170,7 @@ recall_death:
   cast_count: 0
   last_cast: 0
 effectshop:
-  cast_count: 1125899906842624
+  cast_count: 4503599627370496
   last_cast: 0
 createshop:
   cast_count: 0
@@ -194,7 +194,7 @@ superbroom:
   cast_count: 0
   last_cast: 0
 poison:
-  cast_count: 3298534883456
+  cast_count: 13194139533824
   last_cast: 0
 spawnershop:
   cast_count: 0
@@ -227,7 +227,7 @@ dragonexplodelightning:
   cast_count: 0
   last_cast: 0
 pull:
-  cast_count: 397546296086364161
+  cast_count: 1590185184345456644
   last_cast: 0
 torture:
   cast_count: 0
@@ -290,7 +290,7 @@ armorshop:
   cast_count: 0
   last_cast: 0
 spellshop:
-  cast_count: 144116287587483648
+  cast_count: 576465150349934592
   last_cast: 0
 sunstrike:
   cast_count: 0
@@ -308,7 +308,7 @@ fillwand:
   cast_count: 0
   last_cast: 0
 missile:
-  cast_count: 7536295792628216644
+  cast_count: -6748304976906236543
   last_cast: 0
 trinketshop:
   cast_count: 0
@@ -320,13 +320,13 @@ atm:
   cast_count: 0
   last_cast: 0
 aqualung:
-  cast_count: 92398889864265984
+  cast_count: 369595559457063943
   last_cast: 0
 arrow_grapple:
   cast_count: 0
   last_cast: 0
 workbench:
-  cast_count: 846676729945653248
+  cast_count: 3386706919782612992
   last_cast: 0
 vanish:
   cast_count: 0
@@ -401,10 +401,10 @@ remove_protection:
   cast_count: 0
   last_cast: 0
 blind:
-  cast_count: 1140193558007808
+  cast_count: 4560774232031232
   last_cast: 0
 boon:
-  cast_count: 0
+  cast_count: 9
   last_cast: 0
 axeshop:
   cast_count: 0
@@ -503,7 +503,7 @@ foodshop:
   cast_count: 0
   last_cast: 0
 colorshop:
-  cast_count: 144115188075855872
+  cast_count: 576460752303423488
   last_cast: 0
 glassshop:
   cast_count: 0
@@ -554,7 +554,7 @@ tracking:
   cast_count: 0
   last_cast: 0
 upgrades:
-  cast_count: 309625360599744512
+  cast_count: 1238501442398978048
   last_cast: 0
 upgradeshop:
   cast_count: 0
@@ -620,13 +620,13 @@ wanddebuffshop:
   cast_count: 0
   last_cast: 0
 push:
-  cast_count: 58582529283719168
+  cast_count: 234330117134876674
   last_cast: 0
 dragonwater:
   cast_count: 0
   last_cast: 0
 wandinstructions:
-  cast_count: 434597913797066752
+  cast_count: 1738391655188267008
   last_cast: 0
 tosurvival:
   cast_count: 0
@@ -701,7 +701,7 @@ dragonpoison:
   cast_count: 0
   last_cast: 0
 controlsmenu:
-  cast_count: 180143985094819840
+  cast_count: 720575940379279360
   last_cast: 0
 remove_fall_protection:
   cast_count: 0
@@ -731,7 +731,7 @@ leathershop:
   cast_count: 0
   last_cast: 0
 recall:
-  cast_count: 29510307986580099
+  cast_count: 118041231946320404
   last_cast: 0
 broomshop:
   cast_count: 0
@@ -749,7 +749,7 @@ map:
   cast_count: 0
   last_cast: 0
 fireball:
-  cast_count: 1808368423470628936
+  cast_count: 7233473693882515744
   last_cast: 0
 ledger:
   cast_count: 0
@@ -851,7 +851,7 @@ woodshop:
   cast_count: 0
   last_cast: 0
 arrow:
-  cast_count: 409293203439872
+  cast_count: 1637172813759494
   last_cast: 0
 crudbroom:
   cast_count: 0
@@ -1031,7 +1031,7 @@ farmsellshop:
   cast_count: 0
   last_cast: 0
 appearanceshop:
-  cast_count: 274877906944
+  cast_count: 1099511627776
   last_cast: 0
 dragondark:
   cast_count: 0
@@ -1067,7 +1067,7 @@ singularity:
   cast_count: 0
   last_cast: 0
 progressmenu:
-  cast_count: 6598957628120891520
+  cast_count: 7949086438774014465
   last_cast: 0
 ghast:
   cast_count: 0
