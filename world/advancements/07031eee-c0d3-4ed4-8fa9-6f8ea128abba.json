@@ -425,6 +425,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2023-04-16 03:26:23 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gold_block": {
     "criteria": {
       "has_gold_ingot": "2023-04-01 20:12:17 +0800"
@@ -879,6 +885,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2023-04-16 03:36:10 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
       "has_porkchop": "2023-04-01 12:01:08 +0800"
@@ -1323,6 +1335,7 @@
       "minecraft:cold_ocean": "2023-03-26 11:04:57 +0800",
       "minecraft:forest": "2023-03-26 11:19:57 +0800",
       "minecraft:deep_cold_ocean": "2023-03-31 22:13:47 +0800",
+      "minecraft:ocean": "2023-04-16 03:25:52 +0800",
       "minecraft:deep_lukewarm_ocean": "2023-04-01 10:32:42 +0800",
       "minecraft:flower_forest": "2023-03-26 10:39:09 +0800",
       "minecraft:deep_dark": "2023-04-02 11:03:41 +0800",
@@ -1964,6 +1977,7 @@
       "cooked_mutton": "2023-04-02 10:05:09 +0800",
       "cooked_beef": "2023-04-02 10:40:46 +0800",
       "beef": "2023-04-15 14:51:57 +0800",
+      "baked_potato": "2023-04-16 04:33:00 +0800",
       "potato": "2023-04-01 11:20:52 +0800",
       "bread": "2023-03-31 22:16:23 +0800",
       "golden_apple": "2023-04-15 16:28:46 +0800",
