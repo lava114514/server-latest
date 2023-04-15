@@ -41,7 +41,11 @@ onDamagedMessages:
 trails:
 - BARRIER
 phases: []
+<<<<<<< HEAD
 spawnChance: 0.09
+=======
+spawnChance: 0.07
+>>>>>>> b82505696f430f4225eafd31f5faa117c9dd6e53
 locationMessage: 战斗伦：$distance
 spawnMessage: 伦急了！
 deathMessage: 战斗伦被$players杀死了！
