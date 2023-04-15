@@ -1,5 +1,5 @@
 Title: '哲理伦之书!' 
-Title-Update: 80
+Title-Update: 0
 
 #
 # 菜单绑定的快捷打开方式
@@ -27,7 +27,7 @@ Options:
     - 71-73
   Default-Layout: 0
   Hide-Player-Inventory: false
-  Min-Click-Delay: 200
+  Min-Click-Delay: 0
   Depend-Expansions: [ 'server', 'player', 'progress', 'animations' ]
 
 

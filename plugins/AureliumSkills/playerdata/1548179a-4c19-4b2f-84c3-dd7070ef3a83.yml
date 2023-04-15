@@ -5,53 +5,53 @@ skills:
     xp: 515.880000000003
   foraging:
     level: 2
-    xp: 54.0
+    xp: 78.0
   mining:
     level: 5
-    xp: 321.1400000000206
+    xp: 329.1700000000207
   fishing:
     level: 7
     xp: 2074.5
   excavation:
     level: 3
-    xp: 24.640000000001674
+    xp: 42.570000000001656
   archery:
     level: 7
-    xp: 846.750000000006
+    xp: 1800.450000000009
   defense:
     level: 7
-    xp: 1508.6796566426697
+    xp: 1883.9908562838987
   fighting:
-    level: 8
-    xp: 3889.199999999991
+    level: 9
+    xp: 4689.9999999999645
   endurance:
     level: 9
-    xp: 2781.0
+    xp: 4795.0
   agility:
     level: 6
-    xp: 266.60000000000025
+    xp: 546.0000000000001
   alchemy:
     level: 1
     xp: 0.0
   enchanting:
-    level: 2
-    xp: 14.0
-  sorcery:
     level: 3
-    xp: 453.1562486514449
+    xp: 109.2
+  sorcery:
+    level: 4
+    xp: 273.3229150772095
   healing:
     level: 1
     xp: 0.0
   forging:
     level: 1
     xp: 90.0
-mana: 34.0
+mana: 38.0
 locale: zh-cn
 ability_data:
   first_strike:
-    counter: 36
+    counter: 48
   xp_convert:
-    xp: 13.00286943405979
+    xp: 1.5407355010521258
   charged_shot:
     cooldown: 0
     enabled: true

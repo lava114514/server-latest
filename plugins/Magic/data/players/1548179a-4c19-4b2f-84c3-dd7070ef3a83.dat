@@ -1,10 +1,10 @@
 id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
 name: mc_wyy114
 created: 1679719078156
-updated: 1681015301966
-last_cast: 1681010818566
+updated: 1681548530509
+last_cast: 1681547929550
 cooldown_expiration: 0
-last_death_location: 5.835320264599337,63.0,13.835590576386146,world,-13.516272,22.04982
+last_death_location: -12.878490364431439,70.0,-257.61421214136027,world,70.49997,13.5000105
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -120,9 +120,9 @@ spells:
     cooldown_expiration: 1680323208298
     charges: 0.0
   missile|3:
-    cast_count: 96
-    last_cast: 1681010818566
-    last_earn: 1680700268207
+    cast_count: 107
+    last_cast: 1681547929551
+    last_earn: 1681547929550
     cooldown_expiration: 0
     charges: 0.0
   fireball|2:
@@ -163,7 +163,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: 66bbbec0-90a7-4427-b1d7-84e9c8076d88
+            uuid: 80c8d7de-4941-4c28-b058-9b58c2b65b17
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -174,35 +174,35 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0VRXW+DMAw0Cy2sq7a3/YLtrUikQEt/DcqHo0VNExRCUTXtvy/Qanuz5Tvfnb0BSCA9I/bJBtKJWZnAKyqFInR85NzgADlsmQj6it3QozGQXfQwaIM5pFo4C9shaHH+pm1Z0p8NZHf6kEO+0FhAgLgkD3jpzdwtOgSyK/pBxwUAGYH1lwuceViw24cF4Yzz8Cm4ZKdKqXavxK5F1VRcSFrKXUPrfdU0h0NZ0xzeHqye+ejI4Lxp5SaLHp4voptuN0prAu93pU7bK9rg/C3KjDZE4XiDtyXj/4xA2o8xNMCKQK60R86WNiGwYt67KdZP5O8os//ImYGxSiOIG23lI6NHcWev40AZtoDIfJzFZqclfNCmbunxxIpa0FNR870q2lpUhZTH8liiqlhbxae9jFZ61/cs/iiBX5ZWlpvIAQAA
+        internal: H4sIAAAAAAAA/0VR226DMAw1gxbWVdvbvmB7KxIp0NKvQbk4WtQ0oBCKqmn/PkOr7c2WfXwu3gBEkJwR+2gDycSdiuAVtUYZWjEKYXGADLZcBnPFdujRWkgvZhiMxQwSIzsH2yEYef5mTVGwnw2kd/iQQbbAeEAAiCG9oh8M7QOkNAt46e08W1iJ48EqO9t5+JRC8VOpdbPXctegrkshFSvUrmbVvqzrw6GoWAzrry4I7ukmyVx1k0MPzxfZTrcbY1UGb4+rPfck0uIs5P2OaY27ogudvxHn6AKdoAzeFo//sxiSfiTTAKsYMm08Cr60UfwXBCz+Vtz7bqLyiTDzIpUJKfQo74g17QhrnJoToFpb7u/RUByL9NYo+GB11bDjieeVZKe8EnudN5Usc6WOxbFAXfKmpKe9jE75ru85/SiCX8noob7IAQAA
     wand:
       effect_bubbles: false
       active_spell: missile
       icon: stick{18001}
       effects:
         activate: ''
-      version: 7
       template: wand
-      effect_color: cbda93ff82fc,8ef53bcd10d,514235566041
+      version: 7
       hotbar: 0
-      owner: mc_wyy114
+      effect_color: cbda93ff82fc,8ef53bcd10d,514235566041
       effect_particle: ''
+      owner: mc_wyy114
       hotbar_inventory_count: 1
       spell_inventory:
         pull: 5
         fireball: 1
-        missile: 0
         arrow: 2
+        missile: 0
         fire: 4
-        recall: 6
         blind: 7
+        recall: 6
         flare: 3
       owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
 open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
-  sp: 302.0
+  sp: 323.0
 properties:
   version: 7
 classes:
@@ -221,8 +221,8 @@ classes:
     - fireball
   mage:
     effect_color: 456a4a324571,d7819e4f1a4d,20893af8e500
-    mana_timestamp: 1681015301915
+    mana_timestamp: 1681548530339
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 2.8700008392333984
+health: 22.0

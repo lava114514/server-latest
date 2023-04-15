@@ -37,7 +37,7 @@ onDamageMessages:
 onDamagedMessages:
 - 诽谤！
 trails:
-- PAPER
+- BOOK
 phases: []
 locationMessage: 哲理伦：$distance
 spawnMessage: 哲理伦已生成！

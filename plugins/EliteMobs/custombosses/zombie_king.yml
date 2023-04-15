@@ -12,7 +12,10 @@ powers:
 - flamethrower.yml
 - summon_the_returned.yml
 - spirit_walk.yml
-- summonable:summonType=GLOBAL:filename=the_living_dead.yml:amount=5:customSpawn=normal_surface_spawn.yml
+- summonType: GLOBAL
+  amount: 5
+  filename: the_living_dead.yml
+  customSpawn: normal_surface_spawn.yml
 trails:
 - FLAME
 locationMessage: '&cZombie King: $distance blocks away!'

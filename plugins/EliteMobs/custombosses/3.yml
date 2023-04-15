@@ -32,7 +32,7 @@ onDamageMessages:
 onDamagedMessages:
 - 绝望！
 trails:
-- PAPER
+- BOOK
 phases: []
 locationMessage: 绝望的理智：$distance
 spawnMessage: 绝望的理智已生成！
