@@ -1,10 +1,10 @@
 id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
 name: Enderlava
 created: 1678458824899
-updated: 1681590831724
-last_cast: 1681590766548
+updated: 1682058868820
+last_cast: 1682058839839
 cooldown_expiration: 0
-last_death_location: -25.407446376555875,63.0,-287.76249998807907,world,-50.099995,-11.39999
+last_death_location: -22.69999998807907,63.0,-285.66989164896466,world,103.21477,8.850014
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -430,7 +430,7 @@ spells:
     charges: 0.0
   blind:
     cast_count: 4
-    last_cast: 1680696154124
+    last_cast: 1682058639642
     last_earn: 1680696156157
     cooldown_expiration: 0
     charges: 0.0
@@ -441,15 +441,9 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   arrow:
-    cast_count: 16
-    last_cast: 1681568103670
-    last_earn: 1681568103755
-    cooldown_expiration: 0
-    charges: 0.0
-  reflect|2:
-    cast_count: 77
-    last_cast: 1681561549922
-    last_earn: 1681561522969
+    cast_count: 17
+    last_cast: 1682058660844
+    last_earn: 1682058657766
     cooldown_expiration: 0
     charges: 0.0
   appearanceshop:
@@ -465,27 +459,15 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   upgrades:
-    cast_count: 1
-    last_cast: 1680271075182
+    cast_count: 2
+    last_cast: 1682052620377
     last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  push:
-    cast_count: 15
-    last_cast: 1681565886524
-    last_earn: 1681559534756
     cooldown_expiration: 0
     charges: 0.0
   controlsmenu:
     cast_count: 2
-    last_cast: 1680331664715
+    last_cast: 1682058839839
     last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  pull:
-    cast_count: 44
-    last_cast: 1681587168410
-    last_earn: 1681586109663
     cooldown_expiration: 0
     charges: 0.0
   reflect:
@@ -495,14 +477,20 @@ spells:
     cooldown_expiration: 1680695729427
     charges: 0.0
   recall|2:
-    cast_count: 3
-    last_cast: 1681585662355
-    last_earn: 1681585668888
+    cast_count: 9
+    last_cast: 1682056551089
+    last_earn: 1682056479815
     cooldown_expiration: 0
     charges: 0.0
   spellshop:
     cast_count: 1
-    last_cast: 1681556865578
+    last_cast: 1682058244758
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  effectshop:
+    cast_count: 0
+    last_cast: 1682052644567
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -525,22 +513,16 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   progressmenu:
-    cast_count: 29
-    last_cast: 1681556863936
+    cast_count: 37
+    last_cast: 1682058838493
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
   aqualung:
-    cast_count: 17
-    last_cast: 1681590748557
+    cast_count: 21
+    last_cast: 1682053057977
     last_earn: 0
-    cooldown_expiration: 1681590808557
-    charges: 0.0
-  missile|2:
-    cast_count: 50
-    last_cast: 1680272348349
-    last_earn: 1680272346075
-    cooldown_expiration: 1680272349349
+    cooldown_expiration: 0
     charges: 0.0
   fireball:
     cast_count: 15
@@ -548,19 +530,183 @@ spells:
     last_earn: 1680322113391
     cooldown_expiration: 1680322174599
     charges: 0.0
-  missile|3:
-    cast_count: 444
-    last_cast: 1681587171155
-    last_earn: 1681583709478
-    cooldown_expiration: 0
-    charges: 0.0
   fireball|2:
     cast_count: 31
-    last_cast: 1681561699920
+    last_cast: 1682058683685
     last_earn: 1681526294050
     cooldown_expiration: 0
     charges: 0.0
+  reflect|2:
+    cast_count: 78
+    last_cast: 1682058653988
+    last_earn: 1682058653988
+    cooldown_expiration: 0
+    charges: 0.0
+  push:
+    cast_count: 15
+    last_cast: 1681565886524
+    last_earn: 1681559534756
+    cooldown_expiration: 0
+    charges: 0.0
+  arrow_poison:
+    cast_count: 1
+    last_cast: 1682058756296
+    last_earn: 1682058756466
+    cooldown_expiration: 0
+    charges: 0.0
+  blast:
+    cast_count: 23
+    last_cast: 1682058675292
+    last_earn: 1682058261326
+    cooldown_expiration: 0
+    charges: 0.0
+  pull:
+    cast_count: 44
+    last_cast: 1681587168410
+    last_earn: 1681586109663
+    cooldown_expiration: 0
+    charges: 0.0
+  wandinstructions:
+    cast_count: 1
+    last_cast: 1682052636416
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  arrow_regular:
+    cast_count: 6
+    last_cast: 1682058759757
+    last_earn: 1682058743814
+    cooldown_expiration: 0
+    charges: 0.0
+  colorshop:
+    cast_count: 0
+    last_cast: 1682052640554
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  missile|2:
+    cast_count: 50
+    last_cast: 1680272348349
+    last_earn: 1680272346075
+    cooldown_expiration: 1680272349349
+    charges: 0.0
+  missile|3:
+    cast_count: 450
+    last_cast: 1682057585043
+    last_earn: 1682056464038
+    cooldown_expiration: 0
+    charges: 0.0
 wands:
+  spellbook:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"技能书"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"技能书"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Enderlava"}'
+        - '{"text":"掌握 14 技能"}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
+          "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
+          "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        custom-model-data: 18001
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/yWQ3U6EMBBGB4FdYDVe+QbekoC7UXwAn4NM6eA2221rW5YY47s7xbszfydfpgHIoLgQuayBYkUjKyjtashD/WEkeY03zGF/Ix+UNQCwr6CKdHUaI0EdHGktrL1wdzsblYTn7q079kTUTp08tieSp3aY8b19nQfC/mVAIbCCQk1sfCIzndFEkmPy/PRD1/W/DTxu6lGZG5lo/XcOhVu0TgkYeTWFueNonmZNU+SqyqEUGkPiHU+uKgSliatmmygjmbMcqll5ErjZHtgW4pJsBW+h93ZlzrmdthgP3J41bgw57DxN/6f1limcGUuW4teCejGfXN6ntx4WI711DoWmDP4AH853XGoBAAA=
+    wand:
+      owner: Enderlava
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+      template: spellbook
+      version: 7
+      icon: enchanted_book{18001}
+      spell_inventory:
+        pull: 7
+        boon: 2
+        reflect: 8
+        missile: 10
+        blast: 6
+        blind: 1
+        fireball: 13
+        stun: 4
+        arrow: 3
+        fire: 11
+        aqualung: 12
+        recall: 9
+        push: 5
+        flare: 0
+  magicsword:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"魔法剑"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gray","text":"战士 "},{"color":"white","text":"Magic
+          Sword"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Enderlava"}'
+        - '{"text":"掌握 9 技能"}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
+          "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        custom-model-data: 18009
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: Equipment Modifier
+            slot: HAND
+            uuid: d2cffea7-bb7d-4376-9c5d-49224ab6a77d
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/02QwU7DMAyGXdrRUpC4ceKIOK1SygZrHoDnqNzGYRFZUiXpKoR4d7xe4PZZ/n/bv2uADIpPoimroVjQqQo2fnEU4ObdKQoWz5jDw9GnAUNv3Jlc8uGrH/3sErC7gsKM3sGDo3SkYBL1cfFBfbedEPKnhvs4kbV/1hyKabaWvUUOlTaBBlzLLIcykLY0XgZvWBfT7BivcthgCH5hfmTRycRoLHF1zaLLBMaSRYM1TjHDuiMeV6qgWgP1RsGTOIhdS0TNKNSu2ZPaN51G2bzpjrB96XAYOG55phCNv+wu2Z7oNFlMBPUJP8y4xqvgjrTmU/kT1gd4boXWUkgpXxVuNWl56LQeD0ps/3f427ezU8FPEw6WMvgF7PVlo4EBAAA=
+    wand:
+      owner: Enderlava
+      hotbar_inventory_count: 1
+      icon: netherite_sword{18009}
+      spell_inventory:
+        pull: 4
+        fireball: 1
+        reflect: 5
+        stun: 2
+        missile: 6
+        arrow: 28
+        fire: 7
+        blind: 0
+        push: 3
+      template: magicsword
+      version: 7
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+      effect_color: 10ff909995da,fef978ffc7d0,10ff909995da
   wand:
     item:
       ==: org.bukkit.inventory.ItemStack
@@ -573,12 +719,12 @@ wands:
         lore:
         - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"魔力法杖"}],"text":""}'
         - '{"italic":true,"color":"dark_aqua","text":"绑定 Enderlava"}'
-        - '{"text":"掌握 13 技能"}'
+        - '{"text":"掌握 14 技能"}'
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
-          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"魔法导弹"}],"text":""}'
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"火球"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
           "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
@@ -592,7 +738,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: 74fae3be-46ba-44e9-828c-a321f0b3f2f0
+            uuid: e6f993d1-f5ea-44af-ace2-cc78541108aa
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -603,12 +749,12 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0VR0U7CQBBcbIGCJL75ZozG+ARJSwHLB/gdzV5vCxeOu3p3hRjjv7tto/ZpejczuzM3BxhBfCJqRnOIr2hkAmN7NeRg9m4kOY0XjCBu8EDAXwT3RxsEulKZC5lg3WdZ2dYEvhvNYOq1DYHYpPO9PbSqFNZ75iewwCqoC5W+Ia1helbeK00JxKqyBhY+qOr0lRVpmn3P4a5n/Q/pVmhZBhAzFJYVANMIpo5qTVU3Por+TLvpEYyFVkYyfowgqZUjgb3DDTv40HYOCbPQOXsdssUdi9EDH9cae/wcwcRRNUgn/R7+yHDMpvjRom7NgX+fIIGkL65UEl7StzTPiGhVpTJfbUhuVkWN+9WuLgizdYFCIAsCnRuNgYbqOcCFnFe/4SZD1d1uXB/VNQfltrV18LrLRC62KUqR0TLfZvl6n1ZFsUuXOYp8IzZvci133SO0RjrbNCg0jeAHzJxQAfABAAA=
+        internal: H4sIAAAAAAAA/0VR227CMAw1a4HCkPa2t2kXTXsCqaVcygfsOyqncSEiJF2SgqZp/z63aCJPx/Hx8bE9BRhAfCRqBlOIL2hkAkN7MeRg8mkkOY1njCBucE/AL4LHgw0CXanMmUyw7rusbGsC5wYTGHttQyAW6XTv960qhfWe+QnMsArqTKVvSGtIauVIoNYJxKqyBmY+qOr4kxVpmv1O4aGn3bp0HlquA4gZCssVAOMIxo5qTVXXP4pgKDT63gtnTsp7pTvbwz6jjGT8HN16c3jHaj60nVrCLHTOXq6Dxh2L0RN/1xp7/BbByFF1LR31nvyB4QuL4leLujV7Dl8hgaTfYqkkvKfbNM+IaFGlMl+sSK4WRY27xaYuCLNlgULwjsdncl5d5+LyQKdGY6D/q8yornlO3ra2Dj42mcjFOkUpMprn6yxf7tKqKDbpPEeRr8RqK5dyw3av5+pG6i7SGuls06DQNIA/hAnEZP0BAAA=
     wand:
       page: 0
       owner: Enderlava
       hotbar_inventory_count: 1
-      active_spell: missile
+      active_spell: fireball
       slotted:
       - gui_bossbar
       icon: stick{18001}
@@ -616,7 +762,8 @@ wands:
         pull: 4
         boon: 7
         reflect: 3
-        missile: 1
+        missile: 5
+        blast: 1
         blind: 31
         fireball: 2
         stun: 8
@@ -624,18 +771,89 @@ wands:
         fire: 29
         aqualung: 33
         recall: 6
-        push: 5
+        push: 32
         flare: 34
-      version: 7
       template: wand
+      version: 7
       owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
-      effect_color: 61b3b50adb1e,3513290c8860,3ab34b47d2d6
       hotbar: 0
+      effect_color: 61b3b50adb1e,3513290c8860,3ab34b47d2d6
+  mirrorshield:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: SHIELD
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"镜之盾"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"green","text":"可以格挡和反弹法术"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Enderlava"}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"反弹: IV"}],"text":""}'
+        custom-model-data: 18001
+        enchants:
+          MENDING: 1
+          DURABILITY: 3
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/x3K0QqCMBgG0E8yXNJjdDuYKbUeoOeI3/ZJw7nJFH39onN9aqBAOZJzUaPcJTqFY9ojM07P6JiDbKKgVk5zkJU4Tz7nlJePZ/hd9b8v73Axd9M2JPXbuFZ3dJ22gzz0bbCU5mql7+WAamNefIoAKuALiAZjK38AAAA=
+        blockMaterial: SHIELD
+    wand:
+      owner: Enderlava
+      version: 7
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+      template: mirrorshield
+  magicbow:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"魔法弓"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gold","text":"弓箭手 "},{"color":"white","text":"魔法弓"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Enderlava"}'
+        - '{"text":"掌握 2 技能"}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        custom-model-data: 18001
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/1WPQU7EMAxFXbVoQgGx4wRsK7XMCMoBOEfkJJ4hIhNHbtoKIe5OpiwQ3vnL7//vFqCC5oMoVS00K0an4IrXSALXb9GRBFywhod3zgZF+7hQzCyf2vIcMxRawS3a7BfSU6IQyibCq07sJ44KGm85Qmt4/RrGvh++W7jfDv+86v/MxbSGu19J6DQHFLiMArU1097BY//S7wci6mzv9t2B3KEbj/jaPR9HwuFpRGOwAJnOKWAmUGc8eVtq1LBbSCa/Be3K9zdzdMIpoQlUwQ+u4sQ8EQEAAA==
+    wand:
+      owner: Enderlava
+      hotbar_inventory_count: 1
+      active_spell: arrow_poison
+      icon: bow{18001}
+      spell_inventory:
+        arrow_poison: 1
+        arrow_regular: 0
+      version: 7
+      template: magicbow
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
 open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
-  sp: 199.0
+  sp: 65.0
 properties:
   version: 7
 classes:
@@ -652,6 +870,7 @@ classes:
     - arrow
     - stun
     - push
+    - blast
     - pull
     - reflect
     - recall
@@ -661,8 +880,12 @@ classes:
     - fireball
   mage:
     effect_color: cef52af28d37,e34b44b86e12,44d84fee9a2a
-    mana_timestamp: 1681590831625
+    mana_timestamp: 1682058838064
+    mana: 50.0
+  archer_mage: {}
+  battle_mage:
+    mana_timestamp: 1682058841866
     mana: 50.0
 transient_modifiers: {}
-active_class: mage
+active_class: archer_mage
 health: 25.200000762939453

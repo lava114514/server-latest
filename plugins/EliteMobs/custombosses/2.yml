@@ -9,7 +9,7 @@ healthMultiplier: 10
 damageMultiplier: 20
 onDeathCommands:
 - broadcast $players杀死了$level级的$name！
-- em spawnlocationcustom 3.yml world 5 70 -270
+- em spawnlocationcustom 3.yml world $locationX	$locationY $locationZ
 onSpawnCommands: []
 onCombatEnterCommands: []
 onCombatLeaveCommands: []
@@ -33,6 +33,7 @@ powers:
 - arrow_rain.yml
 - 2.yml
 - 21.yml
+- invulnerability_fall_damage.yml
 onDamageMessages:
 - 会翻墙吗！
 onDamagedMessages:

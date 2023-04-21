@@ -13768,3 +13768,8 @@ SpecialItemSystems:
     $itemName&6!'
   criticalFailureAnnouncement: '&8[EliteMobs] $player &clost $itemName &cwhile trying
     to enchant it!'
+1super_owl_charm:
+  name: '&b超级夜鹰护符'
+  lore:
+  - '&a遁入黑暗'
+  - '&a化身食物链顶端的超级夜间捕食者!'
