@@ -1,8 +1,8 @@
 uuid: 56ff83f2-2451-444d-abb2-a7099877dad4
 skills:
   farming:
-    level: 1
-    xp: 0.0
+    level: 4
+    xp: 264.4999999999993
   foraging:
     level: 1
     xp: 0.0
@@ -19,17 +19,17 @@ skills:
     level: 1
     xp: 0.0
   defense:
-    level: 1
-    xp: 0.0
+    level: 2
+    xp: 43.74997425079346
   fighting:
     level: 1
-    xp: 0.0
+    xp: 69.0
   endurance:
-    level: 1
-    xp: 0.0
+    level: 2
+    xp: 122.0
   agility:
     level: 1
-    xp: 8.0
+    xp: 52.0
   alchemy:
     level: 1
     xp: 0.0
