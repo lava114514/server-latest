@@ -9,7 +9,8 @@ healthMultiplier: 10
 damageMultiplier: 20
 onDeathCommands:
 - broadcast $players杀死了$level级的$name！
-- em spawnlocationcustom 3.yml world $locationX	$locationY $locationZ
+- em spawnlocationcustom 4.yml world 0 100 0
+- tp @e[type=wolf] $locationX	$locationY $locationZ
 onSpawnCommands: []
 onCombatEnterCommands: []
 onCombatLeaveCommands: []
@@ -22,7 +23,7 @@ deathMessages:
 - '&4终结者: $players'
 - '&e&l---------------------------------------------'
 uniqueLootList:
-- zhelilunbook:1
+- zhelilunbook:0.7
 powers:
 - attack_wither.yml 
 - hyper_loot.yml 
