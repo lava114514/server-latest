@@ -32,7 +32,6 @@ powers:
 - movement_speed.yml
 - spirit_walk.yml
 - arrow_rain.yml
-- 2.yml
 - 21.yml
 - invulnerability_fall_damage.yml
 onDamageMessages:

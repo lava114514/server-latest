@@ -4,10 +4,13 @@ isEnabled: true
 eliteScript:
   1:
     Events:
-    - EliteMobDeathEvent
+    - EliteMobDamagedByPlayerEvent
     Actions:
     - action: RUN_COMMAND_AS_PLAYER
       Target:
         targetType: NEARBY_PLAYERS
         range: 10
-      sValue: em spawncustom 2.yml
+      sValue: function minecraft:summon
+    Cooldowns:
+      local: 20
+      global: 20

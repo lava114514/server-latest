@@ -1,10 +1,10 @@
 id: c044cd4d-b2f0-493d-9457-42ab7216df39
 name: Funget114514
 created: 1679803070926
-updated: 1682779056526
+updated: 1682945476905
 last_cast: 1682095863993
 cooldown_expiration: 1682685982557
-last_death_location: -21.30000001192093,63.0,-279.9049073218014,world,-89.12146,22.765383
+last_death_location: -418.30000001192093,53.26636799395752,575.6999999880791,world_nether,-67.2095,43.546307
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -201,12 +201,12 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/yWQUW6DMBBEl5okhkTqV2+QXyRInKZcoNeIbLy0Fo7tGgiqqt69a/o3s5q3O9oSIIN8QAxZCfkineaw8YvDCIf32X3g1DTi0ggOfJ3ejIZjVwvRaaErderrSrRnXbXicq3ESarrqXnV/bklYMJ7sHJCKMaA1irvBwa7B8bReAcAOw656Ui+oOs+pZtQ31Lop3mr6+a3hOeVuxn3QDf5+M2gWHwcVIoTzxjkYbaW5JYWR+wtdhO5jNzdjKOxmM4w2ChrnCZ9YMB7E1HJFdsw2AZvxrVOQTkZo19IP9HqlIN0Brj8mqWlb5DjhETs/vl8bTCmMiXRvZUrsk9P3c9ORx+CVBYz+AOXTSqxaAEAAA==
+        internal: H4sIAAAAAAAA/yWQUW6DMBBEl5okhkTqV2+QXyRInKZcoNeIbLy0Fo7tGgiqqt69a/q3Y80bz24JkEE+IIashHyRTnPY+MVhhMP77D5wahpxaQSD3QPjaLwDgB0HPuE9WDkhFGNAa5X3A72u5M1oOHa1EJ0WulKnvq5Ee9ZVKy7XSpykup6aV92fWw656SjxBV33Kd2E+pZyfpq3um5+S3heo2/GPdBNPn4zKBYfB5XsVIMxyMNsLY1b6hext9hNpDJSdzOOxmJqy2CjrHGa5gMD3puISq7YhsE2eDOuWxXkkzH6heYnik4+SN8Al1+ztHQNUpyQiN0/n68NxlSmJLq3ckX26aj72enoQ5DKYgZ/TlVzzmgBAAA=
     wand:
       owner: Funget114514
-      version: 7
-      template: spellbook
       owner_id: c044cd4d-b2f0-493d-9457-42ab7216df39
+      template: spellbook
+      version: 7
       icon: enchanted_book{18001}
       spell_inventory:
         pull: 6
@@ -259,7 +259,7 @@ wands:
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0WQQW6DMBBFJwUCopW6ywm6RQLiNOUCvQay8RCsGtuyTVBV9e6deNPdG2n+//OnBjhA/oXoDjXkOzeygsLuBj28fG7mhrHr2KVjGZwWGwX3ozJ3NNH673Gym4lABhXkarIGTgbjgl5FHMNuvfzpPtp2+K3hNTjU+l+aQe42rUmbZ1DNyqPgaawyKD3OGqeHcZFBwb23O/FTBkdnVaAYSqS1VYWgNNJ0JLuHB2FJCqGVkcSQUsKSqIIqtRqVhLepZWySTDain9uGDWfZDOxybVjPxbXv3uV8HkgQcXWaR4R65Tc1pUoUfEcfVDqjpN89b0Z66xwXGg/wB7hmYrtPAQAA
+        internal: H4sIAAAAAAAA/0WQ0W6DMAxF3QEFsUl76xfsFQlouo4f2G+ghJgSLSRREoqmaf8+Ny97u7Z87rVdAxwg/0J0hxrynRtZQWF3gx5ePjdzw9h17NKxDE6LjYL7UZk7mmj99zjZzUQggwpyNVkDJ4NxQa8ijmG3Xv50H207/NbwGhxq/Y9mkLtNa2LzDKpZeRQ8lVUGpcdZ4/QwLjIouPd2J/2UwdFZFSiGEmlsVSEojVQdye7hQbIkQmhlJGlIKWFJioA7+qASXlZQRVyd5hGhXvlNTWlfaqfTRyXhbWoZmySTjejntmHDWTYDu1wb1nNx7bt3OZ8H+t3zZqS3znGh8QB/1IhVrE8BAAA=
     wand:
       owner: Funget114514
       hotbar_inventory_count: 1
@@ -274,9 +274,9 @@ wands:
         fire: 7
         blind: 0
         push: 3
-      version: 7
-      template: magicsword
       owner_id: c044cd4d-b2f0-493d-9457-42ab7216df39
+      template: magicsword
+      version: 7
   wand:
     item:
       ==: org.bukkit.inventory.ItemStack
@@ -319,10 +319,10 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0VQy07DMBDckpSEUokbBwScEKdGilO3TX6A36j82LRWXTs4SSOE+Hc2qQQ+je2dmZ1ZAMwgPiE2swXEg3A6grgRBwQ6Kcz94DDA8qN3B+wY4xvGI3g8+k6KsDfugq7z4WuvfO86YsxSWArVmQvu2watheRs2tZYTCE2yjtYtp1Rp29W5jn7WcDDNPUvNJr3RAN4jeBu8OEk0akj3V8iSGsTUIrp+zaCJGBtUY228wjmIgQ/EL6J4LbxpiUzgDj622AMRGO1FWHEz4SlNU6Pz0QJqK7KybRDO3o+kaf47IWl9GM44icXDK2ZtJMU0qmevdHwpnLOleY6k0WdZ7xa66zim13GCyF3Bdvqel0RocNzY0WH166pLaxrykAFWh/gvSg0EzlnrC63K86KvMq3qpJ5udpgJYUqd1Kqkja5750OvmmEtDiDX0+BiZPGAQAA
+        internal: H4sIAAAAAAAA/0WQ306DMBTGDwID5xLvvDDqlfFqJJR1G7yAr0H657A161osMGKM725hUXv1tafnfL/zLQECiE6IbbCEaGRGphDb0aCD1ftgDtgTQreEhhC17IDgTwgPR9tz5mplLmh66z5rYQfT+1qQwoqJXl2w7lrUGpKz6jqlMYVICWtg1fVKnL5Imefkewn386//QZPN4NsAXkK4Ha07cTTi6O/PIaSNcsjZXF6EkDhsNIrJNg4hZs7Z0eubEBatVZ03A4jCP4Iretxo5ib95DXXysjp2bc4FNfJyczQTZ6P3pN9DEz7IKblIIW0x3OrWY+/YaVzWLWS8CpySoWkMuNFk2e02sisott9RgvG9wXZyWZTeZ4Luk7NdIlPC5vG7+AD1NbBW1FIwnJKSFPu1pQUeZXvRMXzcr3FijNR7jkXpSe5G4x0tm0Z1xjAD93O5NLGAQAA
     wand:
-      owner: Funget114514
       page: 0
+      owner: Funget114514
       hotbar_inventory_count: 1
       active_spell: missile
       icon: stick{18001}
@@ -339,9 +339,9 @@ wands:
         blind: 3
         push: 26
         flare: 28
-      template: wand
-      owner_id: c044cd4d-b2f0-493d-9457-42ab7216df39
       version: 7
+      owner_id: c044cd4d-b2f0-493d-9457-42ab7216df39
+      template: wand
       effect_color: 22d1a0411f86,4120906c9b08,5e9bac87bbc8
   mirrorshield:
     item:
@@ -366,13 +366,13 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/x3LQQ6CMBAF0E/EQAjHcNuEwiDpBbyGKcygjdCSUuX6GvfvVUCG/CWyZRXyw3oucQ6Hl4j69vYPSVpTr+mE4iNxd8EDKEqUf3N3jMvUEE1MrMZ2bhSZjpWhflDU2nFo9ZXnzvxCknVbbBLUq4sxxP3pZGHgC4Kn49yCAAAA
+        internal: H4sIAAAAAAAA/x3K0Q6CIBQG4N9lkzkfo1s2wWOOF+g1GsqxWAoOKV+/1nf91UCB8sW8FTXKwwYncI5H4ITm9g4PzkpRr0hAZF63xWZGs/qUYtqfnpdfF/9+9w6XqSWaHDk56rmVZDonDfWDJG3HQaurmztzQvXhtPsYAFTAF4cj2v2CAAAA
         blockMaterial: SHIELD
     wand:
       owner: Funget114514
-      template: mirrorshield
-      owner_id: c044cd4d-b2f0-493d-9457-42ab7216df39
       version: 7
+      owner_id: c044cd4d-b2f0-493d-9457-42ab7216df39
+      template: mirrorshield
   magicbow:
     item:
       ==: org.bukkit.inventory.ItemStack
@@ -399,18 +399,18 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/1WPwU6EMBRFHwEzBMe48wuMqyFpoYD9AX+DlPaVaWRaUgrEGP/digvj8iX3nnteAZBA9o44JwVku7Aqhzu3W/RwflvtiIFS1lCWwtPVhUH43tgNbXD+o5dutQEiIIezkMFs2C8zTlO8vHd7PzuzOJtDZqSzUAxu/6SvhNCvAh6P4B8rhYffjsdxnYSPVEj/c36GIIf8kOuNgmdJGJOKqXKoNCkZr1XJWdOVrBJDV9FW6ZrHQsDbPImAkN/EaGTUSOG0oV/MAT1Fe9QaZYgPTc7Di9KcEkE7LqW+dC3WhEsed8SlQcIkqrZpKI8296tV3s2zGCZM4Bs9b9odSwEAAA==
+        internal: H4sIAAAAAAAA/1WQ0U6EMBBFh4BZgmt88wuMT0vSQgH7A/4GKe0UG9mWlAIxxn+3iw/GeZubO2fuTAGQQPaBOCcFZLuwKoc7t1v0cH5b7YiBUtZQlsLTuwuD8L2xG9rg/Gcv3WoDREAOZyGD2bBfZpym2Hnv9n52ZnE2h8xIZ6EY3P5FXwmh3wU8HsY/Vvp/5gZN4eFX8jiuk/BwqxROG/rFHJZTDnnA6zyJgJBfxWhk3BHFI39vFDxLwphUTJVDpUnJeK1KzpquZJUYuoq2Stc8pketUYZ40OQ8vCjNKRG041LqS9diTbjkESIuDRImUbVNQ3n82/1qlXfzLIYJE/gBRQ/TyEsBAAA=
     wand:
       owner: Funget114514
       hotbar_inventory_count: 1
       active_spell: arrow_poison
       icon: bow{18001}
       spell_inventory:
-        arrow_regular: 0
         arrow_poison: 1
-      version: 7
-      template: magicbow
+        arrow_regular: 0
       owner_id: c044cd4d-b2f0-493d-9457-42ab7216df39
+      template: magicbow
+      version: 7
       effect_color: df910a179ccf,76e309c9d4da,5e04ced65519
 open_wand: false
 gave_welcome_wand: false
@@ -448,4 +448,4 @@ classes:
     mana: 50.0
 transient_modifiers: {}
 active_class: archer_mage
-health: 23.723169326782227
+health: 25.200000762939453

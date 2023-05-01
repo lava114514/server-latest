@@ -167,6 +167,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2023-05-01 11:05:46 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/map": {
     "criteria": {
       "has_compass": "2023-03-26 10:33:24 +0800"
@@ -1463,7 +1469,9 @@
       "minecraft:cold_ocean": "2023-03-26 11:04:57 +0800",
       "minecraft:forest": "2023-03-26 11:19:57 +0800",
       "minecraft:deep_cold_ocean": "2023-03-31 22:13:47 +0800",
+      "minecraft:desert": "2023-05-01 21:30:59 +0800",
       "minecraft:ocean": "2023-04-16 03:25:52 +0800",
+      "minecraft:warm_ocean": "2023-05-01 21:18:08 +0800",
       "minecraft:deep_lukewarm_ocean": "2023-04-01 10:32:42 +0800",
       "minecraft:flower_forest": "2023-03-26 10:39:09 +0800",
       "minecraft:deep_dark": "2023-04-02 11:03:41 +0800",
@@ -2356,6 +2364,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2023-05-01 11:05:46 +0800"
+    },
+    "done": true
+  },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:cow": "2023-03-31 22:41:24 +0800"
@@ -2698,6 +2712,12 @@
     },
     "done": true
   },
+  "minecraft:nether/uneasy_alliance": {
+    "criteria": {
+      "killed_ghast": "2023-04-30 22:09:03 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2023-03-26 10:44:33 +0800"
@@ -2821,6 +2841,12 @@
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2023-04-01 20:12:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2023-05-01 11:05:46 +0800"
     },
     "done": true
   },

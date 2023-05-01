@@ -1,0 +1,1 @@
+execute at @e[type=minecraft:ghast,nbt={Silent:1b,Invulnerable:1b}] run execute at @e[type=zombie,distance=20] run summon area_effect_cloud ~ ~ ~ {Age:0,Duration:1000,WaitTime:20,ReapplicationDelay:10,DurationOnUse:1,Particle:"crit",Effects:[{Id:7,Duration:1,Amplifier:1,Ambient:0,ShowParticles:0,ShowIcon:0}]}
