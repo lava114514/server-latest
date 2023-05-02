@@ -8,25 +8,25 @@ skills:
     xp: 28.469999999998972
   mining:
     level: 6
-    xp: 2239.639999999529
+    xp: 2250.7499999995293
   fishing:
     level: 4
     xp: 85.0
   excavation:
     level: 5
-    xp: 1427.4899999999968
+    xp: 1468.4099999999967
   archery:
     level: 7
     xp: 2536.1999999999975
   defense:
     level: 10
-    xp: 3123.579614992595
+    xp: 3125.979614992595
   fighting:
     level: 12
     xp: 8154.699999999795
   endurance:
     level: 11
-    xp: 8471.0
+    xp: 8482.0
   agility:
     level: 6
     xp: 2154.8582231521627
@@ -51,12 +51,7 @@ ability_data:
   first_strike:
     counter: 176
   xp_convert:
-    xp: 6.282815198093806
+    xp: 11.712815198093814
   charged_shot:
     cooldown: 0
     enabled: true
-stat_modifiers:
-  '0':
-    name: mining-stamina
-    stat: toughness
-    value: 1.0
