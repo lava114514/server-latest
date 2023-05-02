@@ -1468,6 +1468,7 @@
       "minecraft:stony_shore": "2023-03-26 11:12:17 +0800",
       "minecraft:cold_ocean": "2023-03-26 11:04:57 +0800",
       "minecraft:forest": "2023-03-26 11:19:57 +0800",
+      "minecraft:lush_caves": "2023-05-02 09:55:45 +0800",
       "minecraft:deep_cold_ocean": "2023-03-31 22:13:47 +0800",
       "minecraft:desert": "2023-05-01 21:30:59 +0800",
       "minecraft:ocean": "2023-04-16 03:25:52 +0800",
@@ -1626,6 +1627,12 @@
   "minecraft:end/dragon_egg": {
     "criteria": {
       "dragon_egg": "2023-04-15 16:32:26 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2023-05-02 09:32:19 +0800"
     },
     "done": true
   },

@@ -1,10 +1,10 @@
 id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
 name: Enderlava
 created: 1678458824899
-updated: 1682949374415
+updated: 1682999117484
 last_cast: 1682943202427
-cooldown_expiration: 1682949374105
-last_death_location: -415.60943534973035,55.0,558.4140085277296,world_nether,-112.012024,25.389458
+cooldown_expiration: 1682994101626
+last_death_location: -404.1036701462727,55.0,562.0167299981207,world_nether,-121.320435,21.749796
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -859,7 +859,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: b02040a6-31f3-4d33-a046-8d79206d62e6
+            uuid: b3ef586c-137b-4396-bb69-79ead2edb5d6
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -870,21 +870,21 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0VS0W7bMAxkaqd20qAF2q4P3V4GbG8NIDdp4nzAviOgJHoVokquZCcYiv57KQ1b347m8e5Eeg4wgfJA1E/mUJ7Q6Rqm/uQowOyX0xQsHrGAu2c/SAx7447kBh/+7JUf3QA8XcMC1WCOtI89WQvVi4nRWKqhNMo7WMTBqMNb0wrRvM/hKrM+hQqYnXw4SHLqmeVuCij7kWUA5gXUyluLfSQuv3BHehYEOGOoxpC+TguoAnWWVApzUfy35woKmEqLMXXqjI3TKXIB53KUMpO+caMLPpMu2bEzgSTmALfc4og5V8mWcRiT+zmz8HVEO7rfXF4zC0Pwp2SY0hMdGM4YJi2G9/lNMcl8Z+tA6q9+xZPKekz0RYphMfO/Qg11vsHeaPghtmLVENFSCb1arkmvl22Hu+Wmawmbxxal5AtVRwrR5PVUPD7QS29xoH83XVDX8Y74bNYH+KnEkxaPjWietg+bHUm1oabZtfSwEi1tN2sl27XmP+NidDr4vkde1gQ+AHZSJnItAgAA
+        internal: H4sIAAAAAAAA/0VS227bMAxlZqdxLtiAbe1D25cC3VsDyI2bOB+w7wgoiW6FKJIn2QmGof8+SgW2NwrnwkNSC4AJlEeifrKA8oJOVzD1F0cB5j+dpmDxjAXcvPlBYjgYdyY3+PD7oPzoBmB1BStUgznTIfZkLcxOJkZjqYLSKO9gFQejjn/qVoj6fQFfMuu/UQFlP7IMYFHA/OLDUZJTb/z+VsAsUGdJpT5LJqoxEJdTLqVna4BPBVTKW4t9TMh1AVNpMSZBVfyLwi/IiHE6RS7gSo5SZuCegS74LPnMbp0JJDEH+s4QR8xhSu4ZhzH1vGIW/hrRju6Vn1+ZhSH4S2qSpiE6cjnnMnlxeZtnjMnmgVsHUh/+M1Yq6zHRVymGxcy/gwqqfIOD0fAodmJTE9FaCb1ZN6Sbddvhfr3tWsL6uUUpkQUDnXqLA31ckYc/U4gmb2nGN6Ku40Xy2awP8EOJFy2ea1G/7J62e5JqS3W9b+lpI1rabRsl20bzz1iOTgff98jLmsBf9Hyd4y0CAAA=
     wand:
       owner: Enderlava
       hotbar_inventory_count: 1
       active_spell: missile
       icon: stick{18001}
       spell_inventory:
-        pull: 10
         workbench: 19
-        reflect: 11
-        cure: 5
-        boon: 2
+        pull: 10
         collapse: 21
-        blast: 8
+        boon: 2
+        cure: 5
+        reflect: 11
         missile: 0
+        blast: 8
         blind: 1
         bubble: 28
         frost: 14
@@ -899,8 +899,8 @@ wands:
         recall: 7
         push: 33
         aqualung: 18
-      template: wand
       version: 7
+      template: wand
       owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
       effect_color: c05d0210157,69ebc6e1198e,308e764cb84d
   mirrorshield:
@@ -926,12 +926,12 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/x3L0QqCMBgG0E8yXNJjdDuYKbUeoOeI3/ZJw7nJFH39otsDpwYKlCM5FzXKXaJTOKY9MuP0jI45yCYK6k8v73Axd9M2JPXbuFZ3dJ22gzz0bbCU5mql7+WAamNefIoAql9fOc1BVuI8+ZxTXj6ewQFfYlF2zH8AAAA=
+        internal: H4sIAAAAAAAA/x3L0QqCMBgG0E8yXNJjdDuYKbUeoOeI3/ZJw7nJFH39qNsDpwYKlCM5FzXKXaJTOKY9MuP0jI45yCYK6k8v73Axd9M2JPXbuFZ3dJ22gzz0bbCU5mql739h5TQHWYnz5HNOefl4BndAtTEvPkUAFfAFv+Z2yn8AAAA=
         blockMaterial: SHIELD
     wand:
       owner: Enderlava
-      template: mirrorshield
       version: 7
+      template: mirrorshield
       owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
   magicbow:
     item:
@@ -1011,7 +1011,7 @@ classes:
     - collapse
   mage:
     effect_color: cef52af28d37,e34b44b86e12,44d84fee9a2a
-    mana_timestamp: 1682949374405
+    mana_timestamp: 1682999117484
     mana: 50.0
   archer_mage: {}
   battle_mage:

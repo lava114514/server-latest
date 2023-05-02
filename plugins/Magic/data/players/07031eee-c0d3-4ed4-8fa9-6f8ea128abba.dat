@@ -1,10 +1,10 @@
 id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
 name: Enderlava
 created: 1678458824899
-updated: 1682949655100
-last_cast: 1682943202427
-cooldown_expiration: 1682949627905
-last_death_location: -415.60943534973035,55.0,558.4140085277296,world_nether,-112.012024,25.389458
+updated: 1682999263002
+last_cast: 1682999250678
+cooldown_expiration: 0
+last_death_location: -404.1036701462727,55.0,562.0167299981207,world_nether,-121.320435,21.749796
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -542,7 +542,7 @@ spells:
     charges: 0.0
   recall|2:
     cast_count: 22
-    last_cast: 1682943202428
+    last_cast: 1682999244730
     last_earn: 1682943208913
     cooldown_expiration: 0
     charges: 0.0
@@ -704,9 +704,9 @@ spells:
     charges: 0.0
   missile|3:
     cast_count: 492
-    last_cast: 1682938428769
+    last_cast: 1682999250679
     last_earn: 1682908324722
-    cooldown_expiration: 0
+    cooldown_expiration: 1682999251679
     charges: 0.0
 wands:
   spellbook:
@@ -859,7 +859,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: b02040a6-31f3-4d33-a046-8d79206d62e6
+            uuid: ec148392-8616-48b4-aac5-7f44c71792a4
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -870,7 +870,7 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0VS0W7bMAxkaqd20qAF2q4P3V4GbG8NIDdp4nzAviOgJHoVokquZCcYiv57KQ1b347m8e5Eeg4wgfJA1E/mUJ7Q6Rqm/uQowOyX0xQsHrGAu2c/SAx7447kBh/+7JUf3QA8XcMC1WCOtI89WQvVi4nRWKqhNMo7WMTBqMNb0wrRvM/hKrM+hQqYnXw4SHLqmeVuCij7kWUA5gXUyluLfSQuv3BHehYEOGOoxpC+TguoAnWWVApzUfy35woKmEqLMXXqjI3TKXIB53KUMpO+caMLPpMu2bEzgSTmALfc4og5V8mWcRiT+zmz8HVEO7rfXF4zC0Pwp2SY0hMdGM4YJi2G9/lNMcl8Z+tA6q9+xZPKekz0RYphMfO/Qg11vsHeaPghtmLVENFSCb1arkmvl22Hu+Wmawmbxxal5AtVRwrR5PVUPD7QS29xoH83XVDX8Y74bNYH+KnEkxaPjWietg+bHUm1oabZtfSwEi1tN2sl27XmP+NidDr4vkde1gQ+AHZSJnItAgAA
+        internal: H4sIAAAAAAAA/0VSy27bMBBcV3IsP9ACbZNDkkuA9BYDVKzY8gf0O4wluUoI06RKSjaKIv/eJQO0t1nOcmaWywXABMojUT9ZQHlBpyuY+oujAPOfTlOweMYCbt78IDEcjDuTG3z4fVB+dAPw7QpWqAZzpkPsyVqYnUyMxlIFpVHewSoORh3/1K0Q9fsCvuSu/0IFzC8+HCU59cZy3woo+5FlABYFVMpbi30kLq+ZkZ4FAT4xVGNIp9MCZoE6SyqFWRb/7LmCAqbSYkxMlbFxOkUu4EqOUuameya64HPTZ3bsTCCJOcB3pjhizlWyZRzG5H6VbljM9neMMQR/SW4pOtGR4ZxhEmJ4yx3KekzHKzYOpD7UZ3nSmMQf2Bd/jWhH98rlV6igGujUWxzoYyk815lCNHn8GdN5RQej4VHsxKYmorUSerNuSDfrtsP9etu1hPVzi1Ii74i6jt+I12Z9gB9KvGjxXIv6Zfe03ZNUW6rrfUtPG9HSbtso2Taaf8ZydDr4vkd+rAn8BVp7vLUtAgAA
     wand:
       owner: Enderlava
       hotbar_inventory_count: 1
@@ -891,17 +891,17 @@ wands:
         fireball: 20
         torch: 4
         stun: 6
-        flare: 27
+        aqualung: 18
         arrow: 3
         peek: 9
         fire: 26
-        cloak: 12
-        recall: 7
         push: 33
-        aqualung: 18
-      template: wand
-      version: 7
+        recall: 7
+        cloak: 12
+        flare: 27
       owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+      version: 7
+      template: wand
       effect_color: c05d0210157,69ebc6e1198e,308e764cb84d
   mirrorshield:
     item:
@@ -926,12 +926,12 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/x3L0QqCMBgG0E8yXNJjdDuYKbUeoOeI3/ZJw7nJFH39otsDpwYKlCM5FzXKXaJTOKY9MuP0jI45yCYK6k8v73Axd9M2JPXbuFZ3dJ22gzz0bbCU5mql7+WAamNefIoAql9fOc1BVuI8+ZxTXj6ewQFfYlF2zH8AAAA=
+        internal: H4sIAAAAAAAA/x3L0QqCMBgG0E8yXNJjdDuYKbUeoOeI3/ZJw7nJFH39qNsDpwYKlCM5FzXKXaJTOKY9MuP0jI45yCYK6k8v73Axd9M2JPXbuFZ3dJ22gzz0bbCU5mql739h5TQHWYnz5HNOefl4BndAtTEvPkUAFfAFv+Z2yn8AAAA=
         blockMaterial: SHIELD
     wand:
       owner: Enderlava
-      template: mirrorshield
       version: 7
+      template: mirrorshield
       owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
   magicbow:
     item:
@@ -1011,7 +1011,7 @@ classes:
     - collapse
   mage:
     effect_color: cef52af28d37,e34b44b86e12,44d84fee9a2a
-    mana_timestamp: 1682949654854
+    mana_timestamp: 1682999262902
     mana: 50.0
   archer_mage: {}
   battle_mage:
@@ -1019,4 +1019,4 @@ classes:
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 21.999996185302734
+health: 26.799999237060547
