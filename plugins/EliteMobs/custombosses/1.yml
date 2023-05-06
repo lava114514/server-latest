@@ -37,6 +37,7 @@ powers:
 - attack_arrow.yml
 - death_slice.yml
 - invulnerability_fall_damage.yml
+- attack_push.yml
 onDamageMessages:
 - 会翻墙吗！
 onDamagedMessages:

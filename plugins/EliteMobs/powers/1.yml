@@ -12,5 +12,5 @@ eliteScript:
         range: 10
       sValue: function minecraft:summon
     Cooldowns:
-      local: 20
+      local: 500
       global: 20

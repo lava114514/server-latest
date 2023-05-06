@@ -48,8 +48,8 @@ settings:
       prefix: ''
       suffix: ''
       always-send-data: true
-      resident-fakeplayer: false
-      open-fakeplayer-inventory: false
+      resident-fakeplayer: true
+      open-fakeplayer-inventory: true
     bedrock-break-list: false
     instant-block-updater-reintroduced: false
     budding-amethyst-can-push-by-piston: false

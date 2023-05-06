@@ -1,10 +1,10 @@
 id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
 name: mc_wyy114
 created: 1679719078156
-updated: 1682949374442
+updated: 1683373874324
 last_cast: 1682948323203
-cooldown_expiration: 1682949121005
-last_death_location: 17.69999998807907,78.10261724647893,-214.02507120052806,world,-37.49785,11.550095
+cooldown_expiration: 1683373532027
+last_death_location: 5.042571605457418,78.72860926093821,-212.39635961096883,world,82.49893,21.9
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -218,7 +218,7 @@ wands:
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
         Unbreakable: true
-        internal: H4sIAAAAAAAA/01RQU7DMBDckpSGgEACqWcOiFMrJTRVEh6AxCsix143Vp11ZLuNIsTfcdsDvY21M7Mz3hRgBvEecZilEI+MRAIxsR7h8ZukIuWn1y9jOSYwNyOhhbueN+M05XkRwbIzvmW2UXRE8sZODTcH8hBMg43ihmBJ6Du0ymPjRmPFT15lWf2bwpMbUOt/aQTxcNA6aCGCRCqLLTs/5xHMmbVmDPgmgkWvnFMaT7ygOREDjAOp1YrEaffZynUB3kICyTl3owS85duiysuarQue1+ui/ZDrquCbtRBlVmYoN6zaBIHHftDMI6Q92yl+zh0WH9E6FSoBLFJ4QOIdI9+H9C6Cl14Rcsuk/3QdswOhc5dYV5M9Gb5vGd9fmjxfacZwAUW7S/lgLiVyH35TGwvveSZlndV1vRVsJVHWZSUlL0W2up6EQ94fSFgzDKzVOIM/cR8eBNwBAAA=
+        internal: H4sIAAAAAAAA/02RwU7DMAyGPdqxUiaQQNqZA+K0SS0rassDIPEUVZo4a9TUqZJs1YR4d7LtwG5/5P+3PzspwAziHnGcpRBPjEQCMbEB4eGbpCLljy9fxnJMYG4mQgt3A2+m4zHPiwhWnfEts42iA5I39thwsycPoWloo7ghWBH6Dq3y2LjJWPGTV1lW/6bw6EbU+j8aQTzutQ5ZiCCRymLLzs95BHNmrZmCvolgMSjnlMaTL2ROxiDjYGq1InGafW7luiBvIYHkzN0oAa/5R1HlZc02Bc/rTdG+y01V8O1GiDIrM5RbVm1DwOMwauYR0oHtFD9zh8EHtE6FlQAWKSyReMfID4HeRfA8KEJumfSfrmN2JHTugvV0VZnCnRXtLuhXkZ4M71vG+9OKAXmJUiL34ZraWHjLMynrrK7rD8HWEmVdVlLyUmTr60r4yPs9CWvGkbUaZ/AHCUZiQNwBAAA=
     wand:
       name: Infinity Force
       owner: mc_wyy114
@@ -236,9 +236,9 @@ wands:
       template: magicsword
       owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
       enchantments:
-        minecraft:sweeping: 3
         minecraft:sharpness: 4
         minecraft:knockback: 2
+        minecraft:sweeping: 3
       effect_color: 10ff909995da,fef978ffc7d0,10ff909995da
   wand:
     item:
@@ -271,7 +271,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: a0201a81-c7e2-44c6-b4d7-0ed30ec50d63
+            uuid: 9c066a99-d220-45d5-9778-4239d1e34230
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -282,19 +282,19 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0VRX2+CMBA/BipzZr7tdS/bmyQUUPDTkLZcY2OlpAWJWfbdd4DJ3q6539/rFiCA6IrYBVuIRt42AbyjUij7WgxCGPQQw47LXt+x9h0aA1E3GBNDpKVtYed7La8/rEpT9ruFzcL1McQzh/cIACFs7ui8JjzAhnY93joz7WZLMnhaSmusg28pKnmUpzRVEg8VCjwxkedZdTiyLE9L3mRnJUNYX2wvuCNNyriyY4sOXm+yHh8PxooY9k/VjjsKaXAK8rFwat3ese2te5Dn0PYkQQfYzwX/d+HSlZarEGKlHQo+P4MQVtw5O9L8Qu1u2ns9GUwW0QSk6ZNAwui2mUpTWodyYa9nXX+hMSKMMtwtV6LLzC1q3cAXOxYVK888KSQ7J4XIVFIVMk+apkzLFFXOq5w+721oG2e7jtNfBfAHQtM7pNABAAA=
+        internal: H4sIAAAAAAAA/0VRTW+DMAw1g7asq9bbrrtstyIRoIX+GpQER42aJiiEomraf18IlXaz5ffhZ28BIkiuiH20hWSiuovgHYVA7lo2MqZwgBR2lDt5x3boUSlI+lGpFBLJjYbd4CS//pAmz8nvFjYLd0ghDRzqEMArpA5vvZq7YBLD5o52kF4AYBPD+mIcoxYCdvf050YZC9+cNfzIT3kuOB4aZHgirCyL5nAkRZnXtCvOgqewf7J6av1GCmellZk0Wni98XZ6PAipYvhYnFqp76idsQ9vM2rnjf0B9iHg/yxesvrhKoZUSIuMhjaKYUWtNZOvX3yYmxwGOXsCeM4M9NWnBzEldffMaJEv7HXQHS6+TDxGKBrw8XynsHErO/gix6oh9ZlmFSfnrGKFyJqKl1nX1XmdoyhpU/rnvY26s6bvqf9VBH/mWHm10AEAAA==
     wand:
       effect_bubbles: false
       active_spell: pull
       icon: stick{18001}
       effects:
         activate: ''
-      template: wand
       version: 7
-      hotbar: 0
+      template: wand
       effect_color: cb8c5c600fce,8ebe61b3328,512307ad29fc
-      effect_particle: ''
+      hotbar: 0
       owner: mc_wyy114
+      effect_particle: ''
       hotbar_inventory_count: 1
       spell_inventory:
         pull: 5
@@ -409,7 +409,7 @@ classes:
     - push
   mage:
     effect_color: 456a4a324571,d7819e4f1a4d,20893af8e500
-    mana_timestamp: 1682949374405
+    mana_timestamp: 1683373874297
     mana: 50.0
   archer_mage: {}
   battle_mage:
@@ -417,4 +417,4 @@ classes:
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 22.086225509643555
+health: 24.399999618530273

@@ -9,3 +9,4 @@ potionEffects:
 - JUMP,2,self,continuous
 - NIGHT_VISION,0,self,continuous
 dropWeight: '1'
+itemType: unique
