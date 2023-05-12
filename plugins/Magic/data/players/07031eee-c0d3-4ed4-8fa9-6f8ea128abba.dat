@@ -1,10 +1,10 @@
 id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
 name: Enderlava
 created: 1678458824899
-updated: 1683373890440
+updated: 1683893150692
 last_cast: 1683373822220
-cooldown_expiration: 0
-last_death_location: -16.69999998807907,75.0,-207.78506507720158,world,54.450073,7.0499783
+cooldown_expiration: 1683893140142
+last_death_location: -16.099563456267873,63.0,-294.6886293477327,world,-13.90686,27.599459
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -781,22 +781,22 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/yVR7VKDMBA8hFqgav3qG/iXGbAdxQfwOTqX5FCGNMEEyjiO7+4l/tu73dvdTEqABLKBaExKyBY0KoeVXQw5KN6NIqfxjDnkE51GjRNB4UfSWlg7pLA+k/O9NQCwZk08O/YKnurXet8QUSVrta8OpA5V2+Fb9dK1hM1zi0KwadZLvt2RkZ9oJlLH4PrTtHXd/JawjUHH3pzJTNZ9p1As1g0iyDnwMYVsnLUO2Snk0mqNoyced8ywU2h1wVDOLmy3XNdRp0lOPOU8nXrvex24MoWV0OgDcxlxbxTjJIVLMQsRRfdMdM5G0QMndr0jgbHANVNcMfa64Ug/zSE9CxcaYzwwRufsEmCoTjQwvGUYjBhuWCG1xbC+42BH8t+9iC/1wXzFufg1o57NB49X4fM2s1HOjiNyzQT+AI6oczDQAQAA
+        internal: H4sIAAAAAAAA/yVR21KDMBBdhFqgar31D3xlBmxH8QP8js4mWZQhTTCBMo7jv7uJb2f37LlkUgIkkA1EY1JCtqBROazsYshB8W4UOY1nzCGPq2Ov4Kl+rfcNEVWyVvvqQOpQtR2+VS9dS9g8tygEprA+k/O9NQCwZvlEp1HjRFD4kbQW1g45ZL3kgx0Z+YlmInUM65+mrevmt4RtvDz25kxmsu47hWyctQ6GKRSLdYMISp4fOc5Rp0lOPOV8KGdHDLcM2TOUuEghl1ZrHH1gdimshEYfBJcsP/Xe9zowZWR6oxgnKVyKWYhI3DPRORslD+zW9Y4ExkLXTHHFWOaGM/00h8wsKDTGKsAYnbNLgOEpRAPDW4bBiOGGL6S2GNZ3HOxI/rsX8eU+mK84F79m1LP54PEqfN5mNsrZcUSumcAfWrmblNABAAA=
     wand:
       owner: Enderlava
-      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
-      version: 7
       template: spellbook
+      version: 7
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
       icon: enchanted_book{18001}
       spell_inventory:
-        pull: 7
         workbench: 20
-        reflect: 8
-        cure: 15
-        boon: 2
+        pull: 7
         collapse: 21
-        blast: 6
+        boon: 2
+        cure: 15
+        reflect: 8
         missile: 10
+        blast: 6
         blind: 1
         bubble: 18
         frost: 19
@@ -848,7 +848,7 @@ wands:
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
         Unbreakable: true
-        internal: H4sIAAAAAAAA/02QTU7DMBCFJySlISCx66pLxKqRHFpofADOEU3iMbVw7ch2GiHE3ZlmA7s3mu+9+akAMig+icasgmJGp0pY+dlRgLt3pyhYvGAOm5NPPYbOuAu55MNXN/jJJWB3CYUZvIONo3SiYBJ1cfZBfTetEPKngsc4krV/1hyKcbKWvUUOpTaBelzKLId1IG1puAavmItpcixvclhhCH5mvWXobGI0lri6ZeiawHLNUG+NU6xhmRFPiyqhTHQeLSaC6owfZlj245wLhWj8dcKaoeXqzih4Ekexb4ioHoTa1wdSh7rVKOs33RI2Ly32PZbwQFrzqvwJ6wM8N0JrKaSUrwp3mrQ8tloPRyV2/zv87fvJqeDHEXtLGfwCimrA84EBAAA=
+        internal: H4sIAAAAAAAA/02QwU7DMAyGXdrRUpC4ceKIOK1SygZrHoDnqNzGYRFZUiXpKoR4d7xe4PZZ/n/bv2uADIpPoimroVjQqQo2fnEU4ObdKQoWz5jDw9GnAUNv3Jlc8uGrH/3sErC7gsKM3sGDo3SkYBL1cfFBfbedEPKnhvs4kbV/1hyKabaWvUUOlTaBBlzLLIcykLY0XgZvWBfT7BivcthgCH5hfmTRycRoLHF1zaLLBMaSRYM1TjHDuiMeV6qgWgP1RsGTOIhdS0TNKNSu2ZPaN51G2bzpjrB96XAYOG55phCNv+wu2Z7oNFlMBPUJP8y4xqvgjrTmU/kT1gd4boXWUkgpXxVuNWl56LQeD0ps/3f427ezU8FPEw6WMvgF7PVlo4EBAAA=
     wand:
       owner: Enderlava
       hotbar_inventory_count: 1
@@ -863,9 +863,9 @@ wands:
         fire: 7
         blind: 0
         push: 3
-      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
-      version: 7
       template: magicsword
+      version: 7
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
       effect_color: 10ff909995da,fef978ffc7d0,10ff909995da
   wand:
     item:
@@ -909,21 +909,21 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0VSXW/bMAxkaqd20wBr99Fia/vW7mFoADtxEvsH9HcElEy3QlTJk+wEw7D/PkrD2rejeLw7iZoBTCDdE/WTGaRHNG0OU3s05ODsybTkNB4wgasXOwh0O2UOZAbrfu2kHc0AACc5zFEO6kA735PWkL0q75WmHFIlrYG5H5Tc/y7rolj+mcGHyHoXSuDsaN1ekJEvLHeTQNqPLAPwMYFcWq2x98TlHXeEZUH2ZChHF06nCWSOOk0yhPmUvNlz9ZDAVGj0oXMRsTIt4/sETsUoRCR94UbnbCRdsWOnHAmMAW5DS2P0AcYcN2ZM2d4PY0hyylK9VT7GumYOOmePgR7uQbRneMkwqDL8Gm/ng8gPnnQk/zllPCm1xUD/zCHw54h6NM9cfoMc8riQnWrhvtgWq5KIFrJoV4uK2mpRd9gsNl1NWC5rFILXlR3IeRVDZTw+0GuvcaD/C55T1/GD8Q61dfB9W+GGlWQt6s0jLpt12S3bRq6rx6ZeFeW6rrBZbfmfnI+mdbbvkZ9uAn8BYA9CZjsCAAA=
+        internal: H4sIAAAAAAAA/0VSXW/bMAxkaqdx0wL92NZh6/aW9aFIADtxEvsH7HcElEyvQhTJlewEw7D/XkoBtrcjeLw7ipoCjCDdE3WjKaQnNE0GY3sy5ODqp2nIaTxiAo+vthfodsocyfTW/d5JO5geAC4yuEHZqyPtfEdaw+SgvFeaMkiVtAZufK/k/k9R5fny7xRuI+u/UAJpN/AYwEMCVyfr9oKMfOX6KYGJo1aTDD4fmCgHRwzHDIVlaXZPIJNWa+x86HxPYCw0+jBwl/yLwtWP2FGmYTxL4FIMQsTGJ260zsaRR1ZrlSOBMdC30NIYPYExx43BUvb3/RD8L1mqs8rHMJ+Zg87ZU6CHvYj2DO8ZBlWGX+K2Poi88KQjeXaa8KTUFgP9I4fAtwH1YH5x+RUyyHo6dBp7Ol+IFzuS8yqaTrgd77VTDczybb4qiGgh82a1KKkpF1WL9WLTVoTFskIhkA9GbcuvyjfU1sHztsQNU2Ulqs0cl/W6aJdNLdflvK5WebGuSqxXW/4n14NpnO065KcbwTs4+5a3OwIAAA==
     wand:
       owner: Enderlava
       hotbar_inventory_count: 2
       active_spell: missile
       icon: stick{18002}
       spell_inventory:
-        pull: 18
         workbench: 27
-        reflect: 19
-        cure: 5
-        boon: 2
+        pull: 18
         collapse: 29
-        blast: 16
+        boon: 2
+        cure: 5
+        reflect: 19
         missile: 37
+        blast: 16
         blind: 36
         bubble: 21
         frost: 22
@@ -939,9 +939,9 @@ wands:
         recall: 7
         push: 42
         flare: 0
-      template: wand
-      version: 7
       owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+      version: 7
+      template: wand
       effect_color: 74a64edc8b86,a2951f2d9c54,98301584a937
   mirrorshield:
     item:
@@ -999,19 +999,19 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/1WOwU7DMBBEN0pQTQBx4wu4RkpoBeED+A5rbW9bC9drbZxECPHvmHBAHGc082ZagAqad6JUtdCsGJ2CK14jCVy/RUcScMEaHs6cDYr2caGYWT605TlmKG0Ft2izX0hPiUIoSoRXndhPHBU03nKE1vD6OYx9P3y1cL8F/1g13P12hE5zQClUqP9zfoaKt1tIJr/JnQKV6ZICZgJ1wZO3ZaOY23ntHTz2L/1+IKLO9m7fHcgduvGIr93zcSQcnkY0Bgv2Zo5OOCU0gSr4BrS6AQwRAQAA
+        internal: H4sIAAAAAAAA/1WPQU7EMAxFXbVoQgGx4wRsK7XMCMoBOEfkJJ4hIhNHbtoKIe5OpiwQ3vnL7//vFqCC5oMoVS00K0an4IrXSALXb9GRBFywhod3zgZF+7hQzCyf2vIcMxRawS3a7BfSU6IQyibCq07sJ44KGm85Qmt4/RrGvh++W7jfDv+86v/MxbSGu19J6DQHFLiMArU1097BY//S7wci6mzv9t2B3KEbj/jaPR9HwuFpRGOwAJnOKWAmUGc8eVtq1LBbSCa/Be3K9zdzdMIpoQlUwQ+u4sQ8EQEAAA==
     wand:
       owner: Enderlava
       hotbar_inventory_count: 1
       active_spell: arrow_poison
       icon: bow{18001}
       spell_inventory:
-        arrow_regular: 0
         arrow_poison: 1
-      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
-      template: magicbow
+        arrow_regular: 0
       version: 7
-open_wand: true
+      template: magicbow
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
@@ -1052,7 +1052,7 @@ classes:
     - collapse
   mage:
     effect_color: cef52af28d37,e34b44b86e12,44d84fee9a2a
-    mana_timestamp: 1683373890339
+    mana_timestamp: 1683893150592
     mana: 100.0
     path: student
   archer_mage: {}

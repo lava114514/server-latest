@@ -8,7 +8,7 @@ skills:
     xp: 505.2799999999979
   mining:
     level: 5
-    xp: 1091.1400000000344
+    xp: 1521.1300000000338
   fishing:
     level: 7
     xp: 2129.5
@@ -20,16 +20,16 @@ skills:
     xp: 3278.550000000006
   defense:
     level: 9
-    xp: 846.5601525524518
+    xp: 968.9601525524535
   fighting:
     level: 12
-    xp: 1014.7999999997058
+    xp: 1875.1999999997115
   endurance:
     level: 11
-    xp: 1934.0
+    xp: 2120.0
   agility:
     level: 7
-    xp: 450.9068914890311
+    xp: 466.3068914890311
   alchemy:
     level: 1
     xp: 0.0
@@ -38,7 +38,7 @@ skills:
     xp: 718.0
   sorcery:
     level: 6
-    xp: 195.57189006358385
+    xp: 205.57189006358385
   healing:
     level: 1
     xp: 20.0
@@ -49,14 +49,9 @@ mana: 46.0
 locale: zh-cn
 ability_data:
   first_strike:
-    counter: 122
+    counter: 126
   xp_convert:
-    xp: 1.0358982450573688
+    xp: 5.22589824505733
   charged_shot:
     cooldown: 0
     enabled: true
-stat_modifiers:
-  '0':
-    name: mining-stamina
-    stat: toughness
-    value: 1.0

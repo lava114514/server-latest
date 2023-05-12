@@ -43,6 +43,7 @@ settings:
     fakeplayer:
       enable: true
       unable-fakeplayer-names:
+      - fake
       - player-name
       limit: 10
       prefix: ''
@@ -71,9 +72,9 @@ settings:
     disable-method-profiler: true
     no-chat-sign: true
     extra-yggdrasil-service:
-      enable: false
+      enable: true
       urls:
-      - https://url.with.authlib-injector-yggdrasil
+      - https://littleskin.cn/api/yggdrasi
 config-version: 2
 world-settings:
   default: {}

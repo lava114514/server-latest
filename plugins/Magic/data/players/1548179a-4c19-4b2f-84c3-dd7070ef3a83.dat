@@ -1,10 +1,10 @@
 id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
 name: mc_wyy114
 created: 1679719078156
-updated: 1683374028943
-last_cast: 1682948323203
-cooldown_expiration: 1683373975039
-last_death_location: 5.042571605457418,78.72860926093821,-212.39635961096883,world,82.49893,21.9
+updated: 1683898665512
+last_cast: 1683898592121
+cooldown_expiration: 0
+last_death_location: 121.89224049067839,59.949010661548975,-187.81215811937514,world,76.94998,42.300007
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -35,9 +35,9 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   arrow:
-    cast_count: 31
-    last_cast: 1682908367479
-    last_earn: 1682908357106
+    cast_count: 32
+    last_cast: 1683898589041
+    last_earn: 1683897630298
     cooldown_expiration: 0
     charges: 0.0
   appearanceshop:
@@ -59,9 +59,9 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   recall|2:
-    cast_count: 28
-    last_cast: 1682948323203
-    last_earn: 1682948329258
+    cast_count: 30
+    last_cast: 1683898592122
+    last_earn: 1683898533095
     cooldown_expiration: 0
     charges: 0.0
   spellshop:
@@ -167,9 +167,9 @@ spells:
     cooldown_expiration: 1680270691636
     charges: 0.0
   missile|3:
-    cast_count: 121
-    last_cast: 1682947474318
-    last_earn: 1682947470547
+    cast_count: 136
+    last_cast: 1683897667493
+    last_earn: 1683897609776
     cooldown_expiration: 0
     charges: 0.0
 wands:
@@ -209,7 +209,7 @@ wands:
             amount: 6.0
             name: Equipment Modifier
             slot: HAND
-            uuid: 41a53e54-ddd4-4b65-9651-db3feee87c24
+            uuid: 8f8cc407-01a1-46e1-b2cd-019b9e1d19c3
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -218,7 +218,7 @@ wands:
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
         Unbreakable: true
-        internal: H4sIAAAAAAAA/02RwU7DMAyGPdqxUiaQQNqZA+K0SS0rassDIPEUVZo4a9TUqZJs1YR4d7LtwG5/5P+3PzspwAziHnGcpRBPjEQCMbEB4eGbpCLljy9fxnJMYG4mQgt3A2+m4zHPiwhWnfEts42iA5I39thwsycPoWloo7ghWBH6Dq3y2LjJWPGTV1lW/6bw6EbU+j8aQTzutQ5ZiCCRymLLzs95BHNmrZmCvolgMSjnlMaTL2ROxiDjYGq1InGafW7luiBvIYHkzN0oAa/5R1HlZc02Bc/rTdG+y01V8O1GiDIrM5RbVm1DwOMwauYR0oHtFD9zh8EHtE6FlQAWKSyReMfID4HeRfA8KEJumfSfrmN2JHTugvV0VZnCnRXtLuhXkZ4M71vG+9OKAXmJUiL34ZraWHjLMynrrK7rD8HWEmVdVlLyUmTr60r4yPs9CWvGkbUaZ/AHCUZiQNwBAAA=
+        internal: H4sIAAAAAAAA/01RQU7DMBDckpSGgEACqWcOiFMrJTRVEh6AxCsix143Vp11ZLuNIsTfcdsDvY13Z8azuynADOI94jBLIR4ZiQRiYj3C4zdJRcpPr1/GckxgbkZCC3c9b8ZpyvMigmVnfMtso+iI5I2dGm4O5CGYBhvFDcGS0HdolcfGjcaKn7zKsvo3hSc3oNb/0gji4aB10EIEiVQWW3Z+ziOYM2vNGPBNBIteOac0nnhBcyIGGAdSqxWJ099nK9cFeBu8Fke0ToUoAIsEEo/9oJlHSHu2U/wcKpTPwzVKwFu+Laq8rNm64Hm9LtoPua4KvlkLUWZlhnLDqk0KD0i8Y+T7kN5F8NIrQm6Z9J+uY3YgdO4S6/mqM4Y9K9pdol9J9mT4vmV8fxoRkmAuJXIftqmNhfc8k7LO6rreCraSKOuykpKXIltdd8Ih7w8krBkG1mqcwR8Rd5y/3AEAAA==
     wand:
       name: Infinity Force
       owner: mc_wyy114
@@ -232,9 +232,9 @@ wands:
         fire: 4
         blind: 1
         push: 6
-      version: 7
-      template: magicsword
       owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      template: magicsword
+      version: 7
       enchantments:
         minecraft:sharpness: 4
         minecraft:knockback: 2
@@ -271,7 +271,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: 9c066a99-d220-45d5-9778-4239d1e34230
+            uuid: b26fa3af-79f1-4068-b928-7d7e3dac6ee5
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -282,28 +282,29 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0VRTW+DMAw1g7asq9bbrrtstyIRoIX+GpQER42aJiiEomraf18IlXaz5ffhZ28BIkiuiH20hWSiuovgHYVA7lo2MqZwgBR2lDt5x3boUSlI+lGpFBLJjYbd4CS//pAmz8nvFjYLd0ghDRzqEMArpA5vvZq7YBLD5o52kF4AYBPD+mIcoxYCdvf050YZC9+cNfzIT3kuOB4aZHgirCyL5nAkRZnXtCvOgqewf7J6av1GCmellZk0Wni98XZ6PAipYvhYnFqp76idsQ9vM2rnjf0B9iHg/yxesvrhKoZUSIuMhjaKYUWtNZOvX3yYmxwGOXsCeM4M9NWnBzEldffMaJEv7HXQHS6+TDxGKBrw8XynsHErO/gix6oh9ZlmFSfnrGKFyJqKl1nX1XmdoyhpU/rnvY26s6bvqf9VBH/mWHm10AEAAA==
+        internal: H4sIAAAAAAAA/0VR0W6DMAx0B20zVq1v+4LtrUgEaKFfg5Jg1qgpQQGKqmn/Pgcq7c3J3dm+cwSwgvCK2K0iCCfR1gGEnfhGAI+8Y9OgGio5SmmwBwY7oQZ9x6rv0BiijsYwCLWyLez6QavrDy+ThP9GsF20PQM2a8TgmwawvaPrNfEBtoQNeOuMx+bpNOA5UlljHXwpWaqjOiVJo/BQosQTl1mWlocjT7OkEHV6blQAm4sdpHB+awZrO7Xo4PWmqunx4DxnsH927YSjJQ36RT4WTaXbO7aDdQ+aObaDNx7Bfjb4jwWLVwLXAbBGO5RifjJydNN9r82cWQBr4ZydqHwhjSf6hrShQ7UoNsSRRre1T2Du21+oDOm7McItKVEys4tK1/DJj3nJi7OIc8XPcS7TJi5zlcV1XSRFgk0myoyu9Ta2tbNdJ+hWK/gDLtTAhNsBAAA=
     wand:
+      page: 0
       effect_bubbles: false
       active_spell: pull
       icon: stick{18001}
       effects:
         activate: ''
-      version: 7
       template: wand
-      effect_color: cb8c5c600fce,8ebe61b3328,512307ad29fc
+      version: 7
       hotbar: 0
-      owner: mc_wyy114
+      effect_color: cb8c5c600fce,8ebe61b3328,512307ad29fc
       effect_particle: ''
+      owner: mc_wyy114
       hotbar_inventory_count: 1
       spell_inventory:
         pull: 5
-        fireball: 1
-        missile: 0
+        fireball: 8
         arrow: 2
-        fire: 31
-        recall: 6
+        missile: 0
+        fire: 1
         blind: 7
+        recall: 6
         push: 4
         flare: 3
       owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
@@ -330,13 +331,13 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/x3L0Q6CIBgG0M9lk1yP0S2bBA18Gkfwu1gCDl3Mt691f04PNGjfRGvTo602eYZzrokKLtFN9TiEUCd0HypbyAlAx8D+YAoeN/FQRujRcuXEyNXzPnOjnOTe60EPNEtr5C/sFNfF7oRrDKXksr0CLR74ApnvsqB/AAAA
+        internal: H4sIAAAAAAAA/x3K0Q6CIBgG0M9lk1yP0S2bBA18Gkfwu1gCDl3Mt691rk8PNGjfRGvTo602eYZzrokKLtFN9TiEUAxsp7gudidcYygll+0VaPld9r9T8LiJhzJCj5YrJ0aunveZG+Uk914PeqBZWiNP6D5UtpATgA74AjpGJjh/AAAA
         blockMaterial: SHIELD
     wand:
       owner: mc_wyy114
-      template: mirrorshield
-      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
       version: 7
+      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      template: mirrorshield
   magicbow:
     item:
       ==: org.bukkit.inventory.ItemStack
@@ -388,7 +389,7 @@ open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
-  sp: 580.0
+  sp: 604.0
 properties:
   version: 7
 classes:
@@ -409,11 +410,11 @@ classes:
     - push
   mage:
     effect_color: 456a4a324571,d7819e4f1a4d,20893af8e500
-    mana_timestamp: 1683374028889
+    mana_timestamp: 1683898665506
     mana: 50.0
   archer_mage: {}
   battle_mage:
-    mana_timestamp: 1682947803404
+    mana_timestamp: 1683896011293
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
