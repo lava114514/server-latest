@@ -1,0 +1,421 @@
+id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+name: mc_wyy114
+created: 1679719078156
+updated: 1683898665512
+last_cast: 1683898592121
+cooldown_expiration: 0
+last_death_location: 121.89224049067839,59.949010661548975,-187.81215811937514,world,76.94998,42.300007
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: 0
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  b8dd9de6-bce5-418b-9566-b5e1a4cc7a98:
+  - blocks:
+    - -407,53,568,world_nether|air
+    time_to_live: 0
+    name: 回传
+    mode: NO_PHYSICS
+spells:
+  flare:
+    cast_count: 37
+    last_cast: 1682947463067
+    last_earn: 1682947380856
+    cooldown_expiration: 0
+    charges: 0.0
+  blind:
+    cast_count: 7
+    last_cast: 1682921455295
+    last_earn: 1682921457304
+    cooldown_expiration: 0
+    charges: 0.0
+  arrow:
+    cast_count: 32
+    last_cast: 1683898589041
+    last_earn: 1683897630298
+    cooldown_expiration: 0
+    charges: 0.0
+  appearanceshop:
+    cast_count: 0
+    last_cast: 1682054832998
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  upgrades:
+    cast_count: 5
+    last_cast: 1682054952839
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  controlsmenu:
+    cast_count: 0
+    last_cast: 1682124414100
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  recall|2:
+    cast_count: 30
+    last_cast: 1683898592122
+    last_earn: 1683898533095
+    cooldown_expiration: 0
+    charges: 0.0
+  spellshop:
+    cast_count: 0
+    last_cast: 1682058415166
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  effectshop:
+    cast_count: 1
+    last_cast: 1680353322470
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  recall:
+    cast_count: 25
+    last_cast: 1682777923829
+    last_earn: 1682777923827
+    cooldown_expiration: 1682777938829
+    charges: 0.0
+  missile:
+    cast_count: 30
+    last_cast: 1679802804122
+    last_earn: 1679802804120
+    cooldown_expiration: 1679802805122
+    charges: 0.0
+  fire:
+    cast_count: 37
+    last_cast: 1682122258627
+    last_earn: 1680672432856
+    cooldown_expiration: 0
+    charges: 0.0
+  progressmenu:
+    cast_count: 32
+    last_cast: 1682905961975
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  fireball:
+    cast_count: 15
+    last_cast: 1680323198298
+    last_earn: 1680323198298
+    cooldown_expiration: 1680323208298
+    charges: 0.0
+  fireball|2:
+    cast_count: 27
+    last_cast: 1682908336932
+    last_earn: 1682122163055
+    cooldown_expiration: 0
+    charges: 0.0
+  swordappearanceshop:
+    cast_count: 0
+    last_cast: 1682711408594
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  arrow_poison:
+    cast_count: 8
+    last_cast: 1682136246132
+    last_earn: 1682136242552
+    cooldown_expiration: 0
+    charges: 0.0
+  push:
+    cast_count: 0
+    last_cast: 1682122158360
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  pull:
+    cast_count: 12
+    last_cast: 1682942264801
+    last_earn: 1682919042932
+    cooldown_expiration: 0
+    charges: 0.0
+  bowappearanceshop:
+    cast_count: 0
+    last_cast: 1682058434126
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  wandinstructions:
+    cast_count: 2
+    last_cast: 1680272172079
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  arrow_regular:
+    cast_count: 1
+    last_cast: 1682058355688
+    last_earn: 1682058355815
+    cooldown_expiration: 0
+    charges: 0.0
+  colorshop:
+    cast_count: 0
+    last_cast: 1682124399273
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  missile|2:
+    cast_count: 50
+    last_cast: 1680270690636
+    last_earn: 1680270689391
+    cooldown_expiration: 1680270691636
+    charges: 0.0
+  missile|3:
+    cast_count: 136
+    last_cast: 1683897667493
+    last_earn: 1683897609776
+    cooldown_expiration: 0
+    charges: 0.0
+wands:
+  magicsword:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"Infinity
+          Force"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gray","text":"战士 "},{"color":"white","text":"Magic
+          Sword"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 mc_wyy114"}'
+        - '{"text":"掌握 7 技能"}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"gray","text":"Sharpness IV"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"gray","text":"击退 II"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"gray","text":"Sweeping Edge III"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
+          "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        custom-model-data: 18009
+        enchants:
+          KNOCKBACK: 2
+          DAMAGE_ALL: 4
+          SWEEPING_EDGE: 3
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: Equipment Modifier
+            slot: HAND
+            uuid: 8f8cc407-01a1-46e1-b2cd-019b9e1d19c3
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/01RQU7DMBDckpSGgEACqWcOiFMrJTRVEh6AxCsix143Vp11ZLuNIsTfcdsDvY13Z8azuynADOI94jBLIR4ZiQRiYj3C4zdJRcpPr1/GckxgbkZCC3c9b8ZpyvMigmVnfMtso+iI5I2dGm4O5CGYBhvFDcGS0HdolcfGjcaKn7zKsvo3hSc3oNb/0gji4aB10EIEiVQWW3Z+ziOYM2vNGPBNBIteOac0nnhBcyIGGAdSqxWJ099nK9cFeBu8Fke0ToUoAIsEEo/9oJlHSHu2U/wcKpTPwzVKwFu+Laq8rNm64Hm9LtoPua4KvlkLUWZlhnLDqk0KD0i8Y+T7kN5F8NIrQm6Z9J+uY3YgdO4S6/mqM4Y9K9pdol9J9mT4vmV8fxoRkmAuJXIftqmNhfc8k7LO6rreCraSKOuykpKXIltdd8Ih7w8krBkG1mqcwR8Rd5y/3AEAAA==
+    wand:
+      name: Infinity Force
+      owner: mc_wyy114
+      hotbar_inventory_count: 1
+      icon: netherite_sword{18009}
+      spell_inventory:
+        pull: 0
+        fireball: 5
+        missile: 3
+        arrow: 2
+        fire: 4
+        blind: 1
+        push: 6
+      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      template: magicsword
+      version: 7
+      enchantments:
+        minecraft:sharpness: 4
+        minecraft:knockback: 2
+        minecraft:sweeping: 3
+      effect_color: 10ff909995da,fef978ffc7d0,10ff909995da
+  wand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"法杖"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"魔力法杖"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 mc_wyy114"}'
+        - '{"text":"掌握 9 技能"}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"拉力"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
+          "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"yellow","text":"Change
+          controls using an "},{"color":"aqua","text":"enchant table"}],"text":""}'
+        custom-model-data: 18001
+        attribute-modifiers:
+          GENERIC_ATTACK_SPEED:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 10.0
+            name: Equipment Modifier
+            slot: HAND
+            uuid: b26fa3af-79f1-4068-b928-7d7e3dac6ee5
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/0VR0W6DMAx0B20zVq1v+4LtrUgEaKFfg5Jg1qgpQQGKqmn/Pgcq7c3J3dm+cwSwgvCK2K0iCCfR1gGEnfhGAI+8Y9OgGio5SmmwBwY7oQZ9x6rv0BiijsYwCLWyLez6QavrDy+ThP9GsF20PQM2a8TgmwawvaPrNfEBtoQNeOuMx+bpNOA5UlljHXwpWaqjOiVJo/BQosQTl1mWlocjT7OkEHV6blQAm4sdpHB+awZrO7Xo4PWmqunx4DxnsH927YSjJQ36RT4WTaXbO7aDdQ+aObaDNx7Bfjb4jwWLVwLXAbBGO5RifjJydNN9r82cWQBr4ZydqHwhjSf6hrShQ7UoNsSRRre1T2Du21+oDOm7McItKVEys4tK1/DJj3nJi7OIc8XPcS7TJi5zlcV1XSRFgk0myoyu9Ta2tbNdJ+hWK/gDLtTAhNsBAAA=
+    wand:
+      page: 0
+      effect_bubbles: false
+      active_spell: pull
+      icon: stick{18001}
+      effects:
+        activate: ''
+      template: wand
+      version: 7
+      hotbar: 0
+      effect_color: cb8c5c600fce,8ebe61b3328,512307ad29fc
+      effect_particle: ''
+      owner: mc_wyy114
+      hotbar_inventory_count: 1
+      spell_inventory:
+        pull: 5
+        fireball: 8
+        arrow: 2
+        missile: 0
+        fire: 1
+        blind: 7
+        recall: 6
+        push: 4
+        flare: 3
+      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+  mirrorshield:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: SHIELD
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"镜之盾"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"green","text":"可以格挡和反弹法术"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 mc_wyy114"}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"反弹: IV"}],"text":""}'
+        custom-model-data: 18001
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/x3K0Q6CIBgG0M9lk1yP0S2bBA18Gkfwu1gCDl3Mt691rk8PNGjfRGvTo602eYZzrokKLtFN9TiEUAxsp7gudidcYygll+0VaPld9r9T8LiJhzJCj5YrJ0aunveZG+Uk914PeqBZWiNP6D5UtpATgA74AjpGJjh/AAAA
+        blockMaterial: SHIELD
+    wand:
+      owner: mc_wyy114
+      version: 7
+      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      template: mirrorshield
+  magicbow:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"J志坤弓"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gold","text":"弓箭手 "},{"color":"white","text":"魔法弓"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 mc_wyy114"}'
+        - '{"text":"掌握 2 技能"}'
+        - '{"italic":false,"extra":[{"color":"gray","text":"Power IV"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"gray","text":"Flame"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        custom-model-data: 18001
+        enchants:
+          ARROW_FIRE: 1
+          ARROW_DAMAGE: 4
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/12QQU6EQBBFi4AZxDGz8wRuSWjBwHgEL0GKppjpCN2dpoEQ4ylcuHLnMUw8DfewYWPGpFY/9V+9VATgQfBCpL0IggllHUIgsSOInpefj+Xza/l+D+FKTZIMXHe8nOaZscyHu7OyFZpSyJGkVWYuuRqkBQcMYY/cipHKXlPbwi0ao6bS0Glo0bgDgisJUaWmV1YkCXuL4LBt/sH8fyWHBd9ht0wr0TvAqh5CuKmVooZ79pgVLD9inHF2jLPqoYmLjKdxXedJnlCTYpG6gqVOt2gJwg5PgjsNH3YjmV5s0F0Ee5L8jNJ2Tqb34dAJSdxgY5+0mmiVCS7Spl0/tvq4uRlkbZTWWLXkwS9mMHPLYQEAAA==
+    wand:
+      name: J志坤弓
+      owner: mc_wyy114
+      hotbar_inventory_count: 1
+      active_spell: arrow_regular
+      icon: bow{18001}
+      spell_inventory:
+        arrow_regular: 0
+        arrow_poison: 1
+      version: 7
+      template: magicbow
+      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      enchantments:
+        minecraft:power: 4
+        minecraft:flame: 1
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data:
+  sp: 604.0
+properties:
+  version: 7
+classes:
+  caster:
+    spell_levels:
+      missile: 3
+      fireball: 2
+      recall: 2
+    spells:
+    - flare
+    - pull
+    - blind
+    - arrow
+    - recall
+    - missile
+    - fire
+    - fireball
+    - push
+  mage:
+    effect_color: 456a4a324571,d7819e4f1a4d,20893af8e500
+    mana_timestamp: 1683898665506
+    mana: 50.0
+  archer_mage: {}
+  battle_mage:
+    mana_timestamp: 1683896011293
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 24.399999618530273

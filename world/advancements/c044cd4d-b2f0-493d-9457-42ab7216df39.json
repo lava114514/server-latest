@@ -269,6 +269,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2023-05-13 19:13:31 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
     "criteria": {
       "has_mossy_cobblestone": "2023-04-02 11:17:26 +0800"
@@ -296,6 +302,12 @@
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2023-04-01 12:27:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-13 20:45:11 +0800"
     },
     "done": true
   },
@@ -419,6 +431,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2023-05-13 12:05:07 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/lime_dye": {
     "criteria": {
       "has_white_dye": "2023-04-15 21:10:58 +0800"
@@ -470,6 +488,12 @@
   "minecraft:recipes/redstone/lectern": {
     "criteria": {
       "has_book": "2023-04-01 15:42:42 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2023-05-13 13:26:30 +0800"
     },
     "done": true
   },
@@ -581,6 +605,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2023-05-13 19:38:18 +0800"
+    },
+    "done": true
+  },
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2023-03-26 12:20:48 +0800"
@@ -623,6 +653,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-13 20:45:11 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_stairs": {
     "criteria": {
       "has_planks": "2023-03-26 12:24:59 +0800"
@@ -662,6 +698,12 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_by_something": "2023-03-26 11:58:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2023-05-13 13:26:30 +0800"
     },
     "done": true
   },
@@ -754,6 +796,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2023-05-13 19:32:55 +0800"
+    },
+    "done": true
+  },
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2023-04-05 19:00:29 +0800"
@@ -787,6 +835,12 @@
   "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2023-04-29 13:25:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2023-05-13 13:12:03 +0800"
     },
     "done": true
   },
@@ -871,6 +925,12 @@
   "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2023-04-28 22:11:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-13 20:45:11 +0800"
     },
     "done": true
   },
@@ -1012,6 +1072,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-13 20:45:11 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/glass_bottle": {
     "criteria": {
       "has_glass": "2023-04-02 12:16:46 +0800"
@@ -1057,6 +1123,12 @@
   "minecraft:recipes/building_blocks/blackstone_stairs": {
     "criteria": {
       "has_blackstone": "2023-04-15 15:45:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-13 20:45:11 +0800"
     },
     "done": true
   },
@@ -1380,6 +1452,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:mushroom_fields": "2023-05-13 12:02:05 +0800",
       "minecraft:taiga": "2023-04-01 12:04:32 +0800",
       "minecraft:deep_ocean": "2023-04-05 16:08:24 +0800",
       "minecraft:sunflower_plains": "2023-04-29 02:27:53 +0800",
@@ -1388,13 +1461,17 @@
       "minecraft:dark_forest": "2023-04-15 20:08:53 +0800",
       "minecraft:river": "2023-04-04 21:38:38 +0800",
       "minecraft:stony_shore": "2023-04-01 19:33:11 +0800",
+      "minecraft:grove": "2023-05-13 12:06:41 +0800",
       "minecraft:cold_ocean": "2023-03-26 12:21:07 +0800",
       "minecraft:forest": "2023-03-26 12:28:17 +0800",
       "minecraft:deep_cold_ocean": "2023-03-31 22:16:07 +0800",
       "minecraft:frozen_ocean": "2023-04-05 18:21:19 +0800",
+      "minecraft:desert": "2023-05-13 10:59:13 +0800",
       "minecraft:deep_frozen_ocean": "2023-04-05 18:19:59 +0800",
+      "minecraft:ocean": "2023-05-13 19:58:24 +0800",
       "minecraft:warm_ocean": "2023-05-12 19:01:24 +0800",
       "minecraft:flower_forest": "2023-04-04 21:41:34 +0800",
+      "minecraft:deep_dark": "2023-05-13 12:04:57 +0800",
       "minecraft:plains": "2023-03-26 11:57:50 +0800"
     },
     "done": false
@@ -1513,9 +1590,21 @@
     },
     "done": true
   },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2023-05-13 19:12:41 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2023-03-26 12:25:33 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2023-05-13 20:44:44 +0800"
     },
     "done": true
   },
@@ -1573,6 +1662,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-13 20:45:11 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/tnt_minecart": {
     "criteria": {
       "has_minecart": "2023-04-09 11:42:07 +0800"
@@ -1588,6 +1683,12 @@
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_nugget": "2023-03-26 12:42:11 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2023-05-13 13:47:05 +0800"
     },
     "done": true
   },
@@ -1822,6 +1923,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/lime_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-05-13 20:17:44 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget": {
     "criteria": {
       "has_iron_ingot": "2023-03-26 12:42:35 +0800"
@@ -1852,6 +1959,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2023-05-13 19:32:55 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2023-03-31 22:12:27 +0800"
@@ -1873,6 +1986,12 @@
   "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2023-03-26 12:27:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2023-05-13 19:32:55 +0800"
     },
     "done": true
   },
@@ -1993,6 +2112,7 @@
       "chorus_fruit": "2023-04-15 19:45:53 +0800",
       "baked_potato": "2023-04-01 12:21:18 +0800",
       "beef": "2023-04-01 19:51:01 +0800",
+      "porkchop": "2023-05-13 14:45:57 +0800",
       "apple": "2023-04-30 21:58:23 +0800",
       "spider_eye": "2023-04-08 21:12:23 +0800",
       "potato": "2023-04-14 22:05:29 +0800",
@@ -2000,9 +2120,12 @@
       "pufferfish": "2023-04-05 20:23:50 +0800",
       "bread": "2023-03-31 22:31:27 +0800",
       "rotten_flesh": "2023-03-26 12:21:44 +0800",
+      "suspicious_stew": "2023-05-13 11:36:23 +0800",
       "salmon": "2023-04-14 21:38:16 +0800",
       "beetroot": "2023-04-15 20:50:23 +0800",
+      "golden_carrot": "2023-05-13 21:30:25 +0800",
       "cooked_chicken": "2023-04-29 13:19:07 +0800",
+      "mushroom_stew": "2023-05-13 12:21:44 +0800",
       "cod": "2023-04-02 12:17:31 +0800",
       "carrot": "2023-04-01 14:26:24 +0800"
     },
@@ -2017,6 +2140,12 @@
   "minecraft:recipes/food/cooked_cod": {
     "criteria": {
       "has_cod": "2023-04-01 15:13:21 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-13 20:45:11 +0800"
     },
     "done": true
   },
@@ -2464,6 +2593,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-05-13 19:36:25 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dark_oak_stairs": {
     "criteria": {
       "has_planks": "2023-03-26 12:38:11 +0800"
@@ -2722,6 +2857,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2023-05-13 13:47:05 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-13 20:45:11 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2023-04-02 12:16:46 +0800"
@@ -2806,9 +2953,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2023-05-13 19:51:28 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2023-04-01 13:53:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-13 20:45:11 +0800"
     },
     "done": true
   },
@@ -2884,6 +3043,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2023-05-13 13:26:30 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
       "has_log": "2023-03-26 12:21:20 +0800"
@@ -2923,6 +3088,12 @@
   "minecraft:recipes/decorations/purple_candle": {
     "criteria": {
       "has_purple_dye": "2023-04-16 04:32:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-13 20:45:11 +0800"
     },
     "done": true
   },
@@ -3100,6 +3271,12 @@
     },
     "done": true
   },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2023-05-13 20:58:32 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2023-04-05 16:18:48 +0800"
@@ -3232,6 +3409,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-05-13 20:45:11 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2023-04-05 16:18:48 +0800"
@@ -3241,6 +3424,12 @@
   "minecraft:recipes/redstone/spruce_trapdoor": {
     "criteria": {
       "has_planks": "2023-04-01 13:53:53 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2023-05-13 12:18:19 +0800"
     },
     "done": true
   },

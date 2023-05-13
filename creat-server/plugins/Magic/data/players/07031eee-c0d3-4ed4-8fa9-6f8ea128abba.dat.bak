@@ -1,0 +1,1064 @@
+id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+name: Enderlava
+created: 1678458824899
+updated: 1683892965530
+last_cast: 1683373822220
+cooldown_expiration: 1683892846941
+last_death_location: -16.099563456267873,63.0,-294.6886293477327,world,-13.90686,27.599459
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: 1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  8ed7a6f9-8b0f-4bf5-bfc7-47de2dddbd7c: []
+  b8dd9de6-bce5-418b-9566-b5e1a4cc7a98:
+  - blocks:
+    - -30,70,-174,world|grass_block?minecraft:grass_block[snowy=false]
+    - -30,71,-174,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -30,72,-174,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -32,72,-176,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -32,71,-176,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -29,70,-171,world|grass_block?minecraft:grass_block[snowy=false]
+    - -27,71,-170,world|grass
+    - -30,69,-173,world|dirt
+    - -30,69,-171,world|dirt
+    - -34,71,-175,world|grass
+    - -29,69,-174,world|dirt
+    - -28,70,-173,world|grass_block?minecraft:grass_block[snowy=false]
+    - -30,69,-174,world|dirt
+    - -34,72,-174,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -34,71,-174,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -33,72,-171,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -33,71,-171,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -30,68,-174,world|dirt
+    - -31,70,-171,world|grass_block?minecraft:grass_block[snowy=false]
+    - -27,71,-174,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -27,72,-174,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -30,70,-172,world|grass_block?minecraft:grass_block[snowy=false]
+    - -32,70,-175,world|grass_block?minecraft:grass_block[snowy=false]
+    - -30,72,-170,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -30,71,-170,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -32,69,-172,world|dirt
+    - -30,69,-175,world|dirt
+    - -29,70,-172,world|grass_block?minecraft:grass_block[snowy=false]
+    - -29,69,-172,world|dirt
+    - -29,72,-174,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -29,71,-174,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -33,72,-170,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -33,71,-170,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -31,69,-172,world|dirt
+    - -30,70,-171,world|grass_block?minecraft:grass_block[snowy=false]
+    - -35,71,-173,world|grass
+    - -32,69,-174,world|dirt
+    - -27,71,-173,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -27,72,-173,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -29,69,-173,world|dirt
+    - -30,70,-173,world|grass_block?minecraft:grass_block[snowy=false]
+    - -29,70,-174,world|grass_block?minecraft:grass_block[snowy=false]
+    - -33,70,-173,world|grass_block?minecraft:grass_block[snowy=false]
+    - -33,71,-174,world|grass
+    - -32,71,-170,world|grass
+    - -32,70,-171,world|grass_block?minecraft:grass_block[snowy=false]
+    - -29,72,-176,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -29,71,-176,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -31,72,-170,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -31,71,-170,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -28,72,-176,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -28,71,-176,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -31,68,-174,world|dirt
+    - -30,68,-172,world|dirt
+    - -32,69,-173,world|dirt
+    - -31,70,-172,world|grass_block?minecraft:grass_block[snowy=false]
+    - -32,70,-173,world|grass_block?minecraft:grass_block[snowy=false]
+    - -27,72,-172,world|tall_grass?minecraft:tall_grass[half=upper]
+    - -27,71,-172,world|tall_grass?minecraft:tall_grass[half=lower]
+    - -30,68,-173,world|dirt
+    - -31,70,-173,world|grass_block?minecraft:grass_block[snowy=false]
+    - -30,70,-175,world|grass_block?minecraft:grass_block[snowy=false]
+    - -31,69,-173,world|dirt
+    - -32,70,-174,world|grass_block?minecraft:grass_block[snowy=false]
+    - -31,69,-174,world|dirt
+    - -29,70,-173,world|grass_block?minecraft:grass_block[snowy=false]
+    - -30,71,-175,world|grass
+    - -33,70,-172,world|grass_block?minecraft:grass_block[snowy=false]
+    - -32,71,-171,world|grass
+    - -31,69,-171,world|dirt
+    - -31,68,-173,world|dirt
+    - -31,70,-175,world|grass_block?minecraft:grass_block[snowy=false]
+    - -31,70,-174,world|grass_block?minecraft:grass_block[snowy=false]
+    - -31,71,-175,world|grass
+    - -29,70,-175,world|grass_block?minecraft:grass_block[snowy=false]
+    - -30,69,-172,world|dirt
+    - -32,70,-172,world|grass_block?minecraft:grass_block[snowy=false]
+    - -32,71,-175,world|air
+    time_to_live: 0
+    name: 回传
+    mode: NO_PHYSICS
+  - blocks:
+    - -690,66,48,world|sand
+    - -688,67,45,world|sand
+    - -690,66,44,world|sand
+    - -691,66,47,world|sand
+    - -689,66,44,world|sand
+    - -688,66,43,world|sand
+    - -689,67,43,world|sand
+    - -689,66,47,world|sand
+    - -689,65,46,world|sand
+    - -692,66,46,world|sand
+    - -689,66,48,world|sand
+    - -692,66,45,world|sand
+    - -691,68,42,world|sand
+    - -692,68,41,world|sand
+    - -690,65,45,world|sand
+    - -691,66,46,world|sand
+    - -689,66,45,world|sand
+    - -688,66,44,world|sand
+    - -689,66,46,world|sand
+    - -688,66,46,world|sand
+    - -689,66,43,world|sand
+    - -690,68,42,world|sand
+    - -689,68,41,world|sand
+    - -690,67,44,world|sand
+    - -690,67,45,world|sand
+    - -690,65,44,world|sand
+    - -689,67,44,world|sand
+    - -688,66,45,world|sand
+    - -687,68,42,world|sand
+    - -690,67,42,world|sand
+    - -690,66,45,world|sand
+    - -691,66,44,world|sand
+    - -690,65,43,world|sand
+    - -690,66,43,world|sand
+    - -691,66,43,world|sand
+    - -690,68,41,world|sand
+    - -688,67,44,world|sand
+    - -686,68,42,world|sand
+    - -688,66,47,world|sand
+    - -691,65,44,world|sand
+    - -691,67,44,world|sand
+    - -688,68,42,world|sand
+    - -688,67,43,world|sand
+    - -692,66,44,world|sand
+    - -691,67,45,world|sand
+    - -692,67,44,world|sand
+    - -692,68,42,world|sand
+    - -691,67,43,world|sand
+    - -689,67,45,world|sand
+    - -691,66,45,world|sand
+    - -692,67,45,world|sand
+    - -689,65,45,world|sand
+    - -689,68,42,world|sand
+    - -690,67,43,world|sand
+    - -690,66,47,world|sand
+    - -690,66,46,world|sand
+    - -692,67,43,world|sand
+    - -692,66,47,world|sand
+    - 4,127,22,world|air
+    - 4,126,22,world|air
+    - 4,125,22,world|air
+    - 4,124,22,world|air
+    - 4,123,22,world|air
+    - 4,122,22,world|air
+    - 4,121,22,world|air
+    - 4,120,22,world|air
+    - 4,119,22,world|air
+    - 4,118,22,world|air
+    - 4,117,22,world|air
+    - 4,116,22,world|air
+    - 4,115,22,world|air
+    - 4,114,22,world|air
+    - 4,113,22,world|air
+    - 4,112,22,world|air
+    - 4,111,22,world|air
+    - 4,110,22,world|air
+    - 4,109,22,world|air
+    - 4,108,22,world|air
+    - 4,107,22,world|air
+    - 4,106,22,world|air
+    - 4,105,22,world|air
+    - 4,104,22,world|air
+    - 4,103,22,world|air
+    - 4,102,22,world|air
+    - 4,101,22,world|air
+    - 4,100,22,world|air
+    - 4,99,22,world|air
+    - 4,98,22,world|air
+    - 4,97,22,world|air
+    - 4,96,22,world|air
+    - 4,95,22,world|air
+    - 4,94,22,world|air
+    - 4,93,22,world|air
+    - 4,92,22,world|air
+    - 4,91,22,world|air
+    - 4,90,22,world|air
+    - 4,89,22,world|air
+    - 4,88,22,world|air
+    - 4,87,22,world|air
+    - 4,86,22,world|air
+    - 4,85,22,world|air
+    - 4,84,22,world|air
+    - 4,83,22,world|air
+    - 4,82,22,world|air
+    - 4,81,22,world|air
+    - 4,80,22,world|air
+    - 4,79,22,world|air
+    - 4,78,22,world|air
+    - 4,77,22,world|air
+    - 4,76,22,world|air
+    - 4,75,22,world|air
+    - 4,74,22,world|air
+    - 4,73,22,world|air
+    - 4,72,22,world|air
+    - 4,71,22,world|air
+    - 4,70,22,world|air
+    - 4,69,22,world|air
+    - 4,68,22,world|air
+    - 4,67,22,world|air
+    - 4,66,22,world|air
+    - 4,65,22,world|air
+    - 4,64,22,world|air
+    - 4,63,22,world|air
+    time_to_live: 0
+    name: 水肺
+    mode: NO_PHYSICS
+  - blocks:
+    - 403,75,-308,world_nether|air
+    - 400,75,-307,world_nether|air
+    - 406,75,-313,world_nether|air
+    - 405,74,-311,world_nether|air
+    - 403,74,-309,world_nether|air
+    - 403,76,-316,world_nether|air
+    - 402,77,-316,world_nether|air
+    - 400,77,-317,world_nether|air
+    - 401,76,-317,world_nether|air
+    - 401,76,-316,world_nether|air
+    - 402,78,-321,world_nether|air
+    - 401,74,-311,world_nether|air
+    - 402,75,-310,world_nether|air
+    - 401,77,-321,world_nether|air
+    - 403,75,-315,world_nether|air
+    - 400,75,-310,world_nether|air
+    - 401,74,-308,world_nether|air
+    - 411,76,-313,world_nether|air
+    - 383,75,-311,world_nether|air
+    - 407,76,-311,world_nether|air
+    - 392,76,-311,world_nether|air
+    - 400,74,-310,world_nether|air
+    - -71,74,-60,world_nether|netherrack
+    - -71,74,-61,world_nether|netherrack
+    - -71,74,-59,world_nether|netherrack
+    - -70,74,-60,world_nether|netherrack
+    - -72,74,-60,world_nether|netherrack
+    - -72,75,-60,world_nether|netherrack
+    - -70,74,-61,world_nether|netherrack
+    - -70,74,-59,world_nether|netherrack
+    - -72,75,-59,world_nether|netherrack
+    - -69,74,-60,world_nether|netherrack
+    - -86,103,-120,world_nether|netherrack
+    - -85,103,-119,world_nether|netherrack
+    - -84,103,-121,world_nether|netherrack
+    - -84,103,-119,world_nether|netherrack
+    - -85,103,-121,world_nether|netherrack
+    - -86,103,-119,world_nether|netherrack
+    - -85,103,-120,world_nether|netherrack
+    - -84,103,-120,world_nether|netherrack
+    - -86,103,-162,world_nether|netherrack
+    - -85,103,-162,world_nether|netherrack
+    - -86,103,-161,world_nether|netherrack
+    - -86,102,-161,world_nether|netherrack
+    - -86,102,-162,world_nether|netherrack
+    - -95,95,-101,world_nether|netherrack
+    - -96,95,-100,world_nether|netherrack
+    - -95,95,-100,world_nether|netherrack
+    - -96,95,-101,world_nether|netherrack
+    - -94,95,-101,world_nether|netherrack
+    - 33,77,24,world_the_end|fire?minecraft:fire[age=15,east=false,north=false,south=false,up=false,west=false]
+    - 12,86,-40,world_the_end|fire?minecraft:fire[age=15,east=false,north=false,south=false,up=false,west=false]
+    - 12,89,39,world_the_end|fire?minecraft:fire[age=15,east=false,north=false,south=false,up=false,west=false]
+    - -13,92,39,world_the_end|fire?minecraft:fire[age=15,east=false,north=false,south=false,up=false,west=false]
+    - 42,95,0,world_the_end|fire?minecraft:fire[age=15,east=false,north=false,south=false,up=false,west=false]
+    - 33,98,-25,world_the_end|fire?minecraft:fire[age=15,east=false,north=false,south=false,up=false,west=false]
+    - -34,101,24,world_the_end|fire?minecraft:fire[age=15,east=false,north=false,south=false,up=false,west=false]
+    - -13,104,-40,world_the_end|fire?minecraft:fire[age=15,east=false,north=false,south=false,up=false,west=false]
+    - -10,70,-258,world|air
+    - -10,70,-257,world|air
+    - -18,70,-257,world|air
+    - -17,70,-256,world|air
+    - -16,70,-256,world|air
+    - -12,69,-262,world|air
+    - -18,69,-262,world|air
+    - -13,69,-261,world|air
+    - -17,69,-261,world|air
+    - -16,69,-261,world|air
+    - -14,70,-260,world|air
+    - -15,69,-260,world|air
+    - -14,70,-259,world|air
+    - -16,70,-259,world|air
+    - -18,69,-259,world|air
+    - -17,69,-259,world|air
+    - -12,71,-249,world|air
+    - -17,70,-249,world|air
+    - -13,71,-248,world|air
+    - -12,71,-248,world|air
+    - -15,71,-247,world|air
+    - -17,70,-254,world|air
+    - -13,70,-253,world|air
+    - -16,70,-253,world|air
+    - -13,70,-252,world|air
+    - -12,70,-252,world|air
+    - -19,70,-251,world|air
+    - -18,70,-251,world|air
+    - -17,70,-251,world|air
+    - -18,71,-250,world|air
+    - -13,70,-258,world|grass
+    - -22,70,-267,world|air
+    - -23,70,-266,world|air
+    - -21,70,-266,world|air
+    - -16,69,-266,world|air
+    - -18,69,-266,world|air
+    - -18,69,-264,world|air
+    - -16,69,-264,world|air
+    - -22,70,-262,world|air
+    - -17,69,-262,world|air
+    - -19,69,-261,world|air
+    - -24,70,-260,world|air
+    - -20,70,-271,world|air
+    - -18,69,-271,world|air
+    - -20,70,-270,world|air
+    - -21,70,-270,world|air
+    - -18,69,-269,world|air
+    - -19,69,-269,world|air
+    - -18,70,-268,world|air
+    - -17,70,-268,world|air
+    - -12,69,-267,world|air
+    - -16,69,-267,world|air
+    - -15,69,-267,world|air
+    - -18,69,-267,world|air
+    - -17,69,-267,world|air
+    - -17,69,-266,world|air
+    - -14,69,-265,world|air
+    - -15,69,-264,world|air
+    - -19,69,-264,world|air
+    - -17,69,-263,world|air
+    - -21,70,-272,world|air
+    - -20,70,-272,world|oak_planks
+    - -22,70,-257,world|air
+    - -28,70,-256,world|air
+    - -27,70,-263,world|air
+    - -25,70,-262,world|air
+    - -29,70,-262,world|air
+    - -23,70,-261,world|air
+    - -28,70,-261,world|air
+    - -23,70,-259,world|air
+    - -22,70,-259,world|air
+    - -25,70,-259,world|air
+    - -23,70,-258,world|grass
+    - -24,70,-258,world|grass
+    - -24,70,-257,world|grass
+    - -25,70,-258,world|grass
+    - -22,70,-250,world|air
+    - -24,71,-249,world|air
+    - -23,71,-249,world|air
+    - -21,70,-249,world|air
+    - -24,72,-248,world|air
+    - -18,70,-248,world|air
+    - -24,72,-247,world|air
+    - -23,72,-247,world|air
+    - -16,71,-247,world|air
+    - -22,70,-247,world|air
+    - -24,72,-246,world|air
+    - -23,72,-246,world|air
+    - -18,72,-245,world|air
+    - -22,72,-245,world|air
+    - -24,72,-245,world|air
+    - -19,72,-244,world|air
+    - -19,70,-245,world|air
+    - -18,72,-244,world|air
+    - -23,70,-244,world|air
+    - -20,72,-242,world|air
+    - -23,69,-243,world|air
+    - -23,71,-250,world|air
+    - -24,71,-250,world|grass
+    - -19,70,-250,world|air
+    - -18,70,-249,world|air
+    - -22,70,-248,world|air
+    - -19,70,-248,world|air
+    - -17,71,-247,world|air
+    - -18,70,-247,world|air
+    - -16,72,-246,world|air
+    - -21,69,-247,world|air
+    - -17,70,-246,world|air
+    - -16,72,-245,world|air
+    - -16,72,-244,world|air
+    - -20,70,-245,world|air
+    - -17,72,-244,world|air
+    - -21,71,-244,world|air
+    - -19,72,-243,world|air
+    - -16,71,-250,world|air
+    - -15,72,-246,world|oxeye_daisy
+    - -14,70,-258,world|air
+    - -12,70,-255,world|air
+    - -16,69,-262,world|air
+    - -11,70,-259,world|air
+    - -15,70,-259,world|air
+    - -15,71,-255,world|air
+    - -15,72,-255,world|air
+    - -15,73,-255,world|air
+    - -15,74,-255,world|air
+    - -15,75,-255,world|air
+    - -24,71,-255,world|air
+    - -24,72,-255,world|air
+    - -24,73,-255,world|air
+    - -24,74,-255,world|air
+    - -24,75,-255,world|air
+    - -24,76,-255,world|air
+    - -12,71,-257,world|air
+    - -12,72,-257,world|air
+    - -12,73,-257,world|air
+    - -12,74,-257,world|air
+    - -12,75,-257,world|air
+    - -13,71,-257,world|air
+    - -13,72,-257,world|air
+    - -13,73,-257,world|air
+    - -13,74,-257,world|air
+    - -13,75,-257,world|air
+    - -13,76,-257,world|air
+    - -12,71,-258,world|air
+    - -12,72,-258,world|air
+    - -12,73,-258,world|air
+    - -12,74,-258,world|air
+    - -12,75,-258,world|air
+    - -12,76,-258,world|air
+    - -18,71,-254,world|air
+    - -18,72,-254,world|air
+    - -18,73,-254,world|air
+    - -18,74,-254,world|air
+    - -18,75,-254,world|air
+    - -18,76,-254,world|air
+    time_to_live: 0
+    name: 回传
+    mode: NO_PHYSICS
+  - blocks:
+    - -1529,78,1782,world_nether|air
+    - -1500,86,1631,world_nether|air
+    - -1516,40,1642,world_nether|air
+    - -1513,53,1643,world_nether|air
+    - -1513,35,1640,world_nether|air
+    - -1480,55,1661,world_nether|air
+    - -1481,69,1681,world_nether|air
+    - -1509,92,1679,world_nether|air
+    - -1583,86,1649,world_nether|air
+    - -1586,82,1639,world_nether|air
+    - -1624,105,1636,world_nether|cave_air
+    - -1621,78,1638,world_nether|air
+    - -1629,78,1638,world_nether|air
+    - -1626,79,1637,world_nether|air
+    - -1586,90,1683,world_nether|air
+    - -1631,80,1641,world_nether|air
+    - -1568,93,1699,world_nether|air
+    - -1642,90,1636,world_nether|air
+    - -1538,76,1668,world_nether|soul_sand
+    - -1538,75,1668,world_nether|soul_sand
+    - -1537,87,1585,world_nether|air
+    - -1541,87,1588,world_nether|air
+    - -1545,87,1735,world_nether|air
+    - -1545,87,1750,world_nether|air
+    - -1476,98,1571,world_nether|netherrack
+    - -1476,99,1571,world_nether|netherrack
+    - -1476,97,1569,world_nether|netherrack
+    - -1476,99,1570,world_nether|netherrack
+    - -1476,97,1570,world_nether|netherrack
+    - -1476,97,1571,world_nether|netherrack
+    - -1476,98,1570,world_nether|netherrack
+    - -1476,98,1569,world_nether|netherrack
+    - -1538,75,1672,world_nether|air
+    - -1543,75,1674,world_nether|air
+    - -1436,81,1645,world_nether|air
+    - -1531,81,1645,world_nether|air
+    - -1647,81,1658,world_nether|air
+    - -1362,92,1459,world_nether|air
+    - -1457,87,1417,world_nether|air
+    - -1494,98,1385,world_nether|air
+    - -1349,73,1384,world_nether|air
+    time_to_live: 0
+    name: 回传
+    mode: NO_PHYSICS
+  - blocks:
+    - -404,52,542,world_nether|air
+    - -403,52,542,world_nether|air
+    - -399,52,541,world_nether|air
+    - -394,52,542,world_nether|air
+    - -395,52,542,world_nether|air
+    - -391,52,547,world_nether|air
+    - -391,52,542,world_nether|air
+    - -396,52,542,world_nether|air
+    - -391,52,545,world_nether|air
+    - -390,52,542,world_nether|air
+    - -397,52,542,world_nether|air
+    - -391,52,546,world_nether|air
+    - -391,52,550,world_nether|air
+    time_to_live: 0
+    name: 回传
+    mode: NO_PHYSICS
+  1744f3f7-ffb9-44f7-b081-9eb36e7d564f: []
+  30e40806-244e-49e4-bef6-4055cffaeb15: []
+spells:
+  flare:
+    cast_count: 8
+    last_cast: 1682744644821
+    last_earn: 1682744644820
+    cooldown_expiration: 0
+    charges: 0.0
+  blind:
+    cast_count: 5
+    last_cast: 1683082327493
+    last_earn: 1682744429710
+    cooldown_expiration: 0
+    charges: 0.0
+  boon:
+    cast_count: 15
+    last_cast: 1683082386872
+    last_earn: 1683082386872
+    cooldown_expiration: 0
+    charges: 0.0
+  arrow:
+    cast_count: 18
+    last_cast: 1682693034431
+    last_earn: 1682130901652
+    cooldown_expiration: 0
+    charges: 0.0
+  appearanceshop:
+    cast_count: 0
+    last_cast: 1679806319114
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  cure:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  stun:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  upgrades:
+    cast_count: 4
+    last_cast: 1683082390854
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  controlsmenu:
+    cast_count: 2
+    last_cast: 1682058839839
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  reflect:
+    cast_count: 25
+    last_cast: 1680695726427
+    last_earn: 1680695726420
+    cooldown_expiration: 1680695729427
+    charges: 0.0
+  recall|2:
+    cast_count: 25
+    last_cast: 1683373822220
+    last_earn: 1683373809890
+    cooldown_expiration: 0
+    charges: 0.0
+  spellshop:
+    cast_count: 1
+    last_cast: 1683089388897
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  effectshop:
+    cast_count: 0
+    last_cast: 1682052644567
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  bubble:
+    cast_count: 2
+    last_cast: 1682907609149
+    last_earn: 1682907609148
+    cooldown_expiration: 0
+    charges: 0.0
+  frost:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  recall:
+    cast_count: 25
+    last_cast: 1681583861786
+    last_earn: 1681583861785
+    cooldown_expiration: 1681583876786
+    charges: 0.0
+  missile:
+    cast_count: 30
+    last_cast: 1679802030722
+    last_earn: 1679802028571
+    cooldown_expiration: 1679802031722
+    charges: 0.0
+  fire:
+    cast_count: 40
+    last_cast: 1682749062177
+    last_earn: 1682748324679
+    cooldown_expiration: 1682749065177
+    charges: 0.0
+  progressmenu:
+    cast_count: 60
+    last_cast: 1683089388132
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  aqualung:
+    cast_count: 30
+    last_cast: 1682908877513
+    last_earn: 0
+    cooldown_expiration: 1682908937513
+    charges: 0.0
+  workbench:
+    cast_count: 2
+    last_cast: 1682690367604
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  fireball:
+    cast_count: 15
+    last_cast: 1680322164599
+    last_earn: 1680322113391
+    cooldown_expiration: 1680322174599
+    charges: 0.0
+  fireball|2:
+    cast_count: 32
+    last_cast: 1682689897250
+    last_earn: 1682124667405
+    cooldown_expiration: 0
+    charges: 0.0
+  poison:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  reflect|2:
+    cast_count: 82
+    last_cast: 1682690176555
+    last_earn: 1682690104149
+    cooldown_expiration: 0
+    charges: 0.0
+  fire|2:
+    cast_count: 1
+    last_cast: 1682749074062
+    last_earn: 1682749074128
+    cooldown_expiration: 1682749078062
+    charges: 0.0
+  torch:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  push:
+    cast_count: 15
+    last_cast: 1683081517300
+    last_earn: 1681559534756
+    cooldown_expiration: 1683081522300
+    charges: 0.0
+  arrow_poison:
+    cast_count: 1
+    last_cast: 1682058756296
+    last_earn: 1682058756466
+    cooldown_expiration: 0
+    charges: 0.0
+  blast:
+    cast_count: 33
+    last_cast: 1682690215605
+    last_earn: 1682689818812
+    cooldown_expiration: 1682690220605
+    charges: 0.0
+  peek:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  pull:
+    cast_count: 45
+    last_cast: 1682689839699
+    last_earn: 1682689839698
+    cooldown_expiration: 0
+    charges: 0.0
+  wandinstructions:
+    cast_count: 1
+    last_cast: 1682052636416
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  arrow_regular:
+    cast_count: 6
+    last_cast: 1682058759757
+    last_earn: 1682058743814
+    cooldown_expiration: 0
+    charges: 0.0
+  cloak:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  colorshop:
+    cast_count: 0
+    last_cast: 1682744376683
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  missile|4:
+    cast_count: 75
+    last_cast: 1683373781978
+    last_earn: 1683373766774
+    cooldown_expiration: 1683373782978
+    charges: 0.0
+  missile|2:
+    cast_count: 50
+    last_cast: 1680272348349
+    last_earn: 1680272346075
+    cooldown_expiration: 1680272349349
+    charges: 0.0
+  collapse:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  missile|3:
+    cast_count: 493
+    last_cast: 1683082396058
+    last_earn: 1683082396049
+    cooldown_expiration: 1683082397058
+    charges: 0.0
+wands:
+  spellbook:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"技能书"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"技能书"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Enderlava"}'
+        - '{"text":"掌握 22 技能"}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
+          "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
+          "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        custom-model-data: 18001
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/yVR21KDMBBdhFqgar31D3xlBmxH8QP8js4mWZQhTTCBMo7jv7uJb2f37LlkUgIkkA1EY1JCtqBROazsYshB8W4UOY1nzCGPq2Ov4Kl+rfcNEVWyVvvqQOpQtR2+VS9dS9g8tygEprA+k/O9NQCwZvlEp1HjRFD4kbQW1g45ZL3kgx0Z+YlmInUM65+mrevmt4RtvDz25kxmsu47hWyctQ6GKRSLdYMISp4fOc5Rp0lOPOV8KGdHDLcM2TOUuEghl1ZrHH1gdimshEYfBJcsP/Xe9zowZWR6oxgnKVyKWYhI3DPRORslD+zW9Y4ExkLXTHHFWOaGM/00h8wsKDTGKsAYnbNLgOEpRAPDW4bBiOGGL6S2GNZ3HOxI/rsX8eU+mK84F79m1LP54PEqfN5mNsrZcUSumcAfWrmblNABAAA=
+    wand:
+      owner: Enderlava
+      template: spellbook
+      version: 7
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+      icon: enchanted_book{18001}
+      spell_inventory:
+        workbench: 20
+        pull: 7
+        collapse: 21
+        boon: 2
+        cure: 15
+        reflect: 8
+        missile: 10
+        blast: 6
+        blind: 1
+        bubble: 18
+        frost: 19
+        fireball: 13
+        torch: 14
+        stun: 4
+        aqualung: 12
+        arrow: 3
+        peek: 16
+        fire: 11
+        push: 5
+        recall: 9
+        cloak: 17
+        flare: 0
+  magicsword:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"魔法剑"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gray","text":"战士 "},{"color":"white","text":"Magic
+          Sword"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Enderlava"}'
+        - '{"text":"掌握 9 技能"}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
+          "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        custom-model-data: 18009
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: Equipment Modifier
+            slot: HAND
+            uuid: d2cffea7-bb7d-4376-9c5d-49224ab6a77d
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/02QwU7DMAyGXdrRUpC4ceKIOK1SygZrHoDnqNzGYRFZUiXpKoR4d7xe4PZZ/n/bv2uADIpPoimroVjQqQo2fnEU4ObdKQoWz5jDw9GnAUNv3Jlc8uGrH/3sErC7gsKM3sGDo3SkYBL1cfFBfbedEPKnhvs4kbV/1hyKabaWvUUOlTaBBlzLLIcykLY0XgZvWBfT7BivcthgCH5hfmTRycRoLHF1zaLLBMaSRYM1TjHDuiMeV6qgWgP1RsGTOIhdS0TNKNSu2ZPaN51G2bzpjrB96XAYOG55phCNv+wu2Z7oNFlMBPUJP8y4xqvgjrTmU/kT1gd4boXWUkgpXxVuNWl56LQeD0ps/3f427ezU8FPEw6WMvgF7PVlo4EBAAA=
+    wand:
+      owner: Enderlava
+      hotbar_inventory_count: 1
+      icon: netherite_sword{18009}
+      spell_inventory:
+        pull: 4
+        fireball: 1
+        reflect: 5
+        stun: 2
+        missile: 6
+        arrow: 28
+        fire: 7
+        blind: 0
+        push: 3
+      template: magicsword
+      version: 7
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+      effect_color: 10ff909995da,fef978ffc7d0,10ff909995da
+  wand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"法杖"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"dark_green","text":"学徒 "},{"color":"white","text":"魔力法杖"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Enderlava"}'
+        - '{"text":"掌握 23 技能"}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 100"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 15/s"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"魔法导弹"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
+          "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"yellow","text":"Change
+          controls using an "},{"color":"aqua","text":"enchant table"}],"text":""}'
+        custom-model-data: 18002
+        attribute-modifiers:
+          GENERIC_ATTACK_SPEED:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 10.0
+            name: Equipment Modifier
+            slot: HAND
+            uuid: 9a756f46-f080-480f-8a96-5c798f42eb2a
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/0VSXW/bMAxkaqdx0wL92NZh6/aW9aFIADtxEvsH7HcElEyvQhTJlewEw7D/XkoBtrcjeLw7ipoCjCDdE3WjKaQnNE0GY3sy5ODqp2nIaTxiAo+vthfodsocyfTW/d5JO5geAC4yuEHZqyPtfEdaw+SgvFeaMkiVtAZufK/k/k9R5fny7xRuI+u/UAJpN/AYwEMCVyfr9oKMfOX6KYGJo1aTDD4fmCgHRwzHDIVlaXZPIJNWa+x86HxPYCw0+jBwl/yLwtWP2FGmYTxL4FIMQsTGJ260zsaRR1ZrlSOBMdC30NIYPYExx43BUvb3/RD8L1mqs8rHMJ+Zg87ZU6CHvYj2DO8ZBlWGX+K2Poi88KQjeXaa8KTUFgP9I4fAtwH1YH5x+RUyyHo6dBp7Ol+IFzuS8yqaTrgd77VTDczybb4qiGgh82a1KKkpF1WL9WLTVoTFskIhkA9GbcuvyjfU1sHztsQNU2Ulqs0cl/W6aJdNLdflvK5WebGuSqxXW/4n14NpnO065KcbwTs4+5a3OwIAAA==
+    wand:
+      owner: Enderlava
+      hotbar_inventory_count: 2
+      active_spell: missile
+      icon: stick{18002}
+      spell_inventory:
+        workbench: 27
+        pull: 18
+        collapse: 29
+        boon: 2
+        cure: 5
+        reflect: 19
+        missile: 37
+        blast: 16
+        blind: 36
+        bubble: 21
+        frost: 22
+        fireball: 28
+        aqualung: 26
+        torch: 4
+        stun: 6
+        poison: 23
+        arrow: 3
+        peek: 17
+        fire: 25
+        cloak: 20
+        recall: 7
+        push: 42
+        flare: 0
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+      version: 7
+      template: wand
+      effect_color: 74a64edc8b86,a2951f2d9c54,98301584a937
+  mirrorshield:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: SHIELD
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"镜之盾"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"green","text":"可以格挡和反弹法术"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Enderlava"}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"反弹: IV"}],"text":""}'
+        custom-model-data: 18001
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/x3L0QqCMBgG0E8yXNJjdDuYKbUeoOeI3/ZJw7nJFH39otsDpwYKlCM5FzXKXaJTOKY9MuP0jI45yCYK6k8v73Axd9M2JPXbuFZ3dJ22gzz0bbCU5mql7+WAamNefIoAql9fOc1BVuI8+ZxTXj6ewQFfYlF2zH8AAAA=
+        blockMaterial: SHIELD
+    wand:
+      owner: Enderlava
+      template: mirrorshield
+      version: 7
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+  magicbow:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"魔法弓"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gold","text":"弓箭手 "},{"color":"white","text":"魔法弓"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Enderlava"}'
+        - '{"text":"掌握 2 技能"}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        custom-model-data: 18001
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/1WPQU7EMAxFXbVoQgGx4wRsK7XMCMoBOEfkJJ4hIhNHbtoKIe5OpiwQ3vnL7//vFqCC5oMoVS00K0an4IrXSALXb9GRBFywhod3zgZF+7hQzCyf2vIcMxRawS3a7BfSU6IQyibCq07sJ44KGm85Qmt4/RrGvh++W7jfDv+86v/MxbSGu19J6DQHFLiMArU1097BY//S7wci6mzv9t2B3KEbj/jaPR9HwuFpRGOwAJnOKWAmUGc8eVtq1LBbSCa/Be3K9zdzdMIpoQlUwQ+u4sQ8EQEAAA==
+    wand:
+      owner: Enderlava
+      hotbar_inventory_count: 1
+      active_spell: arrow_poison
+      icon: bow{18001}
+      spell_inventory:
+        arrow_poison: 1
+        arrow_regular: 0
+      version: 7
+      template: magicbow
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data:
+  sp: 78.0
+properties:
+  version: 7
+classes:
+  caster:
+    spell_levels:
+      missile: 4
+      fireball: 2
+      reflect: 2
+      recall: 2
+      fire: 2
+    spells:
+    - flare
+    - blind
+    - boon
+    - poison
+    - arrow
+    - torch
+    - cure
+    - stun
+    - push
+    - blast
+    - peek
+    - pull
+    - reflect
+    - cloak
+    - bubble
+    - frost
+    - recall
+    - missile
+    - fire
+    - aqualung
+    - workbench
+    - fireball
+    - collapse
+  mage:
+    effect_color: cef52af28d37,e34b44b86e12,44d84fee9a2a
+    mana_timestamp: 1683892965530
+    mana: 100.0
+    path: student
+  archer_mage: {}
+  battle_mage:
+    mana_timestamp: 1682058841866
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 26.799999237060547

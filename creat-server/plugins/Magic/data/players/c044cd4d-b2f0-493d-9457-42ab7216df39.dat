@@ -1,0 +1,451 @@
+id: c044cd4d-b2f0-493d-9457-42ab7216df39
+name: Funget114514
+created: 1679803070926
+updated: 1683897473342
+last_cast: 1682095863993
+cooldown_expiration: 1682685982557
+last_death_location: -3.4050557727268025,77.0,-211.32148912366964,world,-94.1228,27.538864
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: 0
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  b8dd9de6-bce5-418b-9566-b5e1a4cc7a98: []
+spells:
+  flare:
+    cast_count: 15
+    last_cast: 1680696065376
+    last_earn: 1680695443445
+    cooldown_expiration: 0
+    charges: 0.0
+  blind:
+    cast_count: 6
+    last_cast: 1680695676750
+    last_earn: 1680695678756
+    cooldown_expiration: 0
+    charges: 0.0
+  arrow:
+    cast_count: 20
+    last_cast: 1681480562623
+    last_earn: 1681480562786
+    cooldown_expiration: 0
+    charges: 0.0
+  appearanceshop:
+    cast_count: 0
+    last_cast: 1680270077108
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  upgrades:
+    cast_count: 5
+    last_cast: 1680869774168
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  controlsmenu:
+    cast_count: 0
+    last_cast: 1680354161095
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  reflect:
+    cast_count: 10
+    last_cast: 1680949198602
+    last_earn: 1680949175146
+    cooldown_expiration: 0
+    charges: 0.0
+  spellshop:
+    cast_count: 1
+    last_cast: 1682095794378
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  recall:
+    cast_count: 7
+    last_cast: 1681478191528
+    last_earn: 1681478198060
+    cooldown_expiration: 0
+    charges: 0.0
+  missile:
+    cast_count: 30
+    last_cast: 1679807080588
+    last_earn: 1679807080582
+    cooldown_expiration: 1679807081588
+    charges: 0.0
+  fire:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  progressmenu:
+    cast_count: 62
+    last_cast: 1682095793497
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  workbench:
+    cast_count: 12
+    last_cast: 1680331736426
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  aqualung:
+    cast_count: 25
+    last_cast: 1681480396892
+    last_earn: 0
+    cooldown_expiration: 0
+    enabled: false
+    charges: 0.0
+  fireball:
+    cast_count: 15
+    last_cast: 1680695109506
+    last_earn: 1680695109506
+    cooldown_expiration: 1680695119506
+    charges: 0.0
+  fireball|2:
+    cast_count: 15
+    last_cast: 1681480728711
+    last_earn: 1680696051308
+    cooldown_expiration: 0
+    charges: 0.0
+  poison:
+    cast_count: 7
+    last_cast: 1681480737248
+    last_earn: 1681480739337
+    cooldown_expiration: 0
+    charges: 0.0
+  push:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  arrow_poison:
+    cast_count: 22
+    last_cast: 1682095863994
+    last_earn: 1682095808981
+    cooldown_expiration: 0
+    charges: 0.0
+  pull:
+    cast_count: 13
+    last_cast: 1680702469520
+    last_earn: 1680702314031
+    cooldown_expiration: 0
+    charges: 0.0
+  wandinstructions:
+    cast_count: 1
+    last_cast: 1680349005372
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  arrow_regular:
+    cast_count: 2
+    last_cast: 1682058696431
+    last_earn: 1682058689038
+    cooldown_expiration: 0
+    charges: 0.0
+  colorshop:
+    cast_count: 1
+    last_cast: 1682095786377
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  missile|2:
+    cast_count: 50
+    last_cast: 1680330712570
+    last_earn: 1680330712564
+    cooldown_expiration: 1680330713570
+    charges: 0.0
+  missile|3:
+    cast_count: 76
+    last_cast: 1681480771710
+    last_earn: 1681480770658
+    cooldown_expiration: 0
+    charges: 0.0
+wands:
+  spellbook:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: ENCHANTED_BOOK
+      meta:
+        ==: ItemMeta
+        meta-type: ENCHANTED
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"技能书"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"技能书"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Funget114514"}'
+        - '{"text":"掌握 13 技能"}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
+          "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
+          "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        custom-model-data: 18001
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/yWQUW6DMBBEl5okhkTqV2+QXyRInKZcoNeIbLy0Fo7tGgiqqt69a/q3Y80bz24JkEE+IIashHyRTnPY+MVhhMP77D5wahpxaQSD3QPjaLwDgB0HPuE9WDkhFGNAa5X3A72u5M1oOHa1EJ0WulKnvq5Ee9ZVKy7XSpykup6aV92fWw656SjxBV33Kd2E+pZyfpq3um5+S3heo2/GPdBNPn4zKBYfB5XsVIMxyMNsLY1b6hext9hNpDJSdzOOxmJqy2CjrHGa5gMD3puISq7YhsE2eDOuWxXkkzH6heYnik4+SN8Al1+ztHQNUpyQiN0/n68NxlSmJLq3ckX26aj72enoQ5DKYgZ/TlVzzmgBAAA=
+    wand:
+      owner: Funget114514
+      owner_id: c044cd4d-b2f0-493d-9457-42ab7216df39
+      template: spellbook
+      version: 7
+      icon: enchanted_book{18001}
+      spell_inventory:
+        pull: 6
+        workbench: 3
+        reflect: 1
+        missile: 7
+        blind: 12
+        fireball: 5
+        poison: 9
+        arrow: 2
+        fire: 0
+        flare: 11
+        recall: 4
+        push: 10
+        aqualung: 8
+  magicsword:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: NETHERITE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"魔法剑"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gray","text":"战士 "},{"color":"white","text":"Magic
+          Sword"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Funget114514"}'
+        - '{"text":"掌握 9 技能"}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
+          "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        custom-model-data: 18009
+        attribute-modifiers:
+          GENERIC_ATTACK_DAMAGE:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 6.0
+            name: Equipment Modifier
+            slot: HAND
+            uuid: c8030abd-987b-43dd-84a4-c8fae734b912
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/0WQ0W6DMAxF3QEFsUl76xfsFQlouo4f2G+ghJgSLSRREoqmaf8+Ny97u7Z87rVdAxwg/0J0hxrynRtZQWF3gx5ePjdzw9h17NKxDE6LjYL7UZk7mmj99zjZzUQggwpyNVkDJ4NxQa8ijmG3Xv50H207/NbwGhxq/Y9mkLtNa2LzDKpZeRQ8lVUGpcdZ4/QwLjIouPd2J/2UwdFZFSiGEmlsVSEojVQdye7hQbIkQmhlJGlIKWFJioA7+qASXlZQRVyd5hGhXvlNTWlfaqfTRyXhbWoZmySTjejntmHDWTYDu1wb1nNx7bt3OZ8H+t3zZqS3znGh8QB/1IhVrE8BAAA=
+    wand:
+      owner: Funget114514
+      hotbar_inventory_count: 1
+      icon: netherite_sword{18009}
+      spell_inventory:
+        pull: 4
+        fireball: 8
+        reflect: 5
+        missile: 6
+        poison: 1
+        arrow: 2
+        fire: 7
+        blind: 0
+        push: 3
+      owner_id: c044cd4d-b2f0-493d-9457-42ab7216df39
+      template: magicsword
+      version: 7
+  wand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"法杖"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"魔力法杖"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Funget114514"}'
+        - '{"text":"掌握 13 技能"}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"魔法导弹"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
+          "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"yellow","text":"Change
+          controls using an "},{"color":"aqua","text":"enchant table"}],"text":""}'
+        custom-model-data: 18001
+        attribute-modifiers:
+          GENERIC_ATTACK_SPEED:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 10.0
+            name: Equipment Modifier
+            slot: HAND
+            uuid: 6152a9a0-4a11-4cff-88d0-d0c94a040207
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/0WQ306DMBTGDwID5xLvvDDqlfFqJJR1G7yAr0H657A161osMGKM725hUXv1tafnfL/zLQECiE6IbbCEaGRGphDb0aCD1ftgDtgTQreEhhC17IDgTwgPR9tz5mplLmh66z5rYQfT+1qQwoqJXl2w7lrUGpKz6jqlMYVICWtg1fVKnL5Imefkewn386//QZPN4NsAXkK4Ha07cTTi6O/PIaSNcsjZXF6EkDhsNIrJNg4hZs7Z0eubEBatVZ03A4jCP4Iretxo5ib95DXXysjp2bc4FNfJyczQTZ6P3pN9DEz7IKblIIW0x3OrWY+/YaVzWLWS8CpySoWkMuNFk2e02sisott9RgvG9wXZyWZTeZ4Luk7NdIlPC5vG7+AD1NbBW1FIwnJKSFPu1pQUeZXvRMXzcr3FijNR7jkXpSe5G4x0tm0Z1xjAD93O5NLGAQAA
+    wand:
+      page: 0
+      owner: Funget114514
+      hotbar_inventory_count: 1
+      active_spell: missile
+      icon: stick{18001}
+      spell_inventory:
+        workbench: 29
+        pull: 30
+        fireball: 6
+        reflect: 5
+        missile: 0
+        poison: 4
+        arrow: 2
+        aqualung: 1
+        recall: 7
+        blind: 3
+        push: 26
+        flare: 28
+      version: 7
+      owner_id: c044cd4d-b2f0-493d-9457-42ab7216df39
+      template: wand
+      effect_color: 22d1a0411f86,4120906c9b08,5e9bac87bbc8
+  mirrorshield:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: SHIELD
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"镜之盾"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"green","text":"可以格挡和反弹法术"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Funget114514"}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"反弹: IV"}],"text":""}'
+        custom-model-data: 18001
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/x3K0Q6CIBQG4N9lkzkfo1s2wWOOF+g1GsqxWAoOKV+/1nf91UCB8sW8FTXKwwYncI5H4ITm9g4PzkpRr0hAZF63xWZGs/qUYtqfnpdfF/9+9w6XqSWaHDk56rmVZDonDfWDJG3HQaurmztzQvXhtPsYAFTAF4cj2v2CAAAA
+        blockMaterial: SHIELD
+    wand:
+      owner: Funget114514
+      version: 7
+      owner_id: c044cd4d-b2f0-493d-9457-42ab7216df39
+      template: mirrorshield
+  magicbow:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3218
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"魔法弓"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gold","text":"弓箭手 "},{"color":"white","text":"魔法弓"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Funget114514"}'
+        - '{"text":"掌握 2 技能"}'
+        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+        custom-model-data: 18001
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/1WQ0U6EMBBFh4BZgmt88wuMT0vSQgH7A/4GKe0UG9mWlAIxxn+3iw/GeZubO2fuTAGQQPaBOCcFZLuwKoc7t1v0cH5b7YiBUtZQlsLTuwuD8L2xG9rg/Gcv3WoDREAOZyGD2bBfZpym2Hnv9n52ZnE2h8xIZ6EY3P5FXwmh3wU8HsY/Vvp/5gZN4eFX8jiuk/BwqxROG/rFHJZTDnnA6zyJgJBfxWhk3BHFI39vFDxLwphUTJVDpUnJeK1KzpquZJUYuoq2Stc8pketUYZ40OQ8vCjNKRG041LqS9diTbjkESIuDRImUbVNQ3n82/1qlXfzLIYJE/gBRQ/TyEsBAAA=
+    wand:
+      owner: Funget114514
+      hotbar_inventory_count: 1
+      active_spell: arrow_poison
+      icon: bow{18001}
+      spell_inventory:
+        arrow_poison: 1
+        arrow_regular: 0
+      owner_id: c044cd4d-b2f0-493d-9457-42ab7216df39
+      template: magicbow
+      version: 7
+      effect_color: df910a179ccf,76e309c9d4da,5e04ced65519
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data:
+  sp: 73.0
+properties:
+  version: 7
+classes:
+  caster:
+    spells:
+    - flare
+    - blind
+    - poison
+    - arrow
+    - push
+    - pull
+    - reflect
+    - recall
+    - missile
+    - fire
+    - workbench
+    - aqualung
+    - fireball
+    spell_levels:
+      missile: 3
+      fireball: 2
+  mage:
+    effect_color: efc0009bd2e7,405ab9a92e37,d31e3e815c7c
+    mana_timestamp: 1682706885682
+    mana: 50.0
+  archer_mage: {}
+  battle_mage:
+    mana_timestamp: 1682125916101
+    mana: 50.0
+transient_modifiers: {}
+active_class: archer_mage
+health: 25.200000762939453

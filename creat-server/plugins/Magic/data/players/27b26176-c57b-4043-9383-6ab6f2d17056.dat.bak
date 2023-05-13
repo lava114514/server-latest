@@ -1,0 +1,39 @@
+id: 27b26176-c57b-4043-9383-6ab6f2d17056
+name: qwe123
+created: 1680403976078
+updated: 1680410156392
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: -13.189367069100186,63.0,-281.48295179351214,world,128.54982,-1.3501502
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  b8dd9de6-bce5-418b-9566-b5e1a4cc7a98: []
+spells:
+  missile:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data: {}
+properties: {}
+classes:
+  caster: {}
+  mage:
+    effect_color: 3a7ec1ce7d3,39abdc52ddff,86b61d4da981
+    mana_timestamp: 1680403996173
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 20.0

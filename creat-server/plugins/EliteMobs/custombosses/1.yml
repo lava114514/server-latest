@@ -1,0 +1,59 @@
+onSpawnBlockStates: []
+onRemoveBlockStates: []
+isEnabled: true
+isPersistent: true
+entityType: ZOMBIE
+name: $bossLevel &e战斗伦
+level: dynamic
+healthMultiplier: 10
+damageMultiplier: 3
+onDeathCommands:
+- broadcast $players杀死了$level级的$name！
+- em spawnlocationcustom 2.yml world 0 100 0
+- tp @e[type=zombie] $locationX	$locationY $locationZ
+onSpawnCommands: []
+onCombatEnterCommands: []
+onCombatLeaveCommands: []
+deathMessages:
+- '&e&l---------------------------------------------'
+- '&4战斗伦已被击退！'
+- '&c&l    输出第一名: $damager1name&c造成了$damager1damage点伤害！'
+- '&6&l    输出第二名: $damager2name&6造成了$damager2damage点伤害！'
+- '&e&l    输出第三名: $damager3name&e造成了$damager3damage点伤害！'
+- '&4终结者: $players'
+- '&e&l---------------------------------------------'
+uniqueLootList:
+- fightlun_axe.yml:0.2
+powers:
+- attack_wither.yml
+- hyper_loot.yml
+- shield_wall.yml
+- 1.yml
+- 2.yml
+- moonwalk.yml
+- movement_speed.yml
+- spirit_walk.yml
+- attack_fire.yml
+- attack_arrow.yml
+- death_slice.yml
+- invulnerability_fall_damage.yml
+- attack_push.yml
+onDamageMessages:
+- 会翻墙吗！
+onDamagedMessages:
+- 诽谤！
+trails:
+- BARRIER
+phases: []
+spawnChance: 0.1
+locationMessage: 战斗伦：$distance
+spawnMessage: 伦急了！
+deathMessage: 战斗伦被$players杀死了！
+escapeMessage: 战斗伦逃离了！
+announcementPriority: 3
+timeout: 0
+helmet: NETHERITE_HELMET
+chestplate: NETHERITE_CHESTPLATE
+leggings: NETHERITE_LEGGINGS
+boots: NETHERITE_BOOTS
+mainHand: NETHERITE_AXE

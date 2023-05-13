@@ -164,12 +164,12 @@ Icons:
   H:
     update: 20
     display:
-      material: beacon
-      name: '&b传&3送'
+      material: bedrock
+      name: '&b墓&3碑'
     actions:
       all: 
       - 'sound: BLOCK_NOTE_BLOCK_PLING-1-2'
-      - 'menu: transmission'
+      - 'command *"grave"'
   A:
     update: 20
     display:

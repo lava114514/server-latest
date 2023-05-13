@@ -1,0 +1,40 @@
+id: ea07e410-3cb9-313f-9ba5-86529ce92772
+name: sb
+created: 1671449865189
+updated: 1671450988825
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: -232.30000001192093,74.0,-110.12686493473115,world,-128.25072,26.700085
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  44ec6427-fe0d-4057-a422-d74d16d9eea0: []
+spells:
+  missile:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data: {}
+properties:
+  version: 7
+classes:
+  caster: {}
+  mage:
+    effect_color: 8eb186dc5ee4,9227dee023d0,3276277112fc
+    mana_timestamp: 1671450986556
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 0.0

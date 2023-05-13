@@ -36,6 +36,8 @@ summon minecraft:lightning_bolt ~1 ~ ~
 summon minecraft:lightning_bolt ~-1 ~ ~
 summon minecraft:lightning_bolt ~ ~ ~1
 summon minecraft:lightning_bolt ~ ~ ~-1
+kill @e[type=zombie,nbt={Silent:1b,NoGravity:1b,PersistenceRequired:1b}]
+
 summon minecraft:zombie ~ ~10 ~ {Silent:1,NoGravity:1,PersistenceRequired:1,Fire:-32767,Attributes:[{Name:"generic.knockback_resistance",Base:1}],ActiveEffects:[{Id:12,Duration:32767,Amplifier:1}]}
 summon minecraft:armor_stand ~ ~10 ~ {Silent:1,NoGravity:1,Fire:-32767,Attributes:[{Name:"generic.knockback_resistance",Base:1}],ActiveEffects:[{Id:12,Duration:32767,Amplifier:1}]}
-kill @e[type=zombie,nbt={Silent:1b,NoGravity:1b,PersistenceRequired:1b}]
+

@@ -2,7 +2,7 @@ cluster:
   cast_count: 0
   last_cast: 0
 flare:
-  cast_count: 96757090451456
+  cast_count: 49539630311145508
   last_cast: 0
 dragonexplodefire:
   cast_count: 0
@@ -29,7 +29,7 @@ jeweller:
   cast_count: 0
   last_cast: 0
 reflect:
-  cast_count: 123231201656832
+  cast_count: 63094375248297984
   last_cast: 0
 music:
   cast_count: 0
@@ -50,7 +50,7 @@ farm:
   cast_count: 0
   last_cast: 0
 fire:
-  cast_count: 39762001920
+  cast_count: 20358144983042
   last_cast: 0
 wandbuffshop:
   cast_count: 0
@@ -194,7 +194,7 @@ superbroom:
   cast_count: 0
   last_cast: 0
 poison:
-  cast_count: 4503599627370496
+  cast_count: 2305843009213693952
   last_cast: 0
 spawnershop:
   cast_count: 0
@@ -215,7 +215,7 @@ familiar:
   cast_count: 0
   last_cast: 0
 blast:
-  cast_count: 1713691951104
+  cast_count: 877410278965248
   last_cast: 0
 boomerang:
   cast_count: 0
@@ -227,7 +227,7 @@ dragonexplodelightning:
   cast_count: 0
   last_cast: 0
 pull:
-  cast_count: 39724152553472
+  cast_count: 20338766107377664
   last_cast: 0
 torture:
   cast_count: 0
@@ -290,7 +290,7 @@ armorshop:
   cast_count: 0
   last_cast: 0
 spellshop:
-  cast_count: 68719476736
+  cast_count: 35184372088832
   last_cast: 0
 sunstrike:
   cast_count: 0
@@ -308,7 +308,7 @@ fillwand:
   cast_count: 0
   last_cast: 0
 missile:
-  cast_count: 462824984865375647
+  cast_count: -2841280707151839575
   last_cast: 0
 trinketshop:
   cast_count: 0
@@ -320,13 +320,13 @@ atm:
   cast_count: 0
   last_cast: 0
 aqualung:
-  cast_count: 9073410538110976
+  cast_count: 4645586195512819934
   last_cast: 0
 arrow_grapple:
   cast_count: 0
   last_cast: 0
 workbench:
-  cast_count: 8589934592
+  cast_count: 4398046511104
   last_cast: 0
 vanish:
   cast_count: 0
@@ -401,10 +401,10 @@ remove_protection:
   cast_count: 0
   last_cast: 0
 blind:
-  cast_count: 144115205322866688
+  cast_count: 8830469537792
   last_cast: 0
 boon:
-  cast_count: 79173964038400
+  cast_count: 40537069587660808
   last_cast: 0
 axeshop:
   cast_count: 0
@@ -479,7 +479,7 @@ masterattack:
   cast_count: 0
   last_cast: 0
 arrow_poison:
-  cast_count: 1632087572480
+  cast_count: 835628837109760
   last_cast: 0
 brushshop:
   cast_count: 0
@@ -497,13 +497,13 @@ tame:
   cast_count: 0
   last_cast: 0
 arrow_regular:
-  cast_count: 618475290624
+  cast_count: 316659348799488
   last_cast: 0
 foodshop:
   cast_count: 0
   last_cast: 0
 colorshop:
-  cast_count: 34359738368
+  cast_count: 17592186044416
   last_cast: 0
 glassshop:
   cast_count: 0
@@ -554,7 +554,7 @@ tracking:
   cast_count: 0
   last_cast: 0
 upgrades:
-  cast_count: 274877907200
+  cast_count: 140737488486400
   last_cast: 0
 upgradeshop:
   cast_count: 0
@@ -620,13 +620,13 @@ wanddebuffshop:
   cast_count: 0
   last_cast: 0
 push:
-  cast_count: 17592186044416
+  cast_count: 9007199254740992
   last_cast: 0
 dragonwater:
   cast_count: 0
   last_cast: 0
 wandinstructions:
-  cast_count: 68719476736
+  cast_count: 35184372088832
   last_cast: 0
 tosurvival:
   cast_count: 0
@@ -719,7 +719,7 @@ walls:
   cast_count: 0
   last_cast: 0
 bubble:
-  cast_count: 65536
+  cast_count: 33554432
   last_cast: 0
 kindletron_smash:
   cast_count: 0
@@ -731,7 +731,7 @@ leathershop:
   cast_count: 0
   last_cast: 0
 recall:
-  cast_count: 1463939475081068742
+  cast_count: -6779495780584416886
   last_cast: 0
 broomshop:
   cast_count: 0
@@ -749,7 +749,7 @@ map:
   cast_count: 0
   last_cast: 0
 fireball:
-  cast_count: 2533309150134272
+  cast_count: 1297054284868747332
   last_cast: 0
 ledger:
   cast_count: 0
@@ -851,7 +851,7 @@ woodshop:
   cast_count: 0
   last_cast: 0
 arrow:
-  cast_count: 9060130431729681
+  cast_count: 4638786781045596672
   last_cast: 0
 crudbroom:
   cast_count: 0
@@ -1067,7 +1067,7 @@ singularity:
   cast_count: 0
   last_cast: 0
 progressmenu:
-  cast_count: 4514163434980128
+  cast_count: 2311251678709825560
   last_cast: 0
 ghast:
   cast_count: 0
@@ -1109,7 +1109,7 @@ growth:
   cast_count: 0
   last_cast: 0
 arrowrain:
-  cast_count: 0
+  cast_count: 16
   last_cast: 0
 collapse:
   cast_count: 0

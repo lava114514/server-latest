@@ -1,0 +1,16 @@
+name: 2
+powerType: UNIQUE
+isEnabled: true
+eliteScript:
+  2:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: RUN_COMMAND_AS_PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 10
+      sValue: function minecraft:tick1
+    Cooldowns:
+      local: 20
+      global: 20
