@@ -1,0 +1,46 @@
+menu:
+  title: '你好, %player_name%!' 
+  rows: 5
+
+bindings:
+  item: 'material:compass'
+  chat: '/菜单'
+
+
+panel:
+  - Layout: |-
+      ########C
+          #    
+        EHA   
+          #    
+      ####*####
+
+
+  Items:
+    '#':
+      material: Gray Stained Glass Pane
+      name: '&7菜&8单'
+      actions:
+        all: 'sound: BLOCK_NOTE_BLOCK_PLING-1-2'
+
+    'C':
+      material: Red Stained Glass Pane
+      name: '&c关&7闭'
+      actions:
+        all: close
+
+    'H':
+      material: bedrock
+      name: '&b墓&3碑'
+      actions: command *"grave"
+
+    'A':
+      material: chest
+      name: '&6扩展背包'
+      actions: command *"bag open"
+
+    'E':
+      material: feather
+      name: '&5技&d能'
+      actions: command *"sk"
+

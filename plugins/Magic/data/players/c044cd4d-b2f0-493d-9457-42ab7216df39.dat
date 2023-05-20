@@ -1,10 +1,10 @@
 id: c044cd4d-b2f0-493d-9457-42ab7216df39
 name: Funget114514
 created: 1679803070926
-updated: 1684037724596
+updated: 1684592756303
 last_cast: 1682095863993
-cooldown_expiration: 0
-last_death_location: -162.5718961638551,13.0,-118.36747553200114,world_nether,-68.808105,57.20228
+cooldown_expiration: 1684591429205
+last_death_location: 4.339010451725419,119.20000004768372,16.397486886977838,world,-34.248894,26.081059
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -172,7 +172,7 @@ wands:
   spellbook:
     item:
       ==: org.bukkit.inventory.ItemStack
-      v: 3218
+      v: 3337
       type: ENCHANTED_BOOK
       meta:
         ==: ItemMeta
@@ -225,7 +225,7 @@ wands:
   magicsword:
     item:
       ==: org.bukkit.inventory.ItemStack
-      v: 3218
+      v: 3337
       type: NETHERITE_SWORD
       meta:
         ==: ItemMeta
@@ -280,7 +280,7 @@ wands:
   wand:
     item:
       ==: org.bukkit.inventory.ItemStack
-      v: 3218
+      v: 3337
       type: STICK
       meta:
         ==: ItemMeta
@@ -347,7 +347,7 @@ wands:
   mirrorshield:
     item:
       ==: org.bukkit.inventory.ItemStack
-      v: 3218
+      v: 3337
       type: SHIELD
       meta:
         ==: ItemMeta
@@ -377,7 +377,7 @@ wands:
   magicbow:
     item:
       ==: org.bukkit.inventory.ItemStack
-      v: 3218
+      v: 3337
       type: BOW
       meta:
         ==: ItemMeta
@@ -441,7 +441,7 @@ classes:
       fireball: 2
   mage:
     effect_color: efc0009bd2e7,405ab9a92e37,d31e3e815c7c
-    mana_timestamp: 1684037724495
+    mana_timestamp: 1684592756204
     mana: 50.0
   archer_mage: {}
   battle_mage:
@@ -449,4 +449,4 @@ classes:
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 9.020448684692383
+health: 5.469566345214844

@@ -9,7 +9,7 @@ settings:
       # Grave #
       #########
       grave:
-        time: 10800 # (Second) How long graves should stay alive for, 300 = 5 minutes, 10800 = 3 hours, -1 lasts forever.
+        time: -1 # (Second) How long graves should stay alive for, 300 = 5 minutes, 10800 = 3 hours, -1 lasts forever.
         max: 18 # The max amount of graves an entity can have.
         break: true # Can graves be broken.
         explode: false # Can graves be blown up.
@@ -76,7 +76,7 @@ settings:
       # If you are running PaperMC you can set armor-stands-tick to false for improved performance without impacting any functionality.
       hologram:
         enabled: true # Should holograms be created.
-        marker: true # Should the hologram be a marker, you can't interact with markers.
+        marker: false # Should the hologram be a marker, you can't interact with markers.
         height-line: 0.28 # How far apart should holograms be from each-other.
         offset:
           x: 0 # Hologram offset X.
@@ -92,11 +92,11 @@ settings:
       ##############
       # Protection options, protect graves from players, this does not protect from explosions, look for grave: explode: to disable this.
       protection:
-        enabled: false # Enable the grave protection feature.
+        enabled: true # Enable the grave protection feature.
         time: 300 # Seconds, 300 = 5 minutes. Set to -1 to always stay locked.
         open:
           owner: true # Can the owner open the owners grave.
-          killer: true # Can the killer open the owners grave.
+          killer: false # Can the killer open the owners grave.
           other: false # Can other entities open the owners grave.
           missing:
             owner: true # If a killer can't be found should the owner be allowed to open the grave.

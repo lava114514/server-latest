@@ -1,9 +1,9 @@
 id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
 name: mc_wyy114
 created: 1679719078156
-updated: 1684038067095
-last_cast: 1684036771191
-cooldown_expiration: 1684037565445
+updated: 1684582149709
+last_cast: 1684581556202
+cooldown_expiration: 1684582113209
 last_death_location: -100.9678387073754,5.0,-111.69487498807906,world_nether,166.60965,30.508184
 fall_protection_count: 0
 fall_protection: 0
@@ -441,7 +441,7 @@ wands:
   magicsword:
     item:
       ==: org.bukkit.inventory.ItemStack
-      v: 3218
+      v: 3337
       type: NETHERITE_SWORD
       meta:
         ==: ItemMeta
@@ -483,7 +483,7 @@ wands:
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
         Unbreakable: true
-        internal: H4sIAAAAAAAA/01RQU7DMBDckpSGgEACqWcOiFMrJTRVEh6AxCsix143Vp11ZLuNIsTfcdsDvY13Z8azuynADOI94jBLIR4ZiQRiYj3C4zdJRcpPr1/GckxgbkZCC3c9b8ZpyvMigmVnfMtso+iI5I2dGm4O5CGYBhvFDcGS0HdolcfGjcaKn7zKsvo3hSc3oNb/0gji4aB10EIEiVQWW3Z+ziOYM2vNGPBNBIteOac0nnhBcyIGGAdSqxWJ099nK9cFeBu8Fke0ToUoAIsEEo/9oJlHSHu2U/wcKpTPwzVKwFu+Laq8rNm64Hm9LtoPua4KvlkLUWZlhnLDqk0KD0i8Y+T7kN5F8NIrQm6Z9J+uY3YgdO4S6/mqM4Y9K9pdol9J9mT4vmV8fxoRkmAuJXIftqmNhfc8k7LO6rreCraSKOuykpKXIltdd8Ih7w8krBkG1mqcwR8Rd5y/3AEAAA==
+        internal: H4sIAAAAAAAA/02RwU7DMAyGPdqxUiaQQNqZA+K0SS0rassDIPEUVZo4a9TUqZJs1YR4d7LtwG5/5P+3PzspwAziHnGcpRBPjEQCMbEB4eGbpCLljy9fxnJMYG4mQgt3A2+m4zHPiwhWnfEts42iA5I39thwsycPoWloo7ghWBH6Dq3y2LjJWPGTV1lW/6bw6EbU+j8aQTzutQ5ZiCCRymLLzs95BHNmrZmCvolgMSjnlMaTL2ROxiDjYGq1InGafW7luiBvIYHkzN0oAa/5R1HlZc02Bc/rTdG+y01V8O1GiDIrM5RbVm1DwOMwauYR0oHtFD9zh8EHtE6FlQAWKSyReMfID4HeRfA8KEJumfSfrmN2JHTugvV0VZnCnRXtLuhXkZ4M71vG+9OKAXmJUiL34ZraWHjLMynrrK7rD8HWEmVdVlLyUmTr60r4yPs9CWvGkbUaZ/AHCUZiQNwBAAA=
     wand:
       name: Infinity Force
       owner: mc_wyy114
@@ -497,9 +497,9 @@ wands:
         fire: 4
         blind: 1
         push: 6
-      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
-      template: magicsword
       version: 7
+      template: magicsword
+      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
       enchantments:
         minecraft:sharpness: 4
         minecraft:knockback: 2
@@ -508,7 +508,7 @@ wands:
   wand:
     item:
       ==: org.bukkit.inventory.ItemStack
-      v: 3218
+      v: 3337
       type: STICK
       meta:
         ==: ItemMeta
@@ -536,7 +536,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: b018c85c-db95-4791-81ca-6d7b99461d3e
+            uuid: 3983738f-a28e-4adb-8f3b-c0b9ceb44dfc
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -547,7 +547,7 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0VRy26DMBBcCjSURs2tpx7bW5AwkEC+Btlm3VhxANkmKKr677UhUm9rzc7OwylAANEFcQxSiGbadyFEI/1GAI+8oRDIbcsmxhQaSGBLuZU3bM2ISkHMlOy7BCLJhx62xkp++SFNnpPfFDYr2SSQLCRq/dUQNjfURrp9gI3DLF5H5bFF3ik8NPmgBg1fnDX8wI95LjjuG2R4JKwsi2Z/IEWZ17QrToKH8HweLKPa204gHuYeNbxceTvf74RUCeweV0eqnUmF3sj7ymllf8PeDvruNKfe+uQp7JaE/5jvZXKRAeIQEiE1Mro8gxBiqvUwu/nJpbtKY6RaCnQcv+imj/DRlQ/t3GrkK/t5uWvObozcjlBUry25ZpYUrezgkxyqhtQnmlWcnLKKFSJrKl5mXVfndY6ipE3pvut16js9jCN1nxXAH/kwyPrcAQAA
+        internal: H4sIAAAAAAAA/0VRQW6DMBBcCjSURs2tpx7bW5AwkEBeg2yzbqw4gGwTFFX9e22I1Nvas7OzM5sCBBBdEMcghWimfRdCNNJvBPDIGwqB3LZsYkyhgQS2lFt5w9aMqBTETMm+SyCSfOhha6zklx/S5Dn5TWGzkk0CyUKi1k8NYXNDbaTrB9g4zOJ1VB5b5J3CQ5MPatDwxVnDD/yY54LjvkGGR8LKsmj2B1KUeU274iR4CM/nwTKq/doJ7B4jRqrdRgr9XzzMPWp4ufJ2vt8JqUJ4Xzmt7G/Y20HfnebUW+88hd3i8B/zuUzOMkAcQiKkRkaXZ+AcXaUxUi2hhRBTrYfZlU+O4xtd+eE21MhXxnP4CM4nsMw1Z1dG7lsoqteUXDLLxq3s4JMcqobUJ5pVnJyyihUiaypeZl1X53WOoqRN6c71OvWdHsaRumMF8AdspOtl3AEAAA==
     wand:
       page: 0
       effect_bubbles: false
@@ -559,24 +559,24 @@ wands:
       version: 7
       hotbar: 0
       effect_color: cb8c5c600fce,8ebe61b3328,512307ad29fc
-      effect_particle: ''
       owner: mc_wyy114
+      effect_particle: ''
       hotbar_inventory_count: 1
       spell_inventory:
         pull: 5
         fireball: 1
-        missile: 0
         arrow: 2
+        missile: 0
         fire: 28
-        recall: 6
         blind: 7
+        recall: 6
         push: 4
         flare: 3
       owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
   mirrorshield:
     item:
       ==: org.bukkit.inventory.ItemStack
-      v: 3218
+      v: 3337
       type: SHIELD
       meta:
         ==: ItemMeta
@@ -596,17 +596,17 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/x3L0Q6CIBgG0M9lk1yP0S2bBA18Gkfwu1gCDl3Mt691f04PNGjfRGvTo602eYZzrokKLtFN9TiEUCd0HypbyAlAx8D+YAoeN/FQRujRcuXEyNXzPnOjnOTe60EPNEtr5C/sFNfF7oRrDKXksr0CLR74ApnvsqB/AAAA
+        internal: H4sIAAAAAAAA/x3K0Q6CIBgG0M9lk1yP0S2bBA18Gkfwu1gCDl3Mt691rk8PNGjfRGvTo602eYZzrokKLtFN9TiEUAxsp7gudidcYygll+0VaPld9r9T8LiJhzJCj5YrJ0aunveZG+Uk914PeqBZWiNP6D5UtpATgA74AjpGJjh/AAAA
         blockMaterial: SHIELD
     wand:
       owner: mc_wyy114
-      template: mirrorshield
-      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
       version: 7
+      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      template: mirrorshield
   magicbow:
     item:
       ==: org.bukkit.inventory.ItemStack
-      v: 3218
+      v: 3337
       type: BOW
       meta:
         ==: ItemMeta
@@ -634,7 +634,7 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/12QQU6EQBBFi4AZxDGz8wRuSWjBwHgEL0GKppjpCN2dpoEQ4ylcuHLnMUw8DfewYWPGSq0q/7//UxGAB8ELkfYiCCaUdQiBxI4gel5+PpbPr+X7PYQrNUkycN3xcppnxjIf7s7KVmhKIUeSVpm55GqQFhwwhD1yK0Yqe01tC7dojJpKQ6ehReMCBFcSokpNr6xIEvYWwWFT/sF8h9hMWoneiR3V/8eBdUIIt2qlqOGePWYFy48YZ5wd46x6aOIi42lc13mSJ9SkWKTOYKnTLVqCsMOT4K6GD7uRTC+2oF0Ee5L8jNJ2rkzvw6ETkrjBxj5pNdGaHFxcm3b92PpKtzeDrI3SGquWPPgFCo84SWEBAAA=
+        internal: H4sIAAAAAAAA/12QQU6EQBBFi4AZxDGz8wRuSWjBwHgEL0GKppjpCN2dpoEQ4ylcuHLnMUw8DfewYWPGpDb1U/XqpSIAD4IXIu1FEEwo6xACiR1B9Lz8fCyfX8v3ewhXapJk4Lrj5TTPjGU+3J2VrdCUQo4krTJzydUgLThgCHvkVoxU9praFm7RGDWVhk5Di8YdEFxJiCo1vbIiSdhbBIdt8g/m/1tyWPAddsu0Er0DrOo+7EYyvdjaXQihpU63aAnCDk+Cuxsu3OxLUcM9e8wKlh8xzjg7xln10MRFxtO4rvMkT6hJsUgj2JPkZ5S2czK9D4dOSOIGG/uk1USrTHCRNu36sdXH1c0ga6O0xqolD34B9qN7oWEBAAA=
     wand:
       name: J志坤弓
       owner: mc_wyy114
@@ -642,11 +642,11 @@ wands:
       active_spell: arrow_regular
       icon: bow{18001}
       spell_inventory:
-        arrow_poison: 1
         arrow_regular: 0
-      version: 7
-      template: magicbow
+        arrow_poison: 1
       owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      template: magicbow
+      version: 7
       enchantments:
         minecraft:power: 4
         minecraft:flame: 1
@@ -675,7 +675,7 @@ classes:
     - push
   mage:
     effect_color: 456a4a324571,d7819e4f1a4d,20893af8e500
-    mana_timestamp: 1684038066997
+    mana_timestamp: 1684582149608
     mana: 50.0
   archer_mage: {}
   battle_mage:

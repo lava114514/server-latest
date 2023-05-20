@@ -1,0 +1,58 @@
+menu:
+  title: '你好, %player_name%!' 
+  rows: 5
+
+bindings:
+  item: 'material:compass'
+  chat: '/菜单'
+
+panel:
+  - layout: |-
+      ########C
+          #    
+         EHA   
+          #    
+      ####*####
+    items:
+      '#':
+        material: Gray Stained Glass Pane
+        name: '&7菜&8单'
+        actions: 'sound: BLOCK_NOTE_BLOCK_PLING-1-2'
+
+      'C':
+        material: Red Stained Glass Pane
+        name: '&c关&7闭'
+        actions: close
+
+      'H':
+        material: bedrock
+        name: '&b墓&3碑'
+        actions: command *"grave"
+
+      'A':
+        material: chest
+        name: '&6扩展背包'
+        actions: command *"bag open"
+
+      'E':
+        material: feather
+        name: '&5技&d能'
+        actions: command *"sk"
+
+      '*':
+        material: 'head:%player_name%'
+        name: '&3&l服务器内存占用：'
+          lore:
+
+              &8| &7RAM: &2%server_ram_used%/%server_ram_total% &7MB'
+              '&8[ %progress_bar_{server_ram_used}_m:{server_ram_total}_c:&3■_p:&7■_r:&8■_l:20% &8]
+              
+              &8| &7在线: &e%server_online% &6${js: utils.getOnlinePlayers().size() > 1 ? "Players" : "Player"}
+              &8| &7UPTIME: &e%server_uptime%
+              &8| &7TPS: &a%server_tps%
+              
+        actions:
+          left:
+            - 'set-meta: icon_server_hide true'
+            - 'sound: BLOCK_NOTE_BLOCK_BIT-1-0'
+            - 'refresh: *'

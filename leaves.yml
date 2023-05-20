@@ -31,6 +31,10 @@ settings:
     entity-target-find-optimization: true
     skip-clone-loot-parameters: true
   protocol:
+    syncmatica:
+      enable: false
+      quota: false
+      quota-limit: 40000000
     jade-protocol: false
     xaero-map-protocol: false
     xaero-map-server-id: 1492829287
@@ -41,6 +45,7 @@ settings:
     pca-sync-protocol: false
   modify:
     fakeplayer:
+      skip-sleep-check: false
       enable: true
       unable-fakeplayer-names:
       - fake

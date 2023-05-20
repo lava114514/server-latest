@@ -1,3 +1,9 @@
+hooks:
+  HolographicDisplays:
+    enabled: true
+  DecentHolograms:
+    enabled: false
+reset-skills-on-death: false
 mysql:
   enabled: false
   host: localhost
@@ -27,6 +33,7 @@ languages:
 - ko
 - cs
 action-bar:
+  use-suffix: true
   enabled: true
   idle: true
   ability: true
@@ -36,6 +43,8 @@ action-bar:
   round-xp: false
   placeholder-api: true
 boss-bar:
+  placeholder-api: true
+  use-suffix: true
   enabled: true
   mode: multi
   stay-time: 60

@@ -24,7 +24,7 @@ war_icon: diamond_pickaxe
 bigdragonwingleftred:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: FEATHER
     meta:
       ==: ItemMeta
@@ -33,7 +33,7 @@ bigdragonwingleftred:
 bigdragonbodyred:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: FEATHER
     meta:
       ==: ItemMeta
@@ -42,7 +42,7 @@ bigdragonbodyred:
 bigdragonwingrightred:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: FEATHER
     meta:
       ==: ItemMeta
@@ -51,7 +51,7 @@ bigdragonwingrightred:
 bigdragonwingleftblue:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: FEATHER
     meta:
       ==: ItemMeta
@@ -60,7 +60,7 @@ bigdragonwingleftblue:
 bigdragonbodyblue:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: FEATHER
     meta:
       ==: ItemMeta
@@ -69,7 +69,7 @@ bigdragonbodyblue:
 bigdragonwingrightblue:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: FEATHER
     meta:
       ==: ItemMeta
@@ -78,7 +78,7 @@ bigdragonwingrightblue:
 bigdragonwingleftgreen:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: FEATHER
     meta:
       ==: ItemMeta
@@ -87,7 +87,7 @@ bigdragonwingleftgreen:
 bigdragonbodygreen:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: FEATHER
     meta:
       ==: ItemMeta
@@ -96,7 +96,7 @@ bigdragonbodygreen:
 bigdragonwingrightgreen:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: FEATHER
     meta:
       ==: ItemMeta
@@ -105,7 +105,7 @@ bigdragonwingrightgreen:
 bigdragonwingleftgrey:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: FEATHER
     meta:
       ==: ItemMeta
@@ -114,7 +114,7 @@ bigdragonwingleftgrey:
 bigdragonbodygrey:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: FEATHER
     meta:
       ==: ItemMeta
@@ -123,7 +123,7 @@ bigdragonbodygrey:
 bigdragonwingrightgrey:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: FEATHER
     meta:
       ==: ItemMeta
@@ -132,7 +132,7 @@ bigdragonwingrightgrey:
 bigdragonwingleftpurple:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: FEATHER
     meta:
       ==: ItemMeta
@@ -141,7 +141,7 @@ bigdragonwingleftpurple:
 bigdragonbodypurple:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: FEATHER
     meta:
       ==: ItemMeta
@@ -150,7 +150,7 @@ bigdragonbodypurple:
 bigdragonwingrightpurple:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: FEATHER
     meta:
       ==: ItemMeta
@@ -166,7 +166,7 @@ broomstick_handle:
     temporary: true
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: STICK
     meta:
       ==: ItemMeta
@@ -560,7 +560,7 @@ dragonwingrightyellow:
 thorns:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: FEATHER
     meta:
       ==: ItemMeta
@@ -3012,7 +3012,7 @@ emerald_sword:
     operation: 0
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: DIAMOND_SWORD
     meta:
       ==: ItemMeta
@@ -3023,11 +3023,11 @@ helmet_of_blinding:
   worth: 750
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: DIAMOND_HELMET
     meta:
       ==: ItemMeta
-      meta-type: UNSPECIFIC
+      meta-type: ARMOR
       display-name: '{"extra":[{"text":"Helmet of Blinding"}],"text":""}'
       lore:
       - '{"extra":[{"text":"For use outside of water"}],"text":""}'
@@ -3037,7 +3037,7 @@ dwarven_battle_axe:
   worth: 1000
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: DIAMOND_AXE
     meta:
       ==: ItemMeta
@@ -3050,7 +3050,7 @@ dwarven_spade:
   worth: 200
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: DIAMOND_SHOVEL
     meta:
       ==: ItemMeta
@@ -3065,7 +3065,7 @@ dwarven_axe:
   worth: 500
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: DIAMOND_AXE
     meta:
       ==: ItemMeta
@@ -3080,7 +3080,7 @@ dwarven_pickaxe:
   worth: 500
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: DIAMOND_PICKAXE
     meta:
       ==: ItemMeta
@@ -3093,7 +3093,7 @@ dwarven_pickaxe_luck:
   worth: 1337
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: DIAMOND_PICKAXE
     meta:
       ==: ItemMeta
@@ -3107,7 +3107,7 @@ felicis_pickaxe:
   worth: 2500
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: DIAMOND_PICKAXE
     meta:
       ==: ItemMeta
@@ -3119,7 +3119,7 @@ dwarven_felicis_pickaxe:
   worth: 3333
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: DIAMOND_PICKAXE
     meta:
       ==: ItemMeta
@@ -3133,7 +3133,7 @@ loot3_pickaxe:
   worth: 1000
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: DIAMOND_PICKAXE
     meta:
       ==: ItemMeta
@@ -3144,7 +3144,7 @@ loot5_pickaxe:
   worth: 2500
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: DIAMOND_PICKAXE
     meta:
       ==: ItemMeta
@@ -3155,7 +3155,7 @@ silk_touch_pickaxe:
   worth: 3000
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: DIAMOND_PICKAXE
     meta:
       ==: ItemMeta
@@ -3166,7 +3166,7 @@ end_compass:
   worth: 100
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: COMPASS
     meta:
       ==: ItemMeta
@@ -3181,7 +3181,7 @@ hylian_shield:
   worth: 200
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: SHIELD
     meta:
       ==: ItemMeta
@@ -3202,40 +3202,40 @@ warlock_boots:
   worth: 500
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: CHAINMAIL_BOOTS
     meta:
       ==: ItemMeta
-      meta-type: UNSPECIFIC
+      meta-type: ARMOR
       enchants:
         PROTECTION_FALL: 10
 warlock_chestplate:
   worth: 400
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: CHAINMAIL_CHESTPLATE
     meta:
       ==: ItemMeta
-      meta-type: UNSPECIFIC
+      meta-type: ARMOR
       enchants:
         THORNS: 3
 warlock_leggings:
   worth: 400
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: CHAINMAIL_LEGGINGS
     meta:
       ==: ItemMeta
-      meta-type: UNSPECIFIC
+      meta-type: ARMOR
       enchants:
         THORNS: 3
 warlock_wand:
   worth: 200
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: WOODEN_HOE
     meta:
       ==: ItemMeta
@@ -3253,7 +3253,7 @@ wizard_wand:
   worth: 300
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: WOODEN_HOE
     meta:
       ==: ItemMeta
@@ -3268,7 +3268,7 @@ madscientist_wand:
   worth: 500
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: WOODEN_HOE
     meta:
       ==: ItemMeta
@@ -3283,7 +3283,7 @@ madscientist_helmet:
   worth: 400
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: WOODEN_HOE
     meta:
       ==: ItemMeta
@@ -3296,7 +3296,7 @@ archer_bow:
   worth: 300
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: BOW
     meta:
       ==: ItemMeta
@@ -3311,7 +3311,7 @@ nether_compass:
   worth: 100
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: COMPASS
     meta:
       ==: ItemMeta
@@ -3325,7 +3325,7 @@ nether_compass:
 nothing:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: WOODEN_HOE
     meta:
       ==: ItemMeta
@@ -3343,7 +3343,7 @@ overworld_compass:
   worth: 100
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: COMPASS
     meta:
       ==: ItemMeta
@@ -3358,7 +3358,7 @@ potion_water:
   worth: 2.0
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: POTION
     meta:
       ==: ItemMeta
@@ -3368,7 +3368,7 @@ potion_splash_swiftness_long:
   worth: 50
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: SPLASH_POTION
     meta:
       ==: ItemMeta
@@ -3822,7 +3822,7 @@ superelytra:
   worth: 10000.0
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: ELYTRA
     meta:
       ==: ItemMeta
@@ -3832,7 +3832,7 @@ superelytra:
 totem:
   item:
     ==: org.bukkit.inventory.ItemStack
-    v: 3218
+    v: 3337
     type: WOODEN_HOE
     meta:
       ==: ItemMeta

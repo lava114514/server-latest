@@ -9,8 +9,7 @@ healthMultiplier: 10
 damageMultiplier: 20
 onDeathCommands:
 - broadcast $players杀死了$level级的$name！
-- em spawnlocationcustom 4.yml world 0 100 0
-- tp @e[type=wolf] $locationX	$locationY $locationZ
+- execute at @p run em spawnlocationcustom 4.yml world 0 100 0
 onSpawnCommands: []
 onCombatEnterCommands: []
 onCombatLeaveCommands: []

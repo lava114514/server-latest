@@ -1,5 +1,5 @@
 effect give @s slow_falling 20 1 true
-effect give @s absorption 1 2 true
+effect give @s absorption 500 2 true
 execute as @a[nbt={SelectedItem:{id:"minecraft:knowledge_book"} }] run summon minecraft:item ^ ^ ^2 {Item:{id:"minecraft:paper",Count:1b},PickupDelay:32767s,Age:5900,Fire:-32767,Invulnerable:1}
 execute as @a[nbt={SelectedItem:{id:"minecraft:knowledge_book"} }] run summon minecraft:item ^ ^ ^3 {Item:{id:"minecraft:paper",Count:1b},PickupDelay:32767s,Age:5900,Fire:-32767,Invulnerable:1}
 execute as @a[nbt={SelectedItem:{id:"minecraft:knowledge_book"} }] run summon minecraft:item ^ ^ ^4 {Item:{id:"minecraft:paper",Count:1b},PickupDelay:32767s,Age:5900,Fire:-32767,Invulnerable:1}
