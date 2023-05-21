@@ -47,19 +47,33 @@ panel:
       '*':
         material: 'head:%player_name%'
         name: '&3&l服务器内存占用：'
+        undate: 1
         lore: |-
               &8| &7RAM: &2%server_ram_used%/%server_ram_total% &7MB
               &8[ %progress_bar_{server_ram_used}_m:{server_ram_total}_c:&3■_p:&7■_r:&8■_l:20% &8]
               
-              &8| &7在线: &e%server_online% &6${js: utils.getOnlinePlayers().size() > 1 ? "Players" : "Player"}
+              &8| &7在线: &e%server_online% 
               &8| &7UPTIME: &e%server_uptime%
               &8| &7TPS: &a%server_tps%
-              
+              &b${flash_➥} &3左键 &7显示更多.
         actions:
           left:
-            - 'set-meta: icon_server_hide true'
-            - 'sound: BLOCK_NOTE_BLOCK_BIT-1-0'
-            - 'refresh: *'
+            - context set icon_server_hide true
+        sub:
+          if: context get icon_server_hide true
+          lore: |-
+            
+            &8| &7RAM: &2%server_ram_used%/%server_ram_total% &7MB
+            &8[ %progress_bar_{server_ram_used}_m:{server_ram_total}_c:&3■_p:&7■_r:&8■_l:20% &8]
+            
+            &8| &7在线: &e%server_online% 
+            &8| &7UPTIME: &e%server_uptime%
+            &8| &7TPS: &a%server_tps%
+            
+            &a${flash_➥} &2右键 &7恢复.
+          actions:
+            right:
+              - context set icon_server_hide false
 
       'P':
         material: 'head:%player_name%'

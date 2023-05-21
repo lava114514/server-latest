@@ -5,9 +5,11 @@
       "minecraft:taiga": "2023-04-01 12:04:32 +0800",
       "minecraft:deep_ocean": "2023-04-05 16:08:24 +0800",
       "minecraft:sunflower_plains": "2023-04-29 02:27:53 +0800",
+      "minecraft:bamboo_jungle": "2023-05-21 11:51:40 +0800",
       "minecraft:badlands": "2023-04-15 20:08:55 +0800",
       "minecraft:beach": "2023-03-26 12:00:30 +0800",
       "minecraft:dark_forest": "2023-04-15 20:08:53 +0800",
+      "minecraft:sparse_jungle": "2023-05-21 11:51:28 +0800",
       "minecraft:river": "2023-04-04 21:38:38 +0800",
       "minecraft:lukewarm_ocean": "2023-05-20 14:02:58 +0800",
       "minecraft:stony_shore": "2023-04-01 19:33:11 +0800",
@@ -19,6 +21,7 @@
       "minecraft:desert": "2023-05-13 10:59:13 +0800",
       "minecraft:deep_frozen_ocean": "2023-04-05 18:19:59 +0800",
       "minecraft:ocean": "2023-05-13 19:58:24 +0800",
+      "minecraft:jungle": "2023-05-21 11:51:34 +0800",
       "minecraft:warm_ocean": "2023-05-12 19:01:24 +0800",
       "minecraft:flower_forest": "2023-04-04 21:41:34 +0800",
       "minecraft:deep_dark": "2023-05-13 12:04:57 +0800",
@@ -3625,6 +3628,24 @@
   "minecraft:recipes/building_blocks/stripped_oak_wood": {
     "criteria": {
       "has_log": "2023-05-20 14:45:09 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2023-05-21 10:26:07 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2023-05-21 10:53:06 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2023-05-21 10:53:06 +0800"
     },
     "done": true
   },

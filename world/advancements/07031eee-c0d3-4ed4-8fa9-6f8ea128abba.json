@@ -19,6 +19,7 @@
       "minecraft:desert": "2023-05-01 21:30:59 +0800",
       "minecraft:deep_frozen_ocean": "2023-05-20 11:52:15 +0800",
       "minecraft:ocean": "2023-04-16 03:25:52 +0800",
+      "minecraft:windswept_savanna": "2023-05-21 11:20:07 +0800",
       "minecraft:warm_ocean": "2023-05-01 21:18:08 +0800",
       "minecraft:deep_lukewarm_ocean": "2023-04-01 10:32:42 +0800",
       "minecraft:flower_forest": "2023-03-26 10:39:09 +0800",
@@ -912,6 +913,7 @@
       "minecraft:skeleton": "2023-03-26 11:29:13 +0800",
       "minecraft:ravager": "2023-04-05 15:03:00 +0800",
       "minecraft:ghast": "2023-04-09 11:16:17 +0800",
+      "minecraft:guardian": "2023-05-21 10:05:21 +0800",
       "minecraft:vindicator": "2023-03-31 22:00:23 +0800",
       "minecraft:magma_cube": "2023-04-15 14:43:41 +0800",
       "minecraft:spider": "2023-03-26 11:39:37 +0800",
@@ -920,6 +922,7 @@
       "minecraft:wither": "2023-04-29 02:40:56 +0800",
       "minecraft:slime": "2023-03-26 12:32:27 +0800",
       "minecraft:phantom": "2023-04-28 22:44:16 +0800",
+      "minecraft:zombified_piglin": "2023-05-21 10:53:17 +0800",
       "minecraft:witch": "2023-04-08 21:36:59 +0800",
       "minecraft:wither_skeleton": "2023-04-15 15:05:08 +0800",
       "minecraft:husk": "2023-04-01 20:45:27 +0800",
@@ -3792,6 +3795,18 @@
   "minecraft:nether/use_lodestone": {
     "criteria": {
       "use_lodestone": "2023-05-20 22:04:13 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2023-05-21 10:17:39 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2023-05-21 11:12:46 +0800"
     },
     "done": true
   },

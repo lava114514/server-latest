@@ -1,0 +1,39 @@
+id: dafc548a-290f-4bae-8e30-0acad6b6dc71
+name: Ricky
+created: 1684637694404
+updated: 1684642465262
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: -3231.509708557557,112.1875,4520.300000011921,world,-179.75839,3.7500067
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  b8dd9de6-bce5-418b-9566-b5e1a4cc7a98: []
+spells:
+  missile:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data: {}
+properties: {}
+classes:
+  caster: {}
+  mage:
+    effect_color: 7153426dd133,883339cd2106,ccb0f4afccf2
+    mana_timestamp: 1684637722697
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 0.0

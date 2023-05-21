@@ -12,5 +12,5 @@ eliteScript:
         range: 10
       sValue: function minecraft:tick1
     Cooldowns:
-      local: 20
+      local: 100
       global: 20
