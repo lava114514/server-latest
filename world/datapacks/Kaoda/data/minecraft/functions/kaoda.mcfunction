@@ -1,0 +1,1 @@
+summon minecraft:zombie ~ ~ ~ {Tags:[kaoda],Silent:1,NoAI:1,PersistenceRequired:1,Attributes:[{Name:"generic.knockback_resistance",Base:1}],ActiveEffects:[{Id:14,Duration:32767,Amplifier:1,ShowParticles:0}]}

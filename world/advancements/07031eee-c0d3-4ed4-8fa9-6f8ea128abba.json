@@ -16,6 +16,7 @@
       "minecraft:forest": "2023-03-26 11:19:57 +0800",
       "minecraft:lush_caves": "2023-05-02 09:55:45 +0800",
       "minecraft:deep_cold_ocean": "2023-03-31 22:13:47 +0800",
+      "minecraft:frozen_ocean": "2023-05-27 09:38:38 +0800",
       "minecraft:desert": "2023-05-01 21:30:59 +0800",
       "minecraft:deep_frozen_ocean": "2023-05-20 11:52:15 +0800",
       "minecraft:ocean": "2023-04-16 03:25:52 +0800",
@@ -3807,6 +3808,72 @@
   "minecraft:recipes/misc/bowl": {
     "criteria": {
       "has_brown_mushroom": "2023-05-21 11:12:46 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2023-05-26 22:21:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2023-05-27 10:49:00 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2023-05-27 11:12:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab_from_smooth_sandstone_stonecutting": {
+    "criteria": {
+      "has_smooth_sandstone": "2023-05-27 11:12:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_stairs": {
+    "criteria": {
+      "has_smooth_sandstone": "2023-05-27 11:12:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone_slab": {
+    "criteria": {
+      "has_smooth_sandstone": "2023-05-27 11:12:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2023-05-27 11:20:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2023-05-27 11:20:04 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2023-05-27 11:47:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2023-05-27 11:47:12 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2023-05-28 12:14:29 +0800"
     },
     "done": true
   },

@@ -15,7 +15,7 @@
 _version: 30
 anticheat:
   anti-xray:
-    enabled: true
+    enabled: false
     engine-mode: 1
     hidden-blocks:
     - copper_ore
@@ -178,7 +178,7 @@ entities:
     non-player-arrow-despawn-rate: default
     per-player-mob-spawns: true
     scan-for-legacy-ender-dragon: true
-    skeleton-horse-thunder-spawn-chance: 0.01
+    skeleton-horse-thunder-spawn-chance: default
     slime-spawn-height:
       slime-chunk:
         maximum: 40.0
@@ -233,7 +233,7 @@ fishing-time-range:
 fixes:
   disable-unloaded-chunk-enderpearl-exploit: true
   falling-block-height-nerf: disabled
-  fix-curing-zombie-villager-discount-exploit: true
+  fix-curing-zombie-villager-discount-exploit: false
   fix-items-merging-through-walls: false
   prevent-tnt-from-moving-in-water: false
   split-overstacked-loot: true
@@ -269,7 +269,7 @@ misc:
   show-sign-click-command-failure-msgs-to-player: false
   update-pathfinding-on-block-update: true
 scoreboards:
-  allow-non-player-entities-on-scoreboards: false
+  allow-non-player-entities-on-scoreboards: true
   use-vanilla-world-scoreboard-name-coloring: false
 spawn:
   allow-using-signs-inside-spawn-protection: false

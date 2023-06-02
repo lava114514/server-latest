@@ -5,7 +5,7 @@ isPersistent: true
 entityType: ZOMBIE
 name: $bossLevel &e哲理伦
 level: dynamic
-healthMultiplier: 10
+healthMultiplier: 15
 damageMultiplier: 20
 onDeathCommands:
 - broadcast $players杀死了$level级的$name！
@@ -34,6 +34,8 @@ powers:
 - arrow_rain.yml
 - 21.yml
 - invulnerability_fall_damage.yml
+- 1kaoda.yml
+- fly.yml
 onDamageMessages:
 - 会翻墙吗！
 onDamagedMessages:

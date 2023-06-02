@@ -1,0 +1,16 @@
+name: 1kaoda
+powerType: UNIQUE
+isEnabled: true
+eliteScript:
+  kaoda:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: RUN_COMMAND_AS_PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 10
+      sValue: function minecraft:kaoda
+    Cooldowns:
+      local: 500
+      global: 20

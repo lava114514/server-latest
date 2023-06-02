@@ -1,10 +1,10 @@
 id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
 name: Enderlava
 created: 1678458824899
-updated: 1684641029845
-last_cast: 1684640217511
-cooldown_expiration: 1684641016698
-last_death_location: -3150.527259615601,67.0,4592.073805626359,world,-30.51654,3.7499301
+updated: 1685716029548
+last_cast: 1685713899467
+cooldown_expiration: 1685716004888
+last_death_location: -49.84520843701926,74.0,-239.70554405754243,world,155.09999,18.65002
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -263,6 +263,142 @@ undo:
     - -6,125,25,world|air
     - -7,125,24,world|air
     - -8,125,23,world|air
+    - 4,126,23,world|air
+    - 4,126,24,world|air
+    - 3,126,23,world|air
+    - 4,126,25,world|air
+    - 3,126,24,world|air
+    - 2,126,23,world|air
+    - 4,126,26,world|air
+    - 3,126,25,world|air
+    - 2,126,24,world|air
+    - 1,126,23,world|air
+    - 4,126,27,world|air
+    - 3,126,26,world|air
+    - 2,126,25,world|air
+    - 1,126,24,world|air
+    - 0,126,23,world|air
+    - 4,126,28,world|air
+    - 3,126,27,world|air
+    - 2,126,26,world|air
+    - 1,126,25,world|air
+    - 0,126,24,world|air
+    - -1,126,23,world|air
+    - 4,125,28,world|air
+    - 3,125,27,world|air
+    - 2,125,26,world|air
+    - 1,125,25,world|air
+    - 0,125,24,world|air
+    - -1,125,23,world|air
+    - 4,125,29,world|air
+    - 3,125,28,world|air
+    - 2,125,27,world|air
+    - 1,125,26,world|air
+    - 0,125,25,world|air
+    - -1,125,24,world|air
+    - -2,125,23,world|air
+    - 4,125,30,world|air
+    - 3,125,29,world|air
+    - 5,125,29,world|air
+    - 2,125,28,world|air
+    - 1,125,27,world|air
+    - 0,125,26,world|air
+    - -1,125,25,world|air
+    - -2,125,24,world|air
+    - -3,125,23,world|air
+    - 5,125,30,world|air
+    - 3,125,30,world|air
+    - 2,125,29,world|air
+    - 1,125,28,world|air
+    - 0,125,27,world|air
+    - -1,125,26,world|air
+    - -2,125,25,world|air
+    - -3,125,24,world|air
+    - 6,125,30,world|air
+    - 3,125,31,world|air
+    - 2,125,30,world|air
+    - 1,125,29,world|air
+    - 0,125,28,world|air
+    - -1,125,27,world|air
+    - -2,125,26,world|air
+    - -3,125,25,world|air
+    - 7,125,30,world|air
+    - 3,125,32,world|air
+    - 2,125,31,world|air
+    - 4,125,31,world|air
+    - 1,125,30,world|air
+    - 0,125,29,world|air
+    - -1,125,28,world|air
+    - -2,125,27,world|air
+    - -3,125,26,world|air
+    - 7,125,29,world|air
+    - 3,125,33,world|air
+    - 2,125,32,world|air
+    - 4,125,32,world|air
+    - 1,125,31,world|air
+    - 5,125,31,world|air
+    - 0,125,30,world|air
+    - -1,125,29,world|air
+    - -2,125,28,world|air
+    - -3,125,27,world|air
+    - 3,125,34,world|air
+    - 2,125,33,world|air
+    - 4,125,33,world|air
+    - 1,125,32,world|air
+    - 5,125,32,world|air
+    - 0,125,31,world|air
+    - 6,125,31,world|air
+    - -1,125,30,world|air
+    - -2,125,29,world|air
+    - -3,125,28,world|air
+    - 7,124,28,world|air
+    - 4,125,34,world|air
+    - 5,125,33,world|air
+    - 6,125,32,world|air
+    - 7,125,31,world|air
+    - 7,123,28,world|air
+    - 4,125,35,world|air
+    - 5,125,34,world|air
+    - 6,125,33,world|air
+    - 7,125,32,world|air
+    - -4,125,27,world|air
+    - 8,125,29,world|air
+    - 8,125,30,world|air
+    - 9,125,29,world|air
+    - 8,125,31,world|air
+    - 9,125,30,world|air
+    - 10,125,29,world|air
+    - 6,125,34,world|air
+    - 7,125,33,world|air
+    - 8,125,32,world|air
+    - 9,125,31,world|air
+    - 10,125,30,world|air
+    - 6,125,35,world|air
+    - 7,125,34,world|air
+    - 8,125,33,world|air
+    - 9,125,32,world|air
+    - 10,125,31,world|air
+    - 6,125,36,world|air
+    - 5,125,35,world|air
+    - 7,125,35,world|air
+    - 8,125,34,world|air
+    - 9,125,33,world|air
+    - 10,125,32,world|air
+    - 5,125,36,world|air
+    - 7,125,36,world|air
+    - 8,125,35,world|air
+    - 9,125,34,world|air
+    - 10,125,33,world|air
+    - 11,125,32,world|air
+    - 11,125,29,world|air
+    - 11,125,30,world|air
+    - 12,125,29,world|air
+    - 11,125,31,world|air
+    - 12,125,30,world|air
+    - 13,125,29,world|air
+    - 12,125,31,world|air
+    - 13,125,30,world|air
+    - 14,125,29,world|air
     time_to_live: 0
     name: 水肺
     mode: NO_PHYSICS
@@ -318,7 +454,6 @@ undo:
     - -96,95,-101,world_nether|netherrack
     - -94,95,-101,world_nether|netherrack
     - 33,77,24,world_the_end|fire?minecraft:fire[age=15,east=false,north=false,south=false,up=false,west=false]
-    - 12,86,-40,world_the_end|fire?minecraft:fire[age=15,east=false,north=false,south=false,up=false,west=false]
     - 12,89,39,world_the_end|fire?minecraft:fire[age=15,east=false,north=false,south=false,up=false,west=false]
     - -13,92,39,world_the_end|fire?minecraft:fire[age=15,east=false,north=false,south=false,up=false,west=false]
     - 42,95,0,world_the_end|fire?minecraft:fire[age=15,east=false,north=false,south=false,up=false,west=false]
@@ -607,7 +742,7 @@ spells:
     cast_count: 18
     last_cast: 1684638403444
     last_earn: 1684638403444
-    cooldown_expiration: 1684638409444
+    cooldown_expiration: 0
     charges: 0.0
   arrow:
     cast_count: 24
@@ -652,14 +787,14 @@ spells:
     cooldown_expiration: 1680695729427
     charges: 0.0
   recall|2:
-    cast_count: 26
-    last_cast: 1684553265370
-    last_earn: 1684553271615
-    cooldown_expiration: 0
+    cast_count: 30
+    last_cast: 1685151468289
+    last_earn: 1685151311606
+    cooldown_expiration: 1685151483289
     charges: 0.0
   spellshop:
     cast_count: 1
-    last_cast: 1684566648113
+    last_cast: 1685109716627
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -706,21 +841,27 @@ spells:
     cooldown_expiration: 1682749065177
     charges: 0.0
   progressmenu:
-    cast_count: 65
-    last_cast: 1684566647237
+    cast_count: 66
+    last_cast: 1685109715006
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
   aqualung:
-    cast_count: 45
-    last_cast: 1684639068164
+    cast_count: 47
+    last_cast: 1685155578671
     last_earn: 0
-    cooldown_expiration: 1684639128164
+    cooldown_expiration: 1685155638671
     charges: 0.0
   workbench:
     cast_count: 2
     last_cast: 1682690367604
     last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  recall|3:
+    cast_count: 3
+    last_cast: 1685155941669
+    last_earn: 1685155947396
     cooldown_expiration: 0
     charges: 0.0
   fireball:
@@ -748,10 +889,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   fire|2:
-    cast_count: 14
-    last_cast: 1684640217512
-    last_earn: 1684639322811
-    cooldown_expiration: 1684640221512
+    cast_count: 15
+    last_cast: 1685152342528
+    last_earn: 1685152342527
+    cooldown_expiration: 0
     charges: 0.0
   torch:
     cast_count: 0
@@ -820,10 +961,10 @@ spells:
     cooldown_expiration: 1683972304989
     charges: 0.0
   missile|4:
-    cast_count: 183
-    last_cast: 1684637006609
-    last_earn: 1684636995010
-    cooldown_expiration: 0
+    cast_count: 242
+    last_cast: 1685713899468
+    last_earn: 1685713855948
+    cooldown_expiration: 1685713900468
     charges: 0.0
   missile|2:
     cast_count: 50
@@ -832,10 +973,10 @@ spells:
     cooldown_expiration: 1680272349349
     charges: 0.0
   collapse:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
+    cast_count: 2
+    last_cast: 1685163165726
+    last_earn: 1685155318145
+    cooldown_expiration: 1685163173726
     charges: 0.0
   missile|3:
     cast_count: 493
@@ -970,7 +1111,7 @@ wands:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"点火"},{"italic":false,"color":"white","text":"
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"魔法导弹"},{"italic":false,"color":"white","text":"
           ("},{"italic":false,"color":"dark_aqua","text":"法杖"},{"italic":false,"color":"white","text":")"}],"text":""}'
         lore:
         - '{"italic":false,"extra":[{"color":"dark_green","text":"学徒 "},{"color":"white","text":"魔力法杖"}],"text":""}'
@@ -980,7 +1121,7 @@ wands:
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 15/s"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
-          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"点火"}],"text":""}'
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"魔法导弹"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
           "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
@@ -994,7 +1135,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: 29fd2536-0550-42e9-887a-3b30a302f816
+            uuid: dadfde17-bc17-419f-818f-5415fe3872c1
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -1005,42 +1146,42 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0VS0W7bMAxkZqdx0mx9aFFge9yKPTWAlSaL/QH7joCSqFaIKnmSnWAY+u+jVAzz00k83R1JrwBmUJ+IhtkK6gt6XUE94DMBfw3Mw8VThOVPryk6PGMF9y9hlBiP1p/JjyH+Pqow+ZHpHxpYoxrtmY5pIOegNjZSA7VVwcM6jVad/oiubcXbCm4K5b9Ktp34DcB1BctLiCdJXr3w+a6CRgXncEg51T0zZWBBNmSopphvrypYRDKOVE6yrmAuHaaMl1x5tSlZV3picYwxXCLaLPG5MK3XjL9VcCUnKQvxExdMDEXihhPkViSWgF9yyWHx/cqY45egc46TxinLLlhqCDaVmBVziifjOvdJdGK4qt4HxHDGDOUC5uuP/DSSerd6KGNJWb3hEPhrQjf5Zz7e8naakV4HhyP929ziTDHZYrrgclne0Wp4aA/tkyCijWr102ZHerfpDPabH6YjFNsOpUTeHhnDA+SFuhDh+75VJDrTH9pePWqx19Ls+1aI3eN2vzVK9uogdMf/z/XkdQzDgDy6GfwFwbmTFVMCAAA=
+        internal: H4sIAAAAAAAA/0VS0W7bMAxkZqd20mx9WDGgTwW2bk8NICdN7H7AviOgJLoVokqeZCcYiv37KBVb/XTC8Y5H0kuAGZRHomG2hPKMTtcw92dHARY/naZg8YQFlAM+EfBXwJdnP0oMB+NO5EYffh+Un9zI3IcaVqhGc6JDHMhaqF5MjMZSDaVR3sEqjkYdX5tOiObPEq5y1btRAYuzD0dJTj2z3XVqO7ENwGUBVaDekkp9VkyoKaQ8FUPp2RrgroBaeWtxiIm5KP63f8s9lxZjki8KuJCTlJn4lAnjNONvHABD8OeAJjneMNcHn0VX7N6bQBJzoO/8xF8T2sk98fMzV/IEOfacI8VxSga33GnwJuZ8Bddkd8ZlGo3oyHDJMBmn/eWBYzKpWRlIvTWbsVJZj6n8Y8pkMdd/hRrqfKuD0XAnWrFtiGithN6uH0g/rLseH9f7viNsNh1KyZesThSiyYkqlo/0Mlgc6d/tV9T3vGW+qfUBfuyEUqJt94+t2NzrZtftt/umF01zv9ltSLeklei3/AtdTk4HPwzIa53BX6brH8lWAgAA
     wand:
-      owner: Enderlava
       page: 0
+      owner: Enderlava
       hotbar_inventory_count: 2
-      active_spell: fire
+      active_spell: missile
       icon: stick{18001}
       spell_inventory:
-        workbench: 20
         pull: 11
+        workbench: 20
+        collapse: 6
+        boon: 36
+        cure: 7
         reflect: 12
-        cure: 6
-        boon: 2
-        collapse: 22
-        missile: 0
         blast: 9
-        bubble: 14
-        blind: 35
+        missile: 0
         arrowrain: 25
+        blind: 35
+        bubble: 14
         frost: 15
-        fireball: 26
-        aqualung: 19
+        fireball: 37
+        flare: 34
         torch: 5
-        stun: 7
+        stun: 31
         poison: 3
         arrow: 4
         peek: 10
-        fire: 1
-        push: 8
-        recall: 36
+        fire: 2
         cloak: 13
-        flare: 34
-      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
-      version: 7
+        recall: 1
+        push: 8
+        aqualung: 19
       template: wand
-      effect_color: 50ce18f9709c,d15dbf590114,252fcb9c71d8
+      version: 7
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+      effect_color: 50cc07769702,d1586361f011,252ed7edc0f3
   mirrorshield:
     item:
       ==: org.bukkit.inventory.ItemStack
@@ -1064,12 +1205,12 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/x3L0QqCMBgG0E8yXNJjdDuYKbUeoOeI3/ZJw7nJFH39otsDpwYKlCM5FzXKXaJTOKY9MuP0jI45yCYK6k8v73Axd9M2JPXbuFZ3dJ22gzz0bbCU5mql7+WAamNefIoAql9fOc1BVuI8+ZxTXj6ewQFfYlF2zH8AAAA=
+        internal: H4sIAAAAAAAA/x3L0QqCMBgG0E8yXNJjdDuYKbUeoOeI3/ZJw7nJFH39qNsDpwYKlCM5FzXKXaJTOKY9MuP0jI45yCYK6k8v73Axd9M2JPXbuFZ3dJ22gzz0bbCU5mql739h5TQHWYnz5HNOefl4BndAtTEvPkUAFfAFv+Z2yn8AAAA=
         blockMaterial: SHIELD
     wand:
       owner: Enderlava
-      template: mirrorshield
       version: 7
+      template: mirrorshield
       owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
   magicbow:
     item:
@@ -1113,7 +1254,7 @@ open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
-  sp: 224.0
+  sp: 294.0
 properties:
   version: 7
 classes:
@@ -1122,7 +1263,7 @@ classes:
       missile: 4
       fireball: 3
       reflect: 2
-      recall: 2
+      recall: 3
       fire: 2
     spells:
     - flare
@@ -1151,7 +1292,7 @@ classes:
     - collapse
   mage:
     effect_color: cef52af28d37,e34b44b86e12,44d84fee9a2a
-    mana_timestamp: 1684641029744
+    mana_timestamp: 1685716029439
     mana: 100.0
     path: student
   archer_mage: {}
@@ -1160,4 +1301,4 @@ classes:
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 22.403108596801758
+health: 26.799999237060547

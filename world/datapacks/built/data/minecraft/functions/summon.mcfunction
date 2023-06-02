@@ -1,3 +1,5 @@
+fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 ice replace water
+fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 glass replace air
 summon minecraft:falling_block ~ ~10 ~ {BlockState:{Name:"minecraft:damaged_anvil"},Time:-1}
 summon minecraft:falling_block ~1 ~10 ~ {BlockState:{Name:"minecraft:damaged_anvil"},Time:-1}
 summon minecraft:falling_block ~-1 ~10 ~ {BlockState:{Name:"minecraft:damaged_anvil"},Time:-1}

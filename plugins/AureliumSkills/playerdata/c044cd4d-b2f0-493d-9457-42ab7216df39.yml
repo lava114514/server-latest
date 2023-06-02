@@ -2,55 +2,60 @@ uuid: c044cd4d-b2f0-493d-9457-42ab7216df39
 skills:
   farming:
     level: 10
-    xp: 4408.879999999619
+    xp: 4747.759999999596
   foraging:
     level: 3
-    xp: 159.8000000000003
+    xp: 222.28000000000026
   mining:
     level: 7
-    xp: 2320.039999999929
+    xp: 2545.0999999999462
   fishing:
     level: 1
     xp: 25.0
   excavation:
     level: 3
-    xp: 8.25000000000023
+    xp: 115.05999999999985
   archery:
     level: 6
-    xp: 2254.900000000006
+    xp: 2401.2000000000044
   defense:
     level: 10
-    xp: 3449.059207239795
+    xp: 4026.043204584759
   fighting:
-    level: 13
-    xp: 2539.899999999613
+    level: 14
+    xp: 6397.199999999805
   endurance:
     level: 11
-    xp: 316.0
+    xp: 3276.0
   agility:
     level: 7
-    xp: 1337.1000000000006
+    xp: 2080.7000000000007
   alchemy:
-    level: 1
-    xp: 45.0
+    level: 2
+    xp: 10.0
   enchanting:
     level: 6
-    xp: 57.399999999999864
+    xp: 477.59999999999985
   sorcery:
     level: 3
-    xp: 282.5
+    xp: 315.0
   healing:
     level: 2
-    xp: 45.0
+    xp: 65.0
   forging:
     level: 8
-    xp: 1451.5
-mana: 52.0
+    xp: 1955.5
+mana: 54.0
 locale: zh-cn
 ability_data:
   xp_convert:
-    xp: 17.598224335435155
+    xp: 16.71222168040707
   first_strike:
-    counter: 119
+    counter: 134
   absorption:
     activated: false
+stat_modifiers:
+  '0':
+    name: mining-stamina
+    stat: toughness
+    value: 1.0

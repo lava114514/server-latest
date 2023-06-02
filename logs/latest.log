@@ -1,185 +1,187 @@
-[12:21:33] [Server Thread/INFO]: Environment: authHost='https://littleskin.cn/api/yggdrasil/authserver', accountsHost='http://127.0.0.1:53850/https/api.mojang.com', sessionHost='http://127.0.0.1:53850/https/sessionserver.mojang.com', servicesHost='http://127.0.0.1:53850/https/api.minecraftservices.com', name='PROD'
-[12:21:35] [Server Thread/INFO]: Loaded 7 recipes
-[12:21:35] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[12:21:35] [Server thread/INFO]: Loading properties
-[12:21:35] [Server thread/INFO]: This server is running Leaves version git-Leaves-"50c77a5" (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 50c77a5)
-[12:21:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:21:36] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:21:36] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[22:23:52] [Server Thread/INFO]: Environment: authHost='https://littleskin.cn/api/yggdrasil/authserver', accountsHost='http://127.0.0.1:58214/https/api.mojang.com', sessionHost='http://127.0.0.1:58214/https/sessionserver.mojang.com', servicesHost='http://127.0.0.1:58214/https/api.minecraftservices.com', name='PROD'
+[22:23:52] [Server Thread/INFO]: Found new data pack file/Kaoda, loading it automatically
+[22:23:53] [Server Thread/INFO]: Loaded 7 recipes
+[22:23:54] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[22:23:54] [Server thread/INFO]: Loading properties
+[22:23:54] [Server thread/INFO]: This server is running Leaves version git-Leaves-"60340f4" (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 60340f4)
+[22:23:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:23:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:23:55] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[12:21:36] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
-[12:21:36] [Server thread/WARN]: [Leaves] extra-yggdrasil-service is an unofficial support. Enabling it may cause data security problems!
-[12:21:36] [Server thread/INFO]: Default game type: SURVIVAL
-[12:21:36] [Server thread/INFO]: Generating keypair
-[12:21:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:21:36] [Server thread/INFO]: Using default channel type
-[12:21:37] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[12:21:37] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[12:21:38] [Server thread/INFO]: [Invero-1.0.1.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10
-[12:21:38] [Server thread/INFO]: [Invero-1.0.1.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib:1.8.10
-[12:21:38] [Server thread/INFO]: [Invero-1.0.1.jar] Loading library org.jetbrains:annotations:13.0
-[12:21:39] [ForkJoinPool.commonPool-worker-9/INFO]: [Invero-1.0.1.jar] Loading library com.zaxxer:HikariCP:4.0.3
-[12:21:39] [ForkJoinPool.commonPool-worker-9/INFO]: [Invero-1.0.1.jar] Loading library org.slf4j:slf4j-api:2.0.7
-[12:21:39] [ForkJoinPool.commonPool-worker-13/INFO]: [Invero-1.0.1.jar] Loading library org.openjdk.nashorn:nashorn-core:15.3
-[12:21:39] [ForkJoinPool.commonPool-worker-13/INFO]: [Invero-1.0.1.jar] Loading library org.ow2.asm:asm-commons:7.3.1
-[12:21:39] [ForkJoinPool.commonPool-worker-13/INFO]: [Invero-1.0.1.jar] Loading library org.ow2.asm:asm-tree:7.3.1
-[12:21:39] [ForkJoinPool.commonPool-worker-13/INFO]: [Invero-1.0.1.jar] Loading library org.ow2.asm:asm:7.3.1
-[12:21:39] [ForkJoinPool.commonPool-worker-13/INFO]: [Invero-1.0.1.jar] Loading library org.ow2.asm:asm-util:7.3.1
-[12:21:39] [ForkJoinPool.commonPool-worker-1/INFO]: [Invero-1.0.1.jar] Loading library org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.5.0-RC
-[12:21:39] [ForkJoinPool.commonPool-worker-1/INFO]: [Invero-1.0.1.jar] Loading library org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.5.0-RC
-[12:21:40] [ForkJoinPool.commonPool-worker-14/INFO]: [Invero-1.0.1.jar] Loading library org.yaml:snakeyaml:1.32
-[12:21:40] [ForkJoinPool.commonPool-worker-14/INFO]: [Invero-1.0.1.jar] Loading library com.typesafe:config:1.4.2
-[12:21:40] [ForkJoinPool.commonPool-worker-14/INFO]: [Invero-1.0.1.jar] Loading library com.electronwill.night-config:core:3.6.6
-[12:21:40] [ForkJoinPool.commonPool-worker-14/INFO]: [Invero-1.0.1.jar] Loading library com.electronwill.night-config:toml:3.6.6
-[12:21:40] [ForkJoinPool.commonPool-worker-14/INFO]: [Invero-1.0.1.jar] Loading library com.electronwill.night-config:json:3.6.6
-[12:21:40] [ForkJoinPool.commonPool-worker-14/INFO]: [Invero-1.0.1.jar] Loading library com.electronwill.night-config:hocon:3.6.6
-[12:21:40] [ForkJoinPool.commonPool-worker-10/INFO]: [Invero-1.0.1.jar] Loading library org.apache.commons:commons-jexl3:3.2.1
-[12:21:41] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20
-[12:21:41] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib:1.7.20
-[12:21:41] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains:annotations:13.0
-[12:21:41] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20
-[12:21:41] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20
-[12:21:42] [ForkJoinPool.commonPool-worker-3/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library com.zaxxer:HikariCP:4.0.3
-[12:21:42] [ForkJoinPool.commonPool-worker-3/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.slf4j:slf4j-api:2.0.7
-[12:21:42] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.14+6360-094b734
-[12:21:43] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4f0ea7aa]
-[12:21:43] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.6.2
-[12:21:43] [Server thread/INFO]: [ViaVersion] ViaVersion 4.6.2 is now loaded. Registering protocol transformers and injecting...
-[12:21:43] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[12:21:43] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[12:21:43] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[12:21:43] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[12:21:44] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.7+216b061
-[12:21:44] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.64
-[12:21:44] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.2
-[12:21:44] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b??-2702bc3)
-[12:21:45] [Server thread/INFO]: [floodgate] 成功启动 Floodgate，耗时578ms
-[12:21:45] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.6.1
-[12:21:45] [Server thread/INFO]: [AureliumSkills] Loading server plugin AureliumSkills vBeta 1.3.19
-[12:21:45] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.0-SNAPSHOT
-[12:21:45] [Server thread/INFO]: [Geyser-Spigot] 正在加载插件...
-[12:21:45] [Server thread/INFO]: [Geyser-Spigot] 已加载 0 个插件
-[12:21:45] [Server thread/INFO]: [LaggRemover] Loading server plugin LaggRemover v2.0.6
-[12:21:45] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.4.0
-[12:21:45] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v2.0.3
-[12:21:45] [Server thread/INFO]: [Magic] Loading server plugin Magic v10.8.7-fdb1fc1
-[12:21:45] [Server thread/INFO]: [Magic] Loading modern compatibility layer for server version 1.19.4
-[12:21:45] [Server thread/INFO]: [Magic] Async chunk loading API found
-[12:21:45] [Server thread/INFO]: [Magic] Chat component API found
-[12:21:45] [Server thread/INFO]: [Magic] Found WorldGuard 7+
-[12:21:45] [Server thread/INFO]: [Magic] Pre-check for WorldGuard custom flag registration
-[12:21:45] [Server thread/INFO]: [Magic] Registered custom WorldGuard flags: allowed-spells, always-allowed-spells, blocked-spells, always-allowed-spell-categories, allowed-spell-categories, blocked-spell-categories, allowed-wands, always-allowed-wands, blocked-wands, spell-overrides, destructible, reflective, tags, portal-spell, portal-warp
-[12:21:45] [Server thread/INFO]: [Invero] Loading server plugin Invero v1.0.1
-[12:21:45] [Server thread/INFO]: [Invero] Successfully loaded Adventure support.
-[12:21:47] [Server thread/INFO]: [inuDamage] Loading server plugin inuDamage v1.1
-[12:21:47] [Server thread/INFO]: [GroupManager] Loading server plugin GroupManager v2.9 (Phoenix)
-[12:21:47] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
-[12:21:47] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.7+216b061.
-[12:21:47] [Server thread/INFO]: [GeekPlayerBag] Loading server plugin GeekPlayerBag v1.1-Bate
-[12:21:47] [Server thread/INFO]: 
-[12:21:47] [Server thread/INFO]: 正在加载 GeekPlayerBag ...  git-Leaves-"50c77a5" (MC: 1.19.4)
-[12:21:47] [Server thread/INFO]: 
-[12:21:47] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v8.4.4
-[12:21:47] [Server thread/INFO]: [EliteMobs] WorldGuard detected.
-[12:21:47] [Server thread/INFO]: [EliteMobs] Enabling flags:
-[12:21:47] [Server thread/INFO]: [EliteMobs] - elitemob-spawning
-[12:21:47] [Server thread/INFO]: [EliteMobs] - elitemob-only-spawning
-[12:21:47] [Server thread/INFO]: [EliteMobs] - elitemobs-antiexploit
-[12:21:47] [Server thread/INFO]: [EliteMobs] - elitemobs-dungeon
-[12:21:47] [Server thread/INFO]: [EliteMobs] - elitemobs-events
-[12:21:47] [Server thread/INFO]: [EliteMobs] - elitemobs-minimum-level
-[12:21:47] [Server thread/INFO]: [EliteMobs] - elitemobs-maximum-level
-[12:21:47] [Server thread/INFO]: [EliteMobs] - elitemobs-explosion-regen
-[12:21:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:21:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.14+6360-094b734
-[12:21:47] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[12:21:48] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[12:21:48] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
-[12:21:49] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.64
-[12:21:49] [Server thread/INFO]:         __    
-[12:21:49] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.64
-[12:21:49] [Server thread/INFO]:   |___ |      Running on Bukkit - Leaves
-[12:21:49] [Server thread/INFO]: 
-[12:21:49] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[12:21:50] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[12:21:50] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[12:21:50] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[12:21:50] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1698ms)
-[12:21:50] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.3
-[12:21:50] [Server thread/INFO]: [Magic] Enabling Magic v10.8.7-fdb1fc1
-[12:21:51] [Server thread/INFO]: [Magic] EffectLib initialized
-[12:21:51] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_19_R3.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[12:21:54] [Server thread/INFO]: [Magic] Loaded 0 attributes
-[12:21:54] [Server thread/INFO]: [Magic] Wand crafting is enabled
-[12:21:54] [Server thread/INFO]: [Magic] Skin-based spell icons disabled
-[12:21:54] [Server thread/INFO]: [Magic] Registered attributes: [target_fall_distance, regeneration, respiration, projectile_protection, bowpower, degrees, seconds, channeling, target_pitch, humidity, pitch, sharpness, darkness, jump, health_max, efficiency, target_luck, blindness, absorption, target_armor, loyalty, slow_digging, silk_touch, fire_resistance, unluck, invisibility, target_health_max, moon, air_max, slow, mana_max, sweeping, bowpull, damage, weeks, swift_sneak, mending, epoch, protection, air, fast_digging, lure, punch, temperature, frost_walker, movement_speed_bps, power, riptide, health_boost, levitation, increase_damage, poison, health, target_temperature, binding_curse, yaw, mana, glowing, target_health, target_humidity, days, infinity, impaling, bad_omen, luck, thorns, hero_of_the_village, target_hunger, smite, location_x, unbreaking, location_y, target_mana, feather_falling, attack_damage, knockback, fire_aspect, luck_of_the_sea, knockback_resistance, saturation, conduit_power, location_z, target_air, bane_of_arthropods, soul_speed, night_vision, level, minutes, water_breathing, fall_distance, quick_charge, aqua_affinity, multishot, hunger, slow_falling, difficulty, armor, fulltime, blast_protection, confusion, damage_dealt, harm, piercing, fire_protection, target_yaw, dolphins_grace, speed, damage_resistance, weakness, heal, target_mana_max, hours, fortune, looting, target_air_max, movement_speed, play_time, depth_strider, xp, target_location_x, pi, target_location_y, vanishing_curse, target_knockback_resistance, target_location_z, time, flame, wither]
-[12:21:54] [Server thread/INFO]: [Magic] Loaded 182 icons
-[12:21:55] [Server thread/INFO]: [Magic] Loaded 12 effect lists
-[12:21:55] [Server thread/INFO]: [Magic] Loaded 1402 items
-[12:21:55] [Server thread/INFO]: [Magic] Loaded 199 wands
-[12:21:55] [Server thread/INFO]: [Magic] Loaded 2 kits
-[12:21:55] [Server thread/INFO]: [Magic] Loaded 10 classes
-[12:21:55] [Server thread/INFO]: [Magic] Loaded 5 classes
-[12:21:55] [Server thread/INFO]: [Magic] Loaded 48 mob templates
-[12:21:55] [Server thread/INFO]: [Magic] Loaded 8 automata templates
-[12:21:55] [Server thread/INFO]: [Magic] Loaded 0 customized worlds
-[12:21:55] [Server thread/INFO]: [Magic] Activated BStats
-[12:21:55] [Server thread/INFO]: [Magic] MobArena not found
-[12:21:55] [Server thread/INFO]: [Magic] LibsDisguises not found, magic mob disguises will not be available
-[12:21:55] [Server thread/INFO]: [Magic] ModelEngine integration disabled
-[12:21:55] [Server thread/INFO]: Magic checking resource pack for updates: http://rp.elmakers.com/Magic-RP-1.19.zip
-[12:21:55] [Server thread/INFO]: Preparing level "world"
-[12:21:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:21:57] [Server thread/INFO]: Time elapsed: 143 ms
-[12:21:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[12:21:57] [Server thread/INFO]: Time elapsed: 27 ms
-[12:21:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[12:21:57] [Server thread/INFO]: Time elapsed: 26 ms
-[12:21:57] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.6.2
-[12:21:57] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.4 (762)
-[12:21:57] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
-[12:21:57] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[12:21:57] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[12:21:57] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[12:21:57] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[12:21:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[12:21:57] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[12:21:57] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[12:21:57] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[12:21:57] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[12:21:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[12:21:57] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[12:21:57] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[12:21:57] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[12:21:57] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[12:21:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[12:21:57] [Server thread/INFO]: [WorldGuard] Loading region data...
-[12:21:58] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
-[12:21:58] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[12:21:58] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b??-2702bc3)
-[12:21:59] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.6.1
-[12:21:59] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vBeta 1.3.19
-[12:21:59] [Server thread/INFO]: [AureliumSkills] WorldGuard Support Enabled!
-[12:21:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: aureliumskills [Beta 1.3.19]
-[12:21:59] [Server thread/INFO]: [AureliumSkills] PlaceholderAPI Support Enabled!
-[12:21:59] [Server thread/INFO]: [AureliumSkills] Loaded 193 config options in 1 ms
-[12:21:59] [Server thread/INFO]: [AureliumSkills] Loaded 303 sources and 10 tags in 16ms
-[12:21:59] [Server thread/INFO]: [AureliumSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[12:21:59] [Server thread/INFO]: [AureliumSkills] Loading languages...
-[12:22:00] [Server thread/INFO]: [AureliumSkills] Loaded 15 languages in 985ms
-[12:22:00] [Server thread/INFO]: [AureliumSkills] Loaded 30 pattern rewards and 0 level rewards
-[12:22:01] [Server thread/INFO]: [AureliumSkills] Loaded 78 Ability Options in 7ms
-[12:22:01] [Server thread/INFO]: [AureliumSkills] Loaded 6 menus
-[12:22:01] [Server thread/INFO]: [AureliumSkills] Loaded 32 loot entries in 4 pools and 2 tables
-[12:22:01] [Server thread/INFO]: [AureliumSkills] Loaded 3 blocked worlds.
-[12:22:01] [Server thread/INFO]: [AureliumSkills] Aurelium Skills has been enabled
-[12:22:01] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_19_R3! Trying to find NMS support
-[12:22:01] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R3' loaded!
-[12:22:01] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
-[12:22:01] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
-[12:22:01] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
-[12:22:01] [Server thread/INFO]: [LaggRemover] [STDOUT] 
+[22:23:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[22:23:55] [Server thread/WARN]: [Leaves] extra-yggdrasil-service is an unofficial support. Enabling it may cause data security problems!
+[22:23:55] [Server thread/INFO]: Default game type: SURVIVAL
+[22:23:55] [Server thread/INFO]: Generating keypair
+[22:23:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:23:55] [Server thread/INFO]: Using default channel type
+[22:23:55] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[22:23:55] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[22:23:57] [Server thread/INFO]: [Invero-1.0.1.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10
+[22:23:57] [Server thread/INFO]: [Invero-1.0.1.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib:1.8.10
+[22:23:57] [Server thread/INFO]: [Invero-1.0.1.jar] Loading library org.jetbrains:annotations:13.0
+[22:23:58] [ForkJoinPool.commonPool-worker-1/INFO]: [Invero-1.0.1.jar] Loading library org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.5.0-RC
+[22:23:58] [ForkJoinPool.commonPool-worker-1/INFO]: [Invero-1.0.1.jar] Loading library org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.5.0-RC
+[22:23:58] [ForkJoinPool.commonPool-worker-8/INFO]: [Invero-1.0.1.jar] Loading library org.yaml:snakeyaml:1.32
+[22:23:58] [ForkJoinPool.commonPool-worker-8/INFO]: [Invero-1.0.1.jar] Loading library com.typesafe:config:1.4.2
+[22:23:58] [ForkJoinPool.commonPool-worker-8/INFO]: [Invero-1.0.1.jar] Loading library com.electronwill.night-config:core:3.6.6
+[22:23:58] [ForkJoinPool.commonPool-worker-8/INFO]: [Invero-1.0.1.jar] Loading library com.electronwill.night-config:toml:3.6.6
+[22:23:58] [ForkJoinPool.commonPool-worker-8/INFO]: [Invero-1.0.1.jar] Loading library com.electronwill.night-config:json:3.6.6
+[22:23:58] [ForkJoinPool.commonPool-worker-8/INFO]: [Invero-1.0.1.jar] Loading library com.electronwill.night-config:hocon:3.6.6
+[22:23:58] [Server thread/INFO]: [Invero-1.0.1.jar] Loading library org.apache.commons:commons-jexl3:3.2.1
+[22:23:58] [ForkJoinPool.commonPool-worker-5/INFO]: [Invero-1.0.1.jar] Loading library org.openjdk.nashorn:nashorn-core:15.3
+[22:23:58] [ForkJoinPool.commonPool-worker-5/INFO]: [Invero-1.0.1.jar] Loading library org.ow2.asm:asm-commons:7.3.1
+[22:23:58] [ForkJoinPool.commonPool-worker-5/INFO]: [Invero-1.0.1.jar] Loading library org.ow2.asm:asm-tree:7.3.1
+[22:23:58] [ForkJoinPool.commonPool-worker-5/INFO]: [Invero-1.0.1.jar] Loading library org.ow2.asm:asm:7.3.1
+[22:23:58] [ForkJoinPool.commonPool-worker-5/INFO]: [Invero-1.0.1.jar] Loading library org.ow2.asm:asm-util:7.3.1
+[22:23:59] [ForkJoinPool.commonPool-worker-2/INFO]: [Invero-1.0.1.jar] Loading library com.zaxxer:HikariCP:4.0.3
+[22:23:59] [ForkJoinPool.commonPool-worker-2/INFO]: [Invero-1.0.1.jar] Loading library org.slf4j:slf4j-api:2.0.7
+[22:23:59] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20
+[22:23:59] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib:1.7.20
+[22:23:59] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains:annotations:13.0
+[22:23:59] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20
+[22:23:59] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20
+[22:24:01] [ForkJoinPool.commonPool-worker-5/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library com.zaxxer:HikariCP:4.0.3
+[22:24:01] [ForkJoinPool.commonPool-worker-5/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.slf4j:slf4j-api:2.0.7
+[22:24:01] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.14+6360-094b734
+[22:24:01] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@530a10ec]
+[22:24:01] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.6.2
+[22:24:01] [Server thread/INFO]: [ViaVersion] ViaVersion 4.6.2 is now loaded. Registering protocol transformers and injecting...
+[22:24:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[22:24:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[22:24:02] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[22:24:02] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[22:24:02] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.7+216b061
+[22:24:02] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.64
+[22:24:02] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.2
+[22:24:02] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b??-2702bc3)
+[22:24:03] [Server thread/INFO]: [floodgate] 成功启动 Floodgate，耗时463ms
+[22:24:03] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.6.1
+[22:24:03] [Server thread/INFO]: [AureliumSkills] Loading server plugin AureliumSkills vBeta 1.3.19
+[22:24:03] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.0-SNAPSHOT
+[22:24:03] [Server thread/INFO]: [Geyser-Spigot] 正在加载插件...
+[22:24:03] [Server thread/INFO]: [Geyser-Spigot] 已加载 0 个插件
+[22:24:03] [Server thread/INFO]: [LaggRemover] Loading server plugin LaggRemover v2.0.6
+[22:24:03] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.4.0
+[22:24:03] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v2.0.3
+[22:24:03] [Server thread/INFO]: [RandomControl] Loading server plugin RandomControl v1.1.0
+[22:24:03] [Server thread/INFO]: [Magic] Loading server plugin Magic v10.8.7-fdb1fc1
+[22:24:03] [Server thread/INFO]: [Magic] Loading modern compatibility layer for server version 1.19.4
+[22:24:03] [Server thread/INFO]: [Magic] Async chunk loading API found
+[22:24:03] [Server thread/INFO]: [Magic] Chat component API found
+[22:24:03] [Server thread/INFO]: [Magic] Found WorldGuard 7+
+[22:24:03] [Server thread/INFO]: [Magic] Pre-check for WorldGuard custom flag registration
+[22:24:03] [Server thread/INFO]: [Magic] Registered custom WorldGuard flags: allowed-spells, always-allowed-spells, blocked-spells, always-allowed-spell-categories, allowed-spell-categories, blocked-spell-categories, allowed-wands, always-allowed-wands, blocked-wands, spell-overrides, destructible, reflective, tags, portal-spell, portal-warp
+[22:24:03] [Server thread/INFO]: [Invero] Loading server plugin Invero v1.0.1
+[22:24:03] [Server thread/INFO]: [Invero] Successfully loaded Adventure support.
+[22:24:05] [Server thread/INFO]: [inuDamage] Loading server plugin inuDamage v1.1
+[22:24:05] [Server thread/INFO]: [GroupManager] Loading server plugin GroupManager v2.9 (Phoenix)
+[22:24:05] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[22:24:05] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.7+216b061.
+[22:24:05] [Server thread/INFO]: [GeekPlayerBag] Loading server plugin GeekPlayerBag v1.1-Bate
+[22:24:05] [Server thread/INFO]: 
+[22:24:05] [Server thread/INFO]: 正在加载 GeekPlayerBag ...  git-Leaves-"60340f4" (MC: 1.19.4)
+[22:24:05] [Server thread/INFO]: 
+[22:24:05] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v8.4.4
+[22:24:05] [Server thread/INFO]: [EliteMobs] WorldGuard detected.
+[22:24:05] [Server thread/INFO]: [EliteMobs] Enabling flags:
+[22:24:05] [Server thread/INFO]: [EliteMobs] - elitemob-spawning
+[22:24:05] [Server thread/INFO]: [EliteMobs] - elitemob-only-spawning
+[22:24:05] [Server thread/INFO]: [EliteMobs] - elitemobs-antiexploit
+[22:24:05] [Server thread/INFO]: [EliteMobs] - elitemobs-dungeon
+[22:24:05] [Server thread/INFO]: [EliteMobs] - elitemobs-events
+[22:24:05] [Server thread/INFO]: [EliteMobs] - elitemobs-minimum-level
+[22:24:05] [Server thread/INFO]: [EliteMobs] - elitemobs-maximum-level
+[22:24:05] [Server thread/INFO]: [EliteMobs] - elitemobs-explosion-regen
+[22:24:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:24:05] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.14+6360-094b734
+[22:24:05] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:24:05] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:24:06] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
+[22:24:07] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.64
+[22:24:07] [Server thread/INFO]:         __    
+[22:24:07] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.64
+[22:24:07] [Server thread/INFO]:   |___ |      Running on Bukkit - Leaves
+[22:24:07] [Server thread/INFO]: 
+[22:24:07] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[22:24:07] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[22:24:08] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[22:24:08] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[22:24:08] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1773ms)
+[22:24:08] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.3
+[22:24:09] [Server thread/INFO]: [Magic] Enabling Magic v10.8.7-fdb1fc1
+[22:24:09] [Server thread/INFO]: [Magic] EffectLib initialized
+[22:24:09] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_19_R3.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[22:24:12] [Server thread/INFO]: [Magic] Loaded 0 attributes
+[22:24:12] [Server thread/INFO]: [Magic] Wand crafting is enabled
+[22:24:12] [Server thread/INFO]: [Magic] Skin-based spell icons disabled
+[22:24:12] [Server thread/INFO]: [Magic] Registered attributes: [target_fall_distance, regeneration, respiration, projectile_protection, bowpower, degrees, seconds, channeling, target_pitch, humidity, pitch, sharpness, darkness, jump, health_max, efficiency, target_luck, blindness, absorption, target_armor, loyalty, slow_digging, silk_touch, fire_resistance, unluck, invisibility, target_health_max, moon, air_max, slow, mana_max, sweeping, bowpull, damage, weeks, swift_sneak, mending, epoch, protection, air, fast_digging, lure, punch, temperature, frost_walker, movement_speed_bps, power, riptide, health_boost, levitation, increase_damage, poison, health, target_temperature, binding_curse, yaw, mana, glowing, target_health, target_humidity, days, infinity, impaling, bad_omen, luck, thorns, hero_of_the_village, target_hunger, smite, location_x, unbreaking, location_y, target_mana, feather_falling, attack_damage, knockback, fire_aspect, luck_of_the_sea, knockback_resistance, saturation, conduit_power, location_z, target_air, bane_of_arthropods, soul_speed, night_vision, level, minutes, water_breathing, fall_distance, quick_charge, aqua_affinity, multishot, hunger, slow_falling, difficulty, armor, fulltime, blast_protection, confusion, damage_dealt, harm, piercing, fire_protection, target_yaw, dolphins_grace, speed, damage_resistance, weakness, heal, target_mana_max, hours, fortune, looting, target_air_max, movement_speed, play_time, depth_strider, xp, target_location_x, pi, target_location_y, vanishing_curse, target_knockback_resistance, target_location_z, time, flame, wither]
+[22:24:12] [Server thread/INFO]: [Magic] Loaded 182 icons
+[22:24:12] [Server thread/INFO]: [Magic] Loaded 12 effect lists
+[22:24:12] [Server thread/INFO]: [Magic] Loaded 1402 items
+[22:24:12] [Server thread/INFO]: [Magic] Loaded 199 wands
+[22:24:12] [Server thread/INFO]: [Magic] Loaded 2 kits
+[22:24:12] [Server thread/INFO]: [Magic] Loaded 10 classes
+[22:24:12] [Server thread/INFO]: [Magic] Loaded 5 classes
+[22:24:13] [Server thread/INFO]: [Magic] Loaded 48 mob templates
+[22:24:13] [Server thread/INFO]: [Magic] Loaded 8 automata templates
+[22:24:13] [Server thread/INFO]: [Magic] Loaded 0 customized worlds
+[22:24:13] [Server thread/INFO]: [Magic] Activated BStats
+[22:24:13] [Server thread/INFO]: [Magic] MobArena not found
+[22:24:13] [Server thread/INFO]: [Magic] LibsDisguises not found, magic mob disguises will not be available
+[22:24:13] [Server thread/INFO]: [Magic] ModelEngine integration disabled
+[22:24:13] [Server thread/INFO]: Magic checking resource pack for updates: http://rp.elmakers.com/Magic-RP-1.19.zip
+[22:24:13] [Server thread/INFO]: Preparing level "world"
+[22:24:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:24:14] [Server thread/INFO]: Time elapsed: 142 ms
+[22:24:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:24:14] [Server thread/INFO]: Time elapsed: 28 ms
+[22:24:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:24:14] [Server thread/INFO]: Time elapsed: 29 ms
+[22:24:14] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.6.2
+[22:24:14] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.4 (762)
+[22:24:14] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
+[22:24:14] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[22:24:14] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[22:24:14] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[22:24:14] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[22:24:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[22:24:14] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[22:24:14] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[22:24:14] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[22:24:14] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[22:24:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[22:24:14] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[22:24:14] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[22:24:14] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[22:24:14] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[22:24:14] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[22:24:14] [Server thread/INFO]: [WorldGuard] Loading region data...
+[22:24:15] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[22:24:15] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[22:24:15] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b??-2702bc3)
+[22:24:16] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.6.1
+[22:24:16] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vBeta 1.3.19
+[22:24:16] [Server thread/INFO]: [AureliumSkills] WorldGuard Support Enabled!
+[22:24:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: aureliumskills [Beta 1.3.19]
+[22:24:16] [Server thread/INFO]: [AureliumSkills] PlaceholderAPI Support Enabled!
+[22:24:16] [Server thread/INFO]: [AureliumSkills] Loaded 193 config options in 1 ms
+[22:24:16] [Server thread/INFO]: [AureliumSkills] Loaded 303 sources and 10 tags in 16ms
+[22:24:16] [Server thread/INFO]: [AureliumSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[22:24:16] [Server thread/INFO]: [AureliumSkills] Loading languages...
+[22:24:17] [Server thread/INFO]: [AureliumSkills] Loaded 15 languages in 1181ms
+[22:24:17] [Server thread/INFO]: [AureliumSkills] Loaded 30 pattern rewards and 0 level rewards
+[22:24:18] [Server thread/INFO]: [AureliumSkills] Loaded 78 Ability Options in 2ms
+[22:24:18] [Server thread/INFO]: [AureliumSkills] Loaded 6 menus
+[22:24:18] [Server thread/INFO]: [AureliumSkills] Loaded 32 loot entries in 4 pools and 2 tables
+[22:24:18] [Server thread/INFO]: [AureliumSkills] Loaded 3 blocked worlds.
+[22:24:18] [Server thread/INFO]: [AureliumSkills] Aurelium Skills has been enabled
+[22:24:18] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_19_R3! Trying to find NMS support
+[22:24:18] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R3' loaded!
+[22:24:18] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
+[22:24:18] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
+[22:24:18] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
+[22:24:18] [Server thread/INFO]: [LaggRemover] [STDOUT] 
     __                      ____                                         _    _____
    / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
   / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
@@ -187,366 +189,339 @@
 /_____/\__,_/\__, /\__, /_/ |_|\___/_/ /_/ /_/\____/|___/\___/_/        |___//____/
             /____//____/
 
-[12:22:01] [Server thread/WARN]: Nag author(s): '[drew6017]' of 'LaggRemover v2.0.6' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[12:22:01] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
-[12:22:01] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
-[12:22:01] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
-[12:22:01] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.4.0
-[12:22:01] [Server thread/INFO]: [Invero] Enabling Invero v1.0.1
-[12:22:01] [Server thread/WARN]: [Invero] ink.ptms.adyeshach.core.event.AdyeshachEntityInteractEvent not found, use @Ghost to turn off this warning
-[12:22:01] [Server thread/INFO]: [inuDamage] Enabling inuDamage v1.1
-[12:22:01] [Server thread/INFO]: [inuDamage] inuDamage xD
-[12:22:01] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.9 (Phoenix)
-[12:22:01] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] World Found: world
-[12:22:01] [Server thread/WARN]: Nag author(s): '[AnjoCaido, Gabriel Couto, ElgarL]' of 'GroupManager v2.9 (Phoenix)' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[12:22:01] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] Superperms support enabled.
-[12:22:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: groupmanager [1.0.0]
-[12:22:01] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] Add-ons: PlaceholderAPI v2.11.2
-[12:22:01] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] Scheduled Data Saving is set for every 10 minutes!
-[12:22:01] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] Backups will be retained for 24 hours!
-[12:22:01] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] version 2.9 (Phoenix) is enabled!
-[12:22:01] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[12:22:01] [Server thread/INFO]: [Graves] Enabling Graves v4.9
-[12:22:01] [Server thread/INFO]: [Graves] Integration: Hooked into WorldEdit 7.2.14+6360-094b734.
-[12:22:01] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.7+216b061.
-[12:22:01] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
-[12:22:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: graves [4.9]
-[12:22:01] [Server thread/INFO]: [Graves] Integration: Hooked into PlaceholderAPI 2.11.2.
-[12:22:01] [Server thread/INFO]: [Graves] Compatibility: World "world_the_end" has keepInventory set to true, Graves will not be created here.
-[12:22:01] [Server thread/INFO]: [GeekPlayerBag] Enabling GeekPlayerBag v1.1-Bate
-[12:22:01] [Server thread/INFO]: 
-[12:22:01] [Server thread/INFO]:        GeekPlayerBag-Plus  v1.0 by www.geekcraft.ink
-[12:22:01] [Server thread/INFO]:        适用于Bukkit: 1.12.2-1.19.2 当前:  git-Leaves-"50c77a5" (MC: 1.19.4)
-[12:22:01] [Server thread/INFO]: 
-[12:22:01] [Server thread/INFO]: [GeekPlayerBag] 菜单界面加载完成... (耗时 11 ms)
-[12:22:01] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3_bag.HikariDataSource] GeekPlayerBag-SQLITE - Starting...
-[12:22:01] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3_bag.HikariDataSource] GeekPlayerBag-SQLITE - Start completed.
-[12:22:01] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v8.4.4
-[12:22:01] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
-[12:22:01] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
-[12:22:01] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
-[12:22:01] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
-[12:22:01] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
-[12:22:01] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
-[12:22:01] [Server thread/INFO]: By MagmaGuy - v. 8.4.4
-[12:22:01] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
-[12:22:01] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
-[12:22:01] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
-[12:22:01] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
-[12:22:01] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
-[12:22:01] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
-[12:22:03] [Server thread/INFO]: [EliteMobs] WorldGuard compatibility is enabled!
-[12:22:03] [Server thread/INFO]: [EliteMobs] Opened database successfully
-[12:22:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: elitemobs [8.4.4]
-[12:22:04] [Server thread/WARN]: [EliteMobs] File  C:\Users\26973\Desktop\sever-latest\.\em_primis_wormhole does not exist!
-[12:22:04] [Server thread/INFO]: [EliteMobs] [EliteMobs] World em_adventurers_guild found! Loading it in...
-[12:22:06] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) TNT ignition is PERMITTED.
-[12:22:06] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) Lighters are PERMITTED.
-[12:22:06] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) Lava fire is PERMITTED.
-[12:22:06] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) Fire spread is UNRESTRICTED.
-[12:22:06] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_adventurers_guild'
-[12:22:06] [Server thread/INFO]: [EliteMobs] [EliteMobs] World em_adventurers_guild has been successfully loaded! It can be accessed through the '/ag' command, unless you changed that config option!
-[12:22:06] [Server thread/WARN]: [EliteMobs] Failed to parse entry lun_pp1.yml:0.1 for file 3.yml due to invalid: filename
-[12:22:06] [Server thread/WARN]: [EliteMobs] Failed to parse entry lun_pp2.yml:0.1 for file 3.yml due to invalid: filename
-[12:22:06] [Server thread/WARN]: [EliteMobs] Failed to parse entry lun_pp3.yml:0.1 for file 3.yml due to invalid: filename
-[12:22:06] [Server thread/WARN]: [EliteMobs] Failed to parse entry summon_wolf_lun.yml:1 for file 3.yml due to invalid: filename
-[12:22:06] [Server thread/WARN]: [EliteMobs] Failed to parse entry lun_pp1.yml:0.1 for file 4.yml due to invalid: filename
-[12:22:06] [Server thread/WARN]: [EliteMobs] Failed to parse entry lun_pp2.yml:0.1 for file 4.yml due to invalid: filename
-[12:22:06] [Server thread/WARN]: [EliteMobs] Failed to parse entry lun_pp3.yml:0.1 for file 4.yml due to invalid: filename
-[12:22:06] [Server thread/WARN]: [EliteMobs] Failed to parse entry summon_wolf_lun.yml:1 for file 4.yml due to invalid: filename
-[12:22:06] [Server thread/INFO]: [EliteMobs] World your_world_here is not yet loaded! Entities that should spawn there have been queued.
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null, null] for arenawood_league.yml
-[12:22:07] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[12:22:07] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[12:22:07] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[12:22:07] [Server thread/INFO]: [Geyser-Spigot] 
-[12:22:07] [Server thread/INFO]: [Geyser-Spigot] 加载 Geyser 中, 版本 2.1.0-SNAPSHOT (git-master-baae468)
-[12:22:07] [Server thread/INFO]: [Geyser-Spigot] 
-[12:22:07] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[12:22:12] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Geyser正在启动 0.0.0.0:19132
-[12:22:12] [Server thread/INFO]: [Geyser-Spigot] 完成 (4.645s)! 执行/geyser help 来获取帮助信息!
-[12:22:12] [Server thread/INFO]: Running delayed init tasks
-[12:22:12] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[12:22:12] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3.HikariDataSource] HikariPool-1 - Starting...
-[12:22:12] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3.HikariDataSource] HikariPool-1 - Start completed.
-[12:22:12] [Server thread/INFO]: [I] 已成功连接 SQLITE 数据库
-[12:22:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: Animations [1.0.5]
-[12:22:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.4]
-[12:22:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: progress [2.1]
-[12:22:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.6.2]
-[12:22:12] [Server thread/INFO]: 4 placeholder hook(s) registered!
-[12:22:12] [Server thread/INFO]: [Magic] Vault not found, 'currency' cost types unavailable
-[12:22:12] [Server thread/INFO]: [Magic] AureliumSkills found, will integrate for skill/stat attributes,xp currencies
-[12:22:12] [Server thread/INFO]: [Magic]   If you want Magic spells to use AureliumSkills mana, use &7/mconfig configure config aurelium_skills.use_mana true
-[12:22:12] [Server thread/INFO]: [Magic] Registered AureliumSkills XP as currencies: FARMING,FORAGING,MINING,FISHING,EXCAVATION,ARCHERY,DEFENSE,FIGHTING,ENDURANCE,AGILITY,ALCHEMY,ENCHANTING,SORCERY,HEALING,FORGING
-[12:22:12] [Server thread/INFO]: [Magic] Registered currencies: AGILITY,EXCAVATION,DEFENSE,item,ARCHERY,FORGING,ENDURANCE,SORCERY,health,FARMING,HEALING,FIGHTING,hunger,FORAGING,FISHING,mana,ALCHEMY,xp,currency,ENCHANTING,sp,levels,MINING
-[12:22:13] [User Authenticator #0/INFO]: UUID of player wqe123420 is 48835002-b378-4798-b2e4-aa5890f9b262
-[12:22:13] [Craft Scheduler Thread - 26 - GroupManager/INFO]: [GroupManager] [STDOUT] [GroupManager] There was an issue parsing the version string.
-[12:22:13] [Craft Scheduler Thread - 26 - GroupManager/INFO]: [GroupManager] [STDOUT] [GroupManager] No new version available
-[12:22:13] [Server thread/INFO]: [Magic] Loaded 555 spells
-[12:22:13] [Server thread/INFO]: [Magic] Loaded 12 progression paths
-[12:22:13] [Server thread/INFO]: [Magic] Loaded 16 crafting recipes
-[12:22:13] [Server thread/INFO]: [Magic] LogBlock not found
-[12:22:13] [Server thread/INFO]: [Magic] Factions not found
-[12:22:13] [Server thread/INFO]: [Magic] WorldGuard found, will respect build permissions for construction spells
-[12:22:13] [Server thread/INFO]: [Magic] Towny not found, region protection and pvp checks will not be used.
-[12:22:13] [Server thread/INFO]: [Magic] Lockette nor LockettePro found, will not integrate.
-[12:22:13] [Server thread/INFO]: [Magic] GriefPrevention not found, claim protection will not be used.
-[12:22:13] [Server thread/INFO]: [Magic] NoCheatPlus not found, will not integrate.
-[12:22:13] [Server thread/INFO]: [Magic] dynmap not found, not integrating.
-[12:22:13] [Server thread/INFO]: [Magic] Citizens not found, Magic trait unavailable.
-[12:22:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: magic [10.8.7-fdb1fc1]
-[12:22:13] [Server thread/INFO]: [Magic] PlaceholderAPI integration enabled. Available placeholders:
-[12:22:13] [Server thread/INFO]: [Magic] magic_path, magic_class, magic_wand, magic_spell, magic_mana, magic_mana_max, magic_sp, magic_spell_count
-[12:22:13] [Server thread/INFO]: [Magic] All magic attributes also available with a magic_ prefix
-[12:22:13] [Server thread/INFO]: [Magic] Add to messages/placeholders to add custom placeholders
-[12:22:13] [Server thread/INFO]: [Magic] LightAPI not found, Light action will not work
-[12:22:13] [Server thread/INFO]: [Magic] Loaded 0 arenas
-[12:22:13] [Server thread/INFO]: [Magic] Registered additional attributes: [WISDOM, AGILITY, EXCAVATION, DEFENSE, ARCHERY, FORGING, ENDURANCE, REGENERATION, SORCERY, STRENGTH, FARMING, HEALING, FIGHTING, LUCK, FORAGING, FISHING, TOUGHNESS, ALCHEMY, HEALTH, ENCHANTING, MINING]
-[12:22:13] [Server thread/INFO]: [Magic] Finished loading configuration
-[12:22:13] [Server thread/WARN]: java.lang.ClassNotFoundException: net.minecraft.server.v1_19_R3.BlockWaterLily
-[12:22:13] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183)
-[12:22:13] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
-[12:22:13] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-[12:22:13] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
-[12:22:13] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
-[12:22:13] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.NMSReflection.getNMSClass(NMSReflection.java:15)
-[12:22:13] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.fixLilyPad(BoundingBoxFixer.java:15)
-[12:22:13] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.BukkitPlugin$1.run(BukkitPlugin.java:38)
-[12:22:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
-[12:22:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
-[12:22:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1122)
-[12:22:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
-[12:22:13] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[12:22:13] [Server thread/INFO]: [ViaRewind-Legacy-Support] [STDOUT] Could not fix lily pad bounding box.
-[12:22:13] [Server thread/WARN]: Nag author(s): '[Gerrygames]' of 'ViaRewind-Legacy-Support v1.4.0' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[12:22:13] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getName()" because "clazz" is null
-[12:22:13] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.reflection.ReflectionAPI.getField(ReflectionAPI.java:27)
-[12:22:13] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.reflection.ReflectionAPI.getFieldAccessible(ReflectionAPI.java:45)
-[12:22:13] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.fixLilyPad(BoundingBoxFixer.java:16)
-[12:22:13] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.BukkitPlugin$1.run(BukkitPlugin.java:38)
-[12:22:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
-[12:22:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
-[12:22:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1122)
-[12:22:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
-[12:22:13] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[12:22:13] [Server thread/WARN]: java.lang.ClassNotFoundException: net.minecraft.server.v1_19_R3.BlockLadder
-[12:22:13] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183)
-[12:22:13] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
-[12:22:13] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-[12:22:13] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
-[12:22:13] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
-[12:22:13] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.NMSReflection.getNMSClass(NMSReflection.java:15)
-[12:22:13] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.fixLadder(BoundingBoxFixer.java:26)
-[12:22:13] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.BukkitPlugin$1.run(BukkitPlugin.java:40)
-[12:22:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
-[12:22:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
-[12:22:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1122)
-[12:22:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
-[12:22:13] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[12:22:13] [Server thread/INFO]: [ViaRewind-Legacy-Support] [STDOUT] Could not fix ladder bounding box.
-[12:22:13] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getName()" because "clazz" is null
-[12:22:13] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.reflection.ReflectionAPI.getField(ReflectionAPI.java:27)
-[12:22:13] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.reflection.ReflectionAPI.getFieldAccessible(ReflectionAPI.java:45)
-[12:22:13] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.fixLadder(BoundingBoxFixer.java:42)
-[12:22:13] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.BukkitPlugin$1.run(BukkitPlugin.java:40)
-[12:22:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
-[12:22:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
-[12:22:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1122)
-[12:22:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
-[12:22:13] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[12:22:13] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] Bukkit Permissions Updated!
-[12:22:13] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.3) is available at:
-[12:22:13] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
-[12:22:13] [Server thread/INFO]: Done (37.923s)! For help, type "help"
-[12:22:13] [Server thread/INFO]: Timings Reset
-[12:22:13] [Server thread/INFO]: [Magic] Finished loading data.
-[12:22:14] [Server thread/INFO]: wqe123420 joined the game
-[12:22:14] [Server thread/INFO]: wqe123420[/26.44.153.100:62410] logged in with entity id 340 at ([world]-23.69999998807907, 68.0, -281.3683256600019)
-[12:22:14] [Server thread/INFO]: Resource pack has not changed, using hash 9h0Z6JLQXT1E6lJ8nlNICapPZJQ= (1670961805000 <= 1670961805000)
-[12:22:16] [Craft Scheduler Thread - 20 - EliteMobs/INFO]: [EliteMobs] Latest public release is 8.5.4
-[12:22:16] [Craft Scheduler Thread - 20 - EliteMobs/INFO]: [EliteMobs] Your version is 8.4.4
-[12:22:16] [Craft Scheduler Thread - 20 - EliteMobs/WARN]: [EliteMobs] [EliteMobs] A newer version of this plugin is available for download!
-[12:22:16] [Server thread/INFO]: [I] 初始化 1 个工作空间... 开始加载菜单
-[12:22:16] [Server thread/INFO]: [I] 已成功载入了 2 个有效菜单... (0.154 secs)
-[12:22:17] [Craft Scheduler Thread - 20 - EliteMobs/INFO]: [EliteMobs] User 48835002-b378-4798-b2e4-aa5890f9b262 data successfully read!
-[12:24:50] [Server thread/INFO]: wqe123420 issued server command: /tp -22 63.5 -286
-[12:24:50] [Server thread/INFO]: [wqe123420: Teleported wqe123420 to -21.500000, 63.500000, -285.500000]
-[12:24:50] [Server thread/WARN]: wqe123420 moved too quickly! -18.861534571251248,-15.420788545929469,-232.11290588665582
-[12:25:48] [Server thread/INFO]: Named entity EntitySkeleton['6级精英骷髅'/2167, uuid='55f19dc7-0b11-4b62-b9bc-e89db5f2b4bf', l='ServerLevel[world]', x=14.70, y=125.00, z=29.70, cpos=[0, 1], tl=404, v=true] died: 6级精英骷髅 discovered the floor was lava
-[12:26:21] [Server thread/INFO]: wqe123420 issued server command: /tp -22 63.5 -286
-[12:26:21] [Server thread/INFO]: [wqe123420: Teleported wqe123420 to -21.500000, 63.500000, -285.500000]
-[12:27:12] [Server thread/INFO]: [EliteMobs] Event treasure_goblin.yml has been queued!
-[12:27:12] [Server thread/INFO]: 宝藏哥布林出现了！
-[12:27:20] [Server thread/INFO]: wqe123420 issued server command: /tp -3235 107.5 4521
-[12:27:20] [Server thread/INFO]: [wqe123420: Teleported wqe123420 to -3234.500000, 107.500000, 4521.500000]
-[12:27:20] [Server thread/WARN]: wqe123420 moved too quickly! -3214.787546991748,44.5,4808.727565983606
-[12:27:59] [Server thread/WARN]: wqe123420 moved wrongly!
-[12:28:04] [Server thread/INFO]: wqe123420 was slain by Wither Skeleton
-[12:28:11] [Server thread/INFO]: wqe123420 issued server command: /tp -3235 107.5 4521
-[12:28:11] [Server thread/INFO]: [wqe123420: Teleported wqe123420 to -3234.500000, 107.500000, 4521.500000]
-[12:28:11] [Server thread/WARN]: wqe123420 moved too quickly! -3212.0,44.5,4801.0
-[12:28:26] [Server thread/INFO]: wqe123420 issued server command: /tp -22 63.5 -286
-[12:28:26] [Server thread/INFO]: [wqe123420: Teleported wqe123420 to -21.500000, 63.500000, -285.500000]
-[12:28:26] [Server thread/WARN]: wqe123420 moved too quickly! 3213.0907782182717,-43.5,-4807.274691292118
-[12:28:32] [Server thread/INFO]: wqe123420 issued server command: /tp -3235 107.5 4521
-[12:28:32] [Server thread/INFO]: [wqe123420: Teleported wqe123420 to -3234.500000, 107.500000, 4521.500000]
-[12:28:32] [Server thread/WARN]: wqe123420 moved too quickly! -3211.445626168485,44.5,4807.262499988079
-[12:28:32] [Server thread/WARN]: wqe123420 moved too quickly! -3211.445626168485,44.5,4807.262499988079
-[12:28:32] [Server thread/WARN]: wqe123420 moved too quickly! -3211.445626168485,44.5,4807.262499988079
-[12:32:01] [pool-54-thread-2/INFO]: [GroupManager] [STDOUT] [GroupManager] Data files refreshed.
-[12:32:01] [pool-54-thread-2/WARN]: Nag author(s): '[AnjoCaido, Gabriel Couto, ElgarL]' of 'GroupManager v2.9 (Phoenix)' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[12:32:52] [Server thread/INFO]: wqe123420 issued server command: /tp -22 63.5 -286
-[12:32:52] [Server thread/INFO]: [wqe123420: Teleported wqe123420 to -21.500000, 63.500000, -285.500000]
-[12:32:52] [Server thread/WARN]: wqe123420 moved too quickly! 3193.8515280638217,-44.85086604457976,-4822.178467039213
-[12:33:12] [Server thread/INFO]: [EliteMobs] Event full_moon.yml has been queued!
-[12:34:13] [Server thread/INFO]: wqe123420 issued server command: /tp -530 -5.5 -573
-[12:34:13] [Server thread/INFO]: [wqe123420: Teleported wqe123420 to -529.500000, -5.500000, -572.500000]
-[12:34:13] [Server thread/WARN]: wqe123420 moved too quickly! -521.941183395771,21.5,-412.3268503067005
-[12:34:36] [Server thread/INFO]: wqe123420 issued server command: /tp -22 63.5 -286
-[12:34:36] [Server thread/INFO]: [wqe123420: Teleported wqe123420 to -21.500000, 63.500000, -285.500000]
-[12:34:36] [Server thread/WARN]: wqe123420 moved too quickly! 503.0515233032679,68.5,281.0244500440218
-[12:37:10] [Server thread/INFO]: [Server] 关服了
-[12:37:12] [Server thread/INFO]: [Magic] Server is shutting down, closing all wand inventories
-[12:37:12] [Server thread/INFO]: Stopping the server
-[12:37:12] [Server thread/INFO]: Stopping server
-[12:37:12] [Server thread/INFO]: diaolingkulou died
-[12:37:12] [Server thread/INFO]: diaolingkulou leaved the game
-[12:37:12] [Server thread/INFO]: diaoyu died
-[12:37:12] [Server thread/INFO]: diaoyu leaved the game
-[12:37:12] [Server thread/INFO]: [EliteMobs] Disabling EliteMobs v8.4.4
-[12:37:12] [Server thread/INFO]: [EliteMobs] Starting EliteMobs shutdown sequence...
-[12:37:12] [Server thread/INFO]: [EliteMobs] Regenerating exploded blocks...
-[12:37:12] [Server thread/INFO]: [EliteMobs] Cancelling tasks...
-[12:37:12] [Server thread/INFO]: [EliteMobs] Closing wormholes...
-[12:37:12] [Server thread/INFO]: [EliteMobs] Spinning Regional Bosses down...
-[12:37:12] [Server thread/INFO]: [EliteMobs] Wiping Elite entities clean...
-[12:37:12] [Server thread/INFO]: [EliteMobs] Clearing events...
-[12:37:12] [Server thread/INFO]: [EliteMobs] Clearing valid worlds...
-[12:37:12] [Server thread/INFO]: [EliteMobs] Clearing zone based worlds...
-[12:37:12] [Server thread/INFO]: [EliteMobs] Clearing config regional elites...
-[12:37:12] [Server thread/INFO]: [EliteMobs] Clearing custom enchantments...
-[12:37:12] [Server thread/INFO]: [EliteMobs] Clearing custom items...
-[12:37:12] [Server thread/INFO]: [EliteMobs] Clearing Minidungeons...
-[12:37:12] [Server thread/INFO]: [EliteMobs] Unregistering placeholders...
-[12:37:12] [Server thread/INFO]: [EliteMobs] Unregistering handlers...
-[12:37:12] [Server thread/INFO]: [EliteMobs] Clearing Treasure Chests...
-[12:37:12] [Server thread/INFO]: [EliteMobs] Untracking quests...
-[12:37:12] [Server thread/INFO]: [EliteMobs] Saving EliteMobs databases...
-[12:37:12] [Server thread/INFO]: [EliteMobs] All done! Good night.
-[12:37:12] [Server thread/INFO]: [GeekPlayerBag] Disabling GeekPlayerBag v1.1-Bate
-[12:37:12] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3_bag.HikariDataSource] GeekPlayerBag-SQLITE - Shutdown initiated...
-[12:37:12] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3_bag.HikariDataSource] GeekPlayerBag-SQLITE - Shutdown completed.
-[12:37:12] [Server thread/INFO]: [Graves] Disabling Graves v4.9
-[12:37:12] [Server thread/INFO]: [GroupManager] Disabling GroupManager v2.9 (Phoenix)
-[12:37:12] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[12:37:12] [Server thread/ERROR]: [GroupManager] [STDERR] [GroupManager] Scheduled Data Saving is Disabled!
-[12:37:12] [Server thread/WARN]: Nag author(s): '[AnjoCaido, Gabriel Couto, ElgarL]' of 'GroupManager v2.9 (Phoenix)' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[12:37:12] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] version 2.9 (Phoenix) is disabled!
-[12:37:12] [Server thread/INFO]: [inuDamage] Disabling inuDamage v1.1
-[12:37:12] [Server thread/INFO]: [Invero] Disabling Invero v1.0.1
-[12:37:12] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3.HikariDataSource] HikariPool-1 - Shutdown initiated...
-[12:37:12] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3.HikariDataSource] HikariPool-1 - Shutdown completed.
-[12:37:12] [Server thread/INFO]: [Magic] Disabling Magic v10.8.7-fdb1fc1
-[12:37:12] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion magic
-[12:37:12] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin Magic was disabled.
-[12:37:12] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.3
-[12:37:12] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.4.0
-[12:37:12] [Server thread/INFO]: [LaggRemover] Disabling LaggRemover v2.0.6
-[12:37:12] [Server thread/INFO]: [LaggRemover] LaggRemover has been disabled!
-[12:37:12] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.0-SNAPSHOT
-[12:37:12] [Server thread/INFO]: [Geyser-Spigot] Geyser关闭中
-[12:37:12] [Server thread/INFO]: [Geyser-Spigot] Geyser成功关闭.
-[12:37:12] [Server thread/INFO]: [AureliumSkills] Disabling AureliumSkills vBeta 1.3.19
-[12:37:12] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.6.1
-[12:37:12] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b??-2702bc3)
-[12:37:12] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
-[12:37:12] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.64
-[12:37:12] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[12:37:12] [Server thread/INFO]: [LuckPerms] Closing storage...
-[12:37:12] [Server thread/INFO]: [LuckPerms] Goodbye!
-[12:37:12] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.7+216b061
-[12:37:12] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[12:37:12] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.6.2
-[12:37:12] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[12:37:12] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.14+6360-094b734
-[12:37:12] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[12:37:12] [Server thread/INFO]: Saving players
-[12:37:12] [Server thread/INFO]: wqe123420 lost connection: Server closed
-[12:37:12] [Server thread/INFO]: wqe123420 left the game
-[12:37:13] [Server thread/INFO]: Saving worlds
-[12:37:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[12:37:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[12:37:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[12:37:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[12:37:13] [WebSocketConnectReadThread-141/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[12:37:13] [Server thread/INFO]: [ChunkHolderManager] Saved 249 block chunks, 426 entity chunks, 2 poi chunks in world 'world' in 0.43s
-[12:37:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12:37:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[12:37:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[12:37:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[12:37:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[12:37:13] [Server thread/INFO]: [ChunkHolderManager] Saved 35 block chunks, 104 entity chunks, 0 poi chunks in world 'world_nether' in 0.05s
-[12:37:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12:37:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[12:37:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[12:37:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[12:37:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[12:37:13] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[12:37:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12:37:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_adventurers_guild]'/minecraft:em_adventurers_guild
-[12:37:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_adventurers_guild'
-[12:37:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_adventurers_guild'
-[12:37:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_adventurers_guild'
-[12:37:13] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_adventurers_guild' in 0.00s
-[12:37:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_adventurers_guild): All chunks are saved
-[12:37:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[12:37:13] [Server thread/INFO]: Flushing Chunk IO
-[12:37:13] [Server thread/INFO]: Closing Thread Pool
-[12:37:13] [Server thread/INFO]: Closing Server
+[22:24:18] [Server thread/WARN]: Nag author(s): '[drew6017]' of 'LaggRemover v2.0.6' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[22:24:18] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
+[22:24:18] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
+[22:24:18] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
+[22:24:18] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.4.0
+[22:24:18] [Server thread/INFO]: [RandomControl] Enabling RandomControl v1.1.0
+[22:24:18] [Server thread/INFO]: [Invero] Enabling Invero v1.0.1
+[22:24:18] [Server thread/WARN]: [Invero] ink.ptms.adyeshach.core.event.AdyeshachEntityInteractEvent not found, use @Ghost to turn off this warning
+[22:24:18] [Server thread/INFO]: [inuDamage] Enabling inuDamage v1.1
+[22:24:18] [Server thread/INFO]: [inuDamage] inuDamage xD
+[22:24:18] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.9 (Phoenix)
+[22:24:18] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] World Found: world
+[22:24:18] [Server thread/WARN]: Nag author(s): '[AnjoCaido, Gabriel Couto, ElgarL]' of 'GroupManager v2.9 (Phoenix)' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[22:24:18] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] Superperms support enabled.
+[22:24:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: groupmanager [1.0.0]
+[22:24:18] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] Add-ons: PlaceholderAPI v2.11.2
+[22:24:18] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] Scheduled Data Saving is set for every 10 minutes!
+[22:24:18] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] Backups will be retained for 24 hours!
+[22:24:18] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] version 2.9 (Phoenix) is enabled!
+[22:24:18] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:24:18] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[22:24:18] [Server thread/INFO]: [Graves] Integration: Hooked into WorldEdit 7.2.14+6360-094b734.
+[22:24:18] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.7+216b061.
+[22:24:18] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[22:24:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: graves [4.9]
+[22:24:18] [Server thread/INFO]: [Graves] Integration: Hooked into PlaceholderAPI 2.11.2.
+[22:24:18] [Server thread/INFO]: [Graves] Compatibility: World "world_the_end" has keepInventory set to true, Graves will not be created here.
+[22:24:18] [Server thread/INFO]: [GeekPlayerBag] Enabling GeekPlayerBag v1.1-Bate
+[22:24:18] [Server thread/INFO]: 
+[22:24:18] [Server thread/INFO]:        GeekPlayerBag-Plus  v1.0 by www.geekcraft.ink
+[22:24:18] [Server thread/INFO]:        适用于Bukkit: 1.12.2-1.19.2 当前:  git-Leaves-"60340f4" (MC: 1.19.4)
+[22:24:18] [Server thread/INFO]: 
+[22:24:18] [Server thread/INFO]: [GeekPlayerBag] 菜单界面加载完成... (耗时 9 ms)
+[22:24:18] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3_bag.HikariDataSource] GeekPlayerBag-SQLITE - Starting...
+[22:24:18] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3_bag.HikariDataSource] GeekPlayerBag-SQLITE - Start completed.
+[22:24:18] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v8.4.4
+[22:24:18] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
+[22:24:18] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
+[22:24:18] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
+[22:24:18] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
+[22:24:18] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
+[22:24:18] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
+[22:24:18] [Server thread/INFO]: By MagmaGuy - v. 8.4.4
+[22:24:18] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
+[22:24:18] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
+[22:24:18] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
+[22:24:18] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
+[22:24:18] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
+[22:24:18] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
+[22:24:20] [Server thread/INFO]: [EliteMobs] WorldGuard compatibility is enabled!
+[22:24:20] [Server thread/INFO]: [EliteMobs] Opened database successfully
+[22:24:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: elitemobs [8.4.4]
+[22:24:21] [Server thread/WARN]: [EliteMobs] File  C:\Users\26973\Desktop\sever-latest\.\em_primis_wormhole does not exist!
+[22:24:21] [Server thread/INFO]: [EliteMobs] [EliteMobs] World em_adventurers_guild found! Loading it in...
+[22:24:22] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) TNT ignition is PERMITTED.
+[22:24:22] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) Lighters are PERMITTED.
+[22:24:22] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) Lava fire is PERMITTED.
+[22:24:22] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) Fire spread is UNRESTRICTED.
+[22:24:22] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_adventurers_guild'
+[22:24:22] [Server thread/INFO]: [EliteMobs] [EliteMobs] World em_adventurers_guild has been successfully loaded! It can be accessed through the '/ag' command, unless you changed that config option!
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse entry lun_pp1.yml:0.1 for file 3.yml due to invalid: filename
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse entry lun_pp2.yml:0.1 for file 3.yml due to invalid: filename
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse entry lun_pp3.yml:0.1 for file 3.yml due to invalid: filename
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse entry summon_wolf_lun.yml:1 for file 3.yml due to invalid: filename
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse entry lun_pp1.yml:0.1 for file 4.yml due to invalid: filename
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse entry lun_pp2.yml:0.1 for file 4.yml due to invalid: filename
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse entry lun_pp3.yml:0.1 for file 4.yml due to invalid: filename
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse entry summon_wolf_lun.yml:1 for file 4.yml due to invalid: filename
+[22:24:22] [Server thread/INFO]: [EliteMobs] World your_world_here is not yet loaded! Entities that should spawn there have been queued.
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null, null] for arenawood_league.yml
+[22:24:22] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[22:24:23] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[22:24:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:24:23] [Server thread/INFO]: [Geyser-Spigot] 
+[22:24:23] [Server thread/INFO]: [Geyser-Spigot] 加载 Geyser 中, 版本 2.1.0-SNAPSHOT (git-master-baae468)
+[22:24:23] [Server thread/INFO]: [Geyser-Spigot] 
+[22:24:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:24:27] [Server thread/INFO]: [Geyser-Spigot] Geyser正在启动 0.0.0.0:19132
+[22:24:27] [Server thread/INFO]: [Geyser-Spigot] 完成 (3.832s)! 执行/geyser help 来获取帮助信息!
+[22:24:27] [Server thread/INFO]: Running delayed init tasks
+[22:24:27] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[22:24:27] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3.HikariDataSource] HikariPool-1 - Starting...
+[22:24:27] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3.HikariDataSource] HikariPool-1 - Start completed.
+[22:24:27] [Server thread/INFO]: [I] 已成功连接 SQLITE 数据库
+[22:24:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: Animations [1.0.5]
+[22:24:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.4]
+[22:24:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: progress [2.1]
+[22:24:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.6.2]
+[22:24:27] [Server thread/INFO]: 4 placeholder hook(s) registered!
+[22:24:27] [Server thread/INFO]: [Magic] Vault not found, 'currency' cost types unavailable
+[22:24:27] [Server thread/INFO]: [Magic] AureliumSkills found, will integrate for skill/stat attributes,xp currencies
+[22:24:27] [Server thread/INFO]: [Magic]   If you want Magic spells to use AureliumSkills mana, use &7/mconfig configure config aurelium_skills.use_mana true
+[22:24:27] [Server thread/INFO]: [Magic] Registered AureliumSkills XP as currencies: FARMING,FORAGING,MINING,FISHING,EXCAVATION,ARCHERY,DEFENSE,FIGHTING,ENDURANCE,AGILITY,ALCHEMY,ENCHANTING,SORCERY,HEALING,FORGING
+[22:24:27] [Server thread/INFO]: [Magic] Registered currencies: AGILITY,EXCAVATION,DEFENSE,item,ARCHERY,FORGING,ENDURANCE,SORCERY,health,FARMING,HEALING,FIGHTING,hunger,FORAGING,FISHING,mana,ALCHEMY,xp,currency,ENCHANTING,sp,levels,MINING
+[22:24:28] [Craft Scheduler Thread - 46 - GroupManager/INFO]: [GroupManager] [STDOUT] [GroupManager] There was an issue parsing the version string.
+[22:24:28] [Craft Scheduler Thread - 46 - GroupManager/INFO]: [GroupManager] [STDOUT] [GroupManager] No new version available
+[22:24:28] [Server thread/INFO]: [Magic] Loaded 555 spells
+[22:24:28] [Server thread/INFO]: [Magic] Loaded 12 progression paths
+[22:24:28] [Server thread/INFO]: [Magic] Loaded 16 crafting recipes
+[22:24:28] [Server thread/INFO]: [Magic] LogBlock not found
+[22:24:28] [Server thread/INFO]: [Magic] Factions not found
+[22:24:28] [Server thread/INFO]: [Magic] WorldGuard found, will respect build permissions for construction spells
+[22:24:28] [Server thread/INFO]: [Magic] Towny not found, region protection and pvp checks will not be used.
+[22:24:28] [Server thread/INFO]: [Magic] Lockette nor LockettePro found, will not integrate.
+[22:24:28] [Server thread/INFO]: [Magic] GriefPrevention not found, claim protection will not be used.
+[22:24:28] [Server thread/INFO]: [Magic] NoCheatPlus not found, will not integrate.
+[22:24:28] [Server thread/INFO]: [Magic] dynmap not found, not integrating.
+[22:24:28] [Server thread/INFO]: [Magic] Citizens not found, Magic trait unavailable.
+[22:24:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: magic [10.8.7-fdb1fc1]
+[22:24:28] [Server thread/INFO]: [Magic] PlaceholderAPI integration enabled. Available placeholders:
+[22:24:28] [Server thread/INFO]: [Magic] magic_path, magic_class, magic_wand, magic_spell, magic_mana, magic_mana_max, magic_sp, magic_spell_count
+[22:24:28] [Server thread/INFO]: [Magic] All magic attributes also available with a magic_ prefix
+[22:24:28] [Server thread/INFO]: [Magic] Add to messages/placeholders to add custom placeholders
+[22:24:28] [Server thread/INFO]: [Magic] LightAPI not found, Light action will not work
+[22:24:28] [Server thread/INFO]: [Magic] Loaded 0 arenas
+[22:24:28] [Server thread/INFO]: [Magic] Registered additional attributes: [WISDOM, AGILITY, EXCAVATION, DEFENSE, ARCHERY, FORGING, ENDURANCE, REGENERATION, SORCERY, STRENGTH, FARMING, HEALING, FIGHTING, LUCK, FORAGING, FISHING, TOUGHNESS, ALCHEMY, HEALTH, ENCHANTING, MINING]
+[22:24:28] [Server thread/INFO]: [Magic] Finished loading configuration
+[22:24:28] [Server thread/WARN]: java.lang.ClassNotFoundException: net.minecraft.server.v1_19_R3.BlockWaterLily
+[22:24:28] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183)
+[22:24:28] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+[22:24:28] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+[22:24:28] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
+[22:24:28] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
+[22:24:28] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.NMSReflection.getNMSClass(NMSReflection.java:15)
+[22:24:28] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.fixLilyPad(BoundingBoxFixer.java:15)
+[22:24:28] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.BukkitPlugin$1.run(BukkitPlugin.java:38)
+[22:24:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[22:24:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[22:24:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1119)
+[22:24:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[22:24:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:24:28] [Server thread/INFO]: [ViaRewind-Legacy-Support] [STDOUT] Could not fix lily pad bounding box.
+[22:24:28] [Server thread/WARN]: Nag author(s): '[Gerrygames]' of 'ViaRewind-Legacy-Support v1.4.0' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[22:24:28] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getName()" because "clazz" is null
+[22:24:28] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.reflection.ReflectionAPI.getField(ReflectionAPI.java:27)
+[22:24:28] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.reflection.ReflectionAPI.getFieldAccessible(ReflectionAPI.java:45)
+[22:24:28] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.fixLilyPad(BoundingBoxFixer.java:16)
+[22:24:28] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.BukkitPlugin$1.run(BukkitPlugin.java:38)
+[22:24:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[22:24:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[22:24:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1119)
+[22:24:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[22:24:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:24:28] [Server thread/WARN]: java.lang.ClassNotFoundException: net.minecraft.server.v1_19_R3.BlockLadder
+[22:24:28] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183)
+[22:24:28] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+[22:24:28] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+[22:24:28] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
+[22:24:28] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
+[22:24:28] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.NMSReflection.getNMSClass(NMSReflection.java:15)
+[22:24:28] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.fixLadder(BoundingBoxFixer.java:26)
+[22:24:28] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.BukkitPlugin$1.run(BukkitPlugin.java:40)
+[22:24:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[22:24:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[22:24:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1119)
+[22:24:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[22:24:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:24:28] [Server thread/INFO]: [ViaRewind-Legacy-Support] [STDOUT] Could not fix ladder bounding box.
+[22:24:28] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getName()" because "clazz" is null
+[22:24:28] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.reflection.ReflectionAPI.getField(ReflectionAPI.java:27)
+[22:24:28] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.reflection.ReflectionAPI.getFieldAccessible(ReflectionAPI.java:45)
+[22:24:28] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.fixLadder(BoundingBoxFixer.java:42)
+[22:24:28] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.BukkitPlugin$1.run(BukkitPlugin.java:40)
+[22:24:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+[22:24:28] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
+[22:24:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1119)
+[22:24:28] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
+[22:24:28] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[22:24:28] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] Bukkit Permissions Updated!
+[22:24:28] [Server thread/INFO]: Resource pack has not changed, using hash 9h0Z6JLQXT1E6lJ8nlNICapPZJQ= (1670961805000 <= 1670961805000)
+[22:24:28] [Server thread/INFO]: Done (33.629s)! For help, type "help"
+[22:24:28] [Server thread/INFO]: Timings Reset
+[22:24:28] [Craft Scheduler Thread - 40 - EliteMobs/INFO]: [EliteMobs] Latest public release is 8.5.4
+[22:24:28] [Craft Scheduler Thread - 40 - EliteMobs/INFO]: [EliteMobs] Your version is 8.4.4
+[22:24:28] [Server thread/INFO]: [Magic] Finished loading data.
+[22:24:28] [User Authenticator #0/INFO]: UUID of player Funget114514 is c044cd4d-b2f0-493d-9457-42ab7216df39
+[22:24:28] [Craft Scheduler Thread - 40 - EliteMobs/WARN]: [EliteMobs] [EliteMobs] A newer version of this plugin is available for download!
+[22:24:29] [Server thread/INFO]: Funget114514 joined the game
+[22:24:29] [Server thread/INFO]: Funget114514[/192.168.3.6:49182] logged in with entity id 385 at ([world]-20.5, 63.0, -280.5)
+[22:24:29] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.3) is available at:
+[22:24:29] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[22:24:29] [User Authenticator #0/INFO]: UUID of player Enderlava is 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+[22:24:30] [Server thread/INFO]: Enderlava joined the game
+[22:24:30] [Server thread/INFO]: Enderlava[/127.0.0.1:59084] logged in with entity id 434 at ([world]-8.182816780873557, 63.0, -281.7003414076287)
+[22:24:31] [Server thread/INFO]: [I] 初始化 1 个工作空间... 开始加载菜单
+[22:24:31] [Server thread/INFO]: [I] 已成功载入了 2 个有效菜单... (0.172 secs)
+[22:24:31] [Craft Scheduler Thread - 40 - EliteMobs/INFO]: [EliteMobs] User c044cd4d-b2f0-493d-9457-42ab7216df39 data successfully read!
+[22:24:31] [Craft Scheduler Thread - 40 - EliteMobs/INFO]: [EliteMobs] User 07031eee-c0d3-4ed4-8fa9-6f8ea128abba data successfully read!
+[22:24:46] [Server thread/INFO]: Enderlava issued server command: /function minecraft:summon
+[22:24:46] [Server thread/INFO]: [Enderlava: Executed 43 command(s) from function 'minecraft:summon']
+[22:27:09] [Server thread/INFO]: Enderlava lost connection: Disconnected
+[22:27:09] [Server thread/INFO]: Enderlava left the game
+[22:29:27] [Server thread/INFO]: [EliteMobs] Event charms_goblin.yml has been queued!
+[22:29:27] [Server thread/INFO]: 护符哥布林出现了！
+[22:31:19] [Server thread/INFO]: Funget114514 lost connection: Disconnected
+[22:31:19] [Server thread/INFO]: Funget114514 left the game
+[22:34:18] [pool-54-thread-2/INFO]: [GroupManager] [STDOUT] [GroupManager] Data files refreshed.
+[22:34:18] [pool-54-thread-2/WARN]: Nag author(s): '[AnjoCaido, Gabriel Couto, ElgarL]' of 'GroupManager v2.9 (Phoenix)' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[22:44:38] [Server thread/INFO]: [Magic] Server is shutting down, closing all wand inventories
+[22:44:38] [Server thread/INFO]: Stopping the server
+[22:44:38] [Server thread/INFO]: Stopping server
+[22:44:38] [Server thread/INFO]: [EliteMobs] Disabling EliteMobs v8.4.4
+[22:44:38] [Server thread/INFO]: [EliteMobs] Starting EliteMobs shutdown sequence...
+[22:44:38] [Server thread/INFO]: [EliteMobs] Regenerating exploded blocks...
+[22:44:38] [Server thread/INFO]: [EliteMobs] Cancelling tasks...
+[22:44:38] [Server thread/INFO]: [EliteMobs] Closing wormholes...
+[22:44:38] [Server thread/INFO]: [EliteMobs] Spinning Regional Bosses down...
+[22:44:38] [Server thread/INFO]: [EliteMobs] Wiping Elite entities clean...
+[22:44:38] [Server thread/INFO]: [EliteMobs] Clearing events...
+[22:44:38] [Server thread/INFO]: [EliteMobs] Clearing valid worlds...
+[22:44:38] [Server thread/INFO]: [EliteMobs] Clearing zone based worlds...
+[22:44:38] [Server thread/INFO]: [EliteMobs] Clearing config regional elites...
+[22:44:38] [Server thread/INFO]: [EliteMobs] Clearing custom enchantments...
+[22:44:38] [Server thread/INFO]: [EliteMobs] Clearing custom items...
+[22:44:38] [Server thread/INFO]: [EliteMobs] Clearing Minidungeons...
+[22:44:38] [Server thread/INFO]: [EliteMobs] Unregistering placeholders...
+[22:44:38] [Server thread/INFO]: [EliteMobs] Unregistering handlers...
+[22:44:38] [Server thread/INFO]: [EliteMobs] Clearing Treasure Chests...
+[22:44:38] [Server thread/INFO]: [EliteMobs] Untracking quests...
+[22:44:38] [Server thread/INFO]: [EliteMobs] Saving EliteMobs databases...
+[22:44:38] [Server thread/INFO]: [EliteMobs] All done! Good night.
+[22:44:38] [Server thread/INFO]: [GeekPlayerBag] Disabling GeekPlayerBag v1.1-Bate
+[22:44:38] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3_bag.HikariDataSource] GeekPlayerBag-SQLITE - Shutdown initiated...
+[22:44:38] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3_bag.HikariDataSource] GeekPlayerBag-SQLITE - Shutdown completed.
+[22:44:38] [Server thread/INFO]: [Graves] Disabling Graves v4.9
+[22:44:38] [Server thread/INFO]: [GroupManager] Disabling GroupManager v2.9 (Phoenix)
+[22:44:38] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:44:38] [Server thread/ERROR]: [GroupManager] [STDERR] [GroupManager] Scheduled Data Saving is Disabled!
+[22:44:38] [Server thread/WARN]: Nag author(s): '[AnjoCaido, Gabriel Couto, ElgarL]' of 'GroupManager v2.9 (Phoenix)' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[22:44:38] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] version 2.9 (Phoenix) is disabled!
+[22:44:38] [Server thread/INFO]: [inuDamage] Disabling inuDamage v1.1
+[22:44:38] [Server thread/INFO]: [Invero] Disabling Invero v1.0.1
+[22:44:38] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[22:44:38] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3.HikariDataSource] HikariPool-1 - Shutdown completed.
+[22:44:38] [Server thread/INFO]: [Magic] Disabling Magic v10.8.7-fdb1fc1
+[22:44:38] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion magic
+[22:44:38] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin Magic was disabled.
+[22:44:38] [Server thread/INFO]: [RandomControl] Disabling RandomControl v1.1.0
+[22:44:38] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.3
+[22:44:38] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.4.0
+[22:44:38] [Server thread/INFO]: [LaggRemover] Disabling LaggRemover v2.0.6
+[22:44:38] [Server thread/INFO]: [LaggRemover] LaggRemover has been disabled!
+[22:44:38] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.0-SNAPSHOT
+[22:44:38] [Server thread/INFO]: [Geyser-Spigot] Geyser关闭中
+[22:44:38] [Server thread/INFO]: [Geyser-Spigot] Geyser成功关闭.
+[22:44:38] [Server thread/INFO]: [AureliumSkills] Disabling AureliumSkills vBeta 1.3.19
+[22:44:38] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.6.1
+[22:44:38] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b??-2702bc3)
+[22:44:38] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
+[22:44:38] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.64
+[22:44:38] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[22:44:38] [Server thread/INFO]: [LuckPerms] Closing storage...
+[22:44:38] [Server thread/INFO]: [LuckPerms] Goodbye!
+[22:44:38] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.7+216b061
+[22:44:38] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[22:44:38] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.6.2
+[22:44:38] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[22:44:38] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.14+6360-094b734
+[22:44:38] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:44:38] [Server thread/INFO]: Saving players
+[22:44:38] [Server thread/INFO]: Saving worlds
+[22:44:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:44:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:44:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:44:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:44:39] [Server thread/INFO]: [ChunkHolderManager] Saved 14 block chunks, 107 entity chunks, 0 poi chunks in world 'world' in 0.04s
+[22:44:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:44:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:44:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:44:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:44:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:44:39] [WebSocketConnectReadThread-146/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[22:44:39] [Server thread/INFO]: [ChunkHolderManager] Saved 32 block chunks, 88 entity chunks, 0 poi chunks in world 'world_nether' in 0.05s
+[22:44:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:44:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:44:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:44:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:44:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:44:39] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[22:44:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:44:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_adventurers_guild]'/minecraft:em_adventurers_guild
+[22:44:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_adventurers_guild'
+[22:44:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_adventurers_guild'
+[22:44:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_adventurers_guild'
+[22:44:39] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_adventurers_guild' in 0.00s
+[22:44:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_adventurers_guild): All chunks are saved
+[22:44:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:44:39] [Server thread/INFO]: Flushing Chunk IO
+[22:44:39] [Server thread/INFO]: Closing Thread Pool
+[22:44:39] [Server thread/INFO]: Closing Server
