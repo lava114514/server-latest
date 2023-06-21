@@ -1,0 +1,11 @@
+isEnabled: true
+material: DIAMOND_CHESTPLATE
+name: "&eUndead's Armor"
+lore:
+- '&eRetrieved from the walking corpse.'
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,4"
+- "DAMAGE_ALL,1"
+scalability: fixed
+itemType: unique
+level: 10

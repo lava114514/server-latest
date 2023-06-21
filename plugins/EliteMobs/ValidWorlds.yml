@@ -7,6 +7,13 @@ zoneBasedWorlds: []
 # https://github.com/MagmaGuy/EliteMobs/wiki/%5BGame-Mode%5D-Nightmare-mode
 nightmareWorlds: []
 Valid worlds:
+  em_knight_castle: true
+  em_steamworks_lair: true
+  em_shadow_of_the_binder_of_worlds: true
+  em_hallosseum: true
+  em_sewer_maze: true
+  em_north_pole: true
+  em_fireworks: true
   em_adventurers_guild: true
   world: true
   world_nether: true

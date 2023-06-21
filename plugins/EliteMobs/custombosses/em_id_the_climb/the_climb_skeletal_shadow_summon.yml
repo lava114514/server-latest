@@ -1,0 +1,13 @@
+isEnabled: true
+entityType: SKELETON
+name: $reinforcementLevel &fBleached Bones
+level: 10
+healthMultiplier: 10
+damageMultiplier: 0.27
+mainHand: IRON_SWORD
+leashRadius: 25
+followDistance: 25
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+normalizedCombat: true
+dropsRandomLoot: false

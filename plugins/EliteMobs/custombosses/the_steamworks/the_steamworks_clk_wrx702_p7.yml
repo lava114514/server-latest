@@ -1,0 +1,84 @@
+isEnabled: true
+isRegionalBoss: false
+entityType: RAVAGER
+disguise: IRON_GOLEM
+name: $bossLevel &bCLK-WRx702
+level: 140
+healthMultiplier: 6
+damageMultiplier: 1.1
+leashRadius: 30
+followDistance: 30
+movementSpeedAttribute: 0.38
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+uniqueLootList:
+- filename: the_steamworks_boss_charm.yml
+  chance: 0.05
+- filename: the_steamworks_boss_drop_axe_dps.yml
+  chance: 0.05
+- filename: the_steamworks_boss_drop_boots_dps.yml
+  chance: 0.05
+- filename: the_steamworks_boss_drop_chestplate_tank.yml
+  chance: 0.05
+- filename: the_steamworks_boss_drop_crossbow_tank.yml
+  chance: 0.05
+- filename: the_steamworks_boss_drop_helmet_dps.yml
+  chance: 0.05
+- filename: the_steamworks_boss_drop_leggings_tank.yml
+  chance: 0.05
+powers:
+- invulnerability_knockback.yml
+- invulnerability_fire.yml
+- invulnerability_arrow.yml
+- shield_wall.yml
+- photon_ray.yml
+- movement_speed.yml
+- attack_push.yml
+eliteScript:
+  Say:
+    Events:
+    - ElitePhaseSwitchEvent
+    Actions:
+    - action: MESSAGE
+      sValue: '&b[CLK-WRx702] &fCritical damage detected. Switching to overdrive mode.
+        Activating photon ray.'
+      Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS
+  ActivateSlowFall:
+    Events:
+    - EliteMobDeathEvent
+    Zone:
+      radius: 31
+      borderRadius: 22
+      shape: CYLINDER
+      height: 3
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-1,0
+        track: false
+    Actions:
+    - action: MESSAGE
+      sValue: '&b[CLK-WRx702] &fActivating platform slow-fall barriers. Duration,
+        2 MINUTES.'
+      Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS
+    - action: POTION_EFFECT
+      potionEffectType: SLOW_FALLING
+      amplifier: 3
+      duration: 250
+      repeatEvery: 1
+      times: 2400
+      Target:
+        targetType: ZONE_BORDER
+    - action: SPAWN_PARTICLE
+      wait: 60
+      particles:
+      - particle: SMOKE_NORMAL
+        speed: 0.1
+      repeatEvery: 20
+      times: 120
+      Target:
+        targetType: ZONE_BORDER

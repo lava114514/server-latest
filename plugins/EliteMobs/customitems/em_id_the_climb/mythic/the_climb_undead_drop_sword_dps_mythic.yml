@@ -1,0 +1,11 @@
+isEnabled: true
+material: DIAMOND_SWORD
+name: "&4Undead's Sword"
+lore:
+- "&4Retrieved from the walking corpse."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,1"
+- "DAMAGE_ALL,4"
+scalability: fixed
+itemType: unique
+level: 10

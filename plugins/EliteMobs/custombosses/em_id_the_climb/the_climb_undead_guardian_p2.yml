@@ -1,0 +1,162 @@
+isEnabled: true
+entityType: SKELETON
+name: $minibossLevel &cVillage Guardian
+level: 10
+instanced: true
+healthMultiplier: 4
+damageMultiplier: 0.733
+movementSpeedAttribute: 0.33
+mainHand: NETHERITE_SWORD
+offHand: SHIELD
+frozen: false
+powers:
+- arrow_rain.yml
+- attack_poison.yml
+- filename: attack_weakness.yml
+  difficultyID:
+  - 1
+  - 2
+- filename: movement_speed.yml
+  difficultyID: 
+  - 2
+- the_climb_firewall.yml
+trails:
+- SMOKE_LARGE
+- SMOKE_LARGE
+leashRadius: 25
+deathMessages:
+- Thank you for freeing me...
+eliteScript:
+  DomeArena:
+    Events:
+    - ElitePhaseSwitchEvent
+    Zone:
+      radius: 10.0
+      borderRadius: 9.0
+      shape: DOME
+      filter: LIVING
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,416.5,43.0,364.5,0.0,0.0
+    Actions:
+    - action: MESSAGE
+      Target: 
+        targetType: NEARBY_PLAYERS
+        range: 40
+      sValue: "&c[Undead Guardian] &fLet the the darkness come!"
+    - action: SET_TIME
+      wait: 50
+      Target:
+        targetType: SELF
+      time: 18000
+    - action: PLACE_BLOCK
+      wait: 20
+      duration: 12000
+      material: GLASS
+      Conditions:
+        locationIsAir: true
+        isAlive: true
+      Target:
+        targetType: ZONE_BORDER
+    - action: POTION_EFFECT
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 40
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 20     
+    - action: TELEPORT
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 40
+      FinalTarget:
+        targetType: LOCATION
+        location: same_as_boss,411.5,43.0,364.5,0.0,0.0
+    - action: RUN_SCRIPT
+      scripts:
+      - OpenDomeTop
+  OpenDomeTop:
+    Zone:
+      radius: 6.0
+      height: 4.0
+      shape: CYLINDER
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,416.5,49.0,364.5,0.0,0.0
+    Actions:
+    - action: PLACE_BLOCK
+      wait: 25
+      duration: 12000
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+  OpenPath:
+    Events:
+    - EliteMobDeathEvent
+    Zone:
+      radius: 2.0
+      height: 3.0
+      shape: CYLINDER
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,417.5,43.0,356.5,0.0,0.0
+    Actions:
+    - action: PLACE_BLOCK
+      duration: 12000
+      material: AIR
+      Target:
+        targetType: ZONE_FULL        
+uniqueLootList:
+- filename: the_climb_undead_guardian_drop_axe_dps_normal.yml
+  chance: 0.1
+  difficultyID: 0
+- filename: the_climb_undead_guardian_drop_axe_dps_hard.yml
+  chance: 0.1
+  difficultyID: 1
+- filename: the_climb_undead_guardian_drop_axe_dps_mythic.yml
+  chance: 0.1
+  difficultyID: 2
+- filename: the_climb_undead_guardian_drop_boots_dps_normal.yml
+  chance: 0.1
+  difficultyID: 0
+- filename: the_climb_undead_guardian_drop_boots_dps_hard.yml
+  chance: 0.1
+  difficultyID: 1
+- filename: the_climb_undead_guardian_drop_boots_dps_mythic.yml
+  chance: 0.1
+  difficultyID: 2
+- filename: the_climb_undead_guardian_drop_chestplate_tank_normal.yml
+  chance: 0.1
+  difficultyID: 0
+- filename: the_climb_undead_guardian_drop_chestplate_tank_hard.yml
+  chance: 0.1
+  difficultyID: 1
+- filename: the_climb_undead_guardian_drop_chestplate_tank_mythic.yml
+  chance: 0.1
+  difficultyID: 2
+- filename: the_climb_undead_guardian_drop_helmet_dps_normal.yml
+  chance: 0.1
+  difficultyID: 0
+- filename: the_climb_undead_guardian_drop_helmet_dps_hard.yml
+  chance: 0.1
+  difficultyID: 1
+- filename: the_climb_undead_guardian_drop_helmet_dps_mythic.yml
+  chance: 0.1
+  difficultyID: 2
+- filename: the_climb_undead_guardian_drop_leggings_tank_normal.yml
+  chance: 0.1
+  difficultyID: 0
+- filename: the_climb_undead_guardian_drop_leggings_tank_hard.yml
+  chance: 0.1
+  difficultyID: 1
+- filename: the_climb_undead_guardian_drop_leggings_tank_mythic.yml
+  chance: 0.1
+  difficultyID: 2
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+followDistance: 25
+normalizedCombat: true
+dropsRandomLoot: false
+disguise: custom:the_climb_undead_2
+customDisguiseData: player the_climb_undead_2 setskin {"id":"2cc1589b-7ffc-4d7d-8fb3-c81d560b1caf","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0NzcyMTYzNDY5OSwKICAicHJvZmlsZUlkIiA6ICI1ODkwNjAyNDYyMzE0ZGFjODM0NWQ3YjI4MmExZDI4ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJXeW5uY3JhZnRHYW1pbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDk2MGNlZGFhMzZkZTQxNmIyMzhmY2Y3ZmZiYmJlNWNjOTgyZjE0MGVjMTZlNzYxZThjNjYxMGQ3NTFjNzM2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=","signature":"DW27LHyy4vPb9v7MWVSpla+fvsW8C7o1K63ZS5FdKLNWa7IfbfZJA2ZdxZsdtHWhAzzVcranKITFW0oAAajKggfV272dCntQgYnujB4mX/fklOxHsDqSHdbhqwedeDtrujWr3ErPMSQTmOkZBVWmqTDHE5eQe1ZwiJNma+0mYaz1O4dqClufufrZn1GYcIyU8nhu9ymrpRExgwq1LiYh0urk2mb1FsckIzLCnR3y0lJz+bHuZkiqY/3goe3mWhGoyM7lGeDnBE7Y5FPuDsk/hBiCVU3aJ8M74+HV7sKcvu16Ms5lOwSOxJ7Ft0JLLPbPG4Yh7PlTQSliT8aLaF/NkFGtx7sfDK52RS5ZWGlyPteYOWwpakG1dRoFI5jtMRWC3a3r+0upoqJYWjgc5MY1U1LUm37EHfr4R+Ox1BDMFDQRu5a9uTiGSlfm+qRo1W+dUO9ihwoLCu6W4fbswVtvrB+RVJKoUB8CxfgU7+6Au9c0g4krgqcqvpl/I8AQMBobFWqoMn9JTdHL8uKSAM2A2JH6uYUiAnab7ciWSjJjCjDL4h85iZy1p7fvIqB2544RAV9QjTlmh5D6GcUU/+dITpjTr/CTLRh7J4g3Dv+eQFKdtk0pH6SjbUI60d7nQABDM2VLxGspxFC42nNwvTXQC6o3S0TWRj1qgRQwbk4lNTE="}],"legacy":false}
+

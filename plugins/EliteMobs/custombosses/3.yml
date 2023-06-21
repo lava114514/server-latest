@@ -27,6 +27,7 @@ uniqueLootList:
 - summon_wolf_lun.yml:1
 powers:
 - attack_wither.yml 
+- zombie_necronomicon.yml
 onDamageMessages:
 - 绝望！
 onDamagedMessages:

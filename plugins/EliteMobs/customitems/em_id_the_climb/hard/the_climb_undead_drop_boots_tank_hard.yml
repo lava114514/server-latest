@@ -1,0 +1,10 @@
+isEnabled: true
+material: DIAMOND_BOOTS
+name: "&eUndead's Footwear"
+lore:
+- '&eRetrieved from the walking corpse.'
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+scalability: fixed
+itemType: unique
+level: 10

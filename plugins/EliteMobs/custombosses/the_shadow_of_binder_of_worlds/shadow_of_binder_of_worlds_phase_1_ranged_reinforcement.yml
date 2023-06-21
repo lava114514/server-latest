@@ -1,0 +1,18 @@
+isEnabled: true
+entityType: SKELETON
+name: $reinforcementLevel &6Reality Ruiner
+level: 200
+healthMultiplier: 1.0
+damageMultiplier: 1.0
+mainHand: BOW
+powers:
+- attack_gravity.yml
+- attack_push.yml
+- skeleton_tracking_arrow.yml
+- invulnerability_knockback.yml
+- invulnerability_fire.yml
+dropsEliteMobsLoot: false
+isRegionalBoss: true
+followDistance: 200
+leashRadius: 35
+reinforcement: true

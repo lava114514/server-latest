@@ -1,0 +1,33 @@
+leashRadius: 17.0
+followRange: 14
+isRegionalBoss: true
+spawnCooldown: 30
+isEnabled: true
+entityType: ZOMBIFIED_PIGLIN
+isBaby: false
+name: $minibossLevel &2The Grill Master
+level: 28
+mainHand: GOLDEN_AXE
+helmet: LEATHER_HELMET
+powers:
+- attack_fire.yml
+- flamethrower.yml
+- summonType: ON_HIT
+  filename: sewer_tier_40_fire_boss_reinforcement.yml
+  spawnNearby: false
+  inheritAggro: true
+  inheritLevel: true
+  amount: 1
+  chance: 0.5
+healthMultiplier: 3.0
+damageMultiplier: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+uniqueLootList:
+- sewer_spelunkers_sword.yml:0.1
+- sewer_spelunkers_boots.yml:0.1
+- sewer_spelunkers_chestplate.yml:0.1
+- sewer_spelunkers_helmet.yml:0.1
+- sewer_spelunkers_leggings.yml:0.1
+spawnLocations:
+- em_sewer_maze,-216.4954161603577,121.2,-335.2978014685355,9.904057E-5,359.1189:1609850661876

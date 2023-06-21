@@ -13773,3 +13773,1371 @@ SpecialItemSystems:
   lore:
   - '&a遁入黑暗'
   - '&a化身食物链顶端的超级夜间捕食者!'
+the_climb_beastmaster_drop_boots_dps_hard:
+  name: '&dBeastmaster''s Boots'
+  lore:
+  - '&dYou can sense great'
+  - '&dpower flow from these boots.'
+the_climb_beastmaster_drop_chestplate_tank_hard:
+  name: '&dBeastmaster''s Armor'
+  lore:
+  - '&dUnderneath all the human skin you'
+  - '&dfeel some sort of shell or casing.'
+the_climb_beastmaster_drop_helmet_tank_hard:
+  name: '&dBeastmaster''s Helm'
+  lore:
+  - '&dA powerful piece of headgear.'
+the_climb_beastmaster_drop_leggings_dps_hard:
+  name: '&dBeastmaster''s Leggings'
+  lore:
+  - '&dThese leggings seem to be interwoven'
+  - '&dout of silk-like material.'
+the_climb_bone_champion_drop_chestplate_tank_hard:
+  name: '&3Bone Champion''s Pride'
+  lore:
+  - '&3Even though heavily faded'
+  - '&3you can still make out faint'
+  - '&3markings that once adorned this armor.'
+the_climb_bone_champion_drop_shield_tank_hard:
+  name: '&3Bone Champion''s Deflector'
+  lore:
+  - '&3Excellent for deflecting strikes.'
+the_climb_rotting_carcass_axe_dps_hard:
+  name: '&eWar Axe'
+  lore:
+  - '&eA fine weapon for'
+  - '&esplitting skulls.'
+the_climb_rotting_carcass_drop_boots_hard:
+  name: '&bBoots of Balance'
+  lore:
+  - '&bBalanced to perfection.'
+the_climb_skeletal_shadow_drop_sword_dps_hard:
+  name: '&fBleached Bone Blade'
+  lore:
+  - '&fThis blade has been fashioned'
+  - '&fout of a sharp white bone.'
+the_climb_stray_drop_boots_dps_hard:
+  name: '&bFrostbite Boots'
+  lore:
+  - '&bOffers decent protection'
+  - '&beven though taken from a corpse.'
+the_climb_stray_drop_bow_dps_hard:
+  name: '&bFrostbite Bow'
+  lore:
+  - '&bTiny icicles cover this bow.'
+the_climb_stray_drop_chestplate_tank_hard:
+  name: '&bFrostbite Chestplate'
+  lore:
+  - '&bOffers good protection'
+  - '&beven though taken from a corpse.'
+the_climb_stray_drop_helmet_dps_hard:
+  name: '&bFrostbite Helmet'
+  lore:
+  - '&bOffers decent protection'
+  - '&beven though taken from a corpse.'
+the_climb_stray_drop_leggings_tank_hard:
+  name: '&bFrostbite Leggings'
+  lore:
+  - '&bOffers good protection'
+  - '&beven though taken from a corpse.'
+the_climb_stray_drop_sword_dps_hard:
+  name: '&bFrostbite Sword'
+  lore:
+  - '&bCold to the touch.'
+the_climb_undead_drop_boots_dps_hard:
+  name: '&4Undead''s Boots'
+  lore:
+  - '&4Retrieved from the walking corpse.'
+the_climb_undead_drop_boots_tank_hard:
+  name: '&eUndead''s Footwear'
+  lore:
+  - '&eRetrieved from the walking corpse.'
+the_climb_undead_drop_chestplate_dps_hard:
+  name: '&4Undead''s Chestplate'
+  lore:
+  - '&4Retrieved from the walking corpse.'
+the_climb_undead_drop_chestplate_tank_hard:
+  name: '&eUndead''s Armor'
+  lore:
+  - '&eRetrieved from the walking corpse.'
+the_climb_undead_drop_helmet_dps_hard:
+  name: '&4Undead''s Helmet'
+  lore:
+  - '&4Retrieved from the walking corpse.'
+the_climb_undead_drop_helmet_tank_hard:
+  name: '&eUndead''s Headgear'
+  lore:
+  - '&eRetrieved from the walking corpse.'
+the_climb_undead_drop_leggings_dps_hard:
+  name: '&4Undead''s Leggings'
+  lore:
+  - '&4Retrieved from the walking corpse.'
+the_climb_undead_drop_leggings_tank_hard:
+  name: '&eUndead''s Legguards'
+  lore:
+  - '&eRetrieved from the walking corpse.'
+the_climb_undead_drop_shield_tank_hard:
+  name: '&eUndead''s Shield'
+  lore:
+  - '&eRetrieved from the walking corpse.'
+the_climb_undead_drop_sword_dps_hard:
+  name: '&4Undead''s Sword'
+  lore:
+  - '&4Retrieved from the walking corpse.'
+the_climb_undead_guardian_drop_axe_dps_hard:
+  name: '&1Guardian Axe'
+  lore:
+  - '&1This axe was frozen solid to'
+  - '&1the corpse''s back. It''s yours now.'
+the_climb_undead_guardian_drop_boots_dps_hard:
+  name: '&1Guardian''s Boots'
+  lore:
+  - '&1You feel power surging'
+  - '&1through these boots.'
+the_climb_undead_guardian_drop_chestplate_tank_hard:
+  name: '&1Guardian Chestplate'
+  lore:
+  - '&1Undead Guardian''s armor.'
+the_climb_undead_guardian_drop_helmet_dps_hard:
+  name: '&1Guardian Helmet'
+  lore:
+  - '&1You feel empowered.'
+the_climb_undead_guardian_drop_leggings_tank_hard:
+  name: '&1Guardian Leggings'
+  lore:
+  - '&1They protected the Undead Guardian'
+  - '&1and now they protect you.'
+the_climb_beastmaster_drop_boots_dps_mythic:
+  name: '&dBeastmaster''s Boots'
+  lore:
+  - '&dYou can sense great'
+  - '&dpower flow from these boots.'
+the_climb_beastmaster_drop_chestplate_tank_mythic:
+  name: '&dBeastmaster''s Armor'
+  lore:
+  - '&dUnderneath all the human skin you'
+  - '&dfeel some sort of shell or casing.'
+the_climb_beastmaster_drop_helmet_tank_mythic:
+  name: '&dBeastmaster''s Helm'
+  lore:
+  - '&dA powerful piece of headgear.'
+the_climb_beastmaster_drop_leggings_dps_mythic:
+  name: '&dBeastmaster''s Leggings'
+  lore:
+  - '&dThese leggings seem to be interwoven'
+  - '&dout of silk-like material.'
+the_climb_bone_champion_drop_chestplate_tank_mythic:
+  name: '&3Bone Champion''s Pride'
+  lore:
+  - '&3Even though heavily faded'
+  - '&3you can still make out faint'
+  - '&3markings that once adorned this armor.'
+the_climb_bone_champion_drop_shield_tank_mythic:
+  name: '&3Bone Champion''s Deflector'
+  lore:
+  - '&3Excellent for deflecting strikes.'
+the_climb_rotting_carcass_axe_dps_mythic:
+  name: '&eWar Axe'
+  lore:
+  - '&eA fine weapon for'
+  - '&esplitting skulls.'
+the_climb_rotting_carcass_drop_boots_mythic:
+  name: '&bBoots of Balance'
+  lore:
+  - '&bBalanced to perfection.'
+the_climb_skeletal_shadow_drop_sword_dps_mythic:
+  name: '&fBleached Bone Blade'
+  lore:
+  - '&fThis blade has been fashioned'
+  - '&fout of a sharp white bone.'
+the_climb_stray_drop_boots_dps_mythic:
+  name: '&bFrostbite Boots'
+  lore:
+  - '&bOffers decent protection'
+  - '&beven though taken from a corpse.'
+the_climb_stray_drop_bow_dps_mythic:
+  name: '&bFrostbite Bow'
+  lore:
+  - '&bTiny icicles cover this bow.'
+the_climb_stray_drop_chestplate_tank_mythic:
+  name: '&bFrostbite Chestplate'
+  lore:
+  - '&bOffers good protection'
+  - '&beven though taken from a corpse.'
+the_climb_stray_drop_helmet_dps_mythic:
+  name: '&bFrostbite Helmet'
+  lore:
+  - '&bOffers decent protection'
+  - '&beven though taken from a corpse.'
+the_climb_stray_drop_leggings_tank_mythic:
+  name: '&bFrostbite Leggings'
+  lore:
+  - '&bOffers good protection'
+  - '&beven though taken from a corpse.'
+the_climb_stray_drop_sword_dps_mythic:
+  name: '&bFrostbite Sword'
+  lore:
+  - '&bCold to the touch.'
+the_climb_undead_drop_boots_dps_mythic:
+  name: '&4Undead''s Boots'
+  lore:
+  - '&4Retrieved from the walking corpse.'
+the_climb_undead_drop_boots_tank_mythic:
+  name: '&eUndead''s Footwear'
+  lore:
+  - '&eRetrieved from the walking corpse.'
+the_climb_undead_drop_chestplate_dps_mythic:
+  name: '&4Undead''s Chestplate'
+  lore:
+  - '&4Retrieved from the walking corpse.'
+the_climb_undead_drop_chestplate_tank_mythic:
+  name: '&eUndead''s Armor'
+  lore:
+  - '&eRetrieved from the walking corpse.'
+the_climb_undead_drop_helmet_dps_mythic:
+  name: '&4Undead''s Helmet'
+  lore:
+  - '&4Retrieved from the walking corpse.'
+the_climb_undead_drop_helmet_tank_mythic:
+  name: '&eUndead''s Headgear'
+  lore:
+  - '&eRetrieved from the walking corpse.'
+the_climb_undead_drop_leggings_dps_mythic:
+  name: '&4Undead''s Leggings'
+  lore:
+  - '&4Retrieved from the walking corpse.'
+the_climb_undead_drop_leggings_tank_mythic:
+  name: '&eUndead''s Legguards'
+  lore:
+  - '&eRetrieved from the walking corpse.'
+the_climb_undead_drop_shield_tank_mythic:
+  name: '&eUndead''s Shield'
+  lore:
+  - '&eRetrieved from the walking corpse.'
+the_climb_undead_drop_sword_dps_mythic:
+  name: '&4Undead''s Sword'
+  lore:
+  - '&4Retrieved from the walking corpse.'
+the_climb_undead_guardian_drop_axe_dps_mythic:
+  name: '&1Guardian Axe'
+  lore:
+  - '&1This axe was frozen solid to'
+  - '&1the corpse''s back. It''s yours now.'
+the_climb_undead_guardian_drop_boots_dps_mythic:
+  name: '&1Guardian''s Boots'
+  lore:
+  - '&1You feel power surging'
+  - '&1through these boots.'
+the_climb_undead_guardian_drop_chestplate_tank_mythic:
+  name: '&1Guardian Chestplate'
+  lore:
+  - '&1Undead Guardian''s armor.'
+the_climb_undead_guardian_drop_helmet_dps_mythic:
+  name: '&1Guardian Helmet'
+  lore:
+  - '&1You feel empowered.'
+the_climb_undead_guardian_drop_leggings_tank_mythic:
+  name: '&1Guardian Leggings'
+  lore:
+  - '&1They protected the Undead Guardian'
+  - '&1and now they protect you.'
+the_climb_beastmaster_drop_boots_dps_normal:
+  name: '&dBeastmaster''s Boots'
+  lore:
+  - '&dYou can sense great'
+  - '&dpower flow from these boots.'
+the_climb_beastmaster_drop_chestplate_tank_normal:
+  name: '&dBeastmaster''s Armor'
+  lore:
+  - '&dUnderneath all the human skin you'
+  - '&dfeel some sort of shell or casing.'
+the_climb_beastmaster_drop_helmet_tank_normal:
+  name: '&dBeastmaster''s Helm'
+  lore:
+  - '&dA powerful piece of headgear.'
+the_climb_beastmaster_drop_leggings_dps_normal:
+  name: '&dBeastmaster''s Leggings'
+  lore:
+  - '&dThese leggings seem to be interwoven'
+  - '&dout of silk-like material.'
+the_climb_bone_champion_drop_chestplate_tank_normal:
+  name: '&3Bone Champion''s Pride'
+  lore:
+  - '&3Even though heavily faded'
+  - '&3you can still make out faint'
+  - '&3markings that once adorned this armor.'
+the_climb_bone_champion_drop_shield_tank_normal:
+  name: '&3Bone Champion''s Deflector'
+  lore:
+  - '&3Excellent for deflecting strikes.'
+the_climb_rotting_carcass_axe_dps_normal:
+  name: '&eWar Axe'
+  lore:
+  - '&eA fine weapon for'
+  - '&esplitting skulls.'
+the_climb_rotting_carcass_drop_boots_normal:
+  name: '&bBoots of Balance'
+  lore:
+  - '&bBalanced to perfection.'
+the_climb_skeletal_shadow_drop_sword_dps_normal:
+  name: '&fBleached Bone Blade'
+  lore:
+  - '&fThis blade has been fashioned'
+  - '&fout of a sharp white bone.'
+the_climb_stray_drop_boots_dps_normal:
+  name: '&bFrostbite Boots'
+  lore:
+  - '&bOffers decent protection'
+  - '&beven though taken from a corpse.'
+the_climb_stray_drop_bow_dps_normal:
+  name: '&bFrostbite Bow'
+  lore:
+  - '&bTiny icicles cover this bow.'
+the_climb_stray_drop_chestplate_tank_normal:
+  name: '&bFrostbite Chestplate'
+  lore:
+  - '&bOffers good protection'
+  - '&beven though taken from a corpse.'
+the_climb_stray_drop_helmet_dps_normal:
+  name: '&bFrostbite Helmet'
+  lore:
+  - '&bOffers decent protection'
+  - '&beven though taken from a corpse.'
+the_climb_stray_drop_leggings_tank_normal:
+  name: '&bFrostbite Leggings'
+  lore:
+  - '&bOffers good protection'
+  - '&beven though taken from a corpse.'
+the_climb_stray_drop_sword_dps_normal:
+  name: '&bFrostbite Sword'
+  lore:
+  - '&bCold to the touch.'
+the_climb_undead_drop_boots_dps_normal:
+  name: '&4Undead''s Boots'
+  lore:
+  - '&4Retrieved from the walking corpse.'
+the_climb_undead_drop_boots_tank_normal:
+  name: '&eUndead''s Footwear'
+  lore:
+  - '&eRetrieved from the walking corpse.'
+the_climb_undead_drop_chestplate_dps_normal:
+  name: '&4Undead''s Chestplate'
+  lore:
+  - '&4Retrieved from the walking corpse.'
+the_climb_undead_drop_chestplate_tank_normal:
+  name: '&eUndead''s Armor'
+  lore:
+  - '&eRetrieved from the walking corpse.'
+the_climb_undead_drop_helmet_dps_normal:
+  name: '&4Undead''s Helmet'
+  lore:
+  - '&4Retrieved from the walking corpse.'
+the_climb_undead_drop_helmet_tank_normal:
+  name: '&eUndead''s Headgear'
+  lore:
+  - '&eRetrieved from the walking corpse.'
+the_climb_undead_drop_leggings_dps_normal:
+  name: '&4Undead''s Leggings'
+  lore:
+  - '&4Retrieved from the walking corpse.'
+the_climb_undead_drop_leggings_tank_normal:
+  name: '&eUndead''s Legguards'
+  lore:
+  - '&eRetrieved from the walking corpse.'
+the_climb_undead_drop_shield_tank_normal:
+  name: '&eUndead''s Shield'
+  lore:
+  - '&eRetrieved from the walking corpse.'
+the_climb_undead_drop_sword_dps_normal:
+  name: '&4Undead''s Sword'
+  lore:
+  - '&4Retrieved from the walking corpse.'
+the_climb_undead_guardian_drop_axe_dps_normal:
+  name: '&1Guardian Axe'
+  lore:
+  - '&1This axe was frozen solid to'
+  - '&1the corpse''s back. It''s yours now.'
+the_climb_undead_guardian_drop_boots_dps_normal:
+  name: '&1Guardian''s Boots'
+  lore:
+  - '&1You feel power surging'
+  - '&1through these boots.'
+the_climb_undead_guardian_drop_chestplate_tank_normal:
+  name: '&1Guardian Chestplate'
+  lore:
+  - '&1Undead Guardian''s armor.'
+the_climb_undead_guardian_drop_helmet_dps_normal:
+  name: '&1Guardian Helmet'
+  lore:
+  - '&1You feel empowered.'
+the_climb_undead_guardian_drop_leggings_tank_normal:
+  name: '&1Guardian Leggings'
+  lore:
+  - '&1They protected the Undead Guardian'
+  - '&1and now they protect you.'
+ec_01_boots_normal:
+  name: Dark Flame Boots
+  lore:
+  - Scorch the earth you walk upon.
+ec_01_helmet_normal:
+  name: Dark Flame Helmet
+  lore:
+  - Should keep your head nice and warm.
+ec_01_trident_normal:
+  name: Dark Flame Spear
+  lore:
+  - Smoke and flame given form.
+ec_02_axe_normal:
+  name: The Shocker
+  lore:
+  - Woah! Nice axe!
+ec_02_chestplate_normal:
+  name: Energized Chestplate
+  lore:
+  - So nice and tingly!
+ec_02_leggings_normal:
+  name: Energized Leggings
+  lore:
+  - Just makes you wanna get up and hop.
+ec_03_boots_normal:
+  name: Block Boots
+  lore:
+  - Quite square.
+ec_03_leggings_normal:
+  name: Block Leggings
+  lore:
+  - Extremely durable!
+ec_03_pickaxe_normal:
+  name: Squared Pickaxe
+  lore:
+  - Lovely pickaxe!
+ec_04_chestplate_normal:
+  name: Greenbrier Chestplate
+  lore:
+  - Time to go hug all your friends.
+ec_04_helmet_normal:
+  name: Head Fluff
+  lore:
+  - As fluffy as a cloud.
+ec_04_shovel_normal:
+  name: Earth Eater
+  lore:
+  - A shovel with a name. Amazing.
+ec_05_boots_normal:
+  name: Foot Piercers
+  lore:
+  - Oh, that feels real good...
+ec_05_chestplate_normal:
+  name: Poke-me-not
+  lore:
+  - Your new favorite chestplate.
+ec_05_shield_normal:
+  name: Anti Impaler
+  lore:
+  - Sometimes all you need is a good shield.
+ec_06_helmet_normal:
+  name: Beastly Helmet
+  lore:
+  - Feels like you're wearing a rock.
+ec_06_hoe_normal:
+  name: Beastly Hoe
+  lore:
+  - What a beast of a hoe.
+ec_06_leggings_normal:
+  name: Beastly Leggings
+  lore:
+  - Heavy, real heavy.
+ec_07_boots_normal:
+  name: Cold Scam Boots
+  lore:
+  - You better be sure about this one.
+ec_07_fishing_rod_normal:
+  name: King Baiter
+  lore:
+  - Truly the best rod you ever touched.
+ec_07_helmet_normal:
+  name: Cold Scam Helmet
+  lore:
+  - Should you put this on?
+ec_08_chestplate_normal:
+  name: Tikk Bunger
+  lore:
+  - Nice tikk, very safe.
+ec_08_leggings_normal:
+  name: Legshtick Bunger
+  lore:
+  - Feel nice, very legshtick.
+ec_08_sword_normal:
+  name: Shrap Bunger
+  lore:
+  - Very shrap, very cut.
+ec_09_bow_normal:
+  name: Glass Launcher
+  lore:
+  - Nothing better than unleashing shards
+  - of solid glass upon your enemies.
+ec_09_chestplate_normal:
+  name: Glassplate
+  lore:
+  - Better not touch it, unless you want a cut.
+ec_09_leggings_normal:
+  name: Glass Leggings
+  lore:
+  - The glass keeps shifting between solid
+  - and liquid form. Better not touch.
+ec_10_boots_normal:
+  name: Skell Walkers
+  lore:
+  - Made for walking.
+ec_10_crossbow_normal:
+  name: Crossed Bonebow
+  lore:
+  - Unleash the fury of the bone.
+ec_10_helmet_normal:
+  name: Skell Helm
+  lore:
+  - Double up your skull with this fine helmet.
+tricky_bow:
+  name: Tricky Bow
+altered_enderman_drop_charm:
+  name: '&6Flame Organ'
+  lore:
+  - '&6Retrieved from the Altered'
+  - '&6Enderman''s corpse.'
+conjoined_subjects_drop_shield:
+  name: '&eFlesh Shield'
+  lore:
+  - '&eSkin and flesh cover this shield.'
+  - '&eEngraved onto the skin is text that reads:'
+  - '&e''Ooooh! So fleshy! So Shield!'''
+craftenmines_bane_drop_chestplate:
+  name: '&dLimiter Coat'
+  lore:
+  - '&dPrevents unwanted mutations.'
+  - '&dThe coat has been severely damaged'
+  - '&dbut it is still usable.'
+craftenmines_bane_drop_leggings:
+  name: '&dProtective Leggings'
+  lore:
+  - '&dMade to absorb large amounts damage.'
+  - '&dEven though they are heavily'
+  - '&ddamaged they are still usable.'
+cryocorpse_drop_helmet:
+  name: '&bPumpkin Helm'
+  lore:
+  - '&bProtects your head. And smells good!'
+failed_pigxperiment_drop_sword:
+  name: '&cIron Sword'
+  lore:
+  - '&cThe sword is covered in green blood...'
+forgotten_experiment_drop_cursed_pickaxe:
+  name: '&cCursed Pickaxe'
+  lore:
+  - '&cBest to throw this away.'
+forgotten_experiment_drop_pickaxe:
+  name: '&eEnhanced Pickaxe'
+  lore:
+  - '&ePerfect for mining!'
+mutated_cod_drop_rod:
+  name: '&bCraftenmine''s Rod'
+  lore:
+  - '&bTime to relax and go fishing.'
+rapid_mutator_drop_charm:
+  name: '&dMutated Eye'
+  lore:
+  - '&dA grisly trophy...'
+shrunken_head_drop_charm:
+  name: '&aLucky Pumpkin'
+  lore:
+  - '&aSo lucky!'
+telepathic_nightwalker_drop_axe:
+  name: '&dNightwalkers Gift'
+  lore:
+  - '&dBlessed by the Nightwalkers power.'
+em_id_the_binder_of_worlds_drop_axe_tank_hard:
+  name: '&5Enduring Shadow Executioner'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows wrap around your dominant arm forming'
+  - '&5a long thick handle extension that ends in a curved'
+  - '&5half-moon like blade.'
+em_id_the_binder_of_worlds_drop_boots_dps_hard:
+  name: '&dEnduring Shadow Greaves'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows cover your legs and feet, yet you feel'
+  - '&5nothing. There is only a dull sensation of treading on'
+  - '&5soft soil.'
+em_id_the_binder_of_worlds_drop_boots_tank_hard:
+  name: '&5Enduring Shadow Greaves'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows cover your legs and feet, yet you feel'
+  - '&5nothing. There is only a dull sensation of treading on'
+  - '&5soft soil.'
+em_id_the_binder_of_worlds_drop_chestplate_dps_hard:
+  name: '&dEnduring Shadow Mail'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5Something you can never feel, never hold.'
+  - '&5Yet but a single thought is enough to'
+  - '&5make the shadows move onto your body.'
+em_id_the_binder_of_worlds_drop_chestplate_tank_hard:
+  name: '&5Enduring Shadow Mail'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5Something you can never feel, never hold.'
+  - '&5Yet but a single thought is enough to'
+  - '&5make the shadows move onto your body.'
+em_id_the_binder_of_worlds_drop_helmet_dps_hard:
+  name: '&dEnduring Shadow Headgear'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5Solid to anyone who would wish you harm.'
+  - '&5But nothing but shadowy mist to your touch...'
+em_id_the_binder_of_worlds_drop_helmet_tank_hard:
+  name: '&5Enduring Shadow Headgear'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5Solid to anyone who would wish you harm.'
+  - '&5But nothing but shadowy mist to your touch...'
+em_id_the_binder_of_worlds_drop_leggings_dps_hard:
+  name: '&dEnduring Shadow Breeches'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows coil around your legs like snakes'
+  - '&5eating away at any harm that you might sustain.'
+em_id_the_binder_of_worlds_drop_leggings_tank_hard:
+  name: '&5Enduring Shadow Breeches'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows coil around your legs like snakes'
+  - '&5eating away at any harm that you might sustain.'
+em_id_the_binder_of_worlds_drop_shield_tank_hard:
+  name: '&5Enduring Shadow Bracelet'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows wrap themselves around your arm'
+  - '&5forming a thick ring. Whenever you raise your arm'
+  - '&5to protect yourself from harm the shadows extend'
+  - '&5from the bracelet forming a shadow guard.'
+em_id_the_binder_of_worlds_drop_sword_dps_hard:
+  name: '&dEnduring Shadow Carver'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows wrap around your dominant arm forming'
+  - '&5a long blade like extension that ends in a sharp tip.'
+em_id_the_binder_of_worlds_drop_axe_tank_mythic:
+  name: '&5Mythic Shadow Executioner'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows wrap around your dominant arm forming'
+  - '&5a long thick handle extension that ends in a curved'
+  - '&5half-moon like blade.'
+em_id_the_binder_of_worlds_drop_boots_dps_mythic:
+  name: '&dMythic Shadow Greaves'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows cover your legs and feet, yet you feel'
+  - '&5nothing. There is only a dull sensation of treading on'
+  - '&5soft soil.'
+em_id_the_binder_of_worlds_drop_boots_tank_mythic:
+  name: '&5Mythic Shadow Greaves'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows cover your legs and feet, yet you feel'
+  - '&5nothing. There is only a dull sensation of treading on'
+  - '&5soft soil.'
+em_id_the_binder_of_worlds_drop_chestplate_dps_mythic:
+  name: '&dMythic Shadow Mail'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5Something you can never feel, never hold.'
+  - '&5Yet but a single thought is enough to'
+  - '&5make the shadows move onto your body.'
+em_id_the_binder_of_worlds_drop_chestplate_tank_mythic:
+  name: '&5Mythic Shadow Mail'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5Something you can never feel, never hold.'
+  - '&5Yet but a single thought is enough to'
+  - '&5make the shadows move onto your body.'
+em_id_the_binder_of_worlds_drop_helmet_dps_mythic:
+  name: '&dMythic Shadow Headgear'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5Solid to anyone who would wish you harm.'
+  - '&5But nothing but shadowy mist to your touch...'
+em_id_the_binder_of_worlds_drop_helmet_tank_mythic:
+  name: '&5Mythic Shadow Headgear'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5Solid to anyone who would wish you harm.'
+  - '&5But nothing but shadowy mist to your touch...'
+em_id_the_binder_of_worlds_drop_leggings_dps_mythic:
+  name: '&dMythic Shadow Breeches'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows coil around your legs like snakes'
+  - '&5eating away at any harm that you might sustain.'
+em_id_the_binder_of_worlds_drop_leggings_tank_mythic:
+  name: '&5Mythic Shadow Breeches'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows coil around your legs like snakes'
+  - '&5eating away at any harm that you might sustain.'
+em_id_the_binder_of_worlds_drop_shield_dps_mythic:
+  name: '&dMythic Shadow Bracelet'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows wrap themselves around your arm'
+  - '&5forming a thick ring. Whenever you raise your arm'
+  - '&5to protect yourself from harm the shadows extend'
+  - '&5from the bracelet forming a shadow guard.'
+em_id_the_binder_of_worlds_drop_shield_tank_mythic:
+  name: '&5Mythic Shadow Bracelet'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows wrap themselves around your arm'
+  - '&5forming a thick ring. Whenever you raise your arm'
+  - '&5to protect yourself from harm the shadows extend'
+  - '&5from the bracelet forming a shadow guard.'
+em_id_the_binder_of_worlds_drop_sword_dps_mythic:
+  name: '&dMythic Shadow Carver'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows wrap around your dominant arm forming'
+  - '&5a long blade like extension that ends in a sharp tip.'
+em_id_the_binder_of_worlds_drop_axe_tank_normal:
+  name: '&5Shadow Executioner'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows wrap around your dominant arm forming'
+  - '&5a long thick handle extension that ends in a curved'
+  - '&5half-moon like blade.'
+em_id_the_binder_of_worlds_drop_boots_dps_normal:
+  name: '&dShadow Greaves'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows cover your legs and feet, yet you feel'
+  - '&5nothing. There is only a dull sensation of treading on'
+  - '&5soft soil.'
+em_id_the_binder_of_worlds_drop_boots_tank_normal:
+  name: '&5Shadow Greaves'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows cover your legs and feet, yet you feel'
+  - '&5nothing. There is only a dull sensation of treading on'
+  - '&5soft soil.'
+em_id_the_binder_of_worlds_drop_chestplate_dps_normal:
+  name: '&dShadow Mail'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5Something you can never feel, never hold.'
+  - '&5Yet but a single thought is enough to'
+  - '&5make the shadows move onto your body.'
+em_id_the_binder_of_worlds_drop_chestplate_tank_normal:
+  name: '&5Shadow Mail'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5Something you can never feel, never hold.'
+  - '&5Yet but a single thought is enough to'
+  - '&5make the shadows move onto your body.'
+em_id_the_binder_of_worlds_drop_helmet_dps_normal:
+  name: '&dShadow Headgear'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5Solid to anyone who would wish you harm.'
+  - '&5But nothing but shadowy mist to your touch...'
+em_id_the_binder_of_worlds_drop_helmet_tank_normal:
+  name: '&5Shadow Headgear'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5Solid to anyone who would wish you harm.'
+  - '&5But nothing but shadowy mist to your touch...'
+em_id_the_binder_of_worlds_drop_leggings_dps_normal:
+  name: '&dShadow Breeches'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows coil around your legs like snakes'
+  - '&5eating away at any harm that you might sustain.'
+em_id_the_binder_of_worlds_drop_leggings_tank_normal:
+  name: '&5Shadow Breeches'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows coil around your legs like snakes'
+  - '&5eating away at any harm that you might sustain.'
+em_id_the_binder_of_worlds_drop_shield_tank_normal:
+  name: '&5Shadow Bracelet'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows wrap themselves around your arm'
+  - '&5forming a thick ring. Whenever you raise your arm'
+  - '&5to protect yourself from harm the shadows extend'
+  - '&5from the bracelet forming a shadow guard.'
+em_id_the_binder_of_worlds_drop_sword_dps_normal:
+  name: '&dShadow Carver'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows wrap around your dominant arm forming'
+  - '&5a long blade like extension that ends in a sharp tip.'
+sparky_drop_axe:
+  name: '&4Sparking Axe'
+  lore:
+  - '&4With every swing a new'
+  - '&4bright spark is made.'
+sparky_drop_shield:
+  name: '&eFunstopper'
+  lore:
+  - '&eSometimes enough is enough!'
+sparky_drop_sword:
+  name: '&cFireworks Launcher'
+  lore:
+  - '&cHmm...this could be fun...'
+charlemagne_boss_drop_axe_dps:
+  name: '&dDark Blood Splitter'
+  lore:
+  - '&dSomething is not right with this weapon.'
+  - '&dThere is an ominous aura coming from it.'
+charlemagne_boss_drop_boots_dps:
+  name: '&dKnight''s Striders'
+  lore:
+  - '&dExcellent armored boots worthy of'
+  - '&da knight.'
+charlemagne_boss_drop_chestplate_tank:
+  name: '&dOrdained Armor'
+  lore:
+  - '&dThis armor is covered in golden engravings.'
+  - '&dA fire proof cape is attached to the back.'
+charlemagne_boss_drop_helmet_dps:
+  name: '&dFine Helmet'
+  lore:
+  - '&dWhoever crafted this helmet has put'
+  - '&da lot of work into it.'
+charlemagne_boss_drop_leggings_tank:
+  name: '&dDamaged Leggings'
+  lore:
+  - '&dThese leggings must have been of the highest'
+  - '&dquality. Even though they are damaged they'
+  - '&dstill offer ample protection.'
+charlemagne_boss_drop_trident_dps:
+  name: '&dCharlemagne''s Spear'
+  lore:
+  - '&dYou can sense that the spear has'
+  - '&dbeen corrupted by a dark power.'
+  - '&dYou wonder if it''s the same'
+  - '&dcorruption that took the knights.'
+shadow_of_binder_of_worlds_drop_boots:
+  name: '&5Shadow Greaves'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows cover your legs and feet, yet you feel'
+  - '&5nothing. There is only a dull sensation of treading on'
+  - '&5soft soil.'
+shadow_of_binder_of_worlds_drop_chestplate:
+  name: '&5Shadow Mail'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5Something you can never feel, never hold.'
+  - '&5Yet but a single thought is enough to'
+  - '&5make the shadows move onto your body.'
+shadow_of_binder_of_worlds_drop_helmet:
+  name: '&5Shadow Headgear'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5Solid to anyone who would wish you harm.'
+  - '&5But nothing but shadowy mist to your touch...'
+shadow_of_binder_of_worlds_drop_leggings:
+  name: '&5Shadow Breeches'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows coil around your legs like snakes'
+  - '&5eating away at any harm that you might sustain.'
+shadow_of_binder_of_worlds_drop_shield:
+  name: '&5Shadow Bracelet'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows wrap themselves around your arm'
+  - '&5forming a thick ring. Whenever you raise your arm'
+  - '&5to protect yourself from harm the shadows extend'
+  - '&5from the bracelet forming a shadow guard.'
+shadow_of_binder_of_worlds_drop_sword:
+  name: '&5Shadow Carver'
+  lore:
+  - '&5This object is swirling shadows that have taken form.'
+  - '&5The shadows wrap around your dominant arm forming'
+  - '&5a long blade like extension that ends in a sharp tip.'
+the_steamworks_boss_charm:
+  name: '&bDanger Detector'
+  lore:
+  - '&bStarts emitting a loud noise when'
+  - '&bit detects danger.'
+the_steamworks_boss_drop_axe_dps:
+  name: '&bSharp Netherite Plate'
+  lore:
+  - '&bThis broken plate just happens to be'
+  - '&bin the perfect shape of an axe.'
+the_steamworks_boss_drop_boots_dps:
+  name: '&bMelted Flamethrowers'
+  lore:
+  - '&bYou can just barely fit your feet'
+  - '&binside.'
+the_steamworks_boss_drop_chestplate_tank:
+  name: '&bReinforced Netherite Plate'
+  lore:
+  - '&bSome straps and some padding and you'
+  - '&bgot yourself a fine chestplate.'
+the_steamworks_boss_drop_crossbow_tank:
+  name: '&bBroken Launcher'
+  lore:
+  - '&bThis must have been the device that was'
+  - '&bresponsible for launching those fire-arrows.'
+  - '&bIt still works, kind of...'
+the_steamworks_boss_drop_helmet_dps:
+  name: '&bReinforced Netherite Plate'
+  lore:
+  - '&bThe plate is heavily damaged and severely bent.'
+  - '&bUseable as a helmet...'
+the_steamworks_boss_drop_leggings_tank:
+  name: '&bNetherite Plate Pipes'
+  lore:
+  - '&bFully functional as leggings with'
+  - '&bonly some minor modifications...'
+the_climb_bone_champion:
+  name: $minibossLevel &bVillage Champion
+the_climb_bone_champion_p2:
+  name: $minibossLevel &bVillage Champion
+  deathMessages:
+  - They came from the mines...
+the_climb_bone_champion_summon:
+  name: $reinforcementLevel &bUndead Rat
+the_climb_flesh_starved_child:
+  name: $normalLevel &4Broiled Villager
+the_climb_frozen_remains:
+  name: $normalLevel &3Forgotten Miner
+the_climb_reanimated_skeleton:
+  name: $normalLevel &cReanimated Resident
+the_climb_rotting_carcass:
+  name: $normalLevel &3Rotting Carcass
+the_climb_shambling_skeleton:
+  name: $normalLevel &3Twisted Miner
+the_climb_skeletal_shadow:
+  name: $minibossLevel &5Soul Shadow
+the_climb_skeletal_shadow_ghast:
+  name: $minibossLevel &aJeffrey
+the_climb_skeletal_shadow_p2:
+  name: $minibossLevel &5Soul Shadow
+the_climb_skeletal_shadow_summon:
+  name: $reinforcementLevel &fBleached Bones
+the_climb_undead:
+  name: $normalLevel &4Undead Villager
+the_climb_undead_beastmaster:
+  name: $bossLevel &cUndead Beastmaster
+the_climb_undead_beastmaster_mount:
+  name: $reinforcementLevel &dUndead Beast
+the_climb_undead_beastmaster_mount_p2:
+  name: $reinforcementLevel &dUndead Beast
+the_climb_undead_beastmaster_p2:
+  name: $bossLevel &cUndead Beastmaster
+the_climb_undead_beastmaster_p3:
+  name: $bossLevel &cUndead Beastmaster
+the_climb_undead_beastmaster_p4:
+  name: $bossLevel &cUndead Beastmaster
+  deathMessages:
+  - Soul Weaver I have failed you.
+the_climb_undead_beastmaster_summon_p4:
+  name: $reinforcementLevel &dResurrected Beast
+the_climb_undead_bruiser:
+  name: $normalLevel &4Undead Bruiser
+the_climb_undead_guardian:
+  name: $minibossLevel &cVillage Guardian
+the_climb_undead_guardian_p2:
+  name: $minibossLevel &cVillage Guardian
+  deathMessages:
+  - Thank you for freeing me...
+the_climb_undead_warrior:
+  name: $normalLevel &4Former Defender
+enchantment_boss_dark_flame:
+  name: $normalLevel &0Dark Flame
+enchantment_boss_tricky_bones:
+  name: $normalLevel &fTricky Bones
+enchantment_boss_tricky_bones_summon_arrow:
+  name: $normalLevel &aArrow Dispenser
+enchantment_boss_tricky_bones_summon_bow:
+  name: $normalLevel &aBow Dispenser
+enchantment_boss_energized_bunny:
+  name: $normalLevel &eEnergized Bunny
+enchantment_boss_jealous_block:
+  name: $normalLevel &aJealous Block
+enchantment_boss_leet_summoner:
+  name: $normalLevel &d1337 Summ0n3r
+enchantment_boss_leet_summoner_eidolon_one:
+  name: $normalLevel &dEidolon
+enchantment_boss_leet_summoner_eidolon_two:
+  name: $normalLevel &dEidolon
+enchantment_boss_loveable_impaler:
+  name: $normalLevel &bLoveable Impaler
+enchantment_boss_loveable_impaler_trident_launcher:
+  name: $normalLevel &bTrident Launcher
+enchantment_boss_ravegarer:
+  name: $normalLevel &5Ravegarer
+enchantment_boss_rock_solid_cold:
+  name: $normalLevel &1Rock Solid Cold
+enchantment_boss_the_firebunger:
+  name: $normalLevel &4The Firebunger
+enchantment_boss_the_glass_master:
+  name: $normalLevel &fThe Glass Master
+altered_enderman:
+  name: $eventBossLevel &1Altered Enderman
+  locationMessage: '&cAltered Enderman: $distance blocks away!'
+  spawnMessage: '&cDr. Craftenmine''s ender creation has been set loose!'
+  deathMessage: '&aAltered Enderman was put out of it''s misery by $players!'
+  escapeMessage: '&4Altered Enderman has phased out of existence!'
+altered_enderman_p2:
+  name: $eventBossLevel &1Altered Enderman
+  locationMessage: '&cAltered Enderman: $distance blocks away!'
+  deathMessage: '&aAltered Enderman was put out of it''s misery by $players!'
+  escapeMessage: '&4Altered Enderman has phased out of existence!'
+conjoined_subjects:
+  name: $eventBossLevel &fSubject d84a
+  locationMessage: '&cConjoined Subjects: $distance blocks away!'
+  spawnMessage: '&cDr. Craftenmine''s twisted creation is out in the wild!'
+  deathMessage: '&aThe Conjoined Subjects were put to rest by $players!'
+  escapeMessage: '&4The Conjoined Subjects have left this place!'
+conjoined_subjects_mount:
+  name: $eventBossLevel &fSubject d84b
+craftenmines_bane:
+  name: $eventBossLevel &kunknown
+  locationMessage: '&cUnknown: $distance blocks away!'
+  spawnMessage: '&cA powerful Dr. Craftenmine creation has been spotted! Be careful!'
+  deathMessage: '&aDr. Craftemine''s creation was slain by $players!'
+  escapeMessage: '&4Dr. Craftemine''s creation has disappeared!'
+craftenmines_bane_p2:
+  name: $eventBossLevel &kunknown
+  onDamagedMessages:
+  - Rhaaaaaaaaar!
+  - WRAAAA!!!
+  - KILLLLLL!
+  - ROOOOOOOOAR!
+  locationMessage: '&cUnknown: $distance blocks away!'
+  deathMessage: '&aDr. Craftemine''s creation was slain by $players!'
+  escapeMessage: '&4Dr. Craftemine''s creation has disappeared!'
+craftenmines_bane_p3:
+  name: $eventBossLevel &kunknown
+  onDamageMessages:
+  - KILLLLLL!
+  - DESTROYYYYY!
+  - EXTERMINAAATE!
+  locationMessage: '&cUnknown: $distance blocks away!'
+  deathMessage: '&aDr. Craftemine''s creation was slain by $players!'
+  escapeMessage: '&4Dr. Craftemine''s creation has disappeared!'
+craftenmines_beast:
+  name: $eventBossLevel &cCraftenmine's Beast
+  locationMessage: '&cCraftenmine''s Beast: $distance blocks away!'
+  spawnMessage: '&cA Dr. Craftenmine beast is out in the wild!'
+  deathMessage: '&aCraftenmine''s Beast has been slain by $players!'
+  escapeMessage: '&4Craftenmine''s Beast has left!'
+cryocorpse:
+  name: $eventBossLevel &bCraftenmine's Cryocorpse
+  locationMessage: '&cCryocorpse: $distance blocks away!'
+  spawnMessage: '&cA Dr. Craftenmine experiment has escaped from the cryo-chamber!'
+  deathMessage: '&aThe Cryocorpse have been slain by $players!'
+  escapeMessage: '&4The Crycorpse has wandered away!'
+failed_pigxperiment:
+  name: $eventBossLevel &cFailed Pigxperiment
+  locationMessage: '&cFailed Pigxperiment: $distance blocks away!'
+  spawnMessage: '&cA failed Dr. Craftenmine experiment has escaped!'
+  deathMessage: '&aThe Failed Pigxperiment was slain by $players!'
+  escapeMessage: '&4The Failed Pigxperiment has escaped!'
+failed_pigxperiment_p2:
+  name: $eventBossLevel &cFailed Pigxperiment
+  locationMessage: '&cFailed Pigxperiment: $distance blocks away!'
+  deathMessage: '&aThe Failed Pigxperiment was slain by $players!'
+  escapeMessage: '&4The Failed Pigxperiment has escaped!'
+forgotten_experiment:
+  name: $eventBossLevel &5Forgotten Experiment
+  locationMessage: '&cForgotten Experiment: $distance blocks away!'
+  spawnMessage: '&cA Forgotten Dr. Craftenmine Experiment has escaped the laboratory!'
+  deathMessage: '&aThe Forgotten Experiment has been shutdown by $players!'
+  escapeMessage: '&4The Forgotten Experiment has vanished!'
+forgotten_experiment_1:
+  name: $eventBossLevel &fRotting Corpse
+forgotten_experiment_2:
+  name: $eventBossLevel &fRotted Corpse
+forgotten_experiment_3:
+  name: $eventBossLevel &fRotted Giant
+forgotten_experiment_p2:
+  name: $eventBossLevel &5Forgotten Experiment
+mutated_cod:
+  name: $eventBossLevel &bMutated Cod
+  locationMessage: '&cMutated Cod: $distance blocks away!'
+  spawnMessage: '&cA fishy Dr. Craftenmine creation has escaped!'
+  deathMessage: '&aThe Mutated Cod was slain by $players!'
+  escapeMessage: '&4The Mutated Cod has swam away!'
+rapid_mutator:
+  name: $eventBossLevel &dRapid Mutator
+  locationMessage: '&cRapid Mutator: $distance blocks away!'
+  spawnMessage: '&cA Dr. Craftenmine experiment is out in the wild!'
+  deathMessage: '&aThe Rapid Mutator was vanquished by $players!'
+  escapeMessage: '&4The Rapid Mutator has vanished!'
+rapid_mutator_p2:
+  name: $eventBossLevel &dRapid Mutator
+  locationMessage: '&cRapid Mutator: $distance blocks away!'
+  deathMessage: '&aThe Rapid Mutator was put to rest by $players!'
+  escapeMessage: '&4The Rapid Mutator has vanished!'
+rapid_mutator_p3:
+  name: $eventBossLevel &dRapid Mutator
+  locationMessage: '&cRapid Mutator: $distance blocks away!'
+  deathMessage: '&aThe Rapid Mutator was put to rest by $players!'
+  escapeMessage: '&4The Rapid Mutator has vanished!'
+shrunken_head:
+  name: $eventBossLevel &aShrunken Head
+  locationMessage: '&cShrunken Head: $distance blocks away!'
+  spawnMessage: '&cBio materials have escaped Dr. Craftenmine''s laboratory!'
+  deathMessage: '&aThe Shrunken Heads have been exterminated by $players!'
+  escapeMessage: '&4The Shrunken Heads have escaped!'
+shrunken_head_1:
+  name: $eventBossLevel &aShrunken Head
+  locationMessage: '&cShrunken Head: $distance blocks away!'
+  deathMessage: '&aThe Shrunken Heads have been exterminated by $players!'
+  escapeMessage: '&4The Shrunken Heads have escaped!'
+shrunken_head_2:
+  name: $eventBossLevel &aShrunken Head
+  locationMessage: '&cShrunken Head: $distance blocks away!'
+  deathMessage: '&aThe Shrunken Heads have been exterminated by $players!'
+  escapeMessage: '&4The Shrunken Heads have escaped!'
+shrunken_head_3:
+  name: $eventBossLevel &aShrunken Head
+  locationMessage: '&cShrunken Head: $distance blocks away!'
+  deathMessage: '&aThe Shrunken Heads have been exterminated by $players!'
+  escapeMessage: '&4The Shrunken Heads have escaped!'
+shrunken_head_4:
+  name: $eventBossLevel &aShrunken Head
+  locationMessage: '&cShrunken Head: $distance blocks away!'
+  deathMessage: '&aThe Shrunken Heads have been exterminated by $players!'
+  escapeMessage: '&4The Shrunken Heads have escaped!'
+shrunken_head_5:
+  name: $eventBossLevel &aShrunken Head
+  locationMessage: '&cShrunken Head: $distance blocks away!'
+  deathMessage: '&aThe Shrunken Heads have been exterminated by $players!'
+  escapeMessage: '&4The Shrunken Heads have escaped!'
+shrunken_head_6:
+  name: $eventBossLevel &aShrunken Head
+  locationMessage: '&cShrunken Head: $distance blocks away!'
+  deathMessage: '&aThe Shrunken Heads have been exterminated by $players!'
+  escapeMessage: '&4The Shrunken Heads have escaped!'
+telepathic_nightwalker:
+  name: $eventBossLevel &1Telepathic Nightwalker
+  locationMessage: '&cTelepathic Nightwalker: $distance blocks away!'
+  spawnMessage: '&cA Dr. Craftenmine side project has been sighted!'
+  deathMessage: '&aThe Telepathic Nightwalker was slain by $players!'
+  escapeMessage: '&4The Telepathic Nightwalker has left this place!'
+telepathic_nightwalker_mount:
+  name: $eventBossLevel &fDominated Matriarch
+telepathic_nightwalker_p2:
+  name: $eventBossLevel &1Telepathic Nightwalker
+  locationMessage: '&cTelepathic Nightwalker: $distance blocks away!'
+  deathMessage: '&aThe Telepathic Nightwalker was slain by $players!'
+  escapeMessage: '&4The Telepathic Nightwalker has left this place!'
+telepathic_nightwalker_p3:
+  name: $eventBossLevel &1Telepathic Nightwalker
+  locationMessage: '&cTelepathic Nightwalker: $distance blocks away!'
+  deathMessage: '&aThe Telepathic Nightwalker was slain by $players!'
+  escapeMessage: '&4The Telepathic Nightwalker has left this place!'
+telepathic_nightwalker_summon:
+  name: $eventBossLevel &fMindcontrolled Servant
+telepathic_nightwalker_summon_1:
+  name: $eventBossLevel &fBrainwashed Undead
+em_id_binder_of_worlds_phase_1:
+  name: $eventBossLevel &eBinder of Worlds
+  spawnMessage: '&5The binder of worlds approaches!'
+em_id_binder_of_worlds_phase_1_melee_miniboss:
+  name: $reinforcementLevel &9Reality Uprooter
+em_id_binder_of_worlds_phase_1_melee_reinforcement:
+  name: $reinforcementLevel &8Reality Waster
+em_id_binder_of_worlds_phase_1_parkour_reinforcement:
+  name: $reinforcementLevel &2Reality Harbinger
+em_id_binder_of_worlds_phase_1_ranged_miniboss:
+  name: $reinforcementLevel &3Reality Ruiner
+em_id_binder_of_worlds_phase_1_ranged_reinforcement:
+  name: $reinforcementLevel &6Reality Ruiner
+em_id_binder_of_worlds_phase_1_status_miniboss:
+  name: $reinforcementLevel &1Reality Wrencher
+em_id_binder_of_worlds_phase_1_status_reinforcement:
+  name: $reinforcementLevel &7Reality Rupturer
+em_id_binder_of_worlds_phase_2:
+  name: $eventBossLevel &eBinder of Worlds
+em_id_binder_of_worlds_phase_3:
+  name: $eventBossLevel &eBinder of Worlds
+em_id_binder_of_worlds_phase_3_enderman_reinforcement:
+  name: $reinforcementLevel &5Reality Slayer
+em_id_binder_of_worlds_phase_3_ghast_reinforcement:
+  name: $reinforcementLevel &5Reality Shredder
+em_id_binder_of_worlds_phase_3_shulker_reinforcement:
+  name: $reinforcementLevel &5Reality Riftrender
+em_id_binder_of_worlds_phase_3_zapper_reinforcement_hard:
+  name: $normalLevel &ka
+em_id_binder_of_worlds_phase_3_zapper_reinforcement_mythic:
+  name: $normalLevel &ka
+em_id_binder_of_worlds_phase_3_zapper_reinforcement_normal:
+  name: $normalLevel &ka
+em_id_binder_of_worlds_phase_4:
+  name: $eventBossLevel &eBinder of Worlds
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&9The binder is bound to this mortal plane no more!'
+  - '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+  - '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+  - '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+  - '&aSlayers: $players'
+  - '&e&l---------------------------------------------'
+the_castle_arcane_knight:
+  name: $normalLevel &aArcane Knight
+  onDamagedMessages:
+  - Be gone!
+  - You dare strike me!
+  - Get them my minions.
+  - You will regret this.
+the_castle_brave_knight:
+  name: $normalLevel &aBrave Knight
+  onDamagedMessages:
+  - Have at you!
+  - Is that all you got.
+  - You fight like a cow!
+  - I fought raccoons tougher than you!
+the_castle_charlemagne_healer:
+  name: $normalLevel &cAzaroon Healer
+the_castle_charlemagne_hellstar:
+  name: $normalLevel &cHellstar
+the_castle_charlemagne_mount:
+  name: $normalLevel &cLoyal Steed
+the_castle_charlemagne_p1:
+  name: $bossLevel &cCharlemagne
+  onDamagedMessages:
+  - Have at you!
+  - Is that all you got.
+  - You fight like a cow!
+  - I fought raccoons tougher than you!
+the_castle_charlemagne_p2:
+  name: $bossLevel &cCharlemagne
+  onDamagedMessages:
+  - Have at you!
+  - Is that all you got.
+  - You fight like a cow!
+  - I fought raccoons tougher than you!
+the_castle_charlemagne_p3:
+  name: $bossLevel &cCharlemagne
+the_castle_charlemagne_p4:
+  name: $bossLevel &cCharlemagne
+  onDamagedMessages:
+  - Is this where it all ends.
+  - I cannot hold out much more.
+  - Is this my punishment.
+  - I have failed you, my knights.
+the_castle_cowardly_knight:
+  name: $normalLevel &aCowardly Knight
+  onDamagedMessages:
+  - I did not even feel that!
+  - Gotta get through the armor first!
+  - I can handle more than that!
+the_castle_ser_prancelot_p1:
+  name: $normalLevel &aSer Prancelot
+  onDamagedMessages:
+  - You will pay for that!
+  - Urgh!
+  - That was nothing!
+  - Excellent blow!
+the_castle_ser_prancelot_p2:
+  name: $normalLevel &aSer Prancelot
+  onDamagedMessages:
+  - You will pay for that!
+  - Urgh!
+  - That was nothing!
+  - Excellent blow!
+shadow_of_binder_of_worlds_phase_1:
+  name: $eventBossLevel &eShadow of the Binder of Worlds
+  spawnMessage: '&5The shadow of binder of worlds approaches!'
+shadow_of_binder_of_worlds_phase_1_melee_miniboss:
+  name: $reinforcementLevel &9Reality Uprooter
+shadow_of_binder_of_worlds_phase_1_melee_reinforcement:
+  name: $reinforcementLevel &8Reality Waster
+shadow_of_binder_of_worlds_phase_1_parkour_reinforcement:
+  name: $reinforcementLevel &2Reality Harbinger
+shadow_of_binder_of_worlds_phase_1_ranged_miniboss:
+  name: $reinforcementLevel &3Reality Ruiner
+shadow_of_binder_of_worlds_phase_1_ranged_reinforcement:
+  name: $reinforcementLevel &6Reality Ruiner
+shadow_of_binder_of_worlds_phase_1_status_miniboss:
+  name: $reinforcementLevel &1Reality Wrencher
+shadow_of_binder_of_worlds_phase_1_status_reinforcement:
+  name: $reinforcementLevel &7Reality Rupturer
+shadow_of_binder_of_worlds_phase_2:
+  name: $eventBossLevel &eShadow of the Binder of Worlds
+shadow_of_binder_of_worlds_phase_3:
+  name: $eventBossLevel &eShadow of the Binder of Worlds
+shadow_of_binder_of_worlds_phase_3_enderman_reinforcement:
+  name: $reinforcementLevel &5Reality Slayer
+shadow_of_binder_of_worlds_phase_3_ghast_reinforcement:
+  name: $reinforcementLevel &5Reality Shredder
+shadow_of_binder_of_worlds_phase_3_shulker_reinforcement:
+  name: $reinforcementLevel &5Reality Riftrender
+shadow_of_binder_of_worlds_phase_4:
+  name: $eventBossLevel &eShadow of the Binder of Worlds
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&9The binder is bound to this mortal plane no more!'
+  - '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+  - '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+  - '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+  - '&aSlayers: $players'
+  - '&e&l---------------------------------------------'
+the_steamworks_clk_wrx702_p1:
+  name: $bossLevel &bCLK-WRx702
+the_steamworks_clk_wrx702_p2:
+  name: $bossLevel &bCLK-WRx702
+the_steamworks_clk_wrx702_p3:
+  name: $bossLevel &bCLK-WRx702
+the_steamworks_clk_wrx702_p4:
+  name: $bossLevel &bCLK-WRx702
+the_steamworks_clk_wrx702_p5:
+  name: $bossLevel &bCLK-WRx702
+the_steamworks_clk_wrx702_p6:
+  name: $bossLevel &bCLK-WRx702
+the_steamworks_clk_wrx702_p7:
+  name: $bossLevel &bCLK-WRx702
+the_steamworks_gnasuran_electrohead:
+  name: $normalLevel &4Gnasuran Electrohead
+the_steamworks_gnasuran_machinist:
+  name: $normalLevel &4Gnasuran Machinist
+the_steamworks_gnasuran_tinkerer:
+  name: $normalLevel &4Gnasuran Tinkerer
+the_steamworks_gnasuran_weather_activate:
+  name: $normalLevel &4Gnasuran Tinkerer
+'0':
+  name: $bossLevel &e战斗伦
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&4战斗伦已被击退！'
+  - '&c&l    输出第一名: $damager1name&c造成了$damager1damage点伤害！'
+  - '&6&l    输出第二名: $damager2name&6造成了$damager2damage点伤害！'
+  - '&e&l    输出第三名: $damager3name&e造成了$damager3damage点伤害！'
+  - '&4终结者: $players'
+  - '&e&l---------------------------------------------'
+  onDamageMessages:
+  - 会翻墙吗！
+  onDamagedMessages:
+  - 诽谤！
+  locationMessage: 战斗伦：$distance
+  spawnMessage: 伦急了！
+  deathMessage: 战斗伦被$players杀死了！
+  escapeMessage: 战斗伦逃离了！
+'001':
+  name: $bossLevel &e 自嗨伦
+  onDamageMessages:
+  - 真菜！
+  onDamagedMessages:
+  - 诽谤！
+  locationMessage: 自嗨伦：$distance
+  spawnMessage: ..
+  deathMessage: ..
+  escapeMessage: ..

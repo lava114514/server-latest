@@ -1,12 +1,12 @@
 isEnabled: true
 eventType: TIMED
 bossFilenames:
-- 1.yml
+- 001.yml
 eventStartCommands: []
 eventEndCommands: []
 breakableMaterials: []
-localCooldown: 2400.0
-globalCooldown: 50.0
+localCooldown: 300.0
+globalCooldown: 100.0
 weight: 100.0
 eventDuration: 30.0
 spawnType: normal_surface_spawn.yml

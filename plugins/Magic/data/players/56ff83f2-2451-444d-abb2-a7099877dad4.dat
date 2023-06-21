@@ -1,7 +1,7 @@
 id: 56ff83f2-2451-444d-abb2-a7099877dad4
 name: FengJianFa
 created: 1680313827507
-updated: 1682131382701
+updated: 1686291742048
 last_cast: 0
 cooldown_expiration: 0
 last_death_location: 6.838456575999421,131.0,19.384272871533707,world,37.34988,35.40012
@@ -33,7 +33,7 @@ classes:
   caster: {}
   mage:
     effect_color: f4e89044626e,9c105a05e2d,6beeaa1d7ed9
-    mana_timestamp: 1682131382602
+    mana_timestamp: 1686291741945
     mana: 50.0
 transient_modifiers: {}
 active_class: mage

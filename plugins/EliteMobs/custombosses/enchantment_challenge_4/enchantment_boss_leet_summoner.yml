@@ -1,0 +1,86 @@
+1isEnabled: true
+entityType: EVOKER
+name: $normalLevel &d1337 Summ0n3r
+healthMultiplier: 1.85
+damageMultiplier: 0.8
+movementSpeedAttribute: 0.5
+powers:
+- taze.yml
+- invulnerability_fire.yml
+frozen: false
+leashRadius: 60
+followDistance: 60
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+isRegionalBoss: true
+normalizedCombat: true
+dropsRandomLoot: false
+uniqueLootList:
+- filename: ec_04_chestplate_normal.yml
+  chance: 0.25
+  difficultyID: 0
+- filename: ec_04_helmet_normal.yml
+  chance: 0.25
+  difficultyID: 0
+- filename: ec_04_shovel_normal.yml
+  chance: 0.15
+  difficultyID: 0
+- filename: elite_lucky_ticket.yml
+  chance: 0.25
+  difficultyID: 0
+spawnLocations:
+- em_id_enchantment_challenge_4,1.5,65,0.5,0,0
+instanced: true
+eliteScript:
+  Summon:
+    Events:
+    - EliteMobEnterCombatEvent
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 50
+      duration: 20
+      Target:
+        targetType: SELF
+      wait: 60
+    - action: PLAY_SOUND
+      sValue: "entity.evoker.prepare_summon"
+      Target:
+        targetType: SELF
+      wait: 60
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SPELL
+      Target:
+        targetType: SELF
+        offset: 2,2,0
+      wait: 60
+      repeatEvery: 5
+      times: 6
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SPELL
+      Target:
+        targetType: SELF
+        offset: -2,2,0
+      wait: 60
+      repeatEvery: 5
+      times: 6
+    - action: SUMMON_REINFORCEMENT
+      sValue: "enchantment_boss_leet_summoner_eidolon_one.yml"
+      duration: 444
+      Target:
+        targetType: SELF
+        offset: 1,2,0
+      wait: 80
+    - action: SUMMON_REINFORCEMENT
+      sValue: "enchantment_boss_leet_summoner_eidolon_two.yml"
+      duration: 444
+      Target:
+        targetType: SELF
+        offset: -1,2,0
+      wait: 80
+    Cooldowns:
+      local: 200
+      global: 10

@@ -1,0 +1,14 @@
+isEnabled: true
+entityType: ZOGLIN
+name: $reinforcementLevel &dUndead Beast
+frozen: false
+level: 10
+instanced: true
+healthMultiplier: 12
+damageMultiplier: 0.6
+leashRadius: 30
+followDistance: 30
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+normalizedCombat: true
+dropsRandomLoot: false

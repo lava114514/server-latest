@@ -1,0 +1,26 @@
+leashRadius: 20.0
+followRange: 10
+isRegionalBoss: true
+spawnCooldown: 4
+isEnabled: true
+entityType: SKELETON
+name: '$minibossLevel &1Forgotten Hero'
+level: 25
+powers:
+- attack_fire.yml
+- skeleton_tracking_arrow.yml
+isPersistent: true
+mainHand: BOW
+helmet: GOLDEN_HELMET
+healthMultiplier: 4.0
+damageMultiplier: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+uniqueLootList:
+- sewer_spelunkers_sword.yml:0.1
+- sewer_spelunkers_boots.yml:0.1
+- sewer_spelunkers_chestplate.yml:0.1
+- sewer_spelunkers_helmet.yml:0.1
+- sewer_spelunkers_leggings.yml:0.1
+spawnLocations:
+- em_sewer_maze,-313.5,99.5,-159.5,0.0,0.0:0

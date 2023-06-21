@@ -1,0 +1,13 @@
+isEnabled: true
+material: GOLDEN_AXE
+name: "&eWar Axe"
+lore:
+- "&eA fine weapon for"
+- "&esplitting skulls."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,1"
+- "DAMAGE_ALL,4"
+- "DURABILITY,3"
+scalability: fixed
+itemType: unique
+level: 10

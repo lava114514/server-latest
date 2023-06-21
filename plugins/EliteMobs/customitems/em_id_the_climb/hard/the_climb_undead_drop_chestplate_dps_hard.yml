@@ -1,0 +1,10 @@
+isEnabled: true
+material: DIAMOND_CHESTPLATE
+name: "&4Undead's Chestplate"
+lore:
+- '&4Retrieved from the walking corpse.'
+enchantments: 
+- "DAMAGE_ALL,3"
+scalability: fixed
+itemType: unique
+level: 10

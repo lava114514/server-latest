@@ -1,0 +1,17 @@
+isEnabled: true
+entityType: SKELETON
+disguise: ZOGLIN
+name: $reinforcementLevel &dResurrected Beast
+frozen: false
+level: 10
+powers:
+- invulnerability_fire.yml
+healthMultiplier: 4
+damageMultiplier: 0.05
+leashRadius: 30
+followDistance: 30
+movementSpeedAttribute: 0.35
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+normalizedCombat: true
+dropsRandomLoot: false

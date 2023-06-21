@@ -1,0 +1,17 @@
+isEnabled: true
+entityType: WITHER_SKELETON
+name: $reinforcementLevel &7Reality Rupturer
+level: 200
+healthMultiplier: 1.0
+damageMultiplier: 1.0
+mainHand: NETHERITE_SWORD
+powers:
+- attack_gravity.yml
+- attack_push.yml
+- invulnerability_knockback.yml
+- invulnerability_fire.yml
+dropsEliteMobsLoot: false
+isRegionalBoss: true
+followDistance: 200
+leashRadius: 35
+reinforcement: true

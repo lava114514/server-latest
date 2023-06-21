@@ -1,0 +1,11 @@
+isEnabled: true
+material: IRON_INGOT
+name: '&bDanger Detector'
+lore:
+- "&bStarts emitting a loud noise when"
+- "&bit detects danger."
+enchantments:
+- "LOUD_STRIKES,2"
+- "PROTECTION_PROJECTILE,2"
+- "PROTECTION_ENVIRONMENTAL,3"
+- "DURABILITY,4"

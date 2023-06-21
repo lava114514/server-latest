@@ -26,27 +26,27 @@ settings:
     async-mob-spawning: false
     biome-temperatures-use-aging-cache: true
     improve-fluid-direction-caching: true
-    check-spooky-season-once-an-hour: true
+    check-spooky-season-once-an-hour: false
     reduce-chuck-load-and-lookup: true
     entity-target-find-optimization: true
     skip-clone-loot-parameters: true
   protocol:
     syncmatica:
-      enable: false
+      enable: true
       quota: false
       quota-limit: 40000000
     jade-protocol: false
     xaero-map-protocol: false
     xaero-map-server-id: 1492829287
-    bbor-protocol: false
-    appleskin-protocol: false
+    bbor-protocol: true
+    appleskin-protocol: true
     pca-sync-player-entity: OPS
-    carpet-alternative-block-placement: false
-    pca-sync-protocol: false
+    carpet-alternative-block-placement: true
+    pca-sync-protocol: true
   modify:
     no-feather-falling-trample: false
     shared-villager-discounts: false
-    disable-distance-check-for-use-item: false
+    disable-distance-check-for-use-item: true
     fakeplayer:
       skip-sleep-check: true
       enable: true
@@ -60,7 +60,7 @@ settings:
       resident-fakeplayer: true
       open-fakeplayer-inventory: true
     bedrock-break-list: false
-    instant-block-updater-reintroduced: false
+    instant-block-updater-reintroduced: true
     budding-amethyst-can-push-by-piston: false
     return-nether-portal-fix: false
     spectator-dont-get-advancement: false
@@ -90,3 +90,10 @@ world-settings:
   world_nether: {}
   world_the_end: {}
   em_adventurers_guild: {}
+  em_fireworks: {}
+  em_sewer_maze: {}
+  em_shadow_of_the_binder_of_worlds: {}
+  em_hallosseum: {}
+  em_knight_castle: {}
+  em_steamworks_lair: {}
+  em_north_pole: {}

@@ -1,0 +1,13 @@
+isEnabled: true
+entityType: "VEX"
+name: "$reinforcementLevel &1Snowy Wraith"
+level: 60
+healthMultiplier: .25
+damageMultiplier: .8
+powers:
+- attack_freeze.yml
+- invulnerability_knockback.yml
+- invulnerability_arrow.yml
+- invulnerability_fire.yml
+dropsVanillaLoot: false
+dropsEliteMobsLoot: false

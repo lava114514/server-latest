@@ -1,0 +1,61 @@
+isEnabled: true
+entityType: STRAY
+name: $minibossLevel &bVillage Champion
+level: 10
+instanced: true
+healthMultiplier: 4
+damageMultiplier: 0.6
+frozen: false
+phases:
+- the_climb_bone_champion_p2.yml:.9999
+mainHand: NETHERITE_SWORD
+offHand: DIAMOND_SWORD
+leashRadius: 13
+followDistance: 13
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+isRegionalBoss: true
+normalizedCombat: true
+dropsRandomLoot: false
+movementSpeedAttribute: 0.001
+eliteScript:
+  Wait:
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - action: SET_MOB_AI
+      bValue: false
+      repeatEvery: 10
+      Conditions:
+        hasTags:
+        - wait
+      Target:
+        targetType: SELF
+    - action: SET_MOB_AI
+      bValue: true
+      repeatEvery: 20
+      Conditions:
+        hasTags:
+        - wait
+      Target:
+        targetType: SELF
+    - action: TAG
+      tags:
+      - wait
+      Target:
+        targetType: SELF
+  Engage:
+    Events:
+    - EliteMobEnterCombatEvent
+    Actions:
+    - action: UNTAG
+      tags:
+      - wait
+      Target:
+        targetType: SELF
+    - action: DAMAGE
+      multiplier: 0.5
+      Target:
+        targetType: SELF
+spawnLocations:
+- em_id_the_climb,270.5,78.5,235.5,0.0,0.0

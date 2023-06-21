@@ -1,0 +1,11 @@
+isEnabled: true
+material: DIAMOND_CHESTPLATE
+name: "&1Guardian Chestplate"
+lore:
+- "&1Undead Guardian's armor."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+- "DAMAGE_ALL,1"
+scalability: fixed
+itemType: unique
+level: 10

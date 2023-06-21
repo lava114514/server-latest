@@ -1,0 +1,12 @@
+isEnabled: true
+entityType: DROWNED
+name: '$reinforcementLevel &4Drowned One'
+level: 35
+powers:
+- attack_poison.yml
+- attack_vacuum.yml
+mainHand: TRIDENT
+healthMultiplier: 0.25
+damageMultiplier: 0.8
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false

@@ -1,0 +1,30 @@
+isEnabled: true
+entityType: SKELETON
+name: $bossLevel &cUndead Beastmaster
+level: 10
+instanced: true
+healthMultiplier: 6
+damageMultiplier: 0.67
+frozen: false
+powers:
+- the_climb_fireball.yml
+- taze.yml
+- lightning_bolts.yml
+- thunderstorm.yml
+- tracking_fireball.yml
+- invulnerability_fire.yml
+- filename: attack_push.yml
+  difficultyID:
+  - 1
+  - 2
+- filename: attack_web.yml
+  difficultyID: 
+  - 2
+mainHand: NETHERITE_SWORD
+movementSpeedAttribute: 0.33
+leashRadius: 30
+followDistance: 30
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+normalizedCombat: true
+dropsRandomLoot: false

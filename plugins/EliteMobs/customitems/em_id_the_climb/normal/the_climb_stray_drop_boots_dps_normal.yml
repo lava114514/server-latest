@@ -1,0 +1,11 @@
+isEnabled: true
+material: DIAMOND_BOOTS
+name: "&bFrostbite Boots"
+lore:
+- "&bOffers decent protection"
+- "&beven though taken from a corpse."
+enchantments: 
+- "DAMAGE_ALL,3"
+scalability: fixed
+itemType: unique
+level: 10

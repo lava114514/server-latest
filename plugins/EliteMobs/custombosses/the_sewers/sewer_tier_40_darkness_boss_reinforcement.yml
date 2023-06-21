@@ -1,0 +1,13 @@
+isEnabled: true
+entityType: VEX
+isBaby: true
+name: '$reinforcementLevel &2Shadow'
+level: 28
+isPersistent: false
+powers:
+- attack_blinding.yml
+- attack_confusing.yml
+healthMultiplier: 0.25
+damageMultiplier: 0.8
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false

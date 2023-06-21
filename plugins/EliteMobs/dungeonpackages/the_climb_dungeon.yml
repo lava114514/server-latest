@@ -1,4 +1,3 @@
-isEnabled: false
 name: '&2[lvl 010] &3The Climb Dungeon'
 dungeonLocationType: WORLD
 customInfo:
@@ -30,3 +29,5 @@ difficulties:
 - levelSync: 8
   id: 2
   name: mythic
+dungeonVersion: 1
+isEnabled: true

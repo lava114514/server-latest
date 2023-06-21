@@ -1,0 +1,10 @@
+isEnabled: true
+entityType: HUSK
+isBaby: true
+name: '$reinforcementLevel &2Fallen Gardener'
+level: 28
+mainHand: WOODEN_HOE
+healthMultiplier: 0.25
+damageMultiplier: 0.4
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false

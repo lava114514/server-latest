@@ -1,0 +1,39 @@
+id: e5dd9d94-43d7-4b9b-9db8-15c4d84cd260
+name: '1111111111'
+created: 1685772413804
+updated: 1685778203589
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: -7.5089607188119185,65.9375,-278.9468342651795,world,124.63675,10.349904
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  b8dd9de6-bce5-418b-9566-b5e1a4cc7a98: []
+spells:
+  missile:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data: {}
+properties: {}
+classes:
+  caster: {}
+  mage:
+    effect_color: 6adb10544a3f,f03fdc65272d,ad46ec86a40a
+    mana_timestamp: 1685772421245
+    mana: 36.25
+transient_modifiers: {}
+active_class: mage
+health: 0.0

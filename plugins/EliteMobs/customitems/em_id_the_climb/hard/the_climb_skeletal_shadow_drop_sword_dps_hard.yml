@@ -1,0 +1,12 @@
+isEnabled: true
+material: DIAMOND_SWORD
+name: "&fBleached Bone Blade"
+lore:
+- "&fThis blade has been fashioned"
+- "&fout of a sharp white bone."
+enchantments: 
+- "DAMAGE_ALL,4"
+- "DAMAGE_UNDEAD,4"
+scalability: fixed
+itemType: unique
+level: 10

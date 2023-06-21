@@ -1,0 +1,37 @@
+leashRadius: 17.0
+followRange: 14
+isRegionalBoss: true
+spawnCooldown: 30
+isEnabled: true
+entityType: HUSK
+isBaby: false
+name: $minibossLevel &2Toxic Gardener
+level: 28
+mainHand: GOLDEN_HOE
+helmet: LEATHER_HELMET
+powers:
+- attack_poison.yml
+- skeleton_tracking_arrow.yml
+- summonType: ON_HIT
+  filename: sewer_tier_40_poison_boss_reinforcement.yml
+  spawnNearby: false
+  inheritAggro: true
+  inheritLevel: true
+  amount: 1
+  chance: 0.25
+healthMultiplier: 3.0
+damageMultiplier: 1.5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+uniqueLootList:
+- sewer_spelunkers_sword.yml:0.1
+- sewer_spelunkers_boots.yml:0.1
+- sewer_spelunkers_chestplate.yml:0.1
+- sewer_spelunkers_helmet.yml:0.1
+- sewer_spelunkers_leggings.yml:0.1
+onDamageMessages:
+- Feel nature's wrath!
+onDamagedMessages:
+- To me, minions!
+spawnLocations:
+- em_sewer_maze,-215.4792497753362,121.2,-299.63296211497703,1.3498288,0.70843506:1608796448265

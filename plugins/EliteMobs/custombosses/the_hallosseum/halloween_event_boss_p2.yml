@@ -1,0 +1,68 @@
+isEnabled: true
+entityType: "SKELETON"
+name: "$bossLevel Dullahan"
+level: 30
+healthMultiplier: 30
+damageMultiplier: 2
+mainHand: "NETHERITE_HOE"
+offHand: "CARVED_PUMPKIN"
+powers:
+- attack_wither.yml
+- invulnerability_knockback.yml
+- movement_speed.yml
+- skeleton_tracking_arrow.yml
+- bullet_hell.yml
+- death_slice.yml
+- hyper_loot.yml
+- summonType: ON_HIT
+  filename: halloween_event_boss_reinforcement.yml
+  spawnNearby: false
+  inheritAggro: true
+  inheritLevel: true
+  amount: 1
+  chance: 0.2
+deathMessage: "&4The headless horseman was vanquished by $players!"
+deathMessages:
+- '&e&l---------------------------------------------'
+- '&4The Headless Horseman was vanquished!'
+- '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+- '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+- '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+- '&4Slayers: $players'
+- '&e&l---------------------------------------------'
+escapeMessage: "&4The headless horseman has left to haunt someone's dreams!"
+locationMessage: "&4Dullahan: $distance blocks away!"
+uniqueLootList:
+- hallosseum_treat.yml:0.1
+- hallosseum_treat_v2.yml:0.5
+- hallosseum_treat_v2.yml:0.5
+- hallosseum_treat_v2.yml:0.5
+- hallosseum_treat_v2.yml:0.5
+- hallosseum_treat_v2.yml:0.5
+- hallosseum_treat_v2.yml:0.5
+- hallosseum_treat_v2.yml:0.5
+- hallosseum_treat_v2.yml:0.5
+- hallosseum_treat_v2.yml:0.5
+- hallosseum_amazing_treat.yml:0.5
+- hallosseum_amazing_treat.yml:0.5
+- hallosseum_amazing_treat.yml:0.5
+- hallosseum_amazing_treat.yml:0.5
+- hallosseum_amazing_treat.yml:0.5
+- hallosseum_amazing_treat.yml:0.5
+- hallosseum_amazing_treat.yml:0.5
+- hallosseum_amazing_treat.yml:0.5
+- hallosseum_amazing_treat.yml:0.5
+- hallosseum_amazing_treat.yml:0.5
+- hallosseum_incredible_treat.yml:0.5
+- hallosseum_incredible_treat.yml:0.5
+- hallosseum_incredible_treat.yml:0.5
+- hallosseum_axe_of_beheadings.yml:0.5
+trails:
+- DRAGON_BREATH
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+followDistance: 60
+spawnCooldown: 180
+leashradius: 40
+announcementPriority: 3
+disguise: custom:hallosseum_event_boss

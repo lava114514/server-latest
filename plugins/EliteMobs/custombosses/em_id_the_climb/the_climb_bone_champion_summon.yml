@@ -1,0 +1,13 @@
+isEnabled: true
+entityType: SILVERFISH
+name: $reinforcementLevel &bUndead Rat
+level: 10
+healthMultiplier: 0.66
+damageMultiplier: 0.05
+movementSpeedAttribute: 0.24
+leashRadius: 13
+followDistance: 13
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+normalizedCombat: true
+dropsRandomLoot: false

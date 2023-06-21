@@ -9,16 +9,9 @@ bindings:
 panel:
   - layout: |-
       #########
-      |       |
       |   *   |
-      |       |
       #########
     items:
-      '#':
-        material: gray stained glass pane
-      '|':
-        material: cyan stained glass pane
       '*':
         material: paper
-        name: '&c发射'
-        action: command *"function playerboom"
+        name: '&c请不要使用右键打开哲理伦宝典'

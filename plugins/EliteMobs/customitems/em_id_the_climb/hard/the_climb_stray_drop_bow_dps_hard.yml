@@ -1,0 +1,12 @@
+isEnabled: true
+material: BOW
+name: "&bFrostbite Bow"
+lore:
+- '&bTiny icicles cover this bow.'
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,1"
+- "DAMAGE_ALL,4"
+- "DURABILITY,2" 
+scalability: fixed
+itemType: unique
+level: 10

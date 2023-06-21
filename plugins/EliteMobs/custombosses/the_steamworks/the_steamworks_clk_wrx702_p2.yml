@@ -1,0 +1,27 @@
+isEnabled: true
+isRegionalBoss: false
+entityType: RAVAGER
+disguise: IRON_GOLEM
+name: $bossLevel &bCLK-WRx702
+level: 140
+healthMultiplier: 6
+damageMultiplier: 1.1
+leashRadius: 30
+followDistance: 30
+movementSpeedAttribute: 0.38
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- invulnerability_knockback.yml
+- taze.yml
+eliteScript:
+  Say:
+    Events:
+    - ElitePhaseSwitchEvent
+    Actions:
+    - action: MESSAGE
+      sValue: '&b[CLK-WRx702] &fTazers activated.'
+      Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS

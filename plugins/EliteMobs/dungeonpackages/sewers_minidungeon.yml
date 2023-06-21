@@ -1,4 +1,3 @@
-isEnabled: false
 name: '&2[lvl 020-035] &8The Sewers'
 dungeonLocationType: WORLD
 customInfo:
@@ -20,3 +19,5 @@ regionLeaveMessage: '&8[EM] &5You managed to stay above water. &dMaybe next time
 teleportLocation: em_sewer_maze,-24,167,-173,90,0
 contentType: OPEN_DUNGEON
 dungeonConfigFolderName: the_sewers
+dungeonVersion: 5
+isEnabled: true

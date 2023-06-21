@@ -1,4 +1,3 @@
-isEnabled: false
 name: '&2[lvl 040] &8The Dark Cathedral'
 dungeonLocationType: WORLD
 customInfo:
@@ -24,3 +23,8 @@ regionLeaveMessage: '&8[EM] &8Now leaving the Dark Cathedral. &4It awaits your r
 teleportLocationOffset: 0,0,0,0,0
 contentType: SCHEMATIC_DUNGEON
 dungeonConfigFolderName: the_dark_cathedral
+dungeonVersion: 5
+isEnabled: true
+anchorPoint: em_north_pole,-264.5,43.0,-503.5,4.050001,42.650005
+teleportLocation: em_north_pole,-264.5,43.0,-503.5,4.050001,42.650005
+calculatedRotation: 0

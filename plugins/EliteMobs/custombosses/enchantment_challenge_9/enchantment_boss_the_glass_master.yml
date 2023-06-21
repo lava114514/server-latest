@@ -1,0 +1,226 @@
+isEnabled: true
+entityType: WITCH
+name: $normalLevel &fThe Glass Master
+healthMultiplier: 1.1
+damageMultiplier: 0.75
+movementSpeedAttribute: 0.31
+powers:
+- invulnerability_arrow.yml
+- invulnerability_fire.yml
+frozen: false
+leashRadius: 60
+followDistance: 60
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+isRegionalBoss: true
+normalizedCombat: true
+dropsRandomLoot: false
+uniqueLootList:
+- filename: ec_09_chestplate_normal.yml
+  chance: 0.25
+  difficultyID: 0
+- filename: ec_09_leggings_normal.yml
+  chance: 0.25
+  difficultyID: 0
+- filename: ec_09_bow_normal.yml
+  chance: 0.05
+  difficultyID: 0
+- filename: enchanted_book_arrow_knockback.yml
+  chance: 0.25
+  difficultyID: 0
+spawnLocations:
+- em_id_enchantment_challenge_9,1.5,65,0.5,0,0
+instanced: true
+eliteScript:
+  Trigger:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    - PlayerDamagedByEliteMobEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "GlassDropVisual1"
+      - "GlassDropVisual2"
+      - "GlassDropVisual3"
+      - "GlassDropVisual4"
+      - "GlassDropVisual5"
+      onlyRunOneScript: true
+    Cooldowns:
+      local: 99
+      global: 60
+  GlassDropVisual1:
+    Zone:
+      shape: CUBOID
+      x: 3
+      y: 3
+      z: 3
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50
+        offset: 0,12,0
+        track: false
+    Actions:
+    - action: SPAWN_FALLING_BLOCK
+      wait: 25
+      material: GLASS
+      landingScripts:
+      - "GlassDrop1"
+      Target:
+        targetType: ZONE_FULL
+    - action: PLAY_SOUND
+      wait: 25
+      sValue: "block.glass.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50
+        offset: 0,5,0
+        track: true
+    - action: MESSAGE
+      sValue: "[&fThe Glass Master] A big block of glass is heading towards your head!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50
+  GlassDrop1:
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 2
+      Target:
+        targetType: LANDING_LOCATION
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 5
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 2
+  GlassDropVisual2:
+    Zone:
+      shape: CUBOID
+      x: 3
+      y: 3
+      z: 3
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50
+        offset: 0,12,0
+        track: false
+    Actions:
+    - action: SPAWN_FALLING_BLOCK
+      wait: 25
+      material: GLASS
+      landingScripts:
+      - "GlassDrop1"
+      Target:
+        targetType: ZONE_FULL
+    - action: PLAY_SOUND
+      wait: 25
+      sValue: "block.glass.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50
+        offset: 0,5,0
+        track: true
+    - action: MESSAGE
+      sValue: "[&fThe Glass Master] Hope that block of glass cuts you to pieces!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50
+  GlassDropVisual3:
+    Zone:
+      shape: CUBOID
+      x: 3
+      y: 3
+      z: 3
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50
+        offset: 0,12,0
+        track: false
+    Actions:
+    - action: SPAWN_FALLING_BLOCK
+      wait: 25
+      material: GLASS
+      landingScripts:
+      - "GlassDrop1"
+      Target:
+        targetType: ZONE_FULL
+    - action: PLAY_SOUND
+      wait: 25
+      sValue: "block.glass.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50
+        offset: 0,5,0
+        track: true
+    - action: MESSAGE
+      sValue: "[&fThe Glass Master] Ok now make sure to stand still so the big block of glass smashes you!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50
+  GlassDropVisual4:
+    Zone:
+      shape: CUBOID
+      x: 3
+      y: 3
+      z: 3
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50
+        offset: 0,12,0
+        track: false
+    Actions:
+    - action: SPAWN_FALLING_BLOCK
+      wait: 25
+      material: GLASS
+      landingScripts:
+      - "GlassDrop1"
+      Target:
+        targetType: ZONE_FULL
+    - action: PLAY_SOUND
+      wait: 25
+      sValue: "block.glass.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50
+        offset: 0,5,0
+        track: true
+    - action: MESSAGE
+      sValue: "[&fThe Glass Master] You and this big block of glass should meet!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50
+  GlassDropVisual5:
+    Zone:
+      shape: CUBOID
+      x: 3
+      y: 3
+      z: 3
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50
+        offset: 0,12,0
+        track: false
+    Actions:
+    - action: SPAWN_FALLING_BLOCK
+      wait: 25
+      material: GLASS
+      landingScripts:
+      - "GlassDrop1"
+      Target:
+        targetType: ZONE_FULL
+    - action: PLAY_SOUND
+      wait: 25
+      sValue: "block.glass.break"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50
+        offset: 0,5,0
+        track: true
+    - action: MESSAGE
+      sValue: "[&fThe Glass Master] I really hope this big block of glass drops on you!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 50

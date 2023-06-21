@@ -1,0 +1,25 @@
+leashRadius: 17
+followRange: 14
+isRegionalBoss: true
+spawnCooldown: 30
+isEnabled: true
+entityType: WITHER_SKELETON
+isBaby: false
+name: '$minibossLevel &2Withered Corpse'
+level: 25
+mainHand: BOW
+powers:
+- attack_blinding.yml
+- invulnerability_arrow.yml
+healthMultiplier: 3.0
+damageMultiplier: 1.5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+uniqueLootList:
+- sewer_spelunkers_sword.yml:0.1
+- sewer_spelunkers_boots.yml:0.1
+- sewer_spelunkers_chestplate.yml:0.1
+- sewer_spelunkers_helmet.yml:0.1
+- sewer_spelunkers_leggings.yml:0.1
+spawnLocations:
+- em_sewer_maze,-233.5,101.5,-88.5,0.0,0.0:0

@@ -1,0 +1,91 @@
+isEnabled: true
+entityType: SKELETON
+name: $bossLevel &cUndead Beastmaster
+level: 10
+instanced: true
+healthMultiplier: 6
+damageMultiplier: 0.67
+frozen: false
+mountedEntity: the_climb_undead_beastmaster_mount_p2.yml
+powers:
+- the_climb_fireball.yml
+- taze.yml
+- lightning_bolts.yml
+- invulnerability_fire.yml
+- plasma_blaster.yml
+- filename: attack_push.yml
+  difficultyID: 1
+eliteScript:
+  CloseArena1:
+    Events:
+    - ElitePhaseSwitchEvent
+    - EliteMobEnterCombatEvent
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 5
+      z: 13
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,389.5,121.0,65.5,0.0,0.0
+    Actions:   
+    - action: PLACE_BLOCK
+      wait: 20
+      duration: 12000
+      material: GLASS
+      Conditions:
+        locationIsAir: true
+        isAlive: true
+      Target:
+        targetType: ZONE_FULL
+    - action: RUN_SCRIPT
+      scripts:
+      - TeleportPlayers
+      - CloseArena2
+  CloseArena2:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 5
+      z: 5
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,387.5,121.0,79.5,0.0,0.0
+    Actions:
+    - action: MESSAGE
+      Target: 
+        targetType: NEARBY_PLAYERS
+        range: 15
+      sValue: "&c[Undead Beastmaster]&f I will not allow you to reach the mines!"
+    - action: PLACE_BLOCK
+      wait: 20
+      duration: 12000
+      material: GLASS
+      Conditions:
+        locationIsAir: true
+        isAlive: true
+      Target:
+        targetType: ZONE_FULL    
+  TeleportPlayers:
+    Actions:
+    - action: POTION_EFFECT
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 40
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 20
+    - action: TELEPORT
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 40
+      FinalTarget:
+        targetType: LOCATION
+        location: same_as_boss,401.5,121.0,72.5,0.0,0.0    
+mainHand: BOW
+leashRadius: 30
+followDistance: 30
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+normalizedCombat: true
+dropsRandomLoot: false

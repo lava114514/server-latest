@@ -1,0 +1,19 @@
+isEnabled: true
+entityType: ZOMBIE
+name: $normalLevel &aArrow Dispenser
+mainHand: ARROW
+healthMultiplier: 0.25
+damageMultiplier: 0.4
+movementSpeedAttribute: 0.26
+powers:
+- invulnerability_fire.yml
+uniqueLootList:
+- material=ARROW:amount=1:chance=0.25
+frozen: false
+leashRadius: 30
+followDistance: 30
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+isRegionalBoss: false
+normalizedCombat: true
+dropsRandomLoot: false

@@ -1,0 +1,13 @@
+isEnabled: true
+entityType: SKELETON
+mainHand: BOW
+name: $eventBossLevel &cPartygoer
+level: 20
+isPersistent: true
+healthMultiplier: 0.25
+damageMultiplier: 0.8
+powers:
+- arrow_fireworks.yml
+- fireworks_barrage.yml
+dropsEliteMobsLoot: false
+followDistance: 200

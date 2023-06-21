@@ -1,0 +1,32 @@
+leashRadius: 13.0
+followRange: 8
+isRegionalBoss: true
+spawnCooldown: 30
+isEnabled: true
+entityType: SPIDER
+name: $minibossLevel &2Ancient Crawler
+level: 31
+powers:
+- attack_web.yml
+- movement_speed.yml
+- attack_fire.yml
+- invulnerability_fire.yml
+- summonType: ON_HIT
+  filename: sewer_tier_50_spider_boss_reinforcement.yml
+  spawnNearby: false
+  inheritAggro: true
+  inheritLevel: true
+  amount: 1
+  chance: 0.25
+healthMultiplier: 3.0
+damageMultiplier: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+uniqueLootList:
+- sewer_spelunkers_sword.yml:0.1
+- sewer_spelunkers_boots.yml:0.1
+- sewer_spelunkers_chestplate.yml:0.1
+- sewer_spelunkers_helmet.yml:0.1
+- sewer_spelunkers_leggings.yml:0.1
+spawnLocations:
+- em_sewer_maze,-135.95494490562652,138.2,-256.2132715786428,14.312317,4.3500104:1608603551625

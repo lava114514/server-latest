@@ -1,0 +1,45 @@
+isEnabled: true
+entityType: BLAZE
+name: $eventBossLevel &cSparky
+level: 20
+healthMultiplier: 30
+damageMultiplier: 1.5
+powers:
+- hyper_loot.yml
+- fireworks_barrage.yml
+- skeleton_tracking_arrow.yml
+- arrow_fireworks.yml
+- tracking_fireball.yml
+- summonType: ON_COMBAT_ENTER
+  filename: fireworks_phase_3_reinforcement.yml
+  inheritLevel: true
+  location: 35,0,35
+- summonType: ON_COMBAT_ENTER
+  filename: fireworks_phase_3_reinforcement.yml
+  inheritLevel: true
+  location: -35,0,35
+- summonType: ON_COMBAT_ENTER
+  filename: fireworks_phase_3_reinforcement.yml
+  inheritLevel: true
+  location: -35,0,35
+- summonType: ON_COMBAT_ENTER
+  filename: fireworks_phase_3_reinforcement.yml
+  inheritLevel: true
+  location: -35,0,-35
+spawnMessage: '&6Sparky returns to celebrate!'
+deathMessages:
+- '&e&l---------------------------------------------'
+- '&eSparky''s out, party''s over!'
+- '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+- '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+- '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+- '&aSlayers: $players'
+- '&e&l---------------------------------------------'
+uniqueLootList:
+- sparky_drop_axe.yml:0.15
+- sparky_drop_sword.yml:0.05
+- sparky_drop_shield.yml:0.15
+dropsEliteMobsLoot: true
+followDistance: 200
+announcementPriority: 3
+cullReinforcements: true

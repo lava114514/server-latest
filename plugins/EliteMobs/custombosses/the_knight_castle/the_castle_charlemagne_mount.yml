@@ -1,0 +1,18 @@
+isEnabled: true
+isRegionalBoss: false
+entityType: RAVAGER
+disguise: HORSE
+name: $normalLevel &cLoyal Steed
+level: 95
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+healthMultiplier: 2.0
+damageMultiplier: 0.5
+leashRadius: 50
+followDistance: 50
+movementSpeedAttribute: 0.55
+powers:
+- invulnerability_fire.yml
+- invulnerability_knockback.yml
+- attack_push.yml

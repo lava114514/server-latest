@@ -1,0 +1,16 @@
+isEnabled: true
+entityType: RAVAGER
+name: "$minibossLevel Daredevil"
+level: 30
+healthMultiplier: 40
+damageMultiplier: 2
+isBaby: false
+powers:
+- attack_push.yml
+- invulnerability_knockback.yml
+- ground_pound.yml
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+announcementPriority: 3
+followDistance: 60
+disguise: SKELETON_HORSE

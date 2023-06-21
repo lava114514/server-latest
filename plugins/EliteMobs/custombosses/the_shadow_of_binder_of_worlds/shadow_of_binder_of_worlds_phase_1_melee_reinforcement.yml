@@ -1,0 +1,16 @@
+isEnabled: true
+entityType: HUSK
+name: $reinforcementLevel &8Reality Waster
+level: 200
+healthMultiplier: 1.0
+damageMultiplier: 1.0
+powers:
+- attack_gravity.yml
+- attack_push.yml
+- invulnerability_knockback.yml
+- invulnerability_fire.yml
+dropsEliteMobsLoot: false
+isRegionalBoss: true
+followDistance: 200
+leashRadius: 35
+reinforcement: true

@@ -1,0 +1,11 @@
+isEnabled: true
+material: DIAMOND_HELMET
+name: "&1Guardian Helmet"
+lore:
+- '&1You feel empowered.'
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+- "DAMAGE_ALL,7"
+scalability: fixed
+itemType: unique
+level: 10

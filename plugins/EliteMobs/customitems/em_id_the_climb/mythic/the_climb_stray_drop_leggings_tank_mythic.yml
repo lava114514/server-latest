@@ -1,0 +1,12 @@
+isEnabled: true
+material: DIAMOND_LEGGINGS
+name: "&bFrostbite Leggings"
+lore:
+- "&bOffers good protection"
+- "&beven though taken from a corpse."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,5"
+- "DAMAGE_ALL,3"
+scalability: fixed
+itemType: unique
+level: 10

@@ -1,0 +1,17 @@
+isEnabled: true
+entityType: "SKELETON"
+name: "$reinforcementLevel &dSoul of the Naughty List"
+level: 60
+timeout: 2
+healthMultiplier: .25
+damageMultiplier: .8
+mainHand: "COAL"
+powers:
+- attack_freeze.yml
+- invulnerability_arrow.yml
+- invulnerability_knockback.yml
+- invulnerability_fire.yml
+- invulnerability_fall_damage.yml
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+

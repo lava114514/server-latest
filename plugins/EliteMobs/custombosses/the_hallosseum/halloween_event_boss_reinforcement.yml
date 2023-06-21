@@ -1,0 +1,9 @@
+isEnabled: true
+entityType: "SKELETON"
+name: "$normalLevel Spooky Skeleton"
+level: 30
+healthMultiplier: 0.25
+damageMultiplier: 0.8
+mainHand: "BOW"
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false

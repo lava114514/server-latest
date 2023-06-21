@@ -1,0 +1,50 @@
+isEnabled: true
+entityType: WITHER_SKELETON
+name: $bossLevel &4Cultist of Cthulhu
+level: 40
+healthMultiplier: 30.0
+damageMultiplier: 1.5
+mainHand: BOW
+powers:
+- invulnerability_knockback.yml
+- invulnerability_arrow.yml
+- attack_gravity.yml
+- hyper_loot.yml
+- bullet_hell.yml
+- flamethrower.yml
+- flame_pyre.yml
+- summonType: ON_HIT
+- summonType: ON_HIT
+- summonType: ON_HIT
+spawnMessage: '&cA dark cultist is summoning Cthulhu!'
+deathMessage: '&2The summoning has been thwarted $players!'
+deathMessages:
+- '&e&l---------------------------------------------'
+- '&4The summoning has been interrupted!'
+- '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+- '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+- '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+- '&4Slayers: $players'
+- '&e&l---------------------------------------------'
+escapeMessage: '&2The cultist has completed the summoning!'
+locationMessage: 'Cultist of Cthulhu: $distance blocks away'
+uniqueLootList:
+- dark_cathedral_tier_75_sword.yml:0.25
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+trails:
+- PORTAL
+onDamageMessages:
+- Fools!
+- Chtulhu R'lyeh!
+- None can defeat Chtulhu!
+- Stare into the abyss...
+isRegionalBoss: true
+spawnCooldown: 360
+leashRadius: 22
+followDistance: 24
+announcementPriority: 3
+disguise: custom:dark_cathedral_tier_75_boss
+customDisguiseData: player dark_cathedral_tier_75_boss setskin {"id":"b25240d9-ada5-446d-bb04-4b57c8ac01c2","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTYxMjE0NjA3MjQ1NywKICAicHJvZmlsZUlkIiA6ICI3MzgyZGRmYmU0ODU0NTVjODI1ZjkwMGY4OGZkMzJmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCdUlJZXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjNhMTkyODJlZjNhNTc2ZjA1YjljNjZkM2FlODM3NDllZGVmYmRjODYzNTYxYjVmODY3ZjQwNWVmYmY1ZWFiYyIKICAgIH0KICB9Cn0=","signature":"Rb9YPF2fIPBMYvbOB9qpjrk48OXr/IEJgt/E29zwM7PgQ6KBbBnyZjwnC+kdFN/x588qq3F8bD4hpOp6rIMrwlCh9/mOFz8aqwInZeRqJsmHz/M3hk/DkfTxUdszBpuuY4yUWD9uaqrsBjdkCtQpmXS/kP3B92MzFZiWNFRPVuarlL+n+PH08UPvKWdRX3nLGfUoekgHE2FDFcBN6L3gRiHz4ZCTGcui1SSIgiM2/KfD/v3QIjAujnB0rMHcCqOuhRPYGEBG8y+Erz8/6imYiKkh98xetz9A51JV7UkhdOtc3vV/tVD53hcBOkf9Fre7bl7GRKmsHoOy/PkrOUlgFOqhayPZD957xFoKWjiKE1CyJDGWm4JoR199bVx2TZFgjCpOKvJbDp32tLnukdsPDN3EIFv4uGLesq7PnU/WeCHrlDW9cQaQtv4pTdOi60BpEZYkvsAXz0YekFJUCnRvEblTKyUGRk6WrZAF0KNXHm3tYyfLQ2nqkBVBMbMy3CFbggmaqQe76ZPGJmgRTCGClksYep3E9IWXsE1GY+qJKGNXZSloq2j1V1VvQJOpWHpFLzH2wOdO5nbbuKLC+C8yF8kebGswfg5SGcPcItTvaXGmO9amY1zddhipdeNSX0cFrVZs42X3Fa2MWh8fpiW9W3BqKdvh2Ei+iwnA0N93mxY="}],"legacy":false}
+spawnLocations:
+- em_north_pole,-264.0,43.5,-479.0,4.050001,42.650005

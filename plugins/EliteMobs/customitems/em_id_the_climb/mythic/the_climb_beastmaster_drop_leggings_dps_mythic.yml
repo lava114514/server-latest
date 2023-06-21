@@ -1,0 +1,13 @@
+isEnabled: true
+material: NETHERITE_LEGGINGS
+name: "&dBeastmaster's Leggings"
+lore:
+- "&dThese leggings seem to be interwoven"
+- "&dout of silk-like material."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,4"
+- "DAMAGE_ALL,10"
+- "DURABILITY,7"
+scalability: fixed
+itemType: unique
+level: 10

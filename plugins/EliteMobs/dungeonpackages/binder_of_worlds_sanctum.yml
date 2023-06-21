@@ -1,4 +1,3 @@
-isEnabled: false
 name: '&2[lvl 200] &5The Binder Of Worlds'
 dungeonLocationType: WORLD
 customInfo:
@@ -34,3 +33,5 @@ difficulties:
 - levelSync: 190
   id: 2
   name: mythic
+dungeonVersion: 5
+isEnabled: true

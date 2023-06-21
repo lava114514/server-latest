@@ -1,0 +1,10 @@
+isEnabled: true
+material: DIAMOND_LEGGINGS
+name: "&eUndead's Legguards"
+lore:
+- '&eRetrieved from the walking corpse.'
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,2"
+scalability: fixed
+itemType: unique
+level: 10

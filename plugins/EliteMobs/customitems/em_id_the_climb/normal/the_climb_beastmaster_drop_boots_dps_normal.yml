@@ -1,0 +1,13 @@
+isEnabled: true
+material: NETHERITE_BOOTS
+name: "&dBeastmaster's Boots"
+lore:
+- "&dYou can sense great"
+- "&dpower flow from these boots."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,2"
+- "DAMAGE_ALL,5"
+- "DURABILITY,3"
+scalability: fixed
+itemType: unique
+level: 10

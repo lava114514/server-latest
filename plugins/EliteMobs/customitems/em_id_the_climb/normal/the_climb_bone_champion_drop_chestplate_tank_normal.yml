@@ -1,0 +1,14 @@
+isEnabled: true
+material: NETHERITE_CHESTPLATE
+name: "&3Bone Champion's Pride"
+lore:
+- "&3Even though heavily faded"
+- "&3you can still make out faint"
+- "&3markings that once adorned this armor."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,4"
+- "PROTECTION_PROJECTILE,3"
+- "DAMAGE_ALL,2"
+scalability: fixed
+itemType: unique
+level: 10

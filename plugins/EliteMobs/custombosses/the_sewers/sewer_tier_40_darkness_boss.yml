@@ -1,0 +1,30 @@
+leashRadius: 17
+followRange: 14
+isRegionalBoss: true
+spawnCooldown: 30
+isEnabled: true
+entityType: EVOKER
+isBaby: false
+name: $minibossLevel &2The Shadowmaster
+level: 28
+powers:
+- summonType: ON_HIT
+  filename: sewer_tier_40_darkness_boss_reinforcement.yml
+  spawnNearby: false
+  inheritAggro: true
+  inheritLevel: true
+  amount: 1
+  chance: 0.5
+isPersistent: true
+healthMultiplier: 4.0
+damageMultiplier: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+uniqueLootList:
+- sewer_spelunkers_sword.yml:0.1
+- sewer_spelunkers_boots.yml:0.1
+- sewer_spelunkers_chestplate.yml:0.1
+- sewer_spelunkers_helmet.yml:0.1
+- sewer_spelunkers_leggings.yml:0.1
+spawnLocations:
+- em_sewer_maze,-203.94662893478093,144.2,-58.21767066751884,4.800044,183.72278:1608783188283

@@ -1,0 +1,130 @@
+isEnabled: true
+isRegionalBoss: true
+entityType: IRON_GOLEM
+disguise: IRON_GOLEM
+name: $bossLevel &bCLK-WRx702
+level: 140
+phases:
+- the_steamworks_clk_wrx702_p2.yml:0.99999
+- the_steamworks_clk_wrx702_p3.yml:0.80
+- the_steamworks_clk_wrx702_p4.yml:0.60
+- the_steamworks_clk_wrx702_p5.yml:0.30
+- the_steamworks_clk_wrx702_p6.yml:0.10
+- the_steamworks_clk_wrx702_p7.yml:0.03
+healthMultiplier: 6
+damageMultiplier: 1.1
+leashRadius: 30
+followDistance: 30
+frozen: false
+spawnCooldown: 60
+movementSpeedAttribute: 0.001
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- invulnerability_knockback.yml
+eliteScript:
+  Activate:
+    Events:
+    - EliteMobEnterCombatEvent
+    Zone:
+      radius: 31
+      borderRadius: 22
+      shape: CYLINDER
+      height: 3
+      Target:
+        targetType: SELF_SPAWN
+        track: false
+        offset: 0,-1,0
+    Actions:
+    - action: MAKE_INVULNERABLE
+      bValue: true
+      duration: 70
+      Target:
+        targetType: SELF
+    - action: STRIKE_LIGHTNING
+      repeatEvery: 20
+      times: 3
+      Target:
+        targetType: SELF
+    - action: MESSAGE
+      sValue: '&b[CLK-WRx702] &fCharging.'
+      Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS
+    - action: MESSAGE
+      wait: 10
+      sValue: '&b[CLK-WRx702] &fRunning diagnostics.'
+      Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS
+    - action: MESSAGE
+      wait: 20
+      sValue: '&b[CLK-WRx702] &fMotivators, OK.'
+      Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS
+    - action: MESSAGE
+      wait: 30
+      sValue: '&b[CLK-WRx702] &fSensors, OK.'
+      Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS
+    - action: MESSAGE
+      wait: 40
+      sValue: '&b[CLK-WRx702] &fPower source, CHARGED.'
+      Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS
+    - action: MESSAGE
+      wait: 50
+      sValue: '&b[CLK-WRx702] &fAll systems working.'
+      Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS
+    - action: MESSAGE
+      wait: 60
+      sValue: '&b[CLK-WRx702] &fActivating platform flotation barriers.'
+      Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS
+    - action: POTION_EFFECT
+      potionEffectType: LEVITATION
+      wait: 60
+      amplifier: 3
+      duration: 40
+      repeatEvery: 1
+      Conditions:
+        isAlive: true
+      Target:
+        targetType: ZONE_BORDER
+    - action: SPAWN_PARTICLE
+      wait: 60
+      particles:
+      - particle: SPELL
+        speed: 0.5
+      repeatEvery: 20
+      Target:
+        targetType: ZONE_BORDER
+      Conditions:
+        isAlive: true
+    - action: MESSAGE
+      wait: 65
+      sValue: '&b[CLK-WRx702] &fPOWERING ON.'
+      Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS
+    - action: MESSAGE
+      wait: 75
+      sValue: '&b[CLK-WRx702] &fWeapon limiters, OFF. Please make sure you have your
+        e-band with you to avoid targeting.'
+      Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS
+    - action: DAMAGE
+      wait: 80
+      multiplier: 0.5
+      Target:
+        targetType: SELF
+spawnLocations:
+- em_steamworks_lair,-85.0,9.5,-75.0,0.0,0.0:1672843182830

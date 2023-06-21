@@ -1,0 +1,117 @@
+isEnabled: true
+entityType: GHAST
+name: $minibossLevel &aJeffrey
+level: 10
+instanced: true
+healthMultiplier: 4
+damageMultiplier: 0.01
+leashRadius: 25
+followDistance: 25
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+normalizedCombat: true
+dropsRandomLoot: false
+eliteScript:
+  Trigger:
+    Events:
+    - EliteMobSpawnEvent
+    Zone:
+      shape: SPHERE
+      radius: 23
+      borderRadius: 22
+      Target:
+        targetType: SELF
+      filter: PLAYER
+    Actions:
+    - action: SET_MOB_AI
+      Target:
+        targetType: SELF
+      bValue: false
+    - action: MESSAGE
+      wait: 20
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+      sValue: "&a[Jeffrey] &fDid I arrive in time? OK, activating the debuff barrier!"
+    - action: SPAWN_PARTICLE
+      wait: 20
+      particles:
+      - particle: GLOW
+      Target:
+        targetType: ZONE_BORDER
+        coverage: 0.6
+      repeatEvery: 20
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+    - action: RUN_SCRIPT
+      wait: 20
+      scripts:
+      - "Debuff"
+      - "Buff"    
+  Debuff:
+    Zone:
+      shape: SPHERE
+      radius: 23
+      Target:
+        targetType: SELF
+      filter: PLAYER
+    Actions:
+    - action: POTION_EFFECT
+      Target: 
+        targetType: ZONE_FULL
+      potionEffectType: SLOW
+      amplifier: 1
+      duration: 20
+      repeatEvery: 20
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+    - action: POTION_EFFECT
+      Target: 
+        targetType: ZONE_FULL
+      potionEffectType: WEAKNESS
+      amplifier: 0
+      duration: 20
+      repeatEvery: 40
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+  Buff:
+    Zone:
+      shape: SPHERE
+      radius: 23
+      Target:
+        targetType: SELF
+      filter: ELITE
+    Actions:
+    - action: POTION_EFFECT
+      Target: 
+        targetType: ZONE_FULL
+      potionEffectType: SPEED
+      amplifier: 2
+      duration: 20
+      repeatEvery: 20
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+    - action: POTION_EFFECT
+      Target: 
+        targetType: ZONE_FULL
+      potionEffectType: ABSORPTION
+      amplifier: 0
+      duration: 10
+      repeatEvery: 20
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true

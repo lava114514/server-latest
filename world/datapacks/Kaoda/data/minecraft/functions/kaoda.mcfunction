@@ -1,1 +1,1 @@
-summon minecraft:zombie ~ ~ ~ {Tags:[kaoda],Silent:1,NoAI:1,PersistenceRequired:1,Attributes:[{Name:"generic.knockback_resistance",Base:1}],ActiveEffects:[{Id:14,Duration:32767,Amplifier:1,ShowParticles:0}]}
+summon minecraft:zombie ~ ~ ~ {Tags:[kaoda],Silent:1,Health:30,NoAI:1,PersistenceRequired:1,Attributes:[{Name:"generic.knockback_resistance",Base:1},{Name:"generic.max_health",Base:100},{Name:"generic.attack_damage",Base:30}],ActiveEffects:[{Id:14,Duration:32767,Amplifier:1,ShowParticles:0}]}

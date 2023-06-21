@@ -1,0 +1,19 @@
+isEnabled: true
+isRegionalBoss: false
+entityType: BLAZE
+name: $normalLevel &cHellstar
+level: 95
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+healthMultiplier: 2.0
+damageMultiplier: 1.0
+leashRadius: 100
+followDistance: 100
+movementSpeedAttribute: 0.01
+trails:
+- FLAME
+powers:
+- invulnerability_fire.yml
+- invisibility.yml
+- attack_fireball.yml

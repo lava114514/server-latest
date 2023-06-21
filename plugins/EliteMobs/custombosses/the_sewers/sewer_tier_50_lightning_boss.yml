@@ -1,0 +1,29 @@
+leashRadius: 17.0
+followRange: 14
+isRegionalBoss: true
+spawnCooldown: 30
+isEnabled: true
+entityType: ZOMBIE
+isBaby: false
+name: '$minibossLevel &2Mjolnir'
+helmet: IRON_HELMET
+chestplate: IRON_CHESTPLATE
+leggings: IRON_LEGGINGS
+boots: IRON_BOOTS
+level: 31
+powers:
+- thunderstorm.yml
+- attack_lightning.yml
+- invulnerability_arrow.yml
+healthMultiplier: 3.0
+damageMultiplier: 2
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+uniqueLootList:
+- sewer_spelunkers_sword.yml:0.1
+- sewer_spelunkers_boots.yml:0.1
+- sewer_spelunkers_chestplate.yml:0.1
+- sewer_spelunkers_helmet.yml:0.1
+- sewer_spelunkers_leggings.yml:0.1
+spawnLocations:
+- em_sewer_maze,-264.32592421906116,120.2,-92.70854171861606,180.64389,2.699728:1611059985560

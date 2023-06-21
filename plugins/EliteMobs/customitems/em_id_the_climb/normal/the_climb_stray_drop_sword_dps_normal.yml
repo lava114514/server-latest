@@ -1,0 +1,10 @@
+isEnabled: true
+material: DIAMOND_SWORD
+name: "&bFrostbite Sword"
+lore:
+- '&bCold to the touch.'
+enchantments: 
+- "DAMAGE_ALL,3"
+scalability: fixed
+itemType: unique
+level: 10

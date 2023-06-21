@@ -1,0 +1,26 @@
+leashRadius: 17.0
+followRange: 14
+isRegionalBoss: true
+spawnCooldown: 30
+isEnabled: true
+entityType: RAVAGER
+name: '$minibossLevel &2Sewer Monstrosity'
+level: 31
+powers:
+- attack_gravity.yml
+- skeleton_tracking_arrow.yml
+- attack_push.yml
+- invulnerability_arrow.yml
+healthMultiplier: 3.0
+damageMultiplier: 1.5
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+uniqueLootList:
+- sewer_spelunkers_sword.yml:0.1
+- sewer_spelunkers_boots.yml:0.1
+- sewer_spelunkers_chestplate.yml:0.1
+- sewer_spelunkers_helmet.yml:0.1
+- sewer_spelunkers_leggings.yml:0.1
+spawnLocations:
+- em_sewer_maze,-181.12329192726926,77.2,-44.99463789495119,-269.81287,-1.2001798:1608783308277
+- em_sewer_maze,-181.38150609740885,77.2,-34.811218393471194,-271.76276,0.44998324:1608783308277

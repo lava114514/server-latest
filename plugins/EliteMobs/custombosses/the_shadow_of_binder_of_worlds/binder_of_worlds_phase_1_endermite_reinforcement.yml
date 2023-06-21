@@ -1,0 +1,9 @@
+isEnabled: true
+entityType: ENDERMITE
+name: $reinforcementLevel &5Reality Corruptor
+level: 200
+timeout: 5
+healthMultiplier: 0.25
+damageMultiplier: 0.8
+dropsEliteMobsLoot: false
+timeout: 2

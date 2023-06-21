@@ -1,0 +1,19 @@
+isEnabled: true
+entityType: ENDER_DRAGON
+name: $eventBossLevel &eShadow of the Binder of Worlds
+level: 200
+isPersistent: true
+healthMultiplier: 60.0
+damageMultiplier: 2.0
+powers:
+- ender_dragon_shockwave.yml
+- ender_dragon_empowered_lightning.yml
+- ender_dragon_disco_fireballs.yml
+- ender_dragon_aimed_fireball.yml
+- summonable:summonType=ON_COMBAT_ENTER_PLACE_CRYSTAL:location=80,10,0:lightningRod=true
+- summonable:summonType=ON_COMBAT_ENTER_PLACE_CRYSTAL:location=-80,10,0:lightningRod=true
+dropsEliteMobsLoot: true
+spawnCooldown: 10080
+cullReinforcements: true
+announcementPriority: 3
+followDistance: 200

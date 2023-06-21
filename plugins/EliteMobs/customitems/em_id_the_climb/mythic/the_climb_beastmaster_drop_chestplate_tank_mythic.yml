@@ -1,0 +1,14 @@
+isEnabled: true
+material: NETHERITE_CHESTPLATE
+name: "&dBeastmaster's Armor"
+lore:
+- "&dUnderneath all the human skin you"
+- "&dfeel some sort of shell or casing."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,10"
+- "DAMAGE_ALL,4"
+- "DURABILITY,7"
+- "LOUD_STRIKES,3"
+scalability: fixed
+itemType: unique
+level: 10

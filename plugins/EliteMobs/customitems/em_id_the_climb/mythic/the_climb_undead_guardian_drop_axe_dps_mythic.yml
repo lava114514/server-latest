@@ -1,0 +1,12 @@
+isEnabled: true
+material: DIAMOND_AXE
+name: "&1Guardian Axe"
+lore:
+- "&1This axe was frozen solid to"
+- "&1the corpse's back. It's yours now."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+- "DAMAGE_ALL,7"
+scalability: fixed
+itemType: unique
+level: 10

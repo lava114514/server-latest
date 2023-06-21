@@ -1,0 +1,513 @@
+isEnabled: true
+entityType: RAVAGER
+name: $normalLevel &5Ravegarer
+healthMultiplier: 1.25
+damageMultiplier: 0.75
+movementSpeedAttribute: 0.31
+powers:
+- attack_confusing.yml
+- invulnerability_arrow.yml
+- invulnerability_fire.yml
+frozen: false
+leashRadius: 60
+followDistance: 60
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+isRegionalBoss: true
+normalizedCombat: true
+dropsRandomLoot: false
+uniqueLootList:
+- filename: ec_06_helmet_normal.yml
+  chance: 0.25
+  difficultyID: 0
+- filename: ec_06_leggings_normal.yml
+  chance: 0.25
+  difficultyID: 0
+- filename: ec_06_hoe_normal.yml
+  chance: 0.15
+  difficultyID: 0
+- filename: enchanted_book_critical_strikes.yml
+  chance: 0.25
+  difficultyID: 0
+spawnLocations:
+- em_id_enchantment_challenge_6,1.5,65,0.5,0,0
+instanced: true
+eliteScript:
+  Trigger:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    - PlayerDamagedByEliteMobEvent
+    Actions:
+    - action: MESSAGE
+      sValue: "&7The mighty beast starts slamming it's hooves into the ground."
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 80
+    - action: RUN_SCRIPT
+      wait: 30
+      scripts:
+      - "PushVisual1"
+      - "Push1"
+      - "PushVisual2"
+      - "Push2"
+      - "PushVisual3"
+      - "Push3"
+      - "PushVisual4"
+      - "Push4"
+    - action: RUN_SCRIPT
+      wait: 50
+      scripts:
+      - "PushVisual21"
+      - "Push21"
+      - "PushVisual22"
+      - "Push22"
+      - "PushVisual23"
+      - "Push23"
+      - "PushVisual24"
+      - "Push24"
+    - action: RUN_SCRIPT
+      wait: 70
+      scripts:
+      - "PushVisual31"
+      - "Push31"
+      - "PushVisual32"
+      - "Push32"
+      - "PushVisual33"
+      - "Push33"
+      - "PushVisual34"
+      - "Push34"
+    Cooldowns:
+      local: 200
+      global: 20
+  PushVisual1:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 2
+      z: 3
+      Target:
+        targetType: SELF
+        offset: 2,0,0
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  Push1:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 2
+      z: 3
+      Target:
+        targetType: SELF
+        offset: 2,0,0
+    Actions:
+    - action: PUSH
+      vValue: 1,1,0
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  PushVisual2:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 2
+      z: 3
+      Target:
+        targetType: SELF
+        offset: -2,0,0
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  Push2:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 2
+      z: 3
+      Target:
+        targetType: SELF
+        offset: -2,0,0
+    Actions:
+    - action: PUSH
+      vValue: -1,1,0
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  PushVisual3:
+    Zone:
+      shape: CUBOID
+      x: 3
+      y: 2
+      z: 1
+      Target:
+        targetType: SELF
+        offset: 0,0,-2
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  Push3:
+    Zone:
+      shape: CUBOID
+      x: 3
+      y: 2
+      z: 1
+      Target:
+        targetType: SELF
+        offset: 0,0,-2
+    Actions:
+    - action: PUSH
+      vValue: 0,1,-1
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  PushVisual4:
+    Zone:
+      shape: CUBOID
+      x: 3
+      y: 2
+      z: 1
+      Target:
+        targetType: SELF
+        offset: 0,0,2
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  Push4:
+    Zone:
+      shape: CUBOID
+      x: 3
+      y: 2
+      z: 1
+      Target:
+        targetType: SELF
+        offset: 0,0,2
+    Actions:
+    - action: PUSH
+      vValue: 0,1,1
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  PushVisual21:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 2
+      z: 5
+      Target:
+        targetType: SELF
+        offset: 4,0,0
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  Push21:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 2
+      z: 5
+      Target:
+        targetType: SELF
+        offset: 4,0,0
+    Actions:
+    - action: PUSH
+      vValue: 1,1,0
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  PushVisual22:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 2
+      z: 5
+      Target:
+        targetType: SELF
+        offset: -4,0,0
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  Push22:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 2
+      z: 5
+      Target:
+        targetType: SELF
+        offset: -4,0,0
+    Actions:
+    - action: PUSH
+      vValue: -1,1,0
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  PushVisual23:
+    Zone:
+      shape: CUBOID
+      x: 5
+      y: 2
+      z: 1
+      Target:
+        targetType: SELF
+        offset: 0,0,-4
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  Push23:
+    Zone:
+      shape: CUBOID
+      x: 5
+      y: 2
+      z: 1
+      Target:
+        targetType: SELF
+        offset: 0,0,-4
+    Actions:
+    - action: PUSH
+      vValue: 0,1,-1
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  PushVisual24:
+    Zone:
+      shape: CUBOID
+      x: 5
+      y: 2
+      z: 1
+      Target:
+        targetType: SELF
+        offset: 0,0,4
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  Push24:
+    Zone:
+      shape: CUBOID
+      x: 5
+      y: 2
+      z: 1
+      Target:
+        targetType: SELF
+        offset: 0,0,4
+    Actions:
+    - action: PUSH
+      vValue: 0,1,1
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  PushVisual31:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 2
+      z: 7
+      Target:
+        targetType: SELF
+        offset: 6,0,0
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  Push31:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 2
+      z: 7
+      Target:
+        targetType: SELF
+        offset: 6,0,0
+    Actions:
+    - action: PUSH
+      vValue: 1,1,0
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  PushVisual32:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 2
+      z: 7
+      Target:
+        targetType: SELF
+        offset: -6,0,0
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  Push32:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 2
+      z: 7
+      Target:
+        targetType: SELF
+        offset: -6,0,0
+    Actions:
+    - action: PUSH
+      vValue: -1,1,0
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  PushVisual33:
+    Zone:
+      shape: CUBOID
+      x: 7
+      y: 2
+      z: 1
+      Target:
+        targetType: SELF
+        offset: 0,0,-6
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  Push33:
+    Zone:
+      shape: CUBOID
+      x: 7
+      y: 2
+      z: 1
+      Target:
+        targetType: SELF
+        offset: 0,0,-6
+    Actions:
+    - action: PUSH
+      vValue: 0,1,-1
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  PushVisual34:
+    Zone:
+      shape: CUBOID
+      x: 7
+      y: 2
+      z: 1
+      Target:
+        targetType: SELF
+        offset: 0,0,6
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4
+  Push34:
+    Zone:
+      shape: CUBOID
+      x: 7
+      y: 2
+      z: 1
+      Target:
+        targetType: SELF
+        offset: 0,0,6
+    Actions:
+    - action: PUSH
+      vValue: 0,1,1
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 4

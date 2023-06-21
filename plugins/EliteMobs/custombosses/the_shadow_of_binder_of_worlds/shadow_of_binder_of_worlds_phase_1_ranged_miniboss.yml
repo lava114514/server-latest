@@ -1,0 +1,18 @@
+isEnabled: true
+entityType: BLAZE
+name: $reinforcementLevel &3Reality Ruiner
+level: 200
+healthMultiplier: 1.0
+damageMultiplier: 1.0
+powers:
+- attack_gravity.yml
+- tracking_fireball.yml
+- attack_push.yml
+- skeleton_tracking_arrow.yml
+- invulnerability_knockback.yml
+- invulnerability_fire.yml
+dropsEliteMobsLoot: false
+isRegionalBoss: true
+followDistance: 200
+leashRadius: 35
+reinforcement: true

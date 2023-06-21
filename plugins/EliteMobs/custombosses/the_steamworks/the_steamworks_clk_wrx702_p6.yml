@@ -1,0 +1,31 @@
+isEnabled: true
+isRegionalBoss: false
+entityType: RAVAGER
+disguise: IRON_GOLEM
+name: $bossLevel &bCLK-WRx702
+level: 140
+healthMultiplier: 6
+damageMultiplier: 1.1
+leashRadius: 30
+followDistance: 30
+movementSpeedAttribute: 0.38
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- invulnerability_knockback.yml
+- invulnerability_fire.yml
+- invulnerability_arrow.yml
+- thunderstorm.yml
+- plasma_blaster.yml
+- shield_wall.yml
+eliteScript:
+  Say:
+    Events:
+    - ElitePhaseSwitchEvent
+    Actions:
+    - action: MESSAGE
+      sValue: '&b[CLK-WRx702] &fDetected heavy damage. Deploying shields.'
+      Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS

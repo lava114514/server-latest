@@ -1,0 +1,12 @@
+isEnabled: true
+material: DIAMOND_BOOTS
+name: "&1Guardian's Boots"
+lore:
+- "&1You feel power surging"
+- "&1through these boots."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+- "DAMAGE_ALL,5"
+scalability: fixed
+itemType: unique
+level: 10

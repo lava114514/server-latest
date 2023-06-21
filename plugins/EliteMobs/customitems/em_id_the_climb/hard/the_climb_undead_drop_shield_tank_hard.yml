@@ -1,0 +1,10 @@
+isEnabled: true
+material: SHIELD
+name: "&eUndead's Shield"
+lore:
+- '&eRetrieved from the walking corpse.'
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+scalability: fixed
+itemType: unique
+level: 10

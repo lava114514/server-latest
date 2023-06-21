@@ -1,0 +1,8 @@
+isEnabled: true
+entityType: ENDERMAN
+name: $reinforcementLevel &5Reality Slayer
+level: 200
+healthMultiplier: 5.0
+damageMultiplier: 2.0
+dropsVanillaLoot: false
+followDistance: 200

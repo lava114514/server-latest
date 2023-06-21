@@ -1,0 +1,111 @@
+isEnabled: true
+isRegionalBoss: false
+entityType: VINDICATOR
+mainHand: NETHERITE_SWORD
+offHand: SHIELD
+name: $bossLevel &cCharlemagne
+level: 95
+healthMultiplier: 28.0
+damageMultiplier: 1.5
+leashRadius: 50
+followDistance: 50
+movementSpeedAttribute: 0.38
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- invulnerability_fire.yml
+- attack_push.yml
+onDamagedMessages:
+- Have at you!
+- Is that all you got.
+- You fight like a cow!
+- I fought raccoons tougher than you!
+disguise: custom:the_castle_charlemagne
+customDisguiseData: player the_castle_charlemagne setskin {"id":"ac7822c4-dfe7-48da-884d-0303842b797c","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY2NTU4NTE1NDA2MiwKICAicHJvZmlsZUlkIiA6ICJjMTJkMmY5ZWJhZGI0ZTllYTIxZmM2M2M3YWY3M2E5NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcmVhbXlOZW9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk3OTY2MzRlNTM4ZDU5ZTlhOTllYWJhMzkwZjdjZjVlMzQ4YWQyODUzNGY0OTJmNzg2YzM4YzkzNzUyODI0NjQiCiAgICB9CiAgfQp9","signature":"lUho34Ji7mzd9960aqG4HLZCLzL7PUVtVEi7nQ0Y4kHoUe0ZsqRz5Q82JJeULd8aYZQjf0x7bjHL525AUnazgxGZHKKC72FOiskglrVnJNvmEoqdGJw4hQYe2bRe6lVp667jRk2F7XS8Mhbf5S+Fk4Xk2SE+cxiE9rHYZ4ViiPi8N9QBpngdsTz7tpQIS6TYod7B+qIbxY0czex9tjY0jSxv91mw3eAAtD+FO3/aV/SAaNcMVfyqPTvDbgUOVUT+3nlY6zQWmNu0LAfADQdC+k8WWLMQla1tx/Ov9U0WfOkoxJWochg/ZMs7jjpKT+J2Nk6iHbyaHcJs01V/VL+O7CZ1FWbWZhvb8HP7BxyHhiuKuGbGTIpxwTQpn3bKv8rmRAafJ71Y4ClhOlIDOO3lvdPbO5R3AjR1JnZbwhUtd+FypIrxKE2aaMkSZEAgfcuEDYPwSFQ/0v8pJGhTu0TSHOo8JZS5hyIe3F/A44DYpCa3p4egERKZoNQBv6R+f88Gmx4xHBegNODjXG4IEERLCIfobTnJWFOJwePWFP7p+/uZeNUqalZB9sVSFKrWyR/XSBLiACSbijQIuNdc/hm3T9dQFwCN2fzkKXioh/wS6y45bMSzF1XlF0MH0Kq1KHNqgZQ/eGiB5hBKDR1mc+r2fiQvc0HfUI7gDnAdvLQgmfg="}],"legacy":false}
+eliteScript:
+  Healers:
+    Events:
+    - ElitePhaseSwitchEvent
+    Actions:
+    - action: MESSAGE
+      times: 1
+      sValue: '&c[Charlemagne] &fHealers of Azaroon, hear my call! Lend me your aid
+        in this battle!'
+      Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS
+    - action: RUN_SCRIPT
+      scripts:
+      - SummonHealer1
+      - SummonHealer2
+      - SummonHealer3
+      - SummonHealer4
+  SummonHealer1:
+    Zone:
+      radius: 1.0
+      shape: CYLINDER
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: em_knight_castle,23.5,15.5,35.5,0.0,0.0
+    Actions:
+    - action: SUMMON_REINFORCEMENT
+      wait: 20
+      times: 1
+      Conditions:
+        isAlive: true
+      sValue: the_castle_charlemagne_healer.yml
+      Target:
+        targetType: ZONE_FULL
+  SummonHealer2:
+    Zone:
+      radius: 1.0
+      shape: CYLINDER
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: em_knight_castle,18.5,15.5,24.5,0.0,0.0
+    Actions:
+    - action: SUMMON_REINFORCEMENT
+      wait: 20
+      times: 1
+      Conditions:
+        isAlive: true
+      sValue: the_castle_charlemagne_healer.yml
+      Target:
+        targetType: ZONE_FULL
+  SummonHealer3:
+    Zone:
+      radius: 1.0
+      shape: CYLINDER
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: em_knight_castle,27.5,16.5,26.5,0.0,0.0
+    Actions:
+    - action: SUMMON_REINFORCEMENT
+      wait: 20
+      times: 1
+      Conditions:
+        isAlive: true
+      sValue: the_castle_charlemagne_healer.yml
+      Target:
+        targetType: ZONE_FULL
+  SummonHealer4:
+    Zone:
+      radius: 1.0
+      shape: CYLINDER
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: em_knight_castle,35.5,15.5,20.5,0.0,0.0
+    Actions:
+    - action: SUMMON_REINFORCEMENT
+      wait: 20
+      times: 1
+      Conditions:
+        isAlive: true
+      sValue: the_castle_charlemagne_healer.yml
+      Target:
+        targetType: ZONE_FULL

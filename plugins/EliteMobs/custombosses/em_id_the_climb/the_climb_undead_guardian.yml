@@ -1,0 +1,94 @@
+isEnabled: true
+entityType: SKELETON
+name: $minibossLevel &cVillage Guardian
+level: 10
+instanced: true
+healthMultiplier: 4
+damageMultiplier: 0.733
+mainHand: NETHERITE_SWORD
+offHand: SHIELD
+frozen: true
+movementSpeedAttribute: 0.33
+powers:
+- invulnerability_fire.yml
+- arrow_rain.yml
+- attack_poison.yml
+trails:
+- SMOKE_LARGE
+- SMOKE_LARGE
+leashRadius: 25
+phases:
+- the_climb_undead_guardian_p2.yml:.9999
+eliteScript:
+  DomeArenaReset:
+    Events:
+    - EliteMobSpawnEvent
+    Zone:
+      radius: 10.0
+      borderRadius: 9.0
+      shape: DOME
+      filter: LIVING
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,416.5,43.0,364.5,0.0,0.0
+    Actions:
+    - action: PLACE_BLOCK
+      wait: 20
+      duration: 12000
+      material: AIR
+      Conditions:
+        isAlive: true
+      Target:
+        targetType: ZONE_BORDER
+  Wait:
+    Events:
+    - EliteMobSpawnEvent
+    Zone:
+      radius: 15.0
+      height: 2.0
+      shape: CYLINDER
+      filter: PLAYER
+      Target:
+        targetType: SELF
+    Actions:
+    - action: SET_MOB_AI
+      bValue: false
+      Target:
+        targetType: SELF
+    - action: SET_MOB_AI
+      wait: 160
+      bValue: true
+      repeatEvery: 5
+      Target:
+        targetType: SELF
+      Conditions:
+        hasTags:
+        - wake
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 100
+        conditionType: FILTERING
+    - action: TAG
+      repeatEvery: 5
+      tags:
+      - wake
+      Target:
+        targetType: ZONE_FULL
+  Engage:
+    Events:
+    - EliteMobTargetPlayerEvent
+    Actions:
+    - action: DAMAGE
+      multiplier: 0.5
+      Target:
+        targetType: SELF
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+isRegionalBoss: true
+followDistance: 25
+normalizedCombat: true
+dropsRandomLoot: false
+disguise: custom:the_climb_undead_2
+customDisguiseData: player the_climb_undead_2 setskin {"id":"2cc1589b-7ffc-4d7d-8fb3-c81d560b1caf","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY0NzcyMTYzNDY5OSwKICAicHJvZmlsZUlkIiA6ICI1ODkwNjAyNDYyMzE0ZGFjODM0NWQ3YjI4MmExZDI4ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJXeW5uY3JhZnRHYW1pbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDk2MGNlZGFhMzZkZTQxNmIyMzhmY2Y3ZmZiYmJlNWNjOTgyZjE0MGVjMTZlNzYxZThjNjYxMGQ3NTFjNzM2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=","signature":"DW27LHyy4vPb9v7MWVSpla+fvsW8C7o1K63ZS5FdKLNWa7IfbfZJA2ZdxZsdtHWhAzzVcranKITFW0oAAajKggfV272dCntQgYnujB4mX/fklOxHsDqSHdbhqwedeDtrujWr3ErPMSQTmOkZBVWmqTDHE5eQe1ZwiJNma+0mYaz1O4dqClufufrZn1GYcIyU8nhu9ymrpRExgwq1LiYh0urk2mb1FsckIzLCnR3y0lJz+bHuZkiqY/3goe3mWhGoyM7lGeDnBE7Y5FPuDsk/hBiCVU3aJ8M74+HV7sKcvu16Ms5lOwSOxJ7Ft0JLLPbPG4Yh7PlTQSliT8aLaF/NkFGtx7sfDK52RS5ZWGlyPteYOWwpakG1dRoFI5jtMRWC3a3r+0upoqJYWjgc5MY1U1LUm37EHfr4R+Ox1BDMFDQRu5a9uTiGSlfm+qRo1W+dUO9ihwoLCu6W4fbswVtvrB+RVJKoUB8CxfgU7+6Au9c0g4krgqcqvpl/I8AQMBobFWqoMn9JTdHL8uKSAM2A2JH6uYUiAnab7ciWSjJjCjDL4h85iZy1p7fvIqB2544RAV9QjTlmh5D6GcUU/+dITpjTr/CTLRh7J4g3Dv+eQFKdtk0pH6SjbUI60d7nQABDM2VLxGspxFC42nNwvTXQC6o3S0TWRj1qgRQwbk4lNTE="}],"legacy":false}
+spawnLocations:
+- em_id_the_climb,416.5,43,364.5,0.0,0.0

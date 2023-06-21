@@ -1,0 +1,118 @@
+isEnabled: true
+isRegionalBoss: false
+entityType: RAVAGER
+disguise: IRON_GOLEM
+name: $bossLevel &bCLK-WRx702
+level: 140
+healthMultiplier: 6
+damageMultiplier: 1.1
+leashRadius: 30
+followDistance: 30
+movementSpeedAttribute: 0.38
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- invulnerability_knockback.yml
+- invulnerability_fire.yml
+- thunderstorm.yml
+- plasma_blaster.yml
+eliteScript:
+  SayAndPlaceRod:
+    Events:
+    - ElitePhaseSwitchEvent
+    Zone:
+      radius: 1.0
+      shape: CYLINDER
+      height: 1
+      Target:
+        targetType: SELF
+        track: true
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - RodDamageZone
+      - RodVisual
+    - action: MESSAGE
+      sValue: '&b[CLK-WRx702] &fFire-arrow launcher critically damaged. Switching
+        to plasma cannon.'
+      Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS
+    - action: MESSAGE
+      wait: 110
+      sValue: '&b[CLK-WRx702] &fDeploying lightning rod.'
+      Target:
+        range: 30.0
+        targetType: NEARBY_PLAYERS
+    - action: PLACE_BLOCK
+      material: LIGHTNING_ROD
+      wait: 115
+      duration: 5000
+      Conditions:
+        locationIsAir: true
+        isAlive: true
+      Target:
+        targetType: ZONE_FULL
+        track: false
+    - action: STRIKE_LIGHTNING
+      wait: 150
+      repeatEvery: 111
+      Conditions:
+        isAlive: true
+      Target:
+        targetType: ZONE_FULL
+        track: false
+  RodVisual:
+    Zone:
+      radius: 1.0
+      shape: CYLINDER
+      height: 2
+      Target:
+        targetType: SELF
+        track: true
+    Actions:
+    - action: SPAWN_PARTICLE
+      wait: 120
+      repeatEvery: 10
+      amount: 3
+      particles:
+      - particle: ELECTRIC_SPARK
+        speed: 0.66
+      Conditions:
+        isAlive: true
+      Target:
+        targetType: ZONE_FULL
+        track: false
+  RodDamageZone:
+    Zone:
+      radius: 4.0
+      shape: DOME
+      height: 1
+      Target:
+        targetType: SELF
+        track: true
+    Actions:
+    - action: SET_ON_FIRE
+      duration: 100
+      wait: 150
+      repeatEvery: 111
+      Conditions:
+        isAlive: true
+      Target:
+        targetType: ZONE_FULL
+        track: false
+    - action: SPAWN_PARTICLE
+      wait: 150
+      repeatEvery: 111
+      amount: 1
+      particles:
+      - particle: ELECTRIC_SPARK
+        speed: 0.5
+      - particle: FLAME
+        speed: 0.5
+      Conditions:
+        isAlive: true
+      Target:
+        targetType: ZONE_FULL
+        track: false

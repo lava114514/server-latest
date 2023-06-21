@@ -1,0 +1,12 @@
+isEnabled: true
+material: GOLDEN_BOOTS
+name: "&bBoots of Balance"
+lore:
+- "&bBalanced to perfection."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,2"
+- "DAMAGE_ALL,2"
+- "DURABILITY,1"
+scalability: fixed
+itemType: unique
+level: 10

@@ -1,0 +1,12 @@
+isEnabled: true
+material: DIAMOND_HELMET
+name: "&bFrostbite Helmet"
+lore:
+- "&bOffers decent protection"
+- "&beven though taken from a corpse."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,3"
+- "DAMAGE_ALL,5"
+scalability: fixed
+itemType: unique
+level: 10

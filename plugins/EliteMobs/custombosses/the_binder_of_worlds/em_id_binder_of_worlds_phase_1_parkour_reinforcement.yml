@@ -1,0 +1,15 @@
+isEnabled: true
+entityType: SHULKER
+name: $reinforcementLevel &2Reality Harbinger
+level: 200
+healthMultiplier: 1.0
+damageMultiplier: 1.0
+powers:
+- attack_push.yml
+- skeleton_tracking_arrow.yml
+- invulnerability_knockback.yml
+- invulnerability_fire.yml
+dropsEliteMobsLoot: false
+frozen: true
+followDistance: 200
+reinforcement: true

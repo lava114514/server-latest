@@ -1,0 +1,175 @@
+powerType: UNIQUE
+eliteScript:
+  Trigger:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: SET_MOB_AI
+      Target:
+        targetType: SELF
+      bValue: false
+      duration: 60
+    - action: RUN_SCRIPT
+      wait: 5
+      scripts:
+      - "RunSets"
+      - "RunSets2"
+      - "RunSets3"
+      onlyRunOneScript: true
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+    Cooldowns:
+      local: 333
+      global: 60
+  RunSets:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "FireWallVisual"
+      - "FireWall"
+  RunSets2:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "FireWallVisual2"
+      - "FireWall2"
+  RunSets3:
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "FireWallVisual"
+      - "FireWall"
+      - "FireWallVisual2"
+      - "FireWall2"
+  FireWallVisual:
+    Zone:
+      shape: CUBOID
+      x: 21
+      y: 2
+      z: 1
+      Target:
+        targetType: SELF
+        offset: 0,0,0
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: FLAME
+      - particle: SMOKE_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      repeatEvery: 10
+      times: 12
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+  FireWall:
+    Zone:
+      shape: CUBOID
+      x: 21
+      y: 2
+      z: 1
+      Target:
+        targetType: SELF
+        offset: 0,0,0
+      filter: PLAYER
+    Actions:
+    - action: SET_ON_FIRE
+      wait: 20
+      repeatEvery: 10
+      times: 12
+      duration: 90
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+    - action: POTION_EFFECT
+      wait: 20
+      repeatEvery: 10
+      times: 12
+      potionEffectType: BLINDNESS
+      amplifier: 1
+      duration: 90
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+  FireWallVisual2:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 2
+      z: 21
+      Target:
+        targetType: SELF
+        offset: 0,0,0
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: FLAME
+      - particle: SMOKE_NORMAL
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      repeatEvery: 10
+      times: 12
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+  FireWall2:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 2
+      z: 21
+      Target:
+        targetType: SELF
+        offset: 0,0,0
+      filter: PLAYER
+    Actions:
+    - action: SET_ON_FIRE
+      wait: 20
+      repeatEvery: 10
+      times: 12
+      duration: 90
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+    - action: POTION_EFFECT
+      wait: 20
+      repeatEvery: 10
+      times: 12
+      potionEffectType: BLINDNESS
+      amplifier: 1
+      duration: 90
+      Target:
+        targetType: ZONE_FULL
+        track: false
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+# Generated with https://magmaguy.com/webapp/webapp.html !

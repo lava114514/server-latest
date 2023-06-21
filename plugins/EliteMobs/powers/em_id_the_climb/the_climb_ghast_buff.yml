@@ -1,0 +1,139 @@
+powerType: UNIQUE
+eliteScript:
+  Trigger:
+    Events:
+    - ElitePhaseSwitchEvent
+    Actions:
+    - action: MESSAGE
+      sValue: "&5[Skeletal Shadow] &fIt would have been real useful if you were here right now, Jeffrey!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    - action: MESSAGE
+      sValue: "&a[Jeffrey] &fI will be there soon just hold on for a few."
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+      wait: 30
+    - action: MESSAGE
+      sValue: "&a[Jeffrey] &fI am halfway there!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+      wait: 500
+    - action: MESSAGE
+      sValue: "&a[Jeffrey] &fAlmost there now!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+      wait: 850
+    - action: MESSAGE
+      sValue: "&a[Jeffrey] &fWarping in 3..."
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+      wait: 1000
+    - action: MESSAGE
+      sValue: "&a[Jeffrey] &f2..."
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+      wait: 1020
+    - action: MESSAGE
+      sValue: "&a[Jeffrey] &f1..."
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+      wait: 1040
+    - action: RUN_SCRIPT
+      wait: 1050
+      scripts:
+      - "GhastArrive"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+  GhastArrive:
+    Zone:
+      shape: CYLINDER
+      radius: 1
+      height: 1
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,309,93,71,0,0
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_NORMAL
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 5
+      times: 4
+    - action: PLAY_SOUND
+      sValue: "entity.ghast.shoot"
+      Target:
+        targetType: ZONE_FULL
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_LARGE
+      Target:
+        targetType: ZONE_FULL
+      wait: 20
+      repeatEvery: 5
+      times: 4
+    - action: PLAY_SOUND
+      sValue: "entity.ghast.shoot"
+      Target:
+        targetType: ZONE_FULL
+      wait: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_HUGE
+      Target:
+        targetType: ZONE_FULL
+      wait: 40
+      repeatEvery: 5
+      times: 4
+    - action: PLAY_SOUND
+      sValue: "entity.ghast.shoot"
+      Target:
+        targetType: ZONE_FULL
+      wait: 40
+    - action: PLAY_SOUND
+      sValue: "entity.ghast.warn"
+      Target:
+        targetType: ZONE_FULL
+      wait: 50
+    - action: SUMMON_REINFORCEMENT
+      sValue: "the_climb_skeletal_shadow_ghast.yml"
+      duration: 9999
+      Target:
+        targetType: ZONE_FULL
+      wait: 40
+# Generated with https://magmaguy.com/webapp/webapp.html !

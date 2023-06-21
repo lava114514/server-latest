@@ -1,0 +1,23 @@
+isEnabled: true
+entityType: BLAZE
+name: $eventBossLevel &cSparky
+level: 20
+healthMultiplier: 30
+damageMultiplier: 1.5
+powers:
+- arrow_fireworks.yml
+- fireworks_barrage.yml
+phases:
+- fireworks_level_50_boss_phase_2.yml:0.66
+- fireworks_level_50_boss_phase_3.yml:0.33
+spawnMessage: '&eSparks fill the sky!'
+dropsEliteMobsLoot: true
+dropsVanillaLoot: true
+isRegionalBoss: true
+followDistance: 200
+spawnCooldown: 360
+announcementPriority: 3
+cullReinforcements: true
+leashRadius: 70
+spawnLocations:
+- em_fireworks,-2.5,71.5,0.5,0.0,0.0:0

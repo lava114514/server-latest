@@ -1,0 +1,13 @@
+isEnabled: true
+material: SHIELD
+name: "&3Bone Champion's Deflector"
+lore:
+- '&3Excellent for deflecting strikes.'
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,5"
+- "PROTECTION_PROJECTILE,5"
+- "DAMAGE_ALL,3"
+- "LOUD_STRIKES,1"
+scalability: fixed
+itemType: unique
+level: 10

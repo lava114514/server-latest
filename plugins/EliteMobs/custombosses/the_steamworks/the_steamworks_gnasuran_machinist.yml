@@ -1,0 +1,27 @@
+isEnabled: true
+isRegionalBoss: true
+entityType: HUSK
+isBaby: true
+helmet: IRON_HELMET
+chestplate: NETHERITE_CHESTPLATE
+leggings: NETHERITE_LEGGINGS
+boots: NETHERITE_BOOTS
+mainHand: IRON_HOE
+name: $normalLevel &4Gnasuran Machinist
+level: 140
+frozen: false
+spawnCooldown: 60
+healthMultiplier: 1.2
+damageMultiplier: 1.0
+leashRadius: 10
+followDistance: 10
+movementSpeedAttribute: 0.25
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+powers:
+- invulnerability_fire.yml
+- attack_weakness.yml
+spawnLocations:
+- em_steamworks_lair,-72.5,-6.5,-71.5,0.0,0.0
+

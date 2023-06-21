@@ -1,0 +1,219 @@
+isEnabled: true
+entityType: STRAY
+name: $minibossLevel &bVillage Champion
+level: 10
+instanced: true
+healthMultiplier: 4
+damageMultiplier: 0.6
+movementSpeedAttribute: 0.33
+frozen: false
+powers:
+- the_climb_ceiling.yml
+- taze.yml
+- filename: ground_pound.yml
+  difficultyID:
+  - 1
+  - 2
+- summonType: ON_COMBAT_ENTER
+  filename: the_climb_bone_champion_summon.yml
+- summonType: ON_COMBAT_ENTER
+  filename: the_climb_bone_champion_summon.yml
+- summonType: ON_COMBAT_ENTER
+  filename: the_climb_bone_champion_summon.yml
+- summonType: ON_COMBAT_ENTER
+  filename: the_climb_bone_champion_summon.yml
+- summonType: ON_COMBAT_ENTER
+  filename: the_climb_bone_champion_summon.yml
+deathMessages:
+- They came from the mines...
+eliteScript:
+  CloseOff1:
+    Events:
+    - ElitePhaseSwitchEvent
+    Zone:
+      radius: 1.0
+      height: 3.0
+      shape: CYLINDER
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,269.5,78.0,228.5,0.0,0.0
+    Actions:
+    - action: PLACE_BLOCK
+      wait: 20
+      duration: 12000
+      material: GLASS
+      Conditions:
+        locationIsAir: true
+        isAlive: true
+      Target:
+        targetType: ZONE_FULL
+    - action: POTION_EFFECT
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 40
+      potionEffectType: BLINDNESS
+      amplifier: 0
+      duration: 20    
+    - action: TELEPORT
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 40
+      FinalTarget:
+        targetType: LOCATION  
+        location: same_as_boss,272.5,78.0,235.5,0.0,0.0
+    - action: RUN_SCRIPT
+      scripts:
+      - CloseOff2
+      - CloseOff3
+      - CloseOff4
+      - CloseOff5
+      - CloseOff6
+  CloseOff2:
+    Zone:
+      radius: 1.0
+      height: 6.0
+      shape: CYLINDER
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,276.5,78.0,235.5,0.0,0.0
+    Actions:
+    - action: PLACE_BLOCK
+      wait: 20
+      duration: 12000
+      material: GLASS
+      Conditions:
+        locationIsAir: true
+        isAlive: true
+      Target:
+        targetType: ZONE_FULL
+  CloseOff3:
+    Zone:
+      radius: 1.0
+      height: 6.0
+      shape: CYLINDER
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,276.5,78.0,234.5,0.0,0.0
+    Actions:
+    - action: PLACE_BLOCK
+      wait: 20
+      duration: 12000
+      material: GLASS
+      Conditions:
+        locationIsAir: true
+        isAlive: true
+      Target:
+        targetType: ZONE_FULL
+  CloseOff4:
+    Zone:
+      radius: 1.0
+      height: 6.0
+      shape: CYLINDER
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,276.5,78.0,233.5,0.0,0.0
+    Actions:
+    - action: PLACE_BLOCK
+      wait: 20
+      duration: 12000
+      material: GLASS
+      Conditions:
+        locationIsAir: true
+        isAlive: true
+      Target:
+        targetType: ZONE_FULL
+  CloseOff5:
+    Zone:
+      radius: 1.0
+      height: 6.0
+      shape: CYLINDER
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,276.5,78.0,236.5,0.0,0.0
+    Actions:
+    - action: PLACE_BLOCK
+      wait: 20
+      duration: 12000
+      material: GLASS
+      Conditions:
+        locationIsAir: true
+        isAlive: true
+      Target:
+        targetType: ZONE_FULL
+  CloseOff6:
+    Zone:
+      radius: 1.0
+      height: 6.0
+      shape: CYLINDER
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,276.5,78.0,237.5,0.0,0.0
+    Actions:
+    - action: PLACE_BLOCK
+      wait: 20
+      duration: 12000
+      material: GLASS
+      Conditions:
+        locationIsAir: true
+        isAlive: true
+      Target:
+        targetType: ZONE_FULL
+  Open1:
+    Events:
+    - EliteMobDeathEvent
+    Zone:
+      radius: 2.0
+      height: 3.0
+      shape: CYLINDER
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,275.5,78.0,235.5,0.0,0.0
+    Actions:
+    - action: PLACE_BLOCK
+      duration: 12000
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+  Open2:
+    Events:
+    - EliteMobDeathEvent
+    Zone:
+      radius: 1.0
+      height: 3.0
+      shape: CYLINDER
+      Target:
+        targetType: LOCATION
+        location: same_as_boss,269.5,78.0,228.5,0.0,0.0
+    Actions:
+    - action: PLACE_BLOCK
+      duration: 12000
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+uniqueLootList:
+- filename: the_climb_bone_champion_drop_chestplate_tank_normal.yml
+  chance: 0.2
+  difficultyID: 0
+- filename: the_climb_bone_champion_drop_chestplate_tank_hard.yml
+  chance: 0.2
+  difficultyID: 1
+- filename: the_cimb_bone_champion_drop_chestplate_tank_mythic.yml
+  chance: 0.2
+  difficultyID: 2
+- filename: the_climb_bone_champion_drop_shield_tank_normal.yml
+  chance: 0.2
+  difficultyID: 0
+- filename: the_climb_bone_champion_drop_shield_tank_hard.yml
+  chance: 0.2
+  difficultyID: 1
+- filename: the_climb_bone_champion_drop_shield_tank_mythic.yml
+  chance: 0.2
+  difficultyID: 2
+mainHand: NETHERITE_SWORD
+offHand: DIAMOND_SWORD
+leashRadius: 13
+followDistance: 13
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+normalizedCombat: true
+dropsRandomLoot: false

@@ -1,0 +1,30 @@
+isEnabled: true
+entityType: DROWNED
+name: $normalLevel &bTrident Launcher
+mainHand: TRIDENT
+healthMultiplier: 2.2
+damageMultiplier: 0.1
+movementSpeedAttribute: 0.0001
+powers:
+- invisibility.yml
+- invulnerability_fire.yml
+frozen: false
+leashRadius: 30
+followDistance: 30
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+isRegionalBoss: false
+normalizedCombat: true
+dropsRandomLoot: false
+eliteScript:
+  Float:
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - action: POTION_EFFECT
+      potionEffectType: LEVITATION
+      amplifier: 3
+      duration: 10
+      Target:
+        targetType: SELF
+      repeatEvery: 14

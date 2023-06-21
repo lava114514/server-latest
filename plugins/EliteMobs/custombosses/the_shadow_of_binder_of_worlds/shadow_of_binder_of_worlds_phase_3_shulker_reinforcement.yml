@@ -1,0 +1,7 @@
+isEnabled: true
+entityType: SHULKER
+name: $reinforcementLevel &5Reality Riftrender
+level: 200
+healthMultiplier: 1.0
+damageMultiplier: 1.0
+followDistance: 200

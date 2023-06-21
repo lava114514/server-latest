@@ -1,0 +1,12 @@
+isEnabled: true
+material: DIAMOND_LEGGINGS
+name: "&1Guardian Leggings"
+lore:
+- "&1They protected the Undead Guardian"
+- "&1and now they protect you."
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,7"
+- "DAMAGE_ALL,3"
+scalability: fixed
+itemType: unique
+level: 10

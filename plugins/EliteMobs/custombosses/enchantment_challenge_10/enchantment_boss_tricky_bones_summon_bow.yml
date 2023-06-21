@@ -1,0 +1,19 @@
+isEnabled: true
+entityType: ZOMBIE
+name: $normalLevel &aBow Dispenser
+mainHand: BOW
+healthMultiplier: 0.05
+damageMultiplier: 0.01
+movementSpeedAttribute: 0.1
+powers:
+- invulnerability_fire.yml
+uniqueLootList:
+- filename=tricky_bow.yml:amount=1:chance=1.0
+frozen: false
+leashRadius: 30
+followDistance: 30
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+isRegionalBoss: false
+normalizedCombat: true
+dropsRandomLoot: false

@@ -1,0 +1,13 @@
+isEnabled: true
+material: NETHERITE_HELMET
+name: "&dBeastmaster's Helm"
+lore:
+- '&dA powerful piece of headgear.'
+enchantments: 
+- "PROTECTION_ENVIRONMENTAL,7"
+- "DAMAGE_ALL,3"
+- "DURABILITY,4"
+- "LOUD_STRIKES,2"
+scalability: fixed
+itemType: unique
+level: 10

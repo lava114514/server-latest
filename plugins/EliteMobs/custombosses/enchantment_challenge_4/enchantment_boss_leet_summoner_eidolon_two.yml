@@ -1,0 +1,56 @@
+isEnabled: true
+entityType: VEX
+name: $normalLevel &dEidolon
+mainHand: TRIDENT
+healthMultiplier: 0.10
+damageMultiplier: 0.05
+movementSpeedAttribute: 0.2
+powers:
+- invulnerability_fire.yml
+frozen: false
+leashRadius: 30
+followDistance: 30
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+isRegionalBoss: false
+normalizedCombat: true
+dropsRandomLoot: false
+eliteScript:
+  Annoy:
+    Events:
+    - EliteMobSpawnEvent
+    Zone:
+      shape: SPHERE
+      radius: 4
+      borderRadius: 3
+      Target:
+        targetType: SELF
+        track: true
+      filter: PLAYER
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SMOKE_NORMAL
+        speed: 0.01
+      Target:
+        targetType: ZONE_BORDER
+        track: true
+        coverage: 0.75
+      repeatEvery: 5
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+    - action: POTION_EFFECT
+      Target: 
+        targetType: ZONE_FULL
+      potionEffectType: BLINDNESS
+      amplifier: 3
+      repeatEvery: 5
+      duration: 40
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true

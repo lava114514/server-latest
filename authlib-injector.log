@@ -1,9 +1,9 @@
-Logging started at 2023-06-02T14:23:41.652977800Z
+Logging started at 2023-06-21T13:11:02.316861300Z
 [authlib-injector] [INFO] Version: 1.2.1
 [authlib-injector] [INFO] Authentication server: https://littleskin.cn/api/yggdrasil
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.HttpAuthenticationService] with [ConcatenateURL Workaround]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.properties.Property] with [Yggdrasil Public Key Transformer]
-[authlib-injector] [INFO] Httpd is running on port 58214
+[authlib-injector] [INFO] Httpd is running on port 49371
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilEnvironment] with [Constant URL Transformer]
 [authlib-injector] [INFO] Transformed [com.mojang.authlib.yggdrasil.YggdrasilServicesKeyInfo] with [Yggdrasil Public Key Transformer]
 [authlib-injector] [INFO] Transformed [cc.trixey.invero.ui.bukkit.util.SkullKt] with [Constant URL Transformer]
@@ -11,4 +11,3 @@ Logging started at 2023-06-02T14:23:41.652977800Z
 [authlib-injector] [INFO] Transformed [com.sk89q.worldguard.util.profile.resolver.HttpRepositoryService] with [Constant URL Transformer]
 [authlib-injector] [INFO] Transformed [net.minecraft.server.network.LoginListener] with [Username Character Check Transformer]
 [authlib-injector] [INFO] Transformed [net.minecraft.server.network.LoginListener] with [Paper Username Check Transformer]
-[authlib-injector] [INFO] Transformed [org.geysermc.geyser.skin.SkinProvider] with [Constant URL Transformer]

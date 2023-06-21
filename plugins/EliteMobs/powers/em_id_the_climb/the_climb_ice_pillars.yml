@@ -1,0 +1,62 @@
+powerType: UNIQUE
+eliteScript:
+  IcePillars:
+    Events:
+    - ElitePhaseSwitchEvent
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      height: 8
+      Target:
+        targetType: LOCATIONS
+        locations:
+        - "same_as_boss,407,121,76"
+        - "same_as_boss,396,121,85"
+        - "same_as_boss,392,121,80"
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SNOWFLAKE
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 20
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+    - action: POTION_EFFECT
+      potionEffectType: HARM
+      amplifier: 0
+      duration: 20
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 40
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 3
+      duration: 60
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 5
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+    - action: VISUAL_FREEZE
+      duration: 80
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 5
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        isAlive: true
+# Generated with https://magmaguy.com/webapp/webapp.html !

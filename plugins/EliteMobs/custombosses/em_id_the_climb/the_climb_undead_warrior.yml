@@ -1,0 +1,126 @@
+isEnabled: true
+entityType: HUSK
+name: $normalLevel &4Former Defender
+level: 10
+instanced: true
+healthMultiplier: 1.33
+damageMultiplier: 0.73
+mainHand: NETHERITE_SWORD
+leashRadius: 30
+movementSpeedAttribute: 0.29
+powers:
+- invulnerability_fire.yml
+- filename: attack_fire.yml
+  difficultyID:
+  - 1
+  - 2
+- filename: invulnerability_arrow.yml
+  difficultyID:
+  - 2
+uniqueLootList:
+- filename: the_climb_undead_drop_boots_dps_normal.yml
+  chance: 0.01
+  difficultyID: 0
+- filename: the_climb_undead_drop_boots_dps_hard.yml
+  chance: 0.01
+  difficultyID: 1
+- filename: the_climb_undead_drop_boots_dps_mythic.yml
+  chance: 0.01
+  difficultyID: 2
+- filename: the_climb_undead_drop_boots_tank_normal.yml
+  chance: 0.01
+  difficultyID: 0
+- filename: the_climb_undead_drop_boots_tank_hard.yml
+  chance: 0.01
+  difficultyID: 1
+- filename: the_climb_undead_drop_boots_tank_mythic.yml
+  chance: 0.01
+  difficultyID: 2
+- filename: the_climb_undead_drop_chestplate_dps_normal.yml
+  chance: 0.01
+  difficultyID: 0
+- filename: the_climb_undead_drop_chestplate_dps_hard.yml
+  chance: 0.01
+  difficultyID: 1
+- filename: the_climb_undead_drop_chestplate_dps_mythic.yml
+  chance: 0.01
+  difficultyID: 2
+- filename: the_climb_undead_drop_chestplate_tank_normal.yml
+  chance: 0.01
+  difficultyID: 0
+- filename: the_climb_undead_drop_chestplate_tank_hard.yml
+  chance: 0.01
+  difficultyID: 1
+- filename: the_climb_undead_drop_chestplate_tank_mythic.yml
+  chance: 0.01
+  difficultyID: 2
+- filename: the_climb_undead_drop_helmet_dps_normal.yml
+  chance: 0.01
+  difficultyID: 0
+- filename: the_climb_undead_drop_helmet_dps_hard.yml
+  chance: 0.01
+  difficultyID: 1
+- filename: the_climb_undead_drop_helmet_dps_mythic.yml
+  chance: 0.01
+  difficultyID: 2
+- filename: the_climb_undead_drop_helmet_tank_normal.yml
+  chance: 0.01
+  difficultyID: 0
+- filename: the_climb_undead_drop_helmet_tank_hard.yml
+  chance: 0.01
+  difficultyID: 1
+- filename: the_climb_undead_drop_helmet_tank_mythic.yml
+  chance: 0.01
+  difficultyID: 2
+- filename: the_climb_undead_drop_leggings_dps_normal.yml
+  chance: 0.01
+  difficultyID: 0
+- filename: the_climb_undead_drop_leggings_dps_hard.yml
+  chance: 0.01
+  difficultyID: 1
+- filename: the_climb_undead_drop_leggings_dps_mythic.yml
+  chance: 0.01
+  difficultyID: 2
+- filename: the_climb_undead_drop_leggings_tank_normal.yml
+  chance: 0.01
+  difficultyID: 0
+- filename: the_climb_undead_drop_leggings_tank_hard.yml
+  chance: 0.01
+  difficultyID: 1
+- filename: the_climb_undead_drop_leggings_tank_mythic.yml
+  chance: 0.01
+  difficultyID: 2
+- filename: the_climb_undead_drop_shield_tank_normal.yml
+  chance: 0.01
+  difficultyID: 0
+- filename: the_climb_undead_drop_shield_tank_hard.yml
+  chance: 0.01
+  difficultyID: 1
+- filename: the_climb_undead_drop_shield_tank_mythic.yml
+  chance: 0.01
+  difficultyID: 2
+- filename: the_climb_undead_drop_sword_dps_normal.yml
+  chance: 0.01
+  difficultyID: 0
+- filename: the_climb_undead_drop_sword_dps_hard.yml
+  chance: 0.01
+  difficultyID: 1
+- filename: the_climb_undead_drop_sword_dps_mythic.yml
+  chance: 0.01
+  difficultyID: 2
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+isRegionalBoss: true
+followDistance: 30
+normalizedCombat: true
+dropsRandomLoot: false
+disguise: custom:the_climb_undead
+customDisguiseData: player the_climb_undead setskin {"id":"2a5202c2-2a18-4805-878e-b0e249ca0aaa","name":"Unknown","properties":[{"name":"textures","value":"ewogICJ0aW1lc3RhbXAiIDogMTY1NzU5NjU2Mjc1OCwKICAicHJvZmlsZUlkIiA6ICJmODFhNzJhZWZjMjY0MjU0YTQ5NzE0OWYzMjJiZjJlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXJsYW5fODgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWU3YWM3NzJjYWRmOTQ2YzIxODlmZDI3NTUyZjBkM2Y5N2Q0ZWMzM2U2MDE3MmQ4Zjc3YjAxYzYwY2VmOGNiZCIKICAgIH0KICB9Cn0=","signature":"KyYsFY0uHNMREV6QCAreUWAnaCe4FnhdIzEw1CLuHyERZovYrlGKROzYLWiC2Johy3jQ/Z8ubIcF4dg1g5oWrst+CYKq0kE9esm1vI1JWtOsYElm0neHmFO1NC86ng5BiJTJl87+rRGbQT4ku+RtwShQg8JMANWrjIP6Yr7qPWulMfF3QHHNxhx1BNEYRMI1L2qd9RRrgEh8CidhAVjlmsRh8jlpwQVP5yPoNvzsPv0Ctl9Awf4jFxe76A/XzqFr3F28Dfx6cH/yDv8NwTmuQaaH4bJmdYepn/ySbphNcpAqtHBlD+Vz9lHRNd+U29OotPDPIap7uQ740Wdy9Y9noGATgaof4XsWRuG9fFuBKtlIG3OC91+Vnre1qXJ411FgPaJ/z5IeKFgOaWUdqvBYYaG8ELJPqTxzcw5osSdGj7nZnbgbKSzYYt7OksN+nVVTG/fuObLtafB6xn7B8/ifZum67aOLEBzhTJFFwKkbvBHADL+V++TlsqiDbGe7b4QsjCAty+2DH0c9XaCrJ+L5U/7FOSeWYbJiFEmOHZhIvv9O2O8IttVGzXD4bT/kqRx0BRbST9eEQKBNVZ05gUkqujOiegw5WZ7TXJ2HHeNBkKKmDbprCuMHaMbfT/qgl8Tp8ZAW1pbOPl68+7asiGtND8AjuRa9s6zarEX2PZJ2xL0="}],"legacy":false}
+spawnLocations:
+- em_id_the_climb,401.5,43.5,388.5,0.0,0.0
+- em_id_the_climb,415.5,45.5,391.5,0.0,0.0
+- em_id_the_climb,441.5,43.5,347.5,0.0,0.0
+- em_id_the_climb,411.5,44.5,333.5,0.0,0.0
+- em_id_the_climb,275.5,79.5,168.5,0.0,0.0
+- em_id_the_climb,287.5,87.5,128.5,0.0,0.0
+- em_id_the_climb,310.5,97.5,39.5,0.0,0.0
