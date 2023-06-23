@@ -38,7 +38,7 @@
     #- 's:{player} != NOTCH, §c你的名字是NOTCH 不能使用此物品!'
     #- 's:{player} !== notch, §c别以为换了大小写我就不认识你了 你还是不能使用此物品!'
     #数值比较示例(因为用到了PAPI变量, 所以需要安装PAPI并启用Player扩展才能正常执行)
-    #- 'd:%player_level% >= 30, §6等级达到30级才能使用此物品!'
+    - 'd:%player_level% >= 25, §6等级达到25级才能使用此物品!'
     #直接逻辑值示例(因为用到了PAPI变量, 所以需要安装PAPI并启用Player扩展才能正常执行)
     # %player_is_flying% 会返回yes(飞行)或no(未飞行) 由于使用了!运算符进行取反 所以飞行时不能使用 去掉!就是飞行时才能使用了
     #- '!%player_is_flying%, §e由于你正在飞行 不能使用此物品。'
@@ -54,7 +54,7 @@
   #格式为 动作: 值 (动作后面需要紧跟一个英文冒号 否则无法识别出正确动作会默认为整行都是cmd动作的值)
   action:
     #cmd = 让使用物品的玩家执行命令 命令不需要加 /
-    - 'cmd: function minecraft:playerboom'
+    - 'cmd: superrandomcommand run book'
 
   #使用物品需要花费的经验等级 可选 支持变量 不能为负数
   levels: 0
@@ -66,5 +66,18 @@
   required-amount: 0
 
   #冷却时间 单位秒 可选 支持变量 不能为负数 如果设置了冷却时间 表示使用此物品后必须等待指定的时间后才能再次使用此物品(冷却时间每个物品ID单独计算)
-  cooldown: 0
+  cooldown: 1
 
+'xp':
+  #give Enderlava minecraft:paper{display:{Name:'["§经验券"]',Lore:['["1级经验"]']}}
+  name: "§e经验券"
+  lore: "1级经验"
+  lore-exact: false
+  item: "paper"
+  trigger:
+    - 'left'
+    - 'right'
+  action:
+    #cmd = 让使用物品的玩家执行命令 命令不需要加 /
+    - 'console: xp add {player} 1 levels'
+  required-amount: 1

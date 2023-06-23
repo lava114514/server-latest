@@ -10,7 +10,8 @@ damageMultiplier: 3
 onDeathCommands:
 - broadcast $players杀死了$level级的$name！
 - em spawnlocationcustom 2.yml world 0 100 0
-- tp @e[type=zombie] @p
+- kill @e[type=zombie,nbt={Tags:[Huixue2],Silent:1,NoGravity:1,PersistenceRequired:1}]
+- tp @e[type=zombie,tag=!Server] @p
 onSpawnCommands: []
 onCombatEnterCommands: []
 onCombatLeaveCommands: []

@@ -1,0 +1,17 @@
+book:
+#可供选择的指令组
+  commandGroups:
+#指令组的名称 随便填
+    group1:
+      - "function playerboom"
+#指令 (注意以数组符号"-"开头) <player>可以代表执行此指令的玩家的名字
+    group2:
+      - "function playerboom"
+      - "clear <player> minecraft:enchanted_book"
+      - "execute as @e[name=Server] run say <player> 的 §4哲理伦宝典 §8耐久耗尽 "
+      - "execute as @e[name=Server] run say <player> 的 §e所有附魔书 随着 §4哲理伦宝典 §8消失了"
+#默认的每个组的执行几率 保留三位小数
+  defaultChance:
+#组的名字: 几率 不写某个组的则默认那个组几率为0
+    group1: 0.99
+    group2: 0.01

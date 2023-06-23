@@ -15141,3 +15141,23 @@ the_steamworks_gnasuran_weather_activate:
   spawnMessage: ..
   deathMessage: ..
   escapeMessage: ..
+lunpp1:
+  name: '&4战斗伦头盔'
+  lore:
+  - '&2香伦or臭伦'
+  - Choose by yourself!
+lunpp2:
+  name: '&4战斗伦头盔'
+  lore:
+  - '&2香伦or臭伦'
+  - Choose by yourself!
+lunpp3:
+  name: '&4战斗伦头盔'
+  lore:
+  - '&2香伦or臭伦'
+  - Choose by yourself!
+lunpp4:
+  name: '&4战斗伦头盔'
+  lore:
+  - '&2香伦or臭伦'
+  - Choose by yourself!

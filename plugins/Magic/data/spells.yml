@@ -2,7 +2,7 @@ cluster:
   cast_count: 0
   last_cast: 0
 flare:
-  cast_count: 54043195528445952
+  cast_count: 0
   last_cast: 0
 dragonexplodefire:
   cast_count: 0
@@ -14,7 +14,7 @@ bring:
   cast_count: 0
   last_cast: 0
 cure:
-  cast_count: 0
+  cast_count: 8
   last_cast: 0
 doorshop:
   cast_count: 0
@@ -29,7 +29,7 @@ jeweller:
   cast_count: 0
   last_cast: 0
 reflect:
-  cast_count: 33554432
+  cast_count: 137438953472
   last_cast: 0
 music:
   cast_count: 0
@@ -50,7 +50,7 @@ farm:
   cast_count: 0
   last_cast: 0
 fire:
-  cast_count: 1747401053466918912
+  cast_count: 18014401193839740
   last_cast: 0
 wandbuffshop:
   cast_count: 0
@@ -194,7 +194,7 @@ superbroom:
   cast_count: 0
   last_cast: 0
 poison:
-  cast_count: 0
+  cast_count: 4
   last_cast: 0
 spawnershop:
   cast_count: 0
@@ -308,7 +308,7 @@ fillwand:
   cast_count: 0
   last_cast: 0
 missile:
-  cast_count: -4030519354536754676
+  cast_count: 828669787501565224
   last_cast: 0
 trinketshop:
   cast_count: 0
@@ -320,7 +320,7 @@ atm:
   cast_count: 0
   last_cast: 0
 aqualung:
-  cast_count: 1369095420894118407
+  cast_count: 4645574605307208
   last_cast: 0
 arrow_grapple:
   cast_count: 0
@@ -404,7 +404,7 @@ blind:
   cast_count: 0
   last_cast: 0
 boon:
-  cast_count: 144115188075855872
+  cast_count: 0
   last_cast: 0
 axeshop:
   cast_count: 0
@@ -479,7 +479,7 @@ masterattack:
   cast_count: 0
   last_cast: 0
 arrow_poison:
-  cast_count: 671088640
+  cast_count: 2748779069440
   last_cast: 0
 brushshop:
   cast_count: 0
@@ -527,7 +527,7 @@ grant:
   cast_count: 0
   last_cast: 0
 wither:
-  cast_count: 0
+  cast_count: 1220
   last_cast: 0
 stash:
   cast_count: 0
@@ -731,7 +731,7 @@ leathershop:
   cast_count: 0
   last_cast: 0
 recall:
-  cast_count: 1366843586418606080
+  cast_count: -9218868437093187552
   last_cast: 0
 broomshop:
   cast_count: 0
@@ -749,7 +749,7 @@ map:
   cast_count: 0
   last_cast: 0
 fireball:
-  cast_count: 0
+  cast_count: 12
   last_cast: 0
 ledger:
   cast_count: 0
@@ -866,7 +866,7 @@ bowshop:
   cast_count: 0
   last_cast: 0
 whip:
-  cast_count: 0
+  cast_count: 32
   last_cast: 0
 note16:
   cast_count: 0
@@ -1067,7 +1067,7 @@ singularity:
   cast_count: 0
   last_cast: 0
 progressmenu:
-  cast_count: 612489549490159616
+  cast_count: 687194767876
   last_cast: 0
 ghast:
   cast_count: 0
@@ -1112,7 +1112,7 @@ arrowrain:
   cast_count: 0
   last_cast: 0
 collapse:
-  cast_count: 36028797018963968
+  cast_count: 96
   last_cast: 0
 snap:
   cast_count: 0

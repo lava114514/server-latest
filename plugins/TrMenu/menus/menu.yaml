@@ -8,6 +8,8 @@ Bindings:
   # 绑定命令, 支持正则
   Commands:
     - 'menu'
+    - 'cd'
+    - '菜单'
   # 绑定到物品特征
   Items:
     - 'material:compass'
@@ -21,7 +23,7 @@ Layout:
     - '####*###`Next`'
 
   - - '########`Close`'
-    - '      K  '
+    - '  X   K  '
     - '         '
     - '         '
     - '`Pre`########'
@@ -201,6 +203,17 @@ Icons:
       all:
       - 'sound: BLOCK_NOTE_BLOCK_PLING-1-2'
       - 'command *"em"'
+
+  X:
+    update: 40
+    display:
+      material: 
+      - experience_bottle
+      name: '&3经验&e转换&'
+    actions:
+      all:
+      - 'sound: BLOCK_NOTE_BLOCK_PLING-1-2'
+      - 'command *"function minecraft:EEE"'
 
   O:
     update: 40

@@ -10,7 +10,7 @@ damageMultiplier: 20
 onDeathCommands:
 - broadcast $players杀死了$level级的$name！
 - em spawnlocationcustom 4.yml world 0 100 0
-- tp @e[type=vex] @p
+- tp @e[type=vex,tag=!Server] @p
 onSpawnCommands: []
 onCombatEnterCommands: []
 onCombatLeaveCommands: []
@@ -53,4 +53,4 @@ helmet: NETHERITE_HELMET
 chestplate: NETHERITE_CHESTPLATE
 leggings: NETHERITE_LEGGINGS
 boots: NETHERITE_BOOTS
-mainHand: KNOWLEDGE_BOOK
+mainHand: enchanted_book

@@ -44,7 +44,7 @@ settings:
     carpet-alternative-block-placement: true
     pca-sync-protocol: true
   modify:
-    no-feather-falling-trample: false
+    no-feather-falling-trample: true
     shared-villager-discounts: false
     disable-distance-check-for-use-item: true
     fakeplayer:

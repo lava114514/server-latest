@@ -4,6 +4,7 @@ name: '&4哲理伦宝典'
 lore:
 - 诽谤
 enchantments:
+- "MENDING,1"
 - DAMAGE_ALL,10
 - DAMAGE_UNDEAD,5
 - DIG_SPEED,5

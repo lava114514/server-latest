@@ -1,0 +1,26 @@
+name: gun
+powerType: UNIQUE
+isEnabled: true
+eliteScript:
+  gun1:
+    Example:
+      Events:
+      - EliteMobEnterCombatEvent
+      Actions:
+      - action: RUN_SCRIPT
+        scripts:
+        - gun1
+        - gun2
+    gun2:
+      Actions:
+      - action: DAMAGE
+        Target:
+          targetType: NEARBY_PLAYERS
+          range: 10
+        multiplier: 5
+    gun3:
+      Actions:
+      - action: MESSAGE
+        Target: 
+          targetType: DIRECT_TARGET
+        sValue: "&2Gotcha back!"

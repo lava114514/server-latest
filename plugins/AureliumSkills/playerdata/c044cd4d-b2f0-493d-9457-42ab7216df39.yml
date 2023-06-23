@@ -2,58 +2,63 @@ uuid: c044cd4d-b2f0-493d-9457-42ab7216df39
 skills:
   farming:
     level: 10
-    xp: 5260.63999999955
+    xp: 6255.919999999522
   foraging:
     level: 4
-    xp: 93.639999999999
+    xp: 281.079999999999
   mining:
     level: 7
-    xp: 2549.0599999999463
+    xp: 3030.639999999926
   fishing:
-    level: 1
-    xp: 25.0
+    level: 7
+    xp: 2240.0
   excavation:
     level: 3
-    xp: 209.11
+    xp: 213.73000000000013
   archery:
     level: 7
-    xp: 132.30000000000274
+    xp: 375.4000000000026
   defense:
     level: 10
-    xp: 4570.385475245153
+    xp: 7211.350950083139
   fighting:
     level: 14
-    xp: 7417.699999999846
+    xp: 8244.499999999862
   endurance:
     level: 11
-    xp: 5843.0
+    xp: 8482.0
   agility:
-    level: 7
-    xp: 3194.9465324401813
+    level: 8
+    xp: 1673.7734613895357
   alchemy:
     level: 2
-    xp: 10.0
+    xp: 95.0
   enchanting:
     level: 6
     xp: 752.5999999999998
   sorcery:
     level: 3
-    xp: 344.0
+    xp: 483.52916694805026
   healing:
     level: 2
     xp: 75.0
   forging:
     level: 8
-    xp: 2279.5
-mana: 54.0
+    xp: 2543.5
+mana: 56.0
 locale: zh-cn
 ability_data:
   xp_convert:
-    xp: 14.151024780993126
+    xp: 15.29259551638782
   first_strike:
-    counter: 135
+    counter: 140
   absorption:
     activated: false
   charged_shot:
     cooldown: 0
     enabled: true
+stat_modifiers:
+  '0':
+    name: AbilityModifier-EnchantedStrength
+    stat: strength
+    value: 0.5

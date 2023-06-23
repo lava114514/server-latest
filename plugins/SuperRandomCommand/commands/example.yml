@@ -1,0 +1,36 @@
+##随机指令组的名称 随便填
+#抽奖:
+##可供选择的指令组
+#  commandGroups:
+##指令组的名称 随便填
+#    group1:
+##指令 (注意以数组符号"-"开头) <player>可以代表执行此指令的玩家的名字
+#      - "say 这是第一组"
+#      - "say 我是<player>"
+#    group2:
+#      - "say 这是第二组"
+#      - "say 我是<player>"
+##当所有指令组都没有选中时 默认执行的指令 置为空则不执行任何指令
+#  defaultCommand:
+#    - "say 这是默认组"
+#    - "say hello"
+##默认的每个组的执行几率 保留三位小数
+#  defaultChance:
+##组的名字: 几率 不写某个组的则默认那个组几率为0
+#    group1: 0.499
+#    group2: 0.5
+##拥有不同的权限拥有不一样的几率
+#  permissions:
+##权限的名称 注意权限的分隔符"."请使用下划线"_"代替 插件会自动转换为"." 否则插件无法识别
+#    essentialsX_builder:
+##优先级 当玩家拥有多个权限时 优先使用优先级数字大的设置的几率
+#      priority: 1
+##各个组的几率
+#      groups:
+#        group1: 0.5
+#        group2: 0.499
+#    essentialsX_admin:
+#      priority: 2
+#      groups:
+#        group1: 0
+#        group2: 0

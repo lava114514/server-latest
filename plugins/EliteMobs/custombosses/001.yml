@@ -17,14 +17,20 @@ onCombatLeaveCommands: []
 deathMessages:
 uniqueLootList:
 powers:
-- kaoda.yml
-- gun.yml
+- 1kaoda.yml
+- 1gun.yml
 - attack_freeze.yml
 - implosion.yml
 - zombie_bloat.yml
 - zombie_parents.yml
 - zombie_friends.yml
 - bullet_hell.yml
+- attack_freeze.yml
+- frost_cone.yml
+- frost_walker.yml
+- invulnerability_fire.yml
+- bonus_coins.yml:5
+- shield_wall.yml
 onDamageMessages:
 - 真菜！
 onDamagedMessages:

@@ -20,13 +20,13 @@ skills:
     xp: 3942.150000000009
   defense:
     level: 9
-    xp: 4760.168273327651
+    xp: 4780.568273327649
   fighting:
     level: 13
     xp: 13086.099999999755
   endurance:
     level: 12
-    xp: 691.0
+    xp: 695.0
   agility:
     level: 7
     xp: 2139.110407114033
@@ -38,7 +38,7 @@ skills:
     xp: 755.4
   sorcery:
     level: 6
-    xp: 822.0739735141397
+    xp: 824.5739735141397
   healing:
     level: 1
     xp: 20.0
@@ -51,7 +51,7 @@ ability_data:
   first_strike:
     counter: 173
   xp_convert:
-    xp: 3.4596180958343794
+    xp: 10.359618095834376
   charged_shot:
     cooldown: 0
     enabled: false

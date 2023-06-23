@@ -8,7 +8,7 @@ settings:
   connection-throttle: 4000
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: Server closed
+  shutdown-message: 服务器关闭/重启
   minimum-api: none
 spawn-limits:
   monsters: 70
