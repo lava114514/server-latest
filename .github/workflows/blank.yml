@@ -25,8 +25,4 @@ jobs:
           java-version: 17
       - name: Run a multi-line script
         run: |
-<<<<<<< HEAD
           java -Xmx2G -jar leaves-1.19.4.jar nogui.
-=======
-          java -Xmx2G -jar leaves-1.19.4.jar nogui.
->>>>>>> 95f35228123eb59e1fc20fb1e67b331c5a9b4378
