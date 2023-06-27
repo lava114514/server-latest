@@ -12,3 +12,7 @@
 [2023-06-27 13:25:24] xp query Enderlava levels
 [2023-06-27 13:25:36] xp add Enderlava -64 levels
 [2023-06-27 13:25:48] give Enderlava minecraft:paper{display:{Name:'["§e经验券"]',Lore:['["64级经验"]']}}
+[2023-06-27 20:38:20] xp query @a levels
+[2023-06-27 20:38:34] xp query @a[limit=1] levels
+[2023-06-27 20:40:13] ban Funget114514
+[2023-06-27 20:40:37] stop
