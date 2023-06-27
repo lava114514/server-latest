@@ -1,10 +1,10 @@
 id: c044cd4d-b2f0-493d-9457-42ab7216df39
 name: Funget114514
 created: 1679803070926
-updated: 1687520630178
+updated: 1687848023469
 last_cast: 1686390411656
 cooldown_expiration: 0
-last_death_location: -1696.5,64.0,2518.5,world,-86.09763,53.550106
+last_death_location: 6.733125662913129,61.0,-286.9432121063256,world,-15.435394,11.99981
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -455,8 +455,8 @@ classes:
     mana: 50.0
   archer_mage: {}
   battle_mage:
-    mana_timestamp: 1687520630178
+    mana_timestamp: 1687848023469
     mana: 50.0
 transient_modifiers: {}
 active_class: battle_mage
-health: 27.600000381469727
+health: 27.604671478271484

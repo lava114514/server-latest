@@ -1,10 +1,10 @@
 id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
-name: Mr_Jzk
+name: Xw114
 created: 1679719078156
-updated: 1687441592035
-last_cast: 1686974300375
-cooldown_expiration: 1686974388599
-last_death_location: 247.69999998807907,64.95173918391463,-2057.300000011921,world,-159.45728,-3.7502549
+updated: 1687845944759
+last_cast: 1687845717602
+cooldown_expiration: 1687845732310
+last_death_location: -3477.6819450240373,98.875,-4429.404312847389,world_the_end,71.11491,45.450012
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -295,9 +295,9 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   blind:
-    cast_count: 7
-    last_cast: 1685152645238
-    last_earn: 1682921457304
+    cast_count: 9
+    last_cast: 1687839692658
+    last_earn: 1687839694658
     cooldown_expiration: 0
     charges: 0.0
   arrow:
@@ -325,10 +325,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   recall|2:
-    cast_count: 84
-    last_cast: 1686974300376
-    last_earn: 1686974306603
-    cooldown_expiration: 0
+    cast_count: 121
+    last_cast: 1687845717603
+    last_earn: 1687845724269
+    cooldown_expiration: 1687845732603
     charges: 0.0
   spellshop:
     cast_count: 0
@@ -373,9 +373,9 @@ spells:
     cooldown_expiration: 1680323208298
     charges: 0.0
   fireball|2:
-    cast_count: 27
-    last_cast: 1685152519966
-    last_earn: 1682122163055
+    cast_count: 28
+    last_cast: 1687586527259
+    last_earn: 1687586527395
     cooldown_expiration: 0
     charges: 0.0
   swordappearanceshop:
@@ -397,9 +397,9 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   pull:
-    cast_count: 12
-    last_cast: 1683952185159
-    last_earn: 1682919042932
+    cast_count: 13
+    last_cast: 1687843962329
+    last_earn: 1687839703335
     cooldown_expiration: 0
     charges: 0.0
   bowappearanceshop:
@@ -433,9 +433,9 @@ spells:
     cooldown_expiration: 1680270691636
     charges: 0.0
   missile|3:
-    cast_count: 148
-    last_cast: 1685241709910
-    last_earn: 1685241709909
+    cast_count: 151
+    last_cast: 1687581961871
+    last_earn: 1687581961871
     cooldown_expiration: 0
     charges: 0.0
 wands:
@@ -484,7 +484,7 @@ wands:
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
         Unbreakable: true
-        internal: H4sIAAAAAAAA/02RwU7DMAyGPdqxUiaQQNqZA+K0SS0rassDIPEUVZo4a9TUqZJs1YR4d7LtwG5/5P+3PzspwAziHnGcpRBPjEQCMbEB4eGbpCLljy9fxnJMYG4mQgt3A2+m4zHPiwhWnfEts42iA5I39thwsycPoWloo7ghWBH6Dq3y2LjJWPGTV1lW/6bw6EbU+j8aQTzutQ5ZiCCRymLLzs95BHNmrZmCvolgMSjnlMaTL2ROxiDjYGq1InGafW7luiBvIYHkzN0oAa/5R1HlZc02Bc/rTdG+y01V8O1GiDIrM5RbVm1DwOMwauYR0oHtFD9zh8EHtE6FlQAWKSyReMfID4HeRfA8KEJumfSfrmN2JHTugvV0VZnCnRXtLuhXkZ4M71vG+9OKAXmJUiL34ZraWHjLMynrrK7rD8HWEmVdVlLyUmTr60r4yPs9CWvGkbUaZ/AHCUZiQNwBAAA=
+        internal: H4sIAAAAAAAA/01RQU7DMBDckpSGgEACqWcOiFMrJTRVEh6AxCsix143Vp11ZLuNIsTfcdsDvY13Z8azuynADOI94jBLIR4ZiQRiYj3C4zdJRcpPr1/GckxgbkZCC3c9b8ZpyvMigmVnfMtso+iI5I2dGm4O5CGYBhvFDcGS0HdolcfGjcaKn7zKsvo3hSc3oNb/0gji4aB10EIEiVQWW3Z+ziOYM2vNGPBNBIteOac0nnhBcyIGGAdSqxWJ099nK9cFeBu8Fke0ToUoAIsEEo/9oJlHSHu2U/wcKpTPwzVKwFu+Laq8rNm64Hm9LtoPua4KvlkLUWZlhnLDqk0KD0i8Y+T7kN5F8NIrQm6Z9J+uY3YgdO4S6/mqM4Y9K9pdol9J9mT4vmV8fxoRkmAuJXIftqmNhfc8k7LO6rreCraSKOuykpKXIltdd8Ih7w8krBkG1mqcwR8Rd5y/3AEAAA==
     wand:
       name: Infinity Force
       owner: mc_wyy114
@@ -498,9 +498,9 @@ wands:
         fire: 4
         blind: 1
         push: 6
-      version: 7
-      template: magicsword
       owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      template: magicsword
+      version: 7
       enchantments:
         minecraft:sharpness: 4
         minecraft:knockback: 2
@@ -517,13 +517,13 @@ wands:
         display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"法杖"}],"text":""}'
         lore:
         - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"魔力法杖"}],"text":""}'
-        - '{"italic":true,"color":"dark_aqua","text":"绑定 Mr_Jzk"}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Xw114"}'
         - '{"text":"掌握 9 技能"}'
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
-          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"致盲"}],"text":""}'
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"拉力"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
           "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
@@ -537,7 +537,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: 94aaf132-157e-4909-8c01-202a812e20e4
+            uuid: 1710d77c-a036-460d-b63b-955e37678ef3
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -548,20 +548,20 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0VRQW6DMBBcBCSIRM2tpx7bW5AgkEC+UKlvQLZZGiuOjYxJ1Fb9e9ckUn1ae3Z2Z8YpQADRGXEIUohuTHchRAP7RACPPGHfo3AtnzhXOEICayacvGI7DqgUxFxJ3SUQSWE0rEcnxfmnaPK8+E1heSePCSQziTk/NYTlFe0oqR9gSZjDy6A8Nq+nDY+dwihj4U3wWnBe5Vjt2LZBXh64wIMQ231RCDq1qHoWwuJkHGfWy05g8xgxMEuKFPq32Nw0Wlh82Pb9+xzC853QSn1F7Yz9ooWTdt52CpvZ3j/mQ5nIL0AcQtJLi5zN1yCEmFlrblSvyNpFjqNUc3rE8Y1UvYSPoLxjkmpR3NmLee54ojKinl4xe4+IYpnltrKD12JfNUV9ZFklimNW8V2fNZUos66r8zrHvmRNSX+1mnRnzTAw+qkA/gA1d/gt2QEAAA==
+        internal: H4sIAAAAAAAA/0VRS2+DMAw2AlpEq/W2047brUik0EL/yW4oCWaNmgJKQtE07b/PPKTlZMvfw58TA3gQ3BF7L4Zg5G3tQ9DzLwSYJi/YNChdJQYhNFqIYM+lU0+sbI9aE3TQOoJAya6FvXVK3n9YmabsN4btwrURRDOHu0mUOoePXk/d6rd9orGKBAC2PmxunRPcwIzdr/6y052BDykKKUSeYn7ixxJFdhESL1Iez4xJeoXMGx5B2I0tGgg/R8byCA6rSM8NLahpCx9eF5dKtU9sXWe+yWJo3RQ6hsMc7n/mLzlpGPoQNcqg4HPr+RByY7qR6h0FeShrlZ5vR5wJSNUbgYRWbb3mMygX9mbWtTcqA8I0ms94f7rRnKBSNbyzc16y4sqTXLJrkotTk5S5zJK6LtIixSbjZUY/tRva2nR9z+mfPPgD/peTvdcBAAA=
     wand:
       page: 0
       effect_bubbles: false
-      active_spell: blind
+      active_spell: pull
       icon: stick{18001}
       effects:
         activate: ''
-      template: wand
       version: 7
-      hotbar: 0
+      template: wand
       effect_color: cb7cbb40e42a,8eb36bce6cc,511cccc7c4fa
-      owner: Mr_Jzk
+      hotbar: 0
       effect_particle: ''
+      owner: Xw114
       hotbar_inventory_count: 1
       spell_inventory:
         pull: 5
@@ -585,7 +585,7 @@ wands:
         display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"镜之盾"}],"text":""}'
         lore:
         - '{"italic":false,"extra":[{"color":"green","text":"可以格挡和反弹法术"}],"text":""}'
-        - '{"italic":true,"color":"dark_aqua","text":"绑定 Mr_Jzk"}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 Xw114"}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"反弹: IV"}],"text":""}'
         custom-model-data: 18001
         ItemFlags:
@@ -597,13 +597,13 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/x3L0QqCMBQG4F+yHNJjdDtwbbH5CkHPIMsdaaibHCWhpy+6/vhqoEA5Ei1FjXL3KQgc856IcXpwd/+MB1Rv4jXmBKASEH/tYsBF3YxTtvXS9KqV5nkdpDO9liHYxjY0aO/0L2w0L5PfCOc5MmdeX5GmAHwBBvQYeHwAAAA=
+        internal: H4sIAAAAAAAA/x3K0QqDIBQG4D9WJLHH2K2Q8wztTXYXlicmKw2L+fob+66/DqhQv5n3qkNdXPQCTSqRM5pnUYoExMnbvrqTcd1Czikfr8Dr74n/G4PHTT3IKjM4SbMaJE33RVqatfTe9KbnRTurL2g/nI+QIoAW+AIoAHPTewAAAA==
         blockMaterial: SHIELD
     wand:
-      owner: Mr_Jzk
-      template: mirrorshield
-      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      owner: Xw114
       version: 7
+      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      template: mirrorshield
   magicbow:
     item:
       ==: org.bukkit.inventory.ItemStack
@@ -635,7 +635,7 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/12QQU6EQBBFi4AZxDGz8wRuSWjBwHgEL0GKppjpCN2dpoEQ4ylcuHLnMUw8DfewYWPGpDb1U/XqpSIAD4IXIu1FEEwo6xACiR1B9Lz8fCyfX8v3ewhXapJk4Lrj5TTPjGU+3J2VrdCUQo4krTJzydUgLThgCHvkVoxU9praFm7RGDWVhk5Di8YdEFxJiCo1vbIiSdhbBIdt8g/m/1tyWPAddsu0Er0DrOo+7EYyvdjaXQihpU63aAnCDk+Cuxsu3OxLUcM9e8wKlh8xzjg7xln10MRFxtO4rvMkT6hJsUgj2JPkZ5S2czK9D4dOSOIGG/uk1USrTHCRNu36sdXH1c0ga6O0xqolD34B9qN7oWEBAAA=
+        internal: H4sIAAAAAAAA/12QQU6EQBBFi4AZxDGz8wRuSWjBwHgEL0GKppjpCN2dpoEQ4ylcuHLnMUw8DfewYWPGSq0q/7//UxGAB8ELkfYiCCaUdQiBxI4gel5+PpbPr+X7PYQrNUkycN3xcppnxjIf7s7KVmhKIUeSVpm55GqQFhwwhD1yK0Yqe01tC7dojJpKQ6ehReMCBFcSokpNr6xIEvYWwWFT/sF8h9hMWoneiR3V/8eBdUIIt2qlqOGePWYFy48YZ5wd46x6aOIi42lc13mSJ9SkWKTOYKnTLVqCsMOT4K6GD7uRTC+2oF0Ee5L8jNJ2rkzvw6ETkrjBxj5pNdGaHFxcm3b92PpKtzeDrI3SGquWPPgFCo84SWEBAAA=
     wand:
       name: J志坤弓
       owner: mc_wyy114
@@ -643,118 +643,19 @@ wands:
       active_spell: arrow_regular
       icon: bow{18001}
       spell_inventory:
-        arrow_regular: 0
         arrow_poison: 1
-      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
-      template: magicbow
+        arrow_regular: 0
       version: 7
+      template: magicbow
+      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
       enchantments:
         minecraft:power: 4
         minecraft:flame: 1
-respawn_inventory:
-  '2':
-    item:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: STICK
-      meta:
-        ==: ItemMeta
-        meta-type: UNSPECIFIC
-        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"法杖"}],"text":""}'
-        lore:
-        - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"魔力法杖"}],"text":""}'
-        - '{"italic":true,"color":"dark_aqua","text":"绑定 Mr_Jzk"}'
-        - '{"text":"掌握 9 技能"}'
-        - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
-        - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
-        - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
-        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
-          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"致盲"}],"text":""}'
-        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
-          "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
-        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
-          (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
-        - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"yellow","text":"Change
-          controls using an "},{"color":"aqua","text":"enchant table"}],"text":""}'
-        custom-model-data: 18001
-        attribute-modifiers:
-          GENERIC_ATTACK_SPEED:
-          - ==: org.bukkit.attribute.AttributeModifier
-            amount: 10.0
-            name: Equipment Modifier
-            slot: HAND
-            uuid: 14e314be-c8e6-4a15-87e4-2b92523bff01
-            operation: 0
-        ItemFlags:
-        - HIDE_ENCHANTS
-        - HIDE_ATTRIBUTES
-        - HIDE_UNBREAKABLE
-        - HIDE_DESTROYS
-        - HIDE_PLACED_ON
-        - HIDE_POTION_EFFECTS
-        - HIDE_DYE
-        Unbreakable: true
-        internal: H4sIAAAAAAAA/0VRwW6DMAw1AlpEq/W2047brUhQaKG/MGnfgJJg1qhpgkJotU379zm00nJybD8/v+cUIIDojDgEKUQ3prsQooF9IoCvPGHfo3AtnzhXOEICayacvGI7DqgUxFxJ3SUQSWE0rEcnxfmnaPK8+E1heQePCSQziDk/NYTlFe0oqR9gSTWHl0H52kxPDA9OYZSx8CZ4LTivcqx2bNsgLw9c4EGI7b4oBL1aVD0LYXEyjjPr105g8xgxMEsbKfS52Nw0Wlh82Pb9+xzC8x3QSn1F7Yz9IsJJOy87hc0s77/mTZlIL0AcQtJLi5zN34DkXOQ4SjU7FkLMrDU3CleE8Y0UvtB6FsUdsQgfrnn589zxRGFE6V4xe7eIbJnXbWUHr8W+aor6yLJKFMes4rs+aypRZl1X53WOfcmakm61mnRnzTAwulQAf6yXhvHZAQAA
-    wand:
-      page: 0
-      effect_bubbles: false
-      active_spell: blind
-      icon: stick{18001}
-      effects:
-        activate: ''
-      template: wand
-      version: 7
-      hotbar: 0
-      effect_color: cb7cbb40e42a,8eb36bce6cc,511cccc7c4fa
-      owner: Mr_Jzk
-      effect_particle: ''
-      hotbar_inventory_count: 1
-      spell_inventory:
-        pull: 5
-        fireball: 1
-        arrow: 11
-        missile: 0
-        fire: 28
-        blind: 7
-        recall: 6
-        push: 4
-        flare: 3
-      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
-  '8':
-    item:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: SHIELD
-      meta:
-        ==: ItemMeta
-        meta-type: TILE_ENTITY
-        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"镜之盾"}],"text":""}'
-        lore:
-        - '{"italic":false,"extra":[{"color":"green","text":"可以格挡和反弹法术"}],"text":""}'
-        - '{"italic":true,"color":"dark_aqua","text":"绑定 Mr_Jzk"}'
-        - '{"italic":false,"extra":[{"color":"aqua","text":"反弹: IV"}],"text":""}'
-        custom-model-data: 18001
-        ItemFlags:
-        - HIDE_ENCHANTS
-        - HIDE_ATTRIBUTES
-        - HIDE_UNBREAKABLE
-        - HIDE_DESTROYS
-        - HIDE_PLACED_ON
-        - HIDE_POTION_EFFECTS
-        - HIDE_DYE
-        Unbreakable: true
-        internal: H4sIAAAAAAAA/x3L0QqCMBQG4F+yHNJjdDtwbbH5CkHPIMsdaaibHCWhpy+6/vhqoEA5Ei1FjXL3KQgc856IcXpwd/+MB1Rv4jXmBKASEH/tYsBF3YxTtvXS9KqV5nkdpDO9liHYxjY0aO/0L2w0L5PfCOc5MmdeX5GmAHwBBvQYeHwAAAA=
-        blockMaterial: SHIELD
-    wand:
-      owner: Mr_Jzk
-      template: mirrorshield
-      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
-      version: 7
 open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
-  sp: 764.0
+  sp: 902.0
 properties:
   version: 7
 classes:
@@ -775,7 +676,7 @@ classes:
     - push
   mage:
     effect_color: 456a4a324571,d7819e4f1a4d,20893af8e500
-    mana_timestamp: 1687440167079
+    mana_timestamp: 1687845944759
     mana: 50.0
   archer_mage: {}
   battle_mage:
@@ -783,4 +684,4 @@ classes:
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 0.0
+health: 25.200000762939453

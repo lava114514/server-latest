@@ -1,0 +1,31 @@
+# Translated into Chinese Simplified by Flandre_tw
+messages:
+  error:
+    consoleUnsupported: 璇ュ懡浠ゆ棤娉曞湪鍚庡彴鎵ц銆�
+    lootNotGenerated: '&c濂栧姳绠卞皻鏈敓鎴� 锛� 璇峰叧闂� &b/silentcontainer&c銆�'
+    invalidMaterial: '&c鏃犳晥鐨勭墿鍝� 锛� "%target%"'
+    invalidNumber: '&c鏃犳晥鐨勬暟瀛� 锛� "%target%"'
+    invalidPlayer: '&c鐜╁涓嶅瓨鍦� 锛�'
+    permissionOpenSelf: '&c浣犳棤娉曞紑鍚嚜宸辩殑鐗╁搧鏍忋��'
+    permissionEnderAll: '&c浣犳棤娉曞紑鍚叾浠栫帺瀹剁殑鏈奖绠便��'
+    permissionExempt: '&c%target% 鐨勭墿鍝佹爮鍙楀埌淇濇姢銆�'
+    permissionCrossWorld: '&c%target% 涓嶅湪浣犳墍鍦ㄧ殑涓栫晫銆�'
+    permissionPlayerOnline: '&c浣犳棤娉曞紑鍚嚎涓婄帺瀹剁殑鐗╁搧鏍忋��'
+    permissionPlayerOffline: '&c浣犳棤娉曞紑鍚绾跨帺瀹剁殑鐗╁搧鏍忋��'
+    commandException: '&c鍙戠敓閿欒锛岃鏌ョ湅鍚庡彴銆�'
+  info:
+    containerBlocked: 浣犳鍦ㄥ紑鍚彈闃绘尅鐨勫偍鐗╃銆�
+    containerBlockedSilent: 浣犳鍦ㄦ倓鎮勫紑鍚彈闃绘尅鐨勫偍鐗╃銆�
+    containerSilent: 浣犳鍦ㄦ倓鎮勫紑鍚偍鐗╃銆�
+    settingState: '%setting% 锛� %state%'
+    player:
+      noMatches: 鎵句笉鍒版寔鏈� %target% 鐨勭帺瀹躲��
+      matches: 鎵惧埌鎸佹湁 %target% 鐨勭帺瀹� 锛� %detail%
+    container:
+      noMatches: 鎵句笉鍒版斁鏈� %target% 鐨勫偍鐗╃銆�
+      matches: 鎵惧埌鏀炬湁 %target% 鐨勫偍鐗╃ 锛� %detail%
+    'true': 寮�鍚�
+    'false': 鍏抽棴
+container:
+  player: '%player% 鐨勭墿鍝佹爮'
+  enderchest: '%player% 鐨勬湯褰辩'

@@ -1,0 +1,14 @@
+[2023-06-27 13:02:41] cmdchain
+[2023-06-27 13:07:38] cmdchain xp add @s -1 levels run give give Enderlava minecraft:paper{display:{Name:'["§e经验券"]',Lore:['["64级经验"]']}}
+[2023-06-27 13:08:07] cmdchain xp add @s -1 levels run give@s minecraft:paper{display:{Name:'["§e经验券"]',Lore:['["64级经验"]']}}
+[2023-06-27 13:08:51] lp group default permission set cmdchain true
+[2023-06-27 13:09:05] lp group default permission set cmdchain.* true
+[2023-06-27 13:09:30] cmdchain xp add @s -1 levels run give @s inecraft:paper{display:{Name:'["§e经验券"]',Lore:['["64级经验"]']}}
+[2023-06-27 13:09:31] cmdchain xp add @s -1 levels run give @s inecraft:paper{display:{Name:'["§e经验券"]',Lore:['["64级经验"]']}}
+[2023-06-27 13:14:38] STOP
+[2023-06-27 13:24:10] execute as Enderlava run tp Xw114
+[2023-06-27 13:24:25] execute as Enderlava run tp Xw114
+[2023-06-27 13:25:20] xp query Enderlava
+[2023-06-27 13:25:24] xp query Enderlava levels
+[2023-06-27 13:25:36] xp add Enderlava -64 levels
+[2023-06-27 13:25:48] give Enderlava minecraft:paper{display:{Name:'["§e经验券"]',Lore:['["64级经验"]']}}

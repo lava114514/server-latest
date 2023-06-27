@@ -70,9 +70,9 @@
 
 'xp':
   #give Enderlava minecraft:paper{display:{Name:'["§经验券"]',Lore:['["1级经验"]']}}
-  name: "§e经验券"
-  lore: "1级经验"
-  lore-exact: false
+  lore: 
+  - '1级经验'
+  lore-exact: true
   item: "paper"
   trigger:
     - 'left'
@@ -80,4 +80,18 @@
   action:
     #cmd = 让使用物品的玩家执行命令 命令不需要加 /
     - 'console: xp add {player} 1 levels'
+  required-amount: 1
+
+'xp64':
+  #give Enderlava minecraft:paper{display:{Name:'["§e经验券"]',Lore:['["64级经验"]']}}
+  lore: 
+  - '64级经验'
+  lore-exact: true
+  item: "paper"
+  trigger:
+    - 'left'
+    - 'right'
+  action:
+    #cmd = 让使用物品的玩家执行命令 命令不需要加 /
+    - 'console: xp add {player} 64 levels'
   required-amount: 1

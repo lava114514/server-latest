@@ -82,7 +82,7 @@ settings:
     extra-yggdrasil-service:
       enable: true
       urls:
-      - https://littleskin.cn/api/yggdrasi
+      - https://littleskin.cn/api/yggdrasil
 config-version: 2
 world-settings:
   default: {}

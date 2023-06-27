@@ -213,7 +213,7 @@ Icons:
     actions:
       all:
       - 'sound: BLOCK_NOTE_BLOCK_PLING-1-2'
-      - 'command *"function minecraft:EEE"'
+ #     - 'command *"cmdchain xp add @s -1 levels run give give Enderlava minecraft:paper{display:{Name:'["§e经验券"]',Lore:['["64级经验"]']}}"'
 
   O:
     update: 40
