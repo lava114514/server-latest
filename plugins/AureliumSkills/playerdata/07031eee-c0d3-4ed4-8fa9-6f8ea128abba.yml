@@ -20,10 +20,10 @@ skills:
     xp: 2695.499999999998
   defense:
     level: 12
-    xp: 6899.255673406408
+    xp: 6904.655673406408
   fighting:
     level: 21
-    xp: 28630.499999998567
+    xp: 32050.699999998313
   endurance:
     level: 13
     xp: 9698.0
@@ -49,9 +49,9 @@ mana: 50.0
 locale: zh-cn
 ability_data:
   first_strike:
-    counter: 281
+    counter: 284
   xp_convert:
-    xp: 10.933419783623505
+    xp: 16.53341978362291
   charged_shot:
     cooldown: 0
     enabled: true
