@@ -1,5 +1,7 @@
 name: "Tricky Bow"
 material: BOW
+lore: 
+- §神
 enchantments:
 - VANISHING_CURSE,1
 scalability: scalable

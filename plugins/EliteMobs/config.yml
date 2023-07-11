@@ -1,3 +1,8 @@
+# Sets the message that appears when a player opens a treasure chest but gets nothing
+treasureChestNoDropMessage: '&8[EliteMobs] &cYou didn''t get anything! Better luck
+  next time!'
+# Sets is spectating instanced content will be available.
+allowSpectatorsInInstancedContent: true
 # Sets whether elites and bosses spawned by elitemobs will always show their nametags.
 # Not recommended!
 alwaysShowEliteMobNameTags: false

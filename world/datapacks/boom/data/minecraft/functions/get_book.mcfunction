@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{display:{Name:'["§4哲理伦宝典"]',Lore:['["诽谤"]']},Enchantments:[{id:"sharpness",lvl:10},{id:"looting",lvl:5}],Tags:[zhelilunbook]}

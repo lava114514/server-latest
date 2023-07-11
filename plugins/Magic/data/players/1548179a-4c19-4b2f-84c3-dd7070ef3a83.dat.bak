@@ -1,10 +1,10 @@
 id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
 name: Xw114
 created: 1679719078156
-updated: 1687845944759
-last_cast: 1687845717602
-cooldown_expiration: 1687845732310
-last_death_location: -3477.6819450240373,98.875,-4429.404312847389,world_the_end,71.11491,45.450012
+updated: 1689047930027
+last_cast: 1689047859001
+cooldown_expiration: 0
+last_death_location: -17.50876542316591,76.4,-263.2653285475756,world,-27.614655,85.65018
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -325,10 +325,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   recall|2:
-    cast_count: 121
-    last_cast: 1687845717603
-    last_earn: 1687845724269
-    cooldown_expiration: 1687845732603
+    cast_count: 122
+    last_cast: 1689047859002
+    last_earn: 1689047865332
+    cooldown_expiration: 0
     charges: 0.0
   spellshop:
     cast_count: 0
@@ -433,9 +433,9 @@ spells:
     cooldown_expiration: 1680270691636
     charges: 0.0
   missile|3:
-    cast_count: 151
-    last_cast: 1687581961871
-    last_earn: 1687581961871
+    cast_count: 152
+    last_cast: 1689047364884
+    last_earn: 1689047364883
     cooldown_expiration: 0
     charges: 0.0
 wands:
@@ -484,7 +484,7 @@ wands:
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
         Unbreakable: true
-        internal: H4sIAAAAAAAA/01RQU7DMBDckpSGgEACqWcOiFMrJTRVEh6AxCsix143Vp11ZLuNIsTfcdsDvY13Z8azuynADOI94jBLIR4ZiQRiYj3C4zdJRcpPr1/GckxgbkZCC3c9b8ZpyvMigmVnfMtso+iI5I2dGm4O5CGYBhvFDcGS0HdolcfGjcaKn7zKsvo3hSc3oNb/0gji4aB10EIEiVQWW3Z+ziOYM2vNGPBNBIteOac0nnhBcyIGGAdSqxWJ099nK9cFeBu8Fke0ToUoAIsEEo/9oJlHSHu2U/wcKpTPwzVKwFu+Laq8rNm64Hm9LtoPua4KvlkLUWZlhnLDqk0KD0i8Y+T7kN5F8NIrQm6Z9J+uY3YgdO4S6/mqM4Y9K9pdol9J9mT4vmV8fxoRkmAuJXIftqmNhfc8k7LO6rreCraSKOuykpKXIltdd8Ih7w8krBkG1mqcwR8Rd5y/3AEAAA==
+        internal: H4sIAAAAAAAA/02RwU7DMAyGPdqxUiaQQNqZA+K0SS0rassDIPEUVZo4a9TUqZJs1YR4d7LtwG5/5P+3PzspwAziHnGcpRBPjEQCMbEB4eGbpCLljy9fxnJMYG4mQgt3A2+m4zHPiwhWnfEts42iA5I39thwsycPoWloo7ghWBH6Dq3y2LjJWPGTV1lW/6bw6EbU+j8aQTzutQ5ZiCCRymLLzs95BHNmrZmCvolgMSjnlMaTL2ROxiDjYGq1InGafW7luiBvIYHkzN0oAa/5R1HlZc02Bc/rTdG+y01V8O1GiDIrM5RbVm1DwOMwauYR0oHtFD9zh8EHtE6FlQAWKSyReMfID4HeRfA8KEJumfSfrmN2JHTugvV0VZnCnRXtLuhXkZ4M71vG+9OKAXmJUiL34ZraWHjLMynrrK7rD8HWEmVdVlLyUmTr60r4yPs9CWvGkbUaZ/AHCUZiQNwBAAA=
     wand:
       name: Infinity Force
       owner: mc_wyy114
@@ -498,9 +498,9 @@ wands:
         fire: 4
         blind: 1
         push: 6
-      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
-      template: magicsword
       version: 7
+      template: magicsword
+      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
       enchantments:
         minecraft:sharpness: 4
         minecraft:knockback: 2
@@ -523,7 +523,7 @@ wands:
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
-          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"拉力"}],"text":""}'
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"魔法导弹"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
           "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
@@ -537,7 +537,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: 1710d77c-a036-460d-b63b-955e37678ef3
+            uuid: e44cc001-7941-4ae7-b4aa-75380ab27e3e
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -548,29 +548,29 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/0VRS2+DMAw2AlpEq/W2047brUik0EL/yW4oCWaNmgJKQtE07b/PPKTlZMvfw58TA3gQ3BF7L4Zg5G3tQ9DzLwSYJi/YNChdJQYhNFqIYM+lU0+sbI9aE3TQOoJAya6FvXVK3n9YmabsN4btwrURRDOHu0mUOoePXk/d6rd9orGKBAC2PmxunRPcwIzdr/6y052BDykKKUSeYn7ixxJFdhESL1Iez4xJeoXMGx5B2I0tGgg/R8byCA6rSM8NLahpCx9eF5dKtU9sXWe+yWJo3RQ6hsMc7n/mLzlpGPoQNcqg4HPr+RByY7qR6h0FeShrlZ5vR5wJSNUbgYRWbb3mMygX9mbWtTcqA8I0ms94f7rRnKBSNbyzc16y4sqTXLJrkotTk5S5zJK6LtIixSbjZUY/tRva2nR9z+mfPPgD/peTvdcBAAA=
+        internal: H4sIAAAAAAAA/0VRy26DMBBcBAREoubWU4/tLUg4kED+pDdkm6Wx4hhkIKiq+u9dQ9X6tN7Zx8xsAuBBcEPsvQSCmZvGh6DnHwjgkCdsW5RjLSYhNA4Qw47LUT2wHnrUGqK7GgalMYZAyc7AbhiVvH2xKsvYdwLR2j7EEC9tfHRzfYgeaAdF9QARYSPee+2whQDt+N0qO91ZeJOilEIUGRZHfqhQ5Gch8Szl4cSYpFfKouU+bK7dKLh1xGPY/47ouSVGGl0u7GaDFsL3mbHCh+e1vlbmgWbs7Cftm8zodCewX/T9Y86ViQQDhD7ErbIo+PL1/D8TYNEWcmu7mcIt9bhCCl+InUW5dmyoRmhlGqd+mTtcKQwo3WpuV4fIlYVtrRp4ZaeiYuWFp4Vkl7QQxzatCpmnTVNmZYZtzqucjrWdTGO7vud0Kg9+APTlQCTaAQAA
     wand:
       page: 0
       effect_bubbles: false
-      active_spell: pull
+      active_spell: missile
       icon: stick{18001}
       effects:
         activate: ''
-      version: 7
       template: wand
-      effect_color: cb7cbb40e42a,8eb36bce6cc,511cccc7c4fa
+      version: 7
       hotbar: 0
-      effect_particle: ''
+      effect_color: cb7cbb40e42a,8eb36bce6cc,511cccc7c4fa
       owner: Xw114
+      effect_particle: ''
       hotbar_inventory_count: 1
       spell_inventory:
         pull: 5
         fireball: 1
-        missile: 0
         arrow: 11
+        missile: 0
         fire: 28
-        recall: 6
         blind: 7
+        recall: 6
         push: 4
         flare: 3
       owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
@@ -597,13 +597,13 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/x3K0QqDIBQG4D9WJLHH2K2Q8wztTXYXlicmKw2L+fob+66/DqhQv5n3qkNdXPQCTSqRM5pnUYoExMnbvrqTcd1Czikfr8Dr74n/G4PHTT3IKjM4SbMaJE33RVqatfTe9KbnRTurL2g/nI+QIoAW+AIoAHPTewAAAA==
+        internal: H4sIAAAAAAAA/x3L0QqDIBQG4D9WJLHH2K2Q06G9ye7C8sRkpXGK+fobu/74OqBC/Sbaqw518SkINLkkYjTPopS5oP0QHzEnAK2A+OMYA27qYZyyg5dmVoM0032RzsxahmB729OivdO/cNK2r/4kXLfInPl4RVoD8AWLqedLewAAAA==
         blockMaterial: SHIELD
     wand:
       owner: Xw114
-      version: 7
-      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
       template: mirrorshield
+      owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      version: 7
   magicbow:
     item:
       ==: org.bukkit.inventory.ItemStack
@@ -635,7 +635,7 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/12QQU6EQBBFi4AZxDGz8wRuSWjBwHgEL0GKppjpCN2dpoEQ4ylcuHLnMUw8DfewYWPGSq0q/7//UxGAB8ELkfYiCCaUdQiBxI4gel5+PpbPr+X7PYQrNUkycN3xcppnxjIf7s7KVmhKIUeSVpm55GqQFhwwhD1yK0Yqe01tC7dojJpKQ6ehReMCBFcSokpNr6xIEvYWwWFT/sF8h9hMWoneiR3V/8eBdUIIt2qlqOGePWYFy48YZ5wd46x6aOIi42lc13mSJ9SkWKTOYKnTLVqCsMOT4K6GD7uRTC+2oF0Ee5L8jNJ2rkzvw6ETkrjBxj5pNdGaHFxcm3b92PpKtzeDrI3SGquWPPgFCo84SWEBAAA=
+        internal: H4sIAAAAAAAA/12QQU6EQBBFi4AZxDGz8wRuSWjBwHgEL0GKppjpCN2dpoEQ4ylcuHLnMUw8DfewYWPGpDb1U/XqpSIAD4IXIu1FEEwo6xACiR1B9Lz8fCyfX8v3ewhXapJk4Lrj5TTPjGU+3J2VrdCUQo4krTJzydUgLThgCHvkVoxU9praFm7RGDWVhk5Di8YdEFxJiCo1vbIiSdhbBIdt8g/m/1tyWPAddsu0Er0DrOo+7EYyvdjaXQihpU63aAnCDk+Cuxsu3OxLUcM9e8wKlh8xzjg7xln10MRFxtO4rvMkT6hJsUgj2JPkZ5S2czK9D4dOSOIGG/uk1USrTHCRNu36sdXH1c0ga6O0xqolD34B9qN7oWEBAAA=
     wand:
       name: J志坤弓
       owner: mc_wyy114
@@ -643,19 +643,594 @@ wands:
       active_spell: arrow_regular
       icon: bow{18001}
       spell_inventory:
-        arrow_poison: 1
         arrow_regular: 0
-      version: 7
-      template: magicbow
+        arrow_poison: 1
       owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      template: magicbow
+      version: 7
       enchantments:
         minecraft:power: 4
         minecraft:flame: 1
-open_wand: false
+inventory:
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"法杖"}],"text":""}'
+    lore:
+    - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"魔力法杖"}],"text":""}'
+    - '{"italic":true,"color":"dark_aqua","text":"绑定 Xw114"}'
+    - '{"text":"掌握 9 技能"}'
+    - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
+    - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
+    - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
+    - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
+      "},{"color":"gray","text":"to cast "},{"color":"gold","text":"魔法导弹"}],"text":""}'
+    - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
+      "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
+    - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
+      (Q) "},{"color":"gray","text":"to open the spell inventory"}],"text":""}'
+    - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"yellow","text":"Change
+      controls using an "},{"color":"aqua","text":"enchant table"}],"text":""}'
+    custom-model-data: 18001
+    attribute-modifiers:
+      GENERIC_ATTACK_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 10.0
+        name: Equipment Modifier
+        slot: HAND
+        uuid: e44cc001-7941-4ae7-b4aa-75380ab27e3e
+        operation: 0
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_DESTROYS
+    - HIDE_PLACED_ON
+    - HIDE_POTION_EFFECTS
+    - HIDE_DYE
+    Unbreakable: true
+    internal: H4sIAAAAAAAA/0VRQW6DMBBcBAREoubWU4/tLUg4OIH+pDdkm6Wx4mBkQ1BV9e+1CWp92tXOzM6sM4AAoiviEGQQzaxvQ4gG9okAfvKEXYdibPjEuUILKeyYGOUdGzugUpDcpLVSYQqRFLqHnR2luH6TuijITwbJg25TSBcaG72u60a8Dcp368rkjsZKJwCQhLC56JEzAwt2t1oQWmkDb4JXgnNaID2yQ428PHOBZyEOJ0KEe5WgHUsh1nOPBuKPmRCawn4VGZhxBpVzEcLzY0sj+zv2ozZfbsXUjz53Bvsl3//MX2VygQHiENJOGuRsaYMQYmaMnl29Df8O4r07jge66sWBuJJ9u+YzKB7szaJrL66MHKZTbMGH/kZLgka28EpOtCbVO8upIO855ccur6ko87atiqrArmR16T5rO/Wt0cPA3FcF8AvXHdKI2gEAAA==
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: NETHERITE_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      MENDING: 1
+      DURABILITY: 3
+    Damage: 348
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: DIAMOND
+  amount: 9
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: TORCH
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: COMPASS
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: TRIDENT
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"哥布林三叉戟"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"---------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<"},{"bold":true,"italic":false,"strikethrough":false,"color":"gray","text":"装备详情"},{"bold":false,"italic":false,"color":"gray","text":">"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"---------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"物品等级："},{"italic":false,"color":"white","text":"9
+      "},{"italic":false,"color":"gray","text":"声望 "},{"italic":false,"color":"gold","text":"0"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"精英DPS输出："},{"italic":false,"color":"dark_green","text":"16.05"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Soulbound
+      to "},{"italic":false,"color":"white","text":"Xw114"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"从精英"},{"italic":false,"color":"dark_red","text":"「"},{"italic":false,"color":"red","text":"7"},{"italic":false,"color":"dark_red","text":"」"},{"italic":false,"color":"white","text":"
+      "},{"italic":false,"color":"red","text":"武器哥布林身上掠夺而得"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"-----------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<
+      "},{"bold":true,"italic":false,"color":"white","text":"描述"},{"bold":false,"italic":false,"color":"gray","text":"
+      >"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"-----------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"哥布林的财宝！"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"--------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<"},{"bold":true,"italic":false,"color":"blue","text":"附魔"},{"bold":false,"italic":false,"color":"gray","text":">"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"--------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"击退
+      1"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"抢夺
+      2"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"锋利
+      1"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"亡灵杀手
+      1"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"----------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<
+      "},{"bold":true,"italic":false,"color":"dark_purple","text":"效果"},{"bold":false,"italic":false,"color":"gray","text":"
+      >"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"----------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"◇凋零"},{"italic":false,"color":"dark_red","text":"⚔☠
+      1"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"---------------------------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"出售可获得7.75
+      精英币"}],"text":""}'
+    enchants:
+      KNOCKBACK: 1
+      LOOT_BONUS_MOBS: 2
+      DAMAGE_ALL: 1
+      DAMAGE_UNDEAD: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    PublicBukkitValues:
+      elitemobs:itemsource: §7从精英§4「§c7§4」§f §c武器哥布林身上掠夺而得
+      minecraft:sharpness: 1i
+      elitemobs:soulbind: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      elitemobs:prestige: 0i
+      elitemobs:enchantmentcount: 5i
+      minecraft:smite: 1i
+      elitemobs:onhitpotioneffect: 'WITHER,0,target,onHit:'
+      elitemobs:elitemobsitem: 1b
+      elitemobs:elitedamage: 4.090910225860442d
+      elitemobs:customlore: §8哥布林的财宝！
+      elitemobs:itemvalue: 155.0d
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: NETHERITE_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"战斗伦战斗斧"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"---------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<"},{"bold":true,"italic":false,"strikethrough":false,"color":"gray","text":"装备详情"},{"bold":false,"italic":false,"color":"gray","text":">"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"---------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"物品等级："},{"italic":false,"color":"white","text":"6
+      "},{"italic":false,"color":"gray","text":"声望 "},{"italic":false,"color":"gold","text":"0"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"精英DPS输出："},{"italic":false,"color":"dark_green","text":"13.5"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Soulbound
+      to "},{"italic":false,"color":"white","text":"mc_wyy114"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"从精英"},{"italic":false,"color":"dark_red","text":"『"},{"italic":false,"color":"red","text":"1"},{"italic":false,"color":"dark_red","text":"』"},{"italic":false,"color":"white","text":"
+      "},{"italic":false,"color":"yellow","text":"战斗伦身上掠夺而得"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"-----------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<
+      "},{"bold":true,"italic":false,"color":"white","text":"描述"},{"bold":false,"italic":false,"color":"gray","text":"
+      >"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"-----------"}],"text":""}'
+    - '{"extra":[{"text":"战斗伦"}],"text":""}'
+    - '{"extra":[{"text":"所用过的斧头"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"--------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<"},{"bold":true,"italic":false,"color":"blue","text":"附魔"},{"bold":false,"italic":false,"color":"gray","text":">"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"--------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"水下速掘
+      2"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"效率
+      2"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"火焰附加
+      3"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"击退
+      1"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"抢夺
+      4"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"锋利
+      5"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"耐久
+      4"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"----------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<
+      "},{"bold":true,"italic":false,"color":"dark_purple","text":"效果"},{"bold":false,"italic":false,"color":"gray","text":"
+      >"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"----------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"◇生命恢复"},{"italic":false,"color":"blue","text":"⚔🛡
+      1"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"◇凋零"},{"italic":false,"color":"dark_red","text":"⚔☠
+      1"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"---------------------------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"出售可获得21.1
+      精英币"}],"text":""}'
+    enchants:
+      WATER_WORKER: 2
+      DIG_SPEED: 2
+      FIRE_ASPECT: 3
+      KNOCKBACK: 1
+      LOOT_BONUS_MOBS: 4
+      DAMAGE_ALL: 5
+      DURABILITY: 4
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    PublicBukkitValues:
+      elitemobs:itemsource: §7从精英§4『§c1§4』§f §e战斗伦身上掠夺而得
+      minecraft:sharpness: 5i
+      elitemobs:soulbind: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      elitemobs:prestige: 0i
+      elitemobs:enchantmentcount: 21i
+      elitemobs:onhitpotioneffect: 'REGENERATION,0,self,onHit:WITHER,0,target,onHit:'
+      elitemobs:elitemobsitem: 1b
+      elitemobs:customlore: |-
+        战斗伦
+        所用过的斧头
+      elitemobs:itemvalue: 422.0d
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: ENDER_PEARL
+  amount: 14
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: NETHERRACK
+  amount: 7
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: BOW
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    enchants:
+      MENDING: 1
+      ARROW_DAMAGE: 5
+      ARROW_KNOCKBACK: 1
+      DURABILITY: 3
+    repair-cost: 1
+    Damage: 1
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: BOW
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    Damage: 363
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: NETHERITE_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"哥布林剑"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"---------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<"},{"bold":true,"italic":false,"strikethrough":false,"color":"gray","text":"装备详情"},{"bold":false,"italic":false,"color":"gray","text":">"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"---------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"物品等级："},{"italic":false,"color":"white","text":"8
+      "},{"italic":false,"color":"gray","text":"声望 "},{"italic":false,"color":"gold","text":"0"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"精英DPS输出："},{"italic":false,"color":"dark_green","text":"15.2"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Soulbound
+      to "},{"italic":false,"color":"white","text":"mc_wyy114"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"从精英"},{"italic":false,"color":"dark_red","text":"「"},{"italic":false,"color":"red","text":"5"},{"italic":false,"color":"dark_red","text":"」"},{"italic":false,"color":"white","text":"
+      "},{"italic":false,"color":"red","text":"武器哥布林身上掠夺而得"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"-----------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<
+      "},{"bold":true,"italic":false,"color":"white","text":"描述"},{"bold":false,"italic":false,"color":"gray","text":"
+      >"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"-----------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"哥布林的财宝！"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"--------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<"},{"bold":true,"italic":false,"color":"blue","text":"附魔"},{"bold":false,"italic":false,"color":"gray","text":">"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"--------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"击退
+      1"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"抢夺
+      2"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"锋利
+      1"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"亡灵杀手
+      1"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"----------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<
+      "},{"bold":true,"italic":false,"color":"dark_purple","text":"效果"},{"bold":false,"italic":false,"color":"gray","text":"
+      >"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"----------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"◇急迫"},{"italic":false,"color":"blue","text":"⚔🛡
+      1"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"---------------------------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"出售可获得7.8
+      精英币"}],"text":""}'
+    enchants:
+      KNOCKBACK: 1
+      LOOT_BONUS_MOBS: 2
+      DAMAGE_ALL: 1
+      DAMAGE_UNDEAD: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    PublicBukkitValues:
+      elitemobs:itemsource: §7从精英§4「§c5§4」§f §c武器哥布林身上掠夺而得
+      minecraft:sharpness: 1i
+      elitemobs:soulbind: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      elitemobs:prestige: 0i
+      elitemobs:enchantmentcount: 5i
+      minecraft:smite: 1i
+      elitemobs:onhitpotioneffect: 'FAST_DIGGING,0,self,onHit:'
+      elitemobs:elitemobsitem: 1b
+      elitemobs:customlore: §8哥布林的财宝！
+      elitemobs:itemvalue: 156.0d
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: WHITE_BANNER
+  meta:
+    ==: ItemMeta
+    meta-type: BANNER
+    display-name: '{"color":"gold","translate":"block.minecraft.ominous_banner"}'
+    patterns:
+    - ==: Pattern
+      color: CYAN
+      pattern: mr
+    - ==: Pattern
+      color: LIGHT_GRAY
+      pattern: bs
+    - ==: Pattern
+      color: GRAY
+      pattern: cs
+    - ==: Pattern
+      color: LIGHT_GRAY
+      pattern: bo
+    - ==: Pattern
+      color: BLACK
+      pattern: ms
+    - ==: Pattern
+      color: LIGHT_GRAY
+      pattern: hh
+    - ==: Pattern
+      color: LIGHT_GRAY
+      pattern: mc
+    - ==: Pattern
+      color: BLACK
+      pattern: bo
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: SHULKER_BOX
+  meta:
+    ==: ItemMeta
+    meta-type: TILE_ENTITY
+    internal: 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
+    blockMaterial: SHULKER_BOX
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: IRON_INGOT
+  amount: 14
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: GOLD_NUGGET
+  amount: 49
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: CROSSBOW
+  meta:
+    ==: ItemMeta
+    meta-type: CROSSBOW
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"哥布林弩"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"---------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<"},{"bold":true,"italic":false,"strikethrough":false,"color":"gray","text":"装备详情"},{"bold":false,"italic":false,"color":"gray","text":">"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"---------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"物品等级："},{"italic":false,"color":"white","text":"9
+      "},{"italic":false,"color":"gray","text":"声望 "},{"italic":false,"color":"gold","text":"0"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"精英DPS输出："},{"italic":false,"color":"dark_green","text":"15.6"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Soulbound
+      to "},{"italic":false,"color":"white","text":"Xw114"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"从精英"},{"italic":false,"color":"dark_red","text":"「"},{"italic":false,"color":"red","text":"7"},{"italic":false,"color":"dark_red","text":"」"},{"italic":false,"color":"white","text":"
+      "},{"italic":false,"color":"red","text":"武器哥布林身上掠夺而得"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"-----------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<
+      "},{"bold":true,"italic":false,"color":"white","text":"描述"},{"bold":false,"italic":false,"color":"gray","text":"
+      >"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"-----------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"哥布林的财宝！"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"--------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<"},{"bold":true,"italic":false,"color":"blue","text":"附魔"},{"bold":false,"italic":false,"color":"gray","text":">"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"--------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"力量
+      1"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"快速装填
+      2"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"----------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<
+      "},{"bold":true,"italic":false,"color":"dark_purple","text":"效果"},{"bold":false,"italic":false,"color":"gray","text":"
+      >"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"----------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"◇瞬间治疗"},{"italic":false,"color":"blue","text":"⚔🛡
+      1"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"---------------------------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"出售可获得6.3
+      精英币"}],"text":""}'
+    enchants:
+      ARROW_DAMAGE: 1
+      QUICK_CHARGE: 2
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    PublicBukkitValues:
+      elitemobs:itemsource: §7从精英§4「§c7§4」§f §c武器哥布林身上掠夺而得
+      elitemobs:soulbind: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      minecraft:power: 1i
+      elitemobs:prestige: 0i
+      elitemobs:enchantmentcount: 3i
+      elitemobs:onhitpotioneffect: 'HEAL,0,self,onHit:'
+      elitemobs:elitemobsitem: 1b
+      elitemobs:elitedamage: 11.0d
+      elitemobs:customlore: §8哥布林的财宝！
+      elitemobs:itemvalue: 126.0d
+    charged: false
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: SAND
+  amount: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: EMERALD
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: PAPER
+  amount: 56
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: BAKED_POTATO
+- null
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: RAW_IRON
+  amount: 5
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: ENDER_PEARL
+  amount: 16
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: ENDER_PEARL
+  amount: 16
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: ARROW
+  amount: 64
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: ARROW
+  amount: 61
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: WRITTEN_BOOK
+  meta:
+    ==: ItemMeta
+    meta-type: BOOK_SIGNED
+    lore:
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Date:
+      11-07-2023"}],"text":""}'
+    enchants:
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+    title: §f§cXw114's Obituary
+    author: §4「§c6§4」§f §2护符哥布林
+    pages:
+    - '{"extra":[{"text":"         Obituary         \n-------------------\n  Name:
+      Xw114\n  Cause: "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"「"},{"italic":false,"color":"red","text":"6"},{"italic":false,"color":"dark_red","text":"」"},{"italic":false,"color":"white","text":"
+      "},{"italic":false,"color":"dark_green","text":"护符哥布林\n  Date: 11-07-2023\n  Items:
+      0\n  Exp: 205\n  Location:\n    World: Overworld\n    X: -45.5\n    Y: 74.5\n    Z:
+      -236.5"}],"text":""}'
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: GOLDEN_AXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_red","text":"尸王之斧"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"---------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<"},{"bold":true,"italic":false,"strikethrough":false,"color":"gray","text":"Equip
+      Info"},{"bold":false,"italic":false,"color":"gray","text":">"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"---------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Item
+      level: "},{"italic":false,"color":"white","text":"4 "},{"italic":false,"color":"gray","text":"Prestige
+      "},{"italic":false,"color":"gold","text":"0"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Elite
+      DPS: "},{"italic":false,"color":"dark_green","text":"10.5"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"绑定了mc_wyy114"},{"italic":false,"color":"gray","text":"的灵魂"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"从精英"},{"italic":false,"color":"dark_red","text":"「"},{"italic":false,"color":"red","text":"1"},{"italic":false,"color":"dark_red","text":"」"},{"italic":false,"color":"white","text":"
+      "},{"italic":false,"color":"dark_red","text":"僵尸王身上掠夺而得"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"-----------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<
+      "},{"bold":true,"italic":false,"color":"white","text":"Lore"},{"bold":false,"italic":false,"color":"gray","text":"
+      >"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"-----------"}],"text":""}'
+    - '{"extra":[{"text":"僵尸王"}],"text":""}'
+    - '{"extra":[{"text":"所用过的斧头"}],"text":""}'
+    - '{"extra":[{"text":"这上面沾满了杀戮之血"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"--------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<"},{"bold":true,"italic":false,"color":"blue","text":"Enchantments"},{"bold":false,"italic":false,"color":"gray","text":">"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"--------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"水下速掘
+      2"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"效率
+      3"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"火焰附加
+      2"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"击退
+      2"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"抢夺
+      3"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"锋利
+      5"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"亡灵杀手
+      3"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"耐久
+      1"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<
+      "},{"bold":true,"italic":false,"color":"dark_aqua","text":"Custom Enchants"},{"bold":false,"italic":false,"color":"gray","text":"
+      >"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"◇喷火
+      1"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"----------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<
+      "},{"bold":true,"italic":false,"color":"dark_purple","text":"Effects"},{"bold":false,"italic":false,"color":"gray","text":"
+      >"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"----------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"◇夜视"},{"italic":false,"color":"gold","text":"⟲
+      1"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"◇急迫"},{"italic":false,"color":"blue","text":"⚔🛡
+      1"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"◇凋零"},{"italic":false,"color":"dark_red","text":"⚔☠
+      1"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"-----------------------------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"出售可获得23.65
+      精英币"}],"text":""}'
+    enchants:
+      WATER_WORKER: 2
+      DIG_SPEED: 3
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 5
+      DAMAGE_UNDEAD: 3
+      DURABILITY: 1
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    Damage: 31
+    PublicBukkitValues:
+      elitemobs:itemsource: §7从精英§4「§c1§4」§f §4僵尸王身上掠夺而得
+      minecraft:sharpness: 5i
+      elitemobs:soulbind: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      elitemobs:flamethrower: 1i
+      elitemobs:prestige: 0i
+      minecraft:smite: 3i
+      elitemobs:onhitpotioneffect: 'FAST_DIGGING,0,self,onHit:WITHER,0,target,onHit:'
+      elitemobs:elitemobsitem: 1b
+      elitemobs:continuouspotioneffect: 'NIGHT_VISION,0,self,continuous:'
+      elitemobs:customlore: |-
+        僵尸王
+        所用过的斧头
+        这上面沾满了杀戮之血
+      elitemobs:itemvalue: 473.0d
+- null
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: BAMBOO
+  amount: 27
+- null
+- null
+- ==: org.bukkit.inventory.ItemStack
+  v: 3337
+  type: CROSSBOW
+  meta:
+    ==: ItemMeta
+    meta-type: CROSSBOW
+    display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"哥布林弩"}],"text":""}'
+    lore:
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"---------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<"},{"bold":true,"italic":false,"strikethrough":false,"color":"gray","text":"装备详情"},{"bold":false,"italic":false,"color":"gray","text":">"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"---------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"物品等级："},{"italic":false,"color":"white","text":"10
+      "},{"italic":false,"color":"gray","text":"声望 "},{"italic":false,"color":"gold","text":"0"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"精英DPS输出："},{"italic":false,"color":"dark_green","text":"17.2"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Soulbound
+      to "},{"italic":false,"color":"white","text":"mc_wyy114"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"从精英"},{"italic":false,"color":"dark_red","text":"「"},{"italic":false,"color":"red","text":"8"},{"italic":false,"color":"dark_red","text":"」"},{"italic":false,"color":"white","text":"
+      "},{"italic":false,"color":"red","text":"武器哥布林身上掠夺而得"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"-----------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<
+      "},{"bold":true,"italic":false,"color":"white","text":"描述"},{"bold":false,"italic":false,"color":"gray","text":"
+      >"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"-----------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_gray","text":"哥布林的财宝！"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"--------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<"},{"bold":true,"italic":false,"color":"blue","text":"附魔"},{"bold":false,"italic":false,"color":"gray","text":">"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"--------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"力量
+      1"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"◇"},{"italic":false,"color":"gray","text":"快速装填
+      2"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"----------"},{"bold":false,"italic":false,"strikethrough":false,"color":"gray","text":"<
+      "},{"bold":true,"italic":false,"color":"dark_purple","text":"效果"},{"bold":false,"italic":false,"color":"gray","text":"
+      >"},{"bold":true,"italic":false,"strikethrough":true,"color":"gray","text":"----------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_purple","text":"◇瞬间治疗"},{"italic":false,"color":"blue","text":"⚔🛡
+      1"}],"text":""}'
+    - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"gray","text":"---------------------------"}],"text":""}'
+    - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"出售可获得6.3
+      精英币"}],"text":""}'
+    enchants:
+      ARROW_DAMAGE: 1
+      QUICK_CHARGE: 2
+    ItemFlags:
+    - HIDE_ENCHANTS
+    - HIDE_ATTRIBUTES
+    PublicBukkitValues:
+      elitemobs:itemsource: §7从精英§4「§c8§4」§f §c武器哥布林身上掠夺而得
+      elitemobs:soulbind: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+      minecraft:power: 1i
+      elitemobs:prestige: 0i
+      elitemobs:enchantmentcount: 3i
+      elitemobs:onhitpotioneffect: 'HEAL,0,self,onHit:'
+      elitemobs:elitedamage: 13.0d
+      elitemobs:elitemobsitem: 1b
+      elitemobs:customlore: §8哥布林的财宝！
+      elitemobs:itemvalue: 126.0d
+    charged: false
+- null
+- null
+open_wand: true
 gave_welcome_wand: false
 resource_pack_preference: default
 data:
-  sp: 902.0
+  sp: 917.0
 properties:
   version: 7
 classes:
@@ -676,7 +1251,7 @@ classes:
     - push
   mage:
     effect_color: 456a4a324571,d7819e4f1a4d,20893af8e500
-    mana_timestamp: 1687845944759
+    mana_timestamp: 1689047930003
     mana: 50.0
   archer_mage: {}
   battle_mage:
@@ -684,4 +1259,4 @@ classes:
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 25.200000762939453
+health: 8.171832084655762

@@ -1,0 +1,92 @@
+id: 00000000-0000-0000-0009-01f83477176f
+name: .FavoriteBread57
+created: 1682747382811
+updated: 1689076317549
+last_cast: 1689073011094
+cooldown_expiration: 0
+last_death_location: -20.533054,63.0,-279.96326,world,162.73453,18.969147
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  b8dd9de6-bce5-418b-9566-b5e1a4cc7a98: []
+spells:
+  missile:
+    cast_count: 11
+    last_cast: 1689073011094
+    last_earn: 1689065776546
+    cooldown_expiration: 1689073012094
+    charges: 0.0
+wands:
+  wand:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: STICK
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"魔法导弹"},{"italic":false,"color":"white","text":"
+          ("},{"italic":false,"color":"dark_aqua","text":"法杖"},{"italic":false,"color":"white","text":")"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"gray","text":"初心者 "},{"color":"white","text":"魔力法杖"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 .FavoriteBread57"}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"发射纯粹的魔法弹"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"冷却: "},{"color":"gold","text":"一秒"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"blue","text":"范围: "},{"color":"gold","text":"24
+          "},{"color":"blue","text":"米"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"gray","text":"持续 10 秒"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"消耗 15 "},{"color":"dark_aqua","text":"MP"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"dark_green","text":"获得数达到: "},{"color":"gold","text":"20
+          "},{"color":"aqua","text":"SP"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 50"}],"text":""}'
+        - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 5/s"}],"text":""}'
+        custom-model-data: 18001
+        attribute-modifiers:
+          GENERIC_ATTACK_SPEED:
+          - ==: org.bukkit.attribute.AttributeModifier
+            amount: 10.0
+            name: Equipment Modifier
+            slot: HAND
+            uuid: d32d7083-d93e-4990-b749-ce2b542d40e2
+            operation: 0
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/1VPvU7DMBj8IoJitR14CMTUIpv8OFkZeI3Idc6SVTe2bDcdEO+OBSzccMNJ97cjqqi+AKHaUX1X68Lo0d9XRHp6/VCbjzbjPUItvWR0UDrbDXMKcI6aq03JOjCqrfYrHVK2+vIpRs7FFyP2EzPbhZ75H07/aDpxYca2k1LIwRRDxjU4lfE75IGaDTHZkkzUlHIYA51n7Z2P9CIn9G9n3al+HI7TZIbRFMV0OCoMg0TbCs678m5/W5foQ1Bnh4q+AbbWKh3xAAAA
+    wand:
+      owner: .FavoriteBread57
+      active_spell: missile
+      icon: stick{18001}
+      version: 7
+      template: wand
+      owner_id: 00000000-0000-0000-0009-01f83477176f
+      effect_color: 79e52bc4a586,99f68f9e5f4e,ae667e331004
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data:
+  sp: 35.0
+properties:
+  version: 7
+classes:
+  caster: {}
+  mage:
+    effect_color: 7eed10605798,bb1f3273b6de,f7ae0865a2ed
+    mana_timestamp: 1689076317390
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 20.399999618530273

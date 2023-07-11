@@ -1,0 +1,17 @@
+name: 1summonsuper
+powerType: UNIQUE
+isEnabled: true
+eliteScript:
+  summonsuper:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    - EliteMobTargetPlayerEvent
+    Actions:
+    - action: RUN_COMMAND_AS_PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 10
+      sValue: superrandomcommand run summonsuper
+    Cooldowns:
+      local: 5000
+      global: 20

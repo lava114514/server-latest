@@ -5,6 +5,7 @@ eliteScript:
   kaoda:
     Events:
     - EliteMobDamagedByPlayerEvent
+    - EliteMobTargetPlayerEvent
     Actions:
     - action: RUN_COMMAND_AS_PLAYER
       Target:

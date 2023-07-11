@@ -6,7 +6,7 @@ entityType: WOLF
 mountedEntity: 3.yml
 name: $bossLevel &e绝望的理智
 level: dynamic
-healthMultiplier: 100
+healthMultiplier: 15
 damageMultiplier: 20
 onDeathCommands:
 - broadcast $players杀死了$level级的$name！
@@ -22,13 +22,15 @@ deathMessages:
 - '&4终结者: $players'
 - '&e&l---------------------------------------------'
 uniqueLootList:
-- lunpp1.yml:0.1
-- lunpp2.yml:0.1
-- lunpp3.yml:0.1
-- lunpp4.yml:0.1
+- lunpp1.yml:0.2
+- lunpp2.yml:0.2
+- lunpp3.yml:0.2
+- lunpp4.yml:0.2
+- fightlun_axe.yml:0.2
 - summon_wolf_lun.yml:1
 powers:
 - attack_wither.yml 
+- 1summonsuper.yml
 onDamageMessages:
 - 绝望！
 onDamagedMessages:

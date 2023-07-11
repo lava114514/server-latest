@@ -8,3 +8,53 @@ cb245f4b-5077-4e7e-8727-640ed35a3b05:
     mc_wyy114</span></span></span></div>'
   owner: mc_wyy114
   owner_id: 1548179a-4c19-4b2f-84c3-dd7070ef3a83
+8837e8dc-03b0-4bec-b341-749e3e11a2e3:
+  location: -7.969970703125,129.31982421875,-47.25732421875,world_nether,-153.46512,17.849873
+  name: 大师法杖
+  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
+    style="color:white"><span style="color:gold">魔法导弹<span style="color:white"> (<span
+    style="color:darkaqua">大师法杖<span style="color:white">)</span></span></span></span></span></h2><br/><span
+    style="color:white"><span style="font-style: italic"><span style="color:green">演示用</span></span></span><br/><span
+    style="color:white"><span style="color:darkaqua"><span style="font-style: italic">绑定
+    Enderlava</span></span></span><br/><span style="color:white">掌握 115 技能</span><br/><span
+    style="color:white"><span style="color:darkgray">------------------------</span></span><br/><span
+    style="color:white"><span style="color:aqua">• <span style="color:white">左键 <span
+    style="color:gray">to cast <span style="color:gold"></span></span></span></span></span><br/><span
+    style="color:white"><span style="color:aqua">• <span style="color:white">右键 <span
+    style="color:gray">to cycle the active spell</span></span></span></span><br/><span
+    style="color:white"><span style="color:aqua">• <span style="color:white">丢弃 (Q)
+    <span style="color:gray">to open the spell inventory</span></span></span></span><br/><span
+    style="color:white"><span style="color:aqua">• <span style="color:white"><span
+    style="color:yellow">Change controls using an <span style="color:aqua">enchant
+    table</span></span></span></span></span></div>'
+  owner: Enderlava
+  owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+f8877a9f-9cac-4edb-90b8-be034c6ce7e0:
+  location: -0.453125,72.0,-198.781005859375,world,125.264656,0.0
+  name: 法杖
+  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
+    style="color:white"><span style="color:darkaqua">法杖</span></span></h2><br/><span
+    style="color:white"><span style="color:darkaqua"><span style="font-style: italic">绑定
+    Enderlava</span></span></span></div>'
+  owner: Enderlava
+  owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+70a67392-9a9b-4533-b186-ca7f8ffb9c15:
+  location: -20.754638671875,71.31982421875,-240.885986328125,world,174.94913,0.0
+  name: 法杖
+  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
+    style="color:white"><span style="color:darkaqua">法杖</span></span></h2><br/><span
+    style="color:white"><span style="color:gray">初心者 <span style="color:reset">魔力法杖</span></span></span><br/><span
+    style="color:white"><span style="color:darkaqua"><span style="font-style: italic">绑定
+    Enderlava</span></span></span></div>'
+  owner: Enderlava
+  owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+5f03a1fb-045f-40ab-bb0c-9429e6511e65:
+  location: -20.754638671875,71.31982421875,-240.885986328125,world,227.08694,0.0
+  name: 法杖
+  description: '<div style="background-color: black; margin: 8px; padding: 8px"><h2><span
+    style="color:white"><span style="color:darkaqua">法杖</span></span></h2><br/><span
+    style="color:white"><span style="color:gray">初心者 <span style="color:reset">魔力法杖</span></span></span><br/><span
+    style="color:white"><span style="color:darkaqua"><span style="font-style: italic">绑定
+    Enderlava</span></span></span></div>'
+  owner: Enderlava
+  owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba

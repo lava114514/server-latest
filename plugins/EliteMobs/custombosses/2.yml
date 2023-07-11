@@ -11,6 +11,7 @@ onDeathCommands:
 - broadcast $players杀死了$level级的$name！
 - em spawnlocationcustom 4.yml world 0 100 0
 - tp @e[type=vex,tag=!Server] @p
+- superrandomcommand run get_book
 onSpawnCommands: []
 onCombatEnterCommands: []
 onCombatLeaveCommands: []
@@ -23,7 +24,6 @@ deathMessages:
 - '&4终结者: $players'
 - '&e&l---------------------------------------------'
 uniqueLootList:
-- zhelilunbook:0.7
 powers:
 - attack_wither.yml 
 - hyper_loot.yml 
@@ -36,6 +36,7 @@ powers:
 - invulnerability_fall_damage.yml
 - 1kaoda.yml
 - fly.yml
+- 1getbook.tml
 onDamageMessages:
 - 会翻墙吗！
 onDamagedMessages:

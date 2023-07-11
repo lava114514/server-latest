@@ -11,6 +11,8 @@ config:
     again? &4/em dismiss'
   switchEMStyleMessage: '&8[EliteMobs] &2/elitemobs &fmenu style changed! Check it
     out!'
+  treasureChestNoDropMessage: '&8[EliteMobs] &cYou didn''t get anything! Better luck
+    next time!'
 ItemSettings:
   itemLoreStructureV2:
   - '&7§m§l---------§7<§l装备详情§7>§m§l---------'
@@ -14299,6 +14301,8 @@ ec_10_helmet_normal:
   - Double up your skull with this fine helmet.
 tricky_bow:
   name: Tricky Bow
+  lore:
+  - '&神'
 altered_enderman_drop_charm:
   name: '&6Flame Organ'
   lore:
@@ -15161,3 +15165,23 @@ lunpp4:
   lore:
   - '&2香伦or臭伦'
   - Choose by yourself!
+elite_magma_cube:
+  name: '&2Lvl &2$level &fElite &6Magma Cube'
+  deathMessages:
+  - $player was incinerated by $entity&f!
+  - $player got too close to $entity&f!
+craftenmines_lab_sanctum_teleporter:
+  name: Sonio the Speedy
+  role: <[30] Craftenmine's Laboratory Teleport>
+  greetings:
+  - ''
+the_climb_teleporter:
+  name: Villager Voltar
+  role: <[10] The Climb Teleporter>
+  greetings:
+  - ''
+the_cave_teleporter:
+  name: Miner Regulus
+  role: <[10] The Cave Teleporter>
+  greetings:
+  - ''

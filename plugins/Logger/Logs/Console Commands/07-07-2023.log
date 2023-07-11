@@ -1,0 +1,17 @@
+[2023-07-07 08:32:19] say ÖØÆô
+[2023-07-07 08:32:28] stop
+[2023-07-07 08:55:48] say µ°ÔÚÂð
+[2023-07-07 09:22:15] gamemode creative Enderlava
+[2023-07-07 09:22:47] gamemode survival Enderlava
+[2023-07-07 10:13:14] xp set wegwe 25 levels
+[2023-07-07 10:28:59] em spawnlocationcustom 001.yml world 0 70 -200
+[2023-07-07 10:35:56] execute as Enderlava at @s run tp @e[distance=0..20] @s
+[2023-07-07 10:36:08] execute as Enderlava at @s run tp @e[distance=0..20] @s
+[2023-07-07 10:36:18] execute as Enderlava at @s run tp @e[distance=0..20] @s
+[2023-07-07 10:36:39] execute as Enderlava at @s run tp @e[distance=0..20] @s
+[2023-07-07 10:37:58] execute as Enderlava at @s run tp @e[distance=0..20] @s
+[2023-07-07 10:51:34] em reload
+[2023-07-07 10:52:31] e
+[2023-07-07 12:24:58] kick wqe123420
+[2023-07-09 21:27:44] ban Funget114514
+[2023-07-09 21:27:47] stop

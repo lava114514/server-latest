@@ -1,0 +1,13 @@
+name: get_book
+powerType: UNIQUE
+isEnabled: true
+eliteScript:
+  get_book:
+    Events:
+    - EliteMobDeathEvent
+    Actions:
+    - action: RUN_COMMAND_AS_PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 10
+      sValue: superrandomcommand run get_book

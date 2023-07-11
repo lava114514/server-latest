@@ -1,0 +1,11 @@
+summonsuper:
+#可供选择的指令组
+  commandGroups:
+#指令组的名称 随便填
+    group1:
+      - "mmob spawn warlock ~ ~ ~ world 20"
+#指令 (注意以数组符号"-"开头) <player>可以代表执行此指令的玩家的名字
+#默认的每个组的执行几率 保留三位小数
+  defaultChance:
+#组的名字: 几率 不写某个组的则默认那个组几率为0
+    group1: 1

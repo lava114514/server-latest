@@ -1,0 +1,23 @@
+{
+  "placements": [
+    {
+      "id": "2e4fb352-417d-407f-a038-6a769908dd01",
+      "file_name": "ˢʯ",
+      "hash": "a8503676-7825-3704-8b2e-68e34d29494f",
+      "origin": {
+        "position": [
+          -18,
+          133,
+          -17
+        ],
+        "dimension": "minecraft:the_nether"
+      },
+      "rotation": "NONE",
+      "mirror": "NONE",
+      "owner": {
+        "uuid": "07031eee-c0d3-4ed4-8fa9-6f8ea128abba",
+        "name": "Enderlava"
+      }
+    }
+  ]
+}

@@ -10,6 +10,8 @@ Bindings:
     - 'menu'
     - 'cd'
     - '菜单'
+    - 'CD'
+    - 'MENU'
   # 绑定到物品特征
   Items:
     - 'material:compass'

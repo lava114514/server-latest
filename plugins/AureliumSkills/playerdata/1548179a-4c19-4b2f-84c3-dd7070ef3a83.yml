@@ -8,28 +8,28 @@ skills:
     xp: 567.7599999999976
   mining:
     level: 9
-    xp: 714.9699999997366
+    xp: 768.8499999997384
   fishing:
     level: 7
     xp: 3257.0
   excavation:
     level: 4
-    xp: 31.410000000001688
+    xp: 43.840000000001666
   archery:
-    level: 8
-    xp: 4905.749999999994
+    level: 9
+    xp: 222.54999999999
   defense:
     level: 10
-    xp: 2043.4828050354247
+    xp: 2988.1197051742806
   fighting:
     level: 14
-    xp: 8307.499999999944
+    xp: 10967.300000000045
   endurance:
     level: 12
-    xp: 3468.0
+    xp: 4846.0
   agility:
-    level: 7
-    xp: 3529.510407114031
+    level: 8
+    xp: 353.71040711403066
   alchemy:
     level: 1
     xp: 0.0
@@ -38,22 +38,22 @@ skills:
     xp: 814.8000000000001
   sorcery:
     level: 6
-    xp: 1231.4093901887536
+    xp: 1498.023973595351
   healing:
     level: 1
     xp: 20.0
   forging:
     level: 4
     xp: 45.0
-mana: 48.0
+mana: 50.0
 locale: zh-cn
 ability_data:
   first_strike:
-    counter: 195
+    counter: 206
   xp_convert:
-    xp: 11.129566478212077
+    xp: 7.491050023664467
   charged_shot:
     cooldown: 0
-    enabled: false
+    enabled: true
   absorption:
     activated: false

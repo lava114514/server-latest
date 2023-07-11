@@ -48,6 +48,6 @@ boots: NETHERITE_BOOTS
 mainHand: NETHERITE_AXE
 isBaby: true
 locationMessage:  自嗨伦：$distance
-spawnMessage:  ..
+spawnMessage:  
 deathMessage:  ..
 escapeMessage:  ..
