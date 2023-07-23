@@ -1,3 +1,4 @@
+reset-xp-on-death: false
 hooks:
   HolographicDisplays:
     enabled: true

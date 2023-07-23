@@ -15185,3 +15185,31 @@ the_cave_teleporter:
   role: <[10] The Cave Teleporter>
   greetings:
   - ''
+1superwolf:
+  name: $eventBossLevel &7Super Wolf
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&4The Alpha Wolf has been put down!'
+  - '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+  - '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+  - '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+  - '&aSlayers: $players'
+  - '&e&l---------------------------------------------'
+  locationMessage: '&7Enraged Vindicator: $distance blocks away!'
+  spawnMessage: '&cThe howls of an Alpha Werewolf are heard!'
+  deathMessage: '&aThe Alpha Werewolf has been stopped by $players!'
+  escapeMessage: '&4Dawn breaks, the Alpha Wolf vanishes without a trace!'
+superwolf:
+  name: $eventBossLevel &7群狼之首
+  deathMessages:
+  - '&e&l---------------------------------------------'
+  - '&a群狼之首 被 $players 杀死了!'
+  - '&c&l    1st Damager: $damager1name &cwith $damager1damage damage!'
+  - '&6&l    2nd Damager: $damager2name &6with $damager2damage damage!'
+  - '&e&l    3rd Damager: $damager3name &ewith $damager3damage damage!'
+  - '&aSlayers: $players'
+  - '&e&l---------------------------------------------'
+  locationMessage: 距离 &7群狼之首 还有$distance 格!
+  spawnMessage: '&c大狼潮来了!'
+  deathMessage: '&a群狼之首 被 $players 杀死了!'
+  escapeMessage: '&4Dawn breaks, the Alpha Wolf vanishes without a trace!'

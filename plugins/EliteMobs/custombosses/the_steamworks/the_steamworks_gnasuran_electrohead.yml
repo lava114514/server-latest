@@ -21,6 +21,6 @@ dropsRandomLoot: false
 powers:
 - taze.yml
 spawnLocations:
-- em_steamworks_lair,-94.5,-40.5,-82.5,0.0,0.0
+- em_steamworks_lair,-94.5,-40.5,-82.5,0.0,0.0:1689655280497
 - em_steamworks_lair,-100.5,-18.5,-83.5,0.0,0.0
 

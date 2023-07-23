@@ -5,11 +5,10 @@ eliteScript:
   summoon:
     Events:
     - EliteMobDamagedByPlayerEvent
-    - EliteMobTargetPlayerEvent
     Actions:
     - action: RUN_COMMAND_AS_PLAYER
       Target:
-        targetType: NEARBY_PLAYERS
+        targetType: DIRECT_TARGET
         range: 10
       sValue: function minecraft:summon
     Cooldowns:

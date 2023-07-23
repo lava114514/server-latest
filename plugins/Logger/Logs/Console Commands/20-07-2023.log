@@ -1,0 +1,88 @@
+[2023-07-20 12:47:33] say 其实不用投影啊‘
+[2023-07-20 12:47:39] say 很简单啊
+[2023-07-20 13:00:04] give Enderlava minecraft:observer 6
+[2023-07-20 14:06:27] gamemode creative Enderlava
+[2023-07-20 14:08:58] gamemode survival Enderlava
+[2023-07-20 14:09:43] give Enderlava minecraft:iron_block 60
+[2023-07-20 14:10:24] give Enderlava minecraft:iron_block 60
+[2023-07-20 14:12:33] give Enderlava minecraft:beacon
+[2023-07-20 14:16:00] give Enderlava minecraft:end_crystal 4
+[2023-07-20 14:17:38] give Enderlava minecraft:glass_bottle 10
+[2023-07-20 14:19:25] give Enderlava arrow 64
+[2023-07-20 14:20:57] give Enderlava minecraft:end_crystal 4
+[2023-07-20 14:26:42] give Enderlava minecraft:glass_bottle 10
+[2023-07-20 14:27:41] give Enderlava minecraft:glass_bottle 10
+[2023-07-20 14:27:41] give Enderlava minecraft:glass_bottle 10
+[2023-07-20 14:27:42] give Enderlava minecraft:glass_bottle 10
+[2023-07-20 14:30:40] give Funget114514 arrow 114514
+[2023-07-20 14:30:44] give Funget114514 arrow 6400
+[2023-07-20 14:32:05] give Enderlava arrow 64
+[2023-07-20 14:33:23] give Enderlava minecraft:glass_bottle 10
+[2023-07-20 14:33:36] give Enderlava minecraft:glass_bottle 10
+[2023-07-20 14:34:39] give Enderlava sand 64
+[2023-07-20 14:35:21] give Enderlava sand 64
+[2023-07-20 15:03:44] give Enderlava minecraft:ghast_tear 1
+[2023-07-20 15:06:59] give Enderlava minecraft:end_crystal 4
+[2023-07-20 15:07:25] give Enderlava minecraft:end_crystal 4
+[2023-07-20 15:08:54] give Enderlava minecraft:sand 128
+[2023-07-20 15:22:39] say 1ahshvdh
+[2023-07-20 15:22:40] say 1ahshvdh
+[2023-07-20 15:22:40] say 1ahshvdh
+[2023-07-20 15:22:40] say 1ahshvdh
+[2023-07-20 15:22:40] say 1ahshvdh
+[2023-07-20 15:22:41] say 1ahshvdh
+[2023-07-20 15:22:41] say 1ahshvdh
+[2023-07-20 15:22:41] say 1ahshvdh
+[2023-07-20 15:22:41] say 1ahshvdh
+[2023-07-20 15:22:41] say 1ahshvdh
+[2023-07-20 15:22:42] say 1ahshvdh
+[2023-07-20 15:22:42] say 1ahshvdh
+[2023-07-20 15:22:42] say 1ahshvdh
+[2023-07-20 15:22:42] say 1ahshvdh
+[2023-07-20 15:22:42] say 1ahshvdh
+[2023-07-20 15:22:43] say 1ahshvdh
+[2023-07-20 15:22:43] say 1ahshvdh
+[2023-07-20 15:22:43] say 1ahshvdh
+[2023-07-20 15:22:43] say 1ahshvdh
+[2023-07-20 15:22:43] say 1ahshvdh
+[2023-07-20 15:22:44] say 1ahshvdh
+[2023-07-20 15:22:44] say 1ahshvdh
+[2023-07-20 15:22:44] say 1ahshvdh
+[2023-07-20 15:22:44] say 1ahshvdh
+[2023-07-20 15:22:44] say 1ahshvdh
+[2023-07-20 15:22:45] say 1ahshvdh
+[2023-07-20 15:22:45] say 1ahshvdh
+[2023-07-20 15:22:45] say 1ahshvdh
+[2023-07-20 15:23:08] say 服务器日常发癫
+[2023-07-20 15:44:51] say 卡死了
+[2023-07-20 15:44:53] say c
+[2023-07-20 15:48:22] give Enderlava minecraft:iron_block 64
+[2023-07-20 15:49:31] give Enderlava minecraft:redstone_torch 10
+[2023-07-20 15:50:00] give Enderlava minecraft:slime_block 10
+[2023-07-20 15:51:25] execute in minecraft:the_end run setblock 1 61 -3 air
+[2023-07-20 15:52:19] execute in minecraft:the_end run setblock 0 61 -3 air
+[2023-07-20 15:53:16] execute in minecraft:the_end run setblock -1 61 -3 air
+[2023-07-20 16:01:10] give Enderlava minecraft:sticky_piston
+[2023-07-20 16:01:35] give Enderlava minecraft:sticky_piston
+[2023-07-20 16:07:51] effect give Enderlava minecraft:strength infinite 255 true
+[2023-07-20 16:09:20] effect give wqe123420 minecraft:instant_health infinite 255 true
+[2023-07-20 16:09:35] effect give wqe123420 minecraft:instant_health infinite 5 true
+[2023-07-20 16:09:48] effect clear wqe123420
+[2023-07-20 16:09:49] effect give wqe123420 minecraft:instant_health infinite 5 true
+[2023-07-20 16:10:57] effect give Enderlava minecraft:instant_health infinite 1 true
+[2023-07-20 16:11:38] effect give Enderlava minecraft:health_boost infinite 255 true
+[2023-07-20 16:12:39] effect clear Enderlava minecraft:instant_health
+[2023-07-20 17:12:27] save-all
+[2023-07-20 21:20:42] say
+[2023-07-20 21:24:07] give Enderlava paper 24
+[2023-07-20 21:51:42] say Funget114514
+[2023-07-20 21:53:00] say Funget114514
+[2023-07-20 21:53:01] say Funget114514
+[2023-07-20 21:53:11] tp Funget114514 ~ ~ ~
+[2023-07-20 21:53:21] tp Funget114514 ~ ~2 ~
+[2023-07-20 21:53:34] tp Funget114514 ~ ~2 ~
+[2023-07-20 21:55:03] execute in minecraft:em_shadow_of_the_binder_of_worlds run tp Funget114514 ~ ~100 ~
+[2023-07-20 21:57:37] execute in minecraft:em_shadow_of_the_binder_of_worlds run tp wqe123420 ~ ~100 ~
+[2023-07-20 21:57:58] execute as wqe123420 run me 被世界绑定者盯上了
+[2023-07-20 22:02:32] say 你们在干什么
+[2023-07-20 22:51:54] stop

@@ -4,7 +4,7 @@ isRegionalBoss: true
 spawnCooldown: 4
 isEnabled: true
 entityType: BLAZE
-name: '$minibossLevel &1Spark'
+name: $minibossLevel &1Spark
 level: 25
 powers:
 - attack_gravity.yml
@@ -21,4 +21,4 @@ uniqueLootList:
 - sewer_spelunkers_helmet.yml:0.1
 - sewer_spelunkers_leggings.yml:0.1
 spawnLocations:
-- em_sewer_maze,-150.5,100.5,-64.5,0.0,0.0:0
+- em_sewer_maze,-150.5,100.5,-64.5,0.0,0.0:1689652698195

@@ -1,0 +1,24 @@
+[2023-07-17 09:07:38] gamemode creative Enderlava
+[2023-07-17 09:29:52] STOP
+[2023-07-17 09:31:13] gamemode creative Enderlava
+[2023-07-17 09:31:34] give Enderlava minecraft:structure_block
+[2023-07-17 09:31:42] op Enderlava
+[2023-07-17 09:49:45] kick Funget114514 服务器关闭/重启
+[2023-07-17 09:52:40] stop
+[2023-07-17 10:30:36] give Enderlava minecraft:firework_rocket 64
+[2023-07-17 10:34:28] effect give Enderlava minecraft:instant_health infinite 1 true
+[2023-07-17 10:34:39] effect give Enderlava minecraft:bad_omen infinite 6 true
+[2023-07-17 10:36:38] effect give Enderlava minecraft:bad_omen infinite 6 true
+[2023-07-17 10:38:59] execute at Enderlava run summon minecraft:villager
+[2023-07-17 10:39:12] effect give Enderlava minecraft:bad_omen infinite 6 true
+[2023-07-17 11:13:17] effect give Funget114514 minecraft:slowness infinite 255 true
+[2023-07-17 11:22:57] execute as Funget114514 run function get_book
+[2023-07-17 11:22:59] execute as Funget114514 run function get_book
+[2023-07-17 11:25:38] execute as Funget114514 run function get_book
+[2023-07-17 11:25:39] execute as Funget114514 run function get_book
+[2023-07-17 11:27:51] execute as Funget114514 run function get_book
+[2023-07-17 11:36:57] say 666
+[2023-07-17 11:37:22] say 去看掠夺搭
+[2023-07-17 11:37:53] say 物品分类做好了
+[2023-07-17 11:54:21] execute at Enderlava run summon pig
+[2023-07-17 11:55:09] execute at Enderlava run summon pig

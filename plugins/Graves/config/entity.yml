@@ -26,7 +26,7 @@ settings:
 
     WITHER: # Override default options for Withers.
       grave:
-        enabled: true
+        enabled: false
         time: -1
         explode: false
       block:

@@ -150,7 +150,7 @@ Icons:
         - ''
         - '&8| &7注册日期: &3%player_first_join_date%'
         - '&8| &7IP: &3%player_ip%'
-        - '&8| &7延迟: ${js: varInt("%player_ping%") < 60 ? "&a" : "&2"}%player_ping% ms'
+#        - '&8| &7延迟: ${js: varInt("%player_ping%") < 60 ? "&a" : "&2"}%player_ping% ms'
         - ''
         - '&8➥ &7点击数字 &66 &7进行一次高跳'
         - '&b 魔杖右键附魔台会有神奇的事发生'

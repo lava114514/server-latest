@@ -1,0 +1,48 @@
+# PickPack configuration
+
+# Address/port to use to reconnect players to:
+# Replace these with the address/port you would need for the Geyser server.
+address: 127.0.0.1
+port: 19132
+
+# Defaults, can be changed by players:
+show-pack-descriptions: true
+use-transfer-packet: true
+
+# Command permissions:
+# pickpack.reload: Permission to reload the config with /pickpack reload
+reload-permission: "pickpack.reload"
+
+# pickpack.menu: Permission for /pickpack menu. Blank is for all Bedrock players.
+menu-permission: "pickpack.menu"
+
+# pickpack.default: Permission for /pickpack default. Blank is for all Bedrock players.
+default-permission: "pickpack.default"
+
+translations:
+  menu-command-description: "Choose your own packs"
+  reset-command-description: "Reset your packs to the default packs"
+  reload-command-description: "Reload the config"
+
+  main-menu-title: "你目前使用的服务器资源包:"
+  main-menu-change-button: "更改资源包"
+  main-menu-back-button: "返回"
+
+  filter-form-title: "你想使用哪些资源包?"
+  filter-button-name: "筛选器"
+  filter-all-packs: "所有包"
+  filter-not-applied-packs: "未使用资源包"
+  filter-applied-packs: "已使用资源包"
+  filter-description-toggle: "显示资源包描述"
+  filter-transfer-warning: "如果数据包传输对你不适用,你可以在此处禁用."
+  filter-transfer-toggle: "使用数据包传输"
+
+  pack-form-title: "选择你的资源包:"
+  pack-form-label: "§l§2 showing§r§l§6 %filter% §r"
+  no-packs-warning: "你没有已使用的资源包"
+
+  disconnect-message: "§6 重新加入以应用更改!"
+  reload-message: "§6 Config reloaded!"
+
+
+

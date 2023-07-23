@@ -13,7 +13,7 @@
 # For customization help see:
 # https://github.com/elBukkit/MagicPlugin/wiki/Customization
 #
-
+enable_resource_pack: false
 #
 # Examples:
 # Note that a "#" character means the line is commented out and has no effect.

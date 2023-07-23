@@ -23,5 +23,5 @@ powers:
 - attack_blinding.yml
 spawnLocations:
 - em_steamworks_lair,-78.5,-42.5,-89.5,0.0,0.0
-- em_steamworks_lair,-62.5,-41.5,-69.5,0.0,0.0
+- em_steamworks_lair,-62.5,-41.5,-69.5,0.0,0.0:1689655183341
 - em_steamworks_lair,-86.5,-40.5,-67.5,0.0,0.0

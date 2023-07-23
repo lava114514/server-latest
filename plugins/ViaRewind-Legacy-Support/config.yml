@@ -1,3 +1,4 @@
+carpet-fix: true
 # Automatically put blaze powder in brewing stands for clients lower than 1.9
 brewing-stand-gui-fix: true
 # Automatically put lapis lazuli in enchanting tables for clients lower than 1.8

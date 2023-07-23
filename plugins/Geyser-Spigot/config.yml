@@ -22,7 +22,7 @@ bedrock:
   motd1: "Geyser"
   motd2: "Another Geyser server."
   # The Server Name that will be sent to Minecraft: Bedrock Edition clients. This is visible in both the pause menu and the settings menu.
-  server-name: "Geyser"
+  server-name: "Fake craft"
   # How much to compress network traffic to the Bedrock client. The higher the number, the more CPU usage used, but
   # the smaller the bandwidth used. Does not have any effect below -1 or above 9. Set to -1 to disable.
   compression-level: 6
@@ -86,12 +86,12 @@ command-suggestions: true
 
 # The following three options enable "ping passthrough" - the MOTD, player count and/or protocol name gets retrieved from the Java server.
 # Relay the MOTD from the remote server to Bedrock players.
-passthrough-motd: false
+passthrough-motd: true
 # Relay the protocol name (e.g. BungeeCord [X.X], Paper 1.X) - only really useful when using a custom protocol name!
 # This will also show up on sites like MCSrvStatus. <mcsrvstat.us>
 passthrough-protocol-name: false
 # Relay the player count and max players from the remote server to Bedrock players.
-passthrough-player-counts: false
+passthrough-player-counts: true
 # Enable LEGACY ping passthrough. There is no need to enable this unless your MOTD or player count does not appear properly.
 # This option does nothing on standalone.
 legacy-ping-passthrough: false
@@ -111,11 +111,11 @@ debug-mode: false
 
 # Allow third party capes to be visible. Currently allowing:
 # OptiFine capes, LabyMod capes, 5Zig capes and MinecraftCapes
-allow-third-party-capes: false
+allow-third-party-capes: true
 
 # Allow third party deadmau5 ears to be visible. Currently allowing:
 # MinecraftCapes
-allow-third-party-ears: false
+allow-third-party-ears: true
 
 # Allow a fake cooldown indicator to be sent. Bedrock players otherwise do not see a cooldown as they still use 1.8 combat.
 # Please note: if the cooldown is enabled, some users may see a black box during the cooldown sequence, like below:

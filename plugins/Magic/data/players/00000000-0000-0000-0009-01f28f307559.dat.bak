@@ -1,10 +1,10 @@
 id: 00000000-0000-0000-0009-01f28f307559
 name: .Mai_Shiranui520
 created: 1689042911075
-updated: 1689068357437
+updated: 1690035851503
 last_cast: 0
-cooldown_expiration: 0
-last_death_location: 6.6420865,65.0,-22.262592,world_nether,-140.28018,82.645874
+cooldown_expiration: 1689923889805
+last_death_location: -108.78359,43.0,2.5749488,world_nether,28.234451,50.089493
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -17,12 +17,49 @@ brush:
 undo:
   b8dd9de6-bce5-418b-9566-b5e1a4cc7a98: []
 spells:
+  broom:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
   missile:
     cast_count: 0
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
+wands:
+  mirrorshield:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3465
+      type: SHIELD
+      meta:
+        ==: ItemMeta
+        meta-type: TILE_ENTITY
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_aqua","text":"镜之盾"}],"text":""}'
+        lore:
+        - '{"italic":false,"extra":[{"color":"green","text":"可以格挡和反弹法术"}],"text":""}'
+        - '{"italic":true,"color":"dark_aqua","text":"绑定 .Mai_Shiranui520"}'
+        - '{"italic":false,"extra":[{"color":"aqua","text":"反弹: IV"}],"text":""}'
+        custom-model-data: 18001
+        ItemFlags:
+        - HIDE_ENCHANTS
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        - HIDE_DESTROYS
+        - HIDE_PLACED_ON
+        - HIDE_POTION_EFFECTS
+        - HIDE_DYE
+        Unbreakable: true
+        internal: H4sIAAAAAAAA/+NiYGBkYMlOTS1g5GJgKU/MS+FgYM0vz0stYhDQ803MjA/OyCxKzCvNNDUy4GDgKEnNLchJLEll4MnNLCrKLyrOyEzNAWrhAGuJz0xhUDGAAl0UwlLXwDDNyCLN2MDc1NSSmYG9LLWoODM/j4GBgZ2BAQDnrDBWhgAAAA==
+        blockMaterial: SHIELD
+    wand:
+      owner: .Mai_Shiranui520
+      version: 7
+      owner_id: 00000000-0000-0000-0009-01f28f307559
+      template: mirrorshield
 open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: default
@@ -33,8 +70,9 @@ classes:
   caster: {}
   mage:
     effect_color: 3255f83b550e,5993f8d47bbf,f61a19925d42
-    mana_timestamp: 1689068357437
+    mana_timestamp: 1689836293322
     mana: 50.0
+  broomrider: {}
 transient_modifiers: {}
-active_class: mage
-health: 2.0613322257995605
+active_class: broomrider
+health: 21.200000762939453

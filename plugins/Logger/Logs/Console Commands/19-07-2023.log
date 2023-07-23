@@ -1,0 +1,79 @@
+[2023-07-19 09:10:01] stop
+[2023-07-19 11:08:16] tp Enderlava .Mai_Shiranui520 ~ ~-1 ~
+[2023-07-19 11:08:50] execute at .Mai_Shiranui520 run tp Enderlava ^-1 ^ ^
+[2023-07-19 11:15:07] give Enderlava minecraft:water_bucket
+[2023-07-19 11:16:29] execute at Funget114514 run tp Enderlava ^-1 ^ ^
+[2023-07-19 11:31:58] gamemode creative Enderlava
+[2023-07-19 11:32:24] gamemode survival Enderlava
+[2023-07-19 11:44:17] em give unbind_scroll.yml Enderlava
+[2023-07-19 12:01:39] em reload
+[2023-07-19 12:03:21] give Enderlava tnt 64
+[2023-07-19 15:49:28] mspt
+[2023-07-19 22:17:37] effect give Enderlava minecraft:health_boost infinite 4 true
+[2023-07-19 22:17:48] effect give Enderlava minecraft:health_boost infinite 10 true
+[2023-07-19 22:18:03] effect give Enderlava minecraft:health_boost infinite 10 true
+[2023-07-19 22:18:24] effect give Enderlava minecraft:instant_health infinite 1 true
+[2023-07-19 22:43:59] execute at Enderlava run summon minecraft:zombie ~ ~ ~ {Tags:[Huixue1],Invulnerable:1,Silent:1,NoAI:1,PersistenceRequired:1,Attributes:[{Name:"generic.knockback_resistance",Base:1}],ActiveEffects:[{Id:14,Duration:32767,Ambient:0b,ShowIcon:0b,Amplifier:1b,ShowParticles:0b}]}
+[2023-07-19 22:44:28] execute at Enderlava run summon minecraft:zombie ~ ~ ~ {Tags:[Huixue1],Invulnerable:1,Silent:1,NoAI:1,PersistenceRequired:1,Attributes:[{Name:"generic.knockback_resistance",Base:1}],ActiveEffects:[{Id:14,Duration:32767,Ambient:0b,ShowIcon:0b,Amplifier:1b,ShowParticles:0b}]}
+[2023-07-19 22:44:58] execute at Enderlava run summon minecraft:zombie ~ ~ ~ {Tags:[Huixue1],Invulnerable:1,Silent:1,NoAI:1,PersistenceRequired:1,Attributes:[{Name:"generic.knockback_resistance",Base:1}],ActiveEffects:[{Id:14,Duration:32767,Ambient:0b,ShowIcon:0b,Amplifier:1b,ShowParticles:0b}]}
+[2023-07-19 22:45:07] execute at Enderlava run summon minecraft:zombie ~ ~ ~ {Tags:[Huixue1],Invulnerable:1,Silent:1,NoAI:1,PersistenceRequired:1,Attributes:[{Name:"generic.knockback_resistance",Base:1}],ActiveEffects:[{Id:14,Duration:32767,Ambient:0b,ShowIcon:0b,Amplifier:1b,ShowParticles:0b}]}
+[2023-07-19 22:45:31] execute at Enderlava run summon minecraft:zombie ~ ~ ~ {Tags:[Huixue1],Invulnerable:1,Silent:1,NoAI:1,PersistenceRequired:1,Attributes:[{Name:"generic.knockback_resistance",Base:1}],ActiveEffects:[{Id:14,Duration:32767,Ambient:0b,ShowIcon:0b,Amplifier:1b,ShowParticles:0b}]}
+[2023-07-19 22:46:53] execute at Enderlava run summon cow
+[2023-07-19 22:46:54] execute at Enderlava run summon cow
+[2023-07-19 22:46:55] execute at Enderlava run summon cow
+[2023-07-19 22:46:55] execute at Enderlava run summon cow
+[2023-07-19 22:46:56] execute at Enderlava run summon cow
+[2023-07-19 22:46:56] execute at Enderlava run summon cow
+[2023-07-19 22:46:56] execute at Enderlava run summon cow
+[2023-07-19 22:46:57] execute at Enderlava run summon cow
+[2023-07-19 22:46:57] execute at Enderlava run summon cow
+[2023-07-19 22:46:57] execute at Enderlava run summon cow
+[2023-07-19 22:46:58] execute at Enderlava run summon cow
+[2023-07-19 22:46:58] execute at Enderlava run summon cow
+[2023-07-19 22:46:59] execute at Enderlava run summon cow
+[2023-07-19 22:46:59] execute at Enderlava run summon cow
+[2023-07-19 22:46:59] execute at Enderlava run summon cow
+[2023-07-19 22:46:59] execute at Enderlava run summon cow
+[2023-07-19 22:47:00] execute at Enderlava run summon cow
+[2023-07-19 22:47:00] execute at Enderlava run summon cow
+[2023-07-19 22:47:00] execute at Enderlava run summon cow
+[2023-07-19 22:47:01] execute at Enderlava run summon cow
+[2023-07-19 22:47:01] execute at Enderlava run summon cow
+[2023-07-19 22:47:01] execute at Enderlava run summon cow
+[2023-07-19 22:47:02] execute at Enderlava run summon cow
+[2023-07-19 22:47:02] execute at Enderlava run summon cow
+[2023-07-19 22:47:02] execute at Enderlava run summon cow
+[2023-07-19 22:47:03] execute at Enderlava run summon cow
+[2023-07-19 22:47:03] execute at Enderlava run summon cow
+[2023-07-19 22:47:03] execute at Enderlava run summon cow
+[2023-07-19 22:47:04] execute at Enderlava run summon cow
+[2023-07-19 22:47:04] execute at Enderlava run summon cow
+[2023-07-19 22:47:04] execute at Enderlava run summon cow
+[2023-07-19 22:47:04] execute at Enderlava run summon cow
+[2023-07-19 22:47:05] execute at Enderlava run summon cow
+[2023-07-19 22:47:05] execute at Enderlava run summon cow
+[2023-07-19 22:47:05] execute at Enderlava run summon cow
+[2023-07-19 22:47:06] execute at Enderlava run summon cow
+[2023-07-19 22:47:06] execute at Enderlava run summon cow
+[2023-07-19 22:47:06] execute at Enderlava run summon cow
+[2023-07-19 22:47:07] execute at Enderlava run summon cow
+[2023-07-19 22:47:21] execute at Enderlava run summon cow
+[2023-07-19 22:47:22] execute at Enderlava run summon cow
+[2023-07-19 22:47:22] execute at Enderlava run summon cow
+[2023-07-19 22:47:22] execute at Enderlava run summon cow
+[2023-07-19 22:47:23] execute at Enderlava run summon cow
+[2023-07-19 22:47:23] execute at Enderlava run summon cow
+[2023-07-19 22:47:23] execute at Enderlava run summon cow
+[2023-07-19 22:47:24] execute at Enderlava run summon cow
+[2023-07-19 22:47:24] execute at Enderlava run summon cow
+[2023-07-19 22:47:24] execute at Enderlava run summon cow
+[2023-07-19 22:47:25] execute at Enderlava run summon cow
+[2023-07-19 22:47:25] execute at Enderlava run summon cow
+[2023-07-19 22:47:33] execute at Enderlava run summon cow
+[2023-07-19 22:49:09] time set day
+[2023-07-19 22:50:23] execute at Enderlava run summon minecraft:zombie ~ ~ ~ {Tags:[Huixue1],Invulnerable:1,Silent:1,NoAI:1,PersistenceRequired:1,Attributes:[{Name:"generic.knockback_resistance",Base:1}],ActiveEffects:[{Id:14,Duration:32767,Ambient:0b,ShowIcon:0b,Amplifier:1b,ShowParticles:0b}]}
+[2023-07-19 22:50:29] execute at Enderlava run summon minecraft:zombie ~ ~ ~ {Tags:[Huixue1],Invulnerable:1,Silent:1,NoAI:1,PersistenceRequired:1,Attributes:[{Name:"generic.knockback_resistance",Base:1}],ActiveEffects:[{Id:14,Duration:32767,Ambient:0b,ShowIcon:0b,Amplifier:1b,ShowParticles:0b}]}
+[2023-07-19 22:50:37] execute at Enderlava run summon minecraft:zombie ~ ~ ~ {Tags:[Huixue1],Invulnerable:1,Silent:1,NoAI:1,PersistenceRequired:1,Attributes:[{Name:"generic.knockback_resistance",Base:1}],ActiveEffects:[{Id:14,Duration:32767,Ambient:0b,ShowIcon:0b,Amplifier:1b,ShowParticles:0b}]}
+[2023-07-19 22:50:44] execute at Enderlava run summon minecraft:zombie ~ ~ ~ {Tags:[Huixue1],Invulnerable:1,Silent:1,NoAI:1,PersistenceRequired:1,Attributes:[{Name:"generic.knockback_resistance",Base:1}],ActiveEffects:[{Id:14,Duration:32767,Ambient:0b,ShowIcon:0b,Amplifier:1b,ShowParticles:0b}]}
+[2023-07-19 22:50:58] execute at Enderlava run summon minecraft:zombie ~ ~ ~ {Tags:[Huixue1],Invulnerable:1,Silent:1,NoAI:1,PersistenceRequired:1,Attributes:[{Name:"generic.knockback_resistance",Base:1}],ActiveEffects:[{Id:14,Duration:32767,Ambient:0b,ShowIcon:0b,Amplifier:1b,ShowParticles:0b}]}
+[2023-07-19 22:51:49] stop

@@ -14,10 +14,6 @@ settings:
         time: -1
       block:
         material: BEDROCK
-
-
-    dirt: # graves.permission.dirt
-      grave:
-        time: -1
-      block:
-        material: COBBLESTONE
+      protection:
+        enabled: true
+        time: 3600

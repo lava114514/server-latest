@@ -30,7 +30,7 @@ settings:
   debug:
     admin: # UUID or name of admins to send debug information to. https://mcuuid.net/
       - "c59ac6d2-4851-4183-a9f7-15d1a293eed6" # Ranull
-      - "069a79f4-44e9-4726-a5be-fca90e38aaf5" # Notch
+      - "07031eee-c0d3-4ed4-8fa9-6f8ea128abba" # Notch
     level: 0 # 0 = Nothing, 1 = Information, 2 = Failures
 
   #########

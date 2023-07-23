@@ -92,8 +92,8 @@ settings:
       ##############
       # Protection options, protect graves from players, this does not protect from explosions, look for grave: explode: to disable this.
       protection:
-        enabled: true # Enable the grave protection feature.
-        time: 300 # Seconds, 300 = 5 minutes. Set to -1 to always stay locked.
+        enabled: false # Enable the grave protection feature.
+        time: -1 # Seconds, 300 = 5 minutes. Set to -1 to always stay locked.
         open:
           owner: true # Can the owner open the owners grave.
           killer: false # Can the killer open the owners grave.
@@ -109,7 +109,7 @@ settings:
       # Graveyard #
       #############
       graveyard:
-        enabled: true # Enable the graveyard feature.
+        enabled: false # Enable the graveyard feature.
         death: false # If a suitable graveyard is found, should we still spawn the grave where the entity died.
 
       ############
@@ -142,7 +142,7 @@ settings:
       # Respawn #
       ###########
       respawn:
-        compass: true # Should entities be given a compass to their last grave when they respawn. (Only works for players)
+        compass: false # Should entities be given a compass to their last grave when they respawn. (Only works for players)
         compass-time: 300 # How long should the entity be given a compass on respawn after the grave was first created.
         function: "none" # Should we run a function after respawning, you can use menu and list among the other functions.
 
@@ -180,7 +180,7 @@ settings:
       ############
       # Put an obituary for the entity in the grave.
       obituary:
-        enabled: true # Should obituaries be enabled.
+        enabled: false # Should obituaries be enabled.
         title: "&c%owner_name%'s Obituary"
         author: "%killer_name%"
         glow: true # Should the obituary glow.
@@ -207,7 +207,7 @@ settings:
       # Drop a head belonging to the grave owner.
       head:
         enabled: false
-        percent: 0.2 # Chance a head should be created, 0.2 = 20%, 1 = 100%, 0 = 0%.
+        percent: 1 # Chance a head should be created, 0.2 = 20%, 1 = 100%, 0 = 0%.
         model-data: -1 # Custom model data, -1 is none.
         name: "%owner_name%'s Head"
         lore:
@@ -224,9 +224,9 @@ settings:
         only-break: false # Should a zombie only spawn if the player broke the grave not open it.
         explode: false # Should a grave spawn a zombie if it is blown up, this only works if the grave can be blown up.
         owner-head: true # Will the zombie have the owners head on.
-        health: 20 # How much health the zombie has.
+        health: 100 # How much health the zombie has.
         pickup: false # Can the zombie pickup dropped items.
-        drop: false # Do grave zombies drop items, this may include the head it is wearing.
+        drop: true # Do grave zombies drop items, this may include the head it is wearing.
 
       #########
       # Token #

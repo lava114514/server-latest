@@ -1,203 +1,218 @@
-[19:48:53] [Server Thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:48:55] [Server Thread/INFO]: Loaded 7 recipes
-[19:48:55] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[19:48:55] [Server thread/INFO]: Loading properties
-[19:48:56] [Server thread/INFO]: This server is running Leaves version git-Leaves-"6769d55" (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 6769d55)
-[19:48:56] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:48:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:48:56] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[20:50:32] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:50:34] [ServerMain/INFO]: Loaded 7 recipes
+[20:50:34] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:50:34] [Server thread/INFO]: Loading properties
+[20:50:34] [Server thread/INFO]: This server is running Leaves version git-Leaves-"d856b9f" (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: d856b9f)
+[20:50:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:50:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:50:34] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[19:48:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
-[19:48:56] [Server thread/WARN]: [Leaves] extra-yggdrasil-service is an unofficial support. Enabling it may cause data security problems!
-[19:48:56] [Server thread/INFO]: Default game type: SURVIVAL
-[19:48:56] [Server thread/INFO]: Generating keypair
-[19:48:56] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:48:56] [Server thread/INFO]: Using default channel type
-[19:48:56] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[19:48:56] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[19:48:58] [Server thread/INFO]: [TrMenu-3.1.22.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib-common:1.8.0
-[19:48:58] [Server thread/INFO]: [TrMenu-3.1.22.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib:1.8.0
-[19:48:58] [Server thread/INFO]: [TrMenu-3.1.22.jar] Loading library org.jetbrains:annotations:13.0
-[19:49:00] [ForkJoinPool.commonPool-worker-1/INFO]: [TrMenu-3.1.22.jar] Loading library org.yaml:snakeyaml:2.0
-[19:49:00] [ForkJoinPool.commonPool-worker-1/INFO]: [TrMenu-3.1.22.jar] Loading library com.typesafe:config:1.4.2
-[19:49:00] [ForkJoinPool.commonPool-worker-1/INFO]: [TrMenu-3.1.22.jar] Loading library com.electronwill.night-config:core:3.6.6
-[19:49:00] [ForkJoinPool.commonPool-worker-1/INFO]: [TrMenu-3.1.22.jar] Loading library com.electronwill.night-config:toml:3.6.6
-[19:49:00] [ForkJoinPool.commonPool-worker-1/INFO]: [TrMenu-3.1.22.jar] Loading library com.electronwill.night-config:json:3.6.6
-[19:49:00] [ForkJoinPool.commonPool-worker-1/INFO]: [TrMenu-3.1.22.jar] Loading library com.electronwill.night-config:hocon:3.6.6
-[19:49:00] [ForkJoinPool.commonPool-worker-8/INFO]: [TrMenu-3.1.22.jar] Loading library com.mongodb:MongoDB:3.12.2
-[19:49:00] [ForkJoinPool.commonPool-worker-7/INFO]: [TrMenu-3.1.22.jar] Loading library org.openjdk.nashorn:nashorn-core:15.3
-[19:49:00] [ForkJoinPool.commonPool-worker-7/INFO]: [TrMenu-3.1.22.jar] Loading library org.ow2.asm:asm-commons:7.3.1
-[19:49:00] [ForkJoinPool.commonPool-worker-7/INFO]: [TrMenu-3.1.22.jar] Loading library org.ow2.asm:asm-tree:7.3.1
-[19:49:00] [ForkJoinPool.commonPool-worker-7/INFO]: [TrMenu-3.1.22.jar] Loading library org.ow2.asm:asm:7.3.1
-[19:49:00] [ForkJoinPool.commonPool-worker-7/INFO]: [TrMenu-3.1.22.jar] Loading library org.ow2.asm:asm-util:7.3.1
-[19:49:00] [ForkJoinPool.commonPool-worker-5/INFO]: [TrMenu-3.1.22.jar] Loading library com.zaxxer:HikariCP:4.0.3
-[19:49:00] [ForkJoinPool.commonPool-worker-5/INFO]: [TrMenu-3.1.22.jar] Loading library org.slf4j:slf4j-api:2.0.7
-[19:49:00] [ForkJoinPool.commonPool-worker-9/INFO]: [TrMenu-3.1.22.jar] Loading library org.apache.commons:commons-jexl3:3.2.1
-[19:49:01] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_19_R3.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[19:49:04] [Server thread/WARN]: Legacy plugin SuperRandomCommand v1.6 does not specify an api-version.
-[19:49:04] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20
-[19:49:04] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib:1.7.20
-[19:49:04] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains:annotations:13.0
-[19:49:04] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20
-[19:49:04] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20
-[19:49:05] [ForkJoinPool.commonPool-worker-12/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.yaml:snakeyaml:1.32
-[19:49:06] [ForkJoinPool.commonPool-worker-6/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library com.zaxxer:HikariCP:4.0.3
-[19:49:06] [ForkJoinPool.commonPool-worker-6/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.slf4j:slf4j-api:2.0.7
-[19:49:06] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.7.0
-[19:49:06] [Server thread/INFO]: [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
-[19:49:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[19:49:07] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[19:49:07] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[19:49:07] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[19:49:07] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.14+6360-094b734
-[19:49:08] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@108c710e]
-[19:49:08] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.0.0
-[19:49:09] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.7+216b061
-[19:49:09] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.2
-[19:49:09] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.64
-[19:49:09] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b59-2278589)
-[19:49:10] [Server thread/INFO]: [floodgate] ≥…π¶∆Ù∂Ø Floodgate£¨∫ƒ ±639ms
-[19:49:10] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.7.0
-[19:49:10] [Server thread/INFO]: [AureliumSkills] Loading server plugin AureliumSkills vBeta 1.3.19
-[19:49:10] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.9
-[19:49:10] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.2-SNAPSHOT
-[19:49:10] [Server thread/INFO]: [Geyser-Spigot] ’˝‘⁄º”‘ÿ≤Âº˛...
-[19:49:10] [Server thread/INFO]: [Geyser-Spigot] “—º”‘ÿ 0 ∏ˆ≤Âº˛
-[19:49:10] [Server thread/INFO]: [LaggRemover] Loading server plugin LaggRemover v2.0.6
-[19:49:10] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.4.0
-[19:49:10] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v2.0.3
-[19:49:10] [Server thread/INFO]: [TrMenu] Loading server plugin TrMenu v3.1.22
-[19:49:11] [Server thread/INFO]: 
-[19:49:11] [Server thread/INFO]: ’˝‘⁄º”‘ÿ TrMenu Premium... git-Leaves-"6769d55" (MC: 1.19.4)
-[19:49:11] [Server thread/INFO]: 
-[19:49:11] [Server thread/INFO]: [Tpj] Loading server plugin Tpj v1.0
-[19:49:11] [Server thread/INFO]: [Themis] Loading server plugin Themis v0.15.1
-[19:49:11] [Server thread/INFO]: [SuperRandomCommand] Loading server plugin SuperRandomCommand v1.6
-[19:49:11] [Server thread/INFO]: [RandomControl] Loading server plugin RandomControl v1.1.0
-[19:49:11] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v4.3.1
-[19:49:11] [Server thread/INFO]: [Magic] Loading server plugin Magic v10.8.9-845a296
-[19:49:11] [Server thread/INFO]: [Magic] Loading modern compatibility layer for server version 1.19.4
-[19:49:11] [Server thread/INFO]: [Magic] Async chunk loading API found
-[19:49:11] [Server thread/INFO]: [Magic] Chat component API found
-[19:49:11] [Server thread/INFO]: [Magic] Found WorldGuard 7+
-[19:49:11] [Server thread/INFO]: [Magic] Pre-check for WorldGuard custom flag registration
-[19:49:11] [Server thread/INFO]: [Magic] Registered custom WorldGuard flags: allowed-spells, always-allowed-spells, blocked-spells, always-allowed-spell-categories, allowed-spell-categories, blocked-spell-categories, allowed-wands, always-allowed-wands, blocked-wands, spell-overrides, destructible, reflective, tags, portal-spell, portal-warp
-[19:49:11] [Server thread/INFO]: [Logger] Loading server plugin Logger v1.8.0.9
-[19:49:11] [Server thread/INFO]: [ItemCommand] Loading server plugin ItemCommand v1.0.3
-[19:49:11] [Server thread/INFO]: [GroupManager] Loading server plugin GroupManager v2.9 (Phoenix)
-[19:49:11] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
-[19:49:11] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.7+216b061.
-[19:49:11] [Server thread/INFO]: [GeekPlayerBag] Loading server plugin GeekPlayerBag v1.1-Bate
-[19:49:11] [Server thread/INFO]: 
-[19:49:11] [Server thread/INFO]: ’˝‘⁄º”‘ÿ GeekPlayerBag ...  git-Leaves-"6769d55" (MC: 1.19.4)
-[19:49:11] [Server thread/INFO]: 
-[19:49:11] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v8.5.4
-[19:49:11] [Server thread/INFO]: [EliteMobs] WorldGuard detected.
-[19:49:11] [Server thread/INFO]: [EliteMobs] Enabling flags:
-[19:49:11] [Server thread/INFO]: [EliteMobs] - elitemob-spawning
-[19:49:11] [Server thread/INFO]: [EliteMobs] - elitemob-only-spawning
-[19:49:11] [Server thread/INFO]: [EliteMobs] - elitemobs-antiexploit
-[19:49:11] [Server thread/INFO]: [EliteMobs] - elitemobs-dungeon
-[19:49:11] [Server thread/INFO]: [EliteMobs] - elitemobs-events
-[19:49:11] [Server thread/INFO]: [EliteMobs] - elitemobs-minimum-level
-[19:49:11] [Server thread/INFO]: [EliteMobs] - elitemobs-maximum-level
-[19:49:11] [Server thread/INFO]: [EliteMobs] - elitemobs-explosion-regen
-[19:49:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:49:11] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.14+6360-094b734
-[19:49:11] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[19:49:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[19:49:12] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
-[19:49:12] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
-[19:49:12] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.64
-[19:49:13] [Server thread/INFO]:         __    
-[19:49:13] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.64
-[19:49:13] [Server thread/INFO]:   |___ |      Running on Bukkit - Leaves
-[19:49:13] [Server thread/INFO]: 
-[19:49:13] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[19:49:13] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[19:49:14] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[19:49:14] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[19:49:14] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1995ms)
-[19:49:14] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.3
-[19:49:15] [Server thread/INFO]: [Magic] Enabling Magic v10.8.9-845a296
-[19:49:15] [Server thread/INFO]: [Magic] EffectLib initialized
-[19:49:16] [Server thread/INFO]: [Magic] Loaded 0 attributes
-[19:49:16] [Server thread/INFO]: [Magic] Wand crafting is enabled
-[19:49:16] [Server thread/INFO]: [Magic] Skin-based spell icons disabled
-[19:49:16] [Server thread/INFO]: [Magic] Registered attributes: [target_fall_distance, regeneration, respiration, projectile_protection, bowpower, degrees, seconds, channeling, target_pitch, humidity, pitch, sharpness, darkness, jump, health_max, efficiency, target_luck, blindness, absorption, target_armor, loyalty, slow_digging, silk_touch, fire_resistance, unluck, invisibility, target_health_max, moon, air_max, slow, mana_max, sweeping, bowpull, damage, weeks, swift_sneak, mending, epoch, protection, air, fast_digging, lure, punch, temperature, frost_walker, movement_speed_bps, power, riptide, health_boost, levitation, increase_damage, poison, health, target_temperature, binding_curse, yaw, mana, glowing, target_health, target_humidity, days, infinity, impaling, bad_omen, luck, thorns, hero_of_the_village, target_hunger, smite, location_x, unbreaking, location_y, target_mana, feather_falling, attack_damage, knockback, fire_aspect, luck_of_the_sea, knockback_resistance, saturation, conduit_power, location_z, target_air, bane_of_arthropods, soul_speed, night_vision, level, minutes, water_breathing, fall_distance, quick_charge, aqua_affinity, multishot, hunger, slow_falling, difficulty, armor, fulltime, blast_protection, confusion, damage_dealt, harm, piercing, fire_protection, target_yaw, dolphins_grace, speed, damage_resistance, weakness, heal, target_mana_max, hours, fortune, looting, target_air_max, movement_speed, play_time, depth_strider, xp, target_location_x, pi, target_location_y, vanishing_curse, target_knockback_resistance, target_location_z, time, flame, wither]
-[19:49:16] [Server thread/INFO]: [Magic] Loaded 182 icons
-[19:49:16] [Server thread/INFO]: [Magic] Loaded 12 effect lists
-[19:49:17] [Server thread/INFO]: [Magic] Loaded 1402 items
-[19:49:17] [Server thread/INFO]: [Magic] Loaded 199 wands
-[19:49:17] [Server thread/INFO]: [Magic] Loaded 2 kits
-[19:49:17] [Server thread/INFO]: [Magic] Loaded 10 classes
-[19:49:17] [Server thread/INFO]: [Magic] Loaded 5 classes
-[19:49:17] [Server thread/INFO]: [Magic] Loaded 48 mob templates
-[19:49:17] [Server thread/INFO]: [Magic] Loaded 8 automata templates
-[19:49:17] [Server thread/INFO]: [Magic] Loaded 0 customized worlds
-[19:49:17] [Server thread/INFO]: [Magic] Activated BStats
-[19:49:17] [Server thread/INFO]: [Magic] MobArena not found
-[19:49:17] [Server thread/INFO]: [Magic] LibsDisguises not found, magic mob disguises will not be available
-[19:49:17] [Server thread/INFO]: [Magic] ModelEngine integration disabled
-[19:49:17] [Server thread/INFO]: Magic checking resource pack for updates: http://rp.elmakers.com/Magic-RP-1.19.zip
-[19:49:17] [Server thread/INFO]: Preparing level "world"
-[19:49:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:49:19] [Server thread/INFO]: Time elapsed: 244 ms
-[19:49:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:49:19] [Server thread/INFO]: Time elapsed: 34 ms
-[19:49:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:49:19] [Server thread/INFO]: Time elapsed: 29 ms
-[19:49:19] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.7.0
-[19:49:19] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.4 (762)
-[19:49:19] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
-[19:49:19] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[19:49:19] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[19:49:19] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[19:49:19] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[19:49:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[19:49:19] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[19:49:19] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[19:49:19] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[19:49:19] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[19:49:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[19:49:19] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[19:49:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[19:49:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[19:49:19] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[19:49:19] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[19:49:19] [Server thread/INFO]: [WorldGuard] Loading region data...
-[19:49:19] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
-[19:49:20] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[19:49:20] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b59-2278589)
-[19:49:20] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.7.0
-[19:49:20] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vBeta 1.3.19
-[19:49:20] [Server thread/INFO]: [AureliumSkills] WorldGuard Support Enabled!
-[19:49:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: aureliumskills [Beta 1.3.19]
-[19:49:20] [Server thread/INFO]: [AureliumSkills] PlaceholderAPI Support Enabled!
-[19:49:20] [Server thread/INFO]: [AureliumSkills] Loaded 193 config options in 0 ms
-[19:49:20] [Server thread/INFO]: [AureliumSkills] Loaded 303 sources and 10 tags in 34ms
-[19:49:21] [Server thread/INFO]: [AureliumSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[19:49:21] [Server thread/INFO]: [AureliumSkills] Loading languages...
-[19:49:23] [Server thread/INFO]: [AureliumSkills] Loaded 15 languages in 1906ms
-[19:49:23] [Server thread/INFO]: [AureliumSkills] Loaded 30 pattern rewards and 0 level rewards
-[19:49:23] [Server thread/INFO]: [AureliumSkills] Loaded 78 Ability Options in 4ms
-[19:49:23] [Server thread/INFO]: [AureliumSkills] Loaded 6 menus
-[19:49:23] [Server thread/INFO]: [AureliumSkills] Loaded 32 loot entries in 4 pools and 2 tables
-[19:49:23] [Server thread/INFO]: [AureliumSkills] Loaded 3 blocked worlds.
-[19:49:23] [Server thread/INFO]: [AureliumSkills] Aurelium Skills has been enabled
-[19:49:23] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_19_R3! Trying to find NMS support
-[19:49:23] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R3' loaded!
-[19:49:23] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
-[19:49:23] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.9
-[19:49:23] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.9" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[19:49:23] [Server thread/INFO]: [Multiverse-Core] °ÏaWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[19:49:24] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
-[19:49:24] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[19:49:24] [Server thread/INFO]: [Multiverse-Core] Version 4.3.9 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[19:49:24] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.2-SNAPSHOT
-[19:49:24] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
-[19:49:24] [Server thread/INFO]: [LaggRemover] [STDOUT] 
+[20:50:34] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[20:50:34] [Server thread/WARN]: [Leaves] extra-yggdrasil-service is an unofficial support. Enabling it may cause data security problems!
+[20:50:35] [Server thread/INFO]: Default game type: SURVIVAL
+[20:50:35] [Server thread/INFO]: Generating keypair
+[20:50:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:50:35] [Server thread/INFO]: Using default channel type
+[20:50:35] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:50:35] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:50:36] [Server thread/INFO]: [TrMenu-3.1.22.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib-common:1.8.0
+[20:50:36] [Server thread/INFO]: [TrMenu-3.1.22.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib:1.8.0
+[20:50:36] [Server thread/INFO]: [TrMenu-3.1.22.jar] Loading library org.jetbrains:annotations:13.0
+[20:50:36] [ForkJoinPool.commonPool-worker-1/INFO]: [TrMenu-3.1.22.jar] Loading library org.yaml:snakeyaml:2.0
+[20:50:36] [ForkJoinPool.commonPool-worker-1/INFO]: [TrMenu-3.1.22.jar] Loading library com.typesafe:config:1.4.2
+[20:50:36] [ForkJoinPool.commonPool-worker-1/INFO]: [TrMenu-3.1.22.jar] Loading library com.electronwill.night-config:core:3.6.6
+[20:50:36] [ForkJoinPool.commonPool-worker-1/INFO]: [TrMenu-3.1.22.jar] Loading library com.electronwill.night-config:toml:3.6.6
+[20:50:36] [ForkJoinPool.commonPool-worker-1/INFO]: [TrMenu-3.1.22.jar] Loading library com.electronwill.night-config:json:3.6.6
+[20:50:36] [ForkJoinPool.commonPool-worker-1/INFO]: [TrMenu-3.1.22.jar] Loading library com.electronwill.night-config:hocon:3.6.6
+[20:50:36] [ForkJoinPool.commonPool-worker-5/INFO]: [TrMenu-3.1.22.jar] Loading library com.mongodb:MongoDB:3.12.2
+[20:50:37] [ForkJoinPool.commonPool-worker-1/INFO]: [TrMenu-3.1.22.jar] Loading library org.openjdk.nashorn:nashorn-core:15.3
+[20:50:37] [ForkJoinPool.commonPool-worker-1/INFO]: [TrMenu-3.1.22.jar] Loading library org.ow2.asm:asm-commons:7.3.1
+[20:50:37] [ForkJoinPool.commonPool-worker-1/INFO]: [TrMenu-3.1.22.jar] Loading library org.ow2.asm:asm-tree:7.3.1
+[20:50:37] [ForkJoinPool.commonPool-worker-1/INFO]: [TrMenu-3.1.22.jar] Loading library org.ow2.asm:asm:7.3.1
+[20:50:37] [ForkJoinPool.commonPool-worker-1/INFO]: [TrMenu-3.1.22.jar] Loading library org.ow2.asm:asm-util:7.3.1
+[20:50:37] [ForkJoinPool.commonPool-worker-4/INFO]: [TrMenu-3.1.22.jar] Loading library com.zaxxer:HikariCP:4.0.3
+[20:50:37] [ForkJoinPool.commonPool-worker-4/INFO]: [TrMenu-3.1.22.jar] Loading library org.slf4j:slf4j-api:2.0.7
+[20:50:37] [Server thread/INFO]: [TrMenu-3.1.22.jar] Loading library org.apache.commons:commons-jexl3:3.2.1
+[20:50:38] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[20:50:39] [Server thread/WARN]: Legacy plugin SuperRandomCommand v1.6 does not specify an api-version.
+[20:50:39] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loading 6 libraries... please wait
+[20:50:40] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\26973\Desktop\server-latest\libraries\org\postgresql\postgresql\42.4.2\postgresql-42.4.2.jar
+[20:50:40] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\26973\Desktop\server-latest\libraries\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar
+[20:50:40] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\26973\Desktop\server-latest\libraries\com\h2database\h2\2.1.214\h2-2.1.214.jar
+[20:50:40] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\26973\Desktop\server-latest\libraries\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar
+[20:50:40] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\26973\Desktop\server-latest\libraries\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar
+[20:50:40] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\26973\Desktop\server-latest\libraries\org\mariadb\jdbc\mariadb-java-client\3.0.7\mariadb-java-client-3.0.7.jar
+[20:50:40] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\26973\Desktop\server-latest\libraries\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar
+[20:50:40] [Server thread/INFO]: [SpigotLibraryLoader] [GroupManager] Loaded library C:\Users\26973\Desktop\server-latest\libraries\org\slf4j\slf4j-api\2.0.0\slf4j-api-2.0.0.jar
+[20:50:40] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20
+[20:50:40] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib:1.7.20
+[20:50:40] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains:annotations:13.0
+[20:50:40] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20
+[20:50:40] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20
+[20:50:40] [ForkJoinPool.commonPool-worker-14/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.yaml:snakeyaml:1.32
+[20:50:41] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library com.zaxxer:HikariCP:4.0.3
+[20:50:41] [Server thread/INFO]: [GeekPlayerBag-1.1-Bate.jar] Loading library org.slf4j:slf4j-api:2.0.7
+[20:50:41] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.7.0
+[20:50:41] [Server thread/INFO]: [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
+[20:50:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:50:42] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:50:42] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:50:42] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:50:42] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[20:50:42] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6e2c53d8]
+[20:50:42] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.0.0
+[20:50:42] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.20.1) has not yet been tested! Proceed with caution.
+[20:50:43] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9-beta1+2249-223b80c
+[20:50:43] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.3
+[20:50:43] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.64
+[20:50:43] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.2-SNAPSHOT (b59-2278589)
+[20:50:44] [Server thread/INFO]: [floodgate] ÊàêÂäüÂêØÂä® FloodgateÔºåËÄóÊó∂452ms
+[20:50:44] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.7.0
+[20:50:44] [Server thread/INFO]: [AureliumSkills] Loading server plugin AureliumSkills vBeta 1.3.21
+[20:50:44] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.9
+[20:50:44] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.1.2-SNAPSHOT
+[20:50:44] [Server thread/INFO]: [Geyser-Spigot] Ê≠£Âú®Âä†ËΩΩÊèí‰ª∂...
+[20:50:44] [Server thread/INFO]: [Geyser-Spigot] Â∑≤ÂêØÁî®Êèí‰ª∂ MagicMenu
+[20:50:44] [Server thread/INFO]: [Geyser-Spigot] Â∑≤ÂêØÁî®Êèí‰ª∂ PickPack
+[20:50:44] [Server thread/INFO]: [Geyser-Spigot] Â∑≤Âä†ËΩΩ 2 ‰∏™Êèí‰ª∂
+[20:50:45] [Server thread/INFO]: [Geyser-Spigot] [MagicMenu] MagicMenu loaded!
+[20:50:45] [Server thread/INFO]: [LaggRemover] Loading server plugin LaggRemover v2.0.6
+[20:50:45] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.4.2
+[20:50:45] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v2.0.3
+[20:50:45] [Server thread/INFO]: [TrMenu] Loading server plugin TrMenu v3.1.22
+[20:50:46] [Server thread/INFO]: 
+[20:50:46] [Server thread/INFO]: Ê≠£Âú®Âä†ËΩΩ TrMenu Premium... git-Leaves-"d856b9f" (MC: 1.20.1)
+[20:50:46] [Server thread/INFO]: 
+[20:50:46] [Server thread/INFO]: [Tpj] Loading server plugin Tpj v1.0
+[20:50:46] [Server thread/INFO]: [SuperRandomCommand] Loading server plugin SuperRandomCommand v1.6
+[20:50:46] [Server thread/INFO]: [RandomControl] Loading server plugin RandomControl v1.1.0
+[20:50:46] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v4.3.1
+[20:50:46] [Server thread/INFO]: [Magic] Loading server plugin Magic v10.8.9-845a296
+[20:50:46] [Server thread/INFO]: [Magic] Loading modern compatibility layer for server version 1.20.1
+[20:50:46] [Server thread/INFO]: [Magic] Async chunk loading API found
+[20:50:46] [Server thread/INFO]: [Magic] Chat component API found
+[20:50:46] [Server thread/INFO]: [Magic] Found WorldGuard 7+
+[20:50:46] [Server thread/INFO]: [Magic] Pre-check for WorldGuard custom flag registration
+[20:50:46] [Server thread/INFO]: [Magic] Registered custom WorldGuard flags: allowed-spells, always-allowed-spells, blocked-spells, always-allowed-spell-categories, allowed-spell-categories, blocked-spell-categories, allowed-wands, always-allowed-wands, blocked-wands, spell-overrides, destructible, reflective, tags, portal-spell, portal-warp
+[20:50:46] [Server thread/INFO]: [Logger] Loading server plugin Logger v1.8.0.9
+[20:50:46] [Server thread/INFO]: [ItemCommand] Loading server plugin ItemCommand v1.0.3
+[20:50:46] [Server thread/INFO]: [GroupManager] Loading server plugin GroupManager v3.1 (Phoenix)
+[20:50:46] [Server thread/INFO]: [GroupManager] Dependencies: OK
+[20:50:46] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[20:50:46] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.9-beta1+2249-223b80c.
+[20:50:46] [Server thread/INFO]: [GeyserSkinManager] Loading server plugin GeyserSkinManager v1.7
+[20:50:46] [Server thread/INFO]: [GeyserHacks] Loading server plugin GeyserHacks v1.2-SNAPSHOT
+[20:50:46] [Server thread/INFO]: [GeekPlayerBag] Loading server plugin GeekPlayerBag v1.1-Bate
+[20:50:46] [Server thread/INFO]: 
+[20:50:46] [Server thread/INFO]: Ê≠£Âú®Âä†ËΩΩ GeekPlayerBag ...  git-Leaves-"d856b9f" (MC: 1.20.1)
+[20:50:46] [Server thread/INFO]: 
+[20:50:46] [Server thread/INFO]: [EliteMobs] Loading server plugin EliteMobs v8.5.3
+[20:50:46] [Server thread/INFO]: [EliteMobs] WorldGuard detected.
+[20:50:46] [Server thread/INFO]: [EliteMobs] Enabling flags:
+[20:50:46] [Server thread/INFO]: [EliteMobs] - elitemob-spawning
+[20:50:46] [Server thread/INFO]: [EliteMobs] - elitemob-only-spawning
+[20:50:46] [Server thread/INFO]: [EliteMobs] - elitemobs-antiexploit
+[20:50:46] [Server thread/INFO]: [EliteMobs] - elitemobs-dungeon
+[20:50:46] [Server thread/INFO]: [EliteMobs] - elitemobs-events
+[20:50:46] [Server thread/INFO]: [EliteMobs] - elitemobs-minimum-level
+[20:50:46] [Server thread/INFO]: [EliteMobs] - elitemobs-maximum-level
+[20:50:46] [Server thread/INFO]: [EliteMobs] - elitemobs-explosion-regen
+[20:50:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:50:46] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[20:50:46] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:50:46] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:50:46] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[20:50:47] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
+[20:50:47] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.64
+[20:50:47] [Server thread/INFO]:         __    
+[20:50:47] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.64
+[20:50:47] [Server thread/INFO]:   |___ |      Running on Bukkit - Leaves
+[20:50:47] [Server thread/INFO]: 
+[20:50:47] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:50:47] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:50:48] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:50:48] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:50:48] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1150ms)
+[20:50:48] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.3
+[20:50:48] [Server thread/INFO]: [Magic] Enabling Magic v10.8.9-845a296
+[20:50:48] [Server thread/INFO]: [Magic] EffectLib initialized
+[20:50:49] [Server thread/INFO]: [Magic] Loaded 0 attributes
+[20:50:49] [Server thread/INFO]: [Magic] Wand crafting is enabled
+[20:50:49] [Server thread/INFO]: [Magic] Skin-based spell icons disabled
+[20:50:49] [Server thread/INFO]: [Magic] Registered attributes: [target_fall_distance, regeneration, respiration, projectile_protection, bowpower, degrees, seconds, channeling, target_pitch, humidity, pitch, sharpness, darkness, jump, health_max, efficiency, target_luck, blindness, absorption, target_armor, loyalty, slow_digging, silk_touch, fire_resistance, unluck, invisibility, target_health_max, moon, air_max, slow, mana_max, sweeping, bowpull, damage, weeks, swift_sneak, mending, epoch, protection, air, fast_digging, lure, punch, temperature, frost_walker, movement_speed_bps, power, riptide, health_boost, levitation, increase_damage, poison, health, target_temperature, binding_curse, yaw, mana, glowing, target_health, target_humidity, days, infinity, impaling, bad_omen, luck, thorns, hero_of_the_village, target_hunger, smite, location_x, unbreaking, location_y, target_mana, feather_falling, attack_damage, knockback, fire_aspect, luck_of_the_sea, knockback_resistance, saturation, conduit_power, location_z, target_air, bane_of_arthropods, soul_speed, night_vision, level, minutes, water_breathing, fall_distance, quick_charge, aqua_affinity, multishot, hunger, slow_falling, difficulty, armor, fulltime, blast_protection, confusion, damage_dealt, harm, piercing, fire_protection, target_yaw, dolphins_grace, speed, damage_resistance, weakness, heal, target_mana_max, hours, fortune, looting, target_air_max, movement_speed, play_time, depth_strider, xp, target_location_x, pi, target_location_y, vanishing_curse, target_knockback_resistance, target_location_z, time, flame, wither]
+[20:50:49] [Server thread/INFO]: [Magic] Loaded 182 icons
+[20:50:49] [Server thread/INFO]: [Magic] Loaded 12 effect lists
+[20:50:49] [Server thread/INFO]: [Magic] Loaded 1402 items
+[20:50:49] [Server thread/INFO]: [Magic] Loaded 199 wands
+[20:50:49] [Server thread/INFO]: [Magic] Loaded 2 kits
+[20:50:50] [Server thread/INFO]: [Magic] Loaded 10 classes
+[20:50:50] [Server thread/INFO]: [Magic] Loaded 5 classes
+[20:50:50] [Server thread/INFO]: [Magic] Loaded 48 mob templates
+[20:50:50] [Server thread/INFO]: [Magic] Loaded 8 automata templates
+[20:50:50] [Server thread/INFO]: [Magic] Loaded 0 customized worlds
+[20:50:50] [Server thread/INFO]: [Magic] Activated BStats
+[20:50:50] [Server thread/INFO]: [Magic] MobArena not found
+[20:50:50] [Server thread/INFO]: [Magic] LibsDisguises not found, magic mob disguises will not be available
+[20:50:50] [Server thread/INFO]: [Magic] ModelEngine integration disabled
+[20:50:50] [Server thread/INFO]: Resource pack in config.yml has been disabled, Magic skipping RP check
+[20:50:50] [Server thread/INFO]: Preparing level "world"
+[20:50:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:50:51] [Server thread/INFO]: Time elapsed: 270 ms
+[20:50:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:50:51] [Server thread/INFO]: Time elapsed: 24 ms
+[20:50:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:50:51] [Server thread/INFO]: Time elapsed: 47 ms
+[20:50:51] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.7.0
+[20:50:51] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20 (763)
+[20:50:51] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9-beta1+2249-223b80c
+[20:50:51] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:50:51] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:50:51] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:50:51] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:50:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:50:51] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:50:51] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:50:51] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[20:50:51] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:50:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:50:51] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:50:51] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:50:51] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:50:51] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:50:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:50:51] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:50:51] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+[20:50:51] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:50:51] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.2-SNAPSHOT (b59-2278589)
+[20:50:52] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.7.0
+[20:50:52] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vBeta 1.3.21
+[20:50:52] [Server thread/INFO]: [AureliumSkills] WorldGuard Support Enabled!
+[20:50:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: aureliumskills [Beta 1.3.21]
+[20:50:52] [Server thread/INFO]: [AureliumSkills] PlaceholderAPI Support Enabled!
+[20:50:52] [Server thread/INFO]: [AureliumSkills] Loaded 194 config options in 0 ms
+[20:50:52] [Server thread/INFO]: [AureliumSkills] Loaded 312 sources and 10 tags in 10ms
+[20:50:52] [Server thread/INFO]: [AureliumSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[20:50:52] [Server thread/INFO]: [AureliumSkills] Loading languages...
+[20:50:53] [Server thread/INFO]: [AureliumSkills] Loaded 15 languages in 718ms
+[20:50:53] [Server thread/INFO]: [AureliumSkills] Loaded 30 pattern rewards and 0 level rewards
+[20:50:53] [Server thread/INFO]: [AureliumSkills] Loaded 78 Ability Options in 2ms
+[20:50:53] [Server thread/INFO]: [AureliumSkills] Loaded 6 menus
+[20:50:53] [Server thread/INFO]: [AureliumSkills] Loaded 32 loot entries in 4 pools and 2 tables
+[20:50:53] [Server thread/INFO]: [AureliumSkills] Loaded 3 blocked worlds.
+[20:50:53] [Server thread/INFO]: [AureliumSkills] Aurelium Skills has been enabled
+[20:50:53] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R1! Trying to find NMS support
+[20:50:53] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[20:50:53] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
+[20:50:53] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.9
+[20:50:53] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.9" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[20:50:53] [Server thread/INFO]: [Multiverse-Core] ¬ßaWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[20:50:53] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[20:50:53] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[20:50:53] [Server thread/INFO]: [Multiverse-Core] Version 4.3.9 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[20:50:53] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.2-SNAPSHOT
+[20:50:56] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
+[20:50:56] [Server thread/INFO]: [LaggRemover] [STDOUT] 
     __                      ____                                         _    _____
    / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
   / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
@@ -205,715 +220,603 @@
 /_____/\__,_/\__, /\__, /_/ |_|\___/_/ /_/ /_/\____/|___/\___/_/        |___//____/
             /____//____/
 
-[19:49:24] [Server thread/WARN]: Nag author(s): '[drew6017]' of 'LaggRemover v2.0.6' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[19:49:24] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
-[19:49:24] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
-[19:49:24] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
-[19:49:24] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.4.0
-[19:49:24] [Server thread/INFO]: [TrMenu] Enabling TrMenu v3.1.22
-[19:49:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: TrMenu [3.1.22]
-[19:49:25] [ForkJoinPool.commonPool-worker-5/INFO]: [TrMenu] ¡º∫√ | 6 ∏ˆ≤Àµ•“—º”‘ÿ (1243 ms)
-[19:49:25] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3.HikariDataSource] HikariPool-1 - Starting...
-[19:49:25] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3.HikariDataSource] HikariPool-1 - Start completed.
-[19:49:25] [Server thread/INFO]: [TrMenu] ¡º∫√ | ≤Âº˛∆Ù”√. µ±«∞‘À––∞Ê±æ 3.1.22.
-[19:49:25] [Server thread/INFO]: [Tpj] Enabling Tpj v1.0
-[19:49:25] [Server thread/INFO]: [Themis] Enabling Themis v0.15.1
-[19:49:25] [Server thread/INFO]: [SuperRandomCommand] Enabling SuperRandomCommand v1.6*
-[19:49:25] [Server thread/INFO]: [SuperRandomCommand] plugins\SuperRandomCommand\commands\book.yml∂¡»°≥…π¶
-[19:49:25] [Server thread/INFO]: [SuperRandomCommand] plugins\SuperRandomCommand\commands\get_book.yml∂¡»°≥…π¶
-[19:49:25] [Server thread/INFO]: [SuperRandomCommand] plugins\SuperRandomCommand\commands\summonsuper.yml∂¡»°≥…π¶
-[19:49:25] [Server thread/INFO]: [SuperRandomCommand] ◊ ‘¥Œƒº˛≥ı ºªØ≥…π¶
-[19:49:25] [Server thread/INFO]: [SuperRandomCommand] ∆Ù∂Ø≥…π¶
-[19:49:25] [Server thread/INFO]: [RandomControl] Enabling RandomControl v1.1.0
-[19:49:25] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.3.1
-[19:49:25] [Server thread/INFO]: [Logger] Enabling Logger v1.8.0.9
-[19:49:26] [Server thread/INFO]: [Logger] °Ï5
+[20:50:56] [Server thread/WARN]: Nag author(s): '[drew6017]' of 'LaggRemover v2.0.6' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[20:50:56] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
+[20:50:56] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
+[20:50:56] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
+[20:50:56] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.4.2
+[20:50:56] [Server thread/INFO]: [TrMenu] Enabling TrMenu v3.1.22
+[20:50:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: TrMenu [3.1.22]
+[20:50:56] [ForkJoinPool.commonPool-worker-2/INFO]: [TrMenu] ËâØÂ•Ω | 6 ‰∏™ËèúÂçïÂ∑≤Âä†ËΩΩ (799 ms)
+[20:50:56] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3.HikariDataSource] HikariPool-1 - Starting...
+[20:50:56] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3.HikariDataSource] HikariPool-1 - Start completed.
+[20:50:56] [Server thread/INFO]: [TrMenu] ËâØÂ•Ω | Êèí‰ª∂ÂêØÁî®. ÂΩìÂâçËøêË°åÁâàÊú¨ 3.1.22.
+[20:50:56] [Server thread/INFO]: [Tpj] Enabling Tpj v1.0
+[20:50:56] [Server thread/INFO]: [SuperRandomCommand] Enabling SuperRandomCommand v1.6*
+[20:50:56] [Server thread/INFO]: [SuperRandomCommand] plugins\SuperRandomCommand\commands\book.ymlËØªÂèñÊàêÂäü
+[20:50:56] [Server thread/INFO]: [SuperRandomCommand] plugins\SuperRandomCommand\commands\get_book.ymlËØªÂèñÊàêÂäü
+[20:50:56] [Server thread/INFO]: [SuperRandomCommand] plugins\SuperRandomCommand\commands\summonsuper.ymlËØªÂèñÊàêÂäü
+[20:50:56] [Server thread/INFO]: [SuperRandomCommand] ËµÑÊ∫êÊñá‰ª∂ÂàùÂßãÂåñÊàêÂäü
+[20:50:56] [Server thread/INFO]: [SuperRandomCommand] ÂêØÂä®ÊàêÂäü
+[20:50:56] [Server thread/INFO]: [RandomControl] Enabling RandomControl v1.1.0
+[20:50:56] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.3.1
+[20:50:56] [Server thread/INFO]: [Logger] Enabling Logger v1.8.0.9
+[20:50:57] [Server thread/INFO]: [Logger] ¬ß5
 |
-°Ï5|°Ïb     __                               
-°Ï5|°Ïb    / /   ____  ____ _____ ____  _____
-°Ï5|°Ïb   / /   / __ \/ __ `/ __ `/ _ \/ ___/
-°Ï5|°Ïb  / /___/ /_/ / /_/ / /_/ /  __/ /    
-°Ï5|°Ïb /_____/\____/\__, /\__, /\___/_/     
-°Ï5|°Ïb             /____//____/     °Ïc1.8.0.9°Ïe [ Bukkit Version ]        
-°Ï5|
-°Ï5|°Ï6 This is a DEV Build, please report any issues!
-°Ï5|
-°Ï5|°Ïf Discord °Ï9https://discord.gg/MfR5mcpVfX
-°Ï5|
-[19:49:26] [Server thread/INFO]: [Logger] PlaceHolderAPI Plugin Detected!
-[19:49:26] [Server thread/INFO]: [Logger] Geyser & FloodGate Plugins Detected!
-[19:49:26] [Server thread/WARN]: [Logger] Geyser & FloodGate are not fully supported! If any errors occurs, contact the authors.
-[19:49:26] [Server thread/INFO]: [Logger] °Ï6Thanks to everyone's contributions that helped made this project possible!
-[19:49:26] [Server thread/INFO]: [Logger] Plugin Enabled!
-[19:49:26] [Server thread/INFO]: [ItemCommand] Enabling ItemCommand v1.0.3
-[19:49:26] [Server thread/INFO]: [ItemCommand] Minecraft version: 1194
-[19:49:26] [Server thread/INFO]: [ItemCommand] Found PlaceholderAPI: v2.11.2
-[19:49:26] [Server thread/INFO]: [ItemCommand] Loaded 3 items.
-[19:49:26] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.9 (Phoenix)
-[19:49:26] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] World Found: world
-[19:49:26] [Server thread/WARN]: Nag author(s): '[AnjoCaido, Gabriel Couto, ElgarL]' of 'GroupManager v2.9 (Phoenix)' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[19:49:26] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] Superperms support enabled.
-[19:49:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: groupmanager [1.0.0]
-[19:49:26] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] Add-ons: PlaceholderAPI v2.11.2
-[19:49:26] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] Scheduled Data Saving is set for every 10 minutes!
-[19:49:26] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] Backups will be retained for 24 hours!
-[19:49:26] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] version 2.9 (Phoenix) is enabled!
-[19:49:26] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[19:49:26] [Server thread/INFO]: [Graves] Enabling Graves v4.9
-[19:49:26] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.0.0.
-[19:49:26] [Server thread/INFO]: [Graves] Integration: Hooked into WorldEdit 7.2.14+6360-094b734.
-[19:49:26] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.7+216b061.
-[19:49:26] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
-[19:49:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: graves [4.9]
-[19:49:26] [Server thread/INFO]: [Graves] Integration: Hooked into PlaceholderAPI 2.11.2.
-[19:49:26] [Server thread/INFO]: [Graves] Compatibility: World "world_the_end" has keepInventory set to true, Graves will not be created here.
-[19:49:26] [Server thread/INFO]: [GeekPlayerBag] Enabling GeekPlayerBag v1.1-Bate
-[19:49:26] [Server thread/INFO]: 
-[19:49:26] [Server thread/INFO]:        GeekPlayerBag-Plus  v1.0 by www.geekcraft.ink
-[19:49:26] [Server thread/INFO]:          ”√”⁄Bukkit: 1.12.2-1.19.2 µ±«∞:  git-Leaves-"6769d55" (MC: 1.19.4)
-[19:49:26] [Server thread/INFO]: 
-[19:49:26] [Server thread/INFO]: [GeekPlayerBag] ≤Àµ•ΩÁ√Êº”‘ÿÕÍ≥…... (∫ƒ ± 11 ms)
-[19:49:26] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3_bag.HikariDataSource] GeekPlayerBag-SQLITE - Starting...
-[19:49:26] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3_bag.HikariDataSource] GeekPlayerBag-SQLITE - Start completed.
-[19:49:26] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v8.5.4
-[19:49:26] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
-[19:49:26] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
-[19:49:26] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
-[19:49:26] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
-[19:49:26] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
-[19:49:26] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
-[19:49:26] [Server thread/INFO]: By MagmaGuy - v. 8.5.4
-[19:49:26] [Server thread/INFO]: [EliteMobs] Supported server version detected: v1_19_R3
-[19:49:26] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
-[19:49:26] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
-[19:49:26] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
-[19:49:26] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
-[19:49:26] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
-[19:49:26] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
-[19:49:26] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
-[19:49:27] [Server thread/WARN]: [EliteMobs] Script gun1 in file 1gun.yml does not have any actions! You should probably fix this.
-[19:49:27] [Server thread/INFO]: [EliteMobs] WorldGuard compatibility is enabled!
-[19:49:28] [Server thread/INFO]: [EliteMobs] Opened database successfully
-[19:49:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: elitemobs [8.5.4]
-[19:49:30] [Server thread/INFO]: [EliteMobs] World em_north_pole is not yet loaded! Entities that should spawn there have been queued.
-[19:49:30] [Server thread/WARN]: [EliteMobs] File  C:\Users\26973\Desktop\sever-latest\.\em_primis_wormhole does not exist!
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_fireworks) TNT ignition is PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_fireworks) Lighters are PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_fireworks) Lava fire is PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_fireworks) Fire spread is UNRESTRICTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_fireworks'
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_sewer_maze) TNT ignition is PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_sewer_maze) Lighters are PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_sewer_maze) Lava fire is PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_sewer_maze) Fire spread is UNRESTRICTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_sewer_maze'
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_shadow_of_the_binder_of_worlds) TNT ignition is PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_shadow_of_the_binder_of_worlds) Lighters are PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_shadow_of_the_binder_of_worlds) Lava fire is PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_shadow_of_the_binder_of_worlds) Fire spread is UNRESTRICTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_shadow_of_the_binder_of_worlds'
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_hallosseum) TNT ignition is PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_hallosseum) Lighters are PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_hallosseum) Lava fire is PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_hallosseum) Fire spread is UNRESTRICTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_hallosseum'
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_knight_castle) TNT ignition is PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_knight_castle) Lighters are PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_knight_castle) Lava fire is PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_knight_castle) Fire spread is UNRESTRICTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_knight_castle'
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_steamworks_lair) TNT ignition is PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_steamworks_lair) Lighters are PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_steamworks_lair) Lava fire is PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_steamworks_lair) Fire spread is UNRESTRICTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_steamworks_lair'
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_north_pole) TNT ignition is PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_north_pole) Lighters are PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_north_pole) Lava fire is PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_north_pole) Fire spread is UNRESTRICTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_north_pole'
-[19:49:32] [Server thread/INFO]: [EliteMobs] [EliteMobs] World em_adventurers_guild found! Loading it in...
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) TNT ignition is PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) Lighters are PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) Lava fire is PERMITTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) Fire spread is UNRESTRICTED.
-[19:49:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_adventurers_guild'
-[19:49:32] [Server thread/INFO]: [EliteMobs] [EliteMobs] World em_adventurers_guild has been successfully loaded! It can be accessed through the '/ag' command, unless you changed that config option!
-[19:49:32] [Server thread/WARN]: [EliteMobs] Failed to parse entry summon_wolf_lun.yml:1 for file 3.yml due to invalid: filename
-[19:49:32] [Server thread/WARN]: [EliteMobs] Failed to parse entry summon_wolf_lun.yml:1 for file 4.yml due to invalid: filename
-[19:49:33] [Server thread/WARN]: [EliteMobs] Reinforcement mob null is not valid! Filename: null
-[19:49:33] [Server thread/WARN]: [EliteMobs] Could not get filename for reinforcement in file dark_cathedral_tier_75_boss.yml
-[19:49:33] [Server thread/WARN]: [EliteMobs] Reinforcement mob null is not valid! Filename: null
-[19:49:33] [Server thread/WARN]: [EliteMobs] Could not get filename for reinforcement in file dark_cathedral_tier_75_boss.yml
-[19:49:33] [Server thread/WARN]: [EliteMobs] Reinforcement mob null is not valid! Filename: null
-[19:49:33] [Server thread/WARN]: [EliteMobs] Could not get filename for reinforcement in file dark_cathedral_tier_75_boss.yml
-[19:49:33] [Server thread/WARN]: [EliteMobs] Some NPCs/bosses don't have their world installed! If you need help setting things up, you can go to https://discord.gg/9f5QSka !
-[19:49:33] [Server thread/INFO]: [EliteMobs] World your_world_here is not yet loaded! Entities that should spawn there have been queued.
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null, null] for arenawood_league.yml
-[19:49:34] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
-[19:49:35] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[19:49:35] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[19:49:35] [Server thread/INFO]: [Geyser-Spigot] 
-[19:49:35] [Server thread/INFO]: [Geyser-Spigot] º”‘ÿ Geyser ÷–, ∞Ê±æ 2.1.2-SNAPSHOT (git-master-6296d4a)
-[19:49:35] [Server thread/INFO]: [Geyser-Spigot] 
-[19:49:35] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[19:49:39] [Server thread/INFO]: [Geyser-Spigot] Geyser’˝‘⁄∆Ù∂Ø 0.0.0.0:19132
-[19:49:39] [Server thread/INFO]: [Geyser-Spigot] ÕÍ≥… (3.814s)! ÷¥––/geyser help ¿¥ªÒ»°∞Ô÷˙–≈œ¢!
-[19:49:39] [Server thread/INFO]: Running delayed init tasks
-[19:49:39] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[19:49:39] [Server thread/INFO]: œ¬ÀÆµ¿¿Ôªÿµ¥◊≈“ªŒªπÈ¿¥µƒπ˙ÕıµƒΩ–…˘..°£
-[19:49:39] [Server thread/INFO]: “ª∏ˆ∫⁄∞µΩÃÕΩ’˝‘⁄’ŸªΩøÀÀ’¬≥£°
-[19:49:39] [Server thread/INFO]: ªª®¬˛ÃÏ∑…ŒË£°
-[19:49:39] [Server thread/INFO]: –°–ƒµÙÕ∑£¨ŒﬁÕ∑∆Ô ø∏¥ªÓ¡À£°
-[19:49:39] [Server thread/INFO]:  •µÆ¿œ»À’˝‘⁄≥ÔªÆ •µÆΩ⁄£°£°
-[19:49:39] [Server thread/INFO]: The shadow of binder of worlds approaches!
-[19:49:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: Animations [1.0.5]
-[19:49:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.4]
-[19:49:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: progress [2.1]
-[19:49:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.6.2]
-[19:49:39] [Server thread/INFO]: 4 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
-[19:49:39] [Server thread/INFO]: [Magic] Vault not found, 'currency' cost types unavailable
-[19:49:39] [Server thread/INFO]: [Magic] AureliumSkills found, will integrate for skill/stat attributes,xp currencies
-[19:49:39] [Server thread/INFO]: [Magic]   If you want Magic spells to use AureliumSkills mana, use &7/mconfig configure config aurelium_skills.use_mana true
-[19:49:39] [Server thread/INFO]: [Magic] Registered AureliumSkills XP as currencies: FARMING,FORAGING,MINING,FISHING,EXCAVATION,ARCHERY,DEFENSE,FIGHTING,ENDURANCE,AGILITY,ALCHEMY,ENCHANTING,SORCERY,HEALING,FORGING
-[19:49:39] [Server thread/INFO]: [Magic] Registered currencies: AGILITY,EXCAVATION,DEFENSE,item,ARCHERY,FORGING,ENDURANCE,SORCERY,health,FARMING,HEALING,FIGHTING,hunger,FORAGING,FISHING,mana,ALCHEMY,xp,currency,ENCHANTING,sp,levels,MINING
-[19:49:39] [Craft Scheduler Thread - 21 - GroupManager/INFO]: [GroupManager] [STDOUT] [GroupManager] There was an issue parsing the version string.
-[19:49:39] [Craft Scheduler Thread - 21 - GroupManager/INFO]: [GroupManager] [STDOUT] [GroupManager] No new version available
-[19:49:40] [Craft Scheduler Thread - 9 - AureliumSkills/INFO]: [AureliumSkills] New update available! You are on version Beta 1.3.19, latest version is Beta 1.3.21
-[19:49:40] [Craft Scheduler Thread - 9 - AureliumSkills/INFO]: [AureliumSkills] Download it on Spigot:
-[19:49:40] [Craft Scheduler Thread - 9 - AureliumSkills/INFO]: [AureliumSkills] https://spigotmc.org/resources/81069
-[19:49:40] [Craft Scheduler Thread - 44 - EliteMobs/INFO]: [EliteMobs] Latest public release is 8.5.4
-[19:49:40] [Craft Scheduler Thread - 44 - EliteMobs/INFO]: [EliteMobs] Your version is 8.5.4
-[19:49:40] [Server thread/INFO]: [Magic] Loaded 555 spells
-[19:49:40] [Server thread/INFO]: [Magic] Loaded 12 progression paths
-[19:49:40] [Server thread/INFO]: [Magic] Loaded 16 crafting recipes
-[19:49:40] [Craft Scheduler Thread - 44 - EliteMobs/INFO]: [EliteMobs] You are running the latest version!
-[19:49:40] [Server thread/INFO]: [Magic] LogBlock not found
-[19:49:40] [Server thread/INFO]: [Magic] Factions not found
-[19:49:40] [Server thread/INFO]: [Magic] WorldGuard found, will respect build permissions for construction spells
-[19:49:40] [Server thread/INFO]: [Magic] Multiverse-Core found, will respect PVP settings
-[19:49:40] [Server thread/INFO]: [Magic] Towny not found, region protection and pvp checks will not be used.
-[19:49:40] [Server thread/INFO]: [Magic] Lockette nor LockettePro found, will not integrate.
-[19:49:40] [Server thread/INFO]: [Magic] GriefPrevention not found, claim protection will not be used.
-[19:49:40] [Server thread/INFO]: [Magic] NoCheatPlus not found, will not integrate.
-[19:49:40] [Server thread/INFO]: [Magic] dynmap not found, not integrating.
-[19:49:40] [Server thread/INFO]: [Magic] Citizens not found, Magic trait unavailable.
-[19:49:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: magic [10.8.9-845a296]
-[19:49:40] [Server thread/INFO]: [Magic] PlaceholderAPI integration enabled. Available placeholders:
-[19:49:40] [Server thread/INFO]: [Magic] magic_path, magic_class, magic_wand, magic_spell, magic_mana, magic_mana_max, magic_sp, magic_spell_count
-[19:49:40] [Server thread/INFO]: [Magic] All magic attributes also available with a magic_ prefix
-[19:49:40] [Server thread/INFO]: [Magic] Add to messages/placeholders to add custom placeholders
-[19:49:40] [Server thread/INFO]: [Magic] LightAPI not found, Light action will not work
-[19:49:40] [Server thread/INFO]: [Magic] Loaded 0 arenas
-[19:49:40] [Server thread/INFO]: [Magic] Registered additional attributes: [WISDOM, AGILITY, EXCAVATION, DEFENSE, ARCHERY, FORGING, ENDURANCE, REGENERATION, SORCERY, STRENGTH, FARMING, HEALING, FIGHTING, LUCK, FORAGING, FISHING, TOUGHNESS, ALCHEMY, HEALTH, ENCHANTING, MINING]
-[19:49:40] [Server thread/INFO]: [Magic] Finished loading configuration
-[19:49:40] [Server thread/WARN]: java.lang.ClassNotFoundException: net.minecraft.server.v1_19_R3.BlockWaterLily
-[19:49:40] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183)
-[19:49:40] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
-[19:49:40] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-[19:49:40] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
-[19:49:40] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
-[19:49:40] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.NMSReflection.getNMSClass(NMSReflection.java:15)
-[19:49:40] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.fixLilyPad(BoundingBoxFixer.java:15)
-[19:49:40] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.BukkitPlugin$1.run(BukkitPlugin.java:38)
-[19:49:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
-[19:49:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
-[19:49:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1119)
-[19:49:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
-[19:49:40] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[19:49:40] [Server thread/INFO]: [ViaRewind-Legacy-Support] [STDOUT] Could not fix lily pad bounding box.
-[19:49:40] [Server thread/WARN]: Nag author(s): '[Gerrygames]' of 'ViaRewind-Legacy-Support v1.4.0' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[19:49:40] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getName()" because "clazz" is null
-[19:49:40] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.reflection.ReflectionAPI.getField(ReflectionAPI.java:27)
-[19:49:40] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.reflection.ReflectionAPI.getFieldAccessible(ReflectionAPI.java:45)
-[19:49:40] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.fixLilyPad(BoundingBoxFixer.java:16)
-[19:49:40] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.BukkitPlugin$1.run(BukkitPlugin.java:38)
-[19:49:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
-[19:49:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
-[19:49:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1119)
-[19:49:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
-[19:49:40] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[19:49:40] [Server thread/WARN]: java.lang.ClassNotFoundException: net.minecraft.server.v1_19_R3.BlockLadder
-[19:49:40] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:183)
-[19:49:40] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
-[19:49:40] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
-[19:49:40] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
-[19:49:40] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
-[19:49:40] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.NMSReflection.getNMSClass(NMSReflection.java:15)
-[19:49:40] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.fixLadder(BoundingBoxFixer.java:26)
-[19:49:40] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.BukkitPlugin$1.run(BukkitPlugin.java:40)
-[19:49:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
-[19:49:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
-[19:49:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1119)
-[19:49:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
-[19:49:40] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[19:49:40] [Server thread/INFO]: [ViaRewind-Legacy-Support] [STDOUT] Could not fix ladder bounding box.
-[19:49:40] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "java.lang.Class.getName()" because "clazz" is null
-[19:49:40] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.reflection.ReflectionAPI.getField(ReflectionAPI.java:27)
-[19:49:40] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.reflection.ReflectionAPI.getFieldAccessible(ReflectionAPI.java:45)
-[19:49:40] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.injector.BoundingBoxFixer.fixLadder(BoundingBoxFixer.java:42)
-[19:49:40] [Server thread/WARN]: 	at viarewind-legacy-support-1.4.0.jar//de.gerrygames.viarewind.legacysupport.BukkitPlugin$1.run(BukkitPlugin.java:40)
-[19:49:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
-[19:49:40] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483)
-[19:49:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1119)
-[19:49:40] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:321)
-[19:49:40] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
-[19:49:40] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] Bukkit Permissions Updated!
-[19:49:40] [Server thread/INFO]: Resource pack has not changed, using hash 9h0Z6JLQXT1E6lJ8nlNICapPZJQ= (1670961805000 <= 1670961805000)
-[19:49:40] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.3) is available at:
-[19:49:40] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
-[19:49:40] [Server thread/INFO]: Done (44.631s)! For help, type "help"
-[19:49:40] [Server thread/INFO]: Timings Reset
-[19:49:40] [Server thread/INFO]: [Magic] Finished loading data.
-[19:51:10] [User Authenticator #0/INFO]: UUID of player Enderlava is 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
-[19:51:11] [Server thread/INFO]: Enderlava joined the game
-[19:51:11] [Server thread/INFO]: Enderlava[/127.0.0.1:57910] logged in with entity id 510 at ([world]-22.511928407704954, 63.0, -297.35657596244084)
-[19:51:12] [Craft Scheduler Thread - 4 - EliteMobs/INFO]: [EliteMobs] User 07031eee-c0d3-4ed4-8fa9-6f8ea128abba data successfully read!
-[19:51:20] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /192.168.3.45:46108 ≥¢ ‘¡¨Ω”!
-[19:51:21] [nioEventLoopGroup-3-2/INFO]: [Geyser-Spigot] ÕÊº““‘ FavoriteBread57 µƒ”√ªß√˚Ω®¡¢¡À¡¨Ω”
-[19:51:21] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] FavoriteBread57 (µ«¬ºŒ™: FavoriteBread57) “—¡¨Ω”µΩ Java ∑˛ŒÒ∆˜
-[19:51:22] [Geyser Spigot connection thread-5-3/INFO]: UUID of player .FavoriteBread57 is 00000000-0000-0000-0009-01f83477176f
-[19:51:22] [Server thread/INFO]: [floodgate] Floodgate ÕÊº“ .FavoriteBread57 º”»Î¡À (UUID: 00000000-0000-0000-0009-01f83477176f)
-[19:51:22] [Server thread/INFO]: .FavoriteBread57 joined the game
-[19:51:22] [Server thread/INFO]: .FavoriteBread57[/192.168.3.45:0] logged in with entity id 873 at ([world]-3.3777807, 65.0, -276.30002)
-[19:51:23] [Craft Scheduler Thread - 7 - EliteMobs/INFO]: [EliteMobs] User 00000000-0000-0000-0009-01f83477176f data successfully read!
-[19:51:29] [Server thread/INFO]: Enderlava issued server command: /linkaccount .FavoriteBread57
-[19:51:57] [Server thread/INFO]: .FavoriteBread57 issued server command: /linkaccount Enderlava 8079
-[19:51:57] [Server thread/INFO]: .FavoriteBread57 lost connection: ƒ˙“—æ≠≥…π¶∞Û∂®µΩ Enderlava£°»Áπ˚ƒ˙œÎ≥∑œ˙’‚∏ˆ≤Ÿ◊˜£¨«Î ‰»Î /unlinkaccount
-[19:51:57] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] FavoriteBread57 “ÚŒ™ ƒ˙“—æ≠≥…π¶∞Û∂®µΩ Enderlava£°»Áπ˚ƒ˙œÎ≥∑œ˙’‚∏ˆ≤Ÿ◊˜£¨«Î ‰»Î /unlinkaccount ”Î Java ∞Ê∑˛ŒÒ∆˜ ∂œø™¡À¡¨Ω”
-[19:51:57] [Geyser Spigot connection thread-5-3/INFO]: [floodgate] Floodgate ÕÊº“ .FavoriteBread57 “—∂œø™¡¨Ω”
-[19:51:57] [Server thread/INFO]: .FavoriteBread57 left the game
-[19:52:02] [Server thread/INFO]: Enderlava lost connection: Disconnected
-[19:52:02] [Server thread/INFO]: Enderlava left the game
-[19:52:10] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /192.168.3.45:46108 ≥¢ ‘¡¨Ω”!
-[19:52:11] [nioEventLoopGroup-3-3/INFO]: [Geyser-Spigot] ÕÊº““‘ FavoriteBread57 µƒ”√ªß√˚Ω®¡¢¡À¡¨Ω”
-[19:52:11] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] FavoriteBread57 (µ«¬ºŒ™: FavoriteBread57) “—¡¨Ω”µΩ Java ∑˛ŒÒ∆˜
-[19:52:11] [Geyser Spigot connection thread-5-4/INFO]: UUID of player Enderlava is 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
-[19:52:11] [Server thread/INFO]: [floodgate] Floodgate ÕÊº“ Enderlava º”»Î¡À (UUID: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba)
-[19:52:11] [Server thread/INFO]: Enderlava joined the game
-[19:52:11] [Server thread/INFO]: Enderlava[/192.168.3.45:0] logged in with entity id 892 at ([world]-22.511928407704954, 63.0, -297.35657596244084)
-[19:52:12] [Craft Scheduler Thread - 21 - EliteMobs/INFO]: [EliteMobs] User 07031eee-c0d3-4ed4-8fa9-6f8ea128abba data successfully read!
-[19:52:47] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] FavoriteBread57 “ÚŒ™ ª˘—“∞ÊøÕªß∂À“—∂œø™¡¨Ω” ”Î Java ∞Ê∑˛ŒÒ∆˜ ∂œø™¡À¡¨Ω”
-[19:52:47] [Geyser Spigot connection thread-5-4/INFO]: [floodgate] Floodgate ÕÊº“ Enderlava “—∂œø™¡¨Ω”
-[19:52:47] [Server thread/INFO]: Enderlava lost connection: Disconnected
-[19:52:47] [Server thread/INFO]: Enderlava left the game
-[19:54:17] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /192.168.3.45:58639 ≥¢ ‘¡¨Ω”!
-[19:54:17] [nioEventLoopGroup-3-4/INFO]: [Geyser-Spigot] ÕÊº““‘ FavoriteBread57 µƒ”√ªß√˚Ω®¡¢¡À¡¨Ω”
-[19:54:17] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] FavoriteBread57 (µ«¬ºŒ™: FavoriteBread57) “—¡¨Ω”µΩ Java ∑˛ŒÒ∆˜
-[19:54:17] [Geyser Spigot connection thread-5-1/INFO]: UUID of player Enderlava is 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
-[19:54:17] [Server thread/INFO]: [floodgate] Floodgate ÕÊº“ Enderlava º”»Î¡À (UUID: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba)
-[19:54:17] [Server thread/INFO]: Enderlava joined the game
-[19:54:17] [Server thread/INFO]: Enderlava[/192.168.3.45:0] logged in with entity id 1163 at ([world]-17.440466, 63.0, -286.2128)
-[19:54:18] [Craft Scheduler Thread - 9 - EliteMobs/INFO]: [EliteMobs] User 07031eee-c0d3-4ed4-8fa9-6f8ea128abba data successfully read!
-[19:54:39] [Server thread/INFO]: [EliteMobs] Event craftenmines_bane_event.yml has been queued!
-[19:54:39] [Server thread/INFO]: A powerful Dr. Craftenmine creation has been spotted! Be careful!
-[19:55:20] [Async Chat Thread - #1/INFO]: <Enderlava> tmd
-[19:55:51] [User Authenticator #1/INFO]: UUID of player Funget114514 is c044cd4d-b2f0-493d-9457-42ab7216df39
-[19:55:51] [Server thread/INFO]: Funget114514 joined the game
-[19:55:51] [Server thread/INFO]: Funget114514[/192.168.3.6:64353] logged in with entity id 1441 at ([world]-21.69999998807907, 63.0, -279.30000001192093)
-[19:55:52] [Craft Scheduler Thread - 7 - EliteMobs/INFO]: [EliteMobs] User c044cd4d-b2f0-493d-9457-42ab7216df39 data successfully read!
-[19:55:55] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:56:02] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:56:05] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:56:07] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/462, uuid='7763f6c6-80a6-4337-a3ac-84c3d61bfc0f', l='ServerLevel[world]', x=-21.49, y=63.20, z=-279.44, cpos=[-2, -18], tl=44830, v=true] died: …± ÷Õ√ suffocated in a wall
-[19:56:09] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:56:12] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:56:14] [Server thread/INFO]: Enderlava issued server command: /tpjaccept
-[19:56:17] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:56:20] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:56:24] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:56:25] [Server thread/INFO]: Named entity EntityZombie['ƒ– ı ø'/448, uuid='af508b47-2b4b-4025-a827-964207ead9f4', l='ServerLevel[world]', x=-28.70, y=63.00, z=-279.30, cpos=[-2, -18], tl=43908, v=true] died: ƒ– ı ø was slain by …± ÷Õ√
-[19:56:26] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/371, uuid='4c984a1f-3b7d-4ce5-a7ec-b62d7c27a865', l='ServerLevel[world]', x=-24.69, y=63.00, z=-282.45, cpos=[-2, -18], tl=45210, v=true] died: …± ÷Õ√ suffocated in a wall whilst fighting Funget114514
-[19:56:29] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/399, uuid='b2643180-7c72-41e2-88be-834eab065bc4', l='ServerLevel[world]', x=-24.22, y=63.00, z=-282.36, cpos=[-2, -18], tl=45270, v=true] died: …± ÷Õ√ suffocated in a wall
-[19:56:30] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/389, uuid='1a0787d2-7f42-4c43-a82d-2a3ccbe82ae7', l='ServerLevel[world]', x=-24.20, y=63.32, z=-282.80, cpos=[-2, -18], tl=45280, v=true] died: …± ÷Õ√ suffocated in a wall
-[19:56:34] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/395, uuid='d3d32272-9cf3-44db-97dd-df4daa6076e4', l='ServerLevel[world]', x=-20.79, y=63.20, z=-281.75, cpos=[-2, -18], tl=45360, v=true] died: …± ÷Õ√ suffocated in a wall
-[19:56:37] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/420, uuid='419c496d-f122-4234-94d9-a8727e5d5beb', l='ServerLevel[world]', x=-20.70, y=63.20, z=-281.27, cpos=[-2, -18], tl=45420, v=true] died: …± ÷Õ√ suffocated in a wall
-[19:56:38] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/441, uuid='b599ffd2-92bd-46a8-b01c-33a7619a4df4', l='ServerLevel[world]', x=-20.32, y=63.32, z=-281.80, cpos=[-2, -18], tl=45440, v=true] died: …± ÷Õ√ suffocated in a wall
-[19:56:53] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:56:56] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:56:56] [Server thread/INFO]: Named entity EntityIronGolem['9º∂æ´”¢Ã˙ø˛¿‹'/1477, uuid='65bec91e-016d-4f0f-a8f2-d56ad7d9040e', l='ServerLevel[world]', x=-184.69, y=66.00, z=-197.32, cpos=[-12, -13], tl=475, v=true] died: 9º∂æ´”¢Ã˙ø˛¿‹ tried to swim in lava
-[19:56:59] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:57:02] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:57:04] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:57:08] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/372, uuid='ac6434b4-5252-4971-8a4e-87007caa991b', l='ServerLevel[world]', x=-21.48, y=63.19, z=-280.71, cpos=[-2, -18], tl=46040, v=true] died: …± ÷Õ√ suffocated in a wall
-[19:57:08] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:57:10] [Server thread/INFO]: Enderlava issued server command: /geyser offhand
-[19:57:12] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:57:16] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:57:20] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:57:23] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:57:26] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:57:28] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:57:32] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/444, uuid='1332815d-ea8f-457b-949c-a892d990222c', l='ServerLevel[world]', x=-19.30, y=63.74, z=-279.64, cpos=[-2, -18], tl=46525, v=true] died: …± ÷Õ√ was slain by Funget114514 using [Funget114514's Grave]
-[19:57:32] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:57:34] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/383, uuid='5efbc8ef-eb05-46ec-86f4-75baaef7c37f', l='ServerLevel[world]', x=-20.63, y=64.13, z=-280.30, cpos=[-2, -18], tl=46574, v=true] died: …± ÷Õ√ was slain by Funget114514 using [Funget114514's Grave]
-[19:57:35] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:57:38] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:57:39] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/418, uuid='0d7f3581-c0da-46ca-931a-12f56915b214', l='ServerLevel[world]', x=-15.03, y=63.13, z=-292.12, cpos=[-1, -19], tl=46670, v=true] died: …± ÷Õ√ was burnt to a crisp whilst fighting Enderlava
-[19:57:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/393, uuid='0d1b8ad7-b86c-4738-9cca-6bb7a2546830', l='ServerLevel[world]', x=-14.61, y=63.35, z=-283.55, cpos=[-1, -18], tl=46722, v=true] died: …± ÷Õ√ was shot by Enderlava using [Infinity power 3.0]
-[19:57:46] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/459, uuid='e1541ff8-a6d2-47e6-ad25-3d9e14b78398', l='ServerLevel[world]', x=-13.72, y=63.00, z=-283.14, cpos=[-1, -18], tl=46805, v=true] died: …± ÷Õ√ was shot by Enderlava using [Infinity power 3.0]
-[19:58:09] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/432, uuid='ae8790c2-3728-4ce5-9f35-6311c97b133d', l='ServerLevel[world]', x=-14.60, y=64.63, z=-283.20, cpos=[-1, -18], tl=47272, v=true] died: …± ÷Õ√ was shot by Enderlava using [Infinity power 3.0]
-[19:58:13] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/401, uuid='228a4812-ad36-4895-a84d-a97b074f8e11', l='ServerLevel[world]', x=-14.48, y=64.57, z=-283.37, cpos=[-1, -18], tl=47350, v=true] died: …± ÷Õ√ was shot by Enderlava using [Infinity power 3.0]
-[19:58:15] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/419, uuid='57d57fea-c07e-4911-9bea-3d5e73e1f0c6', l='ServerLevel[world]', x=-14.73, y=64.00, z=-283.93, cpos=[-1, -18], tl=47394, v=true] died: …± ÷Õ√ was shot by Enderlava using [Infinity power 3.0]
-[19:58:18] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/416, uuid='e295b77d-e071-4067-a6ea-5cb595fcbf7c', l='ServerLevel[world]', x=-14.26, y=64.70, z=-283.96, cpos=[-1, -18], tl=47438, v=true] died: …± ÷Õ√ was shot by Enderlava using [Infinity power 3.0]
-[19:58:22] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/422, uuid='e0f16288-1920-497e-8804-77b0cce7be00', l='ServerLevel[world]', x=-15.28, y=61.98, z=-289.62, cpos=[-1, -19], tl=47520, v=true] died: …± ÷Õ√ was burnt to a crisp whilst fighting Enderlava
-[19:58:23] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/417, uuid='49b7e5cf-0b8f-4e93-b307-f63bec5c4202', l='ServerLevel[world]', x=-16.53, y=62.80, z=-294.35, cpos=[-2, -19], tl=47547, v=true] died: …± ÷Õ√ was burnt to a crisp whilst fighting Enderlava
-[19:58:24] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/376, uuid='ccee545a-636f-4323-a89e-1283ae3da08c', l='ServerLevel[world]', x=-14.02, y=64.70, z=-283.33, cpos=[-1, -18], tl=47565, v=true] died: …± ÷Õ√ was shot by Enderlava using [Infinity power 3.0]
-[19:58:31] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/390, uuid='a88138c9-6efb-45eb-a5db-b106fd2e1ffc', l='ServerLevel[world]', x=-13.86, y=64.57, z=-283.54, cpos=[-1, -18], tl=47703, v=true] died: …± ÷Õ√ was shot by Enderlava using [Infinity power 3.0]
-[19:58:35] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/430, uuid='e19e4c20-4906-4816-99d2-bb7ff741c3fa', l='ServerLevel[world]', x=-14.06, y=64.13, z=-283.48, cpos=[-1, -18], tl=47787, v=true] died: …± ÷Õ√ was shot by Enderlava using [Infinity power 3.0]
-[19:58:39] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/457, uuid='8459e859-8bfc-4d38-b4fb-cca4c9fada9e', l='ServerLevel[world]', x=-14.50, y=64.71, z=-283.20, cpos=[-1, -18], tl=47855, v=true] died: …± ÷Õ√ was shot by Enderlava using [Infinity power 3.0]
-[19:58:41] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[19:58:47] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/436, uuid='babeaa04-20ac-4e50-8a8e-870b35f479fd', l='ServerLevel[world]', x=-14.83, y=64.57, z=-283.66, cpos=[-1, -18], tl=48030, v=true] died: …± ÷Õ√ was shot by Enderlava using [Infinity power 3.0]
-[19:58:50] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/411, uuid='e22624a7-4fbe-4d5f-a645-657f3abb343c', l='ServerLevel[world]', x=-14.69, y=64.71, z=-283.20, cpos=[-1, -18], tl=48075, v=true] died: …± ÷Õ√ was shot by Enderlava using [Infinity power 3.0]
-[19:58:52] [Server thread/INFO]: Funget114514 issued server command: /tpj Enderlava
-[19:58:58] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/384, uuid='494d7715-d657-49e0-ac77-ec9e60b23fb3', l='ServerLevel[world]', x=-13.51, y=61.42, z=-289.71, cpos=[-1, -19], tl=48236, v=true] died: …± ÷Õ√ was burnt to a crisp whilst fighting Enderlava
-[19:59:11] [Server thread/INFO]: Enderlava issued server command: /tpjaccept
-[19:59:11] [Server thread/WARN]: Funget114514 moved too quickly! 107.2143838182247,6.0,-175.56852866358122
-[19:59:26] [pool-58-thread-2/INFO]: [GroupManager] [STDOUT] [GroupManager] Data files refreshed.
-[19:59:26] [pool-58-thread-2/WARN]: Nag author(s): '[AnjoCaido, Gabriel Couto, ElgarL]' of 'GroupManager v2.9 (Phoenix)' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[19:59:31] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/381, uuid='b1e8e451-276e-4f9a-8e62-637ab3e622d4', l='ServerLevel[world]', x=-12.45, y=63.00, z=-280.08, cpos=[-1, -18], tl=48905, v=true] died: …± ÷Õ√ was shot by Enderlava using [Infinity power 3.0]
-[19:59:33] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/461, uuid='94bb7a12-8015-4bfe-a000-6f814f417132', l='ServerLevel[world]', x=-12.47, y=64.46, z=-280.99, cpos=[-1, -18], tl=48942, v=true] died: …± ÷Õ√ was shot by Enderlava using [Infinity power 3.0]
-[19:59:35] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/397, uuid='431ae237-c3b3-436c-bc33-1cd2364c8eb7', l='ServerLevel[world]', x=-12.80, y=63.00, z=-282.25, cpos=[-1, -18], tl=48989, v=true] died: …± ÷Õ√ hit the ground too hard
-[19:59:36] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] FavoriteBread57 “ÚŒ™ ª˘—“∞ÊøÕªß∂À“—∂œø™¡¨Ω” ”Î Java ∞Ê∑˛ŒÒ∆˜ ∂œø™¡À¡¨Ω”
-[19:59:36] [Geyser Spigot connection thread-5-1/INFO]: [floodgate] Floodgate ÕÊº“ Enderlava “—∂œø™¡¨Ω”
-[19:59:36] [Server thread/INFO]: Enderlava lost connection: Disconnected
-[19:59:36] [Server thread/INFO]: Enderlava left the game
-[20:00:39] [Server thread/INFO]: [EliteMobs] Event altered_enderman_event.yml has been queued!
-[20:00:39] [Server thread/INFO]: Dr. Craftenmine's ender creation has been set loose!
-[20:01:33] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/431, uuid='9aeb5cc3-8d32-4235-9121-6ec7b2086c21', l='ServerLevel[world]', x=-24.78, y=63.70, z=-285.57, cpos=[-2, -18], tl=51336, v=true] died: …± ÷Õ√ was slain by Funget114514
-[20:01:45] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[20:01:51] [Server thread/INFO]: Funget114514 lost connection: Disconnected
-[20:01:51] [Server thread/INFO]: Funget114514 left the game
-[20:02:21] [Server thread/INFO]: Invalid or unknown entity type 'minecraft:bunny'
-...l @e[type=bunny]<--[HERE]
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/396, uuid='7d552170-afc6-415d-bc10-dbda717eda3a', l='ServerLevel[world]', x=-17.76, y=64.32, z=-281.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/394, uuid='374d2a78-e9f9-4ee5-87ea-9fd7b6516c6a', l='ServerLevel[world]', x=-18.19, y=63.00, z=-285.56, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/400, uuid='9eba1b2a-a549-4082-a253-aac44a16770c', l='ServerLevel[world]', x=-25.20, y=63.00, z=-283.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/392, uuid='b36c5755-461d-4791-9d34-fbba6a5757eb', l='ServerLevel[world]', x=-13.80, y=63.20, z=-278.83, cpos=[-1, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/398, uuid='c299dbc1-3112-48e0-bb27-195a0a38b7d7', l='ServerLevel[world]', x=-25.80, y=63.00, z=-283.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/402, uuid='79522b91-6f22-4128-b228-8e13c5b080b2', l='ServerLevel[world]', x=-27.00, y=63.00, z=-282.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/387, uuid='8ab5ac0d-c80c-466e-9654-f1961b0bed2d', l='ServerLevel[world]', x=-26.12, y=63.00, z=-286.30, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ didn't want to live in the same world as Funget114514
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/403, uuid='05f3dc33-0a87-42cc-9d1c-aa2f147cf3f6', l='ServerLevel[world]', x=-25.20, y=63.00, z=-283.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/386, uuid='922651c9-59fd-4471-b09a-d768310b2285', l='ServerLevel[world]', x=0.93, y=63.91, z=-278.20, cpos=[0, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/391, uuid='e83752f7-d407-45ed-8c93-34c1213a1c59', l='ServerLevel[world]', x=-19.80, y=64.00, z=-282.32, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/407, uuid='068d2a50-b122-4274-8c1f-4a26e5d2d281', l='ServerLevel[world]', x=-19.80, y=64.00, z=-282.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/378, uuid='4fc8bafa-962e-4846-8f9f-91a88e71e43e', l='ServerLevel[world]', x=-17.54, y=64.00, z=-280.65, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/377, uuid='dc74c948-6ad2-4621-88ea-fed9e805b8b3', l='ServerLevel[world]', x=-11.80, y=62.00, z=-281.21, cpos=[-1, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/375, uuid='f2f78e29-74ff-41a2-992b-08894dccc2c8', l='ServerLevel[world]', x=-25.56, y=63.00, z=-283.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/410, uuid='06a9a674-401a-46fc-bbf8-3b02895ac16d', l='ServerLevel[world]', x=-20.78, y=63.00, z=-282.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/369, uuid='0d832b33-78a5-4fdf-8dc3-34d8c3b6a99f', l='ServerLevel[world]', x=-19.20, y=64.00, z=-282.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/385, uuid='822bf025-2f25-4453-9f89-1d51c8a6e099', l='ServerLevel[world]', x=-12.66, y=67.00, z=-273.39, cpos=[-1, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/368, uuid='a41dc2f1-68b5-4260-a38b-ea4c43c9d030', l='ServerLevel[world]', x=-17.49, y=65.00, z=-276.50, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/425, uuid='3ba5f37a-05ab-45c4-930c-9f3ad835baf9', l='ServerLevel[world]', x=-25.20, y=63.00, z=-282.20, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/428, uuid='99e7ceb1-4d08-46dc-8c28-832d9887d718', l='ServerLevel[world]', x=-6.51, y=63.00, z=-278.52, cpos=[-1, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/364, uuid='b2dd9b49-aeb2-45df-be56-37c51401ef71', l='ServerLevel[world]', x=-22.20, y=63.20, z=-287.87, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/362, uuid='e98a1fb0-4722-4e51-9108-747fc658cdf5', l='ServerLevel[world]', x=-19.20, y=64.00, z=-282.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/359, uuid='64572490-3e87-4af4-b14c-6fe8d86265d8', l='ServerLevel[world]', x=-19.20, y=64.00, z=-282.37, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/426, uuid='8e35e23b-48d4-49dc-aaf9-1f4a63284f2f', l='ServerLevel[world]', x=-28.28, y=63.00, z=-279.50, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/366, uuid='d165c91d-1d1e-4a3f-96a6-f4cab55b9f69', l='ServerLevel[world]', x=-26.11, y=63.00, z=-280.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/439, uuid='12b61f29-71c9-4c01-835e-79c27bfd76ea', l='ServerLevel[world]', x=-25.80, y=63.00, z=-283.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/435, uuid='85cb5786-2985-4f06-8174-fb06f4fad891', l='ServerLevel[world]', x=-25.17, y=63.00, z=-280.35, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/423, uuid='c68a7ec1-7fe7-44c4-aac4-523d8bfb67d3', l='ServerLevel[world]', x=-25.59, y=63.00, z=-283.35, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/412, uuid='52c734f8-91bb-4de3-abda-0e5e11a37aa3', l='ServerLevel[world]', x=-25.80, y=63.00, z=-283.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/446, uuid='d277c5ca-141f-4f56-9834-d2fd627f73ff', l='ServerLevel[world]', x=-21.84, y=63.00, z=-282.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/382, uuid='929f0571-64bd-41a3-9c73-38ecac3f1f7f', l='ServerLevel[world]', x=-17.59, y=63.00, z=-285.46, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/380, uuid='63b3eb68-1ffb-4839-96fd-295d697da28c', l='ServerLevel[world]', x=-24.80, y=62.31, z=-285.55, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/414, uuid='d10bf1a2-b599-406f-8f55-cf5ae4a0957c', l='ServerLevel[world]', x=-25.63, y=63.00, z=-282.20, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/437, uuid='ceae5876-404e-4dc1-8627-70b829a0287b', l='ServerLevel[world]', x=-26.67, y=63.91, z=-282.65, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/453, uuid='507a4fa6-5e9b-4112-b3e0-e2d0b34c7fc5', l='ServerLevel[world]', x=-25.20, y=63.00, z=-283.08, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/405, uuid='a0af8d59-29a2-4d8f-bd2b-aaa8881378a3', l='ServerLevel[world]', x=-25.20, y=63.00, z=-283.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/373, uuid='0bad4b8e-7715-4918-a75b-fdc613e146b9', l='ServerLevel[world]', x=-26.09, y=63.00, z=-282.66, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/421, uuid='00f5d79f-4425-43ca-96fc-7e95b1ec3217', l='ServerLevel[world]', x=-21.24, y=63.00, z=-282.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/458, uuid='82b389ff-c4b3-4ae0-95c1-5907475eb6bb', l='ServerLevel[world]', x=-25.20, y=63.00, z=-282.71, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/460, uuid='1224db3d-5174-422c-90b2-f2198527da3f', l='ServerLevel[world]', x=-26.56, y=63.00, z=-281.33, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/455, uuid='48766055-e201-4405-9818-2607dd89ab1c', l='ServerLevel[world]', x=-26.38, y=63.00, z=-282.24, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/451, uuid='ab4e6036-c48f-4d48-ba15-e310fb9b7591', l='ServerLevel[world]', x=-25.45, y=63.00, z=-283.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/443, uuid='cb1ef0c9-714c-44f3-bfe9-6d8e03719908', l='ServerLevel[world]', x=-25.46, y=64.00, z=-282.04, cpos=[-2, -18], tl=56855, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/450, uuid='7ee1033f-27f6-4206-af31-816e39df7883', l='ServerLevel[world]', x=-1.40, y=62.94, z=-279.53, cpos=[-1, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/442, uuid='4a0a8f56-536c-40d5-8e6c-e6d9e35110c0', l='ServerLevel[world]', x=-8.89, y=63.00, z=-279.66, cpos=[-1, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/440, uuid='06e749f4-9e7e-43ae-b1c2-e11de7279f48', l='ServerLevel[world]', x=-17.60, y=64.19, z=-280.20, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/433, uuid='c6e14324-98bc-428e-b9a3-70aa9d4cf739', l='ServerLevel[world]', x=-20.82, y=63.00, z=-282.25, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/449, uuid='1589fdcf-ae81-42ac-b695-89df0c5ded89', l='ServerLevel[world]', x=-25.20, y=63.00, z=-282.20, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/363, uuid='3722117f-b44c-4f24-a110-f763191d4177', l='ServerLevel[world]', x=-25.80, y=63.00, z=-283.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/429, uuid='e2100537-bdd5-4a80-9157-0d44ae6367ec', l='ServerLevel[world]', x=-24.80, y=63.35, z=-281.78, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/365, uuid='f060b750-bfeb-4d37-a034-58f343118e80', l='ServerLevel[world]', x=-11.23, y=62.00, z=-281.80, cpos=[-1, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/361, uuid='f0bafea8-265a-4913-bee5-6e0db243dc91', l='ServerLevel[world]', x=-20.20, y=63.00, z=-282.20, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/367, uuid='bca19b6e-aee6-4957-a233-1e1066f6097a', l='ServerLevel[world]', x=-12.21, y=63.31, z=-279.44, cpos=[-1, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/434, uuid='9a09262f-17f7-474d-9381-60c9e201446a', l='ServerLevel[world]', x=-10.51, y=62.00, z=-282.45, cpos=[-1, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/424, uuid='0d887b33-7a18-4379-ad12-fd3bd5612343', l='ServerLevel[world]', x=-25.97, y=63.20, z=-282.66, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/370, uuid='0e863957-bdf8-40fe-a101-e478554aeb7b', l='ServerLevel[world]', x=-13.80, y=63.00, z=-279.51, cpos=[-1, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/374, uuid='05b3b5f5-609a-4fa7-bcfe-6df925d6eeed', l='ServerLevel[world]', x=-25.20, y=63.00, z=-283.16, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/427, uuid='ac6841e3-2d7f-4206-8ed0-8d422867701f', l='ServerLevel[world]', x=-13.88, y=63.19, z=-280.80, cpos=[-1, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/415, uuid='8659f40a-3417-49c7-899b-d6875699e060', l='ServerLevel[world]', x=-13.79, y=63.32, z=-280.24, cpos=[-1, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/445, uuid='a01e6c9c-8c0e-45ad-bf5f-6cc41732c0d8', l='ServerLevel[world]', x=-10.79, y=63.20, z=-279.54, cpos=[-1, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/447, uuid='a90db85f-1f0a-4ba8-a8af-0342910802d2', l='ServerLevel[world]', x=-25.80, y=63.00, z=-283.03, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/379, uuid='10e41b7a-e496-49fb-8fa8-73c6be9205c7', l='ServerLevel[world]', x=-25.20, y=63.00, z=-283.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/406, uuid='beaa3b4c-2656-4fb0-b44b-ec3a47944973', l='ServerLevel[world]', x=-26.87, y=63.00, z=-281.77, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/404, uuid='0bd3342f-4d31-4930-88e4-c9ad4cb318cd', l='ServerLevel[world]', x=-20.20, y=63.00, z=-282.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/454, uuid='d8fdc91e-1f85-4c90-a393-7ea278e239c7', l='ServerLevel[world]', x=-28.13, y=63.00, z=-282.43, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/388, uuid='14634153-eb72-4986-8c45-7bbcd8d3e4c6', l='ServerLevel[world]', x=-21.85, y=63.00, z=-282.25, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/438, uuid='5bdd8e8d-896c-41ce-8cc6-18613f6f0225', l='ServerLevel[world]', x=-12.79, y=63.00, z=-278.78, cpos=[-1, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/413, uuid='dc33371e-3ea5-4113-adbe-016d34ca5582', l='ServerLevel[world]', x=-19.80, y=64.00, z=-282.80, cpos=[-2, -18], tl=51598, v=true] died: …± ÷Õ√ fell out of the world
-[20:02:42] [Server thread/INFO]: Killed 68 entities
-[20:05:44] [Server thread/INFO]: Named entity EntityIronGolem['0º∂æ´”¢Ã˙ø˛¿‹'/3639, uuid='633c2f11-794d-436d-a8dd-11073fbdd03b', l='ServerLevel[world]', x=-162.32, y=66.00, z=-216.75, cpos=[-11, -14], tl=339, v=true] died: 0º∂æ´”¢Ã˙ø˛¿‹ tried to swim in lava
-[20:08:49] [Server thread/INFO]: Named entity EntityIronGolem['0º∂æ´”¢Ã˙ø˛¿‹'/4408, uuid='3e39c4da-7a87-4c89-b493-daaefce8e102', l='ServerLevel[world]', x=-210.68, y=66.00, z=-214.61, cpos=[-14, -14], tl=341, v=true] died: 0º∂æ´”¢Ã˙ø˛¿‹ tried to swim in lava
-[20:13:15] [User Authenticator #2/INFO]: UUID of player Funget114514 is c044cd4d-b2f0-493d-9457-42ab7216df39
-[20:13:15] [Server thread/INFO]: Funget114514 joined the game
-[20:13:15] [Server thread/INFO]: Funget114514[/192.168.3.6:64449] logged in with entity id 5591 at ([world]-125.4533906995424, 64.0, -108.30000001192093)
-[20:13:16] [Craft Scheduler Thread - 64 - EliteMobs/INFO]: [EliteMobs] User c044cd4d-b2f0-493d-9457-42ab7216df39 data successfully read!
-[20:13:39] [Server thread/INFO]: [EliteMobs] Event mutated_cod_event.yml has been queued!
-[20:13:39] [Server thread/INFO]: A fishy Dr. Craftenmine creation has escaped!
-[20:14:36] [Server thread/INFO]: Funget114514 was slain by …± ÷Õ√
-[20:15:07] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /192.168.3.45:51900 ≥¢ ‘¡¨Ω”!
-[20:15:08] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] ÕÊº““‘ FavoriteBread57 µƒ”√ªß√˚Ω®¡¢¡À¡¨Ω”
-[20:15:08] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] FavoriteBread57 (µ«¬ºŒ™: FavoriteBread57) “—¡¨Ω”µΩ Java ∑˛ŒÒ∆˜
-[20:15:08] [Geyser Spigot connection thread-5-2/INFO]: UUID of player Enderlava is 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
-[20:15:08] [Server thread/INFO]: [floodgate] Floodgate ÕÊº“ Enderlava º”»Î¡À (UUID: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba)
-[20:15:08] [Server thread/INFO]: Enderlava joined the game
-[20:15:08] [Server thread/INFO]: Enderlava[/192.168.3.45:0] logged in with entity id 6900 at ([world]-12.79026, 70.0, -282.22916)
-[20:15:09] [Craft Scheduler Thread - 57 - EliteMobs/INFO]: [EliteMobs] User 07031eee-c0d3-4ed4-8fa9-6f8ea128abba data successfully read!
-[20:15:43] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/456, uuid='ce9da678-5e27-4c34-8a9f-e5a66026d354', l='ServerLevel[world]', x=-25.94, y=63.57, z=-286.58, cpos=[-2, -18], tl=53735, v=true] died: …± ÷Õ√ was burnt to a crisp whilst fighting Enderlava
-[20:15:46] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/409, uuid='66f3cc9b-769c-45ff-a01d-e2082bf29ba5', l='ServerLevel[world]', x=-22.76, y=63.65, z=-286.53, cpos=[-2, -18], tl=53804, v=true] died: …± ÷Õ√ was burnt to a crisp whilst fighting Enderlava
-[20:16:17] [Server thread/INFO]: Named entity EntityRabbit['…± ÷Õ√'/408, uuid='ea68d6e6-49e8-40d0-b762-f1a562b422a4', l='ServerLevel[world]', x=-17.13, y=62.00, z=-288.20, cpos=[-2, -19], tl=54391, v=true] died: …± ÷Õ√ was slain by Enderlava using [’Ω∂∑¬◊’Ω∂∑∏´]
-[20:17:03] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] FavoriteBread57 “ÚŒ™ ª˘—“∞ÊøÕªß∂À“—∂œø™¡¨Ω” ”Î Java ∞Ê∑˛ŒÒ∆˜ ∂œø™¡À¡¨Ω”
-[20:17:03] [Geyser Spigot connection thread-5-2/INFO]: [floodgate] Floodgate ÕÊº“ Enderlava “—∂œø™¡¨Ω”
-[20:17:03] [Server thread/INFO]: Enderlava lost connection: Disconnected
-[20:17:03] [Server thread/INFO]: Enderlava left the game
-[20:19:39] [Server thread/INFO]: [EliteMobs] Event conjoined_subjects_event.yml has been queued!
-[20:19:39] [Server thread/INFO]: Dr. Craftenmine's twisted creation is out in the wild!
-[20:20:18] [Server thread/INFO]: Named entity EntityZombie['wqe123420's Zombie'/8572, uuid='316e2fb2-b52c-4af0-899c-93921862b769', l='ServerLevel[world]', x=-26.36, y=63.00, z=-281.61, cpos=[-2, -18], tl=20, v=true] died: wqe123420's Zombie was slain by Funget114514
-[20:20:42] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /192.168.3.45:51900 ≥¢ ‘¡¨Ω”!
-[20:20:42] [nioEventLoopGroup-3-2/INFO]: [Geyser-Spigot] ÕÊº““‘ FavoriteBread57 µƒ”√ªß√˚Ω®¡¢¡À¡¨Ω”
-[20:20:42] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] FavoriteBread57 (µ«¬ºŒ™: FavoriteBread57) “—¡¨Ω”µΩ Java ∑˛ŒÒ∆˜
-[20:20:42] [Geyser Spigot connection thread-5-3/INFO]: UUID of player Enderlava is 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
-[20:20:42] [Server thread/INFO]: [floodgate] Floodgate ÕÊº“ Enderlava º”»Î¡À (UUID: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba)
-[20:20:42] [Server thread/INFO]: Enderlava joined the game
-[20:20:42] [Server thread/INFO]: Enderlava[/192.168.3.45:0] logged in with entity id 8686 at ([world]-19.84798, 64.0, -297.825)
-[20:20:43] [Craft Scheduler Thread - 60 - EliteMobs/INFO]: [EliteMobs] User 07031eee-c0d3-4ed4-8fa9-6f8ea128abba data successfully read!
-[20:22:15] [Server thread/INFO]: Funget114514 was slain by Enderlava using [∏Á≤º¡÷Ω£]
-[20:22:21] [Server thread/INFO]: Funget114514 issued server command: /tpj Enderlava
-[20:22:30] [Server thread/INFO]: Enderlava issued server command: /tpjaccept
-[20:22:30] [Server thread/WARN]: Funget114514 moved too quickly! 111.43180699742064,-5.252203340253729,-208.02774325973638
-[20:22:47] [Server thread/INFO]: Funget114514 died because of Enderlava
-[20:22:54] [Server thread/WARN]: Enderlava moved too quickly! 9.915038000000001,-1.1999799999999965,0.8605200000000082
-[20:22:54] [Server thread/INFO]: °Ï5[Themis] °Ï4Enderlava °Ïcwas flagged for °Ï4Timer / Blink °Ïchacks!
-°Ïc[Score: °Ï427.0 °Ïc| Ping: °Ï41 °Ïc| TPS: °Ï419.96°Ïc]
-[20:22:55] [Server thread/INFO]: Funget114514 issued server command: /tpj Enderlava
-[20:23:03] [Server thread/INFO]: Enderlava issued server command: /tpjaccept
-[20:23:03] [Server thread/WARN]: Funget114514 moved too quickly! 101.3874341203149,0.0,-176.16381311466614
-[20:24:28] [Server thread/INFO]: [EliteMobs] Event craftenmines_bane_event.yml ended!
-[20:24:37] [Server thread/WARN]: Enderlava moved wrongly!
-[20:24:49] [Server thread/INFO]: Named entity EntityIronGolem['11º∂æ´”¢Ã˙ø˛¿‹'/9943, uuid='cfface9c-948b-4902-b586-89731eced90b', l='ServerLevel[world]', x=-210.68, y=66.00, z=-209.67, cpos=[-14, -14], tl=540, v=true] died: 11º∂æ´”¢Ã˙ø˛¿‹ tried to swim in lava
-[20:25:13] [Server thread/INFO]: Named entity EntityZombie['.Mai_Shiranui520's Zombie'/10181, uuid='80c7f98b-60a1-4563-8b49-0512d9dc693a', l='ServerLevel[world]', x=-13.73, y=70.00, z=-257.17, cpos=[-1, -17], tl=134, v=true] died: .Mai_Shiranui520's Zombie was slain by Funget114514 using [œ¬ΩÁ∫œΩΩ£]
-[20:25:39] [Server thread/INFO]: [EliteMobs] Event treasure_goblin.yml has been queued!
-[20:25:39] [Server thread/INFO]: ±¶≤ÿ∏Á≤º¡÷≥ˆœ÷¡À£°
-[20:26:12] [Server thread/INFO]: Named entity EntityIronGolem['7º∂æ´”¢Ã˙ø˛¿‹'/10462, uuid='371c98c1-4e04-4c07-9c08-6450675854f4', l='ServerLevel[world]', x=-210.68, y=66.00, z=-214.50, cpos=[-14, -14], tl=492, v=true] died: 7º∂æ´”¢Ã˙ø˛¿‹ tried to swim in lava
-[20:26:21] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] FavoriteBread57 “ÚŒ™ ª˘—“∞ÊøÕªß∂À“—∂œø™¡¨Ω” ”Î Java ∞Ê∑˛ŒÒ∆˜ ∂œø™¡À¡¨Ω”
-[20:26:21] [Geyser Spigot connection thread-5-3/INFO]: [floodgate] Floodgate ÕÊº“ Enderlava “—∂œø™¡¨Ω”
-[20:26:21] [Server thread/INFO]: Enderlava lost connection: Disconnected
-[20:26:21] [Server thread/INFO]: Enderlava left the game
-[20:31:01] [Server thread/INFO]: [EliteMobs] Event altered_enderman_event.yml ended!
-[20:31:39] [Server thread/INFO]: [EliteMobs] Event cryocorpse_event.yml has been queued!
-[20:31:40] [Server thread/INFO]: <Funget114514> Jeeves!
-[20:31:49] [Server thread/INFO]: Named entity EntityIronGolem['9º∂æ´”¢Ã˙ø˛¿‹'/13398, uuid='1c0175d3-b995-4dfa-a29b-90b093c89d25', l='ServerLevel[world]', x=-210.68, y=66.00, z=-214.45, cpos=[-14, -14], tl=525, v=true] died: 9º∂æ´”¢Ã˙ø˛¿‹ tried to swim in lava
-[20:36:04] [Server thread/INFO]: Named entity EntityIronGolem['5º∂æ´”¢Ã˙ø˛¿‹'/14586, uuid='863e0a54-f73d-4ea0-b390-028387114d6e', l='ServerLevel[world]', x=-184.23, y=66.00, z=-197.32, cpos=[-12, -13], tl=442, v=true] died: 5º∂æ´”¢Ã˙ø˛¿‹ tried to swim in lava
-[20:36:46] [Server thread/INFO]: Named entity EntityIronGolem['7º∂æ´”¢Ã˙ø˛¿‹'/14763, uuid='4e15033f-5c8c-4999-ba3d-b4c5e8573d39', l='ServerLevel[world]', x=-184.21, y=66.00, z=-197.32, cpos=[-12, -13], tl=472, v=true] died: 7º∂æ´”¢Ã˙ø˛¿‹ tried to swim in lava
-[20:39:18] [Server thread/INFO]: Named entity EntityIronGolem['8º∂æ´”¢Ã˙ø˛¿‹'/15437, uuid='5a9fcd24-edd3-4b5e-a2e6-f0138e24c75a', l='ServerLevel[world]', x=-184.21, y=66.00, z=-197.32, cpos=[-12, -13], tl=508, v=true] died: 8º∂æ´”¢Ã˙ø˛¿‹ tried to swim in lava
-[20:40:37] [Server thread/INFO]: Funget114514 issued server command: /cd
-[20:42:51] [Server thread/INFO]: Funget114514 lost connection: Disconnected
-[20:42:51] [Server thread/INFO]: Funget114514 left the game
-[20:43:39] [Craft Scheduler Thread - 52 - EliteMobs/INFO]: [EliteMobs] Event cryocorpse_event.yml ended!
-[20:44:08] [Server thread/INFO]: [EliteMobs] Event mutated_cod_event.yml ended!
-[20:48:30] [Server thread/INFO]: [EliteMobs] Event conjoined_subjects_event.yml ended!
-[20:51:24] [Server thread/INFO]: Named entity EntityIronGolem['0º∂æ´”¢Ã˙ø˛¿‹'/18619, uuid='ddc3a8ab-8396-4bc1-ad33-f9545c03583e', l='ServerLevel[world]', x=-162.32, y=66.00, z=-214.50, cpos=[-11, -14], tl=339, v=true] died: 0º∂æ´”¢Ã˙ø˛¿‹ tried to swim in lava
-[20:54:47] [Server thread/INFO]: Named entity EntityIronGolem['0º∂æ´”¢Ã˙ø˛¿‹'/19454, uuid='6a5a33a6-2f20-4a4c-ac52-ca80c2235402', l='ServerLevel[world]', x=-189.80, y=66.00, z=-197.32, cpos=[-12, -13], tl=385, v=true] died: 0º∂æ´”¢Ã˙ø˛¿‹ tried to swim in lava
-[20:55:03] [Server thread/INFO]: [EliteMobs] Event treasure_goblin.yml ended!
-[20:55:54] [Server thread/INFO]: [Magic] Server is shutting down, closing all wand inventories
-[20:55:54] [Server thread/INFO]: Stopping the server
-[20:55:54] [Server thread/INFO]: Stopping server
-[20:55:54] [Server thread/INFO]: [EliteMobs] Disabling EliteMobs v8.5.4
-[20:55:54] [Server thread/INFO]: [EliteMobs] Starting EliteMobs shutdown sequence...
-[20:55:54] [Server thread/INFO]: [EliteMobs] Regenerating exploded blocks...
-[20:55:54] [Server thread/INFO]: [EliteMobs] Cancelling tasks...
-[20:55:54] [Server thread/INFO]: [EliteMobs] Closing wormholes...
-[20:55:54] [Server thread/INFO]: [EliteMobs] Spinning Regional Bosses down...
-[20:55:54] [Server thread/INFO]: [EliteMobs] Wiping Elite entities clean...
-[20:55:54] [Server thread/INFO]: [EliteMobs] Clearing events...
-[20:55:54] [Server thread/INFO]: [EliteMobs] Clearing valid worlds...
-[20:55:54] [Server thread/INFO]: [EliteMobs] Clearing zone based worlds...
-[20:55:54] [Server thread/INFO]: [EliteMobs] Clearing config regional elites...
-[20:55:54] [Server thread/INFO]: [EliteMobs] Clearing custom enchantments...
-[20:55:54] [Server thread/INFO]: [EliteMobs] Clearing custom items...
-[20:55:54] [Server thread/INFO]: [EliteMobs] Clearing Minidungeons...
-[20:55:54] [Server thread/INFO]: [EliteMobs] Unregistering placeholders...
-[20:55:54] [Server thread/INFO]: [EliteMobs] Unregistering handlers...
-[20:55:54] [Server thread/INFO]: [EliteMobs] Clearing Treasure Chests...
-[20:55:54] [Server thread/INFO]: [EliteMobs] Untracking quests...
-[20:55:54] [Server thread/INFO]: [EliteMobs] Saving EliteMobs databases...
-[20:55:54] [Server thread/INFO]: [EliteMobs] All done! Good night.
-[20:55:54] [Server thread/INFO]: [GeekPlayerBag] Disabling GeekPlayerBag v1.1-Bate
-[20:55:54] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3_bag.HikariDataSource] GeekPlayerBag-SQLITE - Shutdown initiated...
-[20:55:54] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3_bag.HikariDataSource] GeekPlayerBag-SQLITE - Shutdown completed.
-[20:55:54] [Server thread/INFO]: [Graves] Disabling Graves v4.9
-[20:55:54] [Server thread/INFO]: [GroupManager] Disabling GroupManager v2.9 (Phoenix)
-[20:55:54] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[20:55:54] [Server thread/ERROR]: [GroupManager] [STDERR] [GroupManager] Scheduled Data Saving is Disabled!
-[20:55:54] [Server thread/WARN]: Nag author(s): '[AnjoCaido, Gabriel Couto, ElgarL]' of 'GroupManager v2.9 (Phoenix)' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
-[20:55:54] [Server thread/INFO]: [GroupManager] [STDOUT] [GroupManager] version 2.9 (Phoenix) is disabled!
-[20:55:54] [Server thread/INFO]: [ItemCommand] Disabling ItemCommand v1.0.3
-[20:55:54] [Server thread/INFO]: [Logger] Disabling Logger v1.8.0.9
-[20:55:54] [Server thread/INFO]: [Logger] Plugin Disabled!
-[20:55:54] [Server thread/INFO]: [Magic] Disabling Magic v10.8.9-845a296
-[20:55:54] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion magic
-[20:55:54] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin Magic was disabled.
-[20:55:54] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.3.1
-[20:55:54] [Server thread/INFO]: [RandomControl] Disabling RandomControl v1.1.0
-[20:55:54] [Server thread/INFO]: [SuperRandomCommand] Disabling SuperRandomCommand v1.6
-[20:55:54] [Server thread/INFO]: [SuperRandomCommand] –∂‘ÿ≥…π¶
-[20:55:54] [Server thread/INFO]: [Themis] Disabling Themis v0.15.1
-[20:55:54] [Server thread/INFO]: [Tpj] Disabling Tpj v1.0
-[20:55:54] [Server thread/INFO]: [TrMenu] Disabling TrMenu v3.1.22
-[20:55:54] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3.HikariDataSource] HikariPool-1 - Shutdown initiated...
-[20:55:54] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3.HikariDataSource] HikariPool-1 - Shutdown completed.
-[20:55:54] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.3
-[20:55:54] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.4.0
-[20:55:54] [Server thread/INFO]: [LaggRemover] Disabling LaggRemover v2.0.6
-[20:55:54] [Server thread/INFO]: [LaggRemover] LaggRemover has been disabled!
-[20:55:54] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.2-SNAPSHOT
-[20:55:54] [Server thread/INFO]: [Geyser-Spigot] Geyserπÿ±’÷–
-[20:55:54] [Server thread/INFO]: [Geyser-Spigot] Geyser≥…π¶πÿ±’.
-[20:55:54] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.9
-[20:55:54] [Server thread/INFO]: [AureliumSkills] Disabling AureliumSkills vBeta 1.3.19
-[20:55:54] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.7.0
-[20:55:54] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b59-2278589)
-[20:55:54] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.64
-[20:55:54] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[20:55:54] [Server thread/INFO]: [LuckPerms] Closing storage...
-[20:55:54] [Server thread/INFO]: [LuckPerms] Goodbye!
-[20:55:54] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
-[20:55:54] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.7+216b061
-[20:55:54] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[20:55:54] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0
-[20:55:54] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.14+6360-094b734
-[20:55:54] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[20:55:54] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.7.0
-[20:55:54] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[20:55:54] [Server thread/INFO]: Saving players
-[20:55:54] [Server thread/INFO]: Saving worlds
-[20:55:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:55:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:55:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:55:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:55:54] [Server thread/INFO]: [ChunkHolderManager] Saved 19 block chunks, 117 entity chunks, 3 poi chunks in world 'world' in 0.05s
-[20:55:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:55:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:55:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:55:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:55:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:55:54] [WebSocketConnectReadThread-167/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[20:55:54] [Server thread/INFO]: [ChunkHolderManager] Saved 31 block chunks, 63 entity chunks, 0 poi chunks in world 'world_nether' in 0.04s
-[20:55:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:55:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 30 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[20:55:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:55:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_fireworks]'/minecraft:em_fireworks
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_fireworks'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_fireworks'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_fireworks'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_fireworks' in 0.00s
-[20:55:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_fireworks): All chunks are saved
-[20:55:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_sewer_maze]'/minecraft:em_sewer_maze
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_sewer_maze'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_sewer_maze'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_sewer_maze'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_sewer_maze' in 0.00s
-[20:55:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_sewer_maze): All chunks are saved
-[20:55:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_shadow_of_the_binder_of_worlds]'/minecraft:em_shadow_of_the_binder_of_worlds
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_shadow_of_the_binder_of_worlds'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_shadow_of_the_binder_of_worlds'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_shadow_of_the_binder_of_worlds'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_shadow_of_the_binder_of_worlds' in 0.00s
-[20:55:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:55:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_hallosseum]'/minecraft:em_hallosseum
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_hallosseum'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_hallosseum'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_hallosseum'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_hallosseum' in 0.00s
-[20:55:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:55:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_knight_castle]'/minecraft:em_knight_castle
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_knight_castle'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_knight_castle'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_knight_castle'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_knight_castle' in 0.00s
-[20:55:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_knight_castle): All chunks are saved
-[20:55:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_steamworks_lair]'/minecraft:em_steamworks_lair
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_steamworks_lair'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_steamworks_lair'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_steamworks_lair'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_steamworks_lair' in 0.00s
-[20:55:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_steamworks_lair): All chunks are saved
-[20:55:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_north_pole]'/minecraft:em_north_pole
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_north_pole'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_north_pole'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_north_pole'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_north_pole' in 0.00s
-[20:55:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_north_pole): All chunks are saved
-[20:55:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_adventurers_guild]'/minecraft:em_adventurers_guild
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_adventurers_guild'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_adventurers_guild'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_adventurers_guild'
-[20:55:55] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_adventurers_guild' in 0.00s
-[20:55:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_adventurers_guild): All chunks are saved
-[20:55:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:55:55] [Server thread/INFO]: Flushing Chunk IO
-[20:55:55] [Server thread/INFO]: Closing Thread Pool
-[20:55:55] [Server thread/INFO]: Closing Server
+¬ß5|¬ßb     __                               
+¬ß5|¬ßb    / /   ____  ____ _____ ____  _____
+¬ß5|¬ßb   / /   / __ \/ __ `/ __ `/ _ \/ ___/
+¬ß5|¬ßb  / /___/ /_/ / /_/ / /_/ /  __/ /    
+¬ß5|¬ßb /_____/\____/\__, /\__, /\___/_/     
+¬ß5|¬ßb             /____//____/     ¬ßc1.8.0.9¬ße [ Bukkit Version ]        
+¬ß5|
+¬ß5|¬ß6 This is a DEV Build, please report any issues!
+¬ß5|
+¬ß5|¬ßf Discord ¬ß9https://discord.gg/MfR5mcpVfX
+¬ß5|
+[20:50:57] [Server thread/INFO]: [Logger] PlaceHolderAPI Plugin Detected!
+[20:50:57] [Server thread/INFO]: [Logger] Geyser & FloodGate Plugins Detected!
+[20:50:57] [Server thread/WARN]: [Logger] Geyser & FloodGate are not fully supported! If any errors occurs, contact the authors.
+[20:50:57] [Server thread/INFO]: [Logger] ¬ß6Thanks to everyone's contributions that helped made this project possible!
+[20:50:57] [Server thread/INFO]: [Logger] Plugin Enabled!
+[20:50:57] [Server thread/INFO]: [ItemCommand] Enabling ItemCommand v1.0.3
+[20:50:57] [Server thread/INFO]: [ItemCommand] Minecraft version: 1201
+[20:50:57] [Server thread/INFO]: [ItemCommand] Found PlaceholderAPI: v2.11.3
+[20:50:57] [Server thread/INFO]: [ItemCommand] Loaded 3 items.
+[20:50:57] [Server thread/INFO]: [GroupManager] Enabling GroupManager v3.1 (Phoenix)
+[20:50:57] [Server thread/INFO]: [GroupManager] OfflinePlayers cached ( 11 ).
+[20:50:57] [Server thread/INFO]: [GroupManager] World Found: world
+[20:50:57] [Server thread/INFO]: [GroupManager] Superperms support enabled.
+[20:50:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: groupmanager [1.0.0]
+[20:50:57] [Server thread/INFO]: [GroupManager] Add-ons: PlaceholderAPI v2.11.3
+[20:50:57] [Server thread/INFO]: [GroupManager] Scheduled Data Saving is set for every 10 minutes!
+[20:50:57] [Server thread/INFO]: [GroupManager] Backups will be retained for 24 hours!
+[20:50:57] [Server thread/INFO]: [GroupManager] DataSource - YAML
+[20:50:57] [Server thread/INFO]: [GroupManager] version 3.1 (Phoenix) is enabled!
+[20:50:57] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[20:50:57] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[20:50:57] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.0.0.
+[20:50:57] [Server thread/INFO]: [Graves] Integration: Hooked into WorldEdit 7.2.15+6463-5ca4dff.
+[20:50:57] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.9-beta1+2249-223b80c.
+[20:50:57] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[20:50:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: graves [4.9]
+[20:50:57] [Server thread/INFO]: [Graves] Integration: Hooked into PlaceholderAPI 2.11.3.
+[20:50:57] [Server thread/INFO]: [GeyserSkinManager] Enabling GeyserSkinManager v1.7
+[20:50:57] [Server thread/WARN]: [GeyserSkinManager] Floodgate found on the server! Disabling skin services and only running mod interactions.
+[20:50:57] [Server thread/INFO]: [GeyserHacks] Enabling GeyserHacks v1.2-SNAPSHOT
+[20:50:57] [Server thread/INFO]: [GeyserHacks] Bamboo collision hack enabled.
+[20:50:57] [Server thread/INFO]: [GeyserHacks] Dripstone collision hack enabled.
+[20:50:57] [Server thread/WARN]: [GeyserHacks] This Minecraft server version does not support the item steerable workaround!
+[20:50:57] [Server thread/INFO]: [GeekPlayerBag] Enabling GeekPlayerBag v1.1-Bate
+[20:50:57] [Server thread/INFO]: 
+[20:50:57] [Server thread/INFO]:        GeekPlayerBag-Plus  v1.0 by www.geekcraft.ink
+[20:50:57] [Server thread/INFO]:        ÈÄÇÁî®‰∫éBukkit: 1.12.2-1.19.2 ÂΩìÂâç:  git-Leaves-"d856b9f" (MC: 1.20.1)
+[20:50:57] [Server thread/INFO]: 
+[20:50:57] [Server thread/INFO]: [GeekPlayerBag] ËèúÂçïÁïåÈù¢Âä†ËΩΩÂÆåÊàê... (ËÄóÊó∂ 10 ms)
+[20:50:57] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3_bag.HikariDataSource] GeekPlayerBag-SQLITE - Starting...
+[20:50:57] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3_bag.HikariDataSource] GeekPlayerBag-SQLITE - Start completed.
+[20:50:57] [Server thread/INFO]: [EliteMobs] Enabling EliteMobs v8.5.3
+[20:50:57] [Server thread/INFO]:  _____ _     _____ _____ ________  ______________  _____
+[20:50:57] [Server thread/INFO]: |  ___| |   |_   _|_   _|  ___|  \/  |  _  | ___ \/  ___|
+[20:50:57] [Server thread/INFO]: | |__ | |     | |   | | | |__ | .  . | | | | |_/ /\ `--.
+[20:50:57] [Server thread/INFO]: |  __|| |     | |   | | |  __|| |\/| | | | | ___ \ `--. \
+[20:50:57] [Server thread/INFO]: | |___| |_____| |_  | | | |___| |  | \ \_/ / |_/ //\__/ /
+[20:50:57] [Server thread/INFO]: \____/\_____/\___/  \_/ \____/\_|  |_/\___/\____/ \____/
+[20:50:57] [Server thread/INFO]: By MagmaGuy - v. 8.5.3
+[20:50:57] [Server thread/ERROR]: [EliteMobs] Server version "v1_20_R1" is unsupported! Please check for updates!
+[20:50:57] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
+[20:50:57] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
+[20:50:57] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
+[20:50:57] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
+[20:50:57] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
+[20:50:57] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
+[20:50:57] [Server thread/WARN]: [EliteMobs] Failed to get valid language from config.yml , defaulting to English!
+[20:50:58] [Server thread/WARN]: [EliteMobs] Script gun1 in file 1gun.yml does not have any actions! You should probably fix this.
+[20:50:58] [Server thread/INFO]: [EliteMobs] WorldGuard compatibility is enabled!
+[20:50:58] [Server thread/INFO]: [EliteMobs] Opened database successfully
+[20:50:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: elitemobs [8.5.3]
+[20:50:59] [Server thread/INFO]: [EliteMobs] World em_north_pole is not yet loaded! Entities that should spawn there have been queued.
+[20:50:59] [Server thread/WARN]: [EliteMobs] File  C:\Users\26973\Desktop\server-latest\.\em_primis_wormhole does not exist!
+[20:51:00] [Server thread/INFO]: [GroupManager] New world detected...
+[20:51:00] [Server thread/INFO]: [GroupManager] Creating data for: em_fireworks
+[20:51:00] [Server thread/INFO]: [GroupManager] Don't forget to configure/mirror this world in config.yml.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_fireworks) TNT ignition is PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_fireworks) Lighters are PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_fireworks) Lava fire is PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_fireworks) Fire spread is UNRESTRICTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_fireworks'
+[20:51:00] [Server thread/INFO]: [GroupManager] New world detected...
+[20:51:00] [Server thread/INFO]: [GroupManager] Creating data for: em_sewer_maze
+[20:51:00] [Server thread/INFO]: [GroupManager] Don't forget to configure/mirror this world in config.yml.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_sewer_maze) TNT ignition is PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_sewer_maze) Lighters are PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_sewer_maze) Lava fire is PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_sewer_maze) Fire spread is UNRESTRICTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_sewer_maze'
+[20:51:00] [Server thread/INFO]: [GroupManager] New world detected...
+[20:51:00] [Server thread/INFO]: [GroupManager] Creating data for: em_shadow_of_the_binder_of_worlds
+[20:51:00] [Server thread/INFO]: [GroupManager] Don't forget to configure/mirror this world in config.yml.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_shadow_of_the_binder_of_worlds) TNT ignition is PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_shadow_of_the_binder_of_worlds) Lighters are PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_shadow_of_the_binder_of_worlds) Lava fire is PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_shadow_of_the_binder_of_worlds) Fire spread is UNRESTRICTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_shadow_of_the_binder_of_worlds'
+[20:51:00] [Server thread/INFO]: [GroupManager] New world detected...
+[20:51:00] [Server thread/INFO]: [GroupManager] Creating data for: em_hallosseum
+[20:51:00] [Server thread/INFO]: [GroupManager] Don't forget to configure/mirror this world in config.yml.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_hallosseum) TNT ignition is PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_hallosseum) Lighters are PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_hallosseum) Lava fire is PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_hallosseum) Fire spread is UNRESTRICTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_hallosseum'
+[20:51:00] [Server thread/INFO]: [GroupManager] New world detected...
+[20:51:00] [Server thread/INFO]: [GroupManager] Creating data for: em_knight_castle
+[20:51:00] [Server thread/INFO]: [GroupManager] Don't forget to configure/mirror this world in config.yml.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_knight_castle) TNT ignition is PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_knight_castle) Lighters are PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_knight_castle) Lava fire is PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_knight_castle) Fire spread is UNRESTRICTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_knight_castle'
+[20:51:00] [Server thread/INFO]: [GroupManager] New world detected...
+[20:51:00] [Server thread/INFO]: [GroupManager] Creating data for: em_steamworks_lair
+[20:51:00] [Server thread/INFO]: [GroupManager] Don't forget to configure/mirror this world in config.yml.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_steamworks_lair) TNT ignition is PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_steamworks_lair) Lighters are PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_steamworks_lair) Lava fire is PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_steamworks_lair) Fire spread is UNRESTRICTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_steamworks_lair'
+[20:51:00] [Server thread/INFO]: [GroupManager] New world detected...
+[20:51:00] [Server thread/INFO]: [GroupManager] Creating data for: em_north_pole
+[20:51:00] [Server thread/INFO]: [GroupManager] Don't forget to configure/mirror this world in config.yml.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_north_pole) TNT ignition is PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_north_pole) Lighters are PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_north_pole) Lava fire is PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_north_pole) Fire spread is UNRESTRICTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_north_pole'
+[20:51:00] [Server thread/INFO]: [EliteMobs] [EliteMobs] World em_adventurers_guild found! Loading it in...
+[20:51:00] [Server thread/INFO]: [GroupManager] New world detected...
+[20:51:00] [Server thread/INFO]: [GroupManager] Creating data for: em_adventurers_guild
+[20:51:00] [Server thread/INFO]: [GroupManager] Don't forget to configure/mirror this world in config.yml.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) TNT ignition is PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) Lighters are PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) Lava fire is PERMITTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] (em_adventurers_guild) Fire spread is UNRESTRICTED.
+[20:51:00] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'em_adventurers_guild'
+[20:51:00] [Server thread/INFO]: [EliteMobs] [EliteMobs] World em_adventurers_guild has been successfully loaded! It can be accessed through the '/ag' command, unless you changed that config option!
+[20:51:00] [Server thread/WARN]: [EliteMobs] Failed to parse entry summon_wolf_lun.yml:1 for file 3.yml due to invalid: filename
+[20:51:00] [Server thread/WARN]: [EliteMobs] Failed to parse entry summon_wolf_lun.yml:1 for file 4.yml due to invalid: filename
+[20:51:01] [Server thread/WARN]: [EliteMobs] Reinforcement mob null is not valid! Filename: null
+[20:51:01] [Server thread/WARN]: [EliteMobs] Could not get filename for reinforcement in file dark_cathedral_tier_75_boss.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Reinforcement mob null is not valid! Filename: null
+[20:51:01] [Server thread/WARN]: [EliteMobs] Could not get filename for reinforcement in file dark_cathedral_tier_75_boss.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Reinforcement mob null is not valid! Filename: null
+[20:51:01] [Server thread/WARN]: [EliteMobs] Could not get filename for reinforcement in file dark_cathedral_tier_75_boss.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null, null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to parse arena message entry [null, null] for arenawood_league.yml
+[20:51:01] [Server thread/WARN]: [EliteMobs] Failed to load EliteMobs Package dark_spire_minidungeon.yml !
+[20:51:01] [Server thread/WARN]: java.lang.NullPointerException: Cannot invoke "org.bukkit.World.getName()" because "this.world" is null
+[20:51:01] [Server thread/WARN]: 	at EliteMobs.jar//com.magmaguy.elitemobs.dungeons.WorldDungeonPackage.getChests(WorldDungeonPackage.java:84)
+[20:51:01] [Server thread/WARN]: 	at EliteMobs.jar//com.magmaguy.elitemobs.dungeons.WorldDungeonPackage.initializeContent(WorldDungeonPackage.java:52)
+[20:51:01] [Server thread/WARN]: 	at EliteMobs.jar//com.magmaguy.elitemobs.EliteMobs.onEnable(EliteMobs.java:268)
+[20:51:01] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+[20:51:01] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+[20:51:01] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+[20:51:01] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+[20:51:01] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:643)
+[20:51:01] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:554)
+[20:51:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:639)
+[20:51:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:436)
+[20:51:01] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:311)
+[20:51:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:1105)
+[20:51:01] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319)
+[20:51:01] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1623)
+[20:51:02] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:51:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:51:02] [Server thread/INFO]: [Geyser-Spigot] 
+[20:51:02] [Server thread/INFO]: [Geyser-Spigot] Âä†ËΩΩ Geyser ‰∏≠, ÁâàÊú¨ 2.1.2-SNAPSHOT (git-master-3a0c1b7)
+[20:51:02] [Server thread/INFO]: [Geyser-Spigot] 
+[20:51:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:51:02] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] GeyserÊ≠£Âú®ÂêØÂä® 0.0.0.0:19132
+[20:51:02] [Server thread/INFO]: [Geyser-Spigot] [PickPack] Loaded 2 opt-out packs!
+[20:51:02] [Server thread/INFO]: [Geyser-Spigot] [PickPack] Loaded 3 opt-in packs!
+[20:51:02] [Server thread/INFO]: [Geyser-Spigot] [PickPack] PickPack extension loaded!
+[20:51:02] [Server thread/INFO]: [Geyser-Spigot] ÂÆåÊàê (0.307s)! ÊâßË°å/geyser help Êù•Ëé∑ÂèñÂ∏ÆÂä©‰ø°ÊÅØ!
+[20:51:02] [Server thread/INFO]: Running delayed init tasks
+[20:51:02] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[20:51:02] [Server thread/INFO]: ‰∏ãÊ∞¥ÈÅìÈáåÂõûËç°ÁùÄ‰∏Ä‰ΩçÂΩíÊù•ÁöÑÂõΩÁéãÁöÑÂè´Â£∞..„ÄÇ
+[20:51:02] [Server thread/INFO]: ‰∏Ä‰∏™ÈªëÊöóÊïôÂæíÊ≠£Âú®Âè¨Âî§ÂÖãËãèÈ≤ÅÔºÅ
+[20:51:02] [Server thread/INFO]: ÁÅ´Ëä±Êº´Â§©È£ûËàûÔºÅ
+[20:51:02] [Server thread/INFO]: Â∞èÂøÉÊéâÂ§¥ÔºåÊó†Â§¥È™ëÂ£´Â§çÊ¥ª‰∫ÜÔºÅ
+[20:51:02] [Server thread/INFO]: Âú£ËØûËÄÅ‰∫∫Ê≠£Âú®Á≠πÂàíÂú£ËØûËäÇÔºÅÔºÅ
+[20:51:02] [Server thread/INFO]: The shadow of binder of worlds approaches!
+[20:51:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: Animations [1.0.5]
+[20:51:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.4]
+[20:51:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: progress [2.1]
+[20:51:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.6.2]
+[20:51:02] [Server thread/INFO]: 4 placeholder hook(s) registered! 1 placeholder hook(s) have an update available.
+[20:51:02] [Server thread/INFO]: [Magic] Vault not found, 'currency' cost types unavailable
+[20:51:02] [Server thread/INFO]: [Magic] AureliumSkills found, will integrate for skill/stat attributes,xp currencies
+[20:51:02] [Server thread/INFO]: [Magic]   If you want Magic spells to use AureliumSkills mana, use &7/mconfig configure config aurelium_skills.use_mana true
+[20:51:02] [Server thread/INFO]: [Magic] Registered AureliumSkills XP as currencies: FARMING,FORAGING,MINING,FISHING,EXCAVATION,ARCHERY,DEFENSE,FIGHTING,ENDURANCE,AGILITY,ALCHEMY,ENCHANTING,SORCERY,HEALING,FORGING
+[20:51:02] [Server thread/INFO]: [Magic] Registered currencies: AGILITY,EXCAVATION,DEFENSE,item,ARCHERY,FORGING,ENDURANCE,SORCERY,health,FARMING,HEALING,FIGHTING,hunger,FORAGING,FISHING,mana,ALCHEMY,xp,currency,ENCHANTING,sp,levels,MINING
+[20:51:03] [Server thread/INFO]: [Magic] Loaded 555 spells
+[20:51:03] [Server thread/INFO]: [Magic] Loaded 12 progression paths
+[20:51:03] [Server thread/INFO]: [Magic] Loaded 16 crafting recipes
+[20:51:03] [Server thread/INFO]: [Magic] LogBlock not found
+[20:51:03] [Server thread/INFO]: [Magic] Factions not found
+[20:51:03] [Server thread/INFO]: [Magic] WorldGuard found, will respect build permissions for construction spells
+[20:51:03] [Server thread/INFO]: [Magic] Multiverse-Core found, will respect PVP settings
+[20:51:03] [Server thread/INFO]: [Magic] Towny not found, region protection and pvp checks will not be used.
+[20:51:03] [Server thread/INFO]: [Magic] Lockette nor LockettePro found, will not integrate.
+[20:51:03] [Server thread/INFO]: [Magic] GriefPrevention not found, claim protection will not be used.
+[20:51:03] [Server thread/INFO]: [Magic] NoCheatPlus not found, will not integrate.
+[20:51:03] [Server thread/INFO]: [Magic] dynmap not found, not integrating.
+[20:51:03] [Server thread/INFO]: [Magic] Citizens not found, Magic trait unavailable.
+[20:51:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: magic [10.8.9-845a296]
+[20:51:03] [Server thread/INFO]: [Magic] PlaceholderAPI integration enabled. Available placeholders:
+[20:51:03] [Server thread/INFO]: [Magic] magic_path, magic_class, magic_wand, magic_spell, magic_mana, magic_mana_max, magic_sp, magic_spell_count
+[20:51:03] [Server thread/INFO]: [Magic] All magic attributes also available with a magic_ prefix
+[20:51:03] [Server thread/INFO]: [Magic] Add to messages/placeholders to add custom placeholders
+[20:51:03] [Server thread/INFO]: [Magic] LightAPI not found, Light action will not work
+[20:51:03] [Server thread/INFO]: [Magic] Loaded 0 arenas
+[20:51:03] [Server thread/INFO]: [Magic] Registered additional attributes: [WISDOM, AGILITY, EXCAVATION, DEFENSE, ARCHERY, FORGING, ENDURANCE, REGENERATION, SORCERY, STRENGTH, FARMING, HEALING, FIGHTING, LUCK, FORAGING, FISHING, TOUGHNESS, ALCHEMY, HEALTH, ENCHANTING, MINING]
+[20:51:03] [Server thread/INFO]: [Magic] Finished loading configuration
+[20:51:03] [Server thread/INFO]: [GroupManager] Bukkit Permissions Updated!
+[20:51:03] [Server thread/INFO]: Done (28.636s)! For help, type "help"
+[20:51:03] [Server thread/INFO]: Timings Reset
+[20:51:03] [Server thread/INFO]: [Magic] Finished loading data.
+[20:51:03] [Craft Scheduler Thread - 24 - GroupManager/INFO]: [GroupManager] No new version available
+[20:51:03] [Craft Scheduler Thread - 38 - EliteMobs/INFO]: [EliteMobs] Latest public release is 8.5.4
+[20:51:03] [Craft Scheduler Thread - 38 - EliteMobs/INFO]: [EliteMobs] Your version is 8.5.3
+[20:51:03] [Craft Scheduler Thread - 38 - EliteMobs/WARN]: [EliteMobs] [EliteMobs] A newer version of this plugin is available for download!
+[20:53:19] [User Authenticator #0/INFO]: [GroupManager] Async Player Login event refresh data... 
+[20:53:19] [User Authenticator #0/INFO]: [GroupManager] Async Player Login event finshed. 
+[20:53:19] [User Authenticator #0/INFO]: UUID of player wqe123420 is 48835002-b378-4798-b2e4-aa5890f9b262
+[20:53:19] [Server thread/INFO]: wqe123420 joined the game
+[20:53:19] [Server thread/INFO]: wqe123420[/26.44.153.100:65140] logged in with entity id 295 at ([world]-43.641914487962964, 68.0, -281.18895606546835)
+[20:53:20] [Craft Scheduler Thread - 8 - EliteMobs/INFO]: [EliteMobs] User 48835002-b378-4798-b2e4-aa5890f9b262 data successfully read!
+[20:53:22] [Server thread/INFO]: [Leaves] Player wqe123420 joined with carpet 1.4.101+v230319
+[20:54:17] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /192.168.3.6:56947 Â∞ùËØïËøûÊé•!
+[20:54:18] [nioEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Áé©ÂÆ∂‰ª• Funget11451 ÁöÑÁî®Êà∑ÂêçÂª∫Á´ã‰∫ÜËøûÊé•
+[20:54:18] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] Funget11451 (ÁôªÂΩï‰∏∫: Funget11451) Â∑≤ËøûÊé•Âà∞ Java ÊúçÂä°Âô®
+[20:54:18] [Geyser Spigot connection thread-5-3/INFO]: [GroupManager] Async Player Login event refresh data... 
+[20:54:18] [Geyser Spigot connection thread-5-3/INFO]: [GroupManager] Async Player Login event finshed. 
+[20:54:19] [Geyser Spigot connection thread-5-3/INFO]: UUID of player Funget114514 is c044cd4d-b2f0-493d-9457-42ab7216df39
+[20:54:19] [Server thread/INFO]: [floodgate] Floodgate Áé©ÂÆ∂ Funget114514 Âä†ÂÖ•‰∫Ü (UUID: c044cd4d-b2f0-493d-9457-42ab7216df39)
+[20:54:19] [Server thread/INFO]: Funget114514 joined the game
+[20:54:19] [Server thread/INFO]: Funget114514[/192.168.3.6:0] logged in with entity id 859 at ([world]-25.80462210061205, 63.0, -286.41036268081604)
+[20:54:20] [Craft Scheduler Thread - 1 - EliteMobs/INFO]: [EliteMobs] User c044cd4d-b2f0-493d-9457-42ab7216df39 data successfully read!
+[20:54:25] [Async Chat Thread - #1/INFO]: <wqe123420> COME
+[20:54:41] [Async Chat Thread - #1/INFO]: <wqe123420> COME
+[20:54:43] [Async Chat Thread - #1/INFO]: <wqe123420> TP
+[20:54:47] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] Funget11451 Âõ†‰∏∫ Âü∫Â≤©ÁâàÂÆ¢Êà∑Á´ØÂ∑≤Êñ≠ÂºÄËøûÊé• ‰∏é Java ÁâàÊúçÂä°Âô® Êñ≠ÂºÄ‰∫ÜËøûÊé•
+[20:54:47] [Geyser Spigot connection thread-5-3/INFO]: [floodgate] Floodgate Áé©ÂÆ∂ Funget114514 Â∑≤Êñ≠ÂºÄËøûÊé•
+[20:54:47] [Server thread/INFO]: Funget114514 lost connection: Disconnected
+[20:54:47] [Server thread/INFO]: Funget114514 left the game
+[20:55:25] [Server thread/INFO]: wqe123420 lost connection: Disconnected
+[20:55:25] [Server thread/INFO]: wqe123420 left the game
+[20:57:17] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.0.0.1:49954 Â∞ùËØïËøûÊé•!
+[20:57:17] [nioEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Áé©ÂÆ∂‰ª• FavoriteBread57 ÁöÑÁî®Êà∑ÂêçÂª∫Á´ã‰∫ÜËøûÊé•
+[20:57:17] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] FavoriteBread57 (ÁôªÂΩï‰∏∫: FavoriteBread57) Â∑≤ËøûÊé•Âà∞ Java ÊúçÂä°Âô®
+[20:57:17] [Geyser Spigot connection thread-5-4/INFO]: [GroupManager] Async Player Login event refresh data... 
+[20:57:17] [Geyser Spigot connection thread-5-4/INFO]: [GroupManager] Async Player Login event finshed. 
+[20:57:18] [Geyser Spigot connection thread-5-4/INFO]: UUID of player Enderlava is 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+[20:57:18] [Server thread/INFO]: [floodgate] Floodgate Áé©ÂÆ∂ Enderlava Âä†ÂÖ•‰∫Ü (UUID: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba)
+[20:57:18] [Server thread/INFO]: Enderlava joined the game
+[20:57:18] [Server thread/INFO]: Enderlava[/127.0.0.1:0] logged in with entity id 1378 at ([world]-10.487761, 63.0000001, -286.024)
+[20:57:19] [Craft Scheduler Thread - 7 - EliteMobs/INFO]: [EliteMobs] User 07031eee-c0d3-4ed4-8fa9-6f8ea128abba data successfully read!
+[20:57:31] [Server thread/INFO]: Enderlava issued server command: /geyser tooltips
+[20:57:41] [Server thread/INFO]: Enderlava issued server command: /geyser tooltips
+[20:57:47] [Server thread/INFO]: Enderlava issued server command: /geyser offhand
+[20:57:50] [Server thread/INFO]: Enderlava issued server command: /geyser offhand
+[20:57:54] [Server thread/INFO]: Enderlava issued server command: /pickpack menu
+[20:58:02] [Server thread/INFO]: [EliteMobs] Event charms_goblin.yml has been queued!
+[20:58:02] [Server thread/INFO]: Êä§Á¨¶Âì•Â∏ÉÊûóÂá∫Áé∞‰∫ÜÔºÅ
+[20:58:03] [Server thread/INFO]: Enderlava issued server command: /geyser advancements
+[20:58:30] [Server thread/INFO]: Enderlava issued server command: /geyser statistics
+[21:02:24] [Server thread/INFO]: Gave 12 [Sand] to Enderlava
+[21:04:02] [Server thread/INFO]: [EliteMobs] Event mutated_cod_event.yml has been queued!
+[21:05:17] [defaultEventLoopGroup-6-3/INFO]: [Geyser-Spigot] FavoriteBread57 Âõ†‰∏∫ Âü∫Â≤©ÁâàÂÆ¢Êà∑Á´ØÂ∑≤Êñ≠ÂºÄËøûÊé• ‰∏é Java ÁâàÊúçÂä°Âô® Êñ≠ÂºÄ‰∫ÜËøûÊé•
+[21:05:17] [Geyser Spigot connection thread-5-4/INFO]: [floodgate] Floodgate Áé©ÂÆ∂ Enderlava Â∑≤Êñ≠ÂºÄËøûÊé•
+[21:05:17] [Server thread/INFO]: Enderlava lost connection: Disconnected
+[21:05:17] [Server thread/INFO]: Enderlava left the game
+[21:06:02] [Craft Scheduler Thread - 43 - EliteMobs/INFO]: [EliteMobs] Event mutated_cod_event.yml ended!
+[21:07:30] [User Authenticator #1/INFO]: [GroupManager] Async Player Login event refresh data... 
+[21:07:30] [User Authenticator #1/INFO]: [GroupManager] Async Player Login event finshed. 
+[21:07:30] [User Authenticator #1/INFO]: UUID of player wqe123420 is 48835002-b378-4798-b2e4-aa5890f9b262
+[21:07:30] [Server thread/INFO]: wqe123420 joined the game
+[21:07:30] [Server thread/INFO]: wqe123420[/26.44.153.100:49845] logged in with entity id 26383 at ([world]-43.60925383910448, 68.0, -281.19406774356264)
+[21:07:31] [Craft Scheduler Thread - 1 - EliteMobs/INFO]: [EliteMobs] User 48835002-b378-4798-b2e4-aa5890f9b262 data successfully read!
+[21:07:32] [Server thread/INFO]: [Leaves] Player wqe123420 joined with carpet 1.4.101+v230319
+[21:10:38] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.0.0.1:59504 Â∞ùËØïËøûÊé•!
+[21:10:39] [nioEventLoopGroup-3-4/INFO]: [Geyser-Spigot] Áé©ÂÆ∂‰ª• FavoriteBread57 ÁöÑÁî®Êà∑ÂêçÂª∫Á´ã‰∫ÜËøûÊé•
+[21:10:39] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] FavoriteBread57 (ÁôªÂΩï‰∏∫: FavoriteBread57) Â∑≤ËøûÊé•Âà∞ Java ÊúçÂä°Âô®
+[21:10:39] [Geyser Spigot connection thread-5-1/INFO]: [GroupManager] Async Player Login event refresh data... 
+[21:10:39] [Geyser Spigot connection thread-5-1/INFO]: [GroupManager] Async Player Login event finshed. 
+[21:10:40] [Geyser Spigot connection thread-5-1/INFO]: UUID of player Enderlava is 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+[21:10:40] [Server thread/INFO]: [floodgate] Floodgate Áé©ÂÆ∂ Enderlava Âä†ÂÖ•‰∫Ü (UUID: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba)
+[21:10:40] [Server thread/INFO]: Enderlava joined the game
+[21:10:40] [Server thread/INFO]: Enderlava[/127.0.0.1:0] logged in with entity id 44342 at ([world]-120.325485, 63.0, -110.76272)
+[21:10:41] [Craft Scheduler Thread - 3 - EliteMobs/INFO]: [EliteMobs] User 07031eee-c0d3-4ed4-8fa9-6f8ea128abba data successfully read!
+[21:10:50] [Async Chat Thread - #2/INFO]: <wqe123420> HI
+[21:10:54] [Async Chat Thread - #2/INFO]: <Enderlava> hi
+[21:11:47] [Async Chat Thread - #2/INFO]: <Enderlava> Âü∫Â≤©ÁâàÁé∞Âú®ËÉΩÁúãËøõÂ∫¶ÂíåÁªüËÆ°‰ø°ÊÅØ‰∫Ü
+[21:11:52] [Async Chat Thread - #2/INFO]: <Enderlava> hhh
+[21:11:56] [Async Chat Thread - #3/INFO]: <wqe123420> OK
+[21:12:25] [Async Chat Thread - #3/INFO]: <Enderlava> Ëøô‰∏™Âà∑Ê≤ôÊú∫10Áßí1ÁªÑ
+[21:12:26] [Async Chat Thread - #2/INFO]: <Enderlava> woc
+[21:12:34] [Async Chat Thread - #3/INFO]: <wqe123420> ÊàëÈó®ÁßçÂ≠êÁ†ÅÂ§öÂ∞ë
+[21:12:41] [Server thread/INFO]: Enderlava issued server command: /seed
+[21:12:45] [Async Chat Thread - #2/INFO]: <Enderlava> ./seed
+[21:12:51] [Async Chat Thread - #2/INFO]: <wqe123420> ‰∏çË°å
+[21:13:02] [Async Chat Thread - #3/INFO]: <Enderlava> ?
+[21:13:04] [Server thread/INFO]: Enderlava issued server command: /seed
+[21:13:08] [Async Chat Thread - #2/INFO]: <Enderlava> Ëçâ
+[21:13:15] [Async Chat Thread - #3/INFO]: <Enderlava> Âì™Êàë‰πü‰∏çÁü•ÈÅì‰∫Ü
+[21:13:57] [Server thread/INFO]: wqe123420 issued server command: /seed
+[21:14:13] [defaultEventLoopGroup-6-4/INFO]: [Geyser-Spigot] FavoriteBread57 Âõ†‰∏∫ Âü∫Â≤©ÁâàÂÆ¢Êà∑Á´ØÂ∑≤Êñ≠ÂºÄËøûÊé• ‰∏é Java ÁâàÊúçÂä°Âô® Êñ≠ÂºÄ‰∫ÜËøûÊé•
+[21:14:13] [Geyser Spigot connection thread-5-1/INFO]: [floodgate] Floodgate Áé©ÂÆ∂ Enderlava Â∑≤Êñ≠ÂºÄËøûÊé•
+[21:14:13] [Server thread/INFO]: Enderlava lost connection: Internal Exception: java.nio.channels.ClosedChannelException
+[21:14:13] [Server thread/INFO]: Enderlava left the game
+[21:14:53] [Server thread/INFO]: wqe123420 lost connection: Disconnected
+[21:14:53] [Server thread/INFO]: wqe123420 left the game
+[21:16:01] [Server thread/INFO]: Saving the game (this may take a moment!)
+[21:16:01] [Server thread/INFO]: Saved the game
+[21:21:59] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /192.168.3.6:63684 Â∞ùËØïËøûÊé•!
+[21:22:11] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Âü∫Â≤©ÁâàIP‰∏∫: /192.168.3.6 ÁöÑÁé©ÂÆ∂Âõ† Âü∫Â≤©ÁâàÂÆ¢Êà∑Á´ØÂ∑≤Êñ≠ÂºÄËøûÊé• Êñ≠ÂºÄËøûÊé•
+[21:22:21] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /192.168.3.6:63684 Â∞ùËØïËøûÊé•!
+[21:22:22] [nioEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Áé©ÂÆ∂‰ª• Funget11451 ÁöÑÁî®Êà∑ÂêçÂª∫Á´ã‰∫ÜËøûÊé•
+[21:22:22] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] Funget11451 (ÁôªÂΩï‰∏∫: Funget11451) Â∑≤ËøûÊé•Âà∞ Java ÊúçÂä°Âô®
+[21:22:22] [Geyser Spigot connection thread-5-2/INFO]: [GroupManager] Async Player Login event refresh data... 
+[21:22:22] [Geyser Spigot connection thread-5-2/INFO]: [GroupManager] Async Player Login event finshed. 
+[21:22:23] [Geyser Spigot connection thread-5-2/INFO]: UUID of player Funget114514 is c044cd4d-b2f0-493d-9457-42ab7216df39
+[21:22:23] [Server thread/INFO]: [floodgate] Floodgate Áé©ÂÆ∂ Funget114514 Âä†ÂÖ•‰∫Ü (UUID: c044cd4d-b2f0-493d-9457-42ab7216df39)
+[21:22:23] [Server thread/INFO]: Funget114514 joined the game
+[21:22:23] [Server thread/INFO]: Funget114514[/192.168.3.6:0] logged in with entity id 107250 at ([world]-25.804623, 63.0, -286.41037)
+[21:22:24] [Craft Scheduler Thread - 49 - EliteMobs/INFO]: [EliteMobs] User c044cd4d-b2f0-493d-9457-42ab7216df39 data successfully read!
+[21:23:21] [Server thread/INFO]: Funget114514 issued server command: /pickpack menu
+[21:23:31] [Server thread/INFO]: Funget114514 issued server command: /geyser advancements
+[21:23:43] [Server thread/INFO]: Funget114514 issued server command: /geyser statistics
+[21:23:54] [Server thread/INFO]: Funget114514 issued server command: /geyser tooltips
+[21:24:13] [Server thread/INFO]: Funget114514 issued server command: /geyser tooltips
+[21:24:20] [Server thread/INFO]: Funget114514 issued server command: /geyser offhand
+[21:24:28] [Server thread/INFO]: Funget114514 issued server command: /geyser offhand
+[21:24:53] [Geyser Spigot connection thread-5-2/INFO]: [floodgate] Floodgate Áé©ÂÆ∂ Funget114514 Â∑≤Êñ≠ÂºÄËøûÊé•
+[21:24:53] [defaultEventLoopGroup-6-1/INFO]: [Geyser-Spigot] Funget11451 Âõ†‰∏∫ Âü∫Â≤©ÁâàÂÆ¢Êà∑Á´ØÂ∑≤Êñ≠ÂºÄËøûÊé• ‰∏é Java ÁâàÊúçÂä°Âô® Êñ≠ÂºÄ‰∫ÜËøûÊé•
+[21:24:53] [Server thread/INFO]: Funget114514 lost connection: Disconnected
+[21:24:53] [Server thread/INFO]: Funget114514 left the game
+[21:27:29] [Server thread/INFO]: [EliteMobs] Event charms_goblin.yml ended!
+[21:35:00] [Server thread/INFO]: Saving the game (this may take a moment!)
+[21:35:00] [Server thread/INFO]: Saved the game
+[21:35:16] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /192.168.3.55:52090 Â∞ùËØïËøûÊé•!
+[21:35:17] [nioEventLoopGroup-3-3/INFO]: [Geyser-Spigot] Áé©ÂÆ∂‰ª• FavoriteBread57 ÁöÑÁî®Êà∑ÂêçÂª∫Á´ã‰∫ÜËøûÊé•
+[21:35:17] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] FavoriteBread57 (ÁôªÂΩï‰∏∫: FavoriteBread57) Â∑≤ËøûÊé•Âà∞ Java ÊúçÂä°Âô®
+[21:35:17] [Geyser Spigot connection thread-5-3/INFO]: [GroupManager] Async Player Login event refresh data... 
+[21:35:17] [Geyser Spigot connection thread-5-3/INFO]: [GroupManager] Async Player Login event finshed. 
+[21:35:17] [Geyser Spigot connection thread-5-3/INFO]: UUID of player Enderlava is 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+[21:35:17] [Server thread/INFO]: [floodgate] Floodgate Áé©ÂÆ∂ Enderlava Âä†ÂÖ•‰∫Ü (UUID: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba)
+[21:35:17] [Server thread/INFO]: Enderlava joined the game
+[21:35:17] [Server thread/INFO]: Enderlava[/192.168.3.55:0] logged in with entity id 170809 at ([world]-131.8922228305194, 64.1081025448263, -100.58413520938069)
+[21:35:18] [Craft Scheduler Thread - 49 - EliteMobs/INFO]: [EliteMobs] User 07031eee-c0d3-4ed4-8fa9-6f8ea128abba data successfully read!
+[21:35:33] [Server thread/INFO]: Enderlava issued server command: /dc
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:35:39] [Server thread/WARN]: Enderlava moved too quickly! 101.56168,8.0,-181.04059999999998
+[21:36:02] [Server thread/INFO]: [EliteMobs] Event beast_master.yml has been queued!
+[21:36:02] [Server thread/INFO]: Enderlava issued server command: /cd
+[21:36:02] [Server thread/INFO]: ÈáéÂÖΩÈ©ØÊúçËÄÖÂá∫Áé∞‰∫ÜÔºÅ
+[21:36:41] [Server thread/INFO]: Enderlava issued server command: /cd
+[21:36:59] [Geyser Spigot connection thread-5-3/INFO]: [floodgate] Floodgate Áé©ÂÆ∂ Enderlava Â∑≤Êñ≠ÂºÄËøûÊé•
+[21:36:59] [defaultEventLoopGroup-6-2/INFO]: [Geyser-Spigot] FavoriteBread57 Âõ†‰∏∫ Âü∫Â≤©ÁâàÂÆ¢Êà∑Á´ØÂ∑≤Êñ≠ÂºÄËøûÊé• ‰∏é Java ÁâàÊúçÂä°Âô® Êñ≠ÂºÄ‰∫ÜËøûÊé•
+[21:36:59] [Server thread/INFO]: Enderlava lost connection: Disconnected
+[21:36:59] [Server thread/INFO]: Enderlava left the game
+[21:37:11] [Server thread/INFO]: Saving the game (this may take a moment!)
+[21:37:11] [Server thread/INFO]: Saved the game
+[21:37:13] [Server thread/INFO]: [Magic] Server is shutting down, closing all wand inventories
+[21:37:13] [Server thread/INFO]: Stopping the server
+[21:37:13] [Server thread/INFO]: Stopping server
+[21:37:13] [Server thread/INFO]: [EliteMobs] Disabling EliteMobs v8.5.3
+[21:37:13] [Server thread/INFO]: [EliteMobs] Starting EliteMobs shutdown sequence...
+[21:37:13] [Server thread/INFO]: [EliteMobs] Regenerating exploded blocks...
+[21:37:13] [Server thread/INFO]: [EliteMobs] Cancelling tasks...
+[21:37:13] [Server thread/INFO]: [EliteMobs] Closing wormholes...
+[21:37:13] [Server thread/INFO]: [EliteMobs] Spinning Regional Bosses down...
+[21:37:13] [Server thread/INFO]: [EliteMobs] Wiping Elite entities clean...
+[21:37:13] [Server thread/INFO]: [EliteMobs] Clearing events...
+[21:37:13] [Server thread/INFO]: [EliteMobs] Clearing valid worlds...
+[21:37:13] [Server thread/INFO]: [EliteMobs] Clearing zone based worlds...
+[21:37:13] [Server thread/INFO]: [EliteMobs] Clearing config regional elites...
+[21:37:13] [Server thread/INFO]: [EliteMobs] Clearing custom enchantments...
+[21:37:13] [Server thread/INFO]: [EliteMobs] Clearing custom items...
+[21:37:13] [Server thread/INFO]: [EliteMobs] Clearing Minidungeons...
+[21:37:13] [Server thread/INFO]: [EliteMobs] Unregistering placeholders...
+[21:37:13] [Server thread/INFO]: [EliteMobs] Unregistering handlers...
+[21:37:13] [Server thread/INFO]: [EliteMobs] Clearing Treasure Chests...
+[21:37:13] [Server thread/INFO]: [EliteMobs] Untracking quests...
+[21:37:13] [Server thread/INFO]: [EliteMobs] Saving EliteMobs databases...
+[21:37:13] [Server thread/INFO]: [EliteMobs] All done! Good night.
+[21:37:13] [Server thread/INFO]: [GeekPlayerBag] Disabling GeekPlayerBag v1.1-Bate
+[21:37:13] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3_bag.HikariDataSource] GeekPlayerBag-SQLITE - Shutdown initiated...
+[21:37:13] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3_bag.HikariDataSource] GeekPlayerBag-SQLITE - Shutdown completed.
+[21:37:13] [Server thread/INFO]: [GeyserHacks] Disabling GeyserHacks v1.2-SNAPSHOT
+[21:37:13] [Server thread/INFO]: [GeyserSkinManager] Disabling GeyserSkinManager v1.7
+[21:37:13] [Server thread/INFO]: [Graves] Disabling Graves v4.9
+[21:37:13] [Server thread/INFO]: [GroupManager] Disabling GroupManager v3.1 (Phoenix)
+[21:37:13] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:37:13] [Server thread/WARN]: [GroupManager] Scheduled Data Saving is Disabled!
+[21:37:13] [Server thread/INFO]: [GroupManager] version 3.1 (Phoenix) is disabled!
+[21:37:13] [Server thread/INFO]: [ItemCommand] Disabling ItemCommand v1.0.3
+[21:37:13] [Server thread/INFO]: [Logger] Disabling Logger v1.8.0.9
+[21:37:13] [Server thread/INFO]: [Logger] Plugin Disabled!
+[21:37:13] [Server thread/INFO]: [Magic] Disabling Magic v10.8.9-845a296
+[21:37:13] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion magic
+[21:37:13] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin Magic was disabled.
+[21:37:13] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.3.1
+[21:37:13] [Server thread/INFO]: [RandomControl] Disabling RandomControl v1.1.0
+[21:37:13] [Server thread/INFO]: [SuperRandomCommand] Disabling SuperRandomCommand v1.6
+[21:37:13] [Server thread/INFO]: [SuperRandomCommand] Âç∏ËΩΩÊàêÂäü
+[21:37:13] [Server thread/INFO]: [Tpj] Disabling Tpj v1.0
+[21:37:13] [Server thread/INFO]: [TrMenu] Disabling TrMenu v3.1.22
+[21:37:13] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3.HikariDataSource] HikariPool-1 - Shutdown initiated...
+[21:37:13] [Server thread/INFO]: [com.zaxxer.hikari_4_0_3.HikariDataSource] HikariPool-1 - Shutdown completed.
+[21:37:13] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v2.0.3
+[21:37:13] [Server thread/INFO]: [ViaRewind-Legacy-Support] Disabling ViaRewind-Legacy-Support v1.4.2
+[21:37:13] [Server thread/INFO]: [LaggRemover] Disabling LaggRemover v2.0.6
+[21:37:13] [Server thread/INFO]: [LaggRemover] LaggRemover has been disabled!
+[21:37:13] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.2-SNAPSHOT
+[21:37:13] [Server thread/INFO]: [Geyser-Spigot] GeyserÂÖ≥Èó≠‰∏≠
+[21:37:13] [Server thread/INFO]: [Geyser-Spigot] Â∑≤Á¶ÅÁî® MagicMenu Êèí‰ª∂
+[21:37:13] [Server thread/INFO]: [Geyser-Spigot] Â∑≤Á¶ÅÁî® PickPack Êèí‰ª∂
+[21:37:13] [Server thread/INFO]: [Geyser-Spigot] GeyserÊàêÂäüÂÖ≥Èó≠.
+[21:37:13] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.9
+[21:37:13] [Server thread/INFO]: [AureliumSkills] Disabling AureliumSkills vBeta 1.3.21
+[21:37:13] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.7.0
+[21:37:13] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b59-2278589)
+[21:37:13] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.64
+[21:37:13] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[21:37:13] [Server thread/INFO]: [LuckPerms] Closing storage...
+[21:37:13] [Server thread/INFO]: [LuckPerms] Goodbye!
+[21:37:13] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
+[21:37:13] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9-beta1+2249-223b80c
+[21:37:13] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[21:37:13] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0
+[21:37:13] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.15+6463-5ca4dff
+[21:37:13] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:37:13] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.7.0
+[21:37:13] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[21:37:13] [Server thread/INFO]: Saving players
+[21:37:14] [Server thread/INFO]: Saving worlds
+[21:37:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saved 15 block chunks, 134 entity chunks, 4 poi chunks in world 'world' in 0.05s
+[21:37:14] [WebSocketConnectReadThread-194/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[21:37:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:37:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saved 35 block chunks, 168 entity chunks, 0 poi chunks in world 'world_nether' in 0.06s
+[21:37:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:37:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saved 8 block chunks, 8 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[21:37:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:37:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_fireworks]'/minecraft:em_fireworks
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_fireworks'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_fireworks'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_fireworks'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_fireworks' in 0.00s
+[21:37:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_fireworks): All chunks are saved
+[21:37:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_sewer_maze]'/minecraft:em_sewer_maze
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_sewer_maze'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_sewer_maze'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_sewer_maze'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_sewer_maze' in 0.00s
+[21:37:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_sewer_maze): All chunks are saved
+[21:37:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_shadow_of_the_binder_of_worlds]'/minecraft:em_shadow_of_the_binder_of_worlds
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_shadow_of_the_binder_of_worlds'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_shadow_of_the_binder_of_worlds'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_shadow_of_the_binder_of_worlds'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_shadow_of_the_binder_of_worlds' in 0.00s
+[21:37:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:37:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_hallosseum]'/minecraft:em_hallosseum
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_hallosseum'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_hallosseum'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_hallosseum'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_hallosseum' in 0.00s
+[21:37:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:37:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_knight_castle]'/minecraft:em_knight_castle
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_knight_castle'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_knight_castle'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_knight_castle'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_knight_castle' in 0.00s
+[21:37:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_knight_castle): All chunks are saved
+[21:37:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_steamworks_lair]'/minecraft:em_steamworks_lair
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_steamworks_lair'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_steamworks_lair'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_steamworks_lair'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_steamworks_lair' in 0.00s
+[21:37:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_steamworks_lair): All chunks are saved
+[21:37:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_north_pole]'/minecraft:em_north_pole
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_north_pole'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_north_pole'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_north_pole'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_north_pole' in 0.00s
+[21:37:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_north_pole): All chunks are saved
+[21:37:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[em_adventurers_guild]'/minecraft:em_adventurers_guild
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'em_adventurers_guild'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'em_adventurers_guild'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'em_adventurers_guild'
+[21:37:14] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'em_adventurers_guild' in 0.00s
+[21:37:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (em_adventurers_guild): All chunks are saved
+[21:37:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:37:14] [Server thread/INFO]: Flushing Chunk IO
+[21:37:14] [Server thread/INFO]: Closing Thread Pool
+[21:37:14] [Server thread/INFO]: Closing Server

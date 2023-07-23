@@ -2,13 +2,36 @@
 
 settings:
   performance:
+    use-optimized-collection: true
+    optimized-CubePointRange: true
+    optimize-sun-burn-tick: true
+    skip-entity-move-if-movement-is-zero: true
+    check-frozen-ticks-before-landing-block: true
+    use-fast-item-merge-raytracing: true
+    cache-CubeVoxelShape-shape-array: true
+    skip-negligible-planar-movement-multiplication: true
+    dont-trigger-lootable-refresh-for-non-player: true
+    skip-unnecessary-mob-spawning-computations: true
+    skip-secondary-POI-sensor-if-absent: true
+    optimize-noise-generation: false
+    cache-BlockStatePairKey-hash: true
+    optimize-world-generation-and-block-access: true
+    cache-world-generator-sea-level: true
+    faster-chunk-serialization: true
+    cache-ominous-banner-item: true
+    store-mob-counts-in-array: true
+    skip-cloning-advancement-criteria: false
+    cache-ignite-odds: true
+    optimized-dragon-respawn: false
     async-entity-tracker: false
     async-pathfinding: false
     inactive-goal-selector-disable: false
     fix:
+      fix-paper-9372: true
       fix-paper-6045: true
     optimize-chunk-ticking: true
     remove:
+      damage-lambda: true
       get-nearby-players-streams: true
       range-check-streams-and-iterators: true
       tick-guard-lambda: true
@@ -29,8 +52,11 @@ settings:
     check-spooky-season-once-an-hour: false
     reduce-chuck-load-and-lookup: true
     entity-target-find-optimization: true
-    skip-clone-loot-parameters: true
   protocol:
+    leaves-carpet-support: true
+    bladeren:
+      mspt-sync-tick-interval: 20
+      mspt-sync-protocol: true
     syncmatica:
       enable: true
       quota: false
@@ -44,15 +70,33 @@ settings:
     carpet-alternative-block-placement: true
     pca-sync-protocol: true
   modify:
+    disable-packet-limit: false
+    creative-no-clip: false
+    container-passthrough: false
+    shave-snow-layers: true
+    lava-riptide: false
+    redstone-wire-dont-connect-if-on-trapdoor: false
+    disable-check-out-of-order-command: false
+    no-block-update-command: false
+    ignore-lc: false
+    elytra-aeronautics:
+      no-chunk-load: true
+      no-chunk-height: 500.0
+      no-chunk-speed: -1.0
+      message: true
+      message-start: Flight enter cruise mode
+      message-end: Flight exit cruise mode
+    raider-die-skip-self-raid-check: false
+    mending-compatibility-infinity: false
+    despawn-enderman-with-block: false
     no-feather-falling-trample: true
-    shared-villager-discounts: false
+    shared-villager-discounts: true
     disable-distance-check-for-use-item: true
     fakeplayer:
       skip-sleep-check: true
       enable: true
       unable-fakeplayer-names:
-      - fake
-      - player-name
+      - Enderlava
       limit: 10
       prefix: ''
       suffix: ''
@@ -66,7 +110,6 @@ settings:
     spectator-dont-get-advancement: false
     stackable-shulker-boxes: 'false'
     stick-change-armorstand-arm-status: true
-    player-can-edit-sign: true
     flatten-triangular-distribution: false
     use-vanilla-random: false
     renewable-elytra: -1.0
@@ -75,15 +118,17 @@ settings:
     mc-technical-survival-mode: true
     player-operation-limiter: false
     redstone-shears-wrench: true
-    shears-in-dispenser-can-zero-amount: false
+    shears-in-dispenser-can-zero-amount: true
   misc:
+    dont-respond-ping-before-start-fully: true
     disable-method-profiler: true
     no-chat-sign: true
     extra-yggdrasil-service:
+      login-protect: false
       enable: true
       urls:
       - https://littleskin.cn/api/yggdrasil
-config-version: 2
+config-version: 3
 world-settings:
   default: {}
   world: {}
