@@ -81,7 +81,7 @@ settings:
     ignore-lc: false
     elytra-aeronautics:
       no-chunk-load: true
-      no-chunk-height: 500.0
+      no-chunk-height: 256.0
       no-chunk-speed: -1.0
       message: true
       message-start: Flight enter cruise mode
@@ -106,7 +106,7 @@ settings:
     bedrock-break-list: false
     instant-block-updater-reintroduced: true
     budding-amethyst-can-push-by-piston: false
-    return-nether-portal-fix: false
+    return-nether-portal-fix: true
     spectator-dont-get-advancement: false
     stackable-shulker-boxes: 'false'
     stick-change-armorstand-arm-status: true

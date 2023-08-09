@@ -11,7 +11,7 @@ int main () {
     {
         for (z = 0; z<=20 ; z++ )
         {
-            outfile << "summon minecraft:item ~" << x << " ~2 ~" << z <<  " {Item:{id:" << '"' << "minecraft:paper"  << '"' << ",Count:1b},PickupDelay:32767s,Age:5000,Fire:-32767,Invulnerable:1}" << "\n" ;
+            outfile << "summon minecraft:item ~" << x << " ~1 ~" << z <<  " {Item:{id:" << '"' << "minecraft:paper"  << '"' << ",Count:1b},PickupDelay:32767s,Age:5800,Fire:-32767,Invulnerable:1}" << "\n" ;
             n = n + 1 ;
         }
     }
@@ -19,7 +19,7 @@ int main () {
     {
         for (z = 0; z<=20 ; z++ )
         {
-            outfile << "summon minecraft:item ~-" << x << " ~2 ~-" << z << " {Item:{id:" << '"' << "minecraft:paper"  << '"' << ",Count:1b},PickupDelay:32767s,Age:5000,Fire:-32767,Invulnerable:1}" << "\n" ;
+            outfile << "summon minecraft:item ~-" << x << " ~1 ~-" << z << " {Item:{id:" << '"' << "minecraft:paper"  << '"' << ",Count:1b},PickupDelay:32767s,Age:5800,Fire:-32767,Invulnerable:1}" << "\n" ;
             n = n + 1 ;
         }
     }
@@ -27,7 +27,7 @@ int main () {
     {
         for (z = 0; z<=20 ; z++ )
         {
-            outfile << "summon minecraft:item ~" << x << " ~2 ~-" << z << " {Item:{id:" << '"' << "minecraft:paper"  << '"' << ",Count:1b},PickupDelay:32767s,Age:5000,Fire:-32767,Invulnerable:1}" << "\n" ;
+            outfile << "summon minecraft:item ~" << x << " ~1 ~-" << z << " {Item:{id:" << '"' << "minecraft:paper"  << '"' << ",Count:1b},PickupDelay:32767s,Age:5800,Fire:-32767,Invulnerable:1}" << "\n" ;
             n = n + 1 ;
         }
     }
@@ -35,7 +35,7 @@ int main () {
     {
         for (z = 0; z<=20 ; z++ )
         {
-            outfile << "summon minecraft:item ~-" << x << " ~2 ~" << z << " {Item:{id:" << '"' << "minecraft:paper"  << '"' << ",Count:1b},PickupDelay:32767s,Age:5000,Fire:-32767,Invulnerable:1}" << "\n" ;
+            outfile << "summon minecraft:item ~-" << x << " ~1 ~" << z << " {Item:{id:" << '"' << "minecraft:paper"  << '"' << ",Count:1b},PickupDelay:32767s,Age:5800,Fire:-32767,Invulnerable:1}" << "\n" ;
             n = n + 1 ;
         }
     }

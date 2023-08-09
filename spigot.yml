@@ -45,12 +45,12 @@ commands:
   - tellraw
   silent-commandblock-console: false
 messages:
-  restart: Server is restarting
-  whitelist: You are not whitelisted on this server!
+  restart: 服务器正在重启
+  whitelist: 你为获邀再此服务器上游玩!
   unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
+  server-full: 服务器满人!
+  outdated-client: 过时的客户端! 请使用 {0}
+  outdated-server: 过时的服务器! 服务器版本 {0}
 players:
   disable-saving: false
 advancements:

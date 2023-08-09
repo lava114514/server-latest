@@ -7,6 +7,9 @@ zoneBasedWorlds: []
 # https://github.com/MagmaGuy/EliteMobs/wiki/%5BGame-Mode%5D-Nightmare-mode
 nightmareWorlds: []
 Valid worlds:
+  em_id_enchantment_challenge_6_0: true
+  em_id_enchantment_challenge_8_0: true
+  em_id_enchantment_challenge_2_0: true
   flatroom: true
   Boat_Rage: true
   em_id_enchantment_challenge_7_0: true

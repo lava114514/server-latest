@@ -70,4 +70,4 @@ escapeMessage: '&cSanta set off on his sleigh!'
 locationMessage: '&4Santa Claus: $distance blocks away'
 announcementPriority: 3
 spawnLocations:
-- em_north_pole,-323.5058103737918,59.2,-447.4123512529523,89.85,7.293091:1639538320127
+- em_north_pole,-323.5058103737918,59.2,-447.4123512529523,89.85,7.293091:1690886083436

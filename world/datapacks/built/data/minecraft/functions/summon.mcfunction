@@ -40,7 +40,7 @@ summon minecraft:lightning_bolt ~1 ~ ~
 summon minecraft:lightning_bolt ~-1 ~ ~
 summon minecraft:lightning_bolt ~ ~ ~1
 summon minecraft:lightning_bolt ~ ~ ~-1
-kill @e[type=zombie,nbt={Silent:1b,NoGravity:1b,PersistenceRequired:1b}]
+kill @e[type=zombie,nbt={Silent:1b,NoGravity:1b,PersistenceRequired:1b},tag=Huixue2]
 summon minecraft:zombie ~ ~10 ~ {Tags:[Huixue2],Silent:1,NoGravity:1,PersistenceRequired:1,Attributes:[{Name:"generic.knockback_resistance",Base:1},{Name:"generic.max_health",Base:30}],ActiveEffects:[{Id:12,Duration:32767,Amplifier:1}]}
 summon minecraft:zombie ~ ~ ~ {Tags:[Huixue1],Invulnerable:1,Silent:1,NoAI:1,PersistenceRequired:1,Attributes:[{Name:"generic.knockback_resistance",Base:1}],ActiveEffects:[{Id:14,Duration:32767,Ambient:0b,ShowIcon:0b,Amplifier:1b,ShowParticles:0b}]}
-
+execute as @e[type=zombie,nbt={Silent:1b,NoGravity:1b,PersistenceRequired:1b}] at @s as @a[distance=0..50] run damage @s 15

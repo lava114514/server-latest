@@ -1,0 +1,25 @@
+#配置版本号，请勿修改
+version: 2
+
+#每个玩家跑图区块数量的限制
+chunksLimit: 500
+
+#玩家跑图区块数量的重置时间（单位为秒）
+cleanTime: 3600
+
+#生效的世界
+worlds:
+  - world
+  - world_nether
+  - world_the_end
+#提示信息的前缀
+prefix: '§6[提示] '
+
+#达到目标区块数量后踢出的信息
+chunksLimitKickMessage: '你已到达跑图上限，请一小时后再试'
+
+#区块数量到达百分之多少时才会提示
+warningRate: 0.8
+
+#提示信息
+chunksLimitWarningMessage: '你即将到达跑图上限，请不要再跑图'

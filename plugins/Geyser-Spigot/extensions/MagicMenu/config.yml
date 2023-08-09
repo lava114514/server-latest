@@ -88,6 +88,34 @@ menus:
               commands:
                 - command-name: "pickpack menu"
                   run: "pickpack menu"
+            - name: "服务器菜单"
+              forms:
+                - form-title: "服务器菜单"
+                  buttons:
+                    - name: "墓碑"
+                      commands:
+                        - command-name: "grave"
+                          run: "grave"
+                    - name: "技能"
+                      commands:
+                        - command-name: "sk"
+                          run: "sk"
+                    - name: "精英怪"
+                      commands:
+                        - command-name: "em"
+                          run: "em"
+                    - name: "扩展背包"
+                      commands:
+                        - command-name: "bag"
+                          run: "bag open"
+                    - name: "箱子菜单"
+                      commands:
+                        - command-name: "menu"
+                          run: "menu"
+            - name: "传送玩家"
+              commands:
+                - command-name: "tpj"
+                  run: "tpj !%input:请输入想传送的玩家id, 玩家id%"
             - name: "进度"
               commands:
                 - command-name: "geyser advancements"
@@ -100,6 +128,9 @@ menus:
               commands:
                 - command-name: "geyser tooltips"
                   run: "geyser tooltips"
+
+
+
 
 
   # You can also run a command directly, without opening a menu.

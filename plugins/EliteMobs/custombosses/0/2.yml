@@ -2,7 +2,7 @@ onSpawnBlockStates: []
 onRemoveBlockStates: []
 isEnabled: true
 isPersistent: true
-entityType: ZOMBIE
+entityType: DROWNED
 name: $bossLevel &e哲理伦
 level: dynamic
 healthMultiplier: 15
@@ -11,9 +11,12 @@ onDeathCommands:
 - broadcast $players杀死了$level级的$name！
 - em spawnlocationcustom 4.yml world 0 100 0
 - tp @e[type=vex,tag=!Server] @p
-onSpawnCommands: []
-onCombatEnterCommands: []
-onCombatLeaveCommands: []
+onSpawnCommands: 
+- time set 13500
+onCombatEnterCommands: 
+- time set 13500
+onCombatLeaveCommands: 
+- time set 13500
 deathMessages:
 - '&e&l---------------------------------------------'
 - '&4哲理伦已被击退！'

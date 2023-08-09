@@ -4,6 +4,9 @@ type: main
 layout:
   - '#########'
   - '#MMMMMMM#'
+  - '#MMMMMMM#'
+  - '#MMMMMMM#'
+  - '#MMMMMMM#'
   - '<#######>'
 group:
   # 将这个菜单设置为默认菜单

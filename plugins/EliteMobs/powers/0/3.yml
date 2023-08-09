@@ -1,0 +1,13 @@
+name: 3
+powerType: UNIQUE
+isEnabled: true
+eliteScript:
+  3:
+    Events:
+    - EliteMobDeathEvent
+    Actions:
+    - action: RUN_COMMAND_AS_PLAYER
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 10
+      sValue: superrandomcommand run super_firework

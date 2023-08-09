@@ -912,6 +912,7 @@
     "criteria": {
       "minecraft:pillager": "2023-07-12 10:35:17 +0800",
       "minecraft:skeleton": "2023-07-14 09:52:40 +0800",
+      "minecraft:ghast": "2023-07-28 16:01:21 +0800",
       "minecraft:magma_cube": "2023-07-20 22:37:55 +0800",
       "minecraft:spider": "2023-07-12 10:30:32 +0800",
       "minecraft:creeper": "2023-07-20 20:15:00 +0800",
@@ -2284,6 +2285,36 @@
   "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
       "has_soul_sand": "2023-07-21 15:46:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2023-07-27 15:16:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2023-07-27 15:23:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2023-07-27 15:23:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2023-07-27 15:23:30 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2023-07-28 12:16:46 +0800"
     },
     "done": true
   },

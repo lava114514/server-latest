@@ -11,3 +11,4 @@ execute as @e[type=zombie,nbt={Silent:1b,NoGravity:1b,PersistenceRequired:1b}] a
 execute as @e[type=zombie,nbt={Silent:1b,NoGravity:1b,PersistenceRequired:1b}] at @s run summon tnt ^ ^ ^-2
 execute as @e[type=zombie,nbt={Silent:1b,NoGravity:1b,PersistenceRequired:1b}] at @s run summon tnt ^ ^ ^-2
 execute as @e[type=zombie,nbt={Silent:1b,NoGravity:1b,PersistenceRequired:1b}] at @s run summon tnt ^ ^ ^-2
+execute as @e[type=zombie,nbt={Silent:1b,NoGravity:1b,PersistenceRequired:1b}] at @s as @a[distance=0..50] run damage @s 15

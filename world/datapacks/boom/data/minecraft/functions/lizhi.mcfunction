@@ -1,0 +1,1 @@
+give @s minecraft:ghast_tear{display:{Name:'["§e绝望的理智"]',Lore:['["描述:"]','["3分钟无敌效果"]','["右键/长按使用"]']}}

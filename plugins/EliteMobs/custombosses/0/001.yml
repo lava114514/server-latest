@@ -11,6 +11,7 @@ onDeathCommands:
 - broadcast $players杀死了$level级的$name！
 - em spawnlocationcustom 1.yml world 0 100 0
 - tp @e[type=zombie,name=!Server] @p
+- tp @e[type=drowned] @p
 onSpawnCommands: []
 onCombatEnterCommands: []
 onCombatLeaveCommands: []

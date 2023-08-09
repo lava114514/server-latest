@@ -9,6 +9,7 @@ healthMultiplier: 15
 damageMultiplier: 20
 onDeathCommands:
 - broadcast $players杀死了$level级的$name！
+- execute at @e[type=vex] run execute at @e[type=wolf,distance=0..2] run kill @e[distance=0..50,type=zombie]
 onSpawnCommands: []
 onCombatEnterCommands: []
 onCombatLeaveCommands: []
@@ -26,10 +27,11 @@ uniqueLootList:
 - lunpp3.yml:0.2
 - lunpp4.yml:0.2
 - fightlun_axe.yml:0.2
-- summon_wolf_lun.yml:1
+- summon_wolf_scroll.yml:1
 powers:
 - attack_wither.yml 
 - 1summonsuper.yml
+- 3.yml
 onDamageMessages:
 - 绝望！
 onDamagedMessages:

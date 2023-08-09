@@ -95,3 +95,18 @@
     #cmd = 让使用物品的玩家执行命令 命令不需要加 /
     - 'console: xp add {player} 64 levels'
   required-amount: 1
+
+'lun':
+  #give Enderlava minecraft:ghast_tear{display:{Name:'["§e绝望的理智"]',Lore:['["描述:"]','["3分钟无敌效果"]','["右键/长按使用"]']}}
+  lore: 
+  - '描述:'
+  - '3分钟无敌效果'
+  - '右键/长按使用'
+  lore-exact: true
+  item: "ghast_tear"
+  trigger:
+    - 'right'
+  action:
+    #cmd = 让使用物品的玩家执行命令 命令不需要加 /
+    - 'console: effect give {player} minecraft:instant_health 3600 1'
+  required-amount: 1

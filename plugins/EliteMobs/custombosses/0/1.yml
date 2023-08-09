@@ -2,19 +2,23 @@ onSpawnBlockStates: []
 onRemoveBlockStates: []
 isEnabled: true
 isPersistent: true
-entityType: ZOMBIE
+entityType: DROWNED
 name: $bossLevel &e战斗伦
 level: dynamic
 healthMultiplier: 10
-damageMultiplier: 3
+damageMultiplier: 10
 onDeathCommands:
 - broadcast $players杀死了$level级的$name！
 - em spawnlocationcustom 2.yml world 0 100 0
 - kill @e[type=zombie,nbt={Tags:[Huixue2]}]
 - tp @e[type=zombie,name=!Server,tag=!Huixue1] @p
-onSpawnCommands: []
-onCombatEnterCommands: []
-onCombatLeaveCommands: []
+- tp @e[type=drowned] @p
+onSpawnCommands: 
+- time set 13500
+onCombatEnterCommands: 
+- time set 13500
+onCombatLeaveCommands: 
+- time set 13500
 deathMessages:
 - '&e&l---------------------------------------------'
 - '&4战斗伦已被击退！'

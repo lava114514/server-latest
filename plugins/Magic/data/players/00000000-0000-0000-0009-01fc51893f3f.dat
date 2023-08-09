@@ -1,0 +1,40 @@
+id: 00000000-0000-0000-0009-01fc51893f3f
+name: .DiplexGolf82984
+created: 1690530109071
+updated: 1690535634781
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: -12.765425,69.0,-260.35687,world,-176.15193,36.14589
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  b8dd9de6-bce5-418b-9566-b5e1a4cc7a98: []
+spells:
+  missile:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data: {}
+properties:
+  version: 7
+classes:
+  caster: {}
+  mage:
+    effect_color: 9e26e6f344d0,eea64efe081b,fba2c2fe8130
+    mana_timestamp: 1690535634698
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 20.399999618530273

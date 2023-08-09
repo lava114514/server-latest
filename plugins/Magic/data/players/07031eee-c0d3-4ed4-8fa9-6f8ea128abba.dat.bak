@@ -1,10 +1,10 @@
 id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
 name: Enderlava
 created: 1678458824899
-updated: 1690119362713
-last_cast: 1690111439404
-cooldown_expiration: 1690117494468
-last_death_location: -156.6238,70.0,-182.53017,world,-88.698204,29.74443
+updated: 1691567736368
+last_cast: 1691553228654
+cooldown_expiration: 1691567734891
+last_death_location: 93.55808675864438,-202.0116108424879,1.7337006862453013,world_the_end,54.45031,-60.15011
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -54,6 +54,1200 @@ undo:
     time_to_live: 0
     name: 猛冲
     mode: NO_PHYSICS
+  - blocks:
+    - 51,58,33,world_the_end|torch
+    time_to_live: 0
+    name: 水肺
+    mode: NO_PHYSICS
+  - blocks:
+    - 19,62,-6,em_fireworks|air
+    - 19,62,-5,em_fireworks|air
+    - 21,62,-12,em_fireworks|air
+    - 24,63,-15,em_fireworks|air
+    - 24,63,-23,em_fireworks|air
+    - 24,62,1,em_fireworks|air
+    - 19,62,5,em_fireworks|air
+    - 11,62,-15,em_fireworks|air
+    - -2,63,13,em_fireworks|air
+    - -3,64,-4,em_fireworks|air
+    - -4,64,-9,em_fireworks|air
+    - -5,63,-13,em_fireworks|air
+    - -9,64,-12,em_fireworks|air
+    - -18,62,-17,em_fireworks|air
+    - -29,62,-14,em_fireworks|air
+    - -1,64,-10,em_fireworks|air
+    - 2,64,-10,em_fireworks|air
+    - 1,64,-10,em_fireworks|air
+    - 5,62,23,em_fireworks|air
+    - 16,62,31,em_fireworks|air
+    - -13,62,-19,em_fireworks|air
+    - -8,63,-24,em_fireworks|air
+    - -1,64,-8,em_fireworks|air
+    - 0,64,-12,em_fireworks|air
+    - -5,63,-15,em_fireworks|air
+    - -23,65,-40,em_fireworks|air
+    - -22,62,-7,em_fireworks|air
+    - -18,63,-4,em_fireworks|air
+    - -13,64,-2,em_fireworks|air
+    - -1,64,-11,em_fireworks|air
+    - -1,63,-15,em_fireworks|air
+    - 4,64,-14,em_fireworks|air
+    - 20,62,8,em_fireworks|air
+    - 21,62,-3,em_fireworks|air
+    - -19,62,19,em_fireworks|air
+    - -14,64,5,em_fireworks|air
+    - -16,62,15,em_fireworks|air
+    - -2,64,-2,em_fireworks|air
+    - -5,62,25,em_fireworks|air
+    - -2,62,41,em_fireworks|air
+    - -14,63,-29,em_fireworks|air
+    - -16,62,-27,em_fireworks|air
+    - -15,62,-31,em_fireworks|air
+    - -25,63,26,em_fireworks|air
+    - -30,63,21,em_fireworks|air
+    - 1,64,-1,em_fireworks|air
+    - 17,62,13,em_fireworks|air
+    - 17,62,2,em_fireworks|air
+    - 34,62,21,em_fireworks|air
+    - -3,64,6,em_fireworks|air
+    - 2,64,11,em_fireworks|air
+    - 50,115,13,em_fireworks|air
+    - -10,64,5,em_fireworks|air
+    - -19,62,23,em_fireworks|air
+    - -9,64,4,em_fireworks|air
+    - -6,64,3,em_fireworks|air
+    - -43,80,1,em_fireworks|air
+    - -31,63,20,em_fireworks|air
+    - -32,63,10,em_fireworks|air
+    - -43,62,25,em_fireworks|air
+    - -26,62,13,em_fireworks|air
+    - -30,64,21,em_fireworks|air
+    - -24,62,-7,em_fireworks|air
+    - -22,62,-10,em_fireworks|air
+    - -31,62,20,em_fireworks|air
+    - -16,64,-29,em_fireworks|air
+    - -15,64,-29,em_fireworks|air
+    - -25,62,-6,em_fireworks|air
+    - -13,62,-30,em_fireworks|air
+    - -12,62,-29,em_fireworks|air
+    - -16,62,-19,em_fireworks|air
+    - -16,62,-16,em_fireworks|air
+    - -22,62,-17,em_fireworks|air
+    - -14,62,-13,em_fireworks|air
+    - -15,62,-14,em_fireworks|air
+    - -16,61,-32,em_fireworks|air
+    - -17,62,-32,em_fireworks|air
+    - -17,63,-32,em_fireworks|air
+    - -33,65,-33,em_fireworks|air
+    - -25,67,-33,em_fireworks|air
+    - -26,66,-37,em_fireworks|air
+    - -26,61,-44,em_fireworks|air
+    - -31,63,-40,em_fireworks|air
+    - -22,62,-24,em_fireworks|air
+    - -24,62,-27,em_fireworks|air
+    - -23,62,-29,em_fireworks|air
+    - -6,62,-20,em_fireworks|air
+    - 18,63,-23,em_fireworks|air
+    - -7,63,-23,em_fireworks|air
+    - -7,61,-29,em_fireworks|air
+    - -39,68,0,em_fireworks|air
+    - -27,63,-5,em_fireworks|air
+    - -17,62,-10,em_fireworks|air
+    - -32,63,2,em_fireworks|air
+    - -31,63,2,em_fireworks|air
+    - -43,62,3,em_fireworks|air
+    - -40,62,1,em_fireworks|air
+    - 1,62,-23,em_fireworks|air
+    - -16,64,5,em_fireworks|air
+    - -16,63,5,em_fireworks|air
+    - 2,63,12,em_fireworks|air
+    - 17,62,15,em_fireworks|air
+    - -23,62,9,em_fireworks|air
+    - -20,62,6,em_fireworks|air
+    - -20,62,7,em_fireworks|air
+    - -15,65,-7,em_fireworks|air
+    - -29,65,-24,em_fireworks|air
+    - -9,66,-12,em_fireworks|air
+    - -25,63,-28,em_fireworks|air
+    - -23,63,-23,em_fireworks|air
+    - -31,62,-44,em_fireworks|air
+    - 5,63,11,em_fireworks|air
+    - 8,63,7,em_fireworks|air
+    - 13,62,13,em_fireworks|air
+    - 12,62,-18,em_fireworks|air
+    - 11,62,-17,em_fireworks|air
+    - 5,63,-12,em_fireworks|air
+    - 8,63,-9,em_fireworks|air
+    - 16,62,-32,em_fireworks|air
+    - -7,63,10,em_fireworks|air
+    - -10,65,12,em_fireworks|air
+    - -10,64,12,em_fireworks|air
+    - -7,63,28,em_fireworks|air
+    - -8,63,22,em_fireworks|air
+    - -20,62,25,em_fireworks|air
+    - -8,64,12,em_fireworks|air
+    - -14,62,14,em_fireworks|air
+    - -10,62,20,em_fireworks|air
+    - 0,63,27,em_fireworks|air
+    - -11,63,10,em_fireworks|air
+    - -25,63,20,em_fireworks|air
+    - -21,61,-17,em_fireworks|white_concrete
+    - -18,61,-20,em_fireworks|white_concrete
+    - -22,61,-19,em_fireworks|white_concrete
+    - -16,61,-16,em_fireworks|white_concrete
+    - -19,61,-18,em_fireworks|white_concrete
+    - -17,61,-16,em_fireworks|white_concrete
+    - -19,61,-15,em_fireworks|white_concrete
+    - -19,62,-17,em_fireworks|white_carpet
+    - -20,61,-16,em_fireworks|white_concrete
+    - -19,61,-19,em_fireworks|white_concrete
+    - -21,61,-19,em_fireworks|white_concrete
+    - -20,61,-20,em_fireworks|white_concrete
+    - -20,61,-18,em_fireworks|white_concrete
+    - -18,61,-19,em_fireworks|white_concrete
+    - -21,61,-16,em_fireworks|white_concrete
+    - -19,61,-16,em_fireworks|white_concrete
+    - -18,61,-17,em_fireworks|white_concrete
+    - -22,61,-18,em_fireworks|white_concrete
+    - -17,61,-17,em_fireworks|white_concrete
+    - -16,61,-15,em_fireworks|white_concrete
+    - -22,61,-16,em_fireworks|white_concrete
+    - -20,61,-19,em_fireworks|white_concrete
+    - -22,61,-17,em_fireworks|light_gray_terracotta
+    - -20,61,-15,em_fireworks|white_concrete
+    - -17,61,-19,em_fireworks|white_concrete
+    - -17,61,-18,em_fireworks|white_concrete
+    - -20,61,-17,em_fireworks|white_concrete
+    - -19,61,-17,em_fireworks|sea_lantern
+    - -17,61,-15,em_fireworks|white_concrete
+    - -18,61,-15,em_fireworks|white_concrete
+    - -18,61,-16,em_fireworks|white_concrete
+    - -21,61,-18,em_fireworks|white_concrete
+    - -21,61,-15,em_fireworks|white_concrete
+    - -27,62,-21,em_fireworks|air
+    - -28,64,-25,em_fireworks|stone_brick_slab?minecraft:stone_brick_slab[type=bottom,waterlogged=false]
+    - -29,64,-24,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -29,64,-25,em_fireworks|white_concrete
+    - -29,64,-27,em_fireworks|white_concrete
+    - -31,65,-23,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=west,half=top,shape=straight,waterlogged=false]
+    - -31,63,-23,em_fireworks|light_gray_concrete
+    - -28,64,-24,em_fireworks|stone_brick_slab?minecraft:stone_brick_slab[type=bottom,waterlogged=false]
+    - -30,65,-24,em_fireworks|polished_andesite
+    - -29,64,-26,em_fireworks|white_concrete
+    - -30,64,-26,em_fireworks|white_concrete
+    - -31,66,-23,em_fireworks|stone_brick_slab?minecraft:stone_brick_slab[type=bottom,waterlogged=false]
+    - -28,63,-23,em_fireworks|smooth_stone
+    - -31,64,-23,em_fireworks|light_gray_concrete
+    - -28,64,-26,em_fireworks|white_concrete
+    - -30,67,-24,em_fireworks|cobblestone_wall?minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    - -30,64,-24,em_fireworks|polished_andesite
+    - -30,66,-24,em_fireworks|polished_andesite
+    - -13,61,-23,em_fireworks|white_concrete
+    - -11,61,-21,em_fireworks|white_concrete
+    - -14,61,-23,em_fireworks|white_concrete
+    - -12,61,-19,em_fireworks|light_gray_terracotta
+    - -11,61,-24,em_fireworks|light_gray_terracotta
+    - -15,61,-21,em_fireworks|white_concrete
+    - -11,61,-22,em_fireworks|white_concrete
+    - -10,61,-21,em_fireworks|white_concrete
+    - -12,61,-20,em_fireworks|light_gray_terracotta
+    - -13,61,-19,em_fireworks|light_gray_terracotta
+    - -10,61,-22,em_fireworks|white_concrete
+    - -11,61,-23,em_fireworks|white_concrete
+    - -9,61,-21,em_fireworks|white_concrete
+    - -12,61,-23,em_fireworks|white_concrete
+    - -14,61,-22,em_fireworks|white_concrete
+    - -11,61,-20,em_fireworks|light_gray_terracotta
+    - -9,61,-22,em_fireworks|white_concrete
+    - -10,61,-20,em_fireworks|white_concrete
+    - -10,61,-23,em_fireworks|white_concrete
+    - -13,61,-20,em_fireworks|white_concrete
+    - -11,61,-19,em_fireworks|light_gray_terracotta
+    - -10,61,-19,em_fireworks|light_gray_terracotta
+    - -12,61,-21,em_fireworks|white_concrete
+    - -13,61,-22,em_fireworks|white_concrete
+    - -14,61,-20,em_fireworks|white_concrete
+    - -13,61,-21,em_fireworks|white_concrete
+    - -12,61,-22,em_fireworks|white_concrete
+    - -9,61,-20,em_fireworks|white_concrete
+    - -15,61,-22,em_fireworks|white_concrete
+    - -14,61,-21,em_fireworks|white_concrete
+    - -17,64,-30,em_fireworks|air
+    - -22,62,-28,em_fireworks|air
+    - -32,64,-24,em_fireworks|light_gray_terracotta
+    - -30,63,-23,em_fireworks|air
+    - -23,61,-16,em_fireworks|light_gray_terracotta
+    - -19,61,-14,em_fireworks|light_gray_terracotta
+    - -22,61,-14,em_fireworks|white_concrete
+    - -23,61,-14,em_fireworks|white_concrete
+    - -20,61,-14,em_fireworks|white_concrete
+    - -24,61,-14,em_fireworks|white_concrete
+    - -22,61,-13,em_fireworks|white_concrete
+    - -21,61,-14,em_fireworks|white_concrete
+    - -20,61,-13,em_fireworks|light_gray_terracotta
+    - -19,61,-13,em_fireworks|stone_bricks
+    - -23,61,-15,em_fireworks|white_concrete
+    - -21,61,-12,em_fireworks|light_gray_terracotta
+    - -23,61,-13,em_fireworks|white_concrete
+    - -22,61,-15,em_fireworks|white_concrete
+    - -18,61,-14,em_fireworks|white_concrete
+    - -18,61,-13,em_fireworks|light_gray_terracotta
+    - -24,61,-13,em_fireworks|white_concrete
+    - -22,61,-12,em_fireworks|white_concrete
+    - -21,61,-13,em_fireworks|white_concrete
+    - -16,64,-6,em_fireworks|air
+    - -24,63,-21,em_fireworks|air
+    - -18,62,-1,em_fireworks|white_concrete
+    - -14,62,-1,em_fireworks|white_concrete
+    - -15,62,-1,em_fireworks|white_concrete
+    - -18,62,-2,em_fireworks|white_concrete
+    - -15,62,-2,em_fireworks|white_concrete
+    - -17,62,-4,em_fireworks|light_gray_terracotta
+    - -19,62,-3,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -18,62,1,em_fireworks|white_concrete
+    - -18,62,0,em_fireworks|white_concrete
+    - -16,62,-1,em_fireworks|white_concrete
+    - -18,62,-3,em_fireworks|white_concrete
+    - -14,62,-2,em_fireworks|white_concrete
+    - -17,62,-2,em_fireworks|white_concrete
+    - -18,62,-4,em_fireworks|light_gray_terracotta
+    - -15,62,-4,em_fireworks|light_gray_terracotta
+    - -15,62,-3,em_fireworks|white_concrete
+    - -17,62,-1,em_fireworks|white_concrete
+    - -14,62,-3,em_fireworks|white_concrete
+    - -16,62,1,em_fireworks|white_concrete
+    - -16,62,-5,em_fireworks|green_concrete
+    - -16,62,-2,em_fireworks|white_concrete
+    - -19,62,-1,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -17,62,0,em_fireworks|white_concrete
+    - -16,62,-4,em_fireworks|light_gray_terracotta
+    - -17,62,-3,em_fireworks|white_concrete
+    - -15,62,0,em_fireworks|white_concrete
+    - -16,62,0,em_fireworks|white_concrete
+    - -16,62,-3,em_fireworks|white_concrete
+    - -13,63,-2,em_fireworks|white_concrete
+    - -17,62,-5,em_fireworks|green_concrete
+    - -14,62,5,em_fireworks|green_concrete
+    - -11,63,3,em_fireworks|white_concrete
+    - -10,63,7,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -10,63,5,em_fireworks|white_concrete
+    - -13,62,7,em_fireworks|white_concrete
+    - -13,62,6,em_fireworks|light_gray_terracotta
+    - -10,63,6,em_fireworks|white_concrete
+    - -9,63,6,em_fireworks|white_concrete
+    - -11,63,4,em_fireworks|white_concrete
+    - -11,62,6,em_fireworks|white_concrete
+    - -13,63,2,em_fireworks|white_concrete
+    - -13,62,8,em_fireworks|white_concrete
+    - -14,62,7,em_fireworks|light_gray_terracotta
+    - -15,62,4,em_fireworks|green_concrete
+    - -11,62,8,em_fireworks|white_concrete
+    - -9,64,5,em_fireworks|white_carpet
+    - -9,63,5,em_fireworks|sea_lantern
+    - -12,63,5,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -12,62,7,em_fireworks|white_concrete
+    - -14,62,6,em_fireworks|green_concrete
+    - -12,63,3,em_fireworks|white_concrete
+    - -15,62,7,em_fireworks|green_concrete
+    - -12,63,4,em_fireworks|light_gray_terracotta
+    - -10,63,4,em_fireworks|white_concrete
+    - -11,63,5,em_fireworks|white_concrete
+    - -14,62,8,em_fireworks|white_concrete
+    - -11,63,6,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -10,63,3,em_fireworks|white_concrete
+    - -12,62,6,em_fireworks|white_concrete
+    - -12,62,9,em_fireworks|white_concrete
+    - -11,62,7,em_fireworks|white_concrete
+    - -12,62,8,em_fireworks|white_concrete
+    - -6,62,12,em_fireworks|light_gray_terracotta
+    - -6,63,7,em_fireworks|white_concrete
+    - -4,63,7,em_fireworks|white_concrete
+    - -7,62,11,em_fireworks|green_concrete
+    - -4,63,9,em_fireworks|white_concrete
+    - -3,63,8,em_fireworks|white_concrete
+    - -5,63,7,em_fireworks|white_concrete
+    - -9,62,9,em_fireworks|green_concrete
+    - -7,62,13,em_fireworks|green_concrete
+    - -6,63,8,em_fireworks|white_concrete
+    - -8,62,9,em_fireworks|green_concrete
+    - -5,63,8,em_fireworks|white_concrete
+    - -6,63,9,em_fireworks|white_concrete
+    - -7,63,8,em_fireworks|white_concrete
+    - -4,63,8,em_fireworks|white_concrete
+    - -9,62,10,em_fireworks|green_concrete
+    - -5,62,12,em_fireworks|white_concrete
+    - -7,62,10,em_fireworks|light_gray_terracotta
+    - -8,63,7,em_fireworks|white_concrete
+    - -7,62,8,em_fireworks|green_concrete
+    - -8,62,8,em_fireworks|green_concrete
+    - -7,62,12,em_fireworks|green_concrete
+    - -5,63,10,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -7,62,9,em_fireworks|light_gray_terracotta
+    - -8,63,8,em_fireworks|light_gray_terracotta
+    - -8,62,11,em_fireworks|green_concrete
+    - -4,62,12,em_fireworks|white_concrete
+    - -6,63,10,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -9,62,11,em_fireworks|green_concrete
+    - -8,62,12,em_fireworks|green_concrete
+    - -8,62,10,em_fireworks|green_concrete
+    - -5,63,9,em_fireworks|white_concrete
+    - -7,63,7,em_fireworks|white_concrete
+    - -4,63,10,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - 2,64,5,em_fireworks|air
+    - -2,64,4,em_fireworks|air
+    - -4,64,6,em_fireworks|air
+    - -2,62,-13,em_fireworks|white_concrete
+    - 0,63,-12,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - 0,62,-13,em_fireworks|light_gray_terracotta
+    - -3,63,-10,em_fireworks|white_concrete
+    - 2,62,-11,em_fireworks|green_concrete
+    - 2,62,-15,em_fireworks|green_concrete
+    - -1,63,-10,em_fireworks|white_concrete
+    - -1,63,-11,em_fireworks|white_concrete
+    - -2,63,-12,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - 2,62,-12,em_fireworks|green_concrete
+    - 0,63,-9,em_fireworks|white_concrete
+    - -2,62,-14,em_fireworks|white_concrete
+    - -3,62,-13,em_fireworks|white_concrete
+    - 2,62,-13,em_fireworks|green_concrete
+    - -1,62,-13,em_fireworks|white_concrete
+    - -2,63,-11,em_fireworks|white_concrete
+    - 1,62,-12,em_fireworks|light_gray_terracotta
+    - 3,62,-13,em_fireworks|green_concrete
+    - -1,62,-15,em_fireworks|white_concrete
+    - 0,63,-10,em_fireworks|white_concrete
+    - -1,62,-14,em_fireworks|white_concrete
+    - -1,63,-9,em_fireworks|white_concrete
+    - 0,62,-14,em_fireworks|light_gray_terracotta
+    - -1,63,-12,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - 1,62,-10,em_fireworks|green_concrete
+    - 2,62,-14,em_fireworks|green_concrete
+    - -2,63,-10,em_fireworks|white_concrete
+    - -2,62,-15,em_fireworks|white_concrete
+    - 2,63,-10,em_fireworks|light_gray_terracotta
+    - 2,62,-10,em_fireworks|green_concrete
+    - -2,63,-9,em_fireworks|white_concrete
+    - 1,62,-14,em_fireworks|green_concrete
+    - 1,63,-10,em_fireworks|white_concrete
+    - 1,62,-13,em_fireworks|green_concrete
+    - -3,63,-11,em_fireworks|white_concrete
+    - 0,63,-11,em_fireworks|white_concrete
+    - 1,63,-9,em_fireworks|white_concrete
+    - -10,63,-13,em_fireworks|air
+    - 28,66,-23,em_fireworks|air
+    - -9,63,-13,em_fireworks|polished_andesite
+    - -11,62,-13,em_fireworks|green_concrete
+    - -9,62,-12,em_fireworks|green_concrete
+    - -10,62,-15,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -10,62,-12,em_fireworks|green_concrete
+    - -11,62,-12,em_fireworks|light_gray_terracotta
+    - -11,62,-14,em_fireworks|green_concrete
+    - -11,62,-11,em_fireworks|white_concrete
+    - -11,62,-10,em_fireworks|white_concrete
+    - -9,62,-14,em_fireworks|green_concrete
+    - -13,62,-11,em_fireworks|white_concrete
+    - -13,62,-12,em_fireworks|white_concrete
+    - -12,62,-13,em_fireworks|light_gray_terracotta
+    - -10,62,-14,em_fireworks|green_concrete
+    - -10,62,-11,em_fireworks|light_gray_terracotta
+    - -9,64,-13,em_fireworks|polished_andesite
+    - -11,62,-15,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -10,62,-13,em_fireworks|green_concrete
+    - -10,62,-10,em_fireworks|white_concrete
+    - -9,62,-11,em_fireworks|green_concrete
+    - -9,62,-15,em_fireworks|green_concrete
+    - -10,66,-13,em_fireworks|air
+    - -17,61,-12,em_fireworks|light_gray_terracotta
+    - -16,62,-9,em_fireworks|green_concrete
+    - -16,62,-10,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -18,61,-11,em_fireworks|andesite
+    - -14,62,-11,em_fireworks|white_concrete
+    - -17,61,-13,em_fireworks|white_concrete
+    - -15,62,-11,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -18,61,-12,em_fireworks|stone_bricks
+    - -17,61,-11,em_fireworks|stone_bricks
+    - -24,61,2,em_fireworks|white_concrete
+    - -25,61,6,em_fireworks|white_concrete
+    - -21,61,3,em_fireworks|white_concrete
+    - -25,61,2,em_fireworks|white_concrete
+    - -22,61,2,em_fireworks|white_concrete
+    - -23,61,3,em_fireworks|white_concrete
+    - -23,61,4,em_fireworks|white_concrete
+    - -24,61,4,em_fireworks|white_concrete
+    - -24,61,5,em_fireworks|white_concrete
+    - -23,61,5,em_fireworks|white_concrete
+    - -25,61,5,em_fireworks|light_gray_terracotta
+    - -24,61,3,em_fireworks|white_concrete
+    - -25,61,4,em_fireworks|light_gray_terracotta
+    - -21,61,2,em_fireworks|white_concrete
+    - -21,61,5,em_fireworks|light_gray_terracotta
+    - -24,61,6,em_fireworks|white_concrete
+    - -23,61,1,em_fireworks|white_concrete
+    - -22,61,3,em_fireworks|white_concrete
+    - -23,61,7,em_fireworks|white_concrete
+    - -21,61,4,em_fireworks|white_concrete
+    - -20,61,2,em_fireworks|white_concrete
+    - -24,61,1,em_fireworks|white_concrete
+    - -25,61,3,em_fireworks|light_gray_terracotta
+    - -23,61,2,em_fireworks|white_concrete
+    - -22,61,6,em_fireworks|white_concrete
+    - -23,61,6,em_fireworks|white_concrete
+    - -22,61,5,em_fireworks|white_concrete
+    - -22,61,4,em_fireworks|white_concrete
+    - -26,62,11,em_fireworks|air
+    - -23,61,-11,em_fireworks|white_concrete
+    - -23,61,-9,em_fireworks|white_concrete
+    - -24,61,-9,em_fireworks|white_concrete
+    - -24,61,-10,em_fireworks|white_concrete
+    - -25,61,-12,em_fireworks|white_concrete
+    - -21,61,-11,em_fireworks|light_gray_terracotta
+    - -25,61,-9,em_fireworks|white_concrete
+    - -25,61,-13,em_fireworks|white_concrete
+    - -24,61,-11,em_fireworks|white_concrete
+    - -26,61,-11,em_fireworks|white_concrete
+    - -23,61,-10,em_fireworks|white_concrete
+    - -22,61,-11,em_fireworks|white_concrete
+    - -23,61,-12,em_fireworks|white_concrete
+    - -25,61,-11,em_fireworks|white_concrete
+    - -24,61,-12,em_fireworks|white_concrete
+    - -25,61,-10,em_fireworks|white_concrete
+    - -21,61,-10,em_fireworks|light_gray_terracotta
+    - -20,62,-25,em_fireworks|air
+    - -13,62,-20,em_fireworks|air
+    - -20,61,-31,em_fireworks|cyan_terracotta
+    - -21,61,-34,em_fireworks|light_gray_terracotta
+    - -20,62,-34,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    - -22,61,-32,em_fireworks|light_gray_terracotta
+    - -19,62,-32,em_fireworks|stone_brick_slab?minecraft:stone_brick_slab[type=top,waterlogged=false]
+    - -23,61,-32,em_fireworks|light_gray_terracotta
+    - -21,62,-35,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    - -23,61,-34,em_fireworks|light_gray_terracotta
+    - -22,61,-34,em_fireworks|light_gray_terracotta
+    - -20,61,-32,em_fireworks|cyan_terracotta
+    - -25,62,-33,em_fireworks|light_gray_concrete
+    - -21,61,-33,em_fireworks|light_gray_terracotta
+    - -25,63,-33,em_fireworks|light_gray_concrete
+    - -23,61,-33,em_fireworks|light_gray_terracotta
+    - -22,61,-33,em_fireworks|light_gray_terracotta
+    - -22,61,-35,em_fireworks|light_gray_terracotta
+    - -20,62,-33,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=south,half=top,shape=straight,waterlogged=false]
+    - -19,61,-30,em_fireworks|cyan_terracotta
+    - -21,61,-28,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=west,half=bottom,shape=inner_left,waterlogged=false]
+    - -20,61,-30,em_fireworks|cyan_terracotta
+    - -18,61,-29,em_fireworks|cyan_terracotta
+    - -19,61,-26,em_fireworks|light_gray_terracotta
+    - -19,61,-27,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    - -18,61,-30,em_fireworks|cyan_terracotta
+    - -22,61,-30,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    - -19,61,-28,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    - -19,61,-29,em_fireworks|cyan_terracotta
+    - -20,61,-29,em_fireworks|stone_bricks
+    - -18,61,-28,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    - -18,62,-31,em_fireworks|stone_brick_slab?minecraft:stone_brick_slab[type=top,waterlogged=false]
+    - -20,61,-27,em_fireworks|light_gray_terracotta
+    - -21,61,-29,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    - -21,61,-27,em_fireworks|light_gray_terracotta
+    - -21,61,-30,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]
+    - -22,61,-29,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]
+    - -20,61,-28,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    - -24,63,-25,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -25,63,-24,em_fireworks|stone_brick_slab?minecraft:stone_brick_slab[type=bottom,waterlogged=false]
+    - -23,62,-22,em_fireworks|stone_brick_slab?minecraft:stone_brick_slab[type=bottom,waterlogged=false]
+    - -24,63,-24,em_fireworks|stone_brick_slab?minecraft:stone_brick_slab[type=bottom,waterlogged=false]
+    - -23,62,-21,em_fireworks|stone_brick_slab?minecraft:stone_brick_slab[type=bottom,waterlogged=false]
+    - -21,61,-21,em_fireworks|white_concrete
+    - -23,62,-23,em_fireworks|stone_bricks
+    - -22,62,-23,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -24,62,-23,em_fireworks|stone_bricks
+    - -24,62,-22,em_fireworks|stone_bricks
+    - -21,61,-22,em_fireworks|light_gray_terracotta
+    - -24,62,-24,em_fireworks|stone_bricks
+    - -23,62,-24,em_fireworks|smooth_stone
+    - -25,63,-23,em_fireworks|stone_brick_slab?minecraft:stone_brick_slab[type=bottom,waterlogged=false]
+    - -22,62,-22,em_fireworks|stone_brick_slab?minecraft:stone_brick_slab[type=bottom,waterlogged=false]
+    - -25,64,-28,em_fireworks|air
+    - -27,65,-27,em_fireworks|air
+    - -29,61,-23,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=north,half=bottom,shape=inner_right,waterlogged=false]
+    - -31,61,-20,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+    - -29,61,-21,em_fireworks|andesite
+    - -28,61,-21,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=east,half=bottom,shape=outer_left,waterlogged=false]
+    - -30,61,-21,em_fireworks|andesite
+    - -31,63,-24,em_fireworks|light_gray_concrete
+    - -29,61,-20,em_fireworks|andesite
+    - -27,62,-22,em_fireworks|smooth_stone
+    - -28,61,-22,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=north,half=bottom,shape=inner_right,waterlogged=false]
+    - -31,62,-24,em_fireworks|white_concrete
+    - -31,61,-22,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]
+    - -28,61,-23,em_fireworks|andesite
+    - -29,62,-24,em_fireworks|smooth_stone
+    - -28,61,-20,em_fireworks|light_gray_terracotta
+    - -30,61,-22,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=north,half=bottom,shape=outer_left,waterlogged=false]
+    - -29,61,-24,em_fireworks|andesite
+    - -29,63,-24,em_fireworks|smooth_stone
+    - -30,61,-20,em_fireworks|andesite
+    - -32,64,-23,em_fireworks|light_gray_concrete
+    - -32,63,-23,em_fireworks|light_gray_concrete
+    - -29,61,-22,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=east,half=bottom,shape=outer_left,waterlogged=false]
+    - -32,62,-23,em_fireworks|light_gray_concrete
+    - -31,61,-23,em_fireworks|andesite
+    - -30,61,-23,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=west,half=bottom,shape=inner_right,waterlogged=false]
+    - -31,61,-21,em_fireworks|andesite
+    - -27,63,-22,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -31,62,-23,em_fireworks|light_gray_concrete
+    - -30,62,-24,em_fireworks|polished_andesite
+    - -28,62,-23,em_fireworks|smooth_stone
+    - -30,63,-24,em_fireworks|polished_andesite
+    - -33,63,-22,em_fireworks|air
+    - -37,62,-19,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    - -35,63,-23,em_fireworks|light_gray_concrete
+    - -36,62,-18,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    - -35,61,-21,em_fireworks|light_gray_terracotta
+    - -37,61,-20,em_fireworks|light_gray_terracotta
+    - -38,61,-20,em_fireworks|light_gray_terracotta
+    - -36,61,-21,em_fireworks|light_gray_terracotta
+    - -36,61,-20,em_fireworks|light_gray_terracotta
+    - -34,61,-21,em_fireworks|light_gray_terracotta
+    - -34,63,-23,em_fireworks|light_gray_concrete
+    - -34,64,-23,em_fireworks|light_gray_concrete
+    - -37,61,-19,em_fireworks|stone_bricks
+    - -36,61,-19,em_fireworks|light_gray_terracotta
+    - -36,61,-18,em_fireworks|stone_bricks
+    - -34,61,-20,em_fireworks|light_gray_terracotta
+    - -35,61,-20,em_fireworks|light_gray_terracotta
+    - -35,62,-18,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=east,half=top,shape=straight,waterlogged=false]
+    - -37,61,-21,em_fireworks|light_gray_terracotta
+    - -35,61,-19,em_fireworks|light_gray_terracotta
+    - -37,61,-22,em_fireworks|light_gray_terracotta
+    - -34,61,-19,em_fireworks|stone_bricks
+    - -35,64,-23,em_fireworks|light_gray_concrete
+    - -35,62,-23,em_fireworks|light_gray_concrete
+    - -34,61,-18,em_fireworks|cyan_terracotta
+    - -33,62,-17,em_fireworks|air
+    - -27,61,-15,em_fireworks|stone_bricks
+    - -25,61,-15,em_fireworks|andesite
+    - -26,61,-14,em_fireworks|andesite
+    - -27,61,-14,em_fireworks|andesite
+    - -26,61,-13,em_fireworks|light_gray_terracotta
+    - -26,61,-16,em_fireworks|andesite
+    - -24,61,-15,em_fireworks|light_gray_terracotta
+    - -25,61,-16,em_fireworks|andesite
+    - -24,61,-16,em_fireworks|andesite
+    - -25,61,-14,em_fireworks|light_gray_terracotta
+    - -27,61,-13,em_fireworks|andesite
+    - -26,61,-12,em_fireworks|light_gray_terracotta
+    - -26,61,-15,em_fireworks|andesite
+    - -31,63,-22,em_fireworks|air
+    - -29,63,-13,em_fireworks|air
+    - -45,62,-26,em_fireworks|air
+    - -21,62,-23,em_fireworks|air
+    - -21,61,20,em_fireworks|light_gray_terracotta
+    - -22,61,23,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=north,half=bottom,shape=outer_left,waterlogged=false]
+    - -20,61,23,em_fireworks|light_gray_terracotta
+    - -22,61,22,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=west,half=bottom,shape=inner_right,waterlogged=false]
+    - -22,62,20,em_fireworks|stone_brick_slab?minecraft:stone_brick_slab[type=bottom,waterlogged=false]
+    - -23,62,21,em_fireworks|stone_bricks
+    - -24,63,23,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -22,62,21,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -23,62,22,em_fireworks|smooth_stone
+    - -24,63,22,em_fireworks|stone_brick_slab?minecraft:stone_brick_slab[type=bottom,waterlogged=false]
+    - -21,61,23,em_fireworks|light_gray_terracotta
+    - -24,62,20,em_fireworks|stone_bricks
+    - -24,62,21,em_fireworks|stone_bricks
+    - -23,62,19,em_fireworks|stone_brick_slab?minecraft:stone_brick_slab[type=bottom,waterlogged=false]
+    - -21,61,19,em_fireworks|white_concrete
+    - -23,62,20,em_fireworks|stone_brick_slab?minecraft:stone_brick_slab[type=bottom,waterlogged=false]
+    - -21,61,22,em_fireworks|stone_brick_stairs?minecraft:stone_brick_stairs[facing=north,half=bottom,shape=outer_left,waterlogged=false]
+    - -24,63,24,em_fireworks|air
+    - -15,64,4,em_fireworks|air
+    - -12,62,4,em_fireworks|green_concrete
+    - -16,62,5,em_fireworks|green_concrete
+    - -17,62,3,em_fireworks|green_concrete
+    - -16,62,3,em_fireworks|green_concrete
+    - -16,62,4,em_fireworks|green_concrete
+    - -15,62,3,em_fireworks|green_concrete
+    - -16,62,2,em_fireworks|light_gray_terracotta
+    - -17,62,5,em_fireworks|green_concrete
+    - -12,63,2,em_fireworks|white_concrete
+    - -15,65,5,em_fireworks|polished_andesite
+    - -13,62,4,em_fireworks|green_concrete
+    - -15,64,5,em_fireworks|polished_andesite
+    - -13,62,5,em_fireworks|green_concrete
+    - -14,62,3,em_fireworks|light_gray_terracotta
+    - -15,66,5,em_fireworks|cobblestone_wall?minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    - -15,62,2,em_fireworks|light_gray_terracotta
+    - -15,63,5,em_fireworks|polished_andesite
+    - -17,62,4,em_fireworks|green_concrete
+    - -14,62,4,em_fireworks|green_concrete
+    - -13,63,-1,em_fireworks|white_concrete
+    - -13,63,0,em_fireworks|white_concrete
+    - -13,63,-3,em_fireworks|white_concrete
+    - -13,63,1,em_fireworks|white_concrete
+    - -9,63,0,em_fireworks|white_concrete
+    - -9,63,-1,em_fireworks|white_concrete
+    - -11,63,2,em_fireworks|white_concrete
+    - -12,63,1,em_fireworks|white_concrete
+    - -11,63,-2,em_fireworks|white_concrete
+    - -10,63,2,em_fireworks|white_concrete
+    - -8,63,-1,em_fireworks|white_concrete
+    - -9,63,2,em_fireworks|white_concrete
+    - -9,63,-2,em_fireworks|white_concrete
+    - -9,63,1,em_fireworks|white_concrete
+    - -8,63,0,em_fireworks|white_concrete
+    - -11,63,1,em_fireworks|white_concrete
+    - -11,63,0,em_fireworks|white_concrete
+    - -10,63,-1,em_fireworks|white_concrete
+    - -12,63,-1,em_fireworks|white_concrete
+    - -10,63,-2,em_fireworks|white_concrete
+    - -10,63,0,em_fireworks|white_concrete
+    - -12,63,-3,em_fireworks|white_concrete
+    - -11,63,-1,em_fireworks|white_concrete
+    - -8,63,1,em_fireworks|white_concrete
+    - -10,63,1,em_fireworks|white_concrete
+    - -10,63,-3,em_fireworks|white_concrete
+    - -11,63,-3,em_fireworks|white_concrete
+    - -12,63,0,em_fireworks|white_concrete
+    - -12,63,-2,em_fireworks|white_concrete
+    - -17,65,-7,em_fireworks|air
+    - -8,64,8,em_fireworks|air
+    - 7,64,-2,em_fireworks|air
+    - 20,63,-6,em_fireworks|air
+    - -11,63,-7,em_fireworks|white_concrete
+    - -11,62,-9,em_fireworks|white_concrete
+    - -7,63,-8,em_fireworks|white_concrete
+    - -11,63,-5,em_fireworks|white_concrete
+    - -10,63,-4,em_fireworks|white_concrete
+    - -8,63,-6,em_fireworks|white_concrete
+    - -10,63,-5,em_fireworks|white_concrete
+    - -9,64,-7,em_fireworks|white_carpet
+    - -8,63,-10,em_fireworks|light_gray_terracotta
+    - -8,63,-9,em_fireworks|white_concrete
+    - -10,63,-9,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -12,63,-5,em_fireworks|white_concrete
+    - -12,62,-10,em_fireworks|white_concrete
+    - -8,62,-7,em_fireworks|green_concrete
+    - -8,63,-5,em_fireworks|white_concrete
+    - -11,63,-8,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -9,63,-4,em_fireworks|white_concrete
+    - -12,63,-6,em_fireworks|light_gray_terracotta
+    - -7,63,-9,em_fireworks|white_concrete
+    - -9,62,-7,em_fireworks|green_concrete
+    - -9,63,-6,em_fireworks|white_concrete
+    - -10,63,-6,em_fireworks|white_concrete
+    - -11,63,-6,em_fireworks|white_concrete
+    - -8,63,-7,em_fireworks|white_concrete
+    - -9,63,-5,em_fireworks|white_concrete
+    - -10,63,-7,em_fireworks|white_concrete
+    - -9,63,-8,em_fireworks|white_concrete
+    - -9,63,-7,em_fireworks|sea_lantern
+    - -8,63,-8,em_fireworks|white_concrete
+    - -13,62,-9,em_fireworks|white_concrete
+    - -9,63,-9,em_fireworks|white_concrete
+    - -10,63,-8,em_fireworks|white_concrete
+    - 7,64,-4,em_fireworks|air
+    - 2,64,-7,em_fireworks|air
+    - -12,62,-12,em_fireworks|white_concrete
+    - -9,65,-13,em_fireworks|polished_andesite
+    - -12,62,-11,em_fireworks|white_concrete
+    - -8,62,-11,em_fireworks|green_concrete
+    - -13,61,-18,em_fireworks|andesite
+    - -11,61,-16,em_fireworks|andesite
+    - -13,61,-17,em_fireworks|andesite
+    - -10,61,-16,em_fireworks|light_gray_terracotta
+    - -10,61,-17,em_fireworks|light_gray_terracotta
+    - -11,61,-18,em_fireworks|light_gray_terracotta
+    - -12,61,-17,em_fireworks|andesite
+    - -10,61,-18,em_fireworks|light_gray_terracotta
+    - -12,61,-18,em_fireworks|light_gray_terracotta
+    - -15,61,-19,em_fireworks|white_concrete
+    - -11,61,-17,em_fireworks|light_gray_terracotta
+    - -14,61,-19,em_fireworks|light_gray_terracotta
+    - -7,63,-11,em_fireworks|air
+    - -19,61,-12,em_fireworks|andesite
+    - -20,61,-11,em_fireworks|andesite
+    - -19,61,-11,em_fireworks|andesite
+    - -20,61,-10,em_fireworks|light_gray_terracotta
+    - -20,61,-12,em_fireworks|andesite
+    - -22,61,-9,em_fireworks|light_gray_terracotta
+    - -22,61,-10,em_fireworks|light_gray_terracotta
+    - -149,153,-88,em_fireworks|air
+    - -18,62,3,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -18,62,5,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -15,62,6,em_fireworks|green_concrete
+    - -16,62,6,em_fireworks|green_concrete
+    - -18,62,4,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -17,62,6,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -18,61,6,em_fireworks|light_gray_terracotta
+    - -16,62,7,em_fireworks|green_concrete
+    - -13,62,-5,em_fireworks|light_gray_terracotta
+    - -15,62,-5,em_fireworks|green_concrete
+    - -13,63,-4,em_fireworks|white_concrete
+    - -11,63,-4,em_fireworks|white_concrete
+    - -9,63,-3,em_fireworks|white_concrete
+    - -12,63,-4,em_fireworks|white_concrete
+    - -14,62,-6,em_fireworks|green_concrete
+    - -13,62,-6,em_fireworks|green_concrete
+    - -14,62,-8,em_fireworks|green_concrete
+    - -12,63,-7,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -14,62,-5,em_fireworks|light_gray_terracotta
+    - -14,62,-4,em_fireworks|white_concrete
+    - -13,62,-4,em_fireworks|green_concrete
+    - -14,62,-7,em_fireworks|green_concrete
+    - -15,62,-8,em_fireworks|green_concrete
+    - -15,62,-7,em_fireworks|green_concrete
+    - -13,62,-7,em_fireworks|green_concrete
+    - -15,62,-6,em_fireworks|green_concrete
+    - -12,62,-9,em_fireworks|white_concrete
+    - 2,64,-2,em_fireworks|air
+    - 23,62,-13,em_fireworks|air
+    - -23,61,0,em_fireworks|white_concrete
+    - -26,61,-2,em_fireworks|white_concrete
+    - -23,61,-3,em_fireworks|white_concrete
+    - -21,61,-1,em_fireworks|white_concrete
+    - -27,61,1,em_fireworks|white_concrete
+    - -24,61,-3,em_fireworks|white_concrete
+    - -26,61,-3,em_fireworks|white_concrete
+    - -24,61,-4,em_fireworks|white_concrete
+    - -22,61,0,em_fireworks|white_concrete
+    - -26,61,0,em_fireworks|white_concrete
+    - -26,61,1,em_fireworks|white_concrete
+    - -27,61,-2,em_fireworks|white_concrete
+    - -25,61,-2,em_fireworks|white_concrete
+    - -24,61,-2,em_fireworks|white_concrete
+    - -23,61,-1,em_fireworks|sea_lantern
+    - -25,61,-1,em_fireworks|white_concrete
+    - -25,61,-4,em_fireworks|white_concrete
+    - -25,61,0,em_fireworks|white_concrete
+    - -24,61,-1,em_fireworks|white_concrete
+    - -23,61,-4,em_fireworks|white_concrete
+    - -27,61,-1,em_fireworks|white_concrete
+    - -24,61,0,em_fireworks|white_concrete
+    - -27,61,0,em_fireworks|white_concrete
+    - -22,61,1,em_fireworks|white_concrete
+    - -25,61,-3,em_fireworks|white_concrete
+    - -26,61,-1,em_fireworks|white_concrete
+    - -23,61,-2,em_fireworks|white_concrete
+    - -22,61,-1,em_fireworks|white_concrete
+    - -22,61,-2,em_fireworks|white_concrete
+    - -25,61,1,em_fireworks|white_concrete
+    - -21,61,1,em_fireworks|white_concrete
+    - -23,62,-1,em_fireworks|white_carpet
+    - -22,61,-3,em_fireworks|white_concrete
+    - -27,61,-3,em_fireworks|white_concrete
+    - -25,62,1,em_fireworks|air
+    - -42,63,18,em_fireworks|air
+    - -21,62,8,em_fireworks|air
+    - -16,71,-7,em_fireworks|sea_lantern
+    - -14,63,0,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -14,63,-3,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -14,63,-1,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -14,63,-2,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -15,66,-7,em_fireworks|air
+    - -16,65,-6,em_fireworks|air
+    - -42,62,0,em_fireworks|air
+    - -13,62,3,em_fireworks|light_gray_terracotta
+    - -13,62,2,em_fireworks|green_concrete
+    - -14,62,2,em_fireworks|white_concrete
+    - -9,63,4,em_fireworks|white_concrete
+    - -9,63,3,em_fireworks|white_concrete
+    - -15,63,6,em_fireworks|air
+    - -16,63,7,em_fireworks|air
+    - -22,62,15,em_fireworks|air
+    - 7,62,-6,em_fireworks|green_concrete
+    - 3,63,-5,em_fireworks|white_concrete
+    - 6,62,-10,em_fireworks|white_concrete
+    - 4,63,-4,em_fireworks|white_concrete
+    - 7,62,-9,em_fireworks|white_concrete
+    - 8,62,-6,em_fireworks|green_concrete
+    - 3,63,-9,em_fireworks|white_concrete
+    - 3,63,-8,em_fireworks|white_concrete
+    - 7,62,-4,em_fireworks|green_concrete
+    - 8,62,-4,em_fireworks|white_concrete
+    - 5,63,-5,em_fireworks|white_concrete
+    - 7,62,-7,em_fireworks|green_concrete
+    - 4,63,-6,em_fireworks|white_concrete
+    - 5,63,-7,em_fireworks|white_concrete
+    - 8,62,-5,em_fireworks|light_gray_terracotta
+    - 5,63,-4,em_fireworks|white_concrete
+    - 6,62,-9,em_fireworks|white_concrete
+    - 8,62,-7,em_fireworks|green_concrete
+    - 4,63,-7,em_fireworks|white_concrete
+    - 3,63,-7,em_fireworks|sea_lantern
+    - 3,64,-7,em_fireworks|white_carpet
+    - 6,63,-6,em_fireworks|light_gray_terracotta
+    - 6,63,-4,em_fireworks|white_concrete
+    - 8,62,-8,em_fireworks|green_concrete
+    - 4,63,-8,em_fireworks|white_concrete
+    - 3,63,-4,em_fireworks|white_concrete
+    - 7,63,-4,em_fireworks|white_concrete
+    - 7,62,-5,em_fireworks|light_gray_terracotta
+    - 6,63,-7,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - 4,63,-5,em_fireworks|white_concrete
+    - 3,63,-6,em_fireworks|white_concrete
+    - 6,63,-5,em_fireworks|white_concrete
+    - 5,63,-8,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - 5,63,-6,em_fireworks|white_concrete
+    - 5,64,-3,em_fireworks|air
+    - 9,63,-8,em_fireworks|air
+    - 11,62,-12,em_fireworks|air
+    - 15,62,-19,em_fireworks|air
+    - 11,61,-15,em_fireworks|white_concrete
+    - 9,62,-11,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - 8,61,-13,em_fireworks|white_concrete
+    - 9,62,-10,em_fireworks|light_gray_terracotta
+    - 10,61,-13,em_fireworks|white_concrete
+    - 8,62,-11,em_fireworks|white_concrete
+    - 11,61,-14,em_fireworks|white_concrete
+    - 9,61,-15,em_fireworks|white_concrete
+    - 12,61,-14,em_fireworks|white_concrete
+    - 8,61,-15,em_fireworks|light_gray_terracotta
+    - 11,61,-16,em_fireworks|white_concrete
+    - 10,61,-14,em_fireworks|white_concrete
+    - 8,61,-14,em_fireworks|white_concrete
+    - 10,61,-12,em_fireworks|white_concrete
+    - 9,61,-12,em_fireworks|white_concrete
+    - 9,61,-13,em_fireworks|white_concrete
+    - 8,62,-12,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - 12,61,-13,em_fireworks|light_gray_terracotta
+    - 10,61,-11,em_fireworks|light_gray_terracotta
+    - 11,61,-12,em_fireworks|light_gray_terracotta
+    - 11,61,-13,em_fireworks|white_concrete
+    - 12,61,-15,em_fireworks|white_concrete
+    - 8,61,-12,em_fireworks|white_concrete
+    - 10,61,-15,em_fireworks|white_concrete
+    - 9,61,-14,em_fireworks|white_concrete
+    - 3,62,-7,em_fireworks|green_concrete
+    - 2,63,-5,em_fireworks|white_concrete
+    - 2,63,-4,em_fireworks|white_concrete
+    - 2,63,-8,em_fireworks|white_concrete
+    - 2,63,-6,em_fireworks|white_concrete
+    - 0,63,-7,em_fireworks|white_concrete
+    - 1,63,-8,em_fireworks|white_concrete
+    - 2,63,-7,em_fireworks|white_concrete
+    - 0,63,-6,em_fireworks|white_concrete
+    - 4,63,-9,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - 2,63,-9,em_fireworks|white_concrete
+    - 0,62,-18,em_fireworks|air
+    - 8,62,-16,em_fireworks|air
+    - 5,63,5,em_fireworks|white_concrete
+    - 1,63,6,em_fireworks|white_concrete
+    - 1,63,2,em_fireworks|white_concrete
+    - 1,63,1,em_fireworks|white_concrete
+    - 3,63,4,em_fireworks|white_concrete
+    - -1,63,2,em_fireworks|white_concrete
+    - 5,63,2,em_fireworks|white_concrete
+    - 4,63,6,em_fireworks|white_concrete
+    - 3,63,6,em_fireworks|white_concrete
+    - 3,63,3,em_fireworks|white_concrete
+    - 3,64,5,em_fireworks|white_carpet
+    - -1,63,3,em_fireworks|white_concrete
+    - 0,63,3,em_fireworks|white_concrete
+    - 3,63,5,em_fireworks|sea_lantern
+    - 2,63,6,em_fireworks|white_concrete
+    - 5,63,4,em_fireworks|white_concrete
+    - 0,63,2,em_fireworks|white_concrete
+    - 5,63,1,em_fireworks|white_concrete
+    - 3,63,2,em_fireworks|white_concrete
+    - 2,63,3,em_fireworks|white_concrete
+    - -1,63,4,em_fireworks|white_concrete
+    - 2,63,1,em_fireworks|white_concrete
+    - 1,63,5,em_fireworks|white_concrete
+    - 1,63,4,em_fireworks|white_concrete
+    - 1,63,0,em_fireworks|white_concrete
+    - 1,63,3,em_fireworks|white_concrete
+    - 0,63,5,em_fireworks|white_concrete
+    - 3,63,0,em_fireworks|white_concrete
+    - 6,63,3,em_fireworks|white_concrete
+    - 3,63,1,em_fireworks|white_concrete
+    - 2,63,0,em_fireworks|white_concrete
+    - 4,63,3,em_fireworks|white_concrete
+    - 6,63,1,em_fireworks|white_concrete
+    - 4,63,4,em_fireworks|white_concrete
+    - 6,63,2,em_fireworks|white_concrete
+    - 0,63,1,em_fireworks|white_concrete
+    - 5,63,3,em_fireworks|white_concrete
+    - 4,63,2,em_fireworks|white_concrete
+    - 2,63,4,em_fireworks|white_concrete
+    - 4,63,5,em_fireworks|white_concrete
+    - 2,63,2,em_fireworks|white_concrete
+    - 4,63,1,em_fireworks|white_concrete
+    - 2,63,5,em_fireworks|white_concrete
+    - 0,63,4,em_fireworks|white_concrete
+    - 23,65,22,em_fireworks|air
+    - 4,63,-2,em_fireworks|white_concrete
+    - 4,63,-1,em_fireworks|white_concrete
+    - 0,63,-4,em_fireworks|white_concrete
+    - 5,63,-2,em_fireworks|white_concrete
+    - 3,63,-1,em_fireworks|white_concrete
+    - 2,63,-3,em_fireworks|white_concrete
+    - 5,63,-1,em_fireworks|white_concrete
+    - 6,63,-1,em_fireworks|white_concrete
+    - 3,63,-2,em_fireworks|white_concrete
+    - 6,63,-2,em_fireworks|white_concrete
+    - 7,63,-2,em_fireworks|white_concrete
+    - 4,63,-3,em_fireworks|white_concrete
+    - 5,63,0,em_fireworks|white_concrete
+    - 5,63,-3,em_fireworks|white_concrete
+    - 1,63,-4,em_fireworks|white_concrete
+    - 6,63,0,em_fireworks|white_concrete
+    - 1,63,-5,em_fireworks|white_concrete
+    - 1,63,-3,em_fireworks|white_concrete
+    - 1,63,-2,em_fireworks|white_concrete
+    - 7,63,0,em_fireworks|white_concrete
+    - 2,63,-1,em_fireworks|white_concrete
+    - 3,63,-3,em_fireworks|white_concrete
+    - 2,63,-2,em_fireworks|white_concrete
+    - 4,63,0,em_fireworks|white_concrete
+    - 6,63,-3,em_fireworks|white_concrete
+    - 1,63,-1,em_fireworks|white_concrete
+    - 0,63,-1,em_fireworks|white_concrete
+    - -16,63,-27,em_fireworks|air
+    - -3,63,2,em_fireworks|white_concrete
+    - -4,63,-1,em_fireworks|white_concrete
+    - -6,63,2,em_fireworks|white_concrete
+    - -4,63,0,em_fireworks|white_concrete
+    - -8,63,-2,em_fireworks|white_concrete
+    - -4,63,3,em_fireworks|white_concrete
+    - -5,63,2,em_fireworks|white_concrete
+    - -6,63,3,em_fireworks|white_concrete
+    - -5,63,-3,em_fireworks|white_concrete
+    - -5,63,0,em_fireworks|white_concrete
+    - -7,63,-2,em_fireworks|white_concrete
+    - -7,63,-1,em_fireworks|white_concrete
+    - -6,63,-3,em_fireworks|white_concrete
+    - -7,63,0,em_fireworks|white_concrete
+    - -7,63,3,em_fireworks|white_concrete
+    - -6,63,-2,em_fireworks|white_concrete
+    - -5,63,-1,em_fireworks|white_concrete
+    - -7,63,1,em_fireworks|white_concrete
+    - -4,63,-2,em_fireworks|white_concrete
+    - -6,63,0,em_fireworks|white_concrete
+    - -5,63,-2,em_fireworks|white_concrete
+    - -5,63,1,em_fireworks|white_concrete
+    - -5,63,3,em_fireworks|white_concrete
+    - -8,63,2,em_fireworks|white_concrete
+    - -8,63,-3,em_fireworks|white_concrete
+    - -7,63,2,em_fireworks|white_concrete
+    - -8,63,3,em_fireworks|white_concrete
+    - -6,63,-1,em_fireworks|white_concrete
+    - -6,63,1,em_fireworks|white_concrete
+    - -4,63,1,em_fireworks|white_concrete
+    - -2,63,3,em_fireworks|white_concrete
+    - -2,63,2,em_fireworks|white_concrete
+    - -3,63,3,em_fireworks|white_concrete
+    - -3,63,1,em_fireworks|white_concrete
+    - -1,63,1,em_fireworks|white_concrete
+    - -3,63,4,em_fireworks|white_concrete
+    - -3,63,0,em_fireworks|white_concrete
+    - -2,63,4,em_fireworks|white_concrete
+    - -1,63,5,em_fireworks|white_concrete
+    - -2,63,0,em_fireworks|white_concrete
+    - -4,63,4,em_fireworks|white_concrete
+    - 0,63,0,em_fireworks|white_concrete
+    - -2,63,1,em_fireworks|white_concrete
+    - -2,63,5,em_fireworks|white_concrete
+    - -1,63,0,em_fireworks|white_concrete
+    - -4,63,2,em_fireworks|white_concrete
+    - -1,63,-1,em_fireworks|white_concrete
+    - -3,63,-1,em_fireworks|white_concrete
+    - -19,62,-2,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -18,62,-6,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -21,61,-5,em_fireworks|white_concrete
+    - -17,62,-6,em_fireworks|green_concrete
+    - -17,62,-7,em_fireworks|green_concrete
+    - -18,62,-5,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -16,62,-6,em_fireworks|green_concrete
+    - -19,62,-4,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -28,63,-4,em_fireworks|air
+    - -30,62,-3,em_fireworks|air
+    - -5,62,-13,em_fireworks|white_concrete
+    - -4,62,-15,em_fireworks|white_concrete
+    - -7,62,-15,em_fireworks|green_concrete
+    - -5,62,-12,em_fireworks|white_concrete
+    - -4,63,-12,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -5,62,-14,em_fireworks|white_concrete
+    - -7,62,-13,em_fireworks|green_concrete
+    - -3,62,-16,em_fireworks|white_concrete
+    - -8,62,-14,em_fireworks|green_concrete
+    - -3,62,-14,em_fireworks|white_concrete
+    - -4,62,-14,em_fireworks|white_concrete
+    - -6,62,-12,em_fireworks|white_concrete
+    - -7,62,-14,em_fireworks|green_concrete
+    - -4,62,-13,em_fireworks|white_concrete
+    - -7,62,-12,em_fireworks|light_gray_terracotta
+    - -5,62,-16,em_fireworks|white_concrete
+    - -4,62,-16,em_fireworks|white_concrete
+    - -6,62,-13,em_fireworks|light_gray_terracotta
+    - -8,62,-13,em_fireworks|green_concrete
+    - -6,62,-14,em_fireworks|light_gray_terracotta
+    - -8,62,-15,em_fireworks|green_concrete
+    - -6,62,-15,em_fireworks|light_gray_terracotta
+    - -6,62,-16,em_fireworks|light_gray_terracotta
+    - -6,63,-12,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -5,62,-15,em_fireworks|white_concrete
+    - -3,62,-15,em_fireworks|white_concrete
+    - -5,63,-12,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -4,62,-12,em_fireworks|white_concrete
+    - -9,62,-23,em_fireworks|air
+    - -9,67,-13,em_fireworks|cobblestone_wall?minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    - -7,63,-10,em_fireworks|white_concrete
+    - -9,66,-13,em_fireworks|cobblestone_wall?minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    - -10,62,-9,em_fireworks|white_concrete
+    - -8,62,-12,em_fireworks|green_concrete
+    - -6,63,-11,em_fireworks|white_concrete
+    - -6,63,-9,em_fireworks|white_concrete
+    - -9,62,-13,em_fireworks|polished_andesite
+    - -6,63,-10,em_fireworks|white_concrete
+    - -7,62,-11,em_fireworks|light_gray_terracotta
+    - -7,62,-10,em_fireworks|green_concrete
+    - -9,63,-10,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - -6,62,-11,em_fireworks|green_concrete
+    - -8,62,-10,em_fireworks|green_concrete
+    - -9,62,-10,em_fireworks|light_gray_terracotta
+    - -5,63,-11,em_fireworks|white_concrete
+    - -9,65,-12,em_fireworks|air
+    - -5,63,-5,em_fireworks|white_concrete
+    - -3,63,-4,em_fireworks|white_concrete
+    - -4,63,-9,em_fireworks|white_concrete
+    - -6,63,-7,em_fireworks|white_concrete
+    - -3,63,-5,em_fireworks|white_concrete
+    - -5,63,-6,em_fireworks|white_concrete
+    - -4,63,-10,em_fireworks|white_concrete
+    - -5,63,-7,em_fireworks|white_concrete
+    - -3,63,-8,em_fireworks|white_concrete
+    - -8,63,-4,em_fireworks|white_concrete
+    - -6,63,-8,em_fireworks|white_concrete
+    - -5,63,-4,em_fireworks|white_concrete
+    - -7,63,-4,em_fireworks|white_concrete
+    - -4,63,-7,em_fireworks|white_concrete
+    - -3,63,-6,em_fireworks|white_concrete
+    - -5,63,-8,em_fireworks|white_concrete
+    - -7,63,-3,em_fireworks|white_concrete
+    - -6,63,-5,em_fireworks|white_concrete
+    - -3,63,-7,em_fireworks|white_concrete
+    - -5,63,-9,em_fireworks|white_concrete
+    - -6,63,-4,em_fireworks|white_concrete
+    - -4,63,-4,em_fireworks|white_concrete
+    - -4,63,-8,em_fireworks|white_concrete
+    - -3,63,-9,em_fireworks|white_concrete
+    - -7,63,-6,em_fireworks|white_concrete
+    - -4,63,-3,em_fireworks|white_concrete
+    - -4,63,-6,em_fireworks|white_concrete
+    - -6,63,-6,em_fireworks|white_concrete
+    - -7,63,-5,em_fireworks|white_concrete
+    - -7,63,-7,em_fireworks|white_concrete
+    - -4,63,-5,em_fireworks|white_concrete
+    - -4,63,-11,em_fireworks|white_concrete
+    - -5,63,-10,em_fireworks|white_concrete
+    - -14,65,5,em_fireworks|air
+    - 7,62,8,em_fireworks|white_concrete
+    - 4,62,9,em_fireworks|light_gray_terracotta
+    - 5,62,8,em_fireworks|white_concrete
+    - 1,63,8,em_fireworks|white_concrete
+    - 1,63,7,em_fireworks|white_concrete
+    - 2,63,8,em_fireworks|light_gray_terracotta
+    - 4,63,7,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - 3,62,9,em_fireworks|green_concrete
+    - 5,63,6,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - 6,62,8,em_fireworks|white_concrete
+    - 5,62,7,em_fireworks|white_concrete
+    - 3,62,10,em_fireworks|green_concrete
+    - 6,62,7,em_fireworks|white_concrete
+    - 4,62,10,em_fireworks|green_concrete
+    - 3,63,7,em_fireworks|white_concrete
+    - 6,62,9,em_fireworks|white_concrete
+    - 2,63,7,em_fireworks|white_concrete
+    - 5,62,9,em_fireworks|white_concrete
+    - 4,62,8,em_fireworks|white_concrete
+    - 3,63,8,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - 3,64,10,em_fireworks|air
+    - 5,62,11,em_fireworks|green_concrete
+    - 5,62,12,em_fireworks|green_concrete
+    - 2,62,10,em_fireworks|green_concrete
+    - 3,64,11,em_fireworks|polished_andesite
+    - 3,65,11,em_fireworks|polished_andesite
+    - 3,62,12,em_fireworks|green_concrete
+    - 2,62,9,em_fireworks|green_concrete
+    - 3,66,11,em_fireworks|cobblestone_wall?minecraft:cobblestone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]
+    - 6,62,10,em_fireworks|white_concrete
+    - 4,62,12,em_fireworks|green_concrete
+    - 4,62,11,em_fireworks|green_concrete
+    - 1,62,8,em_fireworks|green_concrete
+    - 2,62,11,em_fireworks|green_concrete
+    - 5,62,10,em_fireworks|light_gray_terracotta
+    - 1,62,11,em_fireworks|green_concrete
+    - 0,63,8,em_fireworks|white_concrete
+    - 2,62,8,em_fireworks|green_concrete
+    - 0,62,10,em_fireworks|white_concrete
+    - 1,62,10,em_fireworks|light_gray_terracotta
+    - 3,62,8,em_fireworks|light_gray_terracotta
+    - 3,63,11,em_fireworks|polished_andesite
+    - 0,63,9,em_fireworks|white_concrete
+    - 7,62,9,em_fireworks|white_concrete
+    - 6,62,11,em_fireworks|light_gray_terracotta
+    - 3,65,10,em_fireworks|air
+    - 4,64,11,em_fireworks|air
+    - 3,62,20,em_fireworks|air
+    - 8,62,10,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - 8,61,11,em_fireworks|white_concrete
+    - 9,61,12,em_fireworks|white_concrete
+    - 6,61,13,em_fireworks|andesite
+    - 10,61,11,em_fireworks|white_concrete
+    - 7,62,10,em_fireworks|white_concrete
+    - 6,61,12,em_fireworks|stone_bricks
+    - 9,61,13,em_fireworks|white_concrete
+    - 7,61,13,em_fireworks|stone_bricks
+    - 5,62,13,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - 7,61,12,em_fireworks|light_gray_terracotta
+    - 8,61,10,em_fireworks|white_concrete
+    - 9,61,11,em_fireworks|white_concrete
+    - 9,61,10,em_fireworks|white_concrete
+    - 6,62,12,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - 8,61,13,em_fireworks|light_gray_terracotta
+    - 7,61,11,em_fireworks|white_concrete
+    - 10,61,12,em_fireworks|white_concrete
+    - 7,62,11,em_fireworks|smooth_stone_slab?minecraft:smooth_stone_slab[type=bottom,waterlogged=false]
+    - 8,61,12,em_fireworks|white_concrete
+    - 7,64,0,em_fireworks|air
+    - 19,62,4,em_fireworks|air
+    - 0,63,-8,em_fireworks|white_concrete
+    - -1,63,-8,em_fireworks|white_concrete
+    - 1,63,-7,em_fireworks|white_concrete
+    - -2,63,-8,em_fireworks|white_concrete
+    - -1,63,-7,em_fireworks|white_concrete
+    - -2,63,-7,em_fireworks|white_concrete
+    - 34,96,6,em_fireworks|air
+    - -16,61,-20,em_fireworks|white_concrete
+    - -16,61,-18,em_fireworks|white_concrete
+    - -17,61,-22,em_fireworks|light_gray_terracotta
+    - -17,61,-21,em_fireworks|white_concrete
+    - -15,61,-20,em_fireworks|white_concrete
+    - -17,61,-20,em_fireworks|white_concrete
+    - -16,61,-17,em_fireworks|light_gray_terracotta
+    - -16,61,-22,em_fireworks|white_concrete
+    - -16,61,-21,em_fireworks|white_concrete
+    - -16,61,-19,em_fireworks|white_concrete
+    - -19,61,-21,em_fireworks|andesite
+    - -21,61,-20,em_fireworks|white_concrete
+    - -18,61,-21,em_fireworks|light_gray_terracotta
+    - -19,61,-22,em_fireworks|andesite
+    - -18,61,-23,em_fireworks|andesite
+    - -16,61,-23,em_fireworks|light_gray_terracotta
+    - -19,61,-20,em_fireworks|light_gray_terracotta
+    - -18,61,-22,em_fireworks|andesite
+    - -15,61,-23,em_fireworks|white_concrete
+    time_to_live: 0
+    name: 水肺
+    mode: NO_PHYSICS
+  - blocks:
+    - 2,63,-288,world|air
+    time_to_live: 0
+    name: 标记
+    mode: NO_PHYSICS
+  - blocks:
+    - 1,63,-287,world|air
+    time_to_live: 0
+    name: 标记
+    mode: NO_PHYSICS
   1744f3f7-ffb9-44f7-b081-9eb36e7d564f: []
   30e40806-244e-49e4-bef6-4055cffaeb15: []
 spells:
@@ -68,12 +1262,6 @@ spells:
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
-    charges: 0.0
-  sparkle:
-    cast_count: 7
-    last_cast: 1689512302609
-    last_earn: 0
-    cooldown_expiration: 1689512332609
     charges: 0.0
   mob|3:
     cast_count: 0
@@ -99,12 +1287,6 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
-  invincible:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
   rocket:
     cast_count: 34
     last_cast: 1689681293056
@@ -119,33 +1301,9 @@ spells:
     charges: 0.0
   cure:
     cast_count: 6
-    last_cast: 1689862221069
+    last_cast: 1690882442597
     last_earn: 1689682085863
-    cooldown_expiration: 1689862241069
-    charges: 0.0
-  peek|2:
-    cast_count: 10
-    last_cast: 1689315826420
-    last_earn: 1689314585113
-    cooldown_expiration: 1689315831420
-    charges: 0.0
-  upgrades:
-    cast_count: 28
-    last_cast: 1689930257953
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  tracking:
-    cast_count: 10
-    last_cast: 1689839846632
-    last_earn: 1689839846620
-    cooldown_expiration: 1689839851632
-    charges: 0.0
-  peek|4:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
+    cooldown_expiration: 1690882462597
     charges: 0.0
   nuke|2:
     cast_count: 0
@@ -159,35 +1317,11 @@ spells:
     last_earn: 1680695726420
     cooldown_expiration: 1680695729427
     charges: 0.0
-  monster|3:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
   music:
     cast_count: 0
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
-    charges: 0.0
-  pollinate:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  neutron|2:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  frost:
-    cast_count: 0
-    last_cast: 1689839750861
-    last_earn: 0
-    cooldown_expiration: 1689839760861
     charges: 0.0
   flare|3:
     cast_count: 0
@@ -208,10 +1342,10 @@ spells:
     cooldown_expiration: 1689839746666
     charges: 0.0
   fireball|3:
-    cast_count: 36
-    last_cast: 1689824873229
-    last_earn: 1689824875087
-    cooldown_expiration: 1689824883229
+    cast_count: 42
+    last_cast: 1690509920315
+    last_earn: 1690509867125
+    cooldown_expiration: 1690509930315
     charges: 0.0
   fire:
     cast_count: 40
@@ -231,11 +1365,11 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
-  pickpocket:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
+  homing:
+    cast_count: 1
+    last_cast: 1691552612906
+    last_earn: 1691552604298
+    cooldown_expiration: 1691552622906
     charges: 0.0
   fireball|2:
     cast_count: 33
@@ -243,17 +1377,11 @@ spells:
     last_earn: 1683956667972
     cooldown_expiration: 1683956677974
     charges: 0.0
-  phase:
-    cast_count: 7
-    last_cast: 1689152392338
-    last_earn: 1689152367394
-    cooldown_expiration: 0
-    charges: 0.0
   lightning:
-    cast_count: 8
-    last_cast: 1690111028240
-    last_earn: 1690111028235
-    cooldown_expiration: 1690111073240
+    cast_count: 11
+    last_cast: 1690349934887
+    last_earn: 1690349934885
+    cooldown_expiration: 1690349979887
     charges: 0.0
   lightning|3:
     cast_count: 0
@@ -269,29 +1397,11 @@ spells:
     charges: 0.0
   grow:
     cast_count: 0
-    last_cast: 1689226169662
+    last_cast: 1690429191218
     last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  blind|3:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
+    cooldown_expiration: 1690429221218
     charges: 0.0
   shrink:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  tendril:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  chop:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -315,12 +1425,6 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
-  push:
-    cast_count: 18
-    last_cast: 1690035030272
-    last_earn: 1690035008155
-    cooldown_expiration: 1690035035272
-    charges: 0.0
   horse:
     cast_count: 0
     last_cast: 0
@@ -333,49 +1437,13 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
-  wandinstructions:
-    cast_count: 8
-    last_cast: 1689930256745
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  mine|6:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  curse:
-    cast_count: 1
-    last_cast: 1689676830567
-    last_earn: 1689676830625
-    cooldown_expiration: 1689676836567
-    charges: 0.0
-  lift:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  force:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  arrow|6:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
+  shuriken:
+    cast_count: 4
+    last_cast: 1691553228654
+    last_earn: 1691552629943
+    cooldown_expiration: 1691553238654
     charges: 0.0
   vengeance|3:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  blessing:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -387,34 +1455,16 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
-  workbench|4:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
   sponge:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  railgun|3:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
+    cast_count: 6
+    last_cast: 1690777538868
+    last_earn: 1690529648932
+    cooldown_expiration: 1690777546868
     charges: 0.0
   vengeance:
     cast_count: 11
     last_cast: 1689840613764
     last_earn: 1689840616524
-    cooldown_expiration: 1689840633764
-    charges: 0.0
-  localrain:
-    cast_count: 6
-    last_cast: 1688965598077
-    last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
   silence|3:
@@ -429,47 +1479,11 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
-  controlsmenu:
-    cast_count: 14
-    last_cast: 1689515907294
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  dragonball:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  walls:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
   effectshop:
     cast_count: 3
     last_cast: 1689949747755
     last_earn: 0
     cooldown_expiration: 0
-    charges: 0.0
-  bubble:
-    cast_count: 6
-    last_cast: 1689839862257
-    last_earn: 1689839850366
-    cooldown_expiration: 1689839864257
-    charges: 0.0
-  stream:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  recall:
-    cast_count: 25
-    last_cast: 1681583861786
-    last_earn: 1681583861785
-    cooldown_expiration: 1681583876786
     charges: 0.0
   smite|3:
     cast_count: 0
@@ -477,29 +1491,23 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
-  homing|4:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  fireball:
-    cast_count: 15
-    last_cast: 1680322164599
-    last_earn: 1680322113391
-    cooldown_expiration: 1680322174599
-    charges: 0.0
   chop|3:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
+    cast_count: 44
+    last_cast: 1690427749024
+    last_earn: 1690427744260
+    cooldown_expiration: 1690427754024
     charges: 0.0
   mine:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
+    cast_count: 1
+    last_cast: 1690428516666
+    last_earn: 1690428517803
+    cooldown_expiration: 1690428526666
+    charges: 0.0
+  chop|2:
+    cast_count: 30
+    last_cast: 1690337910721
+    last_earn: 1690337800117
+    cooldown_expiration: 1690337915721
     charges: 0.0
   superbroom:
     cast_count: 8
@@ -519,23 +1527,11 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
-  chainlightning|3:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
   laser|3:
     cast_count: 0
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
-    charges: 0.0
-  torch:
-    cast_count: 3
-    last_cast: 1687843692899
-    last_earn: 1687843678447
-    cooldown_expiration: 1687843702899
     charges: 0.0
   frost|4:
     cast_count: 0
@@ -544,8 +1540,8 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   familiar:
-    cast_count: 7
-    last_cast: 1689084008132
+    cast_count: 8
+    last_cast: 1690336967313
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -555,23 +1551,11 @@ spells:
     last_earn: 1689822899720
     cooldown_expiration: 1689823062523
     charges: 0.0
-  peek:
-    cast_count: 10
-    last_cast: 1689313084856
-    last_earn: 1689313027582
-    cooldown_expiration: 1689313089856
-    charges: 0.0
-  soulburn|4:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
   monster:
-    cast_count: 2
-    last_cast: 1689226149765
+    cast_count: 5
+    last_cast: 1690429211270
     last_earn: 0
-    cooldown_expiration: 0
+    cooldown_expiration: 1690429241270
     charges: 0.0
   pull:
     cast_count: 48
@@ -579,51 +1563,15 @@ spells:
     last_earn: 1690035033820
     cooldown_expiration: 1690035045273
     charges: 0.0
-  wave|2:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  phasebackup:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  gatling|2:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  growth|4:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
   cloak:
     cast_count: 12
     last_cast: 1690035137157
     last_earn: 1690035109107
     cooldown_expiration: 1690035167157
     charges: 0.0
-  petrify|3:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
   glide:
     cast_count: 0
     last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  restorelocalweather:
-    cast_count: 6
-    last_cast: 1688965602408
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -633,43 +1581,19 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
-  admission|2:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  arrow:
-    cast_count: 25
-    last_cast: 1690035092270
-    last_earn: 1690035092455
-    cooldown_expiration: 1690035094270
-    charges: 0.0
-  kill|3:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
   smite:
     cast_count: 0
-    last_cast: 1689688425127
+    last_cast: 1690870490329
     last_earn: 0
-    cooldown_expiration: 1689688445127
+    cooldown_expiration: 1690870510329
     charges: 0.0
   entangle:
-    cast_count: 2
-    last_cast: 1689242246112
-    last_earn: 1689242246245
-    cooldown_expiration: 1689242254112
+    cast_count: 5
+    last_cast: 1690428449768
+    last_earn: 1690428428957
+    cooldown_expiration: 1690428457768
     charges: 0.0
   meteor|2:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  cure|5:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -681,57 +1605,21 @@ spells:
     last_earn: 1689134798973
     cooldown_expiration: 1690035091068
     charges: 0.0
-  flashbang:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
   secure:
     cast_count: 12
     last_cast: 1689653407002
     last_earn: 1689653407000
-    cooldown_expiration: 1689653412002
+    cooldown_expiration: 0
     charges: 0.0
   fling:
-    cast_count: 32
-    last_cast: 1690035053021
-    last_earn: 1690035047722
-    cooldown_expiration: 1690035058021
-    charges: 0.0
-  whip:
-    cast_count: 16
-    last_cast: 1690103993895
-    last_earn: 1687832423569
-    cooldown_expiration: 1690103998895
-    charges: 0.0
-  shuriken|3:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  cage:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  recall|2:
-    cast_count: 30
-    last_cast: 1685151468289
-    last_earn: 1685151311606
-    cooldown_expiration: 1685151483289
+    cast_count: 34
+    last_cast: 1690428463818
+    last_earn: 1690428463816
+    cooldown_expiration: 1690428468818
     charges: 0.0
   spellshop:
     cast_count: 1
-    last_cast: 1689930260593
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  fling|4:
-    cast_count: 0
-    last_cast: 0
+    last_cast: 1691552553995
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -747,17 +1635,11 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
-  tag:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
   aqualung:
-    cast_count: 213
-    last_cast: 1690111416406
+    cast_count: 279
+    last_cast: 1691550575937
     last_earn: 0
-    cooldown_expiration: 1690111476406
+    cooldown_expiration: 1691550635937
     charges: 0.0
   workbench:
     cast_count: 6
@@ -765,31 +1647,7 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
-  recall|3:
-    cast_count: 35
-    last_cast: 1689333345226
-    last_earn: 1689333354724
-    cooldown_expiration: 0
-    charges: 0.0
   arrowrain|2:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  tracking|5:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  recall|5:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  wither|3:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -800,12 +1658,6 @@ spells:
     last_cast: 1689085423753
     last_earn: 1689085420616
     cooldown_expiration: 0
-    charges: 0.0
-  grenade:
-    cast_count: 12
-    last_cast: 1689741631003
-    last_earn: 1689741589536
-    cooldown_expiration: 1689741641003
     charges: 0.0
   reflect|5:
     cast_count: 0
@@ -825,47 +1677,11 @@ spells:
     last_earn: 1688977125621
     cooldown_expiration: 1688977128641
     charges: 0.0
-  stun|3:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  broom:
-    cast_count: 8
-    last_cast: 1689832765847
-    last_earn: 0
-    cooldown_expiration: 1689832780847
-    charges: 0.0
-  earthquake:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
   gather:
     cast_count: 0
-    last_cast: 1689822699590
+    last_cast: 1691553216147
     last_earn: 0
-    cooldown_expiration: 1689822714590
-    charges: 0.0
-  admission:
-    cast_count: 0
-    last_cast: 1690107898568
-    last_earn: 0
-    cooldown_expiration: 1690107908568
-    charges: 0.0
-  sticky|3:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  disarm:
-    cast_count: 0
-    last_cast: 1689930295340
-    last_earn: 0
-    cooldown_expiration: 1689930305340
+    cooldown_expiration: 1691553231147
     charges: 0.0
   boon|4:
     cast_count: 0
@@ -873,53 +1689,17 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
-  blob:
-    cast_count: 4
-    last_cast: 1689300746018
-    last_earn: 1689300695541
-    cooldown_expiration: 0
-    charges: 0.0
   shell:
-    cast_count: 13
-    last_cast: 1689741552706
-    last_earn: 1689741552794
-    cooldown_expiration: 1689741557706
-    charges: 0.0
-  fury|3:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  collapse|2:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  airscooter:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  lava|4:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  tent:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
+    cast_count: 25
+    last_cast: 1690429355914
+    last_earn: 1690429302804
+    cooldown_expiration: 1690429360914
     charges: 0.0
   blind:
-    cast_count: 5
-    last_cast: 1689839740165
-    last_earn: 1682744429710
-    cooldown_expiration: 1689839760165
+    cast_count: 7
+    last_cast: 1690428472017
+    last_earn: 1690428474054
+    cooldown_expiration: 1690428492017
     charges: 0.0
   boon:
     cast_count: 21
@@ -927,29 +1707,17 @@ spells:
     last_earn: 1688960960239
     cooldown_expiration: 0
     charges: 0.0
-  sandblast|2:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
   boom:
-    cast_count: 8
-    last_cast: 1689839836665
-    last_earn: 1689839836726
-    cooldown_expiration: 1689839843665
+    cast_count: 9
+    last_cast: 1690509890455
+    last_earn: 1690509890828
+    cooldown_expiration: 1690509897455
     charges: 0.0
   emp:
     cast_count: 0
-    last_cast: 0
+    last_cast: 1690721876726
     last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  appearanceshop:
-    cast_count: 1
-    last_cast: 1689949712885
-    last_earn: 0
-    cooldown_expiration: 0
+    cooldown_expiration: 1690721881726
     charges: 0.0
   blast|4:
     cast_count: 0
@@ -958,34 +1726,16 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   blink:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
+    cast_count: 2
+    last_cast: 1690445665222
+    last_earn: 1690445665221
+    cooldown_expiration: 1690445675222
     charges: 0.0
-  cluster|4:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  shell|4:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  flamethrower|4:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  breach|3:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
+  wave:
+    cast_count: 15
+    last_cast: 1690871241584
+    last_earn: 1690871244287
+    cooldown_expiration: 1690871271584
     charges: 0.0
   bomb|4:
     cast_count: 0
@@ -994,10 +1744,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   lava:
-    cast_count: 11
-    last_cast: 1689834677792
-    last_earn: 1689834672573
-    cooldown_expiration: 1689834682792
+    cast_count: 50
+    last_cast: 1690774882470
+    last_earn: 1690774793212
+    cooldown_expiration: 1690774887470
     charges: 0.0
   icbm:
     cast_count: 0
@@ -1011,59 +1761,17 @@ spells:
     last_earn: 1690035056328
     cooldown_expiration: 1690035061330
     charges: 0.0
-  flamethrower:
-    cast_count: 1
-    last_cast: 1689688451078
-    last_earn: 1689688451407
-    cooldown_expiration: 1689688453078
-    charges: 0.0
-  heal:
-    cast_count: 27
-    last_cast: 1689822671786
-    last_earn: 1689729919185
-    cooldown_expiration: 1689822731786
-    charges: 0.0
   grenade|2:
     cast_count: 0
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
-  progressmenu:
-    cast_count: 180
-    last_cast: 1689949751619
+  decoy:
+    cast_count: 13
+    last_cast: 1691553109302
     last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  ghast:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  harden|5:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  fire|4:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  fire|3:
-    cast_count: 18
-    last_cast: 1689949440727
-    last_earn: 1689949433757
-    cooldown_expiration: 1689949444727
-    charges: 0.0
-  fire|2:
-    cast_count: 50
-    last_cast: 1689512254820
-    last_earn: 1689512254809
-    cooldown_expiration: 1689512258820
+    cooldown_expiration: 1691553139302
     charges: 0.0
   disarm|3:
     cast_count: 0
@@ -1072,12 +1780,6 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   boom|2:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  disintegrate:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -1096,12 +1798,6 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   platform|3:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
-    charges: 0.0
-  levitate|3:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -1137,12 +1833,6 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
-  arrowrain:
-    cast_count: 4
-    last_cast: 1689839843564
-    last_earn: 1683972295223
-    cooldown_expiration: 1689839853564
-    charges: 0.0
   time:
     cast_count: 10
     last_cast: 1689155826785
@@ -1162,22 +1852,16 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   wither:
-    cast_count: 21
-    last_cast: 1689911703179
-    last_earn: 1689840616676
-    cooldown_expiration: 1689911718179
-    charges: 0.0
-  blink|4:
-    cast_count: 24
-    last_cast: 1689132148330
-    last_earn: 1689132138581
+    cast_count: 23
+    last_cast: 1690775280478
+    last_earn: 1690775280862
     cooldown_expiration: 0
     charges: 0.0
   missile|5:
-    cast_count: 171
-    last_cast: 1690104012282
-    last_earn: 1689949876311
-    cooldown_expiration: 1690104013282
+    cast_count: 215
+    last_cast: 1690871279278
+    last_earn: 1690871257537
+    cooldown_expiration: 1690871280278
     charges: 0.0
   missile|2:
     cast_count: 50
@@ -1185,25 +1869,601 @@ spells:
     last_earn: 1680272346075
     cooldown_expiration: 1680272349349
     charges: 0.0
-  collapse:
-    cast_count: 7
-    last_cast: 1689501701227
-    last_earn: 1689501556146
-    cooldown_expiration: 0
-    charges: 0.0
   missile|3:
     cast_count: 493
     last_cast: 1683082396058
     last_earn: 1683082396049
     cooldown_expiration: 1683082397058
     charges: 0.0
-  blink|6:
+  stash:
     cast_count: 0
     last_cast: 0
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
-  stash:
+  sparkle:
+    cast_count: 7
+    last_cast: 1689512302609
+    last_earn: 0
+    cooldown_expiration: 1689512332609
+    charges: 0.0
+  invincible:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  peek|2:
+    cast_count: 24
+    last_cast: 1690294531373
+    last_earn: 1690294531372
+    cooldown_expiration: 0
+    charges: 0.0
+  upgrades:
+    cast_count: 37
+    last_cast: 1691552479198
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  tracking:
+    cast_count: 12
+    last_cast: 1690428509826
+    last_earn: 1690428509821
+    cooldown_expiration: 1690428514826
+    charges: 0.0
+  peek|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  monster|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  pollinate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  neutron|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  frost:
+    cast_count: 0
+    last_cast: 1689839750861
+    last_earn: 0
+    cooldown_expiration: 1689839760861
+    charges: 0.0
+  pickpocket:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  phase:
+    cast_count: 12
+    last_cast: 1690428622555
+    last_earn: 1690428501526
+    cooldown_expiration: 1690428637555
+    charges: 0.0
+  blind|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  tendril:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  chop:
+    cast_count: 30
+    last_cast: 1690337407670
+    last_earn: 1690337321766
+    cooldown_expiration: 1690337412670
+    charges: 0.0
+  push:
+    cast_count: 18
+    last_cast: 1690035030272
+    last_earn: 1690035008155
+    cooldown_expiration: 1690035035272
+    charges: 0.0
+  wandinstructions:
+    cast_count: 9
+    last_cast: 1690776726860
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  mine|6:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  curse:
+    cast_count: 3
+    last_cast: 1690429175814
+    last_earn: 1690429167065
+    cooldown_expiration: 1690429181814
+    charges: 0.0
+  sticky:
+    cast_count: 1
+    last_cast: 1691552584408
+    last_earn: 1691552589567
+    cooldown_expiration: 1691552594408
+    charges: 0.0
+  lift:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  force:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  arrow|6:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  blessing:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  workbench|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  railgun|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  localrain:
+    cast_count: 6
+    last_cast: 1688965598077
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  controlsmenu:
+    cast_count: 16
+    last_cast: 1690776721959
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  dragonball:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  walls:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  bubble:
+    cast_count: 6
+    last_cast: 1689839862257
+    last_earn: 1689839850366
+    cooldown_expiration: 1689839864257
+    charges: 0.0
+  stream:
+    cast_count: 3
+    last_cast: 1690428505416
+    last_earn: 1690428479802
+    cooldown_expiration: 1690428510416
+    charges: 0.0
+  recall:
+    cast_count: 25
+    last_cast: 1681583861786
+    last_earn: 1681583861785
+    cooldown_expiration: 1681583876786
+    charges: 0.0
+  homing|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  fireball:
+    cast_count: 15
+    last_cast: 1680322164599
+    last_earn: 1680322113391
+    cooldown_expiration: 1680322174599
+    charges: 0.0
+  chainlightning|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  torch:
+    cast_count: 3
+    last_cast: 1687843692899
+    last_earn: 1687843678447
+    cooldown_expiration: 1687843702899
+    charges: 0.0
+  peek:
+    cast_count: 10
+    last_cast: 1689313084856
+    last_earn: 1689313027582
+    cooldown_expiration: 1689313089856
+    charges: 0.0
+  soulburn|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  wave|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  phasebackup:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  gatling|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  growth|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  petrify|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  restorelocalweather:
+    cast_count: 6
+    last_cast: 1688965602408
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  soulburn:
+    cast_count: 1
+    last_cast: 1691552618947
+    last_earn: 1691552618946
+    cooldown_expiration: 1691552648947
+    charges: 0.0
+  admission|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  arrow:
+    cast_count: 27
+    last_cast: 1690429252362
+    last_earn: 1690429248254
+    cooldown_expiration: 1690429254362
+    charges: 0.0
+  kill|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  cure|5:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  flashbang:
+    cast_count: 13
+    last_cast: 1690870467477
+    last_earn: 1690870295689
+    cooldown_expiration: 1690870477477
+    charges: 0.0
+  whip:
+    cast_count: 18
+    last_cast: 1690424324283
+    last_earn: 1690424310572
+    cooldown_expiration: 1690424329283
+    charges: 0.0
+  shuriken|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  cage:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  recall|2:
+    cast_count: 30
+    last_cast: 1685151468289
+    last_earn: 1685151311606
+    cooldown_expiration: 1685151483289
+    charges: 0.0
+  fling|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  tag:
+    cast_count: 2
+    last_cast: 1690768630987
+    last_earn: 1690768600538
+    cooldown_expiration: 1690768660987
+    charges: 0.0
+  recall|3:
+    cast_count: 35
+    last_cast: 1689333345226
+    last_earn: 1689333354724
+    cooldown_expiration: 0
+    charges: 0.0
+  tracking|5:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  recall|5:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  wither|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  grenade:
+    cast_count: 37
+    last_cast: 1690871406125
+    last_earn: 1690871409136
+    cooldown_expiration: 1690871416125
+    charges: 0.0
+  stun|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  broom:
+    cast_count: 8
+    last_cast: 1689832765847
+    last_earn: 0
+    cooldown_expiration: 1689832780847
+    charges: 0.0
+  earthquake:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  admission:
+    cast_count: 0
+    last_cast: 1690429117268
+    last_earn: 0
+    cooldown_expiration: 1690429127268
+    charges: 0.0
+  sticky|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  disarm:
+    cast_count: 26
+    last_cast: 1690776411686
+    last_earn: 1690775671981
+    cooldown_expiration: 1690776421686
+    charges: 0.0
+  blob:
+    cast_count: 20
+    last_cast: 1690774047381
+    last_earn: 1690774043112
+    cooldown_expiration: 1690774051381
+    charges: 0.0
+  fury|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  collapse|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  airscooter:
+    cast_count: 13
+    last_cast: 1690447126302
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  lava|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  tent:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  sandblast|2:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  critical:
+    cast_count: 8
+    last_cast: 1691552661894
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  appearanceshop:
+    cast_count: 1
+    last_cast: 1689949712885
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  cluster|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  shell|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  platform:
+    cast_count: 31
+    last_cast: 1691552468255
+    last_earn: 1691552351462
+    cooldown_expiration: 1691552473255
+    charges: 0.0
+  flamethrower|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  lava|2:
+    cast_count: 3
+    last_cast: 1690774898739
+    last_earn: 1690774887913
+    cooldown_expiration: 0
+    charges: 0.0
+  breach|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  wound:
+    cast_count: 9
+    last_cast: 1690870421483
+    last_earn: 1690870421481
+    cooldown_expiration: 1690870426483
+    charges: 0.0
+  flamethrower:
+    cast_count: 3
+    last_cast: 1690446612924
+    last_earn: 1690446613054
+    cooldown_expiration: 1690446614924
+    charges: 0.0
+  heal:
+    cast_count: 27
+    last_cast: 1689822671786
+    last_earn: 1689729919185
+    cooldown_expiration: 1689822731786
+    charges: 0.0
+  progressmenu:
+    cast_count: 214
+    last_cast: 1691552553108
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  ghast:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  harden|5:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  fire|4:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  fire|3:
+    cast_count: 34
+    last_cast: 1690706732809
+    last_earn: 1690706728412
+    cooldown_expiration: 1690706736809
+    charges: 0.0
+  fire|2:
+    cast_count: 50
+    last_cast: 1689512254820
+    last_earn: 1689512254809
+    cooldown_expiration: 1689512258820
+    charges: 0.0
+  disintegrate:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  levitate|3:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+  arrowrain:
+    cast_count: 5
+    last_cast: 1690429243220
+    last_earn: 1690429243303
+    cooldown_expiration: 1690429253220
+    charges: 0.0
+  blink|4:
+    cast_count: 24
+    last_cast: 1689132148330
+    last_earn: 1689132138581
+    cooldown_expiration: 0
+    charges: 0.0
+  collapse:
+    cast_count: 7
+    last_cast: 1689501701227
+    last_earn: 1689501556146
+    cooldown_expiration: 0
+    charges: 0.0
+  blink|6:
     cast_count: 0
     last_cast: 0
     last_earn: 0
@@ -1238,13 +2498,13 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/x3OXQ6CMBAE4CVg+PHdE/hKAkIUD+A5yJYOkYjbphSIt7f6PjPfFEQRJS/ARgUlO4vOKDO7wPWTpnN1q5oaQDlUuilb6LbsRr6X17ED15eOleKMDv8C5Q/RcDNvHNPpabziMCIbxBv36QeziqfABcDjbWf2oFzxgv7HxpRucMtkJGTScOq4inbGWlYzIvoCBsRfvqgAAAA=
+        internal: H4sIAAAAAAAA/x2OTQ6CMBQGvwYMP+49gdsmIETxAJ6jeaWPSMS2KQXi7UW3k8lkSkAgfTF7USLdyJoE2cphHp0FkOU4uM1yQPGwhsNEKyU4PV3UFNRoV7bRhY/q3WLj7osceeS3nygyCk0zq19zp/+KGg3O1a1qamaWfWUa2bJpZTfQXV6Hjqm+dKQ17VPHxZrgvCc9scAXmb0Pd6gAAAA=
     wand:
-      version: 7
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
       owner: Enderlava
       hotbar_inventory_count: 1
       template: base_wand
-      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
+      version: 7
   spellbook:
     item:
       ==: org.bukkit.inventory.ItemStack
@@ -1277,10 +2537,10 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/y1T2ZLTMBCc4GRzLLBcy32zXA8Bh92C8AF8R2psT2yVFclIdlIUxb/To6yfeqTpnpkeeUE0onEr0o0WND6wqzIad1wL4ZvRxB+cBJr/cpUEy3ue0diU3tG5uLJh10u1Kbxv/67Web76t6Cz2Im1G+P24nof/mQ0KYcQVe5LRvODD22hVMRPMjqJfRDeIbiHshBygFlG0yBbK2WP6AwXWhjwDsQKy1GPLyDG1c7EaBLp7ZGvUidI2waf0u5nNEMj7GqrLcwQbk2Qgq1F+BRhH7hsjasR3lIN6wvAT5C3pm56d7x6hp5ix6FNMiOdynpugT+DVAd/AHwJqOqADzPKelbmI0wZpDwWfKDmDlGnf4fa/HtgO6QCj9NNSvoIxsH0DXwnytEIrKyFXanCY+TBUIVzKJTeWu6SvSudjXfGGlbiG6gUQ1Gkhu+i/eRVis6hcWhMB3g7WWpcBXxDfbPHeW8Cdw0n4edqdcCIgY1a/VX3JtdNnGrfIurEe3BSHvAEGOtPe36NlNgPSl2A2nkT08peaVPexT4N+gGM2EhyYImbOojjSku8SH1xKkfqpi9b0eVOEU33Eq6fwHSGbcqus9wLzdM71KeJ0/SIN6aii/xHfrkSkWWZV5fLK6mulust/1x+366FV9/WXBSMH+J0cFXwXcewb0T/AbYDMpUkAwAA
+        internal: H4sIAAAAAAAA/y1T25LTMAx1SbtNu8ByW+53lttDIWV3oHwA39FREjXxxLWD7TTDMPw7R+726SjWOZKO1KVSEzXtmPvJUk1HsnWuZm607NXil63ZGzpQpqY9Nazwy9VUV86qc7ZVSzZyvS2d6/6uN0Wx/rdUZ6FnY7baHthG5/9kalYNPgj3S6YWo/NdKVTETzJ1EqJn2iO4hxoQsoBZpuaed4ariOgMD9ID4B2IlYaCfL6AGNV7HYJOpLd423mX3u4ftUT2JFP5TnsuyRiETxGiL7KNkY5yhNFT1WnbILwlPONKwE/oIfTku5Q3QTGjmzbaY+IzMWQIMsQ7QCkA+BCw8W4EfJmpLJKkPsKQnqtj+QfihnHUAX9Gbfo9kBmS5OMkmbI+gjLq2GIFShUoDSsbJltJkSnyYKjABRQqZwz1yd61jEp7bTQJ8Q1UyqEs0wB3MU7yKkXn0Bhb3QPeTpZqWwPfEAvNccKbwH1LSfi5WO0xmCctVn+VvfF1E6fSN7NM9B6clAc8A8b6055fIyXEQahLUHunQ1rZK2nK2RDToB/ACC0nB1Z4aTxbqqXEi9QXpXJK7HRVx7LnOa4xT7e61bW6KH4Ul2tmXlVFfbm64vpqtdnRz9X33YZp/W1DZUkgRN73hiKrRTpVuV6UO7C/vqQ5/hCng62963uCfRP1H6/6SugkAwAA
     wand:
-      owner: Enderlava
       page: 0
+      owner: Enderlava
       icon: enchanted_book{18001}
       spell_inventory:
         curse: 46
@@ -1291,20 +2551,20 @@ wands:
         lava: 16
         blast: 36
         admission: 34
-        frost: 19
         boom: 6
-        fireball: 26
+        frost: 19
         entangle: 8
+        fireball: 26
         tracking: 13
         blob: 40
-        sparkle: 1
         lightning: 27
-        push: 35
-        fire: 22
+        sparkle: 1
+        cloak: 41
         grow: 30
+        fire: 22
         tag: 23
         recall: 20
-        cloak: 41
+        push: 35
         aqualung: 24
         pull: 39
         wither: 48
@@ -1330,9 +2590,9 @@ wands:
         grenade: 29
         rocket: 7
         flare: 0
-      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
-      template: spellbook
       version: 7
+      template: spellbook
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
   magicsword:
     item:
       ==: org.bukkit.inventory.ItemStack
@@ -1370,7 +2630,7 @@ wands:
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
         Unbreakable: true
-        internal: H4sIAAAAAAAA/02QTU7DMBCFJySlISCx66pLxKqRHFpofADOEU3iMbVw7ch2GiHE3ZlmA7s3mu+9+akAMig+icasgmJGp0pY+dlRgLt3pyhYvGAOm5NPPYbOuAu55MNXN/jJJWB3CYUZvIONo3SiYBJ1cfZBfTetEPKngsc4krV/1hyKcbKWvUUOpTaBelzKLId1IG1puAavmItpcixvclhhCH5mvWXobGI0lri6ZeiawHLNUG+NU6xhmRFPiyqhTHQeLSaC6owfZlj245wLhWj8dcKaoeXqzih4Ekexb4ioHoTa1wdSh7rVKOs33RI2Ly32PZbwQFrzqvwJ6wM8N0JrKaSUrwp3mrQ8tloPRyV2/zv87fvJqeDHEXtLGfwCimrA84EBAAA=
+        internal: H4sIAAAAAAAA/02QwU7DMAyGXdrRUpC4ceKIOK1SygZrHoDnqNzGYRFZUiXpKoR4d7xe4PZZ/n/bv2uADIpPoimroVjQqQo2fnEU4ObdKQoWz5jDw9GnAUNv3Jlc8uGrH/3sErC7gsKM3sGDo3SkYBL1cfFBfbedEPKnhvs4kbV/1hyKabaWvUUOlTaBBlzLLIcykLY0XgZvWBfT7BivcthgCH5hfmTRycRoLHF1zaLLBMaSRYM1TjHDuiMeV6qgWgP1RsGTOIhdS0TNKNSu2ZPaN51G2bzpjrB96XAYOG55phCNv+wu2Z7oNFlMBPUJP8y4xqvgjrTmU/kT1gd4boXWUkgpXxVuNWl56LQeD0ps/3f427ezU8FPEw6WMvgF7PVlo4EBAAA=
     wand:
       owner: Enderlava
       hotbar_inventory_count: 1
@@ -1385,9 +2645,9 @@ wands:
         fire: 7
         blind: 0
         push: 3
-      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
-      version: 7
       template: magicsword
+      version: 7
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
       effect_color: 10ff909995da,fef978ffc7d0,10ff909995da
   wand:
     item:
@@ -1397,17 +2657,17 @@ wands:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"闪电"},{"italic":false,"color":"white","text":"
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"手里剑"},{"italic":false,"color":"white","text":"
           ("},{"italic":false,"color":"dark_aqua","text":"法杖"},{"italic":false,"color":"white","text":")"}],"text":""}'
         lore:
         - '{"italic":false,"extra":[{"color":"green","text":"新手 "},{"color":"white","text":"魔力法杖"}],"text":""}'
         - '{"italic":true,"color":"dark_aqua","text":"绑定 Enderlava"}'
-        - '{"text":"掌握 55 技能"}'
+        - '{"text":"掌握 68 技能"}'
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 150"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 25/s"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
-          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"闪电"}],"text":""}'
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"手里剑"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
           "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
@@ -1423,7 +2683,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: 0a42f2ab-b5d7-498a-91b5-b240c671ebe6
+            uuid: ab41853a-80ea-4163-9795-1275798cd666
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -1434,23 +2694,23 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/21U25LUNhDtwbO7M8OGJQE25EouhATYIfbOLDs88ZTvmGrbbVs1suRI8rgoig+BP+ONT6FbnkpSW/FTS2qd7nNOywuACUx3RN1kAdMBTXkM51RVVIRthy6oQtPWVpWn8PoTxC+BaYc1STiBO4fcvM9zTR5mcIpFUHva+o60hrlWdROMMjWXqbUdJjOYqsIaOPUMvnubbdI0e5fAyZ6cV7wPcLKAkxHWz2AW4TBQrPzgZmuF7U3go2PODNR2WjIjjwTu30wuMeDI4LixIUcni//h67BUvX/98b18H5jSIaGw2jp4kq1ySq9WeHldbi6q1aZcpev8epMWF9k6y19dpZRfZdUMzm7gAqtzZAdDDuZ/mZKcxj0mcD72slVmTyZY9+YfUrfmcOK1DYHKmSzhLIra2pKJN+QD3PUDdh2y9FvUA77xi0POv2gJHBW986LfE7Yut1Hj2xxKeZGbM3KNXir+mMAcy1b5gxV/8FnlbDx7Pt5uOfwhYbUdFjv2lZe/y4m2OYfnHNbODhz+xDIPKjQkMt/ifW5DunjAlytslVbRgCSWV6bk+DeOuwZjsz/zTLTW+BDvLxiss8rHrr7gNKZWNBw/ZGAfetl+xmFDqDm85Ax0Yx8XMrBEO5lXpjdYt8vJxMtzruGo0uwSr6ZcwwdHKBS/PrQl1zJpvrEdh39y86wrmlr8hF+Fi3KUo5ay3yT/GXheP2V8z/bvYvJ30kjvpfBdRvetilN9xduCweH3CSQB5eZX3IujYoQ9Eg+1RenlS66If/eo+1jhfsSMWWdcnD2vCU0hYMecyROrsYt6zhixVB6dsHsp4orLsbElgwyNEn4vOGt8y7y4J+7rkcojmQxR1KESsX8RsehgqbyoGg9WrxmtVUb2U6HZUGzvDpesHRks5eQ0gdNKY0uhYcx4byWUbbEj8eLbWBoj+mOGf3jzjSrDg7GPZvPjmMVntVUlPE6v01VGRMsiLVfLNZXr5abCV8uX1YYwu9xgniP/uG73pnR2fDsT+Az4Dot9BwUAAA==
+        internal: H4sIAAAAAAAA/21U23IbRRAdZWVbUkwcIDHhfgvhZoFkmUjm5gDFd6h6dnu1UxrtLDOz2nJRfAj8GW98CqdnVaTKxT51b99On+6eiVIDNdwyN4OJGnZUF5kaNrRhBcOxOuey5DyuG/LR5JbXriwDx5t/VPoG6sHBQbdaWw6SbGNdNxipU8qj2fM6NGytGoWq9WbL9UgNTe5qdRqQcPv7fDWbzf/I1KO7hQqKJCUy9fiuKXdtHWE6nqiT3hZGapTKURTg0CLvGivaoaeTPftgUFepE2A7pMyddV49my+ur3SpdbEslhfl/Ho2o9WSLkt9MV+U85UuVznp/H/Y8FSYNtz8/ad8f2XquHJRk1cJw9kdb/l35LqavRr/WhfsLe0pU+d9zNrUe66j87f/9XdvrE6CdTFyMRJVnSUud64ABxWHqB6GjpqGwPyabEe3YXLweZktU0d564PQ8gyj1S5xcB+ilBc64KEtBan4HuTSuyR/malxif+VpnoDfQWdip0JBxo/y4TbvST+tk+8g/huBu495VuTgj4Vi3Ua4jksMpLSeXG8gWXjXQfxAxDXmVixEHcPEArO3S3kH+ED8FLiMaJL2hlrEr0ZvJqKUlsfpgZMXUD+BJPeuTrElGuCxI0zIeF9BckqJgvxEhHgJq8gP8HvEFvx+AI1gmutbr2oP8GLfA/xQq6CeSs7j6ShcXU6ke9BSuf8VnOdso1R33NpMXdow+zl3kN9IZHRM0n/bxxQS8q59Fm5BuLXyQeXIf3/kqkMewzpWto3njVZaeBNqBgvBiNrpT6GmnuDsNQebmZszaaKdT+EzwEqYAu3yflt2QjrSAq/CjnsTDqabwBCSkB8B3UjSehrgOM576seCQltkD4foiL91pJtU4VHyZKczgSLs5aaNJwREhQmUJr5cwDDWm6Y6lyMx+lidj3Kn4Glw+bLGL+TMcqmJcRT2bTKCA9fyRLKTDwZofQjWVjbJ3gf2fpnCMrriEFiEWf4v6HDel0Jv3xYqh8yNSHjQ+5cvzBL4aPi1MgDYNh4rqkQ19NUiFLYUyHF5VuWGb+VqVMYdhwrwEpZFhjAk7tPhalRYp/mg2sepXdgbQr1dLacLebMPM1nxWJ6xcXVdFXS9fR5uWKaX65Ia8Kzeh/MeNcf+0D9C9cH0a63BQAA
     wand:
-      page: 0
       effect_particle_offset: 0.5
+      page: 1
       effect_bubbles: false
+      active_spell: shuriken
       glow: true
-      active_spell: lightning
       icon: stick{18001}
-      effect_particle_data: 0
-      effect_particle_count: 6
+      version: 7
       effects:
         activate: ''
+      effect_particle_count: 6
       template: wand
-      version: 7
-      effect_color: 13be053a27d8,f38d304b780c,141b950eb51f
-      effect_particle_radius: 0.4
+      effect_particle_data: 0
       hotbar: 0
+      effect_particle_radius: 0.4
+      effect_color: 1394bfbbd7d7,f1900a87a2fb,13f18bf8cabc
       owner: Enderlava
       effect_particle: ''
       hotbar_inventory_count: 2
@@ -1462,57 +2722,70 @@ wands:
         boon: 11
         lava: 7
         blast: 30
-        admission: 40
         boom: 29
+        flashbang: 56
+        admission: 40
+        wave: 58
         frost: 43
         tracking: 39
         blob: 22
+        platform: 63
         grow: 32
         wither: 2
         cure: 21
+        decoy: 62
         familiar: 3
-        phase: 33
         blind: 37
+        phase: 33
         arrow: 44
-        heal: 50
-        torch: 24
+        soulburn: 65
         stun: 42
+        torch: 24
+        heal: 50
         poison: 13
         monster: 10
         peek: 1
+        sponge: 60
         workbench: 9
         stream: 23
+        shuriken: 64
         reflect: 4
         blink: 49
         chop: 47
-        fireball: 25
+        emp: 57
+        sticky: 67
+        critical: 0
         entangle: 35
+        fireball: 25
         sparkle: 27
         lightning: 41
-        cloak: 17
+        push: 16
         smite: 53
         fire: 28
         tag: 18
         recall: 5
-        push: 16
+        cloak: 17
         aqualung: 20
         pull: 15
+        wound: 59
+        homing: 66
         vengeance: 6
         disarm: 54
         collapse: 8
         missile: 45
         whip: 46
-        arrowrain: 34
-        fling: 31
         bubble: 19
-        mine: 48
+        fling: 31
+        arrowrain: 34
+        secure: 61
         gather: 52
-        secure: 0
+        mine: 48
+        airscooter: 55
         shell: 14
         grenade: 12
-        flare: 36
-        rocket: 26
         flamethrower: 51
+        rocket: 26
+        flare: 36
       effect_particle_interval: 100
       owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
   mirrorshield:
@@ -1571,18 +2844,18 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/1WOwU7DMBBEN0pQTQBx4wu4RkpoBeED+A5rbW9bC9drbZxECPHvmHBAHGc082ZagAqad6JUtdCsGJ2CK14jCVy/RUcScMEaHs6cDYr2caGYWT605TlmKG0Ft2izX0hPiUIoSoRXndhPHBU03nKE1vD6OYx9P3y1cL8F/1g13P12hE5zQClUqP9zfoaKt1tIJr/JnQKV6ZICZgJ1wZO3ZaOY23ntHTz2L/1+IKLO9m7fHcgduvGIr93zcSQcnkY0Bgv2Zo5OOCU0gSr4BrS6AQwRAQAA
+        internal: H4sIAAAAAAAA/1WPQU7EMAxFXbVoQgGx4wRsK7XMCMoBOEfkJJ4hIhNHbtoKIe5OpiwQ3vnL7//vFqCC5oMoVS00K0an4IrXSALXb9GRBFywhod3zgZF+7hQzCyf2vIcMxRawS3a7BfSU6IQyibCq07sJ44KGm85Qmt4/RrGvh++W7jfDv+86v/MxbSGu19J6DQHFLiMArU1097BY//S7wci6mzv9t2B3KEbj/jaPR9HwuFpRGOwAJnOKWAmUGc8eVtq1LBbSCa/Be3K9zdzdMIpoQlUwQ+u4sQ8EQEAAA==
     wand:
       owner: Enderlava
       hotbar_inventory_count: 1
       active_spell: arrow_poison
       icon: bow{18001}
       spell_inventory:
-        arrow_regular: 0
         arrow_poison: 1
-      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
-      template: magicbow
+        arrow_regular: 0
       version: 7
+      template: magicbow
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
   admin:
     item:
       ==: org.bukkit.inventory.ItemStack
@@ -1624,7 +2897,7 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/3VRQW6DMBBcatIQEqm3vqDqqUiQRIQ8oO+I1mYpFsa2jENUVf17lxzaU28zO7uz63EOkEA6EPkkh/SGts1g5W6WAmzebUvB4IwCnnsXJYaLtjPZ6MLnRbmrjQDwkMEOVdQzXSZPxsB61NOkDWWQauUs7Kao1fBVNWVZf+fwdO/6MxLw+IGx530AmYB8unoKMjg3ciERkEY9EsMVa56NvFMDLYs3AlbSaDssR3BfT2gYPorfC5gJAZmhWUeMCwWe8T1OC14L2N6xRDVcPVdyVpVxuDimkEEWafRmmVxhO2rLzjOFSfOjeJz1e04X3cJLeSoPFREVqmwPxZHaY9F0eC7qriGs9g1KiRwUdR2pyNkZF+C1qem0P8pzLav67V/C/7O92jY471EaSuAHtIO72rMBAAA=
+        internal: H4sIAAAAAAAA/3VRy26DMBBcatIQEqm3fkHVU5EgiQj5gH5HtDZLsTC2ZRyiquq/d8mhPfU2s4+Z9TgHSCAdiHySQ3pD22awcjdLATbvtqVgcEYBz72LEsNF25lsdOHzotzVRgB4yGCHKuqZLpMnY2A96mnShjJItXIWdlPUaviqmrKsv3N4uk/9CQl4/MDYsx9AJiCfrp6CDM6NXEgEpFGPxHDFPc9C3qmBFuONgJU02g7LETzXExqGj+L3AmZCQGZo1hHjQoF3fI/TgtcCtncsUQ1Xz5Wcu8o4XBRTyCC753DRLbyUp/JQEVGhyvZQHKk9Fk2H56LuGsJq36CUnNJ6pjBpfjOr83qk0ZvFeIXtqC0HRV1HKnJ2xgV4bWo67Y/yXMuqfvuX8P9sr7YNznuUhhL4ARoNl7WzAQAA
     wand:
       owner: Enderlava
       hotbar_inventory_count: 2
@@ -1642,9 +2915,9 @@ wands:
         phasebackup: 10
         phase: 7
         cloak: 4
-      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
-      version: 7
       template: admin
+      version: 7
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
       effect_color: 86e724b96b16,86e724b96b16,86e724b96b16
   master:
     item:
@@ -1689,12 +2962,12 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/01V2ZbcNBDV4J6enp5hwhp2eOF1zulhhqTDdnjhlX0NkKZsq21hWXIkuZtJCPDAFvZ9/Ql+gH/jVrmB+Kkk1XKr6lZ5qtSWGjVad1tTNVqTKydq26+dDmr3GVfqYGlFmTpb+5RTWBi30i75cLoofO+SUiqbqH0qklnpRey0tWqnNTEaq0fqoCVHi2RaHRO1HSJdf8r//ddEjUzhndqPyRTN1aP5bHZybarOiPn/ETK1XfQhasR4PFOj3Lc5RJepHbymPvBDytS+ANFhCK7Ui9BlzBAfhYvcUhSYGWe3YiOks7vEdZ2Tq3B+HWcqBTVQKfUFzCprStb9gSNbz5FvztSks5SWPrQ4voSXKvg1xK8zzijn28uAV1GyRjy/kanx2qQaxVRqP1PTMlDlXU6C9D2YFUMe9wtS40rIO7he9uEUogGy2LuYgmlY7SrUUMpYQ34XarUmdvQkrikMWG7Cdad1A/FuWK99aHLtCrb4EGjgShMD3QPQoJdWF1ydOzOV1cTS86KEvnD8twEZ/TCuMLllAB5WsaPQyOljxK390KIfGbWRZB6Cs0Sc/5cMphe4WyJK3g8gRGkiSRm/g481OsiZvwK53dDql+w/IiluH1rEGQYy3KIpvLleahLgLe/zAd92pvYiat9bCiZxCj3nozdlvs4B+mgKyN8iNzIhFt4n6U/BmnUwjmvXcKXrgVEXAMXpPgVhB3g5Dr5oNKP8HPwDlVqdaoATN+dwhewMOFkFShz2OZjUFErN9q8Kl8XVfYPIZTjO1EFRIzlrqjq5gT45QCyDF/6OOE30Tjr5LKiYAhXNoPcZ/DRGsN7FnKKKo/7KNK4H9n8PgyW1xhpijJ+gnLW3pxIM5z+h2kGVzb6CavS9zfvAGH/mcTJL1lpAC6MnCO7BdUw9a3wAZJ03UVJ6kNvmwVipxaeosaaQ6ss9SbM6zgguWH6f6915J2Bf46h1zzxnN29t5oFbscsp1R7rQ83BLM2LRH0D/QItNoVMwE84YmtgnoUGjzGpMGQR8kWYY/vw9R9IO4AqOpgrfH6ZqwLObuZxjCMBqe2lqh9B+8ZunODZ6pVJQ1NvYYa0RuQ3kXWnMaVLptytPFpkbCXluY35ooshxL281Kwnzut2JNPKZrkCz+BvjEMgy7l5a6mThtwBHFiJlSYndXuC2eTbQffSsA4dlR6nFeeqZX5+531XG67VAUSos+15rv9mOU1gWth+06qWHWlXBsM414iBNTYsLs1bCD+Gf1fpCzh3wGfcUInISwFzOsD7DSGgKJbv8DYMGuj45QycYlK056ezHAEzk5hNpcAimdFragy4+HE8bZR8E3AdTbccbNwS44XbFTb+sK53oCA/rIUp1cOz87PjI631YTErjw9PdHlyOF/ShcNzy7mmo0fmlOeEP94eNk7wXUeo+5b6BzOE1akFBwAA
+        internal: H4sIAAAAAAAA/01V2XYcNRAt02N7vOCwhh1eePU5NjaJw3Z44ZV9DZChulszLUYtdST1DE4I8MAW9n39CX6Af+NW9QDpp5JUy62qW9XbRGs0mhvTrW3TaMm+HtN6WHoTaesZX5voeMEFnW1CLjlOrF8Yn0M8nVSh95mIihHttex5km1rUua2g8frT4W//xrTLlfZLswkdcY52mxtStaZMY1sFTztpmyr+dXDk4OD42vbdEa1/o9Q0HrVx2QQ4/GCRmVoS4i+oE285j7KQy5oV4GYOMQgehG6ghnio3BROk4Ks5DsFmKEdLamuG5K9jOcX8eZawUHVERfwGzmbC26P0hkFyTyzQWNO8d5GmKL40t4mcWwhPh1IRmVcnsZ8GacnVXPbxS0sbS5QTGJdgvariPPgi9Zkb4Hs2rI435Fan0NeRPX0z6eQrRAlnqfcrRzUbsKNZQ4NZDfhVpjWBw9iWuOA5abcN0ZM4d4N6yXIc5L4yux+BBo4MqwAN0B0GimzlRSnTsLKhoW6XlVQl8k/tuAjH5YX9nSCYAAq9RxnOvpY8RtwtCiHwW11WQegrPMkv+XAqZXuGsqat4PIERtE2sZv4OPJToomb8CuV3R6pfiP76QtA8tkgwjW2nRNrz5XmsS4a3sywHfekE7CbXvHUebJYVe8jGrMl+XAH2yFeRvkRvbmKoQsvanEs0mWi+1m0ulm4FRFwDFmz5HZQd4uRFDNTeC8nPwD1RqTW4ATt2cwxWys+DkLHKWsM/BpOFYG7F/Vbmsru5DkGkMys9RQXtVg+ycnTXZD/wpB12p05Gkid5pJ58FFXPkaj6ofQa1uVWsdwmneCZRfxUaNwP7v4fBlFvrLAvGT1DOJrhTjYXzn1DtoCpmXyFQF2xShA/KMNmp6Eygg8HT+PfgOuVeND6A5xR6V/ZRjj9L2wIYq7X4FDU2HHNzuWdtVic17oJXgK9J+vAo8vvipumF5+LmrdU8SCu2JKUmYK3QCZhlZMHQN5IQ6LYapQ0kFEECE+0VcfeysApPCfJF2GMtyfUfsMJywdgrWx7DsQJPbKVj9BO8tzrqV+Duxj4cCxtaq818E0bOLGweensLEu4MBnQqbLtVpoqtm2ltbhOqmGqAeK/sMxdYUrodPhg1cb26/whH8DelIZobVpznOuC0ABZsxJlhr5V6QsgU2kH1kmQQnONOe3eHpGp0fn6XfddYqdUeROiLwnkp+Wo5jRGmcv2qVa0ENb6OVsAuEQRrbFhcRrYQfgz/rtIXcO4Q1PqhBEmWAuZ0wPcbQkBRLd+RbRgNMpGXM3CKSTFBns5KBMxMFj7VCot1Rq/RBuDih/K0Jf3GNNb/0cTW9PDB+YOjQ2PMfnVQH+0fm/p4/2TKF/bPTU8MHz5ywmWJ9b65wP9gWOabMM/gjBOsGy1rumu0g40TQ9cx6r5G/wDFoYKMBQcAAA==
     wand:
       owner: Enderlava
       hotbar_inventory_count: 3
-      mana_timestamp: 1688969657776
       active_spell: missile
+      mana_timestamp: 1688969657776
       icon: stick{18004}
       spell_inventory:
         curse: 59
@@ -1753,9 +3026,9 @@ wands:
         disintegrate: 79
         harden: 86
         boon: 27
-        frost: 4
-        chainlightning: 98
         boom: 51
+        chainlightning: 98
+        frost: 4
         breach: 78
         tracking: 135
         kill: 23
@@ -1764,39 +3037,39 @@ wands:
         familiar: 133
         holylight: 155
         phase: 140
-        poison: 30
+        soulburn: 149
         lift: 95
         torch: 25
         stun: 126
-        soulburn: 149
+        poison: 30
         monster: 134
         earthquake: 112
-        sponge: 87
         force: 124
+        sponge: 87
         shuriken: 92
         blink: 9
         chop: 56
         emp: 142
-        fireball: 6
-        rubberize: 84
+        critical: 148
+        entangle: 58
         walls: 90
         tame: 154
-        entangle: 58
-        critical: 148
-        mob: 122
+        rubberize: 84
+        fireball: 6
+        aqualung: 128
         lightning: 52
-        smite: 91
         levitate: 16
+        smite: 91
         petrify: 17
         railgun: 18
         recall: 26
         cloak: 19
-        aqualung: 128
+        mob: 122
         blessing: 108
-        tornado: 118
+        collapse: 20
         vengeance: 60
         homing: 94
-        collapse: 20
+        tornado: 118
         tent: 153
         whip: 14
         sandblast: 81
@@ -1813,14 +3086,14 @@ wands:
         flare: 125
         growth: 100
       mana: 200.0
-      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
-      version: 7
       template: master
+      version: 7
+      owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
 open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: disabled
 data:
-  sp: 343.0
+  sp: 147.0
   wand_colors:
     white: true
   wand_appearances:
@@ -1830,6 +3103,7 @@ data:
     bubble: true
 properties:
   version: 7
+shown_help: true
 classes:
   caster:
     spell_levels:
@@ -1841,7 +3115,10 @@ classes:
       peek: 2
       flare: 2
       blast: 2
+      chop: 3
+      lava: 2
     spells:
+    - soulburn
     - flare
     - sparkle
     - arrow
@@ -1852,6 +3129,7 @@ classes:
     - stun
     - secure
     - fling
+    - flashbang
     - tracking
     - whip
     - reflect
@@ -1859,6 +3137,7 @@ classes:
     - missile
     - fire
     - tag
+    - homing
     - aqualung
     - workbench
     - lightning
@@ -1871,19 +3150,29 @@ classes:
     - disarm
     - push
     - blob
+    - shuriken
     - shell
     - curse
+    - sticky
+    - airscooter
+    - sponge
     - blind
     - boon
     - vengeance
+    - critical
     - boom
+    - emp
     - blink
+    - wave
+    - platform
     - lava
+    - wound
     - bubble
     - stream
     - flamethrower
     - recall
     - heal
+    - decoy
     - fireball
     - mine
     - poison
@@ -1899,7 +3188,7 @@ classes:
     - collapse
   mage:
     effect_color: cef52af28d37,e34b44b86e12,44d84fee9a2a
-    mana_timestamp: 1690119362368
+    mana_timestamp: 1691567736242
     mana: 150.0
     path: apprentice
   archer_mage: {}
@@ -1909,4 +3198,4 @@ classes:
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 42.400001525878906
+health: 40.92132568359375

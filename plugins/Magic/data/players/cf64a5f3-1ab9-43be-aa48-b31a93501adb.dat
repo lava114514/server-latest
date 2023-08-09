@@ -1,0 +1,39 @@
+id: cf64a5f3-1ab9-43be-aa48-b31a93501adb
+name: HEIYAOSHI
+created: 1691564771578
+updated: 1691565116849
+last_cast: 0
+cooldown_expiration: 0
+last_death_location: ''
+fall_protection_count: 0
+fall_protection: 0
+brush:
+  map_id: -1
+  material: dirt
+  data: 0
+  schematic: ''
+  scale: 1.0
+  erase: true
+undo:
+  b8dd9de6-bce5-418b-9566-b5e1a4cc7a98: []
+spells:
+  missile:
+    cast_count: 0
+    last_cast: 0
+    last_earn: 0
+    cooldown_expiration: 0
+    charges: 0.0
+open_wand: false
+gave_welcome_wand: false
+resource_pack_preference: default
+data: {}
+properties: {}
+classes:
+  caster: {}
+  mage:
+    effect_color: 7972d8d72c51,d6eaba1d17e9,bbecca2e1827
+    mana_timestamp: 1691565116421
+    mana: 50.0
+transient_modifiers: {}
+active_class: mage
+health: 20.0
