@@ -19,14 +19,14 @@ skills:
     level: 1
     xp: 0.0
   defense:
-    level: 1
-    xp: 93.0
+    level: 2
+    xp: 69.0
   fighting:
     level: 1
     xp: 13.0
   endurance:
     level: 2
-    xp: 27.0
+    xp: 34.0
   agility:
     level: 1
     xp: 8.0

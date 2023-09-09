@@ -1,7 +1,7 @@
 id: 1e941bfc-fc5f-48b8-bdc3-232649ed032b
 name: Enderlava1234
 created: 1689730395064
-updated: 1691554665943
+updated: 1691732550196
 last_cast: 0
 cooldown_expiration: 0
 last_death_location: -99.61072027857735,71.0,-242.95658633127076,world,-47.550125,24.499996
@@ -33,8 +33,8 @@ classes:
   caster: {}
   mage:
     effect_color: 5b57f94fa5ae,ac03ecae3ea2,fe28236bec88
-    mana_timestamp: 1691554665843
+    mana_timestamp: 1691732550097
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 20.0
+health: 20.399999618530273

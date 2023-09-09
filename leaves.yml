@@ -2,6 +2,7 @@
 
 settings:
   performance:
+    fix-villagers-dont-release-memory: false
     use-optimized-collection: true
     optimized-CubePointRange: true
     optimize-sun-burn-tick: true
@@ -53,6 +54,7 @@ settings:
     reduce-chuck-load-and-lookup: true
     entity-target-find-optimization: true
   protocol:
+    alternative-block-placement: CARPET
     leaves-carpet-support: true
     bladeren:
       mspt-sync-tick-interval: 20
@@ -67,25 +69,28 @@ settings:
     bbor-protocol: true
     appleskin-protocol: true
     pca-sync-player-entity: OPS
-    carpet-alternative-block-placement: true
     pca-sync-protocol: true
   modify:
+    tick-command: false
+    zero-tick-plants: false
+    avoid-anvil-too-expensive: false
+    bow-infinity-fix: false
     disable-packet-limit: false
-    creative-no-clip: false
+    creative-no-clip: true
     container-passthrough: false
     shave-snow-layers: true
     lava-riptide: false
-    redstone-wire-dont-connect-if-on-trapdoor: false
+    redstone-wire-dont-connect-if-on-trapdoor: true
     disable-check-out-of-order-command: false
     no-block-update-command: false
     ignore-lc: false
     elytra-aeronautics:
       no-chunk-load: true
-      no-chunk-height: 256.0
+      no-chunk-height: 350.0
       no-chunk-speed: -1.0
       message: true
-      message-start: Flight enter cruise mode
-      message-end: Flight exit cruise mode
+      message-start: 进入飞行不加载区块模式
+      message-end: 退出飞行不加载区块模式
     raider-die-skip-self-raid-check: false
     mending-compatibility-infinity: false
     despawn-enderman-with-block: false
@@ -98,7 +103,7 @@ settings:
       unable-fakeplayer-names:
       - Enderlava
       limit: 10
-      prefix: ''
+      prefix: bot_
       suffix: ''
       always-send-data: true
       resident-fakeplayer: true
@@ -108,7 +113,7 @@ settings:
     budding-amethyst-can-push-by-piston: false
     return-nether-portal-fix: true
     spectator-dont-get-advancement: false
-    stackable-shulker-boxes: 'false'
+    stackable-shulker-boxes: '16'
     stick-change-armorstand-arm-status: true
     flatten-triangular-distribution: false
     use-vanilla-random: false
@@ -120,6 +125,13 @@ settings:
     redstone-shears-wrench: true
     shears-in-dispenser-can-zero-amount: true
   misc:
+    server-lang: en_us
+    bstats-privacy-mode: false
+    auto-update:
+      enable: false
+      time:
+      - '14:00'
+      - '2:00'
     dont-respond-ping-before-start-fully: true
     disable-method-profiler: true
     no-chat-sign: true
@@ -128,7 +140,7 @@ settings:
       enable: true
       urls:
       - https://littleskin.cn/api/yggdrasil
-config-version: 3
+config-version: 4
 world-settings:
   default: {}
   world: {}

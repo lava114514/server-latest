@@ -20,16 +20,16 @@ skills:
     xp: 441.59999999999934
   defense:
     level: 9
-    xp: 118.7698960780912
+    xp: 1086.3600411891757
   fighting:
     level: 7
-    xp: 1235.8000000000045
+    xp: 1350.2000000000069
   endurance:
     level: 10
-    xp: 3181.0
+    xp: 3533.0
   agility:
     level: 6
-    xp: 2165.8000000000047
+    xp: 2346.2000000000044
   alchemy:
     level: 1
     xp: 0.0
@@ -38,19 +38,19 @@ skills:
     xp: 46.0
   sorcery:
     level: 3
-    xp: 120.0
+    xp: 170.0
   healing:
     level: 1
     xp: 0.0
   forging:
     level: 4
-    xp: 358.0
+    xp: 490.0
 mana: 38.0
 locale: zh-cn
 ability_data:
   absorption:
     activated: false
   first_strike:
-    counter: 54
+    counter: 58
   xp_convert:
-    xp: 19.162973203659597
+    xp: 15.553118314743529

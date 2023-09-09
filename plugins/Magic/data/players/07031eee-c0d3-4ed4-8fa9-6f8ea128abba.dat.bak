@@ -1,10 +1,10 @@
 id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
 name: Enderlava
 created: 1678458824899
-updated: 1691567736368
-last_cast: 1691553228654
-cooldown_expiration: 1691567734891
-last_death_location: 93.55808675864438,-202.0116108424879,1.7337006862453013,world_the_end,54.45031,-60.15011
+updated: 1692844849782
+last_cast: 1692844758707
+cooldown_expiration: 0
+last_death_location: -402.62262,63.8155,-65.69238,world,82.33322,65.83612
 fall_protection_count: 0
 fall_protection: 0
 brush:
@@ -1342,10 +1342,10 @@ spells:
     cooldown_expiration: 1689839746666
     charges: 0.0
   fireball|3:
-    cast_count: 42
-    last_cast: 1690509920315
-    last_earn: 1690509867125
-    cooldown_expiration: 1690509930315
+    cast_count: 43
+    last_cast: 1691734623725
+    last_earn: 1691734623896
+    cooldown_expiration: 1691734633725
     charges: 0.0
   fire:
     cast_count: 40
@@ -1366,10 +1366,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   homing:
-    cast_count: 1
-    last_cast: 1691552612906
-    last_earn: 1691552604298
-    cooldown_expiration: 1691552622906
+    cast_count: 7
+    last_cast: 1692843347408
+    last_earn: 1691734522848
+    cooldown_expiration: 1692843357408
     charges: 0.0
   fireball|2:
     cast_count: 33
@@ -1378,10 +1378,10 @@ spells:
     cooldown_expiration: 1683956677974
     charges: 0.0
   lightning:
-    cast_count: 11
-    last_cast: 1690349934887
-    last_earn: 1690349934885
-    cooldown_expiration: 1690349979887
+    cast_count: 13
+    last_cast: 1691734629523
+    last_earn: 1691734553329
+    cooldown_expiration: 1691734674523
     charges: 0.0
   lightning|3:
     cast_count: 0
@@ -1438,10 +1438,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   shuriken:
-    cast_count: 4
-    last_cast: 1691553228654
-    last_earn: 1691552629943
-    cooldown_expiration: 1691553238654
+    cast_count: 7
+    last_cast: 1692843952062
+    last_earn: 1692843957091
+    cooldown_expiration: 1692843962062
     charges: 0.0
   vengeance|3:
     cast_count: 0
@@ -1492,16 +1492,16 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   chop|3:
-    cast_count: 44
-    last_cast: 1690427749024
-    last_earn: 1690427744260
-    cooldown_expiration: 1690427754024
+    cast_count: 45
+    last_cast: 1691722432556
+    last_earn: 1691722432789
+    cooldown_expiration: 1691722437556
     charges: 0.0
   mine:
     cast_count: 1
-    last_cast: 1690428516666
+    last_cast: 1691722444996
     last_earn: 1690428517803
-    cooldown_expiration: 1690428526666
+    cooldown_expiration: 1691722454996
     charges: 0.0
   chop|2:
     cast_count: 30
@@ -1612,14 +1612,14 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   fling:
-    cast_count: 34
-    last_cast: 1690428463818
-    last_earn: 1690428463816
-    cooldown_expiration: 1690428468818
+    cast_count: 35
+    last_cast: 1691721480598
+    last_earn: 1691721480596
+    cooldown_expiration: 1691721485598
     charges: 0.0
   spellshop:
     cast_count: 1
-    last_cast: 1691552553995
+    last_cast: 1692843496879
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -1635,11 +1635,17 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
+  hat:
+    cast_count: 8
+    last_cast: 1692843761613
+    last_earn: 1692843582907
+    cooldown_expiration: 1692843771613
+    charges: 0.0
   aqualung:
-    cast_count: 279
-    last_cast: 1691550575937
+    cast_count: 300
+    last_cast: 1692770926683
     last_earn: 0
-    cooldown_expiration: 1691550635937
+    cooldown_expiration: 1692770986683
     charges: 0.0
   workbench:
     cast_count: 6
@@ -1654,10 +1660,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   reflect|3:
-    cast_count: 5
-    last_cast: 1689085423753
-    last_earn: 1689085420616
-    cooldown_expiration: 0
+    cast_count: 8
+    last_cast: 1692844758708
+    last_earn: 1692844751804
+    cooldown_expiration: 1692844761708
     charges: 0.0
   reflect|5:
     cast_count: 0
@@ -1679,9 +1685,9 @@ spells:
     charges: 0.0
   gather:
     cast_count: 0
-    last_cast: 1691553216147
+    last_cast: 1691722745182
     last_earn: 0
-    cooldown_expiration: 1691553231147
+    cooldown_expiration: 1691722760182
     charges: 0.0
   boon|4:
     cast_count: 0
@@ -1708,16 +1714,16 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   boom:
-    cast_count: 9
-    last_cast: 1690509890455
-    last_earn: 1690509890828
-    cooldown_expiration: 1690509897455
+    cast_count: 10
+    last_cast: 1691721490609
+    last_earn: 1691721490608
+    cooldown_expiration: 1691721497609
     charges: 0.0
   emp:
-    cast_count: 0
-    last_cast: 1690721876726
-    last_earn: 0
-    cooldown_expiration: 1690721881726
+    cast_count: 16
+    last_cast: 1692843919006
+    last_earn: 1692843919093
+    cooldown_expiration: 1692843924006
     charges: 0.0
   blast|4:
     cast_count: 0
@@ -1732,10 +1738,10 @@ spells:
     cooldown_expiration: 1690445675222
     charges: 0.0
   wave:
-    cast_count: 15
-    last_cast: 1690871241584
-    last_earn: 1690871244287
-    cooldown_expiration: 1690871271584
+    cast_count: 27
+    last_cast: 1692842531359
+    last_earn: 1692842497593
+    cooldown_expiration: 1692842561359
     charges: 0.0
   bomb|4:
     cast_count: 0
@@ -1768,10 +1774,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   decoy:
-    cast_count: 13
-    last_cast: 1691553109302
+    cast_count: 18
+    last_cast: 1692843399912
     last_earn: 0
-    cooldown_expiration: 1691553139302
+    cooldown_expiration: 1692843429912
     charges: 0.0
   disarm|3:
     cast_count: 0
@@ -1852,16 +1858,16 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   wither:
-    cast_count: 23
-    last_cast: 1690775280478
-    last_earn: 1690775280862
-    cooldown_expiration: 0
+    cast_count: 25
+    last_cast: 1692770185679
+    last_earn: 1691734682698
+    cooldown_expiration: 1692770200679
     charges: 0.0
   missile|5:
-    cast_count: 215
-    last_cast: 1690871279278
-    last_earn: 1690871257537
-    cooldown_expiration: 1690871280278
+    cast_count: 224
+    last_cast: 1692770634629
+    last_earn: 1692770197982
+    cooldown_expiration: 1692770635629
     charges: 0.0
   missile|2:
     cast_count: 50
@@ -1894,22 +1900,22 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   peek|2:
-    cast_count: 24
-    last_cast: 1690294531373
-    last_earn: 1690294531372
-    cooldown_expiration: 0
+    cast_count: 26
+    last_cast: 1692843339208
+    last_earn: 1692843339207
+    cooldown_expiration: 1692843344208
     charges: 0.0
   upgrades:
-    cast_count: 37
-    last_cast: 1691552479198
+    cast_count: 39
+    last_cast: 1692842260994
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
   tracking:
-    cast_count: 12
-    last_cast: 1690428509826
-    last_earn: 1690428509821
-    cooldown_expiration: 1690428514826
+    cast_count: 13
+    last_cast: 1691734632826
+    last_earn: 1691721474486
+    cooldown_expiration: 1691734637826
     charges: 0.0
   peek|4:
     cast_count: 0
@@ -1991,21 +1997,21 @@ spells:
     charges: 0.0
   curse:
     cast_count: 3
-    last_cast: 1690429175814
+    last_cast: 1691734635524
     last_earn: 1690429167065
-    cooldown_expiration: 1690429181814
+    cooldown_expiration: 1691734641524
     charges: 0.0
   sticky:
-    cast_count: 1
-    last_cast: 1691552584408
-    last_earn: 1691552589567
-    cooldown_expiration: 1691552594408
+    cast_count: 50
+    last_cast: 1692842336303
+    last_earn: 1692842336302
+    cooldown_expiration: 1692842346303
     charges: 0.0
   lift:
-    cast_count: 0
-    last_cast: 0
-    last_earn: 0
-    cooldown_expiration: 0
+    cast_count: 7
+    last_cast: 1692843578255
+    last_earn: 1692843506292
+    cooldown_expiration: 1692843580255
     charges: 0.0
   force:
     cast_count: 0
@@ -2068,10 +2074,10 @@ spells:
     cooldown_expiration: 1689839864257
     charges: 0.0
   stream:
-    cast_count: 3
-    last_cast: 1690428505416
-    last_earn: 1690428479802
-    cooldown_expiration: 1690428510416
+    cast_count: 4
+    last_cast: 1691734620325
+    last_earn: 1691734620848
+    cooldown_expiration: 1691734625325
     charges: 0.0
   recall:
     cast_count: 25
@@ -2152,10 +2158,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   soulburn:
-    cast_count: 1
-    last_cast: 1691552618947
-    last_earn: 1691552618946
-    cooldown_expiration: 1691552648947
+    cast_count: 3
+    last_cast: 1691722671992
+    last_earn: 1691722591048
+    cooldown_expiration: 0
     charges: 0.0
   admission|2:
     cast_count: 0
@@ -2182,16 +2188,16 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   flashbang:
-    cast_count: 13
-    last_cast: 1690870467477
-    last_earn: 1690870295689
-    cooldown_expiration: 1690870477477
+    cast_count: 14
+    last_cast: 1691721599047
+    last_earn: 1691721604017
+    cooldown_expiration: 1691721609047
     charges: 0.0
   whip:
-    cast_count: 18
-    last_cast: 1690424324283
-    last_earn: 1690424310572
-    cooldown_expiration: 1690424329283
+    cast_count: 19
+    last_cast: 1691722595497
+    last_earn: 1691722595769
+    cooldown_expiration: 1691722600497
     charges: 0.0
   shuriken|3:
     cast_count: 0
@@ -2210,6 +2216,12 @@ spells:
     last_cast: 1685151468289
     last_earn: 1685151311606
     cooldown_expiration: 1685151483289
+    charges: 0.0
+  sticky|2:
+    cast_count: 2
+    last_cast: 1692843344657
+    last_earn: 1692843349698
+    cooldown_expiration: 1692843354657
     charges: 0.0
   fling|4:
     cast_count: 0
@@ -2248,10 +2260,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   grenade:
-    cast_count: 37
-    last_cast: 1690871406125
-    last_earn: 1690871409136
-    cooldown_expiration: 1690871416125
+    cast_count: 38
+    last_cast: 1691734612579
+    last_earn: 1691721465993
+    cooldown_expiration: 1691734622579
     charges: 0.0
   stun|3:
     cast_count: 0
@@ -2285,9 +2297,9 @@ spells:
     charges: 0.0
   disarm:
     cast_count: 26
-    last_cast: 1690776411686
+    last_cast: 1691721610046
     last_earn: 1690775671981
-    cooldown_expiration: 1690776421686
+    cooldown_expiration: 1691721620046
     charges: 0.0
   blob:
     cast_count: 20
@@ -2307,9 +2319,15 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
+  chainlightning:
+    cast_count: 1
+    last_cast: 1692843466304
+    last_earn: 1692843467991
+    cooldown_expiration: 1692843486304
+    charges: 0.0
   airscooter:
-    cast_count: 13
-    last_cast: 1690447126302
+    cast_count: 17
+    last_cast: 1691722782966
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -2332,8 +2350,8 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   critical:
-    cast_count: 8
-    last_cast: 1691552661894
+    cast_count: 19
+    last_cast: 1692843952393
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -2349,6 +2367,12 @@ spells:
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
+  sandblast:
+    cast_count: 8
+    last_cast: 1692843341712
+    last_earn: 1692843341711
+    cooldown_expiration: 1692843371712
+    charges: 0.0
   shell|4:
     cast_count: 0
     last_cast: 0
@@ -2356,10 +2380,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   platform:
-    cast_count: 31
-    last_cast: 1691552468255
-    last_earn: 1691552351462
-    cooldown_expiration: 1691552473255
+    cast_count: 34
+    last_cast: 1692843356710
+    last_earn: 1692843356710
+    cooldown_expiration: 1692843361710
     charges: 0.0
   flamethrower|4:
     cast_count: 0
@@ -2368,10 +2392,10 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   lava|2:
-    cast_count: 3
-    last_cast: 1690774898739
-    last_earn: 1690774887913
-    cooldown_expiration: 0
+    cast_count: 4
+    last_cast: 1691721469710
+    last_earn: 1691721469815
+    cooldown_expiration: 1691721474710
     charges: 0.0
   breach|3:
     cast_count: 0
@@ -2380,26 +2404,26 @@ spells:
     cooldown_expiration: 0
     charges: 0.0
   wound:
-    cast_count: 9
-    last_cast: 1690870421483
-    last_earn: 1690870421481
-    cooldown_expiration: 1690870426483
+    cast_count: 11
+    last_cast: 1691722705202
+    last_earn: 1691722699102
+    cooldown_expiration: 0
     charges: 0.0
   flamethrower:
-    cast_count: 3
-    last_cast: 1690446612924
-    last_earn: 1690446613054
-    cooldown_expiration: 1690446614924
+    cast_count: 4
+    last_cast: 1692843931259
+    last_earn: 1692843931542
+    cooldown_expiration: 1692843933259
     charges: 0.0
   heal:
-    cast_count: 27
-    last_cast: 1689822671786
-    last_earn: 1689729919185
-    cooldown_expiration: 1689822731786
+    cast_count: 29
+    last_cast: 1692842608868
+    last_earn: 1692842608868
+    cooldown_expiration: 1692842668868
     charges: 0.0
   progressmenu:
-    cast_count: 214
-    last_cast: 1691552553108
+    cast_count: 223
+    last_cast: 1692843496321
     last_earn: 0
     cooldown_expiration: 0
     charges: 0.0
@@ -2630,7 +2654,7 @@ wands:
         - HIDE_PLACED_ON
         - HIDE_POTION_EFFECTS
         Unbreakable: true
-        internal: H4sIAAAAAAAA/02QwU7DMAyGXdrRUpC4ceKIOK1SygZrHoDnqNzGYRFZUiXpKoR4d7xe4PZZ/n/bv2uADIpPoimroVjQqQo2fnEU4ObdKQoWz5jDw9GnAUNv3Jlc8uGrH/3sErC7gsKM3sGDo3SkYBL1cfFBfbedEPKnhvs4kbV/1hyKabaWvUUOlTaBBlzLLIcykLY0XgZvWBfT7BivcthgCH5hfmTRycRoLHF1zaLLBMaSRYM1TjHDuiMeV6qgWgP1RsGTOIhdS0TNKNSu2ZPaN51G2bzpjrB96XAYOG55phCNv+wu2Z7oNFlMBPUJP8y4xqvgjrTmU/kT1gd4boXWUkgpXxVuNWl56LQeD0ps/3f427ezU8FPEw6WMvgF7PVlo4EBAAA=
+        internal: H4sIAAAAAAAA/02Qz07DMAzGXdrRUpC4ceKIOK1SygZrHoDnqNzGYRFZUiXpKoR4d7xe4Pbzn8/25xogg+KTaMpqKBZ0qoKNXxwFuHl3ioLFM+bwcPRpwNAbdyaXfPjqRz+7BKyuoDCjd/DgKB0pmER9XHxQ320nhPyp4T5OZO2fNIdimq1lbZFDpU2gAdcwy6EMpC2Nl8Eb7otpdoxXXDiZGI0ljq5z2GAIfmF+5KbLBMaS04M1TjHDuiMeV6qgWg31RsGTOIhdS0TNKNSu2ZPaN51G2bzpjrB96XAY2G55phCNv+wuWZ7oNFlMBPUJP8y42qvgjrTmU/kT1gd4boXWUkgpXxVuNWl56LQeD0ps/1f427ezU8FPEw6WMvgFgvcqgIEBAAA=
     wand:
       owner: Enderlava
       hotbar_inventory_count: 1
@@ -2640,8 +2664,8 @@ wands:
         fireball: 1
         reflect: 5
         stun: 2
-        missile: 6
         arrow: 28
+        missile: 6
         fire: 7
         blind: 0
         push: 3
@@ -2657,17 +2681,17 @@ wands:
       meta:
         ==: ItemMeta
         meta-type: UNSPECIFIC
-        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"手里剑"},{"italic":false,"color":"white","text":"
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"反弹"},{"italic":false,"color":"white","text":"
           ("},{"italic":false,"color":"dark_aqua","text":"法杖"},{"italic":false,"color":"white","text":")"}],"text":""}'
         lore:
         - '{"italic":false,"extra":[{"color":"green","text":"新手 "},{"color":"white","text":"魔力法杖"}],"text":""}'
         - '{"italic":true,"color":"dark_aqua","text":"绑定 Enderlava"}'
-        - '{"text":"掌握 68 技能"}'
+        - '{"text":"掌握 72 技能"}'
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力: 150"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"yellow","text":"法力恢复: 25/s"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"dark_gray","text":"------------------------"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"左键
-          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"手里剑"}],"text":""}'
+          "},{"color":"gray","text":"to cast "},{"color":"gold","text":"反弹"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"右键
           "},{"color":"gray","text":"to cycle the active spell"}],"text":""}'
         - '{"italic":false,"extra":[{"color":"aqua","text":"• "},{"color":"white","text":"丢弃
@@ -2683,7 +2707,7 @@ wands:
             amount: 10.0
             name: Equipment Modifier
             slot: HAND
-            uuid: ab41853a-80ea-4163-9795-1275798cd666
+            uuid: 819db714-60f5-44ad-8611-708960281bb4
             operation: 0
         ItemFlags:
         - HIDE_ENCHANTS
@@ -2694,23 +2718,23 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/21U23IbRRAdZWVbUkwcIDHhfgvhZoFkmUjm5gDFd6h6dnu1UxrtLDOz2nJRfAj8GW98CqdnVaTKxT51b99On+6eiVIDNdwyN4OJGnZUF5kaNrRhBcOxOuey5DyuG/LR5JbXriwDx5t/VPoG6sHBQbdaWw6SbGNdNxipU8qj2fM6NGytGoWq9WbL9UgNTe5qdRqQcPv7fDWbzf/I1KO7hQqKJCUy9fiuKXdtHWE6nqiT3hZGapTKURTg0CLvGivaoaeTPftgUFepE2A7pMyddV49my+ur3SpdbEslhfl/Ho2o9WSLkt9MV+U85UuVznp/H/Y8FSYNtz8/ad8f2XquHJRk1cJw9kdb/l35LqavRr/WhfsLe0pU+d9zNrUe66j87f/9XdvrE6CdTFyMRJVnSUud64ABxWHqB6GjpqGwPyabEe3YXLweZktU0d564PQ8gyj1S5xcB+ilBc64KEtBan4HuTSuyR/malxif+VpnoDfQWdip0JBxo/y4TbvST+tk+8g/huBu495VuTgj4Vi3Ua4jksMpLSeXG8gWXjXQfxAxDXmVixEHcPEArO3S3kH+ED8FLiMaJL2hlrEr0ZvJqKUlsfpgZMXUD+BJPeuTrElGuCxI0zIeF9BckqJgvxEhHgJq8gP8HvEFvx+AI1gmutbr2oP8GLfA/xQq6CeSs7j6ShcXU6ke9BSuf8VnOdso1R33NpMXdow+zl3kN9IZHRM0n/bxxQS8q59Fm5BuLXyQeXIf3/kqkMewzpWto3njVZaeBNqBgvBiNrpT6GmnuDsNQebmZszaaKdT+EzwEqYAu3yflt2QjrSAq/CjnsTDqabwBCSkB8B3UjSehrgOM576seCQltkD4foiL91pJtU4VHyZKczgSLs5aaNJwREhQmUJr5cwDDWm6Y6lyMx+lidj3Kn4Glw+bLGL+TMcqmJcRT2bTKCA9fyRLKTDwZofQjWVjbJ3gf2fpnCMrriEFiEWf4v6HDel0Jv3xYqh8yNSHjQ+5cvzBL4aPi1MgDYNh4rqkQ19NUiFLYUyHF5VuWGb+VqVMYdhwrwEpZFhjAk7tPhalRYp/mg2sepXdgbQr1dLacLebMPM1nxWJ6xcXVdFXS9fR5uWKaX65Ia8Kzeh/MeNcf+0D9C9cH0a63BQAA
+        internal: H4sIAAAAAAAA/21U23IjNRCVd5zY8YZkgd2w3G/LckvAjp3E4RZuC5/h6tH0eFSWR4OksStF8SHwZ7zxKZzWmIVKMU/do6Pu06e7NVKqp/or5qY3Uv0t1cW+OuGyZB0XDflotOWFK8vA8eYvlb5M9RtaMqxeTx3tsHmb55aDGqpD0tFseBEatlYNPJcWACRZWrftDVXfaFerw4DQq18n8/F48lumBhv2weC/UoORGnRBw1ANUzCKnPI+uktMu7aOONoHMvK6sYJMVWTq4V1wQZE6/vuVizl5cf6nWk+FacPNn7/L9wcK2gG0s86rp5Pp/DrPtZ7O9Py0nIzn55fT4upydn06mfLlxbS4GM/Or4fq+E5cBW323LZmrw6e1QV7SxvK1EnHZWHqDdfR+dvnRd07UINgXYxcDMVVx0nStStQeMUhqgdhS01DEH5Bdku3YbTD/BstU3u69UH0e4rG5S5pfB+mpBe5gcgtBcn4VodYw3wzEx03cu+LTB2UQFQ51Uv4c/hUrE3YNewjRCi9SxE+zdSRrsjU1iyrWJt04VmG7njSq879ULJYl8M8wYk0rXRekt7gZOndFuY76NLWxIqlS/fwH1UImUdIVrB2t7C/we2S1saa1MssVWLqAvYHsJuKUt3vYrzWrg4xxRrhUnCtzVsv5L9D6BBbMT8RUUwpZfyE61BPV7Af43fFZGGeg1TjTEhlvwAM+Y7tqewE80p2ApjQuDotyFeQauv8Kuc6xTrYURTgRIDRM0nlr2TPNwVeXzhWrTcrlkzfZiqrSA5+FiEq18D8PF3HDokSPwCB8Yd1LZoYzzlZYfwqXAwCGicDqN6Hq73BtVQPVmEQMJ+rdPg6yP63bR9LUW0Q3g/AO6xNWsML/JYMMN9A2kiCfQlsPOsu6Z4MnXUkVb6IjPRLS7ZNMR+mmAl1DNQWoy7t+jLt5LrL+z14YHqXTLWWLPs4LEygNCKXUoGzlprU26H0ViYxVXAmQ1sZ0eEzBAl4B/4Z7R8RpHuj4LwsE2u7bG/LNEsbPaYW/nsALmk3eDMRmXej9zWig6KY40yNyPigneum6koEqjgVdgROS881FQI9FGWcXrGweC0lphTuSaYOYa85VsieokzRkMd3nyNTI8Um9QvvwDC9IAtTqCfjq/F0wsxnelxMz2ZczM7mJV2fXZZzpsn5nPKc8Ljfh8Tedc9ET/0N0Hqe//AFAAA=
     wand:
-      effect_particle_offset: 0.5
       page: 1
+      effect_particle_offset: 0.5
       effect_bubbles: false
-      active_spell: shuriken
       glow: true
+      active_spell: reflect
       icon: stick{18001}
-      version: 7
+      effect_particle_data: 0
+      effect_particle_count: 6
       effects:
         activate: ''
-      effect_particle_count: 6
       template: wand
-      effect_particle_data: 0
-      hotbar: 0
+      version: 7
+      effect_color: 1389bbcc34c8,f108263d7649,13e653d50429
       effect_particle_radius: 0.4
-      effect_color: 1394bfbbd7d7,f1900a87a2fb,13f18bf8cabc
+      hotbar: 0
       owner: Enderlava
       effect_particle: ''
       hotbar_inventory_count: 2
@@ -2722,34 +2746,37 @@ wands:
         boon: 11
         lava: 7
         blast: 30
-        boom: 29
+        chainlightning: 69
+        frost: 43
         flashbang: 56
         admission: 40
         wave: 58
-        frost: 43
+        boom: 29
         tracking: 39
         blob: 22
         platform: 63
         grow: 32
         wither: 2
-        cure: 21
         decoy: 62
+        cure: 21
         familiar: 3
-        blind: 37
         phase: 33
+        blind: 37
         arrow: 44
-        soulburn: 65
-        stun: 42
-        torch: 24
-        heal: 50
         poison: 13
+        heal: 50
+        lift: 70
+        torch: 24
+        stun: 42
+        soulburn: 65
         monster: 10
         peek: 1
         sponge: 60
         workbench: 9
-        stream: 23
+        hat: 71
         shuriken: 64
         reflect: 4
+        stream: 23
         blink: 49
         chop: 47
         emp: 57
@@ -2757,35 +2784,36 @@ wands:
         critical: 0
         entangle: 35
         fireball: 25
-        sparkle: 27
         lightning: 41
-        push: 16
+        sparkle: 27
+        cloak: 17
         smite: 53
         fire: 28
         tag: 18
         recall: 5
-        cloak: 17
+        push: 16
         aqualung: 20
         pull: 15
-        wound: 59
-        homing: 66
-        vengeance: 6
-        disarm: 54
         collapse: 8
+        disarm: 54
+        vengeance: 6
+        homing: 66
+        wound: 59
         missile: 45
         whip: 46
-        bubble: 19
-        fling: 31
+        mine: 48
         arrowrain: 34
+        fling: 31
+        bubble: 19
         secure: 61
         gather: 52
-        mine: 48
+        sandblast: 68
         airscooter: 55
         shell: 14
         grenade: 12
         flamethrower: 51
-        rocket: 26
         flare: 36
+        rocket: 26
       effect_particle_interval: 100
       owner_id: 07031eee-c0d3-4ed4-8fa9-6f8ea128abba
   mirrorshield:
@@ -2897,7 +2925,7 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/3VRy26DMBBcatIQEqm3fkHVU5EgiQj5gH5HtDZLsTC2ZRyiquq/d8mhPfU2s4+Z9TgHSCAdiHySQ3pD22awcjdLATbvtqVgcEYBz72LEsNF25lsdOHzotzVRgB4yGCHKuqZLpMnY2A96mnShjJItXIWdlPUaviqmrKsv3N4uk/9CQl4/MDYsx9AJiCfrp6CDM6NXEgEpFGPxHDFPc9C3qmBFuONgJU02g7LETzXExqGj+L3AmZCQGZo1hHjQoF3fI/TgtcCtncsUQ1Xz5Wcu8o4XBRTyCC753DRLbyUp/JQEVGhyvZQHKk9Fk2H56LuGsJq36CUnNJ6pjBpfjOr83qk0ZvFeIXtqC0HRV1HKnJ2xgV4bWo67Y/yXMuqfvuX8P9sr7YNznuUhhL4ARoNl7WzAQAA
+        internal: H4sIAAAAAAAA/3VRQW6DMBBcatIQEqm3vqDqqUiQRIQ8oO+I1mYpFsa2jENUVf17lxzaU28zI+/M7jgHSCAdiHySQ3pD22awcjdLATbvtqVgcEYBz72LEsNF25lsdOHzotzVRgB4yGCHKuqZLpMnY2A96mnShjJItXIWdlPUaviqmrKsv3N4ur/6MxLw+IGx5zyATEAa9UgMVwLy6eopyODcyELCgmcj79RAS/BGwEoabYdlCR7sCQ3DR/G7ATMhIDM064hxoSBg63ucSKIarp6FnF3uCuM1Y2UcLo4pZJDde7joFl7KU3moiKhQZXsojtQei6bDc1F3DWG1b1BKbmk9U5g038xePB5p9GYJXmE7astFUdeRitydcQFem5pO+6M817Kq3/4l/D/bq22D8x6loQR+AOa4euuzAQAA
     wand:
       owner: Enderlava
       hotbar_inventory_count: 2
@@ -2905,15 +2933,15 @@ wands:
       icon: stick{18006}
       spell_inventory:
         gather: 8
-        time: 5
         superbroom: 1
+        time: 5
         pickpocket: 9
         blink: 2
         heal: 6
         missile: 3
         levitate: 0
-        phasebackup: 10
         phase: 7
+        phasebackup: 10
         cloak: 4
       template: admin
       version: 7
@@ -2962,7 +2990,7 @@ wands:
         - HIDE_POTION_EFFECTS
         - HIDE_DYE
         Unbreakable: true
-        internal: H4sIAAAAAAAA/01V2XYcNRAt02N7vOCwhh1eePU5NjaJw3Z44ZV9DZChulszLUYtdST1DE4I8MAW9n39CX6Af+NW9QDpp5JUy62qW9XbRGs0mhvTrW3TaMm+HtN6WHoTaesZX5voeMEFnW1CLjlOrF8Yn0M8nVSh95mIihHttex5km1rUua2g8frT4W//xrTLlfZLswkdcY52mxtStaZMY1sFTztpmyr+dXDk4OD42vbdEa1/o9Q0HrVx2QQ4/GCRmVoS4i+oE285j7KQy5oV4GYOMQgehG6ghnio3BROk4Ks5DsFmKEdLamuG5K9jOcX8eZawUHVERfwGzmbC26P0hkFyTyzQWNO8d5GmKL40t4mcWwhPh1IRmVcnsZ8GacnVXPbxS0sbS5QTGJdgvariPPgi9Zkb4Hs2rI435Fan0NeRPX0z6eQrRAlnqfcrRzUbsKNZQ4NZDfhVpjWBw9iWuOA5abcN0ZM4d4N6yXIc5L4yux+BBo4MqwAN0B0GimzlRSnTsLKhoW6XlVQl8k/tuAjH5YX9nSCYAAq9RxnOvpY8RtwtCiHwW11WQegrPMkv+XAqZXuGsqat4PIERtE2sZv4OPJToomb8CuV3R6pfiP76QtA8tkgwjW2nRNrz5XmsS4a3sywHfekE7CbXvHUebJYVe8jGrMl+XAH2yFeRvkRvbmKoQsvanEs0mWi+1m0ulm4FRFwDFmz5HZQd4uRFDNTeC8nPwD1RqTW4ATt2cwxWys+DkLHKWsM/BpOFYG7F/Vbmsru5DkGkMys9RQXtVg+ycnTXZD/wpB12p05Gkid5pJ58FFXPkaj6ofQa1uVWsdwmneCZRfxUaNwP7v4fBlFvrLAvGT1DOJrhTjYXzn1DtoCpmXyFQF2xShA/KMNmp6Eygg8HT+PfgOuVeND6A5xR6V/ZRjj9L2wIYq7X4FDU2HHNzuWdtVic17oJXgK9J+vAo8vvipumF5+LmrdU8SCu2JKUmYK3QCZhlZMHQN5IQ6LYapQ0kFEECE+0VcfeysApPCfJF2GMtyfUfsMJywdgrWx7DsQJPbKVj9BO8tzrqV+Duxj4cCxtaq818E0bOLGweensLEu4MBnQqbLtVpoqtm2ltbhOqmGqAeK/sMxdYUrodPhg1cb26/whH8DelIZobVpznOuC0ABZsxJlhr5V6QsgU2kH1kmQQnONOe3eHpGp0fn6XfddYqdUeROiLwnkp+Wo5jRGmcv2qVa0ENb6OVsAuEQRrbFhcRrYQfgz/rtIXcO4Q1PqhBEmWAuZ0wPcbQkBRLd+RbRgNMpGXM3CKSTFBns5KBMxMFj7VCot1Rq/RBuDih/K0Jf3GNNb/0cTW9PDB+YOjQ2PMfnVQH+0fm/p4/2TKF/bPTU8MHz5ywmWJ9b65wP9gWOabMM/gjBOsGy1rumu0g40TQ9cx6r5G/wDFoYKMBQcAAA==
+        internal: H4sIAAAAAAAA/01V15YcRQzV0rOzswGbaDK88Lrn7LKLvSYdXnglRxMGdXfNdDHVVe2q6hnWxsADyeQcf4If4N+4Ug9hnqQahSvpSr1DtEGjhTHdxg6NVuzrCW2GlTeRtp/ytYmOl1zQuSbkkuPU+qXxOcTTaRV6n4moGNGZlj1Ps21Nytx2iHj9ifDXnxPa4yrbpZmmzjhHW61NyTozoZGtgqe9lG21uHp4cnBwfG2HzqrVfxkK2qz6mAxyPFrQqAxtCdEXtKepTRyiEj1f0BYcch/FNsNWMEN8GCFKx0lhQp47W4vJ9wVtz/DelOzn0F+FzrWiAyyizwvpxFJMWTK7IJlvLGjSOc6zEFuoL+CfeQwriF8VUlEpr5eBZc7ZWQ38WkE7deR58CUr1HcLGq9sbtBdoj24VQPoexWp9TXkLTzP+ngK0QJY6n3K0S7E7CrM0OLUQH4HZo1hifo4njkOWG7Ac2fMAuKd8F6FuCiNr8TjA2CLZuZMJQ25HVAQ2LDA3i2oaFien9VnzEXyvwn8mIf1lS2dAAgIkTqOC9U+Qt4mDCP6QVBbLeYBBMss9X8hYHqFu6GiNuE+uK0wQin2JaSrbWJt6bf4o13T6ufiX76QjI/GZV8OIDYRyvfakCiTk8ojW5ncjqA366ZeL2g3YRC942iz1NNLgj7ZCvI3qI1tTFUIWcdRiW8TrZfeLaTTzcCvi4DiTZ+jkgO8HMdQLYyg/AxsBJNakxuA0DDn8YSKLBg6j5wFyDNwaTjWRvxfVi5rqHsGUUo/KuhM1aAIZ+dN9gN9SoCYxaD8HUkHMC2d5NOgYo5cLQa7TxFnYRXrHcIpnkvWX4TxzcD+7+Aw49Y6y4LxY7StCe5Uk0H/A6YdTMXtS5im0Luyj4LxJ1knOxOrKaywZ4rgLjyn3IvF+0DWBZu0pPtlbAGM1V58gh4bjrm53LPOq5OKEELk96TfXfAK9hXJ2vTCcwnzxnofZBTbUlITcFboBMwycmDoa9hXmKqtdAN+hIqrgXVWhjwiDMPGJciX4I6rJM+/o+wIFplor4j+onQFnF0v5xgqA6nrtasfwvr/0zjG384sbR6GepMwpLUqv46qO4MtnQnLbpY9Y+vm2p5bhC+mGlLcLUfNBZa6bkUxrV6WK4gMaqc0JHJSW3COOx3IbcCBkzg37LVvjwmbQjvYvjXcPs91gLaUWo3uz29ywxorvTojVwSH/Z9T+JwMYX2hJgiGezUcJCPBjK+jFawraJXr16NsEQ85BcAFxOuAz/qhEwnxEFrN3pYDgZ0doP4q1zAaoBPtLHJhU0wQw3MKgnVRrwkI7E8WZtU0RiZ8UJ60pL8JTfR7NLU1PXhw4eDo0BizXx3UR/vHpj7eP5nxxf3zsxPDhw+dcFniZG8t8XUYbvkW3DM44wTruGUtZ4N2cX5i6DpG3zfob5aYle8FBwAA
     wand:
       owner: Enderlava
       hotbar_inventory_count: 3
@@ -2972,21 +3000,21 @@ wands:
       spell_inventory:
         curse: 59
         bomb: 110
-        counterspell: 82
         torture: 116
+        counterspell: 82
         lava: 53
         blast: 3
-        glide: 146
+        wave: 97
         flashbang: 88
         admission: 138
-        wave: 97
+        glide: 146
         blob: 13
         platform: 83
         grow: 141
         icbm: 113
         gatling: 89
-        dragonball: 120
         wither: 12
+        dragonball: 120
         cure: 28
         blind: 7
         fury: 105
@@ -2996,8 +3024,8 @@ wands:
         arrow: 2
         peek: 24
         workbench: 127
-        reflect: 21
         stream: 11
+        reflect: 21
         hat: 80
         sticky: 93
         invincible: 111
@@ -3007,15 +3035,15 @@ wands:
         tag: 139
         push: 1
         pull: 29
-        wound: 85
         disarm: 144
+        wound: 85
         mount: 150
         missile: 0
-        bubble: 5
-        nuke: 114
         arrowrain: 10
-        secure: 137
+        nuke: 114
+        bubble: 5
         singularity: 117
+        secure: 137
         music: 143
         airscooter: 99
         shrink: 107
@@ -3026,9 +3054,9 @@ wands:
         disintegrate: 79
         harden: 86
         boon: 27
-        boom: 51
-        chainlightning: 98
         frost: 4
+        chainlightning: 98
+        boom: 51
         breach: 78
         tracking: 135
         kill: 23
@@ -3037,54 +3065,54 @@ wands:
         familiar: 133
         holylight: 155
         phase: 140
-        soulburn: 149
+        poison: 30
         lift: 95
         torch: 25
         stun: 126
-        poison: 30
+        soulburn: 149
         monster: 134
         earthquake: 112
-        force: 124
         sponge: 87
+        force: 124
         shuriken: 92
         blink: 9
         chop: 56
         emp: 142
-        critical: 148
-        entangle: 58
+        fireball: 6
+        rubberize: 84
         walls: 90
         tame: 154
-        rubberize: 84
-        fireball: 6
-        aqualung: 128
+        entangle: 58
+        critical: 148
+        mob: 122
         lightning: 52
-        levitate: 16
         smite: 91
+        levitate: 16
         petrify: 17
         railgun: 18
         recall: 26
         cloak: 19
-        mob: 122
+        aqualung: 128
         blessing: 108
-        collapse: 20
+        tornado: 118
         vengeance: 60
         homing: 94
-        tornado: 118
+        collapse: 20
         tent: 153
         whip: 14
-        sandblast: 81
-        fling: 8
-        gather: 101
-        tendril: 119
-        cluster: 109
         mine: 55
+        fling: 8
+        cluster: 109
+        tendril: 119
+        gather: 101
+        sandblast: 81
         pollinate: 115
-        laser: 96
         silence: 152
+        laser: 96
         grenade: 15
         meteor: 22
-        flare: 125
         growth: 100
+        flare: 125
       mana: 200.0
       template: master
       version: 7
@@ -3093,7 +3121,7 @@ open_wand: false
 gave_welcome_wand: false
 resource_pack_preference: disabled
 data:
-  sp: 147.0
+  sp: 77.0
   wand_colors:
     white: true
   wand_appearances:
@@ -3117,6 +3145,7 @@ classes:
       blast: 2
       chop: 3
       lava: 2
+      sticky: 2
     spells:
     - soulburn
     - flare
@@ -3136,6 +3165,7 @@ classes:
     - frost
     - missile
     - fire
+    - hat
     - tag
     - homing
     - aqualung
@@ -3154,6 +3184,8 @@ classes:
     - shell
     - curse
     - sticky
+    - lift
+    - chainlightning
     - airscooter
     - sponge
     - blind
@@ -3163,6 +3195,7 @@ classes:
     - boom
     - emp
     - blink
+    - sandblast
     - wave
     - platform
     - lava
@@ -3188,7 +3221,7 @@ classes:
     - collapse
   mage:
     effect_color: cef52af28d37,e34b44b86e12,44d84fee9a2a
-    mana_timestamp: 1691567736242
+    mana_timestamp: 1692844849781
     mana: 150.0
     path: apprentice
   archer_mage: {}
@@ -3198,4 +3231,4 @@ classes:
     mana: 50.0
 transient_modifiers: {}
 active_class: mage
-health: 40.92132568359375
+health: 41.24016189575195
