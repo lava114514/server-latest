@@ -23,11 +23,11 @@ uniqueLootList:
 powers:
 - spirit_walk.yml
 - summonType: GLOBAL
-  amount: 1
+  amount: 5
   filename: gamma_werewolf.yml
   customSpawn: normal_surface_spawn.yml
 - summonType: GLOBAL
-  amount: 2
+  amount: 10
   filename: omega_wolf.yml
   customSpawn: normal_surface_spawn.yml
 - summonType: ONCE
@@ -35,6 +35,10 @@ powers:
   filename: superwolf.yml
   customSpawn: normal_surface_spawn.yml
   chance: 0.5
+- summonType: GLOBAL
+  amount: 1
+  filename: alpha_werewolf_p2
+  customSpawn: normal_surface_spawn.yml
 trails:
 - BONE
 locationMessage: '距离 &7群狼之首 还有$distance 格!'
